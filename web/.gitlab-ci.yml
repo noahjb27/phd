@@ -1,0 +1,130 @@
+# stages:
+#   - build
+#   - deploy
+
+# variables:
+#   DO_REGISTRY_IMAGE: registry.digitalocean.com/ptn/phd_app
+#   BACKEND_TAG: backend-latest
+#   FRONTEND_TAG: frontend-latest
+#   GITLAB_IMAGE: scm.cms.hu-berlin.de:4567/baumanoa/phd_app
+#   DOCKER_TLS_CERTDIR: ""
+#   DOCKER_HOST: tcp://docker:2375
+
+# before_script:
+#   - echo "$CI_REGISTRY_PASSWORD" | docker login scm.cms.hu-berlin.de:4567 -u "$CI_REGISTRY_USER" --password-stdin
+#   - echo "$DO_REGISTRY_TOKEN" | docker login registry.digitalocean.com -u "$DO_REGISTRY_USER" --password-stdin
+
+# build_backend:
+#   stage: build
+#   image: docker:20.10
+#   services:
+#     - name: docker:20.10-dind
+#       alias: docker
+#       command: ["--tls=false"]
+#   script:
+#     - cd backend
+#     - |
+#       cat > .env << EOF
+#       DB_HOST=${DB_HOST}
+#       DB_PASSWORD=${DB_PASSWORD}
+#       JWT_SECRET=${JWT_SECRET}
+#       EOF
+#     - docker build -t $GITLAB_IMAGE:latest .
+#     - docker tag $GITLAB_IMAGE:latest $DO_REGISTRY_IMAGE:$BACKEND_TAG
+#     - docker push $GITLAB_IMAGE:latest
+#     - docker push $DO_REGISTRY_IMAGE:$BACKEND_TAG
+#   only:
+#     - main
+
+# build_frontend:
+#   stage: build
+#   image: docker:20.10
+#   services:
+#     - name: docker:20.10-dind
+#       alias: docker
+#       command: ["--tls=false"]
+#   script:
+#     - cd frontend
+#     - |
+#       cat > .env << EOF
+#       NEXTAUTH_SECRET=${NEXTAUTH_SECRET}
+#       DB_HOST=${DB_HOST}
+#       DB_PASSWORD=${DB_PASSWORD}
+#       JWT_SECRET=${JWT_SECRET}
+#       EOF
+#     - |
+#       cat > .env.production << EOF
+#       NEXT_PUBLIC_API_URL=https://api.berlin-transport-history.me
+#       NODE_ENV=production
+#       EOF
+#     # Create .env.local if it doesn't exist
+#     - |
+#       cat > .env.local << EOF
+#       NEXT_PUBLIC_API_URL=https://api.berlin-transport-history.me
+#       EOF
+#     - docker build -t $DO_REGISTRY_IMAGE:$FRONTEND_TAG --build-arg NEXT_PUBLIC_API_URL=https://api.berlin-transport-history.me .
+#     - docker push $DO_REGISTRY_IMAGE:$FRONTEND_TAG
+#   only:
+#     - main
+
+
+# deploy_to_digitalocean:
+#   stage: deploy
+#   image: docker:20.10
+#   services:
+#     - name: docker:20.10-dind
+#       alias: docker
+#       command: ["--tls=false"]
+#   variables:
+#     DOCKER_TLS_VERIFY: ""
+#     DOCKER_CERT_PATH: ""
+#     DOCKER_DRIVER: overlay2
+#   script:
+#     - apk add --no-cache openssh-client
+#     - eval $(ssh-agent -s)
+#     - echo "$DO_SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+#     - mkdir -p ~/.ssh
+#     - chmod 700 ~/.ssh
+#     - echo "$DO_SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+#     - chmod 644 ~/.ssh/known_hosts
+    
+#     # Login to registry
+#     - ssh $DO_USER@$DO_HOST "echo \"$DO_REGISTRY_TOKEN\" | docker login registry.digitalocean.com -u \"$DO_REGISTRY_USER\" --password-stdin"
+    
+#     # Pull new images
+#     - ssh $DO_USER@$DO_HOST "docker pull $DO_REGISTRY_IMAGE:$BACKEND_TAG"
+#     - ssh $DO_USER@$DO_HOST "docker pull $DO_REGISTRY_IMAGE:$FRONTEND_TAG"
+    
+#     # Stop and remove existing containers
+#     - ssh $DO_USER@$DO_HOST "docker stop phd_backend phd_frontend || true"
+#     - ssh $DO_USER@$DO_HOST "docker rm phd_backend phd_frontend || true"
+    
+#     # Create docker network if it doesn't exist
+#     - ssh $DO_USER@$DO_HOST "docker network create phd_network || true"
+#     - ssh $DO_USER@$DO_HOST "mkdir -p /backend /frontend"
+
+#     - |
+#       ssh $DO_USER@$DO_HOST "cat > /backend/.env << 'EOF'
+#       DB_HOST=${DB_HOST}
+#       DB_PASSWORD=${DB_PASSWORD}
+#       JWT_SECRET=${JWT_SECRET}
+#       EOF"
+#     - |
+#       ssh $DO_USER@$DO_HOST "cat > /frontend/.env << 'EOF'
+#       NEXTAUTH_SECRET=${NEXTAUTH_SECRET}
+#       DB_HOST=${DB_HOST}
+#       DB_PASSWORD=${DB_PASSWORD}
+#       JWT_SECRET=${JWT_SECRET}
+#       EOF"
+
+#     # Start new containers 
+#     - ssh $DO_USER@$DO_HOST "docker run -d --name phd_backend --network phd_network -p 8000:8000 --env-file /backend/.env $DO_REGISTRY_IMAGE:$BACKEND_TAG"
+#     - ssh $DO_USER@$DO_HOST "docker run -d --name phd_frontend --network phd_network -p 3000:3000 -e NEXT_PUBLIC_API_URL=https://api.berlin-transport-history.me --env-file /frontend/.env $DO_REGISTRY_IMAGE:$FRONTEND_TAG"
+ 
+#      # health checks
+#     - ssh $DO_USER@$DO_HOST "wget --spider --tries=20 --retry-connrefused --no-check-certificate https://api.berlin-transport-history.me/api/health || exit 1"
+#     - ssh $DO_USER@$DO_HOST "wget --spider --tries=20 --retry-connrefused --no-check-certificate https://app.berlin-transport-history.me || exit 1"
+#   only:
+#     - main
+
+# # ssh -i ~/.ssh/digitalocean_deploy_key root@64.226.82.241

@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --color-primary: #1D4ED8; /* Change this to your desired primary color */
+    --color-secondary: #9333EA; /* Change this to your desired secondary color */
+    --color-accent: #F59E0B; /* Change this to your desired accent color */
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-white;
+  }
+
+  .btn-accent {
+    @apply bg-accent text-white;
+  }
+}
+
+@layer utilities {
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+
+  .bg-secondary {
+    background-color: var(--color-secondary);
+  }
+
+  .bg-accent {
+    background-color: var(--color-accent);
+  }
+
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+
+  .text-accent {
+    color: var(--color-accent);
+  }
+}
+/* Custom global styles */
+body {
+  @apply bg-gray-100 text-gray-800 font-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-gray-900;
+}
+
+/* In your global CSS file */
+.custom-tooltip {
+  @apply bg-transparent border-0 shadow-none;
+}
+
+.custom-tooltip .leaflet-tooltip-content {
+  @apply p-0;
+}
