@@ -1,0 +1,70 @@
+,line_id,year,line_name,type,start_stop,Length (time),east_west,Frequency_7-30,direction
+0,19631,1963,A,u-bahn,Pankow (Vinetastrasse)<> Thälmannplatz,19,east,2,both
+1,19632,1963,E,u-bahn,Alexanderplatz<> Friedrichsfelde (Tierpark),15,east,5,both
+2,19633,1963,1,Omnibus,"Köpenickerstrasse Ecke Adalbertstrasse<> Alexanderplatz, Grunerstrasse",6,east,20,both
+3,19634,1963,1,strassenbahn,Ostbahnhof<> Hannoversche Strasse,28,east,20,both
+4,19635,1963,3,strassenbahn,S-Bhf. Warschauer Strasse<> Björnsonstrasse Ecke Ibsenstrasse,45,east,12,both
+5,19636,1963,4,strassenbahn,S-Bhf. Warschauer Strasse<> U-Bhf. Dimitroffstrasse,24,east,8,hin
+6,19637,1963,4,strassenbahn,S-Bhf. Warschauer Strasse<> Eberswalderstrasse Ecke Oderberger Strasse,25,east,10,zurück
+7,19638,1963,11,strassenbahn,Heinrich-Heine-Strasse Ecke Schmidtstrasse<> Am Kupfergraben,26,east,20,nan
+8,19639,1963,22,strassenbahn,"Rosenthal, Haupstrasse<> S-Bhf. Jannowitzbrücke",46,east,10,hin
+9,196310,1963,22,strassenbahn,"Rosenthal, Haupstrasse<> Wallnerstrasse Ecke Alexanderstrasse",46,east,15,zurück
+10,196311,1963,13,strassenbahn,"Klingenberg, Blockdammweg<> U-Bhf. Dimitroffstrasse",35,east,8,hin
+11,196312,1963,13,strassenbahn,"Klingenberg, Blockdammweg<> Eberswalderstrasse Ecke Oderberger Strasse",37,east,8,zurück
+12,196313,1963,46,strassenbahn,Nordend<> Am Kupfergraben,47,east,5,nan
+13,196314,1963,49,strassenbahn,"Bucholz, Hauptstrasse<> Hackescher Markt",38,east,10,hin
+14,196315,1963,49,strassenbahn,"Bucholz, Elfenallee<> Große Präsidentenstrasse",41,east,15,zurück
+15,196316,1963,63,strassenbahn,"Hohenschönhausen, Gartenstadt<> Hackescher Markt",38,east,20,hin
+16,196317,1963,63,strassenbahn,"Hohenschönhausen, Gartenstadt<> Große Präsidentenstrasse",41,east,20,zurück
+17,196318,1963,64,strassenbahn,"Hohenschönhausen, Falkenberger Strasse<> Dönhoffplatz",40,east,20,both
+18,196319,1963,69,strassenbahn,"Johannisthal, Haeckelstrasse<> Walter-Ulbricht-Stadion",81,east,10,both
+19,196320,1963,70,strassenbahn,"Hohenschönhausen, Falkenberger Strasse<> Am Kupfergraben",49,east,10,both
+20,196321,1963,71,strassenbahn,"Heinersdorf, Romain-Rolland-Strasse<> Molkenmarkt",32,east,10,hin
+21,196322,1963,71,strassenbahn,"Heinersdorf, Romain-Rolland-Strasse<> Jüdenstrasse",32,east,10,zurück
+22,196323,1963,72,strassenbahn,"Weißensee, Pasedagplatz<> Taubenstrasse Ecke Glinkastrasse",46,east,12,both
+23,196324,1963,74,strassenbahn,"Weißensee, Pasedagplatz/Klement-Gottwald-Allee<> Wilhelmstrasse",37,east,3,hin
+24,196325,1963,74,strassenbahn,Rennbahnstrasse Ecke Bernkasteler Strasse<> Wilhelmstrasse,37,east,6,zurück
+25,196326,1963,82,strassenbahn,"Mahlsdorf-Süd, Hubertus<> Walter-Ulbricht-Stadion",88,east,20,both
+26,196327,1963,83,strassenbahn,Wendenschloß<> S-Bhf. Mahlsdorf,39,east,10,both
+27,196328,1963,84,strassenbahn,"Altglienicke, Am Falkenberg<> Friedrichshagen, Wasserwerk",52,east,20,both
+28,196329,1963,86,strassenbahn,"Alt-Schmöckwitz<> Mahlsdorf-Süd, Hubertus",48,east,20,both
+29,196330,1963,87,strassenbahn,"Rahnsdorf<> Wiener Brücke, Krüllstrasse",67,east,20,both
+30,196331,1963,92,strassenbahn,"Oberspree, Bruno-Bürgel-Weg<> Wiener Brücke",29,east,20,both
+31,196332,1963,95,strassenbahn,Krankenhaus Köpenick<> S-Bhf. Baumschulenweg,33,east,20,both
+32,196333,1963,95P,strassenbahn,S-Bhf. Baumschulenweg<> Sonnenallee,5,east,20,both
+33,196334,1963,O 30,Omnibus,Klosterstrasse<> Klosterstrasse,67,east,20,both
+34,196335,1963,O 37,Omnibus,Bf. Siegfriedstrasse<> Dimitroffstrasse/Leninallee,46,east,15,both
+35,196336,1963,O 40,Omnibus,Ostbahnhof<> Robert-Koch-Platz,23,east,8,both
+36,196337,1963,A 7,Autobus,"Glienicke, Kirche<> U-Bhf. Pankow (Vinetastrasse)",37,east,15,both
+37,196338,1963,A 8,Autobus,"Waldesruh, Mahlsdorfer Allee<> U-Bhf. Friedrichsfelde (Tierpark)",33,east,20,both
+38,196339,1963,A 9,Autobus,Kurische Strasse<> Scharnhorststrasse Ecke Kieler Strasse,27,east,6,hin
+39,196340,1963,A 9,Autobus,Kurische Strasse<> Scharnhorststrasse Ecke Kieler Strasse,27,east,6,zurück
+40,196341,1963,A 22,Autobus,"Hessenwinkel, Lindenstrasse<> Fichtenau, Stadtgrenze",27,east,20,both
+41,196342,1963,A 23,Autobus,"S-Bhf. Altglienicke<> Altglienicke, Kirche",18,east,20,both
+42,196343,1963,A 24,Autobus,"Schönefeld, Flughafen Süd<> Schönefeld, Flughafen Nord",16,east,10,hin
+43,196344,1963,A 24,Autobus,"Schönefeld, Flughafen Süd<> Schönefeld, Flughafen Nord",16,east,10,zurück
+44,196345,1963,A 26,Autobus,VEB Baustransporte<> Bhf. Schöneweide,5,east,15,both
+45,196346,1963,A 27,Autobus,"Müggelheim<> S-Bhf. Kaulsdorf, Planitzstrasse",48,east,10,both
+46,196347,1963,A 36,Autobus,"Schönefeld, Gartenstrasse<> Schönefeld Gargenstrasse",14,east,20,both
+47,196348,1963,A 38,Autobus,Waltersdorf<> S-Bhf. Grünau,18,east,20,both
+48,196349,1963,A 39,Autobus,"Wartenberg, Siedlung<> Hohenschönhausen, Falkenhagener Strasse",13,east,16,both
+49,196350,1963,A 42,Autobus,"Buch, Kiesgruben<> Prenzlauer Promenade (Spitze)",31,east,10,both
+50,196351,1963,A 43,Autobus,Bürknersfelde<> U-Bhf. Friedrichsfelde (Tierpark),18,east,20,both
+51,196352,1963,A 44,Autobus,"Hönow, Dorfstrasse<> S-Bhf. Mahlsdorf",13,east,13,both
+52,196353,1963,A 44 E,Autobus,Greifswalder Strasse Ecke Hönower Strasse<> S-Bhf. Mahlsdorf,7,east,10,both
+53,196354,1963,A 45,Autobus,"Wilhelmsruh, Fontanestrasse<> Weißensee, Schwarzwelfenweg",38,east,15,both
+54,196355,1963,A 46,Autobus,"Ahrensfelde, Kirche<> Malchow, Dorfstrasse",30,east,15,both
+55,196356,1963,A 47,Autobus,Bhf. Schöneweide<> S-Bhf. Treptower Park,26,east,10,both
+56,196357,1963,A 49,Autobus,"Kaulsdorf, Bausdorfstrasse<> Kaulsdorf, Bausdorfstrasse",14,east,20,both
+57,196358,1963,A 55,Autobus,"Wilhelmsruh, Fontanestrasse<> Pielsporter Strasse",39,east,17,both
+58,196359,1963,A 56,Autobus,"Weißensee, Nüßlerstrasse<> Wicherstrasse Ecke Prenzlauer Allee",12,east,15,both
+59,196360,1963,A 57,Autobus,Kniprodestrasse/Ermländische Strasse<> Scharnhorststrasse,27,east,7,both
+60,196361,1963,A 58,Autobus,"Wilhelmsruh, Fontanestrasse<> U-Bhf. Pankow (Vinetastrasse)",18,east,12,both
+61,196362,1963,A 59,Autobus,Walter-Ulbricht-Stadion<> U-Bhf. Thälmannplatz,12,east,7,both
+62,196363,1963,A 82 P,Autobus,"Stralau, Kinderheim<> Markgrafendamm",5,east,20,both
+63,196364,1963,A L,Autobus,"Neu-Lindenberg<> Malchow, Dorfstrasse",15,east,42,both
+64,196365,1963,A Z,Autobus,Groß Ziethen<> Bhf. Schönefeld,23,east,20,both
+65,196366,1963,"S-Bhf. Friedrichshagen - Rüdersdorf, Karl-Marx-Platz",Autobus,"S-Bhf. Friedrichshagen<> Rüdersdorf, Karl-Marx-Platz",40,east,20,both
+66,196367,1963,S-Bhf. Rahnsdorf - Woltersdorfer Schleuse,Autobus,S-Bhf. Rahnsdorf<> Woltersdorfer Schleuse,22,east,20,both
+67,196368,1963,Schmöckwitz - Eichwalde,Autobus,Alt-Schmöckwitz<> Bhf. Eichwalde,13,east,80,both
+68,196369,1963,Schmöckwitz - Ziegenhals,Autobus,"Alt-Schmöckwitz<> Ziegenhals, VA-Dienststelle",18,east,75,both

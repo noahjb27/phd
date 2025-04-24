@@ -1,0 +1,1400 @@
+,stop_id,stop_description,type,in_lines,identifier,location,stop_name
+0,19601,4. Ring,bus,A53,,"52.42250630689789, 13.2869490566549",4. Ring
+1,19602,Adamstrasse Ecke Pichelsdorfer Strasse,bus,"A34,A35",,"52.521029117218866, 13.19780699419913",Adamstrasse
+2,19603,Berlin-Adlershof station,s-bahn,"KBS 103,KBS 100a",Q323551,"52.434722222222,13.541388888889",Adlershof
+3,19604,Adolf-Scheidt-Platz,strassenbahn,95,,"52.478194856980814, 13.37836902238447",Adolf-Scheidt-Platz
+4,19605,Afrikanische Straße,u-bahn,"C II,C I",Q559239,"52.560027777778,13.334633333333",Afrikanische Str.
+5,19606,"Ahrensfeld, Kirche",bus,A46,,"52.57532170199278, 13.576515606968998","Ahrensfeld, Kirche"
+6,19607,Albertstrasse,strassenbahn,"74,73",,"52.48441764584102, 13.352842591071507",Albertstrasse
+7,19608,Berlin Albrechtshof station,s-bahn,KBS 103,Q800470,"52.5494,13.1283",Albrechtshof
+8,19609,Albrechtstrasse Ecke Rheinhardtstrasse,bus,A57,,"52.52325414751492, 13.383819128683713",Albrechtstrasse
+9,196010,Memhardstraße,strassenbahn,1,Q65227406,"52.5233439,13.4110773","Alexanderplats, Memhardstr."
+10,196011,S-Bahnhof Berlin Alexanderplatz,s-bahn,"KBS 103,KBS 102,KBS 101",Q111324700,"52.521388888889,13.411944444444",Alexanderplatz
+11,196012,Alexanderplatz u-bahn station,u-bahn,"A I,D,A II,E",Q17173458,"52.5214,13.4119",Alexanderplatz
+12,196013,"Alexanderplatz, Grunerstrasse",strassenbahn,"74,72,71,82,74E",,"52.52008326268696, 13.41408418961877","Alexanderplatz, Grunerstrasse"
+13,196014,"Alexanderplatz, Grunerstrasse",strassenbahn,64,,"52.52008326268696, 13.41408418961877","Alexanderplatz, Grunestrasse"
+14,196015,Memhardstraße,strassenbahn,"69,11,63,22",Q65227406,"52.5233439,13.4110773","Alexanderplatz, Memhardstrasse"
+15,196016,"Alt-Biesdorf, Oberfeldstrasse",bus,A8,,"52.50918606891929, 13.553347058493491","Alt-Biesdorf, Oberfeldstrasse"
+16,196017,Alt-Buch,bus,A42,,"52.63585516282156, 13.50090380436997",Alt-Buch
+17,196018,Alt-Buckow,strassenbahn,27,,"52.42369898147204, 13.43651094045107",Alt-Buckow
+18,196019,Alt-Heiligensee,bus,"A13,A14",,"52.60616921042186, 13.210646859320935",Alt-Heiligensee
+19,196020,Alt-Kladow,bus,"A34,A35",,"52.454591413254434, 13.144488043956764",Alt-Kladow
+20,196021,Alt-Mariendorf Ecke Mariendorfer Damm,bus,AS2,,"52.44015553185248, 13.387328254903215",Alt-Mariendorf
+21,196022,Alt-Mariendorf,strassenbahn,99,,"52.4401532176395, 13.387265005984174",Alt-Mariendorf
+22,196023,Alt-Marienfelde Ecke Marienfelder Allee,bus,A52,,"52.413385082183694, 13.36338063003787",Alt-Marienfelde
+23,196024,"Alt-Marzahn, Kirche",bus,O37,,"52.542423454435976, 13.564061751343658","Alt-Marzahn, Kirche"
+24,196025,Alt-Müggelheim,bus,A27,,"52.41018331064196, 13.665897531850348",Alt-Müggelheim
+25,196026,Alt-Schmöckwitz,bus (Umlandlinie),"Schmöckwitz<>Eichwalde (VEB Kraftverkehr Schöneiche-Rüdersdorf),Schmöckwitz<>Ziegenhals (VEB Kraftverkehr Schöneiche-Rüdersdorf)",,"52.37536708814027, 13.649399886968025",Alt-Schm ckwitz
+26,196027,Alt-Schmöckwitz,strassenbahn,86,Q66459540,"52.3752767,13.649549",Alt-Schmöckwitz
+27,196028,Alt-Tempelhof,strassenbahn,"99,96,98",,"52.4660774066416, 13.3856316379907",Alt-Tempelhof
+28,196029,Alte Wagenhalle,strassenbahn,96,,"52.39228324366295, 13.224814455372194",Alte Wagenhalle
+29,196030,"Altglienicke, Am Falkenberg",strassenbahn,84,,"52.41079970042163, 13.570452931545786","Altglienicke, Am Falkenberg"
+30,196031,"Altglienicke, Kirche",bus,A23,,"52.421845729296805, 13.539407702079252","Altglienicke, Kirche"
+31,196032,Am Beelitzhof Ecke Kronprinzessinnenweg,bus,A3,,"52.432202091928794, 13.186661564435827",Am Beelitzhof
+32,196033,Am Dachsbau Ecke Heiligenseestrasse,bus,A13,,"52.60655284387061, 13.22984370797522",Am Dachsbau
+33,196034,Am Fließ,bus,A15,,"52.6034575714732, 13.289613652822638",Am Flie
+34,196035,Am Grossen Wannsee Ecke Königstrasse,bus,"A3,A6,A18,A51",,"52.420496581432594, 13.167192967572669",Am Grossen Wannsee
+35,196036,Am Kupfergraben,strassenbahn,1,Q65055027,"52.5194208,13.3953839",Am Kupfergraben
+36,196037,Am Kupfergraben (Haus der Frau),strassenbahn,70,,"52.51968436891945, 13.396249324607327",Am Kupfergraben (Haus der Frau)
+37,196038,Am Nordhafen,bus,A70,,"52.53868315849872, 13.363248409190426",Am Nordhafen
+38,196039,Am Oberhafen,bus,A67,,"52.465017297775326, 13.450594183790596",Am Oberhafen
+39,196040,Am Rosenhag,bus,"A44E,A44",,"52.52474356253909, 13.621775828105108",Am Rosenhag
+40,196041,Am Steinberg Ecke Prenzlauer Promenade,bus,"A45,A42",,"52.55648144940878, 13.429306764151775",Am Steinberg
+41,196042,Am Steinberg,strassenbahn,71,Q65103320,"52.5585796,13.4333751",Am Steinberg
+42,196043,Am Treptower Park Ecke Bulgarische Strasse,strassenbahn,87,,"52.48147563483442, 13.472811198997826",Am Treptower Park Ecke Bulgarische Strasse
+43,196044,Am Vierrutenbert,bus,A20,,"52.613698620824124, 13.344231823340426",Am Vierrutenbert
+44,196045,Am Volkspark Ecke Blissestrasse,bus,A60,,"52.483222065143515, 13.32036833862448",Am Volkspark
+45,196046,Amtsgerichsplatz,bus,A10,,"52.50685665976427, 13.295057483522156",Amtsgerichsplatz
+46,196047,Amtsgericht,strassenbahn,"75,76",,"52.50682617853116, 13.297391449613752",Amtsgericht
+47,196048,Amtsgericht Charlottenburg,bus,A21,,"52.50571853839105, 13.295347400894903",Amtsgericht Charlottenburg
+48,196049,Andreasstrasse/Lebuser Strasse,bus,O30,,"52.51797306914227, 13.432895480772247",Andreasstrasse
+49,196050,Andreasstrasse,strassenbahn,82,,"52.51085823996067, 13.430402171026154",Andreasstrasse
+50,196051,S-Bahnhof Berlin Anhalter Bahnhof,s-bahn,"KBS 105,KBS 106,KBS 104",Q111324573,"52.503055555556,13.381944444444",Anhalter Bahnhof
+51,196052,Anhalter Bahnhof,strassenbahn,88,,"52.50453275122, 13.382326534592197",Anhalter Bahnhof
+52,196053,Anhalter Bhf.,bus,"A24,A29",,"52.504693895352524, 13.381969502572149",Anhalter Bhf.
+53,196054,Antonplatz,strassenbahn,"74,72,70,3,74E",Q65548849,"52.5484803,13.4517416",Antonplatz
+54,196055,Arnimallee,bus,A68,,"52.45789378609326, 13.299570204130864",Arnimallee
+55,196056,Aroser Allee Ecke Lindauer Strasse,bus,"A61,A14",,"52.57376245122369, 13.351970705456408",Aroser Allee
+56,196057,Attilaplatz,bus,"A25,AS2",,"52.45590179888225, 13.376512495751076",Attilaplatz
+57,196058,Attilaplatz,strassenbahn,"96,95",,"52.455498340147045, 13.375619638525905",Attilaplatz
+58,196059,Auguste-Viktoria-Allee Ecke Ollenhauerstrasse,bus,A62,,"52.569268504658915, 13.329801350092811",Auguste-Viktoria-Allee
+59,196060,Augustenburger Platz,strassenbahn,25,,"52.54195473048106, 13.349004434392675",Augustenburger Platz
+60,196061,Bühler Weg Ecke Marienfelder Chaussee,bus,A52,,"52.41724643282917, 13.412638052235238",B hler Weg
+61,196062,Bürknersfelde,bus,"O41,A43,O37",,"52.549540493749184, 13.586689708671303",Bürknersfelde
+62,196063,BSC-Sportplatz,bus,A29,,"52.48590335523557, 13.284366733504768",BSC-Sportplatz
+63,196064,Betriebshof Lichtenberg,strassenbahn,"69,69E",Q66014798,"52.5206411,13.4994454","BVG-Bf. Lichtenberg, Siegfriedstrasse"
+64,196065,"BVG-Bf. Lichtenberg, Siegfriedstrasse",bus,O30,,"52.52004640241046, 13.499373630980266","BVG-Bf. Lichtenberg, Siegfriestrasse"
+65,196066,BVG-Bf. Weißensee,strassenbahn,74,,"52.557019987591296, 13.4676689116181",BVG-Bf. Weißensee
+66,196067,Potsdam-Babelsberg station,s-bahn,KBS 102,Q801326,"52.3914,13.0928",Babelsberg
+67,196068,Badstrasse Ecke Pankstrasse,bus,A70,,"52.55228040855936, 13.381394276023574",Badstrasse
+68,196069,Badstrasse/Prinzenallee,bus,A71,,"52.55231378388406, 13.381413167559051",Badstrasse/Prinzenallee
+69,196070,Baerwaldstrasse Ecke Urbanstrasse,strassenbahn,95,,"52.49390938472972, 13.403182384220054",Baerwaldstrasse
+70,196071,Friedrichstraße metro station,u-bahn,"C II,C I",Q3753274,"52.520111111111,13.388305555556",Bahnhof Friedrichstr. (Stadtbahn)
+71,196072,Lichtenberg metro station,u-bahn,E,Q3831986,"52.510556,13.496389",Bahnhof Lichtenberg (Zentralfriedhof)
+72,196073,Bahnhof Tempelhof,strassenbahn,98,,"52.46587999632718, 13.38561353594905",Bahnhof Tempelhof
+73,196074,U-Bahnhof Wedding,u-bahn,"C II,C I",Q4018733,"52.5425,13.366111",Bahnhof Wedding
+74,196075,Bahnhofstrasse,strassenbahn,47,,"52.40244986860125, 13.512704137216817",Bahnhofstrasse
+75,196076,Bahnhofstrasse Ecke Lindenstrasse,bus,A27,,"52.45096281111, 13.572146868709519",Bahnhofstrasse Ecke Lindenstrasse
+76,196077,Bahnhofstraße/Lindenstraße,strassenbahn,"87,82",Q66095701,"52.4505094,13.572684",Bahnhofstrasse Ecke Lindenstrasse
+77,196078,Barfusstrasse Ecke Müllerstrasse,bus,"A12,A12S",,"52.554307201956135, 13.345153941265151",Barfusstrasse
+78,196079,Baumschulenstrasse Ecke Köpenicker Landstrasse,strassenbahn,92,,"52.469081846595664, 13.491329912138305",Baumschulenstrasse
+79,196080,Baumschulenstrasse Ecke Südostallee,bus,A47,,"52.46095841731415, 13.481191835004426",Baumschulenstrasse Ecke Südostallee
+80,196081,Berlin-Baumschulenweg station,s-bahn,"KBS 103,KBS 100a,KBS 103a",Q324336,"52.4675,13.489722",Baumschulenweg
+81,196082,"Baumschulenweg, Sonnenallee",strassenbahn,95,,"52.46729434178432, 13.489094025693007","Baumschulenweg, Sonnenallee"
+82,196083,Bayerischer Platz station,u-bahn,B III,Q668574,"52.488333333333,13.340277777778",Bayerischer Platz
+83,196084,Beeskowdamm Ecke Teltower Strasse,bus,A1,,"52.40965850195346, 13.267308742502374",Beeskowdamm
+84,196085,Behring-Krankenhaus,bus,A10,,"52.42410894567823, 13.251764544509987",Behring-Krankenhaus
+85,196086,Berlin Bellevue station,s-bahn,"KBS 103,KBS 102,KBS 101",Q374018,"52.52,13.348055555556",Bellevue
+86,196087,Belziger Strasse,strassenbahn,66,,"52.48469759121592, 13.34547616644445",Belziger Strasse
+87,196088,Benschallee Ecke Potsdamer Chaussee,bus,"A3,A18",,"52.42959261918116, 13.22400013419735",Benschallee
+88,196089,Benzolwerk,strassenbahn,84,,"52.426414690299055, 13.546444409734137",Benzolwerk
+89,196090,"Bergfelde, Karl-Marx-Strasse",bus,AN,,"52.665111405939506, 13.307446011435928","Bergfelde, Karl-Marx-Strasse"
+90,196091,Bergstraße Ecke Thorwaldsenstraße,strassenbahn,66,,"52.45916314067555, 13.34768142911793",Bergstrasse
+91,196092,Berkaer Strasse Ecke Teplitzer Strasse,bus,A29,,"52.48209270683341, 13.281182952838728",Berkaer Strasse
+92,196093,"Berkaer Strasse, Elsterplatz",bus,AS3,,"52.479592141367654, 13.285296936169493","Berkaer Strasse, Elsterplatz"
+93,196094,Berliner Strasse Ecke Bismarckstrasse,strassenbahn,96,,"52.42581131985521, 13.316760031991025",Berliner Strasse
+94,196095,Berlinickeplatz,bus,A65,,"52.46607292094852, 13.378516406213421",Berlinickeplatz
+95,196096,Berlinickeplatz Ecke Manteuffelstrasse,strassenbahn,95,,"52.466329675590764, 13.378144688199017",Berlinickeplatz
+96,196097,Bernau bei Berlin station,s-bahn,KBS 106,Q479789,"52.6763,13.5931",Bernau (b Bln)
+97,196098,Bernauer Straße station,u-bahn,D,Q689293,"52.5375,13.396666666667",Bernauer Str.
+98,196099,Bernauer Strasse Ecke Gartenstrasse,bus,A64,,"52.53339472474513, 13.387460450356432",Bernauer Strasse Ecke Gartenstrasse
+99,1960100,Bernauer Strasse/Brunnenstrasse,bus,A71,,"52.53829556916397, 13.396023771544826",Bernauer Strasse/Brunnenstrasse
+100,1960101,Bersarinplatz,strassenbahn,"13,4",Q65706258,"52.519215,13.4525257",Bersarinplatz
+101,1960102,Frankfurter Tor metro station,u-bahn,E,Q568627,"52.515833333333,13.454166666667",Bersarinstr. (Frankfurter Tor)
+102,1960103,Betriebsbahnhof Rummelsburg station,s-bahn,KBS 102,Q829009,"52.4939,13.4978",Betriebsbahnhof Rummelsburg
+103,1960104,Berlin-Johannisthal railway station,s-bahn,"KBS 103,KBS 100a",Q4526101,"52.44676,13.52391",Betriebsbahnhof Schöneweide
+104,1960105,Berlin Beusselstraße station,s-bahn,"KBS 100,KBS 103a,KBS 100c",Q323219,"52.534444444444,13.329166666667",Beusselstr.
+105,1960106,Bezirksamt,bus,A63,,"52.54146443211212, 13.200850156157355",Bezirksamt
+106,1960107,Bhf. Bellevue,bus,A66,,"52.52009880656925, 13.34717428282986",Bhf. Bellevue
+107,1960108,Bhf. Beusselstrasse,strassenbahn,3,,"52.53430684410127, 13.32833762655072",Bhf. Beusselstrasse
+108,1960109,Bhf. Botanischer Garten,strassenbahn,"78,77",,"52.44730098506532, 13.3083006582632",Bhf. Botanischer Garten
+109,1960110,Bhf. Buckower Chaussee,bus,A52,,"52.41109589500145, 13.382466497921738",Bhf. Buckower Chaussee
+110,1960111,Bhf. Eichbornstrasse,bus,"A15,A21",,"52.57760143817809, 13.31554154716",Bhf. Eichbornstrasse
+111,1960112,Bhf. Eichwalde,bus (Umlandlinie),Schmöckwitz<>Eichwalde (VEB Kraftverkehr Schöneiche-Rüdersdorf),,"52.371950560017005, 13.614447144096058",Bhf. Eichwalde
+112,1960113,Bhf. Feuerbachstrasse,bus,A2,,"52.46385037171255, 13.332255352360685",Bhf. Feuerbachstrasse
+113,1960114,Bhf. Friedrichstrasse,bus,"A57,A9",,"52.5205606637086, 13.388231915342985",Bhf. Friedrichstrasse
+114,1960115,Bhf. Frohnau,bus,"A15,A12,A12S",,"52.63311782571585, 13.28947655939645",Bhf. Frohnau
+115,1960116,Bhf. Gesundbrunnen,bus,"A61,A71",,"52.548738600413905, 13.387745851632966",Bhf. Gesundbrunnen
+116,1960117,Bhf. Gesundbrunnen,strassenbahn,25,,"52.54913505997412, 13.38715173368261",Bhf. Gesundbrunnen
+117,1960118,Bhf. Groß Ziethen,bus,AZ,,"52.39427199849872, 13.442667394442617",Bhf. Groß Ziethen
+118,1960119,"Bhf. Grunewald, Karmielplatz",bus,A17,,"52.488010147803465, 13.26315524644143",Bhf. Grunewald
+119,1960120,S-Bahnhof Grünau (tram stop),strassenbahn,86,Q62470512,"52.413493,13.5746802",Bhf. Grünau
+120,1960121,Bhf. Halensee,bus,"A29,A66,A19,A10,A4,A69",,"52.496865585452014, 13.289557340809273",Bhf. Halensee
+121,1960122,Bhf. Heerstrasse,strassenbahn,"75,76",,"52.50857975740797, 13.258353900023156",Bhf. Heerstrasse
+122,1960123,Bhf. Heiligensee,bus,A14,,"52.625151238346696, 13.229659068045944",Bhf. Heiligensee
+123,1960124,Bhf. Hermannstrasse,strassenbahn,27,,"52.4676866643192, 13.431210901516543",Bhf. Hermannstrasse
+124,1960125,Bhf. Hermsdorf,bus,A15,,"52.61953939324446, 13.30416069232153",Bhf. Hermsdorf
+125,1960126,Bhf. Hohenzollerndamm,bus,"A65,AS3,A50,A21",,"52.48832716566947, 13.301436926268025",Bhf. Hohenzollerndamm
+126,1960127,Bhf. JannowitzBrücke,strassenbahn,11,,"52.51478599600389, 13.418056238742702",Bhf. JannowitzBrücke
+127,1960128,Bhf. Jungfernheide,bus,"A62,A65,A21",,"52.530138785889896, 13.296018817180764",Bhf. Jungfernheide
+128,1960129,Bhf. Jungfernheide,strassenbahn,"55,35",,"52.53103413649224, 13.300559481238167",Bhf. Jungfernheide
+129,1960130,Bhf. Lichtenberg,bus,"O30,O37",,"52.5112875601879, 13.499591119128855",Bhf. Lichtenberg
+130,1960131,S+U Lichtenberg/Siegfriedstraße,strassenbahn,"69,69E",Q66013733,"52.5123603,13.4977547",Bhf. Lichtenberg
+131,1960132,Bhf. Lichtenrade,strassenbahn,99,,"52.38669305818232, 13.39694576786419",Bhf. Lichtenrade
+132,1960133,Bhf. Lichterfelde-Ost,bus,A11,,"52.42911680950547, 13.329847267881705",Bhf. Lichterfelde-Ost
+133,1960134,Bhf. Lichterfelde-Ost,strassenbahn,"96,73",,"52.4289149405705, 13.329002919186095",Bhf. Lichterfelde-Ost
+134,1960135,Bhf. Lichterfelde-West,bus,A11,,"52.44397675869793, 13.295628699942629",Bhf. Lichterfelde-West
+135,1960136,Bhf. Lichterfelde-West,strassenbahn,"78,77",,"52.442695165817675, 13.297046489476738",Bhf. Lichterfelde-West
+136,1960137,Bhf. Lindenthaler Allee Ecke Potsdamer Chaussee,bus,A3,,"52.43102570943782, 13.229881678326638",Bhf. Lindenthaler Allee
+137,1960138,Bhf. Mariendorf (Attilastrasse),bus,A33,,"52.446757741789085, 13.360550212856184",Bhf. Mariendorf
+138,1960139,Bhf. Mariendorf,strassenbahn,96,,"52.447078310256, 13.361439800164863",Bhf. Mariendorf
+139,1960140,Bhf. Marienfelde,bus,A32,,"52.42342246533686, 13.374664175181172",Bhf. Marienfelde
+140,1960141,Bhf. Marienfelde,strassenbahn,15,,"52.42613307832105, 13.375057660174704",Bhf. Marienfelde
+141,1960142,Bhf. Neukölln,strassenbahn,6,,"52.469429556071695, 13.441761396090287",Bhf. Neukölln
+142,1960143,Bhf. Nikolassee,bus,A3,,"52.43378197004219, 13.193152057415048",Bhf. Nikolassee
+143,1960144,Bhf. Oberspree,strassenbahn,92,,"52.4528394661769, 13.537375168003551",Bhf. Oberspree
+144,1960145,Bhf. Papestrasse,strassenbahn,"60,6",,"52.474088737380455, 13.363804736501839",Bhf. Papestrasse
+145,1960146,Bhf. PutlitzStrasse,bus,A16,,"52.53620612444645, 13.34371268088147",Bhf. PutlitzStrasse
+146,1960147,Rosenthal Nord,strassenbahn,22,Q65364041,"52.598664,13.3726652",Bhf. Rosenthal
+147,1960148,Bhf. Schöneberg,bus,A65,,"52.47998202930639, 13.352548515779949",Bhf. Sch neberg
+148,1960149,Bhf. Schulzendorf,bus,A14,,"52.61386001623567, 13.245879660333635",Bhf. Schulzendorf
+149,1960150,"Bhf. Schöneweide, Sterndamm",bus,A47,,"52.45374952013775, 13.510200397684477",Bhf. Schöneweide
+150,1960151,Bhf. Schöneweide,strassenbahn,"69,69E,92,87",,"52.45640818289644, 13.509916574756422",Bhf. Schöneweide
+151,1960152,Bhf. Sonnenallee,bus,A67,,"52.473861610807525, 13.455874121666916",Bhf. Sonnenallee
+152,1960153,Bhf. Sonnenallee,strassenbahn,"95,15",,"52.47414312526527, 13.455499525035636",Bhf. Sonnenallee
+153,1960154,Bhf. Spandau-West,bus,"A5,A63",,"52.53497194201396, 13.198460334945361",Bhf. Spandau-West
+154,1960155,S+U Frankfurter Allee,strassenbahn,3,Q65948557,"52.5138037,13.4773772",Bhf. Stalineallee
+155,1960156,Bhf. Steglitz,bus,"A68,A33",,"52.4567389564548, 13.32114701824465",Bhf. Steglitz
+156,1960157,Bhf. Steglitz,strassenbahn,44,,"52.45628485348418, 13.322383851748043",Bhf. Steglitz
+157,1960158,Bhf. Südende,bus,A33,,"52.44906892859584, 13.354097834514832",Bhf. Südende
+158,1960159,Bhf. Teltowkanal,strassenbahn,26,,"52.45739188437929, 13.412438576146661",Bhf. Teltowkanal
+159,1960160,Bhf. Tempelhof,bus,A65,,"52.47084694496318, 13.385638120230526",Bhf. Tempelhof
+160,1960161,Bhf. Waidmannslust,bus,A20,,"52.60711750606285, 13.32022370793147",Bhf. Waidmannslust
+161,1960162,Bhf. Wannsee,bus,"A3,A6,A51",,"52.42151302311533, 13.17810256503659",Bhf. Wannsee
+162,1960163,S Warschauer Straße,strassenbahn,"3,4",Q65706190,"52.5080429,13.4505973",Bhf. Warschauer Brücke
+163,1960164,Bhf. Wedding,bus,A70,,"52.544296601785504, 13.369913083294957",Bhf. Wedding
+164,1960165,Bhf. Westend,bus,A65,,"52.51866044969405, 13.28427669582671",Bhf. Westend
+165,1960166,Bhf. Wilhelmsruh,bus,A71,,"52.58102921945559, 13.363635067647111",Bhf. Wilhelmsruh
+166,1960167,Bhf. Wilhelmsruh,strassenbahn,35,,"52.581085096062374, 13.3634387891469",Bhf. Wilhelmsruh
+167,1960168,Bhf. Wittenau,bus,A15,,"52.59721246906266, 13.332631469768408",Bhf. Wittenau
+168,1960169,Bhf. Wollankstrasse,bus,A70,,"52.56453849178735, 13.393420272477442",Bhf. Wollankstrasse
+169,1960170,Bhf. Yorckstrasse,bus,A19,,"52.49297747613118, 13.369530914840707",Bhf. Yorckstrasse
+170,1960171,Bhf. Yorckstrasse,strassenbahn,2,,"52.49299429081086, 13.369189318291125",Bhf. Yorckstrasse
+171,1960172,Bhf. Zehlendorf,bus,"A1,A53",,"52.43121177777893, 13.259164408129196",Bhf. Zehlendorf
+172,1960173,Bhf. Zoo,bus,"AS1,A62,AS3,A25,AS2,A2",,"52.506232782829265, 13.332362081097921",Bhf. Zoo
+173,1960174,Bhf. Zoo,strassenbahn,"6,25,78,2,77,54,55,53",,"52.50719345524868, 13.332629878993917",Bhf. Zoo
+174,1960175,"Bhf. Zoo, Kantstrasse",strassenbahn,75,,"52.50540350310839, 13.330367559360592","Bhf. Zoo, Kantstrasse"
+175,1960176,Berlin-Biesdorf station,s-bahn,KBS 101,Q4892357,"52.5131,13.5554",Biesdorf
+176,1960177,Birkbuschstrasse,strassenbahn,44,,"52.442435762081416, 13.332071963933217",Birkbuschstrasse
+177,1960178,Birkenwerder station,s-bahn,KBS 104,Q2343634,"52.6885,13.2888",Birkenwerder
+178,1960179,Morgensternstrasse Ecke Königsberger Strasse,bus,A17,,"52.42810525201655, 13.325401344478106",BismarckStrasse
+179,1960180,Bismarckplatz,bus,"A66,A69,A29",,"52.492064537089135, 13.28493897027407",Bismarckplatz
+180,1960181,Björnsonstraße,strassenbahn,3,Q65920495,"52.5544232,13.4030585",Bj rnsonstrasse
+181,1960182,Berlin-Blankenburg station,s-bahn,"KBS 106,KBS 100b",Q800469,"52.5915,13.4435",Blankenburg
+182,1960183,"Blankenburg, Bahnhofstrasse Ecke Heinersdorfer Strasse",bus,A42,,"52.591380472079955, 13.453512267562314","Blankenburg, Bahnhofstrasse"
+183,1960184,Blankenburger Weiche,strassenbahn,49,,"52.59393771117341, 13.432128114084042",Blankenburger Weiche
+184,1960185,S-Bahnhof Blankenfelde,s-bahn,KBS 105,Q111311372,"52.3376,13.4158",Blankenfelde
+185,1960186,"Blankenfelde, Hauptstrasse",bus,A7,,"52.63002534735451, 13.38262328371393","Blankenfelde, Hauptstrasse"
+186,1960187,Bleibtreustrasse Ecke Kurfürstendamm,bus,A69,,"52.50162717169989, 13.319466346593028",Bleibtreustrasse
+187,1960188,Köpenicker Chaussee/Blockdammweg,strassenbahn,82,Q66085176,"52.4832902,13.5016748",Blockdammweg Ecke Köpenicker Chaussee
+188,1960189,Blumenstrasse/Schicklerstrasse,strassenbahn,82,,"52.5165758248604, 13.418211869015078",Blumenstrasse/Schicklerstrasse
+189,1960190,Blücherplatz Ecke Blücherstrasse,strassenbahn,95,,"52.49594433158441, 13.390772806521472",Blöcherplatz
+190,1960191,Boddinstraße,u-bahn,D,Q819495,"52.48,13.425277777778",Boddinstr.
+191,1960192,"Bohnsdorf, Kirche",bus,AD/36,,"52.39948771402893, 13.555574431978044","Bohnsdorf, Kirche"
+192,1960193,"Bohnsdorf, Waldstrasse",bus,A38,,"52.389397192754984, 13.570666562153916","Bohnsdorf, Waldstrasse"
+193,1960194,Borgsdorf station,s-bahn,KBS 104,Q4093486,"52.7155,13.2764",Borgsdorf
+194,1960195,Berlin Bornholmer Straße station,s-bahn,"KBS 105,KBS 106,KBS 104",Q32662318,"52.554287,13.397985",Bornholmer Str.
+195,1960196,Borsigwalder Weg Ecke Conradstrasse,bus,A15,,"52.58482847787268, 13.29793542584195",Borsigwalder Weg
+196,1960197,Borsigwerke,u-bahn,"C II,C I",Q525185,"52.5819,13.2907",Borsigwerke
+197,1960198,Bosestrasse,strassenbahn,60,,"52.46316918099263, 13.369979739293505",Bosestrasse
+198,1960199,"Botanischer Garten, Ecke Königin-Luise-Strasse",bus,"A68,A1",,"52.458598799471524, 13.303436055459807",Botanischer Garten
+199,1960200,Berlin Botanischer Garten station,s-bahn,KBS 104,Q800498,"52.44806,13.30722",Botanischer Garten
+200,1960201,Boxhagener Strasse,strassenbahn,3,,"52.50705770251508, 13.468302201729777",Boxhagener Strasse
+201,1960202,Brabanter Platz,bus,A60,,"52.48200661448961, 13.316219175470072",Brabanter Platz
+202,1960203,"Brandenburger Tor, John-Foster-Dulles-Allee",bus,A69,,"52.51776764730101, 13.370281416321609",Brandenburger Tor
+203,1960204,"Bölschestraße, Brauerei",strassenbahn,84,,"52.44699265840037, 13.624251999339991",Brauerei
+204,1960205,Breitenbachplatz,bus,"A32,A1,A16",,"52.467219717443385, 13.309473490660878",Breitenbachplatz
+205,1960206,Breitenbachplatz metro station,u-bahn,"B II,A II",Q571339,"52.466388888889,13.308055555556",Breitenbachplatz
+206,1960207,Breitscheidplatz,bus,"A60,A29,A66,A19,A69",,"52.504438063129996, 13.33564615707506",Breitscheidplatz
+207,1960208,Bristolstrasse Ecke Barfusstrasse,bus,A12,,"52.558311542070335, 13.351189355013176",Bristolstrasse
+208,1960209,Britzer Damm,strassenbahn,6,,"52.45263649686008, 13.438488977108278",Britzer Damm
+209,1960210,Britzer Strasse Ecke Schnellerstrasse,strassenbahn,92,,"52.45407075126685, 13.51932686914549",Britzer Strasse
+210,1960211,Brixplatz,bus,A4,,"52.51907944117457, 13.25699370576959",Brixplatz
+211,1960212,Brunnenstraße/Invalidenstraße,strassenbahn,"11,1",Q65691740,"52.5324542,13.3974236",Brunnen Ecke Invalidenstrasse
+212,1960213,Brunnenstraße/Invalidenstraße,strassenbahn,"70,46E,46",Q65691740,"52.5324542,13.3974236",Brunnenstrasse
+213,1960214,Brunnenplatz,bus,A70,,"52.549541217271994, 13.376971008597554",Brunneplatz
+214,1960215,Brunsbütteler Damm Ecke Klosterstrasse,bus,A31,,"52.53297092580436, 13.19828647148509",Brunsb tteler Damm
+215,1960216,Berlin-Buch station,s-bahn,KBS 106,Q4892359,"52.6359,13.4917",Buch
+216,1960217,"Buch, Zepernicker Strasse",bus,A42,,"52.64161725444106, 13.515575706154056","Buch, Zepernicker Strasse"
+217,1960218,"Buchholz, Hauptstrasse",strassenbahn,49,,"52.619072064369824, 13.393383358408967","Buchholz, Hauptstrasse"
+218,1960219,Buckower Chaussee station,s-bahn,KBS 105,Q800499,"52.4103,13.3829",Buckower Ch.
+219,1960220,Buckower Chaussee Ecke Mariendorfer Damm,bus,AS2,,"52.414558044256225, 13.401161035852658",Buckower Chaussee
+220,1960221,Buckower Damm Ecke Alt-Buckow,bus,A52,,"52.42368329841466, 13.436638725763267",Buckower Damm
+221,1960222,Buckower Friedhof,bus,A52,,"52.42151537347778, 13.43036950960343",Buckower Friedhof
+222,1960223,Bulgarische Strasse Ecke Köpenicker Landstrasse,strassenbahn,92,,"52.48142358933512, 13.473067363351124",Bulgarische Strasse
+223,1960224,Bundesplatz,bus,"A16,A65,A25,AS2,A2",,"52.478678991134835, 13.32860278411238",Bundesplatz
+224,1960225,Bundesplatz,strassenbahn,"44,77,78",,"52.4777799057296, 13.328566193541166",Bundesplatz
+225,1960226,Buschallee,strassenbahn,70,Q65546661,"52.5537598,13.4691966",Buschallee Ecke Klement-Gottwald-Allee
+226,1960227,Buschkrug,strassenbahn,"6,47",,"52.452470895695484, 13.450748195174354",Buschkrug
+227,1960228,Bülowstraße metro station,u-bahn,"A I,A II",Q374881,"52.497552777778,13.363419444444",Bülowstr.
+228,1960229,Bütower Straße,strassenbahn,83,Q66364552,"52.4861026,13.6039833",Bütower Strasse
+229,1960230,Canovastrasse Ecke Thorwaldsenstrasse,bus,AS2,,"52.46306323889937, 13.342852729949465",Canovastrasse
+230,1960231,Canovastrasse (Krankenhaus),strassenbahn,66,,"52.4631967931949, 13.344688692199414",Canovastrasse (Krankenhaus)
+231,1960232,Carl-Schurz-Strasse,strassenbahn,"53,54",,"52.53759585854496, 13.203799788543511",Carl-Schurz-Strasse
+232,1960233,Cauerstrasse Ecke Otto-Suhr-Allee,bus,AS1,,"52.51470519737728, 13.315222708879112",Cauerstrasse
+233,1960234,Cauerstrasse,strassenbahn,55,,"52.514690629578695, 13.315200881022642",Cauerstrasse
+234,1960235,Ceciliengärten,strassenbahn,66,,"52.47524662783869, 13.343026357607668",Cecilieng rten
+235,1960236,S-Bahnhof Berlin Charlottenburg,s-bahn,"KBS 103,KBS 102,KBS 101",Q111326217,"52.504722222222,13.303333333333",Charlottenburg
+236,1960237,Chausseehaus,bus,A27,,"52.430090871325774, 13.614694292071622",Chausseehaus
+237,1960238,Chausseestrasse Ecke Invalidenstrasse,bus,A9,,"52.53058679882093, 13.38309848189674",Chausseestrasse Ecke Invalidenstrasse
+238,1960239,Chemische Fabrik,strassenbahn,86,,"52.42696432509712, 13.573540465650169",Chemische Fabrik
+239,1960240,Chemnitzer Ecke Ulmenstrasse,bus,A8,,"52.48730504728054, 13.5749460378103",Chemnitzer Ecke Ulmenstrasse
+240,1960241,Chemnitzer Strasse Ecke Alt-Kaulsdorf,bus,A27,,"52.5051288553116, 13.581585054064426",Chemnitzer Strasse
+241,1960242,Am Kupfergraben,strassenbahn,46,Q65055027,"52.5194208,13.3953839",Clara-Zetkin-Strasse
+242,1960243,Clayallee Ecke Königin-Luise-Strasse,bus,"A68,A1",,"52.46042333572993, 13.274946148765821",Clayallee
+243,1960244,Clayallee/Teltower Damm,bus,AS3,,"52.4350547405869, 13.260361762838802",Clayallee/Teltower Damm
+244,1960245,Colomierstrasse Ecke Am Großen Wannsee,bus,A51,,"52.42928675585897, 13.164090298875724",Colomierstrasse
+245,1960246,Columbiadamm Ecke Friesenstrasse,bus,A24,,"52.48398171737193, 13.394418749054523",Columbiadamm
+246,1960247,Corrensplatz,bus,A11,,"52.446014012041694, 13.284264679815902",Corrensplatz
+247,1960248,Cunostrasse Ecke Hohenzollerndamm,bus,A50,,"52.485632143913, 13.296298367587678",Cunostrasse
+248,1960249,Cyclopstrasse & Hermsdorfer Strasse,bus,"A12,A12S",,"52.60208376924525, 13.32483857919441",Cyclopstrasse
+249,1960250,Dönhoffplatz,strassenbahn,64,,"52.509950568117645, 13.398144081918815",D nhoffplatz
+250,1960251,Dacchdeckerweg,strassenbahn,27,,"52.43211564894163, 13.435148695160876",Dacchdeckerweg
+251,1960252,Dahlem-Dorf,u-bahn,"B II,A II",Q668585,"52.456944444444,13.289444444444",Dahlem-Dorf
+252,1960253,Dahlemer Weg Ecke Berliner Strasse,bus,"A10,A48,A53",,"52.44179805042347, 13.282699371472702",Dahlemer Weg
+253,1960254,Dahlewitz railway station,s-bahn,KBS 105,Q5208886,"52.326389,13.419722",Dahlewitz
+254,1960255,Daimlerstrasse,strassenbahn,15,,"52.423949959899865, 13.380145054879522",Daimlerstrasse
+255,1960256,Daimlerstrasse Ecke Birnhornweg,strassenbahn,98,,"52.42214076766627, 13.384616153471871",Daimlerstrasse Ecke Birnhornweg
+256,1960257,Dammweg Ecke Sonnenallee,bus,A67,,"52.47029082500845, 13.464688258814357",Dammweg
+257,1960258,Dammweg,strassenbahn,15,,"52.47070358256429, 13.46392233215299",Dammweg
+258,1960259,Dankmarsteig Ecke Schönefelder Chaussee,bus,A23,,"52.412460454887416, 13.528705230313825",Dankmarsteig
+259,1960260,Daumstrasse,bus,A13,,"52.540609965802126, 13.232264733228831",Daumstrasse
+260,1960261,Degnerstrasse,strassenbahn,"64,63",,"52.54488036635163, 13.493949954029993",Degnerstrasse
+261,1960262,Detmolder Strasse Ecke Blissestrasse,bus,A1,,"52.478864734081434, 13.320330304177688",Detmolder Strasse
+262,1960263,Deutsche Oper,u-bahn,"A III,A I,B I",Q869501,"52.511944444444,13.310555555556",Deutsches Opernhaus (Bismarckstr.)
+263,1960264,"Diepensee, Flughafen",bus,AD/36,,"52.362110314401846, 13.548585893916993","Diepensee, Flughafen"
+264,1960265,Eberswalder Straße metro station,u-bahn,"A I,A II",Q571382,"52.541666666667,13.412222222222",Dimitroffstr.
+265,1960266,Dimitroffstrasse Ecke Landsberger Allee,bus,O41,,"52.52644944679887, 13.447574773361476",Dimitroffstrasse
+266,1960267,Dingelstädter Strasse Ecke Landsberger Allee,bus,O41,,"52.53587676296107, 13.522058626010088",Dingelstädter Strasse
+267,1960268,Dominicusstrasse Ecke Hauptstrasse,bus,"A48,A4",,"52.481845594274056, 13.348295976204904",Dominicusstrasse
+268,1960269,Dominicusstrasse Ecke Hauptstrasse,strassenbahn,"74,73,88",,"52.48182811502358, 13.348369024265194",Dominicusstrasse
+269,1960270,Dominikus-Krankenhaus,bus,A15,,"52.626196524368744, 13.294495665499268",Dominikus-Krankenhaus
+270,1960271,Donnersmarckplatz,bus,"A15,A12",,"52.62982465046043, 13.28047497184123",Donnersmarckplatz
+271,1960272,Drakestrasse Ecke Unter den Eichen,bus,A48,,"52.445733691746746, 13.293722374035292",Drakestrasse
+272,1960273,Dreilinden station,s-bahn,KBS 104b,Q96473908,"52.40334210617422, 13.175963626814108",Dreilinden
+273,1960274,Dudenstrasse Ecke Katzbachstrasse,bus,A28,,"52.485078406979376, 13.376567552300232",Dudenstrasse
+274,1960275,Dyotzer Strasse Ecke Seegefelder Strasse,bus,A63,,"52.541513574478394, 13.168806761501132",Dyotzer Strasse
+275,1960276,Berlin-Düppel railway station,s-bahn,KBS 104a,Q44763529,"52.421388888889,13.226666666667",Düppel-Kleinmachnow
+276,1960277,Ebertystrasse Ecke Leninallee,bus,O30,,"52.52722237261361, 13.450799684654514",Ebertystrasse Ecke Leninallee
+277,1960278,Cecilienstrasse Ecke Oberfeldstrasse,bus,O37,,"52.52969034405679, 13.558001583982886",Cecilienstrasse Ecke Oberfeldstrasse
+278,1960279,Efeuweg Ecke Neuköllner Strasse,bus,A52,,"52.42961975739112, 13.47788675809725",Efeuweg
+279,1960280,Egelpfuhlstrasse Ecke Brunsbüttler Damm,bus,A31,,"52.53353984351533, 13.169416926784528",Egelpfuhlstrasse
+280,1960281,Ehrenmal,bus,"A45,A55",,"52.57958419912971, 13.375974716701414",Ehrenmal
+281,1960282,Eichborndamm station,s-bahn,KBS 105,Q800500,"52.5776,13.3169",Eichbornstr.
+282,1960283,Eichbuschallee Ecke Neue Krugallee,bus,A47,,"52.47574296676633, 13.487312571777435",Eichbuschallee
+283,1960284,Eichbuschplatz,bus,A38,,"52.39366126137233, 13.582046308470128",Eichbuschplatz
+284,1960285,Eichenallee Ecke Eichenallee,bus,A8,,"52.48983793631007, 13.56063262126986",Eichenallee
+285,1960286,Berlin Messe Süd railway station,s-bahn,"KBS 103,KBS 101",Q800504,"52.4987,13.2702",Eichkamp
+286,1960287,Eichwalde station,s-bahn,KBS 103,Q19274479,"52.3715,13.6152",Eichwalde
+287,1960288,"Eichwalde, Uhlandstrasse",bus (Umlandlinie),Schmöckwitz<>Eichwalde (VEB Kraftverkehr Schöneiche-Rüdersdorf),,"52.372634587228696, 13.62680242919348","Eichwalde, Uhlandstrasse"
+288,1960289,EinemStrasse Ecke Nollendorfplatz,bus,A16,,"52.500023072644105, 13.35409116646997",EinemStrasse
+289,1960290,Eisenacher Strasse Ecke Hauptstrasse,strassenbahn,88,,"52.48461646895383, 13.353102387518025",Eisenacher Strasse
+290,1960291,Elisabethstrasse Ecke Oberfeldstrasse,bus,O37,,"52.53409533705918, 13.55949915809485",Elisabethstrasse
+291,1960292,Elisabethstrasse,strassenbahn,"82,22",Q65364041,"52.51764985236767, 13.418046139104245",Elisabethstrasse
+292,1960293,Elsässer Strasse Ecke Karl-Liebknecht-Strasse,bus,A7,,"52.63337294510061, 13.345103420124245",Els sser Strasse
+293,1960294,Elsenstrasse,strassenbahn,"87,6",,"52.48680919847142, 13.451162530161762",Elsenstrasse
+294,1960295,Elsterplatz,bus,"A10,A50",,"52.47977982878401, 13.285507613099716",Elsterplatz
+295,1960296,Emser Platz,bus,A50,,"52.492072890007414, 13.319251387534207",Emser Platz
+296,1960297,Endestrasse Ecke Königstrasse,bus,A6,,"52.41965961978957, 13.160396994674473",Endestrasse
+297,1960298,Englerallee,bus,A16,,"52.46177802552459, 13.304473295414123",Englerallee
+298,1960299,Erdener Strasse Ecke Königsallee,bus,A19,,"52.490558314289494, 13.276360031005654",Erdener Strasse
+299,1960300,Erkner railway station,s-bahn,KBS 102,Q14434071,"52.4296,13.7513",Erkner
+300,1960301,Erkstrasse Ecke Sonnenallee,bus,A67,,"52.48167227551806, 13.440052048368255",Erkstrasse
+301,1960302,Erkstrasse Ecke Sonnenallee,strassenbahn,95,,"52.481692182123005, 13.440150074145068",Erkstrasse
+302,1960303,Ernst-Reuter-Platz metro station,u-bahn,"A I,B I",Q658361,"52.511944444444,13.322222222222",Ernst-Reuter-Platz
+303,1960304,Exerzierstrasse Ecke Badstrasse,bus,A61,,"52.553756646174705, 13.37716619556309",Exerzierstrasse
+304,1960305,Eythstrasse,strassenbahn,60,,"52.45988973432991, 13.36224461313015",Eythstrasse
+305,1960306,Fahlenbergstrasse Ecke Fürstenwalder Allee,bus,A22,,"52.431470149043314, 13.718708856639706",Fahlenbergstrasse Ecke Fürstenwalder Allee
+306,1960307,"Falkenberg, Schule",bus,A46,,"52.56880573894071, 13.549528314980424","Falkenberg, Schule"
+307,1960308,Falkenberger Chaussee Ecke Falkenberger Chaussee,bus,A39,,"52.565816857333125, 13.511913714753",Falkenberger Chaussee
+308,1960309,Falkenberger Strasse Ecke Hansastrasse,bus,A46,,"52.55648662489534, 13.486621227706236",Falkenberger Strasse
+309,1960310,Falkenbergerstrasse Ecke Wartenberger Strasse,strassenbahn,63,,"52.55036672097044, 13.509915032138812",Falkenbergerstrasse Ecke Wartenberger Strasse
+310,1960311,Falkenplatz,bus,A20,,"52.58490937545724, 13.227619925618022",Falkenplatz
+311,1960312,Falkensee railway station,s-bahn,KBS 103,Q5431918,"52.559722,13.088889",Falkensee
+312,1960313,Falkenseer Chaussee Ecke Zeppelinstrasse,bus,"A5,A63",,"52.54750354783305, 13.184668062763297",Falkenseer Chaussee
+313,1960314,Fehrbelliner Platz,bus,A50,,"52.49040638965375, 13.314204217177087",Fehrbelliner Platz
+314,1960315,Fehrbelliner Platz,strassenbahn,"3,44,60",,"52.49032472677901, 13.314317300484289",Fehrbelliner Platz
+315,1960316,U-Fehrbelliner Platz,u-bahn,"B II,A II",Q663245,"52.490277777778,13.314444444444",Fehrbelliner Platz
+316,1960317,Feldtmannstrasse Ecke Berliner Allee,bus,A46,,"52.56401588379611, 13.46980857664685",Feldtmannstrasse
+317,1960318,Berlin Feuerbachstraße station,s-bahn,KBS 104,Q800501,"52.463611111111,13.332777777778",Feuerbachstr.
+318,1960319,"Fichtenau, Stadtgrenze",bus,A22,,"52.45479242349705, 13.701499962608066","Fichtenau, Stadtgrenze"
+319,1960320,Fichtestrasse Ecke Schopenhauerstrasse,bus,A8,,"52.47979924975105, 13.617292306977053",Fichtestrasse Ecke Schopenhauerstrasse
+320,1960321,Finckensteinallee,strassenbahn,74,,"52.43264816323959, 13.294626828766564",Finckensteinallee
+321,1960322,Finowstrasse Ecke Sonnenallee,bus,A4,,"52.48111599303971, 13.441447712348797",Finowstrasse
+322,1960323,Flinsberger Platz,bus,A50,,"52.483689942018465, 13.29268111645926",Flinsberger Platz
+323,1960324,Flughafen,bus,"A24,A19",,"52.470965141866394, 13.385641462324475",Flughafen
+324,1960325,Platz der Luftbrücke,u-bahn,C II,Q557582,"52.485556, 13.385833",Flughafen
+325,1960326,Flughafen Tempelhof,bus,A65,,"52.48504444099743, 13.386014416287884",Flughafen Tempelhof
+326,1960327,Flughafen Tempelhof,strassenbahn,99,,"52.470951203664136, 13.385647245869663",Flughafen Tempelhof
+327,1960328,Forckenbeckstrasse Ecke Hohenzollerndamm,bus,A50,,"52.482221394934605, 13.290044081376928",Forckenbeckstrasse
+328,1960329,U Frankfurter Tor,strassenbahn,"13,4",Q65706246,"52.5153903,13.4540172",Frankfurter Tor/Stalinallee
+329,1960330,Franz-Körner-Strasse,strassenbahn,27,,"52.4558955570012, 13.437258108736897",Franz-K rner-Strasse
+330,1960331,Französische Straße metro station,u-bahn,"C II,C I",Q571479,"52.514722222222,13.389166666667",Französische Str.
+331,1960332,Frauenklinik,strassenbahn,15,,"52.463949908172545, 13.427509548910932",Frauenklinik
+332,1960333,Fredersdorf station,s-bahn,KBS 101,Q15197387,"52.5265,13.7625",Fredersdorf (b Bln)
+333,1960334,Freie Scholle,bus,A20,,"52.599851537868666, 13.301736158422598",Freie Scholle
+334,1960335,Berlin-Friedenau station,s-bahn,KBS 104,Q800471,"52.47,13.341",Friedenau
+335,1960336,Friedenstrasse Ecke Königstrasse,bus,A6,,"52.417223782342035, 13.138950169993388",Friedenstrasse
+336,1960337,Friedhof Rudow,bus,A52,,"52.42113122136662, 13.503199151482875",Friedhof Rudow
+337,1960338,Friedhof Ruhleben,bus,"A5,A31",,"52.527735865422024, 13.231788317801291",Friedhof Ruhleben
+338,1960339,Friedrich-Junge-Strasse Ecke Alt-Stralau,bus,A82P,,"52.49382897072681, 13.471572865851856",Friedrich-Junge-Strasse
+339,1960340,Friedrich-Karl-Strasse Ecke Tempelhofer Damm,strassenbahn,"99,96,98",,"52.455797262882406, 13.383934284553103",Friedrich-Karl-Strasse
+340,1960341,Friedrich-Wilhelm-Platz,bus,A2,,"52.47128806242274, 13.328362126543809",Friedrich-Wilhelm-Platz
+341,1960342,Friedrich-Wilhelm-Platz,strassenbahn,"78,77",,"52.47132415928576, 13.328417218543715",Friedrich-Wilhelm-Platz
+342,1960343,Friedrich-Wilhelm-Platz,bus,A17,,"52.471408713269064, 13.327952650518178",Friedriche-Wilhelm-Platz
+343,1960344,Friedrichsfelde,u-bahn,E,Q429781,"52.506111111111,13.512777777778",Friedrichsfelde (Tierpark)
+344,1960345,Berlin-Friedrichsfelde Ost station,s-bahn,KBS 101,Q800473,"52.5141,13.5198",Friedrichsfelde Ost
+345,1960346,Berlin-Friedrichshagen station,s-bahn,KBS 102,Q800474,"52.4574,13.6233",Friedrichshagen
+346,1960347,Wasserwerk Friedrichshagen,strassenbahn,84,Q66362601,"52.4560563,13.6419956","Friedrichshagen, Wasserwerk"
+347,1960348,S-Bahnhof Friedrichstraße,s-bahn,"KBS 102,KBS 103,KBS 101,KBS 105,KBS 106,KBS 104",Q111219456,"52.52027777777778,13.386944444444444",Friedrichstr.
+348,1960349,Friedrichstrasse Ecke Attilastrasse,strassenbahn,96,,"52.444196064485105, 13.354240299954318",Friedrichstrasse
+349,1960350,Friesenstrasse Ecke Columbiadamm,bus,A4,,"52.483950604682775, 13.394359749805426",Friesenstrasse
+350,1960351,Fritz-Reuter Strasse,strassenbahn,96,,"52.4069257249783, 13.285208270921327",Fritz-Reuter Strasse
+351,1960352,Berlin-Frohnau station,s-bahn,KBS 104,Q800472,"52.6325,13.2902",Frohnau
+352,1960353,Fuldastrasse Ecke Sonnenallee,bus,A67,,"52.483802510465225, 13.435884392882318",Fuldastrasse
+353,1960354,Fürstenbrunner Weg Ecke Spandauer Damm,bus,AS1,,"52.518378845111386, 13.280184750778325",Fürstenbrunner Weg
+354,1960355,Fürstenwalder Damm/Müggelseedamm,strassenbahn,84,Q66361484,"52.4498638,13.661534",Fürstenwalder Damm
+355,1960356,Güntzelstrasse Ecke Uhlandstrasse,bus,A60,,"52.49154575346882, 13.323206588873013",G ntzelstrasse
+356,1960357,Güteraussenring,bus,A42,,"52.599887239389226, 13.469297130431492",G terau enring
+357,1960358,Güterbahnhof Springpfuhl,bus,A43,,"52.52561231977731, 13.533687321893124",G terbahnhof Springpfuhl
+358,1960359,Gabelung,bus,A13,,"52.59988612656876, 13.25204128545515",Gabelung
+359,1960360,Gartenfeld,s-bahn,"KBS 100d,KBS 100c",Q96080469,"52.54695,13.24882",Gartenfeld
+360,1960361,Gartenplatz,bus,A64,,"52.53887149101001, 13.383411331672582",Gartenplatz
+361,1960362,"Gartenplatz, Feldstrasse",bus,A61,,"52.538565896675905, 13.384005277447793","Gartenplatz, Feldstrasse"
+362,1960363,Gartenstadtweg,bus,AD/36,,"52.412313913821045, 13.56660267841369",Gartenstadtweg
+363,1960364,"Gatow, Kirche",bus,"A34,A35",,"52.48684680676539, 13.18215147844503","Gatow, Kirche"
+364,1960365,Gatower Strasse Ecke Alt-Gatow,bus,A35,,"52.489436255649245, 13.180387588417426",Gatower Strasse
+365,1960366,Gehsener Strasse Ecke Mahlsdorfer Strasse,bus,A27,,"52.46321577871702, 13.58365868698432",Gehsener Strasse
+366,1960367,Gerichtstrasse Ecke Brücke,bus,A64,,"52.543829769356805, 13.373374125859685",Gerichstrasse
+367,1960368,Germaniapromenade,strassenbahn,27,,"52.460893594298135, 13.435054421301176",Germaniapromenade
+368,1960369,Germaniastrasse,strassenbahn,"26,15",,"52.46053782557012, 13.418009045149528",Germaniastrasse
+369,1960370,Germersheimer Platz,bus,A35,,"52.54433253766927, 13.187336363919895",Germersheimer Platz
+370,1960371,Gerosteig Ecke Schönefelder Chaussee,bus,A23,,"52.40977095398672, 13.52694351354655",Gerosteig
+371,1960372,S-Bahnhof Berlin-Gesundbrunnen,s-bahn,"KBS 100c,KBS 103a,KBS 105,KBS 100,KBS 106,KBS 104",Q111239092,"52.548611111111,13.389444444444",Gesundbrunnen
+372,1960373,U-Bahnhof Gesundbrunnen,u-bahn,D,Q3761416,"52.548611,13.389444",Gesundbrunnen
+373,1960374,Petershagen Nord railway station,s-bahn,KBS 101,Q7178217,"52.5291,13.791",Giebelsee
+374,1960375,Gleisdreieck,u-bahn,"B II,A I,B I,A II",Q678372,"52.49952,13.37409",Gleisdreieck
+375,1960376,Glesendorfer Strasse Ecke Ostpreußendamm,strassenbahn,96,,"52.42400540933915, 13.314406661268139",Glesendorfer Strasse
+376,1960377,"Glienicke, Breitscheidstrasse",bus,AN,,"52.63978443958746, 13.317697237812467","Glienicke, Breitscheidstrasse"
+377,1960378,"Glienicke, Kirche",bus,"A7,AN",,"52.63062737184449, 13.312861916755343","Glienicke, Kirche"
+378,1960379,Glienicker Brücke,bus,A6,,"52.413474089031965, 13.091235881924467",Glienicker Brücke
+379,1960380,Glogauer Strasse,strassenbahn,26,,"52.493437003779434, 13.43739124697587",Glogauer Strasse
+380,1960381,Gneisenaustraße,u-bahn,C I,Q668618,"52.491388888889,13.395555555556",Gneisenaustr.
+381,1960382,Gneisenaustrasse Ecke Zossener Strasse,bus,A24,,"52.491573255885584, 13.394331623371611",Gneisenaustrasse
+382,1960383,Gneisenaustrasse Ecke Mehringdamm,strassenbahn,95,,"52.49294825885205, 13.387719074166872",Gneisenaustrasse
+383,1960384,Goebelplatz,bus,A65,,"52.53812718171093, 13.27991414794248",Goebelplatz
+384,1960385,Goeben-/Pallasstrasse,bus,A48,,"52.49428616497335, 13.361054367554111",Goeben-/Pallasstrasse
+385,1960386,Goerzallee,strassenbahn,"78,77",,"52.421943941201924, 13.298506647186814",Goerzallee
+386,1960387,Goltzstrasse Ecke Bahnhofstrasse,bus,AS2,,"52.38667572084441, 13.407934498494095",Goltzstrasse
+387,1960388,GorkiStrasse Ecke Ziekowstrasse,bus,A15,,"52.59058892416102, 13.292054679927265",GorkiStrasse
+388,1960389,Gotenstrasse,strassenbahn,25,,"52.4801279061896, 13.360274671318749",Gotenstrasse
+389,1960390,Gottlieb-Dunkel-Strasse Ecke Tempelhofer Weg,bus,A25,,"52.46047500564911, 13.417979057824004",Gottlieb-Dunkel-Strasse
+390,1960391,Gottlieb-Dunkel-Strasse,strassenbahn,6,,"52.46039602352925, 13.418101877605094",Gottlieb-Dunkel-Strasse
+391,1960392,Gotzkowskybrücke,strassenbahn,2,,"52.5225088623222, 13.329076513372739",GotzkowskyBrücke
+392,1960393,GotzkowskyStrasse Ecke Turmstrasse,bus,A24,,"52.52718356053599, 13.330470683683586",GotzkowskyStrasse
+393,1960394,Gotzkowskybrücke Ecke Alt-Moabit,bus,A25,,"52.52381238362036, 13.329729120795239",Gotzkowskybrücke
+394,1960395,Gotzkowskystrasse,strassenbahn,"25,44",,"52.52567490695968, 13.330198327307098",Gotzkowskystrasse
+395,1960396,Gradestrasse,strassenbahn,27,,"52.45261828426318, 13.438552708749976",Gradestrasse
+396,1960397,"Grazer Damm, OverbeckStrasse",bus,A68,,"52.46099592860633, 13.348436775587016","Grazer Damm, OverbeckStrasse"
+397,1960398,Grazer Platz,bus,A25,,"52.467636991817486, 13.347565807885369",Grazer Platz
+398,1960399,Berlin Greifswalder Straße station,s-bahn,"KBS 100,KBS 103a,KBS 100b,KBS 100c",Q439246,"52.539722222222,13.439444444444",Greifswalder Str.
+399,1960400,Greifswalder Strasse Ecke Hönower Strasse,bus,"A44E,A44",,"52.53002871375482, 13.62681794411932",Greifswalder Strasse
+400,1960401,Greifswalder Straße/Danziger Straße,strassenbahn,"13,4",Q65548960,"52.5364975,13.4334045",Greifswalder Strasse
+401,1960402,Greifswalderstrasse Ecke Dimitroffstrasse,bus,O30,,"52.5362177572407, 13.433017500945247",Greifswalderstrasse Ecke Dimitroffstrasse
+402,1960403,Grenadierstrasse Ecke Grunewaldstrasse,bus,"A5,A31",,"52.530981925368565, 13.205371761701368",Grenadierstrasse
+403,1960404,Grenzallee,u-bahn,C I,Q571836,"52.463333333333,13.443888888889",Grenzallee
+404,1960405,Grenzstrasse Ecke Gerichtstrasse,bus,A64,,"52.541822798579034, 13.378147647725354",Grenzstrasse
+405,1960406,Potsdam Griebnitzsee railway station,s-bahn,KBS 102,Q315133,"52.3944,13.1272",Griebnitzsee
+406,1960407,GritznerStrasse Ecke Schildhornstrasse,bus,A32,,"52.464372021076116, 13.31646473581109",GritznerStrasse
+407,1960408,Groß Ziethen,bus,AZ,,"52.41404104155547, 13.438879163306126",Groß Ziethen
+408,1960409,Große Seestrasse Ecke Klement-Gottwald-Allee,bus,A55,,"52.556978565191024, 13.466947877257388",Große Seestrasse Ecke Klement-Gottwald-Allee
+409,1960410,Großer Stern,bus,A66,,"52.514524715463295, 13.349933192922938",Großer Stern
+410,1960411,Großglienicker Weg Ecke Kladower Damm,bus,"A34,A35",,"52.483148805729485, 13.182630557348212",Großglienicker Weg
+411,1960412,Grossbeerenstrasse Ecke Daimlerstrasse,strassenbahn,98,,"52.42636680081003, 13.37431638254586",Grossbeerenstrasse Ecke Daimlerstrasse
+412,1960413,Grottkauer Strasse Ecke Am Baltenring,bus,A49,,"52.52796238368814, 13.600805280630896",Grottkauer Strasse
+413,1960414,Yorckstraße (Großgörschenstraße) station,s-bahn,KBS 104,Q21776726,"52.4922745,13.3678588",Großgörschenstr.
+414,1960415,Berlin-Grunewald station,s-bahn,KBS 102,Q457266,"52.4892,13.2614",Grunewald
+415,1960416,Grunewaldstrasse,strassenbahn,"78,77",,"52.489099571674906, 13.344928521367574",Grunewaldstrasse
+416,1960417,S-Bahnhof Grünau,s-bahn,"KBS 103,KBS 100a",Q111307258,"52.4122,13.5746",Grünau
+417,1960418,Grünberger Straße/Warschauer Straße,strassenbahn,4,Q65706239,"52.5122359,13.452609",Grünberger Strasse
+418,1960419,Grüner Weg Ecke Johannisthaler Chaussee,bus,"A52,A25",,"52.42955863550208, 13.453590733350595",Grüner Weg
+419,1960420,Grünstrasse Ecke Alt-Köpenick,strassenbahn,95,,"52.44496766298328, 13.574157108147524",Grünstrasse
+420,1960421,Grüntaler Straße,strassenbahn,3,Q65807452,"52.555331,13.3909979",Grüntaler Strasse
+421,1960422,Gutschmidstrasse,strassenbahn,27,,"52.440388564703085, 13.434807011438394",Gutschmidstrasse
+422,1960423,Gutschmidtstrasse,bus,A25,,"52.437076827846255, 13.444129425003135",Gutschmidtstrasse
+423,1960424,Gutshof,bus,A34,,"52.47510904064348, 13.120710540203262",Gutshof
+424,1960425,Gutshof Marienfelde,bus,A52,,"52.41088450558385, 13.373192649319066",Gutshof Marienfelde
+425,1960426,Görlitzer Bahnhof,u-bahn,"B II,B I",Q597759,"52.4992,13.428",Görlitzer Bahnhof (Oranienstr.)
+426,1960427,Händelplatz,strassenbahn,"74,78,77,73",,"52.450279094879285, 13.315466784727654",H ndelplatz
+427,1960428,"Hönow, Dorfstrasse",bus,A44,,"52.54884927869554, 13.63648687804691","Hönow, Dorfstrasse"
+428,1960429,Hackbuschstrasse Ecke Torstrasse,bus,A31,,"52.53959956967987, 13.150244533066292",Hackbuschstrasse
+429,1960430,Hackescher Markt,strassenbahn,69,,"52.522700593509725, 13.401605863643521",Hackescher Markt
+430,1960431,"Hackescher Markt, Große Präsidentenstrasse",strassenbahn,"49,63",,"52.523263864316995, 13.401094518381404","Hackescher Markt, Große Präsidentenstrasse"
+431,1960432,Hafenplatz,strassenbahn,"53,54,75,76",,"52.542292547760184, 13.206201126048732",Hafenplatz
+432,1960433,Hagenplatz,bus,"A17,A19",,"52.483382973651, 13.265818700272884",Hagenplatz
+433,1960434,Hainbuchenstrasse Ecke Maximiliankorso,bus,A12,,"52.63427133418521, 13.274824021447571",Hainbuchenstrasse
+434,1960435,Hakenfelde,strassenbahn,"53,75",,"52.57886009874865, 13.210057800310379",Hakenfelde
+435,1960436,Berlin-Halensee station,s-bahn,"KBS 100,KBS 100c",Q800476,"52.4961,13.2906",Halensee
+436,1960437,Hallesches Tor,u-bahn,"B II,C II,C I,B I",Q658302,"52.497777777778,13.391111111111",Hallesches Tor
+437,1960438,Halskestrasse Ecke Steglitzer Damm,bus,A33,,"52.449975911659585, 13.34671540590703",Halskestrasse
+438,1960439,Hamburger Platz,bus,"A56,A45",,"52.555394187589414, 13.438973139463632",Hamburger Platz
+439,1960440,"Hamburger Platz, Potsdamer Strasse",strassenbahn,96,,"52.39831680057728, 13.246541862041411",Hamburger Platz
+440,1960441,"Hamburger Strasse, Rudolf-Mosse-Platz",bus,A60,,"52.475375170002664, 13.303566446005037","Hamburger Strasse, Rudolf-Mosse-Platz"
+441,1960442,Hansaplatz,bus,"A16,A66,A25",,"52.5179343319099, 13.342038193257153",Hansaplatz
+442,1960443,HardenbergStrasse Ecke Joachimsthaler Strasse,bus,"AS3,AS2",,"52.506181479310335, 13.332318460113605",HardenbergStrasse
+443,1960444,Hartmannsweiler Weg Ecke Fischerhüttenstrasse,bus,A53,,"52.43871188132932, 13.248833836243495",Hartmannsweiler Weg
+444,1960445,"Haselhorst, Kirche",bus,A10,,"52.5468281751583, 13.237065889883622","Haselhorst, Kirche"
+445,1960446,Hasenheide,strassenbahn,27,,"52.48634143319353, 13.424222115567844",Hasenheide
+446,1960447,Hatzfeldallee Ecke Budestrasse,bus,A20,,"52.592072752436835, 13.28604590141529",Hatzfeldallee
+447,1960448,Hauptkinderheim,bus,A5,,"52.52819346807093, 13.228649269163302",Hauptkinderheim
+448,1960449,Hauptstrasse/Dominicusstrasse,strassenbahn,"6,25",,"52.48184785648144, 13.34836694193233",Hauptstrasse
+449,1960450,Hauptstrasse (Schöneberg),strassenbahn,"60,66",,"52.48187232227649, 13.348270377910302",Hauptstrasse (Sch neberg)
+450,1960451,Hauptstrasse Ecke Edelweißstrasse,bus,"A45,A55",,"52.58639100900043, 13.367505696398357",Hauptstrasse Ecke Edelwei strasse
+451,1960452,Hauptstrasse Ecke Karlshorster Strasse,strassenbahn,82,,"52.50151144462545, 13.475233514493265",Hauptstrasse Ecke Karlshorster Strasse
+452,1960453,Hausvogteiplatz station,u-bahn,"A I,A II",Q656523,"52.513055555556,13.396666666667",Hausvogteiplatz
+453,1960454,Havelstrasse Ecke Am Juliusturm,bus,A13,,"52.539415684261826, 13.205940707326107",Havelstrasse
+454,1960455,Havensteinstrasse Ecke Gallwitzallee,bus,A2,,"52.43193914217683, 13.346326964020843",Havensteinstrasse
+455,1960456,Heckerdamm Ecke Kurt-Schumacher-Damm,bus,"A62,A21",,"52.53962816572025, 13.295048454368684",Heckerdamm
+456,1960457,Heckmannufer,bus,A28,,"52.49706082077895, 13.44923941809119",Heckmannufer
+457,1960458,Berlin Heerstraße station,s-bahn,"KBS 103,KBS 101",Q800502,"52.5086,13.2586",Heerstr.
+458,1960459,Heidebergplan,bus,A31,,"52.541074133887626, 13.147338727333166",Heidebergplan
+459,1960460,Heidelberger Platz,u-bahn,"B II,A II",Q21777872,"52.479808333333,13.313236111111",Heidelberger Platz
+460,1960461,Heiligensee station,s-bahn,KBS 105,Q800475,"52.6247,13.2292",Heiligensee
+461,1960462,Heiligenseestrasse Ecke Karolinenstraße ,bus,"A20,A14",,"52.59796193636089, 13.275098894138587",Heiligenseestrasse
+462,1960463,"Heilstätten, Wittenau",bus,A62,,"52.58153387498222, 13.333850049151073","Heilst tten, Wittenau"
+463,1960464,"Heinersdorf, Kirche",bus,"A55,A42",,"52.56826376476754, 13.440601903603064","Heinersdorf, Kirche"
+464,1960465,Heinersdorf Kirche,strassenbahn,71,Q65096107,"52.5686908,13.4389053","Heinersdorf, Kirche"
+465,1960466,Heinersdorf,strassenbahn,71,Q65096052,"52.5725511,13.4371063","Heinersdorf, Romain-Rolland-Str."
+466,1960467,Heinrich-Mann-Platz,bus,A45,,"52.57297246262195, 13.392146133350426",Heinrich-Mann-Platz
+467,1960468,Hennigsdorf station,s-bahn,KBS 105,Q800909,"52.638,13.2057",Hennigsdorf
+468,1960469,Hennigsdorf station,s-bahn,KBS 105,Q800909,"52.638,13.2057",Hennigsdorf (b Bln)
+469,1960470,Hermannplatz Ecke Sonnenallee,bus,A67,,"52.48778872855567, 13.425393480017616",Hermannplatz
+470,1960471,Hermannplatz,strassenbahn,"2,95,26,47",,"52.487085572732276, 13.424752445258537",Hermannplatz
+471,1960472,Hermannplatz,u-bahn,"D,C I",Q658929,"52.48629,13.42455",Hermannplatz
+472,1960473,S-Bahnhof Hermannstraße,s-bahn,"KBS 100a,KBS 100",Q111263802,"52.4675,13.431111111111",Hermannstr.
+473,1960474,Hermannstrasse,strassenbahn,"26,15",,"52.46476232618638, 13.432818109719008",Hermannstrasse
+474,1960475,Berlin-Hermsdorf station,s-bahn,KBS 104,Q263189,"52.6178,13.3069",Hermsdorf
+475,1960476,Hertzbergplatz,bus,A67,,"52.477487105395774, 13.448598156816837",Hertzbergplatz
+476,1960477,Hertzbergplatz,strassenbahn,95,,"52.4773735457893, 13.448843811492495",Hertzbergplatz
+477,1960478,"Hessenwinkel, Lindenstrasse",bus,A22,,"52.42653518647879, 13.728458969026482","Hessenwinkel, Lindenstrasse"
+478,1960479,Hildburghauser Strasse Ecke Mariannenstrasse,bus,A11,,"52.416650746748985, 13.338144038711128",Hildburghauser Strasse
+479,1960480,Hildegardstrasse,strassenbahn,44,,"52.48182290823898, 13.320379354651374",Hildegardstrasse
+480,1960481,Hindenburgdamm Ecke Unter den Eichen,bus,A48,,"52.45352507850236, 13.315671490206539",Hindenburgdamm
+481,1960482,Hindenburgdamm,strassenbahn,"78,77",,"52.44956203989038, 13.315244235516836",Hindenburgdamm
+482,1960483,Berlin Hirschgarten station,s-bahn,KBS 102,Q4892435,"52.4579,13.6032",Hirschgarten
+483,1960484,Hirschgarten,strassenbahn,"87,84",Q66360740,"52.4518533,13.6006245",Hirschgarten
+484,1960485,Hobrechtstrasse,strassenbahn,"3,27",,"52.48856144710197, 13.426724565240065",Hobrechtstrasse
+485,1960486,Hochgerichtstrasse Ecke Seegefelder Strasse,bus,"A5,A63",,"52.53838037062423, 13.183009198076522",Hochgerichtstrasse
+486,1960487,Hochmeisterplatz,bus,A4,,"52.49468637986547, 13.301254684721862",Hochmeisterplatz
+487,1960488,Treskowallee/HTW,strassenbahn,"69,69E",Q65952866,"52.4927681,13.5266059",Hochschule f r konomie
+488,1960489,Hoeppnerstrasse Ecke Boelckestrasse,strassenbahn,95,,"52.472457936832924, 13.377907348111798",Hoeppnerstrasse
+489,1960490,Hohefeldstrasse Ecke Burgfrauenstrasse,bus,A12S,,"52.626261954707644, 13.299373462820876",Hohefeldstrasse
+490,1960491,Hohen Neuendorf station,s-bahn,KBS 104,Q4500489,"52.6684,13.287",Hohen-Neuendorf (b Bln)
+491,1960492,"Hohenschönhausen, Falkenberger Strasse",bus,A39,,"52.550229554941964, 13.509585042301534","Hohensch nhausen, Falkenberger Strasse"
+492,1960493,Gehrenseestraße,strassenbahn,"70,64",Q65555882,"52.5508672,13.5094994","Hohensch nhausen, Falkenberger Strasse"
+493,1960494,Gehrenseestraße,strassenbahn,63,Q65555882,"52.5508672,13.5094994","Hohensch nhausen, Gartenstadt"
+494,1960495,Hohenschönhauser Straße,strassenbahn,3,Q65553684,"52.5359329,13.4729468",Hohensch nhauser Strasse
+495,1960496,Bahnhof Hohenschöpping,s-bahn,KBS 105,Q19274489,"52.67,13.1945",Hohenschöpping
+496,1960497,Hohenstaufenplatz,bus,A67,,"52.49085480753271, 13.423419999335453",Hohenstaufenplatz
+497,1960498,Hohenzollerndamm Ecke Teplitzer Strasse,bus,A50,,"52.476835205459196, 13.28097752710442",Hohenzollerndamm
+498,1960499,Berlin Hohenzollerndamm station,s-bahn,KBS 100,Q800503,"52.4885,13.3004",Hohenzollerndamm
+499,1960500,Hohenzollernplatz,u-bahn,"B II,A II",Q571570,"52.493888888889,13.325",Hohenzollernplatz
+500,1960501,Hohenzollernring Ecke Streitstrasse,bus,AS1,,"52.55569430282622, 13.207589665448262",Hohenzollernring
+501,1960502,Holteistrasse,bus,O30,,"52.50859353995203, 13.466288145839554",Holteistrasse
+502,1960503,Boxhagener Straße/Holteistraße,strassenbahn,13,Q65675805,"52.5088235,13.465969",Holteistrasse
+503,1960504,Holzhauser Straße,u-bahn,"C II,C I",Q557566,"52.575833333333,13.296111111111",Holzhauser Str.
+504,1960505,Hoppegarten (Mark) station,s-bahn,KBS 101,Q15197357,"52.5183,13.6734",Hoppegarten (Mark)
+505,1960506,Hottengrund,bus,A35,,"52.44597765000425, 13.126251393745859",Hottengrund
+506,1960507,Mahlsdorf-Süd,strassenbahn,83,Q66368466,"52.4741663,13.5991443",Hubertus
+507,1960508,Hultschiner Damm Ecke Seestrasse,bus,A8,,"52.477084965622495, 13.600602959390953",Hultschiner Damme
+508,1960509,Humannplatz,strassenbahn,70,Q65962652,"52.5493627,13.4213646",Humannplatz
+509,1960510,Berlin Humboldthain station,s-bahn,"KBS 105,KBS 106,KBS 104",Q481276,"52.5451,13.3796",Humboldthain
+510,1960511,Humboldtstrasse Ecke Ollenhauerstrasse,bus,A61,,"52.56929443788896, 13.32995611157798",Humboldtstrasse
+511,1960512,Hundekehlestrasse Ecke Warnemünder Strasse,bus,A10,,"52.47548162130776, 13.290308772196097",Hundekehlestrasse
+512,1960513,Ihnestrasse Ecke Garystrasse,bus,A11,,"52.44831039409289, 13.276355065531465",Ihnestrasse
+513,1960514,Im Fischgrund,bus,A12S,,"52.62965843509205, 13.294335908368284",Im Fischgrund
+514,1960515,Imbrosweg,strassenbahn,15,,"52.443541863050356, 13.398564688322455",Imbrosweg
+515,1960516,Industriestrasse,strassenbahn,"26,15",,"52.455350229930445, 13.409794385645863",Industriestrasse
+516,1960517,Innsbrucker Platz,bus,"A16,A48,A65,A4",,"52.478545508234895, 13.34405868604117",Innsbrucker Platz
+517,1960518,S-Bahnhof Innsbrucker Platz,s-bahn,"KBS 100a,KBS 100",Q111263876,"52.4786,13.3439",Innsbrucker Platz
+518,1960519,Innsbrucker Platz,strassenbahn,"66,74,73,88",,"52.47804266204959, 13.343446877940893",Innsbrucker Platz
+519,1960520,Innsbrucker Platz metro station,u-bahn,B III,Q10275871,"52.4786,13.3439",Innsbrucker Platz (Hauptstr.)
+520,1960521,U Naturkundemuseum,strassenbahn,"11,46E,1,46",Q65552697,"52.5304158,13.3827302",Invaliden- Ecke Chausseestrasse
+521,1960522,U Naturkundemuseum,strassenbahn,"69,70",Q65552697,"52.5304158,13.3827302",Invalidenstrasse Ecke Chausseestrasse
+522,1960523,"Jüdenstrasse, Molkenmarkt",strassenbahn,71,,"52.516142213164905, 13.410591792750504","J denstrasse, Mokenmarkt"
+523,1960524,"Jüdenstrasse, Molkenmarkt",strassenbahn,"74,74E,72",,"52.516142213164905, 13.410591792750504","J denstrasse, Molkenmarkt"
+524,1960525,Jänickestrasse Ecke Seehofstrasse,bus,A53,,"52.427213941734294, 13.271659447787256",J nickestrasse
+525,1960526,Jacobystrasse,strassenbahn,64,,"52.520012454725794, 13.416252598118593",Jacobystrasse
+526,1960527,S-Jannowitzbrücke station,s-bahn,"KBS 103,KBS 102,KBS 101",Q27955427,"52.514822222222,13.41795",Jannowitzbrücke
+527,1960528,Jannowitzbrücke metro station,u-bahn,D,Q27955418,"52.515656,13.418185",Jannowitzbrücke
+528,1960529,"Jerusalems-Kirche, Lindenstrasse",bus,A67,,"52.507080658279015, 13.398349137947935","Jerusalems-Kirche, Lindenstrasse"
+529,1960530,Joachim-Friedrich-Strasse Ecke Kurfürstendamm,bus,"A66,A69,A29",,"52.49796465694724, 13.296270941417216",Joachim-Friedrich-Strasse
+530,1960531,Joachimstaler Strasse,bus,"A60,A29,A66,A19,A69",,"52.50444348896255, 13.335628270538354",Joachimstaler Strasse
+531,1960532,Joachimstrasse Ecke Schulzendorfer Strasse,bus,A38,,"52.40316589631168, 13.57664158970399",Joachimstrasse
+532,1960533,Johannesstift,strassenbahn,54,,"52.56762416524039, 13.191782610265674",Johannesstift
+533,1960534,Haeckelstraße,strassenbahn,"69,69E",Q66225573,"52.4402944,13.5052638","Johannisthal, Haeckelstrasse"
+534,1960535,Johannisthaler Chaussee Ecke Königsheideweg,bus,A47,,"52.45136033294721, 13.488299619950027",Johannisthaler Chaussee
+535,1960536,Johannisthaler Chaussee,strassenbahn,47,,"52.43434580082342, 13.469025837805159",Johannisthaler Chaussee
+536,1960537,John-Foster-Dulles-Allee Ecke Spreeweg,bus,A24,,"52.517085214536316, 13.354609198247653",John-Foster-Dulles-Allee
+537,1960538,S-Bahnhof Jungfernheide,s-bahn,"KBS 100,KBS 100d,KBS 103a,KBS 100c",Q110977325,"52.53035,13.299433333333",Jungfernheide
+538,1960539,Körtingstrasse,strassenbahn,15,,"52.43481849058747, 13.378266822562516",K rtingstrasse
+539,1960540,Küstriner Platz,bus,"O40,O30",,"52.51324778107561, 13.439333192026231",Küstriner Platz
+540,1960541,Kaiser-Friedrich-Strasse,strassenbahn,60,,"52.50672109809353, 13.302260476022617",Kaiser-Friedrich-Strasse
+541,1960542,Kaiser-Wilhelm-Platz,bus,"A48,A4",,"52.486329247981715, 13.35655627172785",Kaiser-Wilhelm-Platz
+542,1960543,Kaiser-Wilhelm-Platz,strassenbahn,"74,73,88",,"52.486331659025346, 13.356584679052645",Kaiser-Wilhelm-Platz
+543,1960544,Kaiser-Wilhelm-Strasse Ecke Grunewaldstrasse,bus,A68,,"52.45976946404443, 13.308246645893039",Kaiser-Wilhelm-Strasse
+544,1960545,Kaiserdamm,u-bahn,"A I,B I",Q656409,"52.51,13.2822",Kaiserdamm (Messedamm)
+545,1960546,Kaisereiche,bus,"A48,A25",,"52.46896806014468, 13.332614886077709",Kaisereiche
+546,1960547,Kaisereiche,strassenbahn,"74,73,88",,"52.468942127334586, 13.332672961457298",Kaisereiche
+547,1960548,Kaiserin-Augusta-Strasse Ecke Tempelhofer Damm,strassenbahn,"99,96,98",,"52.4593658645353, 13.384489423034925",Kaiserin-Augusta-Strasse
+548,1960549,Kaiserstrasse,bus,A33,,"52.445569639174806, 13.385736727448023",Kaiserstrasse
+549,1960550,Kaiserstrasse Ecke Mariendorfer Damm,strassenbahn,"99,98",,"52.44556344693812, 13.385808423835684",Kaiserstrasse
+550,1960551,Kaiserstrasse/Ringstrasse,bus,A33,,"52.44449600134536, 13.372233806361567",Kaiserstrasse/Ringstrasse
+551,1960552,Kanalstrasse Ecke Köpenicker Strasse,bus,A52,,"52.42383870085989, 13.514466425990765",Kanalstrasse
+552,1960553,Kanststrasse Ecke Joachimsthaler Strasse,strassenbahn,76,,"52.505326149170315, 13.331542012085032",Kanststrasse Ecke Joachimsthaler Strasse
+553,1960554,Kantstrasse Ecke Kaiser-Friedrich-Strasse,bus,A21,,"52.50678794910284, 13.302320269833038",Kantstrasse
+554,1960555,Kantstrasse,strassenbahn,44,,"52.5066581876951, 13.306688471208883",Kantstrasse
+555,1960556,Karl-Marx-Platz,strassenbahn,"26,47",,"52.47358382682129, 13.44070604138443",Karl-Marx-Platz
+556,1960557,Karl-Marx-Straße,u-bahn,C I,Q519494,"52.476111111111,13.439166666667",Karl-Marx-Str.
+557,1960558,S-Bahnhof Berlin Karlshorst,s-bahn,KBS 102,Q111327045,"52.4808,13.5258",Karlshorst
+558,1960559,Karlshorster Strasse,strassenbahn,13,,"52.502334098187674, 13.475466875195085",Karlshorster Strasse
+559,1960560,Karolinenstrasse Ecke Hermsdorfer Damm,bus,A20,,"52.59678679258494, 13.276661373436578",Karolinenstrasse
+560,1960561,S-Bahnhof Berlin Karow,s-bahn,KBS 106,Q111324168,"52.615,13.4692",Karow
+561,1960562,"Karow, Bahnhofstrasse Ecke Alt-Karow",bus,A42,,"52.60931228539711, 13.481265848599735","Karow, Bahnhofstrasse"
+562,1960563,Kaserne Südtor,bus,A21,,"52.55685969560147, 13.3084342409763",Kaserne Südtor
+563,1960564,"Kaserne, Südtor",bus,A62,,"52.55688433775636, 13.308474689835576","Kaserne, Südtor"
+564,1960565,Katzbachstrasse Ecke Yorckstrasse,bus,A19,,"52.491584280543336, 13.376725460315825",Katzbachstrasse
+565,1960566,Berlin-Kaulsdorf railway station,s-bahn,KBS 101,Q800478,"52.5121,13.5904",Kaulsdorf
+566,1960567,"Kaulsdorf, Bausdorfstrasse",bus,A49,,"52.51256368150751, 13.601906818686038","Kaulsdorf, Bausdorfstrasse"
+567,1960568,"Stralau, Kinderheim",bus,A82P,,"52.4898153097415, 13.481404230737937",Kinderheim
+568,1960569,Kinderheim Ruhleben,bus,A31,,"52.52796709321304, 13.230713275419049",Kinderheim Ruhleben
+569,1960570,Kirchstrasse Ecke Berliner Strasse,bus,A12,,"52.61485248170046, 13.317034418727145",Kirchstrasse
+570,1960571,Kirschenallee,strassenbahn,"53,54",,"52.52037354122697, 13.267241546337495",Kirschenallee
+571,1960572,Kladow,bus,Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt),,"52.45156751539905, 13.147837826277277",Kladow
+572,1960573,Klausenerplatz,strassenbahn,60,,"52.519202008553854, 13.291867366490655",Klausenerplatz
+573,1960574,Klein Ziethen,bus,AZ,,"52.379580499215606, 13.44656986522325",Klein Ziethen
+574,1960575,Kleinbahn,strassenbahn,27,,"52.43807132314782, 13.434972230288995",Kleinbahn
+575,1960576,Berliner Allee Ecke Bernkasteler Straße,strassenbahn,74E,,"52.55692922136002, 13.466986575595088",Klement-Gottwald-Allee
+576,1960577,Klement-Gottwald-Allee Ecke Bernkasteler Strasse,bus,"A46,A45",,"52.556890194751446, 13.466997407258916",Klement-Gottwald-Allee Ecke Bernkasteler Strasse
+577,1960578,Klement-Gottwald-Allee Ecke Bernkasteler Strasse,strassenbahn,"74,72",,"52.557020581568636, 13.466903185329526",Klement-Gottwald-Allee Ecke Bernkasteler Strasse
+578,1960579,Klement-Gottwald-Allee/Lichtenberger Strasse,strassenbahn,3,,"52.55197851771295, 13.465492657377409",Klement-Gottwald-Allee/Lichtenberger Strasse
+579,1960580,Blockdammweg,strassenbahn,13,Q66085182,"52.4842462,13.5104609","Klingenberg, Blockdammweg"
+580,1960581,Klingsorstrasse Ecke Albrechtstrasse,bus,A33,,"52.45309021884074, 13.33121103955973",Klingsorstrasse
+581,1960582,Klinkeplatz,bus,AS1,,"52.555551464661846, 13.198549783852652",Klinkeplatz
+582,1960583,Klosterstraße station,u-bahn,"A I,A II",Q657893,"52.516111111111,13.412222222222",Klosterstr.
+583,1960584,Klosterstrasse,bus,O30,,"52.51798604342281, 13.412126746747086",Klosterstrasse
+584,1960585,Herzbergstraße/Industriegebiet,strassenbahn,"69,69E",Q65685127,"52.5265974,13.4897656",Klubhaus VEB Elektrokohle
+585,1960586,Knesebeckstrasse Ecke Seehofstrasse,bus,A53,,"52.428912094809505, 13.267664971836647",Knesebeckstrasse
+586,1960587,Kniprodestraße/Danziger Straße,strassenbahn,"13,69E,4",Q65707391,"52.5325286,13.4406868",Kniprodestrasse
+587,1960588,Kniprodestrasse Ecke Ermländische Strasse,bus,A57,,"52.53412263578274, 13.444622763935293",Kniprodestrasse Ecke Erml ndische Strasse
+588,1960589,KoblanckStrasse Ecke Am Großen Wannsee,bus,A51,,"52.426175417562064, 13.161460962278303",KoblanckStrasse
+589,1960590,Kochstraße,u-bahn,"C II,C I",Q201849,"52.505897222222,13.390611111111",Kochstr.
+590,1960591,Kohlhasenbrück,bus,A18,,"52.397602179732665, 13.143663292364124",Kohlhasenbr ck
+591,1960592,"Kolonie ""Daheim""",bus,A7,,"52.59913791742047, 13.402821383403936","Kolonie ""Daheim"""
+592,1960593,"Kolonie ""Land in Sonne"" Ecke Wartenberger Strasse",bus,A39,,"52.55462883361286, 13.511870302373488","Kolonie ""Land in Sonne"""
+593,1960594,Kongreßhalle,bus,A69,,"52.51763253396976, 13.363196975404886",Kongre halle
+594,1960595,Konstanzer Strasse Ecke Hohenzollerndamm,bus,A50,,"52.48857876641685, 13.308077083720315",Konstanzer Strasse
+595,1960596,Konsum Wernsdorf,bus (Umlandlinie),Schmöckwitz<>Ziegenhals (VEB Kraftverkehr Schöneiche-Rüdersdorf),,"52.36448396303661, 13.698441127852544",Konsum Wernsdorf
+596,1960597,Konsum Ziegenhals,bus (Umlandlinie),Schmöckwitz<>Ziegenhals (VEB Kraftverkehr Schöneiche-Rüdersdorf),,"52.353014165379946, 13.671672670712805",Konsum Ziegenhals
+597,1960598,Kopenhagener Strasse & Klemkestrasse,bus,A14,,"52.574260461143574, 13.359154742049908",Kopenhagener Strasse
+598,1960599,Kopenhagener Strasse,strassenbahn,35,,"52.57425957923555, 13.359163922630154",Kopenhagener Strasse
+599,1960600,Klosterstrasse,bus,O30,,"52.51798604342281, 13.412126746747086",Kosterstrasse
+600,1960601,Kottbusser Brücke,bus,A67,,"52.496030844936435, 13.420070402767054",Kottbusser Brücke
+601,1960602,Schönleinstraße metro station,u-bahn,D,Q666868,"52.493055555556,13.421944444444",Kottbusser Damm (Schönleinstr.)
+602,1960603,Kottbusser Tor station,u-bahn,"B II,D,B I",Q819768,"52.499166666667,13.418055555556",Kottbusser Tor
+603,1960604,Krampnitzer Weg Ecke Sarkower Landstrasse,bus,A35,,"52.45227343259078, 13.13842230425098",Krampnitzer Weg
+604,1960605,Krankenhaus Havelhöhe,bus,"A34,A35",,"52.462919334280684, 13.15899083159388",Krankenhaus Havelh he
+605,1960606,Krankenhaus Heckeshorn,bus,A51,,"52.43498872792054, 13.161716693825408",Krankenhaus Heckeshorn
+606,1960607,Krankenhaus Hohengatow,bus,"A34,A35",,"52.470449875602235, 13.169391604448148",Krankenhaus Hohengatow
+607,1960608,Krankenhaus Moabit,bus,A70,,"52.52631363859675, 13.347762408358612",Krankenhaus Moabit
+608,1960609,Krankenhaus Tegel-Süd,bus,A13,,"52.57573397877684, 13.278749331662",Krankenhaus Tegel-Süd
+609,1960610,Krankenhaus Wannsee,bus,A51,,"52.43102764694952, 13.164964517227903",Krankenhaus Wannsee
+610,1960611,Krankenhaus Neukölln,strassenbahn,47,,"52.43977054074335, 13.459359057866306",Krankenhause Neukölln
+611,1960612,Kreuzbergstrasse Ecke Kreuzbergstrasse,bus,A28,,"52.48940663862394, 13.376689964763667",Kreuzbergstrasse
+612,1960613,Kronprinzessinen Weg Ecke Potsdamer Chaussee,bus,A18,,"52.41994047416807, 13.17530094854083",Kronprinzessinen Weg
+613,1960614,Krumme Lanke,bus,A53,,"52.44306722365605, 13.24053434190107",Krumme Lanke
+614,1960615,Krumme Lanke metro station,u-bahn,"B II,A II",Q663945,"52.443333333333,13.241388888889",Krumme Lanke
+615,1960616,Kurfürstendamm,strassenbahn,"3,44,60",,"52.500053170346966, 13.306918433906269",Kurfürstendamm
+616,1960617,Kurfürstenstraße metro station,u-bahn,"B II,B I",Q690203,"52.5,13.361944444444",Kurfürstenstr.
+617,1960618,Kurfürstenstrasse Ecke Ringstrasse,bus,A33,,"52.445643034300396, 13.36805209564975",Kurfürstenstrasse
+618,1960619,Kurische Strasse,bus,A9,,"52.53541468899389, 13.439085794623837",Kurische Strasse
+619,1960620,Kurt-Fischer-Platz,bus,A7,,"52.57973292845757, 13.398330728468228",Kurt-Fischer-Platz
+620,1960621,Grabbeallee/Pastor-Niemöller-Platz,strassenbahn,"46E,22,46",Q65032974,"52.578668,13.3983016",Kurt-Fischer-Platz
+621,1960622,"Kurt-Schumacher-Damm, Jakob-Kaiser-Platz",bus,A65,,"52.53691363313431, 13.29370181789795",Kurt-Schumacher-Damme
+622,1960623,Kurt-Schumacher-Platz,bus,A21,,"52.563438249109005, 13.32713028618972",Kurt-Schumacher-Platz
+623,1960624,Kurt-Schumacher-Platz,u-bahn,"C II,C I",Q555916,"52.563555555556,13.326572222222",Kurt-Schumacher-Platz
+624,1960625,Köllnische Heide station,s-bahn,KBS 100a,Q800505,"52.4694,13.4675",Köllnische Heide
+625,1960626,Köllnischer Platz,strassenbahn,"86,84",Q66363379,"52.4447189,13.5686225",Köllnischer Platz
+626,1960627,Königin-Elisabeth-Strasse Ecke Spandauer Damm,bus,A65,,"52.51841060617521, 13.280216309480307",Königin-Elisabeth-Strasse
+627,1960628,Königin-Elisabeth-Strasse,strassenbahn,"60,53,54",,"52.51841661774004, 13.280185271122395",Königin-Elisabeth-Strasse
+628,1960629,Königs Wusterhausen station,s-bahn,KBS 103,Q178002,"52.2966,13.6311",Königs Wusterhausen
+629,1960630,Königstor,bus,"O40,O30,A57,A9",,"52.52520269485428, 13.419834994127731",Königstor
+630,1960631,Königstor,strassenbahn,"74,74E",,"52.52821600265539, 13.423869016265495",Königstor
+631,1960632,Königstrasse Ecke Kronprinzessinnenweg,bus,A6,,"52.41987226002477, 13.175332944592043",Königstrasse
+632,1960633,Königstrasse/Kronprinzessinnenweg,bus,A51,,"52.41989533124603, 13.17532169204708",Königstrasse/Kronprinzessinnenweg
+633,1960634,Sterndamm/Königsheideweg,strassenbahn,"69,69E",Q66236157,"52.4467799,13.5066707",Königsweide
+634,1960635,Berlin-Köpenick station,s-bahn,KBS 102,Q800479,"52.4586,13.5808",Köpenick
+635,1960636,"Köpenick, Krankenhaus",bus,A27,,"52.43861200573594, 13.592411258792163","Köpenick, Krankenhaus"
+636,1960637,Krankenhaus Köpenick/Südseite,strassenbahn,95,Q66091900,"52.4388396,13.5920763","Köpenick, Krankenhaus"
+637,1960638,Köpenicker Landstrasse Ecke Baumschulenstrasse,strassenbahn,87,,"52.46913201072182, 13.491340045687773",Köpenicker Landstrasse Ecke Baumschulenstrasse
+638,1960639,Köpenicker Strasse Ecke Neuköllner Strasse,bus,A52,,"52.417188859212956, 13.493835883883817",Köpenicker Strasse
+639,1960640,Köpenicker Strasse,strassenbahn,"84,47",,"52.420483475304536, 13.538745338445915",Köpenicker Strasse
+640,1960641,Köpenicker Strasse Ecke Adalbertstrasse,strassenbahn,11,,"52.50851870094253, 13.425367474591651",Köpenicker Strasse Ecke Adalbertstrasse
+641,1960642,Köpenicker landstrasse Ecke Schnellstrasse,strassenbahn,95,,"52.464462017739535, 13.49806222885837",Köpenicker landstrasse
+642,1960643,Landgericht,bus,A65,,"52.52698925988807, 13.297167647658592",Landgericht
+643,1960644,Lange Strasse Ecke Lorenzstrasse,bus,A11,,"52.42401188883506, 13.333131159875414",Lange Strasse
+644,1960645,Langhans Strasse Ecke Gustav-Adolf-Strasse,bus,A45,,"52.55362785776103, 13.434716400018274",Langhans Strasse Ecke Gustav-Adolf-Strasse
+645,1960646,Lankwitz station,s-bahn,KBS 106,Q800481,"52.4386,13.3417",Lankwitz
+646,1960647,"Lankwitz, Kirche",bus,"A32,A2",,"52.43629186979271, 13.345745387354132","Lankwitz, Kirche"
+647,1960648,"Lankwitz, Kirche",strassenbahn,96,,"52.43629411008752, 13.34577793920493","Lankwitz, Kirche"
+648,1960649,Lauenburger Platz,strassenbahn,88,,"52.46143498949673, 13.339359587543699",Lauenburger Platz
+649,1960650,Lauterplatz,strassenbahn,"74,73",,"52.475528954378376, 13.340160154844037",Lauterplatz
+650,1960651,Lehnitz station,s-bahn,KBS 104,Q4258498,"52.7411,13.2635",Lehnitz
+651,1960652,Berlin Lehrter Stadtbahnhof,s-bahn,"KBS 103,KBS 102,KBS 101",Q821299,"52.5253,13.3694",Lehrter Stadtbahnhof
+652,1960653,Leibnizstrasse Ecke Kurfürstendamm,bus,A69,,"52.500627503224926, 13.313055212502604",Leibnizstrasse
+653,1960654,Leinestraße,u-bahn,D,Q668563,"52.472777777778,13.428333333333",Leinestr.
+654,1960655,Leipziger Platz,strassenbahn,74,,"52.509702294625804, 13.37945987267241",Leipziger Platz
+655,1960656,Berlin Landsberger Allee station,s-bahn,"KBS 100,KBS 103a,KBS 100b,KBS 100c",Q800507,"52.5295,13.4548",Leninallee
+656,1960657,Landsberger Allee/Petersburger Straße,strassenbahn,"13,4",Q65553230,"52.5259343,13.4462368",Leninallee
+657,1960658,Leninplatz,bus,O40,,"52.523238998562235, 13.433594583798834",Leninplatz
+658,1960659,Platz der Vereinten Nationen,strassenbahn,"69,64,63,1",Q65553105,"52.5232658,13.4326457",Leninplatz
+659,1960660,Lenzener Platz,bus,A64,,"52.54313288032456, 13.37637516456218",Lenzener Platz
+660,1960661,LeonorenStrasse Ecke Siemensstrasse,bus,"A17,A32",,"52.444386837647556, 13.338876103590831",LeonorenStrasse
+661,1960662,Leonorenstrasse Ecke Siemensstrasse,bus,A2,,"52.444367159567626, 13.338879863390057",Leonorenstrasse
+662,1960663,Leopoldplatz metro station,u-bahn,"C II,C I",Q1960809,"52.5465,13.3591",Leopoldplatz
+663,1960664,Lepsiusstrasse Ecke Grunewaldstrasse,bus,A68,,"52.45883023513571, 13.315599065479873",Lepsiusstrasse
+664,1960665,Lerbacher Weg Ecke Gallwitzallee,bus,A2,,"52.42568078153998, 13.34761442595845",Lerbacher Weg
+665,1960666,"Letteplatz, Strassenbahnhof",bus,A71,,"52.56410522486749, 13.371107480641978","Letteplatz, Strassenbahnhof"
+666,1960667,Leuthingerweg Ecke Seegefelder Weg,bus,A63,,"52.54180680726089, 13.163727103711182",Leuthingerweg
+667,1960668,Berlin-Lichtenberg station,s-bahn,KBS 101,Q634247,"52.5106,13.4964",Lichtenberg
+668,1960669,Lichtenrade station,s-bahn,KBS 105,Q6543354,"52.3876,13.3963",Lichtenrade
+669,1960670,"Lichtenrade, Blohmstrasse Ecke Wünsdorfer Strasse",bus,AS2,,"52.38867479174066, 13.39433396909652","Lichtenrade, Blohmstrasse Ecke W nsdorfer Strasse"
+670,1960671,"Lichtenrade, Goethestrasse Ecke Lichtenrader Damm",bus,AS2,,"52.40437993547595, 13.406198387437845","Lichtenrade, Goethestrasse"
+671,1960672,Lichtenrader Damm Ecke Marienfelder Chaussee,bus,A52,,"52.41457407591286, 13.401100479114065",Lichtenrader Damm
+672,1960673,S-Bahnhof Berlin Lichterfelde-Ost,s-bahn,KBS 106,Q111311299,"52.43,13.3289",Lichterfelde Ost
+673,1960674,Lichterfelde Süd station,s-bahn,KBS 106,Q800482,"52.41,13.3086",Lichterfelde Süd
+674,1960675,S-Bahnhof Berlin Lichterfelde West,s-bahn,KBS 104,Q111327103,"52.4433,13.2947",Lichterfelde West
+675,1960676,Lindenberg,bus,AL,,"52.602597712625055, 13.5250306401055",Lindenberg
+676,1960677,Lindenberger Weg Ecke Karower Chaussee,bus,A42,,"52.63267168488251, 13.500299102148412",Lindenberger Weg
+677,1960678,Lindenstrasse Ecke Müllerstrasse,bus,A1,,"52.41754704184675, 13.306637505969373",Lindenstrasse
+678,1960679,Lindenstrasse Ecke Oranienstrasse,strassenbahn,99,,"52.50703628824205, 13.398245194666595",Lindenstrasse
+679,1960680,Bahnhofstraße/Lindenstraße,strassenbahn,"86,84,83",Q66095701,"52.4505094,13.572684",Lindenstrasse Ecke Bahnhofstrasse
+680,1960681,Bahnhofstraße/Lindenstraße,strassenbahn,95,Q66095701,"52.4505094,13.572684","Lindenstrasse, Bahnhofstrasse"
+681,1960682,Berlin Mexikoplatz station,s-bahn,KBS 104,Q315891,"52.4375,13.2325",Lindenthaler Allee
+682,1960683,Lindenweg Ecke Roedern Allee,bus,"A12,A14",,"52.58320838924275, 13.343677581838621",Lindenweg
+683,1960684,Loewenhardtdamm Ecke Badener Ring,bus,A28,,"52.48165790097863, 13.374453287679744",Loewenhardtdamm
+684,1960685,Louise-Schroeder-Platz,bus,A16,,"52.55713317342601, 13.365513694540711",Louise-Schroeder-Platz
+685,1960686,Ludwigkirchstrasse/Pariser Strasse,bus,A60,,"52.497535465268555, 13.324328066962357",Ludwigkirchstrasse/Pariser Strasse
+686,1960687,Luisenplatz,bus,"A62,A65,A21,AS1",,"52.52005408723936, 13.2995133852506",Luisenplatz
+687,1960688,Luisenplatz,strassenbahn,"55,53,54",,"52.51951940474329, 13.300024347605849",Luisenplatz
+688,1960689,Lupsteiner Weg Ecke Sachtlebenstrasse,bus,A10,,"52.40950895120702, 13.251647735398342",Lupsteiner Weg
+689,1960690,Lutherstrasse Ecke Kleiststrasse,bus,"A69,A29",,"52.50104544166847, 13.34692193817342",Lutherstrasse
+690,1960691,Rosa-Luxemburg-Platz station,u-bahn,"A I,A II",Q658790,"52.528333333333,13.410277777778",Luxemburgplatz
+691,1960692,Luzerner Strasse,bus,A53,,"52.42399460780493, 13.293333572320618",Luzerner Strasse
+692,1960693,Lynarstrasse Ecke Neuendorfer Strasse,bus,AS1,,"52.54898935768741, 13.210225795636823",Lynastrasse
+693,1960694,"Lübars, Dorfaue",bus,A20,,"52.62095733281459, 13.358934481999336","Lübars, Dorfaue"
+694,1960695,Lübarser Strasse Ecke Eichhorster Weg,bus,A15,,"52.602792196244636, 13.335729351721078",Lübarser Strasse
+695,1960696,Lützowplatz,bus,"A16,A69,A24",,"52.505029017314186, 13.351822867208506",Lützowplatz
+696,1960697,Lützowstraße & Potsdamer Straße,strassenbahn,"74,73,88",,"52.503071437757164, 13.365720679612895",Lützowstrasse
+697,1960698,Münsterlandstrasse Ecke Weitlingstrasse,bus,O30,,"52.50383417220682, 13.494663579681129",M nsterlandstrasse
+698,1960699,Machandelweg,bus,"A5,A31",,"52.52483519555124, 13.24567177943413",Machandelweg
+699,1960700,Machnower Schleuse,strassenbahn,96,,"52.39513316459733, 13.20831380290797",Machnower Schleuse
+700,1960701,Magdalenenstraße,u-bahn,E,Q473901,"52.5125,13.486388888889",Magdalenenstr.
+701,1960702,Magistratsweg Ecke Brunsbütteler Damm,bus,A31,,"52.5331201414446, 13.158067208455051",Magistratsweg
+702,1960703,Mahlow station,s-bahn,KBS 105,Q2641431,"52.3602,13.4085",Mahlow
+703,1960704,Mahlsdorf railway station,s-bahn,KBS 101,Q800484,"52.5121,13.6106",Mahlsdorf
+704,1960705,Mahlsdorf-Süd,strassenbahn,83,Q66368466,"52.4741663,13.5991443",Mahlsdorf-Süd
+705,1960706,Mahlsdorf-Süd,strassenbahn,"86,82",Q66368466,"52.4741663,13.5991443","Mahlsdorf-Süd, Hubertus"
+706,1960707,"Malchow, Dorfstrasse",bus,"AL,A46",,"52.580462270708544, 13.482797576255583","Malchow, Dorfstrasse"
+707,1960708,Malchower Weg Ecke Falkenberger Chaussee,bus,A46,,"52.56152031238405, 13.500485897507804",Malchower Weg
+708,1960709,Malhlsdorfer Allee Ecke Köpenicker Allee,bus,A8,,"52.48487246674627, 13.628942223225485",Malhlsdorfer Allee
+709,1960710,Marburger Strasse Ecke Tauentzienstraße ,bus,A62,,"52.50371964602222, 13.337728344178407",Marburger Strasse
+710,1960711,Marchandstrasse Ecke Maltestrasse,bus,A32,,"52.423049326436605, 13.357354547531147",Marchandstrasse
+711,1960712,Weberwiese,u-bahn,E,Q551768,"52.516794444444,13.444991666667",Marchlewskistr.
+712,1960713,Margaretenstrasse (Sharounstrasse),bus,A48,,"52.50894074108115, 13.36866960388795",Margaretenstrasse
+713,1960714,Mariannenplatz,bus,A28,,"52.50228674193422, 13.42408622658593",Mariannenplatz
+714,1960715,Attilastraße station,s-bahn,KBS 105,Q800497,"52.4478,13.3609",Mariendorf
+715,1960716,Mariendorfer Allee,strassenbahn,27,,"52.44417698631804, 13.433567533504721",Mariendorfer Allee
+716,1960717,Mariendorfer Damm Ecke Kaiserstrasse,bus,AS2,,"52.445604468950826, 13.385816551199863",Mariendorfer Damm
+717,1960718,Mariendorfer Damm,strassenbahn,15,,"52.44016299080784, 13.387234623097394",Mariendorfer Damm
+718,1960719,Mariendorfer Damm Ecke Alt-Mariendorf,strassenbahn,98,,"52.4401803123353, 13.38732780334823",Mariendorfer Damm Ecke Alt-Mariendorf
+719,1960720,Mariendorfer Friedhof,strassenbahn,15,,"52.44953069256824, 13.404755931664896",Mariendorfer Friedhof
+720,1960721,Mariendorfer Weg,strassenbahn,27,,"52.46469434328643, 13.432932867671957",Mariendorfer Weg
+721,1960722,Marienfelde station,s-bahn,KBS 105,Q800485,"52.4242,13.3747",Marienfelde
+722,1960723,Marienfelder Allee Ecke Maltestrasse,bus,A32,,"52.413790430379194, 13.362098895780415",Marienfelder Allee
+723,1960724,Marienfelder Chaussee Ecke Mariendorfer Damm,strassenbahn,99,,"52.4146041420917, 13.40113672565082",Marienfelder Chaussee
+724,1960725,Marienfelder Strasse Ecke Maltestrasse,bus,A32,,"52.43338754214616, 13.353023554563793",Marienfelder Strasse
+725,1960726,Marienfelder Strasse Ecke Lichtenrader Damm,strassenbahn,99,,"52.392463281396054, 13.406662016554435",Marienfelder Strasse
+726,1960727,Marienstrasse Ecke Königsberger Strasse,bus,A11,,"52.42960010456386, 13.321303543636025",Marienstrasse
+727,1960728,Markgrafendamm,bus,A82P,,"52.49919969372071, 13.465742293248686",Markgrafendamm
+728,1960729,Marktplatz Adlershof,strassenbahn,84,,"52.43777454049099, 13.54773332680887",Marktplatz
+729,1960730,Martin-Luther-Friedhof,bus,A20,,"52.598400543805816, 13.298350500981082",Martin-Luther-Friedhof
+730,1960731,Martin-Luther-Strasse,strassenbahn,"60,3",,"52.488858993840374, 13.344921966484465",Martin-Luther-Strasse
+731,1960732,Marx-Engels-Platz,bus,"A57,A9",,"52.51617617310524, 13.400937413635054",Marx-Engels-Platz
+732,1960733,Berlin Hackescher Markt station,s-bahn,"KBS 103,KBS 102,KBS 101",Q689312,"52.5226,13.4022",Marx-Engels-Platz
+733,1960734,"Marzahn, Berliner Chaussee Ecke Rraoul-Wallenberg-Strasse",bus,A43,,"52.54469782123951, 13.564560329042491","Marzahn, Berliner Chaussee"
+734,1960735,Masurenallee Ecke Königin-Elisabeth-Strasse,bus,A65,,"52.50642938866968, 13.280405207863838",Masurenallee
+735,1960736,Mattenbuder Pfad & Henningsdorfer Strasse,bus,A14,,"52.61696067657215, 13.220550425237422",Mattenbuder Pfad
+736,1960737,Mehringdamm Ecke Gneisenaustrasse,bus,"A28,A19",,"52.49293917608851, 13.38772030059097",Mehringdamm
+737,1960738,Mehringdamm,strassenbahn,"3,2",,"52.49298792323627, 13.387950331490586",Mehringdamm
+738,1960739,Mehringdamm,u-bahn,"C II,C I",Q657905,"52.493888888889,13.388333333333",Mehringdamm
+739,1960740,Mehringplatz,strassenbahn,99,,"52.4979249057416, 13.39108106831653",Mehringplatz
+740,1960741,Mehringplatz (Hallesches Tor),strassenbahn,98,,"52.4979249057416, 13.39108106831653",Mehringplatz (Hallesches Tor)
+741,1960742,Messedamm,bus,A4,,"52.50446814877144, 13.279412101845791",Messedamm
+742,1960743,Messedamm,strassenbahn,"75,76",,"52.50641938570246, 13.280392436943686",Messedamm
+743,1960744,Mimosenweg Ecke Kanalstrasse,bus,A52,,"52.42675928719203, 13.506179808906213",Mimosenweg
+744,1960745,Mittelstrasse Ecke Potsdamer Strasse,bus,A18,,"52.43475141442549, 13.249262104251452",Mittelstrasse
+745,1960746,Moltkestrasse,strassenbahn,"74,73",,"52.440407040891834, 13.316309800686549",Moltkestrasse
+746,1960747,Moritzplatz,bus,A67,,"52.50387355112676, 13.409983330065609",Moritzplatz
+747,1960748,Moritzplatz station,u-bahn,D,Q374225,"52.503611111111,13.410833333333",Moritzplatz
+748,1960749,Moritzstrasse Ecke Altstädter Ring,bus,A63,,"52.538616245338716, 13.20068787610921",Moritzstrasse
+749,1960750,Munsterdamm Ecke Bergstrasse,bus,A68,,"52.45912869204209, 13.348683628449525",Munsterdamm
+750,1960751,Märkisches Museum station,u-bahn,"A I,A II",Q657871,"52.511944444444,13.408888888889",Märkisches Museum
+751,1960752,Möckernbrücke U-Bahn station,u-bahn,"B II,B I",Q704716,"52.499166666667,13.382777777778",Möckernbrücke
+752,1960753,Mühlenweg Ecke Konradshöherstrasse,bus,A20,,"52.59350028783369, 13.248862690560857",Mühlenstrasse
+753,1960754,Mühlenstrasse,strassenbahn,"3,4",,"52.508543937506005, 13.43489757970717",Mühlenstrasse
+754,1960755,Nassauische Strasse Ecke Güntzelstrasse,bus,A50,,"52.4911618772095, 13.326528822264246",Nassauische Strasse
+755,1960756,Nauener Platz,strassenbahn,"35,25",,"52.55153667645967, 13.367355320761433",Nauener Platz
+756,1960757,Nauener Strasse & Brunsbütteler Damm,bus,A31,,"52.5340443007014, 13.18167584141312",Nauener Strasse
+757,1960758,Nauener Strasse,strassenbahn,55,,"52.5384290651878, 13.182388284496431",Nauener Strasse
+758,1960759,Heinrich-Heine-Straße station,u-bahn,D,Q663204,"52.510833333333,13.416388888889",Neanderstr.
+759,1960760,Nettelbeckplatz,bus,A64,,"52.54467606570895, 13.370138361814583",Nettelbeckplatz
+760,1960761,Nettelbeckplatz,strassenbahn,35,,"52.54423653105294, 13.369853072459598",Nettelbeckplatz
+761,1960762,Neu-Lindenberg,bus,AL,,"52.600885625411856, 13.554794085696633",Neu-Lindenberg
+762,1960763,Neu-Westend,u-bahn,B I,Q656431,"52.515555555556,13.261111111111",Neu-Westend
+763,1960764,Neue Wagenhalle,strassenbahn,96,,"52.39221410393183, 13.231155595625713",Neue Wagenhalle
+764,1960765,Neuenhagen station,s-bahn,KBS 101,Q7001614,"52.5208,13.7003",Neuenhagen (b Bln)
+765,1960766,S-Bahnhof Berlin Neukölln,s-bahn,"KBS 100a,KBS 100",Q111325412,"52.469166666667,13.441666666667",Neukölln
+766,1960767,Neukölln (Südring) metro station,u-bahn,C I,Q21272767,"52.469444,13.442222",Neukölln (Südring)
+767,1960768,Neuköllnische Allee Ecke Grenzallee,bus,A67,,"52.468152065072715, 13.460620591028498",Neuköllnische Allee
+768,1960769,"Niederschönhausen, Idastrasse bzw. Nordend",strassenbahn,46E,,"52.5826456245908, 13.412764320279857","Niedersch nhausen, Idastrasse bzw. Nordend"
+769,1960770,Schillerstraße,strassenbahn,46,Q65032581,"52.5923051,13.41088","Niedersch nhausen, Schillerstrasse"
+770,1960771,Berlin-Nikolassee station,s-bahn,"KBS 102,KBS 104",Q637052,"52.4317,13.1933",Nikolassee
+771,1960772,Nikolskoer Weg Ecke Königstrasse,bus,A6,,"52.41405938531216, 13.109270752484141",Nikolskoer Weg
+772,1960773,Nollendorfplatz,bus,A19,,"52.49968843634292, 13.353086438468269",Nollendorfplatz
+773,1960774,Nollendorfplatz,strassenbahn,"55,53,54",,"52.49974136660471, 13.352878927585127",Nollendorfplatz
+774,1960775,Nollendorfplatz metro station,u-bahn,"B III,A II,B II,A I,B I",Q571039,"52.499166666667,13.353888888889",Nollendorfplatz
+775,1960776,Nonnendammallee,strassenbahn,35,,"52.538012066324, 13.24976268119185",Nonnendammallee
+776,1960777,Berlin Nordbahnhof,s-bahn,"KBS 105,KBS 106,KBS 104",Q673721,"52.5319,13.3878",Nordbahnhof
+777,1960778,Naturkundemuseum metro station,u-bahn,"C II,C I",Q554399,"52.531111111111,13.3825",Nordbahnhof
+778,1960779,Nordend,bus,A7,,"52.59006569360479, 13.401740566033476",Nordend
+779,1960780,Nordend,strassenbahn,46,Q65032696,"52.5902104,13.4027524",Nordend
+780,1960781,Nordendstraße,strassenbahn,22,Q65428345,"52.588534,13.3882952",Nordendstrasse
+781,1960782,Nordgraben Ecke Rödernallee,bus,A14,,"52.588002933439746, 13.339787574099258",Nordgraben
+782,1960783,Nöldnerplatz station,s-bahn,KBS 101,Q4892447,"52.5038,13.4853",Nöldnerplatz
+783,1960784,Oberhofer Platz,bus,A17,,"52.42410259117963, 13.328170432694991",Oberhofer Platz
+784,1960785,Oberspree station,s-bahn,KBS 103a,Q15192700,"52.4525,13.5382",Oberspree
+785,1960786,Oderberger Strasse,strassenbahn,"13,4",,"52.54058395613876, 13.404619006480333",Oderberger Strasse
+786,1960787,Oderbruchstrasse Ecke Landsberger Allee,bus,O41,,"52.52965617389457, 13.461022889581898",Oderbruchstrasse
+787,1960788,Olivaer Platz Ecke Kurfürstendamm,bus,"A66,A19,A29",,"52.50060275704949, 13.313110622018645",Olivaer Platz
+788,1960789,Olympia-Stadion station,u-bahn,B I,Q656441,"52.517222222222,13.25",Olympia-Stadion
+789,1960790,Onkel Toms Hütte metro station,u-bahn,"B II,A II",Q389214,"52.450277777778,13.253333333333",Onkel Toms Hütte
+790,1960791,Onkel-Herse-Strasse,strassenbahn,47,,"52.44827036160263, 13.453893782713148",Onkel-Herse-Strasse
+791,1960792,Oranienburg station,s-bahn,KBS 104,Q2341669,"52.7536,13.2496",Oranienburg
+792,1960793,Berlin Oranienburger Straße station,s-bahn,"KBS 105,KBS 106,KBS 104",Q480249,"52.525,13.3929",Oranienburger Str.
+793,1960794,"Oranienburger Tor, Hannoversche Strasse/Torstrasse",bus,O40,,"52.52716314203455, 13.38710905184874",Oranienburger Tor
+794,1960795,U Oranienburger Tor,strassenbahn,"69,70,46",Q65095375,"52.5256031,13.3872745",Oranienburger Tor
+795,1960796,Oranienburger Tor metro station,u-bahn,"C II,C I",Q571485,"52.524886111111,13.387477777778",Oranienburger Tor
+796,1960797,"Oranienburger Tor, Hannoversche Strasse",strassenbahn,"46E,11",,"52.52693581242043, 13.384570821924626","Oranienburger Tor, Hannoversche Strasse"
+797,1960798,Oraniendamm Ecke Zabel-Krüger-Damm,bus,A20,,"52.607835611203505, 13.323834478403686",Oraniendamm
+798,1960799,Oranienplatz,bus,A67,,"52.50232370505019, 13.415510129463975",Oranienplatz
+799,1960800,Oranienstrasse Ecke Adalbertstrasse,bus,A28,,"52.501310708954215, 13.419224612073883",Oranienstrasse
+800,1960801,Oranienstrasse Ecke Lindenstrasse,strassenbahn,88,,"52.507080492429274, 13.3982819224346",Oranienstrasse
+801,1960802,Ortsgrenze Gatow,bus,"A34,A35",,"52.4981601705565, 13.180014416479423",Ortsgrenze Gatow
+802,1960803,Osdorfer Strasse Ecke Ostpreußendamm,strassenbahn,96,,"52.42121990188002, 13.310681971655695",Osdorfer Strasse
+803,1960804,Oskar-Helene-Heim metro station,u-bahn,"B II,A II",Q681336,"52.450277777778,13.269722222222",Oskar-Helene-Heim
+804,1960805,Louise-Schroeder-Platz,strassenbahn,35,Q65767112,"52.5570174,13.3659987",Osloer Strasse
+805,1960806,Osnabrücker Strasse,strassenbahn,"55,3",,"52.52655659018374, 13.297414453709727",OsnaBrücker Strasse
+806,1960807,Ossietzkyplatz,bus,A7,,"52.58150700684141, 13.404249587640239",Ossietzkyplatz
+807,1960808,Ossietzkyplatz,strassenbahn,"46E,46",,"52.58100580136794, 13.404014807678767",Ossietzkyplatz
+808,1960809,Ostbahnhof,bus,O40,,"52.50976670730252, 13.43372198235041",Ostbahnhof
+809,1960810,S-Bahnhof Berlin Ostbahnhof,s-bahn,"KBS 103,KBS 102,KBS 101",Q111325075,"52.51,13.4347",Ostbahnhof
+810,1960811,Ostbahnhof,strassenbahn,82,,"52.509107635417394, 13.43550619008533",Ostbahnhof
+811,1960812,Osteweg Ecke Seehofstrasse,bus,A53,,"52.42102198114528, 13.281135801011326",Osteweg
+812,1960813,S-Bahnhof Ostkreuz,s-bahn,"KBS 100c,KBS 103,KBS 101,KBS 100b,KBS 103a,KBS 100,KBS 102",Q111251530,"52.5031,13.4689",Ostkreuz
+813,1960814,Ostseestrasse (Spitze),bus,A42,,"52.551051109585906, 13.430303771242599",Ostseestrasse (Spitze)
+814,1960815,Oswinsteig Ecke Hohefeldstrasse,bus,A12S,,"52.624992235029175, 13.300834017106252",Oswinsteig
+815,1960816,Otto-Suhr-Allee,strassenbahn,3,,"52.51801027861401, 13.304399353259491",Otto-Suhr-Allee
+816,1960817,Otto-Suhr-Allee Ecke Cauerstrasse,bus,A1,,"52.51469791251031, 13.315136925389936",Otto-Surh-Allee
+817,1960818,Pücklerstrasse Ecke Clayallee,bus,AS3,,"52.468566643885005, 13.27835662512682",P cklerstrasse
+818,1960819,Pacelli-/Thielallee Ecke Königin-Luise-Straße,bus,A1,,"52.45819383818934, 13.287096949272522",Pacelli-/Thielallee
+819,1960820,S-Bahnhof Pankow,s-bahn,"KBS 106,KBS 100b",Q111273850,"52.5667,13.4111",Pankow
+820,1960821,Vinetastraße metro station,u-bahn,"A I,A II",Q570906,"52.559166666667,13.413333333333",Pankow (Vinetastr.)
+821,1960822,"Pankow, Kirche",bus,"A45,A55",,"52.57124680898358, 13.410670715665145","Pankow, Kirche"
+822,1960823,Pankow Kirche,strassenbahn,"49,46E,22,46",Q65055066,"52.5706452,13.4103115","Pankow, Kirche"
+823,1960824,"Pankow, Rathaus",bus,"A7,A45,A55",,"52.56953908840178, 13.404186437171612","Pankow, Rathaus"
+824,1960825,Rathaus Pankow,strassenbahn,"46E,22,46",Q65055060,"52.5694816,13.4038045","Pankow, Rathaus"
+825,1960826,Berlin-Pankow-Heinersdorf station,s-bahn,"KBS 106,KBS 100b",Q4892366,"52.5780653,13.4295093",Pankow-Heinersdorf
+826,1960827,Pankower Allee Ecke Provinzstrasse,bus,A14,,"52.564667911185886, 13.378087639243981",Pankower Allee
+827,1960828,Pankower Allee,strassenbahn,35,,"52.5638192979938, 13.36426816706299",Pankower Allee
+828,1960829,Pankstrasse Ecke Badstrasse,bus,"A61,A14",,"52.55229407958284, 13.38145934777098",Pankstrasse
+829,1960830,S-Bahnhof Berlin Südkreuz,s-bahn,"KBS 105,KBS 100a,KBS 100,KBS 106",Q111323139,"52.4756,13.3644",Papestr.
+830,1960831,Paradestraße metro station,u-bahn,C II,Q557543,"52.478055555556,13.386111111111",Paradestr.
+831,1960832,Parchimer Allee,strassenbahn,47,,"52.44544295914785, 13.455088787662136",Parchimer Allee
+832,1960833,Parkfriedhof Neukölln,strassenbahn,27,,"52.4287655422534, 13.434984329128367",Parkfriedhof Neukölln
+833,1960834,Parkstrasse,strassenbahn,"87,82",,"52.45876522318908, 13.53993545855609",Parkstrasse
+834,1960835,Paulsternstrasse Ecke Gartenfelder Strasse,bus,"A10,A13",,"52.54415774195884, 13.247126131065503",Paulsternstrasse
+835,1960836,Paulsternstrasse,strassenbahn,55,,"52.538114851173546, 13.248435943349298",Paulsternstrasse
+836,1960837,Perleberger Strasse Ecke Birkenstrasse,bus,A66,,"52.53077396792751, 13.347177821256501",Perleberger Strasse
+837,1960838,Petersallee (Freilichtbühne Rehberge) Ecke Müllerstrasse,bus,A64,,"52.55871831481775, 13.337458424139857",Petersallee (Freilichtbühne Rehberge)
+838,1960839,Pfaueninsel-Chaussee Ecke Königsstrasse,bus,"A3,A18,A6",,"52.41883762088876, 13.153039190703318",Pfaueninsel-Chaussee
+839,1960840,Berlin-Pichelsberg railway station,s-bahn,"KBS 103,KBS 101",Q800488,"52.5103,13.2271",Pichelsberg
+840,1960841,Pichelsdorfer Strasse Ecke Seeburger Strasse,bus,A13,,"52.52914294070602, 13.195638801936928",Pichelsdorfer Strasse
+841,1960842,Pichelsdorfer Strasse,strassenbahn,"75,76",,"52.51307046642958, 13.196871153391022",Pichelsdorfer Strasse
+842,1960843,Freizeit- und Erholungszentrum,strassenbahn,95,Q66104117,"52.4575779,13.5436031",Pionierrepublik
+843,1960844,Pionierstrasse Ecke Zeppelinstrasse,bus,A63,,"52.551529603690966, 13.185506987271339",Pionierstrasse
+844,1960845,Pistoriusstrasse Ecke Klement-Gottwald-Allee,bus,A45,,"52.55009435565474, 13.45900710843341",Pistoriusstrasse Ecke Klement-Gottwald-Allee
+845,1960846,Plänterwald railway station,s-bahn,"KBS 103,KBS 103a",Q7205917,"52.4786,13.4733",Plänterwald
+846,1960847,Podbielskiallee,u-bahn,"B II,A II",Q571324,"52.464444444444,13.296388888889",Podbielskiallee
+847,1960848,"Postamt, Uhlandstrasse",bus,A60,,"52.48905066177084, 13.322770368720937",Postamt
+848,1960849,"Postamt, Museum Dahlem",bus,A68,,"52.4580469214445, 13.291771531599098","Postamt, Museum Dahlem"
+849,1960850,Potsdam Hauptbahnhof,s-bahn,KBS 102,Q647973,"52.3917,13.0667",Potsdam
+850,1960851,Potsdamer Platz S-Bahn station,s-bahn,"KBS 105,KBS 106,KBS 104",Q106086519,"52.5094,13.3766",Potsdamer Platz
+851,1960852,Potsdamer Platz,strassenbahn,"74,73",,"52.50948236131137, 13.375988156399634",Potsdamer Platz
+852,1960853,Potsdamer Platz metro station,u-bahn,"A I,A II",Q3909578,"52.5092,13.3782",Potsdamer Platz
+853,1960854,Potsdamer Strasse,strassenbahn,"3,2",,"52.497947693481, 13.362087448651582",Potsdamer Strasse
+854,1960855,Potsdamer Strasse Ecke Fischerhüttenstrasse,bus,A48,,"52.43576860452355, 13.256070911731433",Potsdamer Strasse Ecke Fischerh ttenstrasse
+855,1960856,Prager Platz,bus,A50,,"52.49294694854429, 13.332964219632272",Prager Platz
+856,1960857,Berlin Prenzlauer Allee station,s-bahn,"KBS 100,KBS 103a,KBS 100b,KBS 100c",Q32661483,"52.544775,13.426116",Prenzlauer Allee
+857,1960858,Prenzlauer Allee/Danziger Straße,strassenbahn,"13,4",Q65222180,"52.5396522,13.4244789",Prenzlauer Allee
+858,1960859,Prenzlauer Allee (Spitze),bus,A56,,"52.544670526661974, 13.427455280947829",Prenzlauer Allee (Spitze)
+859,1960860,Prenzlauer Allee Ecke Wisbyer Strasse,strassenbahn,71,,"52.551183836372815, 13.43013561837268",Prenzlauer Allee Ecke Wisbyer Strasse
+860,1960861,Prenzlauer Promenade,strassenbahn,"70,3,72",,"52.55155536618067, 13.43032253030515",Prenzlauer Promenade
+861,1960862,Prenzlauer Promenade Ecke Kissingenstrasse,bus,A45,,"52.56795804833996, 13.427734373319213",Prenzlauer Promenade Ecke Kissingenstrasse
+862,1960863,Prenzlauer Tor,strassenbahn,"71,72",,"52.52709114016772, 13.415809370320808",Prenzlauer Tor
+863,1960864,Priesterweg railway station,s-bahn,"KBS 105,KBS 106",Q800508,"52.4601,13.3563",Priesterweg
+864,1960865,Prinzenallee/Soldiner Strasse,bus,A71,,"52.55871759464676, 13.386248511741826",Prinzenallee/Soldiner Strasse
+865,1960866,Prinzenstraße,u-bahn,"B II,B I",Q689797,"52.498333333333,13.406111111111",Prinzenstr.
+866,1960867,Proskauer Ecke Dolziger Strasse,bus,O30,,"52.519874079766325, 13.463289228834057",Proskauer Ecke Dolziger Strasse
+867,1960868,Provinzstrasse/Pankower Allee,bus,A71,,"52.56468777207285, 13.378063096396454",Provinzstrasse/Pankower Allee
+868,1960869,Prühßstrasse Ecke Mariendorfer Damm,strassenbahn,98,,"52.443274813352325, 13.38622115632198",Prühßstrasse
+869,1960870,Berlin Westhafen station,s-bahn,"KBS 100,KBS 103a,KBS 100c",Q465972,"52.536,13.344",Putlitzstr.
+870,1960871,Päwesiner Weg Ecke Seeburger Strasse,bus,A13,,"52.52633953639178, 13.181877502746046",Päwesiner Weg
+871,1960872,Quantzstrasse Ecke Potsdamer Chaussee,bus,A18,,"52.423135671729796, 13.202253537880683",Quantzstrasse
+872,1960873,Quellweg,strassenbahn,"55,35",,"52.53666578461771, 13.268432707290442",Quellweg
+873,1960874,Radelandstrasse Ecke Kisselnallee,bus,A63,,"52.55650975276803, 13.188691756681173",Radelandstrasse
+874,1960875,Berlin-Rahnsdorf station,s-bahn,KBS 102,Q800489,"52.4516372,13.6899776",Rahnsdorf
+875,1960876,Rahnsdorf/Waldschänke,strassenbahn,87,Q66361311,"52.443531694444445,13.685038",Rahnsdorf
+876,1960877,Ramlerstrasse Ecke Brunnenstrasse,bus,A71,,"52.547125761071456, 13.389174502621508",Ramlerstrasse
+877,1960878,Rangsdorf railway station,s-bahn,KBS 105,Q801345,"52.294444,13.430278",Rangsdorf
+878,1960879,"Rankeplatz, Bundeshaus",bus,AS2,,"52.4977881279831, 13.330731790169496","Rankeplatz, Bundeshaus"
+879,1960880,Rankeplatz/Bundeshaus,bus,AS3,,"52.497826190133736, 13.330710978777121",Rankeplatz/Bundeshaus
+880,1960881,Rathaus Mariendorf,bus,A33,,"52.44527453682428, 13.379492384246559",Rathaus Mariendorf
+881,1960882,Rathaus Neukölln,bus,A4,,"52.48152537358512, 13.434381079123925",Rathaus Neukölln
+882,1960883,Rathaus Neukölln,strassenbahn,"6,26,47",,"52.48159489526684, 13.434274903483136",Rathaus Neukölln
+883,1960884,Rathaus Neukölln,u-bahn,C I,Q628770,"52.481666666667,13.434166666667",Rathaus Neukölln
+884,1960885,Rathaus Reinickendorf Alt-Wittenau,bus,A12S,,"52.591657836908254, 13.32633527572607",Rathaus Reinickendorf
+885,1960886,Rathaus Schöneberg,bus,"A16,A4",,"52.48515473887597, 13.345086596743203",Rathaus Sch neberg
+886,1960887,Rathaus Schöneberg,strassenbahn,"60,6,25",,"52.484790956462334, 13.345086356437134",Rathaus Sch neberg
+887,1960888,Rathaus Schöneberg,u-bahn,B III,Q570926,"52.483116666667,13.341930555556",Rathaus Schöneberg
+888,1960889,Rathaus Spandau,bus,"A5,A13,A31,A63,A34,AS1,A35",,"52.53480744415333, 13.199505517192808",Rathaus Spandau
+889,1960890,Rathaus Spandau,strassenbahn,"55,75,76",,"52.53488081670858, 13.199058849732252",Rathaus Spandau
+890,1960891,Rathaus Steglitz,bus,"A17,A32,A48,A68",,"52.45683244954579, 13.320757398114617",Rathaus Steglitz
+891,1960892,Rathaus Steglitz,strassenbahn,"74,78,44,73,77",,"52.45691682931275, 13.320745348424166",Rathaus Steglitz
+892,1960893,Rathaus Tempelhof,strassenbahn,99,,"52.462494115868374, 13.38523087984914",Rathaus Tempelhof
+893,1960894,Rathaus Tiergarten,bus,A70,,"52.52649085974541, 13.338358982634196",Rathaus Tiergarten
+894,1960895,Rathaus Wannsee,bus,"A3,A18,A6",,"52.418440129670444, 13.148872492834737",Rathaus Wannsee
+895,1960896,Rathaus Zehlendorf,bus,"A3,AS3,A53",,"52.433207520111885, 13.259531923613192",Rathaus Zehlendorf
+896,1960897,Rathenauplatz,bus,"A65,A69",,"52.49561134930413, 13.286573746568635",Rathenauplatz
+897,1960898,Alt-Moabit/​Rathenower Str.,strassenbahn,"35,2",Q121863902,"52.52356,13.35779",Rathenower Strasse
+898,1960899,Regattatribünen,strassenbahn,86,Q66490561,"52.4114287,13.5880881",Regattahäuser
+899,1960900,Rehberge,u-bahn,"C II,C I",Q253850,"52.5567,13.3412",Rehberge
+900,1960901,Reichenberger Strasse,strassenbahn,26,,"52.495535248263636, 13.430362951622532",Reichenberger Strasse
+901,1960902,Reichskanzlerplatz,bus,A4,,"52.50929184084697, 13.27265693784035",Reichskanzlerplatz
+902,1960903,Reichskanzlerplatz,strassenbahn,"75,76",,"52.5089140766086, 13.272251406623242",Reichskanzlerplatz
+903,1960904,Theodor-Heuss-Platz,u-bahn,"A I,B I",Q657857,"52.509722222222,13.273055555556",Reichskanzlerplatz
+904,1960905,Berlin Olympiastadion station,s-bahn,"KBS 103,KBS 101",Q800506,"52.511,13.2416",Reichssportfeld
+905,1960906,Reichssportfeldstrasse,strassenbahn,"75,76",,"52.507514731015824, 13.242086696344282",Reichssportfeldstrasse
+906,1960907,Berlin Alt-Reinickendorf station,s-bahn,KBS 105,Q800496,"52.5779,13.3506",Reinickendorf
+907,1960908,Reinickendorfer Straße,u-bahn,"C II,C I",Q559249,"52.539911111111,13.370377777778",Reinickendorfer Str.
+908,1960909,Rembrandtstrasse,strassenbahn,66,,"52.47116466720471, 13.343688369656276",Rembrandtstrasse
+909,1960910,Rennbahn,strassenbahn,99,,"52.430060594099295, 13.39244351468167",Rennbahn
+910,1960911,Rennbahnstrasse Ecke Gustav-Adolf-Strasse,bus,A56,,"52.56218648050474, 13.454267038723398",Rennbahnstrasse Ecke Gustav-Adolf-Strasse
+911,1960912,Retzbacher Weg,bus,A55,,"52.570942535830284, 13.422907898864429",Retzbacher Weg
+912,1960913,Reuchlinstrasse Ecke Huttenstrasse,bus,A70,,"52.5278079827492, 13.324842775070394",Reuchlinstrasse
+913,1960914,Reuterstrasse Ecke Sonnenallee,bus,A67,,"52.48654240757135, 13.428977740572138",Reuterstrasse
+914,1960915,Richard-Wagner-Platz,bus,A62,,"52.517490990443804, 13.306397097578404",Richard-Wagner-Platz
+915,1960916,Richard-Wagner-Platz,strassenbahn,"55,53,54",,"52.517570616857, 13.306248118529135",Richard-Wagner-Platz
+916,1960917,Richard-Wagner-Platz metro station,u-bahn,A III,Q662201,"52.5175,13.306388888889",Richard-Wagner-Platz
+917,1960918,Richardstrasse,strassenbahn,15,,"52.47097391592754, 13.446301038467002",Richardstrasse
+918,1960919,Richtershorn,strassenbahn,86,Q66481215,"52.40105,13.6248473",Richtershorn
+919,1960920,Ridbacher Strasse Ecke Grottkauer Strasse,bus,A49,,"52.527457204488485, 13.606447755554132",Ridbacher Strasse
+920,1960921,Ringstrasse Ecke Drakestrasse,bus,A11,,"52.439772810020266, 13.300175076283422",Ringstrasse
+921,1960922,Rittberg-Krankenhaus,strassenbahn,"78,77",,"52.42987951650218, 13.288961460110901",Rittberg-Krankenhaus
+922,1960923,Ritterlandweg,bus,A71,,"52.56036399935592, 13.36907949823327",Ritterlandweg
+923,1960924,Robert-Koch-Platz,bus,"O40,A57",,"52.527570508835595, 13.37877230286134",Robert-Koch-Platz
+924,1960925,Roederplatz,bus,O30,,"52.52671388514014, 13.479662353432392",Roederplatz
+925,1960926,Roederplatz,strassenbahn,"69,3,69E",Q65685373,"52.5266001,13.479068",Roederplatz
+926,1960927,Roseneck,bus,"A50,AS3,A19,A29",,"52.47580089902253, 13.282411270445099",Roseneck
+927,1960928,"Roseneck, Hundekehl",bus,A60,,"52.47640250997692, 13.281611267179592","Roseneck, Hundekehl"
+928,1960929,Roseneck,bus,A17,,"52.47578489322442, 13.282306517997712",Rosenecke
+929,1960930,Rosenthaler Platz,bus,O40,,"52.5296729549826, 13.401428926082492",Rosenthaler Platz
+930,1960931,U Rosenthaler Platz,strassenbahn,"1,49,22,11",Q65093945,"52.5301769,13.4016121",Rosenthaler Platz
+931,1960932,Rosenthaler Platz station,u-bahn,D,Q663231,"52.53,13.401111111111",Rosenthaler Platz
+932,1960933,Rudower Strasse Ecke Johannisthaler Chaussee,bus,A52,,"52.43428237477314, 13.469124205215895",Rudower Strasse
+933,1960934,Ruhleben station,u-bahn,B I,Q656401,"52.525555555556,13.241388888889",Ruhleben
+934,1960935,Ruhlsdorfer Platz,strassenbahn,96,,"52.40085341513547, 13.268853571967181",Ruhlsdorfer Platz
+935,1960936,Ruhrstrasse Ecke Hohenzollerndamm,bus,A50,,"52.48988277984805, 13.312456459919812",Ruhrstrasse
+936,1960937,Berlin-Rummelsburg railway station,s-bahn,KBS 102,Q15107132,"52.501244,13.478545",Rummelsburg
+937,1960938,Ruppiner Chaussee Ecke Heiligensee,bus,A13,,"52.59792202028554, 13.275075196373528",Ruppiner Chaussee
+938,1960939,Röblingstrasse Ecke Attilastrasse,strassenbahn,96,,"52.44966812373649, 13.366852447351357",Röblingstrasse
+939,1960940,Röntgental station,s-bahn,KBS 106,Q801386,"52.6487,13.5136",Röntgental
+940,1960941,Rüdesheimer Platz,u-bahn,"B II,A II",Q167147,"52.473333333333,13.314444444444",Rüdesheimer Platz
+941,1960942,Rügener Strasse,bus,"A61,A71,A14",,"52.544791277773946, 13.391067616355128",Rügener Strasse
+942,1960943,Rügener Strasse,strassenbahn,25,,"52.544766906982396, 13.39098830610686",Rügener Strasse
+943,1960944,bus and tram stop S Adlershof,strassenbahn,84,Q66363728,"52.435251,13.5408489",S-Bhf. Adlershof
+944,1960945,S-Bhf. Alexanderplatz,bus,"O30,A57,A9",,"52.52074877770386, 13.412147230655155",S-Bhf. Alexanderplatz
+945,1960946,S-Bhf. Baumschulenweg,bus,A47,,"52.4674967534767, 13.489379882069517",S-Bhf. Baumschulenweg
+946,1960947,S-Bhf. Biesdorf,bus,O37,,"52.513432593832405, 13.555387279249894",S-Bhf. Biesdorf
+947,1960948,"S-Bhf. Friedrichsfelde-Ost, Marzahner Chaussee",bus,A43,,"52.51324537165634, 13.524030584354616",S-Bhf. Friedrichsfelde-Ost
+948,1960949,S Friedrichshagen,strassenbahn,"87,84",Q66360784,"52.4564126,13.6253656",S-Bhf. Friedrichshagen
+949,1960950,S Greifswalder Straße,strassenbahn,"74,74E",Q65548932,"52.5407234,13.4382904",S-Bhf. Greifswalder Strasse
+950,1960951,S-Bhf. Grünau,bus,"A38,AZ,AD/36",,"52.41361515857581, 13.573796290663196",S-Bhf. Grünau
+951,1960952,S-Bhf. Hohen Neuendorf,bus,AN,,"52.66955116686502, 13.286967415942232",S-Bhf. Hohen Neuendorf
+952,1960953,S Karlshorst,strassenbahn,"69,69E",Q65952829,"52.481331,13.5254433",S-Bhf. Karlshorst
+953,1960954,"S-Bhf. Kaulsdorf, Planitzstrasse",bus,A27,,"52.51113864301491, 13.58755467300039","S-Bhf. Kaulsdorf, Planitzstrasse"
+954,1960955,S-Bhf. Köpenick,bus,A27,,"52.45882190200453, 13.579564677172508",S-Bhf. Köpenick
+955,1960956,S Köpenick,strassenbahn,"86,82,83",Q66370784,"52.4582153,13.5790435",S-Bhf. Köpenick
+956,1960957,S-Bhf. Mahlsdorf,bus,"A44E,A44",,"52.51234908870327, 13.61221793610957",S-Bhf. Mahlsdorf
+957,1960958,S-Bhf. Mahlsdorf,strassenbahn,83,,"52.51221826761895, 13.612190748726157",S-Bhf. Mahlsdorf
+958,1960959,S-Bhf. Ostkreuz,strassenbahn,82,,"52.50243021718411, 13.469020052690205",S-Bhf. Ostkreuz
+959,1960960,S-Bhf. Pankow-Heinersdorf,strassenbahn,49,,"52.577507820515834, 13.427853061920917",S-Bhf. Pankow-Heinersdorf
+960,1960961,S Prenzlauer Allee,strassenbahn,"71,72",Q65219791,"52.5448075,13.427408",S-Bhf. Prenzlauer Allee
+961,1960962,S-Bhf. Rahnsdorf,bus,A22,,"52.451628368326396, 13.691579101298974",S-Bhf. Rahnsdorf
+962,1960963,S-Bhf. Rummelsburg,bus,O30,,"52.50179539105723, 13.478028581044718",S-Bhf. Rummelsburg
+963,1960964,S+U Schönhauser Allee,strassenbahn,"49,46E,22,46",Q65088013,"52.5493619,13.4135734",S-Bhf. Sch nhauser Allee
+964,1960965,S Schöneweide,strassenbahn,95,Q65950245,"52.4553413,13.5110449",S-Bhf. Schöneweide
+965,1960966,S Spindlersfeld,strassenbahn,84,Q66363397,"52.4457311,13.5624298",S-Bhf. Spindlersfeld
+966,1960967,S-Bhf. Treptow,strassenbahn,92,,"52.492888929278756, 13.459229771020295",S-Bhf. Treptow
+967,1960968,S-Bhf. Treptower Park,bus,A47,,"52.49403640886682, 13.460762565516704",S-Bhf. Treptower Park
+968,1960969,S-Bhf. Wilhelmshagen,bus,A22,,"52.43886122089184, 13.721060252199655",S-Bhf. Wilhelmshagen
+969,1960970,S-Bhf. Wollkanstrasse,bus,A55,,"52.564761382051245, 13.39377998446197",S-Bhf. Wollkanstrasse
+970,1960971,Saaleckplatz,bus,A17,,"52.41629158246214, 13.323941962356194",Saaleckplatz
+971,1960972,SaarBrücker Strasse,strassenbahn,"71,72",,"52.5285309565747, 13.417113687314579",SaarBrücker Strasse
+972,1960973,Saargemünder Strasse Ecke Clayallee,bus,"A18,A11",,"52.450918082089416, 13.270922488527036",Saargem nder Strasse
+973,1960974,Saatwinkler Damm Ecke Kurt-Schumacher-Damm,bus,A62,,"52.54802938567344, 13.300569461587116",Saatwinkler Damm
+974,1960975,Sadowastrasse Ecke Ulmenstrasse,bus,A8,,"52.482675472271694, 13.584833068425244",Sadowastrasse
+975,1960976,Saltykowstrasse,strassenbahn,26,,"52.47670468546067, 13.439116319771621",Saltykowstrasse
+976,1960977,Samariterstraße metro station,u-bahn,E,Q552891,"52.514722222222,13.464444444444",Samariterstr.
+977,1960978,S+U Hauptbahnhof,strassenbahn,44,Q65552616,"52.5264969,13.3694391",Sandkrugbrücke
+978,1960979,Sansibarstrasse Ecke Müllerstrasse,bus,A64,,"52.55519162213508, 13.34350843324585",Sansibarstrasse
+979,1960980,Berlin Savignyplatz station,s-bahn,"KBS 103,KBS 102,KBS 101",Q554382,"52.5051746,13.3190659",Savignyplatz
+980,1960981,Schäferberg,bus,A6,,"52.41562661861071, 13.12630868100336",Sch ferberg
+981,1960982,"Schäfersee, Pankower Allee",bus,A71,,"52.56403098912502, 13.36417150367161","Sch fersee, Pankower Allee"
+982,1960983,"Schönefeld, Siedlung",bus,"AZ,AD/36",,"52.38835097546488, 13.564205018328355","Sch nefeld, Siedlung"
+983,1960984,"Schönfließ, Kirche",bus,AN,,"52.65542824931846, 13.339252408377327","Schönfließ, Kirche"
+984,1960985,S+U Schönhauser Allee,strassenbahn,3,Q65088013,"52.5493619,13.4135734",Sch nhauser Allee
+985,1960986,Scharfestrasse Ecke Clayallee,bus,A18,,"52.43828828643976, 13.262213345971533",Scharfestrasse
+986,1960987,Scharnhorst- Ecke Kieler Strasse,bus,A9,,"52.534352691939105, 13.370302521463962",Scharnhorst- Ecke Kieler Strasse
+987,1960988,Scharnweberstraße,u-bahn,"C II,C I",Q557586,"52.566944444444,13.312777777778",Scharnweberstr. (Eichborndamm)
+988,1960989,Scharnweberstrasse Ecke Eichborndamm,bus,A21,,"52.567891242257375, 13.31193029694028",Scharnweberstrasse
+989,1960990,"Schildow, Kirche",bus,A7,,"52.63581867397586, 13.377719168374458","Schildow, Kirche"
+990,1960991,Schildower Strasse Ecke Berliner Strasse,bus,A12S,,"52.617692355403776, 13.315814094976371",Schildower Strasse
+991,1960992,SchillingBrücke (Ostbahnhof),strassenbahn,1,,"52.50956365130009, 13.429517625327765",SchillingBrücke (Ostbahnhof)
+992,1960993,Schillingstraße station,u-bahn,E,Q552899,"52.5203281262719, 13.421918670116558",Schillingstr.
+993,1960994,Schillingstrasse Ecke Scharnweberstrasse,bus,A61,,"52.56595360108564, 13.320255053064429",Schillingstrasse
+994,1960995,Berlin-Schlachtensee station,s-bahn,KBS 104,Q800509,"52.4401,13.2153",Schlachtensee
+995,1960996,Schlesisches Tor,u-bahn,"B II,B I",Q602282,"52.500833333333,13.441666666667",Schlesisches Tor
+996,1960997,Schloss Glienicke,bus,A6,,"52.41321315212787, 13.096214143840962",Schloss Glienicke
+997,1960998,Schloss Ruhwald,bus,AS1,,"52.521567840298836, 13.260569641184494",Schloss Ruhwald
+998,1960999,Schloss Ruhwald,strassenbahn,"53,54",,"52.52160139428261, 13.260396465216335",Schloss Ruhwald
+999,19601000,SchlossBrücke,bus,A65,,"52.52277864874118, 13.300093422040403",SchlossBrücke
+1000,19601001,SchlossStrasse Ecke Albrechtstrasse,bus,A32,,"52.456909123066914, 13.320715400125325",SchlossStrasse
+1001,19601002,"Schlossstrasse, Walther-Schreiber-Platz",bus,A2,,"52.46502319139203, 13.328512641123645",Schlossstrasse
+1002,19601003,Schlossstrasse,strassenbahn,"74,78,44,73,77",,"52.4649279288063, 13.328420834164818",Schlossstrasse
+1003,19601004,Schlossstrasse Ecke Alt-Friedrichsfelde,bus,"A8,A43,O37",,"52.50943477223745, 13.518813938774796",Schlossstrasse Ecke Alt-Friedrichsfelde
+1004,19601005,Schlossstrasse Ecke Alt-Friedrichsfelde,strassenbahn,"69,69E",,"52.50962902699515, 13.518687787679205",Schlossstrasse Ecke Alt-Friedrichsfelde
+1005,19601006,"Schlossstrasse, Walther-Schreiber-Platz",bus,AS2,,"52.46497175478016, 13.328534991548652","Schlossstrasse, Wilhelm-Schreiber-Platz"
+1006,19601007,Berlin Heidelberger Platz station,s-bahn,KBS 100,Q302810,"52.479672222222,13.312441666667",Schmargendorf
+1007,19601008,Schopenhauerstrasse Ecke Spanische Allee,bus,A3,,"52.433980607704285, 13.212025322862429",Schopenhauerstrasse
+1008,19601009,Schulenburgpark,strassenbahn,"95,15",,"52.466660612786704, 13.470292593214328",Schulenburgpark
+1009,19601010,Schulstrasse Ecke Müller Strasse,bus,"A12,A12S",,"52.54642643480478, 13.359232857179148",Schulstrasse
+1010,19601011,Schulzendorf railway station,s-bahn,KBS 105,Q800487,"52.6128,13.2462",Schulzendorf (b Tegel)
+1011,19601012,Schulzendorfer Strasse Ecke Hermsdorfer Damm,bus,A15,,"52.61057476279662, 13.295480649416259",Schulzendorfer Strasse
+1012,19601013,Schwartzkopffstraße,u-bahn,"C II,C I",Q554360,"52.535277777778,13.377222222222",Schwartzkopffstr.
+1013,19601014,Schwarzer Weg,strassenbahn,95,,"52.47404160436518, 13.455540454175738",Schwarzer Weg
+1014,19601015,U Osloer Straße,strassenbahn,3,Q65767136,"52.5566956,13.3732618",Schwedenstrasse
+1015,19601016,Schwelmer Strasse Ecke Ostpreußendamm,strassenbahn,96,,"52.41218489799642, 13.299052814203694",Schwelmer Strasse
+1016,19601017,Schwiezerhaus,bus,A34,,"52.46177834654878, 13.133492629933269",Schwiezerhaus
+1017,19601018,Berlin-Schöneberg station,s-bahn,"KBS 100a,KBS 100,KBS 104",Q543855,"52.4794,13.3517",Schöneberg
+1018,19601019,S-Bahnhof Berlin Schöneweide,s-bahn,"KBS 103,KBS 100a,KBS 103a",Q111323931,"52.455,13.509444444444",Schöneweide
+1019,19601020,S-Bahnhof Schönhauser Allee,s-bahn,"KBS 100,KBS 103a,KBS 100b,KBS 100c",Q111264493,"52.549329,13.413706",Schönhauser Allee
+1020,19601021,Schönhauser Allee (metro station),u-bahn,"A I,A II",Q47014936,"52.549328888889,13.413706111111",Schönhauser Allee
+1021,19601022,Berlin-Schönholz station,s-bahn,"KBS 105,KBS 104",Q800490,"52.5714,13.3814",Schönholz
+1022,19601023,Schützenstrasse,strassenbahn,44,,"52.4518159507727, 13.320824351045882",Schützenstrasse
+1023,19601024,Schüßlerplatz,strassenbahn,"86,84,83",,"52.44553303566032, 13.576935078888754",Schüßlerplatz
+1024,19601025,Sebastianfriedhof,bus,A61,,"52.571002500013684, 13.336360943589446",Sebastianfriedhof
+1025,19601026,Sedanstrasse Ecke Albrechtstrasse,bus,A32,,"52.451462388098534, 13.33534176193218",SedanStrasse
+1026,19601027,Sedanstrasse Ecke Albrechtstrasse,bus,A33,,"52.45143021733514, 13.335289250392284",Sedanstrasse
+1027,19601028,Seeburger Strasse,strassenbahn,"75,76",,"52.52919074855153, 13.195613280527734",Seeburger Strasse
+1028,19601029,"Seegefelder Weg, Stadtgrenze",bus,A63,,"52.549813200063646, 13.128679816115987",Seegefelder Weg
+1029,19601030,Seehofstrasse Ecke Hampsteadstrasse,bus,A53,,"52.43283190806482, 13.264994537854385",Seehofstrasse
+1030,19601031,Bahnhofstraße/Seelenbinderstraße,strassenbahn,84,Q66324934,"52.4554632,13.5769303",Seelenbinderstrasse
+1031,19601032,Seestraße,u-bahn,"C II,C I",Q554391,"52.55056,13.35194",Seestr.
+1032,19601033,Seestrasse Ecke Müllerstrasse,bus,A64,,"52.55049580648446, 13.351890902404168",Seestrasse
+1033,19601034,Otisstraße,u-bahn,"C II,C I",Q557582,"52.571111111111,13.302777777778",Seidelstr. (Flugplatz Tegel)
+1034,19601035,Selchow,bus,AZ,,"52.35758122167604, 13.471955883887944",Selchow
+1035,19601036,U-Bahnhof Senefelderplatz,u-bahn,"A I,A II",Q32661454,"52.53242,13.412743",Senefelderplatz
+1036,19601037,Seydlitzstrasse Ecke Kaiser-Wilhelm Strasse,strassenbahn,96,,"52.43194337149705, 13.338145709235352",Seydlitzstrasse
+1037,19601038,Siegfriedstrasse Ecke Landsberger Allee,bus,O41,,"52.53435088055727, 13.499697796899122",Siegfriestrasse
+1038,19601039,Siemensplatz,strassenbahn,55,,"52.53383462771808, 13.282552661519206",Siemensplatz
+1039,19601040,Berlin-Siemensstadt railway station,s-bahn,"KBS 100d,KBS 100c",Q96080453,"52.53923,13.26365",Siemensstadt
+1040,19601041,Siemensstadt-Fürstenbrunn station,s-bahn,KBS 103a,Q18747940,"52.528,13.2695",Siemensstadt-Fürstenbrunn
+1041,19601042,Silbersteinstrasse,strassenbahn,"26,47",,"52.46723844998069, 13.438467144199928",Silbersteinstrasse
+1042,19601043,"Skalitzer Strasse, Görlitzer Bahnhof",strassenbahn,88,,"52.499266545091395, 13.427683785013587",Skalitzer Strasse
+1043,19601044,Berlin Sonnenallee station,s-bahn,KBS 100,Q481364,"52.473,13.4558",Sonnenallee
+1044,19601045,Sonnenallee,strassenbahn,26,,"52.48613359502478, 13.430239659364373",Sonnenallee
+1045,19601046,Sophie-Charlotte-Platz,u-bahn,"A I,B I",Q657879,"52.510833333333,13.296666666667",Sophie-Charlotte-Platz
+1046,19601047,Sophie-Charlotten-Strasse Ecke Clayallee,bus,A18,,"52.44594955353092, 13.267788405970709",Sophie-Charlotten-Strasse
+1047,19601048,Spandau,s-bahn,"KBS 103,KBS 103a,KBS 101",Q800491,"52.532, 13.2089",Spandau
+1048,19601049,Spandau West,s-bahn,"KBS 103,KBS 103a,KBS 101",Q111325678,"52.5347,13.1958",Spandau West
+1049,19601050,"Spandau, Friedhof",bus,A34,,"52.553136286584845, 13.179674445908985","Spandau, Friedhof"
+1050,19601051,"Spandau, Johannesstift",strassenbahn,76,,"52.567653498027326, 13.191830361576441","Spandau, Johannesstift"
+1051,19601052,"Spandau, Markt",strassenbahn,"75,54,76,55,53",,"52.53784349532438, 13.204135429364628","Spandau, Markt"
+1052,19601053,Spandauer Damm Ecke Königin-Elisabeth-Strasse,bus,A10,,"52.51838420899177, 13.280076964056246",Spandauer Damm
+1053,19601054,Spandauer Damm,strassenbahn,60,,"52.51839517954807, 13.280375306388953",Spandauer Damm
+1054,19601055,Spandauer Strasse Ecke Klosterbuschweg,bus,A31,,"52.535940922541684, 13.156793426342295",Spandauer Strasse
+1055,19601056,Spichernstraße metro station,u-bahn,"B II,A II",Q667046,"52.496388888889,13.330555555556",Spichernstr. (Bundesallee)
+1056,19601057,Berlin-Spindlersfeld station,s-bahn,KBS 103a,Q4892371,"52.4472,13.5613",Spindlersfeld
+1057,19601058,Spittelmarkt,strassenbahn,"64,74,72",,"52.511243321361405, 13.40494539543245",Spittelmarkt
+1058,19601059,Spittelmarkt station,u-bahn,"A I,A II",Q569489,"52.511111111111,13.403611111111",Spittelmarkt
+1059,19601060,Spreewaldplatz,strassenbahn,"2,26,88",,"52.49792227545992, 13.430617008810609",Spreewaldplatz
+1060,19601061,Städtische Frauenklinik,strassenbahn,26,,"52.465664066744466, 13.434206221880236",St dtische Frauenklinik
+1061,19601062,Stößenseebrücke,strassenbahn,75,,"52.508905514881846, 13.217438333440223",St enseeBrücke
+1062,19601063,Stölpchensee,bus,A18,,"52.409430239790396, 13.14381794619846",St lpchensee
+1063,19601064,Berlin-Staaken station,s-bahn,KBS 101,Q477545,"52.5378,13.1414",Staaken
+1064,19601065,Staakener Strasse Ecke Seegefelder Strasse,bus,A63,,"52.536487084911975, 13.190823566060091",Staakener Strasse
+1065,19601066,Stadion Buschallee/Hansastraße,strassenbahn,70,Q65504715,"52.5566718,13.4869834",Stadion Buschallee
+1066,19601067,Stadion Lichterfelde,bus,A17,,"52.43867922703144, 13.325050443019501",Stadion Lichterfelde
+1067,19601068,Stadtmitte station,u-bahn,"C II,C I",Q660066,"52.5122,13.3894",Stadtmitte (Leipziger Str.)
+1068,19601069,Stadtmitte station,u-bahn,"A I,A II",Q660066,"52.5122,13.3894",Stadtmitte (Mohrenstr.)
+1069,19601070,"Stadtpark, Albrechtstrasse",bus,A17,,"52.44890555557147, 13.338827669086982",Stadtpark
+1070,19601071,Stadtpark Steglitz,strassenbahn,88,,"52.45106715288867, 13.337967917367436",Stadtpark
+1071,19601072,Stadtrandsiedlung,bus,A46,,"52.573369662221204, 13.56744978653018",Stadtrandsiedlung
+1072,19601073,Stadtrandstrasse Ecke Falkenseer Chaussee,bus,A5,,"52.553426999619965, 13.153585430700852",Stadtrandstrasse
+1073,19601074,Stahnsdorf railway station,s-bahn,KBS 104b,Q23787450,"52.38972222,13.19",Stahnsdorf
+1074,19601075,Stalinallee Ecke Strasse der Pariser Kommune,bus,O40,,"52.51715128685504, 13.440640767102789",Stalinallee
+1075,19601076,S-Bahnhof Frankfurter Allee,s-bahn,"KBS 100,KBS 103a,KBS 100b,KBS 100c",Q111250033,"52.514166666667,13.474722222222",Stalinallee
+1076,19601077,Stalinallee,strassenbahn,1,,"52.51808306742478, 13.432938339097822",Stalinallee
+1077,19601078,Berlin Frankfurter Allee station,u-bahn,E,Q552872,"52.514166666667,13.474722222222",Stalinallee (Ringbahn)
+1078,19601079,Stegerwaldstrasse Ecke Marienfelder Allee,bus,A32,,"52.42073935358918, 13.369265336797783",Stegerwaldstrasse
+1079,19601080,S-Bahnhof Rathaus Steglitz,s-bahn,KBS 104,Q111264179,"52.4562,13.3216",Steglitz
+1080,19601081,Steglitzer Damm Ecke Bismarckstrasse,bus,A2,,"52.45105449993721, 13.337974502579238",Steglitzer Damm
+1081,19601082,Stephanplatz,bus,A66,,"52.533700234029276, 13.34712215648683",Stephanplatz
+1082,19601083,Sterndamm Ecke Königsheideweg,bus,A47,,"52.44658674940087, 13.506534865142585",Sterndamm
+1083,19601084,Oderbruchstraße,strassenbahn,"69,64,69E,63",Q65553632,"52.530493,13.4614989",Steuerhaus
+1084,19601085,Stindestrasse Ecke Albrechtstrasse,bus,A32,,"52.44812122178611, 13.340103869265922",StindeStrasse
+1085,19601086,Stolpe Süd station,s-bahn,KBS 105,Q19274514,"52.63018,13.22333",Stolpe Süd
+1086,19601087,Stralauer Allee Ecke Markgrafendamm,strassenbahn,82,,"52.49740745019046, 13.46463650693144",Stralauer Allee Ecke Markgrafendamm
+1087,19601088,Strasse 393 Ecke Seegefelder Weg,bus,A63,,"52.54346134229288, 13.156333109553433",Strasse 393
+1088,19601089,"Strasse des 17. Juni, Ernst-Reuter-Platz",bus,A2,,"52.51271130765139, 13.323003400102502",Strasse des 17. Juni
+1089,19601090,Strasse nach Staatwinkel & Bernauer Strasse,bus,A13,,"52.561964827739885, 13.254588036270711",Strasse nach Staatwinkel
+1090,19601091,Strasse nach Wartenberg Ecke Falkenberger Chaussee,bus,A46,,"52.56866269126953, 13.520582099858125",Strasse nach Wartenberg
+1091,19601092,Betriebshof Köpenick,strassenbahn,83,Q66370900,"52.4399134,13.5817824",Strassenbahnhof Köpenick
+1092,19601093,Strausberg station,s-bahn,"KBS 101a,KBS 101",Q7622326,"52.531933,13.836933",Strausberg
+1093,19601094,Strausberg Nord station,s-bahn,KBS 101a,Q7622324,"52.5902,13.9084",Strausberg Nord
+1094,19601095,Strausberg Stadt station,s-bahn,KBS 101a,Q7622325,"52.5766,13.8878",Strausberg Stadt
+1095,19601096,Strausberger Platz,u-bahn,E,Q570999,"52.518055555556,13.430833333333",Strausberger Platz
+1096,19601097,Stresowplatz,bus,"A5,A31",,"52.53362877636616, 13.206781830760963",Stresowplatz
+1097,19601098,StromStrasse Ecke Turmstrasse,bus,A24,,"52.52632226250912, 13.34326443872038",StromStrasse
+1098,19601099,Stromstrasse Ecke Turmstrasse,bus,A70,,"52.52631690374401, 13.343146315837002",Stromstrasse
+1099,19601100,Stromstrasse,strassenbahn,"35,44,2",,"52.525392130952426, 13.342921518835107",Stromstrasse
+1100,19601101,Stubenrauchstrasse,strassenbahn,47,,"52.42422390261997, 13.485461375958135",Stubenrauchstrasse
+1101,19601102,Stuttgarter Platz,bus,A21,,"52.50551610729052, 13.302923303561508",Stuttgarter Platz
+1102,19601103,Stuttgarter Platz,strassenbahn,60,,"52.50566810519856, 13.306864497506904",Stuttgarter Platz
+1103,19601104,Stölpchensee,bus,A3,,"52.41228329093362, 13.141800667623677",Stölpchensee
+1104,19601105,Stössenseebrücke,strassenbahn,76,,"52.508894368243524, 13.217475972829826",Stössenseebrücke
+1105,19601106,Berlin Sundgauer Straße station,s-bahn,KBS 104,Q800513,"52.436291,13.273772",Sundgauer Str.
+1106,19601107,Sven-Hedin-Strasse Ecke Fischerhüttenstrasse,bus,A53,,"52.44044491814346, 13.244750958691851",Sven-Hedin-Strasse
+1107,19601108,Südende station,s-bahn,KBS 106,Q800511,"52.4481,13.3536",Südende
+1108,19601109,Südstern,bus,A28,,"52.488958649509335, 13.40781379557614",Südstern
+1109,19601110,Südstern,strassenbahn,2,,"52.489200004098294, 13.407589825806399",Südstern
+1110,19601111,Südstern,u-bahn,C I,Q656081,"52.489444444444,13.407777777778",Südstern
+1111,19601112,Türkenstrasse Ecke Müllerstrasse,bus,A64,,"52.55326868982377, 13.347158257015531",T rkenstrasse
+1112,19601113,Taubenstrasse,strassenbahn,72,,"52.51306493755938, 13.391398735901545",Taubenstrasse
+1113,19601114,"Tauernallee, Adlermühle ",bus,AS2,,"52.42337464834511, 13.396185392179197","Tauernallee, Adlerm hle"
+1114,19601115,Tauroggener Strasse,strassenbahn,35,,"52.525832421277336, 13.301928782162818",Tauroggener Strasse
+1115,19601116,Berlin-Tegel railway station,s-bahn,KBS 105,Q800493,"52.5886,13.2894",Tegel
+1116,19601117,Alt-Tegel metro station,u-bahn,"C II,C I",Q656090,"52.58944,13.28389",Tegel
+1117,19601118,Tegelort,bus,A20,,"52.5705390073051, 13.231220862666484",Tegelort
+1118,19601119,Teichstrasse Ecke Lindauer Allee,bus,A61,,"52.57435884050963, 13.34777330742025",Teichstrasse
+1119,19601120,Teltow railway station,s-bahn,KBS 106,Q7697868,"52.388056,13.299444",Teltow
+1120,19601121,"Teltow, Paul-Gerhardt-Strasse",strassenbahn,96,,"52.41175171527543, 13.297893346256327","Teltow, Paul-Gerhardt-Strasse"
+1121,19601122,Teltower Damm Ecke Berliner Strasse,bus,"A10,A48,A53",,"52.43504474561002, 13.2604425311939",Teltower Damm
+1122,19601123,Teltower Strasse Ecke Ruhlebener Strasse,bus,"A5,A31,AS1",,"52.52691807826059, 13.215807069988056",Teltower Strasse
+1123,19601124,Teltower Strasse,strassenbahn,"53,54",,"52.52691412538678, 13.215987693499372",Teltower Strasse
+1124,19601125,S-Bahnhof Berlin-Tempelhof,s-bahn,"KBS 100a,KBS 100",Q111264368,"52.4708,13.3854",Tempelhof
+1125,19601126,Tempelhof (Südring) metro station,u-bahn,C II,Q3983109,"52.47075,13.385361111111",Tempelhof (Südring)
+1126,19601127,Tempelhofer Damm Ecke Manfred-Richthofen-Strasse,bus,"A25,A24",,"52.48422430539437, 13.385891408286207",Tempelhofer Damm
+1127,19601128,Tempelhofer Damm,strassenbahn,6,,"52.46584374970472, 13.385470187093661",Tempelhofer Damm
+1128,19601129,Tempelhofer Weg,strassenbahn,27,,"52.448900802776095, 13.436210910779328",Tempelhofer Weg
+1129,19601130,Thielallee/Pacelliallee,bus,A68,,"52.458161495962216, 13.28707254649315",Thielallee/Pacelliallee
+1130,19601131,Freie Universität (Thielplatz) metro station,u-bahn,"B II,A II",Q571331,"52.451111111111,13.282222222222",Thielplatz
+1131,19601132,Thorwaldsenstrasse,strassenbahn,66,,"52.46136534165126, 13.345121264246712",Thorwaldsenstrasse
+1132,19601133,Thuner Platz,bus,A53,,"52.42375896990032, 13.296184869051308",Thuner Platz
+1133,19601134,Mohrenstraße metro station,u-bahn,"A I,A II",Q658391,"52.51167,13.38472",Thälmannplatz
+1134,19601135,Berlin-Tiergarten station,s-bahn,"KBS 103,KBS 102,KBS 101",Q572112,"52.5144,13.3365",Tiergarten
+1135,19601136,Tiergartenstrasse Ecke Hofjägerallee,bus,"A16,A69,A24",,"52.50960312444174, 13.351320889801638",Tiergartenstrasse
+1136,19601137,Tierpark Berlin,strassenbahn,"69,69E",,"52.50297204519277, 13.520916474066839",Tierpark Berlin
+1137,19601138,Tor 5,bus,A15,,"52.58357682284558, 13.320522582904216",Tor 5
+1138,19601139,Traegerstrasse,strassenbahn,66,,"52.476296219875636, 13.341188525686016",Traegerstrasse
+1139,19601140,"Treptow, Flutgraben",strassenbahn,92,,"52.49652089552196, 13.450211854195379","Treptow, Flutgraben"
+1140,19601141,"Treptow, Rathaus",bus,A47,,"52.48358899866382, 13.480324760498638","Treptow, Rathaus"
+1141,19601142,Berlin Treptower Park station,s-bahn,"KBS 103,KBS 100,KBS 103a",Q559274,"52.4938,13.4618",Treptower Park
+1142,19601143,Treskowallee/Ehrlichstraße,strassenbahn,82,Q65951921,"52.4789566,13.5234316",Treskowallee Ecke Ehrlichstrasse
+1143,19601144,Triftstrasse Ecke Müllerstrasse,bus,A64,,"52.54479384581092, 13.361911169867636",Triftstrasse
+1144,19601145,Triftweg Ecke Johannisthaler Chausse,bus,A52,,"52.431024618021745, 13.45739670616807",Triftweg
+1145,19601146,Trippsteinstrasse Ecke Brotteroder Strasse,bus,"A11,A2",,"52.41893958981137, 13.346149658204126",Trippsteinstrasse
+1146,19601147,TurmStrasse Ecke Stromstrasse,bus,A16,,"52.52628495236362, 13.343149398961996",TurmStrasse
+1147,19601148,Turmstrasse Ecke Wilsnacker Strasse,bus,A66,,"52.52639995421508, 13.35171729538701",Turmstrasse
+1148,19601149,U Turmstraße,strassenbahn,25,Q121907140,"52.52637,13.34044",Turmstrasse
+1149,19601150,Turmstrasse/Rathenower Strasse,bus,A70,,"52.52677998083022, 13.355183467556872",Turmstrasse/Rathenower Strasse
+1150,19601151,U-Bhf Kottbusser Tor,bus,A28,,"52.499051258453434, 13.418359009880978",U-Bhf Kottbusser Tor
+1151,19601152,U-Bhf. Boddinstrasse,bus,A4,,"52.48028651973042, 13.425279574612379",U-Bhf. Boddinstrasse
+1152,19601153,U-Bhf. Boddinstrasse,strassenbahn,27,,"52.48027865367161, 13.4251690465859",U-Bhf. Boddinstrasse
+1153,19601154,U-Bhf. Bülowstrasse,bus,A48,,"52.49787469517453, 13.362124599310649",U-Bhf. Bülowstrasse
+1154,19601155,U-Bhf. Bülowstrasse,strassenbahn,"74,73,88",,"52.4977947071403, 13.362041491653272",U-Bhf. Bülowstrasse
+1155,19601156,U-Bhf. Dahlem-Dorf,bus,A68,,"52.45807069736877, 13.289706947871178",U-Bhf. Dahlem-Dorf
+1156,19601157,U Eberswalder Straße,strassenbahn,"46E,70,4,49,22,13,46",Q65088313,"52.5401928,13.4113979",U-Bhf. Dimitroffstrasse
+1157,19601158,U-Bhf. Ernst-Reuter-Platz,bus,"A62,A25,AS1,A2",,"52.51164603099566, 13.322290858670174",U-Bhf. Ernst-Reuter-Platz
+1158,19601159,U-Bhf. Ernst-Reuter-Platz,strassenbahn,"6,25,44,2,54,55",,"52.511726576083134, 13.32260139821175",U-Bhf. Ernst-Reuter-Platz
+1159,19601160,U-Bhf. Fehrbelliner Platz,bus,"A1,AS3,A4,A21",,"52.490390927187676, 13.31417745809863",U-Bhf. Fehrbelliner Platz
+1160,19601161,U-Bhf. Flughafen,bus,"A4,A19",,"52.48488595983176, 13.38599654703171",U-Bhf. Flughafen
+1161,19601162,U-Bhf. Flughafen,strassenbahn,"99,95,98",,"52.484779980367215, 13.385962227231367",U-Bhf. Flughafen
+1162,19601163,U-Bhf. Friedrichsfelde,bus,"A8,A43",,"52.50624112361932, 13.512853060220209",U-Bhf. Friedrichsfelde
+1163,19601164,U-Bhf. Gesundbrunnen,bus,A14,,"52.548660755358114, 13.387873629581087",U-Bhf. Gesundbrunnen
+1164,19601165,U-Bhf. Grenzallee,bus,A67,,"52.46369510254238, 13.444231731166557",U-Bhf. Grenzallee
+1165,19601166,U-Bhf. Grenzallee,strassenbahn,"6,47",,"52.46348178875844, 13.444377273631815",U-Bhf. Grenzallee
+1166,19601167,U-Bhf. Hallesches Tor,bus,A24,,"52.497910015148264, 13.391307667735301",U-Bhf. Hallesches Tor
+1167,19601168,U-Bhf. Heidelberg Platz,bus,A65,,"52.48042873572808, 13.31278632857391",U-Bhf. Heidelberg Platz
+1168,19601169,U-Bhf. Heidelberger Platz,bus,A60,,"52.48006162214815, 13.312159920359697",U-Bhf. Heidelberger Platz
+1169,19601170,U-Bhf. Kaiserdamm,bus,"A10,A65",,"52.50999451351762, 13.28180313022396",U-Bhf. Kaiserdamm
+1170,19601171,U-Bhf. Kochstrasse,strassenbahn,88,,"52.50671104890453, 13.39050917018471",U-Bhf. Kochstrasse
+1171,19601172,U-Bhf. Kottbusser Tor,bus,A67,,"52.499122758255055, 13.4182411702772",U-Bhf. Kottbusser Tor
+1172,19601173,U-Bhf. Krumme Lanke,bus,A3,,"52.44308074990891, 13.24046555211665",U-Bhf. Krumme Lanke
+1173,19601174,U-Bhf. Kurt-Schumacher-Platz,bus,"A62,A64,A61",,"52.56338157214657, 13.32719915637487",U-Bhf. Kurt-Schumacher-Platz
+1174,19601175,U-Bhf. Leinestrasse,strassenbahn,27,,"52.473591021401894, 13.428015562483331",U-Bhf. Leinestrasse
+1175,19601176,U-Bhf. Leopoldplatz,bus,A64,,"52.54638728410018, 13.359182634014466",U-Bhf. Leopoldplatz
+1176,19601177,U-Bhf. Moritzplatz,strassenbahn,88,,"52.503642228347914, 13.410708942561621",U-Bhf. Moritzplatz
+1177,19601178,U-Bhf. Neanderstrasse,strassenbahn,64,,"52.511034507689814, 13.41638558442145",U-Bhf. Neanderstrasse
+1178,19601179,U-Bhf. Neukölln,strassenbahn,"47,15",,"52.46965567921364, 13.441614939772098",U-Bhf. Neukölln
+1179,19601180,U-Bhf. Onkel-Toms-Hütte,bus,A3,,"52.450068186477765, 13.251215083296572",U-Bhf. Onkel-Toms-H tte
+1180,19601181,U-Bhf. Oskar-Helene-Heim,bus,"A3,AS3,A18,A11,A1",,"52.450279005868815, 13.270361987159156",U-Bhf. Oskar-Helene-Heim
+1181,19601182,U-Bhf. Paradesstrasse,bus,A65,,"52.478191637509916, 13.385831195383249",U-Bhf. Paradesstrasse
+1182,19601183,U-Bhf. Paradestrasse,strassenbahn,98,,"52.478209745217, 13.385797973983829",U-Bhf. Paradestrasse
+1183,19601184,U-Bhf. Prinzenstrasse,bus,A28,,"52.49844153838657, 13.406643837212261",U-Bhf. Prinzenstrasse
+1184,19601185,U-Bhf. Ernst-Reuter-Platz,strassenbahn,53,,"52.51159848537007, 13.322566719414151",U-Bhf. Reuter-Platz
+1185,19601186,U-Bhf. Ruhleben,bus,"A5,A31,AS1",,"52.52596833151868, 13.241478578696297",U-Bhf. Ruhleben
+1186,19601187,U-Bhf. Ruhleben,strassenbahn,"53,54",,"52.52595776615238, 13.241371866188729",U-Bhf. Ruhleben
+1187,19601188,"U-Bhf. Rüdesheimer Platz, Wiesbadener Strasse",bus,A17,,"52.4720831087791, 13.314909778144818",U-Bhf. Rüdesheimer Platz
+1188,19601189,"U-Bhf. Scharnweberstrasse, Sportplatz",bus,A61,,"52.56792223040469, 13.311949805424875","U-Bhf. Scharnweberstrasse, Sportplatz"
+1189,19601190,U-Bhf. Schlesisches Tor,bus,A28,,"52.50108419874335, 13.441971259873345",U-Bhf. Schlesisches Tor
+1190,19601191,U-Bhf. Seestrasse,bus,"A16,A12,A12S,A64",,"52.550315408708514, 13.352298502985231",U-Bhf. Seestrasse
+1191,19601192,U-Bhf. Spichernstrasse,bus,"A25,A2",,"52.49661912400034, 13.330712965202862",U-Bhf. Spichernstrasse
+1192,19601193,U-Bhf. Strausberger Platz,strassenbahn,1,,"52.51808306742478, 13.432938339097822",U-Bhf. Strausberger Platz
+1193,19601194,U-Bhf. Südstern,strassenbahn,3,,"52.48899443353793, 13.40800672025058",U-Bhf. Südstern
+1194,19601195,U-Bhf. Tegel,bus,"A13,A15,A20,A14",,"52.589503132547385, 13.283630715732999",U-Bhf. Tegel
+1195,19601196,U-Bhf. Tempelhof,strassenbahn,96,,"52.465913635809336, 13.385525190230428",U-Bhf. Tempelhof
+1196,19601197,U-Bhf. Thielplatz,bus,A10,,"52.45104520805668, 13.281736418792137",U-Bhf. Thielplatz
+1197,19601198,U Vinetastraße,strassenbahn,22,Q65075426,"52.5596168,13.413232",U-Bhf. Vinestrasse
+1198,19601199,U-Bhf. Vinetastrasse,bus,A7,,"52.55981894046453, 13.413208628380339",U-Bhf. Vinetastrasse
+1199,19601200,U Vinetastraße,strassenbahn,"49,46E,46",Q65075426,"52.5596168,13.413232",U-Bhf. Vinetastrasse
+1200,19601201,Uckermarkstrasse Ecke Am Baltenring,bus,A49,,"52.52145144349922, 13.596724604247981",Uckermarkstrasse
+1201,19601202,Uhlenhorst,strassenbahn,"86,83",,"52.468276850494775, 13.5867542618861",Uhlenhorst
+1202,19601203,Ulmenstrasse Ecke Chemnitzer Strasse,bus,A27,,"52.48730877811447, 13.574932033917504",Ulmenstrasse
+1203,19601204,Under den Eichen Ecke Drakestrasse,bus,A11,,"52.44564069754048, 13.293802457130425",Under den Eichen
+1204,19601205,Unionplatz,bus,A25,,"52.533059397499464, 13.337278814540305",Unionplatz
+1205,19601206,Berlin Brandenburger Tor station,s-bahn,"KBS 105,KBS 106,KBS 104",Q477185,"52.516388888889,13.380833333333",Unter den Linden
+1206,19601207,Urban-Krankenhaus,strassenbahn,95,,"52.493170013997506, 13.407958861404088",Urban-Krankenhaus
+1207,19601208,Urban-Krankenhaus,bus,A28,,"52.493469358698874, 13.406245116325284",Urban-Krankenhause
+1208,19601209,Usedomer Strasse Ecke Brunnenstrasse,bus,A71,,"52.541120501957316, 13.393769565044664",Usedomer Strasse
+1209,19601210,Velten (Mark),s-bahn,KBS 105,Q19274518,"52.685,13.172222",Velten (Mark)
+1210,19601211,Verwaltungs-Gebäude,bus,A10,,"52.537063326963775, 13.262285169635492",Verwaltungs-Gebäude
+1211,19601212,Adlergestell/Vetschauer Allee,strassenbahn,86,Q66459670,"52.3864124,13.633786",Vetschauer Allee
+1212,19601213,Viktoria-Luise-Platz,u-bahn,B III,Q178685,"52.496161111111,13.342702777778",Viktoria-Luise-Platz
+1213,19601214,Virchow-Krankenhaus,bus,A16,,"52.54371513062133, 13.339317916518894",Virchow-Krankenhaus
+1214,19601215,Vogelsang Ecke Königin-Luise-Strasse,bus,A68,,"52.45939482396207, 13.280296976660761",Vogelsang
+1215,19601216,Vollkropfgraben,strassenbahn,86,Q66493847,"52.4386665,13.5714889",Vollkropfgraben
+1216,19601217,Voltastraße,u-bahn,D,Q663308,"52.542093,13.393022",Voltastr.
+1217,19601218,Voltastrasse,strassenbahn,2,,"52.541478016132466, 13.389258272917548",Voltastrasse
+1218,19601219,"Waßmannsdorf, Warteh.",bus,AZ,,"52.37269773285082, 13.465032652682668","Waßmannsdorf, Warteh."
+1219,19601220,Berlin-Waidmannslust station,s-bahn,KBS 104,Q800492,"52.6064,13.321",Waidmannslust
+1220,19601221,Waldemarstrasse Ecke Adalbertstrasse,bus,A28,,"52.50326279588436, 13.420631417701001",Waldemarstrasse
+1221,19601222,Walderseestrasse,bus,A20,,"52.575655932178144, 13.228965833395124",Walderseestrasse
+1222,19601223,Waldesruh,bus,A8,,"52.48487246674627, 13.628942223225485",Waldesruh
+1223,19601224,Waldfriedhof Zehlendorf Ecke Potsdamer Chaussee,bus,A18,,"52.42599572508999, 13.209246048971062",Waldfriedhof
+1224,19601225,Waldkrankenhaus,bus,A5,,"52.56214542863615, 13.158340085815741",Waldkrankenhaus
+1225,19601226,Waldstrasse/Gotzkowskystrasse,bus,A70,,"52.52721622390326, 13.330524512340718",Waldstrasse/Gotzkowskystrasse
+1226,19601227,Walter-Ulbricht-Stadion,strassenbahn,69,,"52.535963327585435, 13.376321651970404",Walter-Ulbricht-Stadion
+1227,19601228,Waltersdorf,bus,A38,,"52.36492901110609, 13.555712408051676",Waltersdorf
+1228,19601229,Waltersdorfer Chaussee (Spinne),bus,AD/36,,"52.394164684841336, 13.521784916658106",Waltersdorfer Chaussee (Spinne)
+1229,19601230,Waltersdorfer Chaussee (Spinne),bus,AZ,,"52.392853002264665, 13.522677096747554",Waltersforder Chaussee (Spinne)
+1230,19601231,Wannsee,bus,Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt),,"52.42192223789253, 13.17584115774181",Wannsee
+1231,19601232,S-Bahnhof Berlin Wannsee,s-bahn,"KBS 104b,KBS 102,KBS 104",Q111325896,"52.4214,13.1792",Wannsee
+1232,19601233,Warnemünder Strasse Ecke Breite Strasse,bus,A17,,"52.47539576569938, 13.290488880070722",Warnem nder Strasse
+1233,19601234,Warnemünder/Berkaer Strasse,bus,A60,,"52.47539682813685, 13.290437797038999",Warnem nder/Berkaer Strasse
+1234,19601235,Warschauer Straße metro station,u-bahn,"B II,B I",Q18380174,"52.5051,13.4491",Warschauer Brücke
+1235,19601236,S-Bahnhof Warschauer Straße,s-bahn,"KBS 100c,KBS 103,KBS 101,KBS 100b,KBS 102",Q111252298,"52.506416666667,13.450955555556",Warschauer Str.
+1236,19601237,Warschauer Strasse Ecke Grünberger Strasse,bus,O30,,"52.512432267445355, 13.452598837307189",Warschauer Strasse
+1237,19601238,S+U-Bahnhof Warschauer Straße (tram stop),strassenbahn,82,Q63490275,"52.50502,13.44863",Warschauer Strasse
+1238,19601239,Wartburgplatz,strassenbahn,25,,"52.48753778413099, 13.34501784267965",Wartburgplatz
+1239,19601240,"Wartenberg, Dorfstrasse",bus,A39,,"52.57484089632958, 13.518020972979759","Wartenberg, Dorfstrasse"
+1240,19601241,"Wartenberg, Siedlung",bus,A39,,"52.58393195902164, 13.53076033685478","Wartenberg, Siedlung"
+1241,19601242,Berlin-Wedding station,s-bahn,"KBS 100,KBS 103a,KBS 100c",Q638604,"52.5425,13.3661",Wedding
+1242,19601243,Weddingplatz,bus,"A70,A12,A12S",,"52.54113612364086, 13.368501029385115",Weddingplatz
+1243,19601244,Weddingplatz,strassenbahn,"35,25,2",,"52.54152535588228, 13.369198549039789",Weddingplatz
+1244,19601245,"Weißensee, Feldtmannstrasse Ecke Berliner Allee",bus,A56,,"52.564009383174366, 13.469819807860086","Weißensee, Feldtmannstrasse"
+1245,19601246,"Weißensee, Liebermannstrasse Ecke Piesporter Strasse",bus,A55,,"52.56102399602114, 13.477459977323056","Weißensee, Liebermannstrasse Ecke Piesporter Strasse"
+1246,19601247,Pasedagplatz,strassenbahn,72,Q65954665,"52.5594027,13.4609594","Weißensee, Pasedagplatz"
+1247,19601248,"Weißensee, Rennbahnstrasse Ecke Gustav-Adolf-Strasse",bus,A55,,"52.56218648050474, 13.454267038723398","Weißensee, Rennbahnstrasse Ecke Gustav-Adolf-Strasse"
+1248,19601249,"Weißensee, Schwarzelfenweg",bus,A45,,"52.566620142161746, 13.464140428405006","Weißensee, Schwarzelfenweg"
+1249,19601250,Weißenseer Weg Ecke Landsberger Allee,bus,O41,,"52.53303479533508, 13.476121708352885",Weißenseer Weg
+1250,19601251,Landsberger Allee/Weißenseer Weg,strassenbahn,"64,63",Q65942700,"52.532258,13.476705",Weißenseer Weg
+1251,19601252,Weichselstrasse,strassenbahn,"26,47",,"52.48313752772782, 13.431480309407663",Weichselstrasse
+1252,19601253,"WeidendammBrücke, Bhf. Friedrichstrasse",strassenbahn,"70,1,46",,"52.52168602376861, 13.388097732360343","WeidendammBrücke, Bhf. Friedrichstrasse"
+1253,19601254,Weinmeisterstraße metro station,u-bahn,D,Q661876,"52.525833333333,13.403888888889",Weinmeisterstr.
+1254,19601255,Wendenschloß Ecke Ekhofstrasse,strassenbahn,83,,"52.41633000736971, 13.589690772826726",Wendenschloß Ecke Ekhofstrasse
+1255,19601256,Wentowsteig Ecke Wilhelmsruher Damm,bus,A21,,"52.59694371557204, 13.360462949429833",Wentowsteig
+1256,19601257,Berlin Wernerwerk station,s-bahn,"KBS 100d,KBS 100c",Q96077001,"52.534863,13.27599",Wernerwerk
+1257,19601258,Berlin-Westend station,s-bahn,"KBS 100,KBS 100c",Q323214,"52.5181,13.2844",Westend
+1258,19601259,Berlin Westkreuz station,s-bahn,"KBS 100c,KBS 103,KBS 101,KBS 100,KBS 102",Q678125,"52.5011,13.2839",Westkreuz
+1259,19601260,"Weverstrasse, Strassenbahnhof",strassenbahn,"75,76",,"52.51946975407937, 13.19781896484702","Weverstrasse, Strassenbahnhof"
+1260,19601261,Wichertstrasse Ecke Humannplatz,bus,A56,,"52.54871619453036, 13.420715020754026",Wicherstrasse
+1261,19601262,Wichmannstrasse Ecke Budapester Strasse,bus,A66,,"52.506628876773426, 13.345693889047093",Wichmannstrasse
+1262,19601263,Pasedagplatz,strassenbahn,74,Q65954665,"52.5594027,13.4609594","Wie ensee, Pasedagplatz"
+1263,19601264,Wiebestrasse Ecke Sickingenstrasse,bus,A24,,"52.53119512537686, 13.319063771537584",Wiebestrasse
+1264,19601265,Wiebestrasse,strassenbahn,3,,"52.52581092392458, 13.318056678375148",Wiebestrasse
+1265,19601266,"Wiebestrasse, Strassenbahnhof",bus,A70,,"52.53066666255053, 13.319314794959219","Wiebestrasse, Strassenbahnhof"
+1266,19601267,Wiebestrasse/Huttenstrasse,strassenbahn,35,,"52.528377524398394, 13.319408967722172",Wiebestrasse/Huttenstrasse
+1267,19601268,Wiener Brücke,strassenbahn,"87,88",,"52.49588477409083, 13.43650068505988",Wiener Brücke
+1268,19601269,Wiesbadener Strasse Ecke Südwestkorso,bus,A16,,"52.47164544021605, 13.319516803491332",Wiesbadener Strasse
+1269,19601270,Wiesenbaude,bus,A11,,"52.430495242672045, 13.31180861060395",Wiesenbaude
+1270,19601271,Wiesenbaude,strassenbahn,"74,73",,"52.43330952304924, 13.307272184416341",Wiesenbaude
+1271,19601272,Wiesenstrasse Ecke Pankstrasse,bus,A70,,"52.54763571080132, 13.373871074090278",Wiesenstrasse
+1272,19601273,Wildau railway station,s-bahn,KBS 103,Q8000974,"52.32,13.634",Wildau
+1273,19601274,Wildmeisterdamm Ecke Neuköllner Strasse,bus,A52,,"52.425839839495815, 13.48325607958456",Wildmeisterdamm
+1274,19601275,Wildmeisterdamm,strassenbahn,47,,"52.426124062490864, 13.48276594555747",Wildmeisterdamm
+1275,19601276,Wilhelminenhofstraße/Edisonstraße,strassenbahn,82,Q65951882,"52.4619496,13.5139049",Wilhelminenhof- Ecke Edisonstrasse
+1276,19601277,Wilhelminenhofstrasse,strassenbahn,"69,69E",,"52.460837970970566, 13.521054382869073",Wilhelminenhofstrasse
+1277,19601278,Wilhelminenhofstraße/Edisonstraße,strassenbahn,87,Q65951882,"52.4619496,13.5139049",Wilhelminenhofstrasse Ecke Edisonstrasse
+1278,19601279,Wilhelminenhofstraße/Edisonstraße,strassenbahn,95,Q65951882,"52.4619496,13.5139049","Wilhelminenhofstrasse, Edisonstrasse"
+1279,19601280,Berlin Wilhelmshagen station,s-bahn,KBS 102,Q800494,"52.4386,13.7222",Wilhelmshagen
+1280,19601281,Berlin-Wilhelmsruh station,s-bahn,KBS 104,Q800495,"52.5814,13.3631",Wilhelmsruh
+1281,19601282,"Wilhelmsruh, Fontanestrasse",bus,"A45,A55",,"52.58985938767378, 13.361193570257216","Wilhelmsruh, Fontanestrasse"
+1282,19601283,Wilhelmstrasse Ecke Berliner Strasse,bus,A17,,"52.43057879952989, 13.318592903820731",Wilhelmstrasse
+1283,19601284,Berlin Bundesplatz station,s-bahn,"KBS 100a,KBS 100",Q464094,"52.477658333333,13.328525",Wilmersdorf
+1284,19601285,Wilmersdorfer Strasse Ecke Kurfürstendamm,bus,"A66,A69,A19,A29",,"52.499967660537735, 13.306987838785277",Wilmersdorfer Strasse
+1285,19601286,Wilmersdorfer Strasse,strassenbahn,"44,75,76",,"52.506692000645316, 13.306692426875525",Wilmersdorfer Strasse
+1286,19601287,Winfriedstrasse Ecke Berliner Strasse,bus,AS3,,"52.437562011852606, 13.269450173477841",Winfriedstrasse
+1287,19601288,Winifriedstrasse Ecke Clayallee,bus,A3,,"52.43922811177887, 13.262911865460357",Winifriedstrasse
+1288,19601289,Wintersteinstrasse,strassenbahn,6,,"52.51803433122661, 13.30642871226906",Wintersteinstrasse
+1289,19601290,Wismarer Strasse Ecke Goerzallee,bus,A1,,"52.42195191841697, 13.2985053942209",Wismarer Strasse
+1290,19601291,Wittenau,bus,A62,,"52.596084138285406, 13.332857679505645",Wittenau
+1291,19601292,S-Bahnhof Berlin-Wittenau,s-bahn,KBS 105,Q111264319,"52.597013,13.334329",Wittenau (Kremmener Bahn)
+1292,19601293,S-Bahnhof Berlin-Wittenau,s-bahn,KBS 104,Q111264319,"52.597013,13.334329",Wittenau (Nordbahn)
+1293,19601294,Wittenbergplatz,bus,"A62,A60,A29,A19,A69",,"52.50188939146253, 13.342697883756577",Wittenbergplatz
+1294,19601295,Wittenbergplatz,strassenbahn,"6,25,78,2,77,54,55,53",,"52.50185025953713, 13.343098350806866",Wittenbergplatz
+1295,19601296,Wittenbergplatz metro station,u-bahn,"B II,A I,B I,A II",Q692727,"52.501944444444,13.343055555556",Wittenbergplatz
+1296,19601297,Berlin Messe Nord/ICC station,s-bahn,"KBS 100,KBS 100c",Q321266,"52.5078,13.2836",Witzleben
+1297,19601298,Wolburgsweg Ecke Falkenseer Chaussee,bus,A5,,"52.550616013150325, 13.16810722103831",Wolburgsweg
+1298,19601299,Berlin Wollankstraße station,s-bahn,"KBS 105,KBS 104",Q800515,"52.5651525,13.3923627",Wollankstr.
+1299,19601300,Wolliner Strasse,bus,A71,,"52.53982922743302, 13.401577799029111",Wolliner Strasse
+1300,19601301,Wolliner Straße,strassenbahn,"25,2",Q65719652,"52.5399996,13.4020564",Wolliner Strasse
+1301,19601302,Wolzogenstrasse Ecke Potsdamer Chaussee,bus,A18,,"52.43229985926568, 13.235719207112487",Wolzogenstrasse
+1302,19601303,Berlin Wuhlheide station,s-bahn,KBS 102,Q800514,"52.4689,13.5533",Wuhlheide
+1303,19601304,Yorckstraße station,s-bahn,"KBS 105,KBS 106",Q21776729,"52.491777777778,13.372141666667",Yorckstr.
+1304,19601305,"Yorckstrasse, Rathaus Kreuzberg",bus,A28,,"52.49358813377981, 13.384967556749217",Yorckstrasse
+1305,19601306,Yorckstrasse Ecke Mehringdamm,strassenbahn,99,,"52.492901206042376, 13.387766831697483",Yorckstrasse
+1306,19601307,Yorckstrasse/Gneisenaustrasse,strassenbahn,98,,"52.492962048633196, 13.387727495303821",Yorckstrasse/Gneisenaustrasse
+1307,19601308,Zabel-Krüger-Damm & Oraniendamm,bus,"A12,A12S",,"52.60786610541416, 13.323845802997752",Zabel-Krüger-Damm
+1308,19601309,Zappoter/Oeynhauser Strasse,bus,A60,,"52.47331132628728, 13.298669291589876",Zappoter/Oeynhauser Strasse
+1309,19601310,Berlin-Zehlendorf station,s-bahn,"KBS 104a,KBS 104",Q737962,"52.4309,13.2584",Zehlendorf
+1310,19601311,Berlin Storkower Straße station,s-bahn,"KBS 100,KBS 103a,KBS 100b,KBS 100c",Q800512,"52.5238,13.4644",Zentralviehhof
+1311,19601312,Zepernick station,s-bahn,KBS 106,Q801657,"52.6598,13.5342",Zepernick (Kr Niederbarnim)
+1312,19601313,Zeuthen railway station,s-bahn,KBS 103,Q8069824,"52.3486,13.6274",Zeuthen
+1313,19601314,"Ziegenhals, VA Dienststelle",bus (Umlandlinie),Schmöckwitz<>Ziegenhals (VEB Kraftverkehr Schöneiche-Rüdersdorf),,"52.3470916280972, 13.664196000865504","Ziegenhals, VA Dienststelle"
+1314,19601315,Ziekowstrasse Ecke Gorkistrasse,bus,A14,,"52.59059426195262, 13.292011153010927",Ziekowstrasse
+1315,19601316,Zitadellenweg,strassenbahn,55,,"52.5377758132997, 13.217204249093342",Zitadellenweg
+1316,19601317,ZobeltitzStrasse Ecke General-Barby-Strasse,bus,A61,,"52.56898257894375, 13.317202802475165",ZobeltitzStrasse
+1317,19601318,S-Bahnhof Berlin Zoologischer Garten,s-bahn,"KBS 103,KBS 102,KBS 101",Q111326238,"52.507222222222,13.3325",Zoologischer Garten
+1318,19601319,Zoologischer Garten metro station,u-bahn,"A I,B I",Q4024764,"52.5058669,13.3330236",Zoologischer Garten
+1319,19601320,Zossener Strasse Ecke Gneisenaustrasse,bus,A28,,"52.49160676567746, 13.394443897793668",Zossener Strasse
+1320,19601321,Zum Heckeshorn Ecke Am Großen Wannsee,bus,A51,,"52.43307505069834, 13.164008736441371",Zum Heckeshorn
+1321,19601322,ZweiBrücker Strasse Ecke Falkenseer Chaussee,bus,A63,,"52.54677409100436, 13.188764018875105",ZweiBrücker Strasse
+1322,19601323,Afrikanische Strasse Ecke Seestrasse ,bus,A16,,"52.54630154020319, 13.343855247543928 ",Afrikanische Strasse
+1323,19601324, Afrikanische Strasse Ecke Müllerstrasse,bus,A64,," 52.56092107945643, 13.333499647590612",Afrikanische Strasse
+1324,19601325,Alt-Moabit Ecke Rathenower Strasse ,bus,A24,,"52.524078460891005, 13.357069143313803 ",Alt-Moabit
+1325,19601326, Alt-Moabit Ecke Wilsnacker Strasse,bus,A66,," 52.52437871670591, 13.350938481047272",Alt-Moabit
+1326,19601327,Alt-Wittenau Ecke Oranienburger Straße ,bus,A62,,"52.58972877186178, 13.334169215342472 ",Alt-Wittenau
+1327,19601328, Alt-Wittenau Ecke Eichborndamm,bus,"A15,A21",," 52.59166508975595, 13.326326895395114",Alt-Wittenau
+1328,19601329,Askanierring Ecke Falkenhagener Strasse ,bus,A34,,"52.54891706140618, 13.193495587303872 ",Askanierring
+1329,19601330, Askanierring Ecke Falkenhagener Damm,bus,"A35,A63",," 52.545679974269035, 13.194267325495874",Askanierring
+1330,19601331,Bergstrasse Ecke Bismarckstrasse ,bus,A2,,"52.45863201901168, 13.339308585029036 ",Bergstrasse
+1331,19601332, Bergstrasse Ecke Körnerstrasse,bus,A68,," 52.458183734651705, 13.329753854060407",Bergstrasse
+1332,19601333,Berliner Strasse Ecke Blissestrasse ,bus,A60,,"52.48647817230135, 13.32051384057218 ",Berliner Strasse
+1333,19601334, Berliner Strasse Ecke Teltower Damm ,bus,A53,," 52.43506128153174, 13.260479781039699 ",Berliner Strasse
+1334,19601335, Königsberger Strasse Ecke Ostpreußdendamm ,bus,A11,," 52.430812764146886, 13.317504947138493 ",Berliner Strasse
+1335,19601336,  Bundesallee Ecke Berliner Strasse,bus,"AS2,A2",," 52.48732335019939, 13.330965094326162",Berliner Strasse
+1336,19601337,Bernauer Strasse Ecke Berliner Strasse ,bus,A13,,"52.57629905299874, 13.294692761311245 ",Bernauer Strasse
+1337,19601338, Bernauer Strasse Ecke Brunnenstrasse ,bus,A61,," 52.538252555466876, 13.396009073652834 ",Bernauer Strasse
+1338,19601339, Bernauer Straße & Gartenstraße,bus,A64,," 52.53341403688134, 13.387603209024276",Bernauer Strasse
+1339,19601340,Bismarckstrasse Ecke Bergstrasse ,bus,A68,,"52.458629268184715, 13.33930401807899 ",Bismarckstrasse
+1340,19601341, Bismarckstrasse Ecke Steglitzer Damm ,bus,A33,," 52.45105788558934, 13.337947293504078 ",Bismarckstrasse
+1341,19601342, Morgensternstrasse Ecke Königsberger Strasse,bus,A11,," 52.42807192993347, 13.325509812749845",Bismarckstrasse
+1342,19601343,Breite Strasse Ecke Charlottenstrasse ,bus,"A5,A31",,"52.53613613360638, 13.20450629947795 ",Breite Strasse
+1343,19601344, Breite Strasse Ecke Albrechtstrasse,bus,"A68,A33",," 52.45435057367761, 13.328307509759025",Breite Strasse
+1344,19601345,Bundesallee Ecke Rheinstrasse ,bus,"A17,A48",,"52.46493052962428, 13.32853185257923 ",Bundesallee
+1345,19601346, Bundesallee Ecke Badensche Strasse,bus,A4,," 52.48613795045858, 13.33110029774997",Bundesallee Ecke Badensche Strasse
+1346,19601347,Bundesallee Ecke Berliner Strasse ,strassenbahn,"60,3,78,77",,"52.48733630342845, 13.331014163134173 ",Bundesallee Ecke Berliner Strasse
+1347,19601348, Bundesallee Ecke Rheinstraße,strassenbahn,"74,73",," 52.46492119902574, 13.32837406654589",Bundesallee
+1348,19601349,Dimitroffstrasse Ecke Landsberger Allee ,strassenbahn,"69,64,69E,63",,"52.5264303512303, 13.447596791543624 ",Dimitroffstrasse
+1349,19601350, Dimitroffstrasse Ecke Prenzlauer Strasse ,strassenbahn,"72,71",," 52.53918901477695, 13.42424530247013 ",Dimitroffstrasse
+1350,19601351, Dimitroffstrasse Ecke Greifswalder Strasse,strassenbahn,"74,74E",," 52.53617065447549, 13.433035147691381",Dimitroffstrasse
+1351,19601352,Emmentaler Strasse Ecke Aroser Allee ,bus,"A12,A12S",,"52.5675354709663, 13.351240165364471 ",Emmentaler Strasse
+1352,19601353, Emmentaler Strasse Ecke Residenzstraße,bus,A71,," 52.570420696850896, 13.360956869321077",Emmentaler Strasse
+1353,19601354,Hafenplatz Ecke Köthener Strasse ,bus,A24,,"52.50392083524772, 13.375479875476426 ",Hafenplatz
+1354,19601355," Hafenplatz, Spandau",bus,"A34,AS1",," 52.54215888169655, 13.206044861619935",Hafenplatz
+1355,19601356,Heerstrasse Ecke Wilhelmstrasse ,bus,A13,,"52.51662457723462, 13.179022303033726 ",Heerstrasse
+1356,19601357, Heerstrasse Ecke Gatower Strasse,bus,"A34,A35",," 52.51550447615084, 13.18456806294143",Heerstrasse
+1357,19601358,Hermsdorfer Damm Ecke Berliner Strasse ,bus,"A12,A12S",,"52.62242143698805, 13.31287835380073 ",Hermsdorfer Damm
+1358,19601359, Hermsdorfer Damm Ecke Karolinenstrasse,bus,A15,," 52.600011860666825, 13.281303213246002",Hermsdorfer Damm
+1359,19601360,Hohenzollernring Ecke Schönwalder Allee ,strassenbahn,"54,76",,"52.55534806923232, 13.198657615343986 ",Hohenzollernring
+1360,19601361, Hohenzollernring Ecke Streitstraße,strassenbahn,"53,75",," 52.55569292602298, 13.20744492422738",Hohenzollernring
+1361,19601362,"Holzhauser Strasse, Rathaus Reinickendorf ",bus,"A12,A14",,"52.59178549505881, 13.326377240287412 ",Holzhauser Strasse
+1362,19601363, Holzhauser Strasse Ecke Breitenbachstrasse,bus,A15,," 52.581973276504755, 13.305409380050108",Holzhauser Strasse
+1363,19601364,Kurfürstendamm Ecke Konstanzer Strasse ,bus,A1,,"52.500599097108285, 13.31304940813286 ",Kurfürstendamm Ecke Konstanzer Strasse
+1364,19601365, Joachim-Friedrichstrasse Ecke Kurfürstendamm,bus,"AS3,A60,A21,AS2,A10",," 52.498023305214666, 13.296217571157966",Kurfürstendamm
+1365,19601366,Königin-Luise-Strasse Ecke Clayallee ,bus,AS3,,"52.46046250414625, 13.274837141314253 ",Königin-Luise-Strasse
+1366,19601367, Königin-Luise-Strasse Ecke Pacelliallee,bus,A10,," 52.45831794711095, 13.287027476333241",Königin-Luise-Strasse
+1367,19601368,Lindauer Strasse Ecke Aroser Allee ,bus,"A12,A12S",,"52.573719929631665, 13.351912686321713 ",Lindauer Strasse Ecke Aroser Allee
+1368,19601369, Lindauer Strasse Ecke Residenzstrasse,bus,A71,," 52.573378512244474, 13.359026284637647",Lindauer Strasse
+1369,19601370,Lützowplatz ,bus,A29,,"52.50531004879477, 13.35374234810531 ",Lützowstrasse
+1370,19601371, Lützowstrasse Ecke Potsdamer Strasse,bus,A48,," 52.5030789103706, 13.36561126569968",Lützowstrasse
+1371,19601372,Oranienburger Strasse Ecke Hermsdorfer Strasse,bus,A12S,,"52.60503286544952, 13.32624696983276 ",Oranienburger Strasse
+1372,19601373, Oranienburger Strasse Ecke Wilhelmsruher Damm,bus,A21,," 52.59544415987805, 13.333037366087483",Oranienburger Strasse
+1373,19601374,Osloer Strasse Ecke Prinzenallee ,bus,"A70,A71",,"52.55587669510938, 13.38424421097371 ",Osloer Strasse
+1374,19601375, Osloer Strasse Ecke Schwedenstrasse,bus,A61,," 52.55671381712504, 13.373732523202998",Osloer Strasse
+1375,19601376,Potsdamer Strasse Ecke Lützowstrasse ,bus,"A24,A29",,"52.50310985391171, 13.365680511254423 ",Potsdamer Strasse
+1376,19601377, Potsdamer Strasse Ecke Bülowstrasse ,bus,A19,," 52.497900834061184, 13.362004472211375 ",Potsdamer Strasse
+1377,19601378, Potsdamer Strasse Ecke Clayallee ,bus,"A1,A18",," 52.43504800046437, 13.260425575475969 ",Potsdamer Strasse Ecke Clayallee
+1378,19601379, Potsdamer Strasse Ecke Fischerhüttenstrasse,bus,A53,," 52.43581242860363, 13.256098874509126",Potsdamer Strasse
+1379,19601380,Rathenower Strasse Ecke Perleberger Strasse ,bus,A70,,"52.53252987726616, 13.350576073195072 ",Rathenower Strasse
+1380,19601381, Rathenower Strasse Ecke Turmstrasse,bus,A24,," 52.52673250798154, 13.355275614926985",Rathenower Strasse
+1381,19601382,Sundgauer Strasse Ecke Clayallee ,bus,"A3,AS3",,"52.4455796617832, 13.267631906214019 ",Sundgauer Strasse
+1382,19601383, Sundgauer Strasse Ecke Berliner Strasse,bus,A48,," 52.43838201264951, 13.271447959003352",Sundgauer Strasse
+1383,19601384,Uhlandstrasse Ecke Hohenzollerndamm ,bus,A50,,"52.49368292097469, 13.323611381015645 ",Uhlandstrasse
+1384,19601385, Uhlandstrasse Ecke Kurfürstendamm,bus,"A66,A69,A29",," 52.50252020955797, 13.325204349014482",Uhlandstrasse
+1385,19601386,Viersener Strasse Ecke Seegefelder Strasse ,bus,A63,,"52.54020417705652, 13.17462661157195 ",Viersener Strasse
+1386,19601387, Viersener Strasse Ecke Falkenseer Chaussee,bus,A5,," 52.54873823655914, 13.17802517662475",Viersener Strasse
+1387,19601388,"Waldstrasse, Moabit ",bus,A1,,"52.5289058489127, 13.330853260683844 ",Waldstrasse
+1388,19601389, Waldstrasse Ecke Waidmannslust,bus,A20,," 52.60193428053164, 13.306047505406614",Waldstrasse Ecke Waidmannslust
+1389,19601390,Weinmeisterhornweg Ecke Wilhelmstrasse ,bus,A13,,"52.511043998847086, 13.171645488962428 ",Weinmeisterhornweg
+1390,19601391, Weinmeisterhornweg Ecke Gatower Strasse,bus,"A34,A35",," 52.50924681744358, 13.180314851039075",Weinmeisterhornweg
+1391,19601392,Wismarer Strasse Ecke Goerzallee ,strassenbahn,77,,"52.42195291492597, 13.29850599537737 ",Wismarer Strasse
+1392,19601393, Wismarer Strasse Ecke Ostpreußendamm,strassenbahn,96,," 52.417896574609436, 13.305198099285986",Wismarer Strasse
+1393,19601394,Zentralschule ,bus,A22,,"52.43465069286089, 13.703692212644038 ",Zentralschule
+1394,19601395, Waldschänke,bus,A22,," 52.443318139967566, 13.68593963431219",Waldschänke
+1395,19601396,Wilhelmstrasse Ecke Pichelsdorferstrasse,bus,"A34,A35",,"52.52799171469617, 13.19527000737161",Wilhelmstrasse Ecke Pichelsdorferstrasse
+1396,19601397,Köpenicker Strasse Ecke Manteuffelstrasse,bus,A28,,"52.505752241611106, 13.431927610647389",Köpenicker Strasse Ecke Manteuffelstrasse
+1397,19601398,Lichterfelde Süd Lindenstrasse,strassenbahn,78,,"52.41370384479345, 13.30156889737024",Lichterfelde Süd Lindenstrasse
+1398,19601399,Schloßstrasse Ecke Spandauer Damm,strassenbahn,60,,"52.519450730147675, 13.295992115231417",Schloßstrasse Ecke Spandauer Damm

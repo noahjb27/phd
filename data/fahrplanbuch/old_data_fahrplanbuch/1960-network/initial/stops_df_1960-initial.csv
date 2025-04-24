@@ -1,0 +1,2835 @@
+,stop_name,line_count,type,in_lines
+0,SchillingBrücke (Ostbahnhof),1,strassenbahn,['1']
+1,U-Bhf. Strausberger Platz,1,strassenbahn,['1']
+2,Stalinallee,7,strassenbahn,['1']
+3,Stalinallee,7,bus,['O40']
+4,Stalinallee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+5,Leninplatz,5,strassenbahn,"['69', '1', '63', '64']"
+6,Leninplatz,5,bus,['O40']
+7,"Alexanderplats, Memhardstr.",1,strassenbahn,['1']
+8,Rosenthaler Platz,6,strassenbahn,"['22', '11', '1', '49']"
+9,Rosenthaler Platz,6,bus,['O40']
+10,Rosenthaler Platz,6,u-bahn,['D']
+11,Brunnen Ecke Invalidenstrasse,2,strassenbahn,"['11', '1']"
+12,Invaliden- Ecke Chausseestrasse,4,strassenbahn,"['46', '11', '1', '46E']"
+13,"WeidendammBrücke, Bhf. Friedrichstrasse",3,strassenbahn,"['46', '1', '70']"
+14,Am Kupfergraben,1,strassenbahn,['1']
+15,Köpenicker Strasse Ecke Adalbertstrasse,1,strassenbahn,['11']
+16,Bhf. JannowitzBrücke,1,strassenbahn,['11']
+17,"Alexanderplatz, Memhardstrasse",4,strassenbahn,"['22', '11', '63', '69']"
+18,Rosenthaler Platz,6,strassenbahn,"['22', '11', '1', '49']"
+19,Rosenthaler Platz,6,bus,['O40']
+20,Rosenthaler Platz,6,u-bahn,['D']
+21,Brunnen Ecke Invalidenstrasse,2,strassenbahn,"['11', '1']"
+22,Invaliden- Ecke Chausseestrasse,4,strassenbahn,"['46', '11', '1', '46E']"
+23,"Oranienburger Tor, Hannoversche Strasse",2,strassenbahn,"['11', '46E']"
+24,"Klingenberg, Blockdammweg",1,strassenbahn,['13']
+25,Karlshorster Strasse,1,strassenbahn,['13']
+26,Holteistrasse,2,strassenbahn,['13']
+27,Holteistrasse,2,bus,['O30']
+28,Frankfurter Tor/Stalinallee,2,strassenbahn,"['13', '4']"
+29,Bersarinplatz,2,strassenbahn,"['13', '4']"
+30,Leninallee,7,strassenbahn,"['13', '4']"
+31,Leninallee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+32,Kniprodestrasse,3,strassenbahn,"['13', '4', '69E']"
+33,Greifswalder Strasse,4,strassenbahn,"['13', '4']"
+34,Greifswalder Strasse,4,bus,"['A44E', 'A44']"
+35,Prenzlauer Allee,7,strassenbahn,"['13', '4']"
+36,Prenzlauer Allee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+37,U-Bhf. Dimitroffstrasse,7,strassenbahn,"['49', '70', '46', '13', '4', '46E', '22']"
+38,Oderberger Strasse,2,strassenbahn,"['13', '4']"
+39,Daimlerstrasse,1,strassenbahn,['15']
+40,Bhf. Marienfelde,2,strassenbahn,['15']
+41,Bhf. Marienfelde,2,bus,['A32']
+42,K rtingstrasse,1,strassenbahn,['15']
+43,Mariendorfer Damm,2,strassenbahn,['15']
+44,Mariendorfer Damm,2,bus,['AS2']
+45,Imbrosweg,1,strassenbahn,['15']
+46,Mariendorfer Friedhof,1,strassenbahn,['15']
+47,Industriestrasse,2,strassenbahn,"['26', '15']"
+48,Germaniastrasse,2,strassenbahn,"['26', '15']"
+49,Frauenklinik,1,strassenbahn,['15']
+50,Hermannstrasse,2,strassenbahn,"['26', '15']"
+51,U-Bhf. Neukölln,2,strassenbahn,"['47', '15']"
+52,Richardstrasse,1,strassenbahn,['15']
+53,Bhf. Sonnenallee,3,strassenbahn,"['95', '15']"
+54,Bhf. Sonnenallee,3,bus,['A67']
+55,Dammweg,2,strassenbahn,['15']
+56,Dammweg,2,bus,['A67']
+57,Schulenburgpark,2,strassenbahn,"['95', '15']"
+58,Wolliner Strasse,3,strassenbahn,"['25', '2']"
+59,Wolliner Strasse,3,bus,['A71']
+60,Voltastrasse,1,strassenbahn,['2']
+61,Weddingplatz,6,strassenbahn,"['25', '2', '35']"
+62,Weddingplatz,6,bus,"['A12S', 'A12', 'A70']"
+63,Rathenower Strasse,4,strassenbahn,"['2', '35']"
+64,Rathenower Strasse,4,bus,"['A70', 'A24']"
+65,Stromstrasse,4,strassenbahn,"['44', '2', '35']"
+66,Stromstrasse,4,bus,['A70']
+67,GotzkowskyBrücke,1,strassenbahn,['2']
+68,U-Bhf. Ernst-Reuter-Platz,10,strassenbahn,"['6', '54', '44', '25', '2', '55']"
+69,U-Bhf. Ernst-Reuter-Platz,10,bus,"['A25', 'A2', 'AS1', 'A62']"
+70,Bhf. Zoo,14,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+71,Bhf. Zoo,14,bus,"['A2', 'AS2', 'A25', 'AS1', 'AS3', 'A62']"
+72,Wittenbergplatz,17,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+73,Wittenbergplatz,17,bus,"['A69', 'A29', 'A60', 'A19', 'A62']"
+74,Wittenbergplatz,17,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+75,Potsdamer Strasse,6,strassenbahn,"['2', '3']"
+76,Potsdamer Strasse,6,bus,"['A53', 'A29', 'A24', 'A19']"
+77,Bhf. Yorckstrasse,2,strassenbahn,['2']
+78,Bhf. Yorckstrasse,2,bus,['A19']
+79,Mehringdamm,6,strassenbahn,"['2', '3']"
+80,Mehringdamm,6,bus,"['A28', 'A19']"
+81,Mehringdamm,6,u-bahn,"['C I', 'C II']"
+82,Südstern,3,strassenbahn,['2']
+83,Südstern,3,bus,['A28']
+84,Südstern,3,u-bahn,['C I']
+85,Hermannplatz,7,strassenbahn,"['47', '26', '2', '95']"
+86,Hermannplatz,7,bus,['A67']
+87,Hermannplatz,7,u-bahn,"['D', 'C I']"
+88,Spreewaldplatz,3,strassenbahn,"['88', '26', '2']"
+89,Bhf. Rosenthal,1,strassenbahn,['22']
+90,Nordendstrasse,1,strassenbahn,['22']
+91,Kurt-Fischer-Platz,4,strassenbahn,"['22', '46', '46E']"
+92,Kurt-Fischer-Platz,4,bus,['A7']
+93,"Pankow, Rathaus",6,strassenbahn,"['22', '46', '46E']"
+94,"Pankow, Rathaus",6,bus,"['A45', 'A55', 'A7']"
+95,"Pankow, Kirche",6,strassenbahn,"['22', '46', '46E', '49']"
+96,"Pankow, Kirche",6,bus,"['A45', 'A55']"
+97,U-Bhf. Vinestrasse,1,strassenbahn,['22']
+98,S-Bhf. Sch nhauser Allee,4,strassenbahn,"['22', '46', '46E', '49']"
+99,U-Bhf. Dimitroffstrasse,7,strassenbahn,"['49', '70', '46', '13', '4', '46E', '22']"
+100,Rosenthaler Platz,6,strassenbahn,"['22', '11', '1', '49']"
+101,Rosenthaler Platz,6,bus,['O40']
+102,Rosenthaler Platz,6,u-bahn,['D']
+103,"Alexanderplatz, Memhardstrasse",4,strassenbahn,"['22', '11', '63', '69']"
+104,Elisabethstrasse,3,strassenbahn,"['82', '22']"
+105,Elisabethstrasse,3,bus,['O37']
+106,Wolliner Strasse,3,strassenbahn,"['25', '2']"
+107,Wolliner Strasse,3,bus,['A71']
+108,Rügener Strasse,4,strassenbahn,['25']
+109,Rügener Strasse,4,bus,"['A71', 'A14', 'A61']"
+110,Bhf. Gesundbrunnen,3,strassenbahn,['25']
+111,Bhf. Gesundbrunnen,3,bus,"['A71', 'A61']"
+112,Nauener Platz,2,strassenbahn,"['25', '35']"
+113,Weddingplatz,6,strassenbahn,"['25', '2', '35']"
+114,Weddingplatz,6,bus,"['A12S', 'A12', 'A70']"
+115,Augustenburger Platz,1,strassenbahn,['25']
+116,Turmstrasse,2,strassenbahn,['25']
+117,Turmstrasse,2,bus,['A66']
+118,Gotzkowskystrasse,2,strassenbahn,"['44', '25']"
+119,U-Bhf. Ernst-Reuter-Platz,10,strassenbahn,"['6', '54', '44', '25', '2', '55']"
+120,U-Bhf. Ernst-Reuter-Platz,10,bus,"['A25', 'A2', 'AS1', 'A62']"
+121,Bhf. Zoo,14,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+122,Bhf. Zoo,14,bus,"['A2', 'AS2', 'A25', 'AS1', 'AS3', 'A62']"
+123,Wittenbergplatz,17,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+124,Wittenbergplatz,17,bus,"['A69', 'A29', 'A60', 'A19', 'A62']"
+125,Wittenbergplatz,17,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+126,Wartburgplatz,1,strassenbahn,['25']
+127,Rathaus Sch neberg,5,strassenbahn,"['25', '6', '60']"
+128,Rathaus Sch neberg,5,bus,"['A4', 'A16']"
+129,Hauptstrasse,2,strassenbahn,"['25', '6']"
+130,Gotenstrasse,1,strassenbahn,['25']
+131,Spreewaldplatz,3,strassenbahn,"['88', '26', '2']"
+132,Reichenberger Strasse,1,strassenbahn,['26']
+133,Glogauer Strasse,1,strassenbahn,['26']
+134,Sonnenallee,2,strassenbahn,['26']
+135,Sonnenallee,2,s-bahn,['KBS 100']
+136,Hermannplatz,7,strassenbahn,"['47', '26', '2', '95']"
+137,Hermannplatz,7,bus,['A67']
+138,Hermannplatz,7,u-bahn,"['D', 'C I']"
+139,Weichselstrasse,2,strassenbahn,"['47', '26']"
+140,Rathaus Neukölln,5,strassenbahn,"['47', '26', '6']"
+141,Rathaus Neukölln,5,bus,['A4']
+142,Rathaus Neukölln,5,u-bahn,['C I']
+143,Saltykowstrasse,1,strassenbahn,['26']
+144,Karl-Marx-Platz,2,strassenbahn,"['47', '26']"
+145,Silbersteinstrasse,2,strassenbahn,"['47', '26']"
+146,Hermannstrasse,2,strassenbahn,"['26', '15']"
+147,St dtische Frauenklinik,1,strassenbahn,['26']
+148,Germaniastrasse,2,strassenbahn,"['26', '15']"
+149,Bhf. Teltowkanal,1,strassenbahn,['26']
+150,Industriestrasse,2,strassenbahn,"['26', '15']"
+151,Hobrechtstrasse,2,strassenbahn,"['3', '27']"
+152,Hasenheide,1,strassenbahn,['27']
+153,U-Bhf. Boddinstrasse,2,strassenbahn,['27']
+154,U-Bhf. Boddinstrasse,2,bus,['A4']
+155,U-Bhf. Leinestrasse,1,strassenbahn,['27']
+156,Bhf. Hermannstrasse,1,strassenbahn,['27']
+157,Mariendorfer Weg,1,strassenbahn,['27']
+158,Germaniapromenade,1,strassenbahn,['27']
+159,Franz-K rner-Strasse,1,strassenbahn,['27']
+160,Gradestrasse,1,strassenbahn,['27']
+161,Tempelhofer Weg,1,strassenbahn,['27']
+162,Mariendorfer Allee,1,strassenbahn,['27']
+163,Gutschmidstrasse,1,strassenbahn,['27']
+164,Kleinbahn,1,strassenbahn,['27']
+165,Dacchdeckerweg,1,strassenbahn,['27']
+166,Parkfriedhof Neukölln,1,strassenbahn,['27']
+167,Alt-Buckow,1,strassenbahn,['27']
+168,Mühlenstrasse,3,strassenbahn,"['3', '4']"
+169,Mühlenstrasse,3,bus,['A20']
+170,Bhf. Warschauer Brücke,2,strassenbahn,"['3', '4']"
+171,Boxhagener Strasse,1,strassenbahn,['3']
+172,Bhf. Stalineallee,1,strassenbahn,['3']
+173,Roederplatz,4,strassenbahn,"['69E', '3', '69']"
+174,Roederplatz,4,bus,['O30']
+175,Hohensch nhauser Strasse,1,strassenbahn,['3']
+176,Klement-Gottwald-Allee/Lichtenberger Strasse,1,strassenbahn,['3']
+177,Antonplatz,5,strassenbahn,"['72', '74E', '70', '74', '3']"
+178,Prenzlauer Promenade,3,strassenbahn,"['72', '3', '70']"
+179,Sch nhauser Allee,1,strassenbahn,['3']
+180,Bj rnsonstrasse,1,strassenbahn,['3']
+181,Hobrechtstrasse,2,strassenbahn,"['3', '27']"
+182,U-Bhf. Südstern,1,strassenbahn,['3']
+183,Mehringdamm,6,strassenbahn,"['2', '3']"
+184,Mehringdamm,6,bus,"['A28', 'A19']"
+185,Mehringdamm,6,u-bahn,"['C I', 'C II']"
+186,Potsdamer Strasse,6,strassenbahn,"['2', '3']"
+187,Potsdamer Strasse,6,bus,"['A53', 'A29', 'A24', 'A19']"
+188,Martin-Luther-Strasse,2,strassenbahn,"['3', '60']"
+189,Bundesallee Ecke Berliner Strasse,4,strassenbahn,"['77', '3', '60', '78']"
+190,Fehrbelliner Platz,6,strassenbahn,"['44', '3', '60']"
+191,Fehrbelliner Platz,6,bus,['A50']
+192,Fehrbelliner Platz,6,u-bahn,"['A II', 'B II']"
+193,Kurfürstendamm,8,strassenbahn,"['44', '3', '60']"
+194,Kurfürstendamm,8,bus,"['A21', 'A10', 'AS2', 'A60', 'AS3']"
+195,Otto-Suhr-Allee,1,strassenbahn,['3']
+196,OsnaBrücker Strasse,2,strassenbahn,"['3', '55']"
+197,Wiebestrasse,2,strassenbahn,['3']
+198,Wiebestrasse,2,bus,['A24']
+199,Bhf. Beusselstrasse,1,strassenbahn,['3']
+200,Schwedenstrasse,1,strassenbahn,['3']
+201,Grüntaler Strasse,1,strassenbahn,['3']
+202,Nonnendammallee,1,strassenbahn,['35']
+203,Quellweg,2,strassenbahn,"['55', '35']"
+204,Bhf. Jungfernheide,5,strassenbahn,"['55', '35']"
+205,Bhf. Jungfernheide,5,bus,"['A21', 'A65', 'A62']"
+206,Tauroggener Strasse,1,strassenbahn,['35']
+207,Wiebestrasse/Huttenstrasse,1,strassenbahn,['35']
+208,Stromstrasse,4,strassenbahn,"['44', '2', '35']"
+209,Stromstrasse,4,bus,['A70']
+210,Rathenower Strasse,4,strassenbahn,"['2', '35']"
+211,Rathenower Strasse,4,bus,"['A70', 'A24']"
+212,Weddingplatz,6,strassenbahn,"['25', '2', '35']"
+213,Weddingplatz,6,bus,"['A12S', 'A12', 'A70']"
+214,Nettelbeckplatz,2,strassenbahn,['35']
+215,Nettelbeckplatz,2,bus,['A64']
+216,Nauener Platz,2,strassenbahn,"['25', '35']"
+217,Osloer Strasse,4,strassenbahn,['35']
+218,Osloer Strasse,4,bus,"['A70', 'A71', 'A61']"
+219,Pankower Allee,2,strassenbahn,['35']
+220,Pankower Allee,2,bus,['A14']
+221,Kopenhagener Strasse,2,strassenbahn,['35']
+222,Kopenhagener Strasse,2,bus,['A14']
+223,Bhf. Wilhelmsruh,2,strassenbahn,['35']
+224,Bhf. Wilhelmsruh,2,bus,['A71']
+225,Mühlenstrasse,3,strassenbahn,"['3', '4']"
+226,Mühlenstrasse,3,bus,['A20']
+227,Bhf. Warschauer Brücke,2,strassenbahn,"['3', '4']"
+228,Grünberger Strasse,1,strassenbahn,['4']
+229,Frankfurter Tor/Stalinallee,2,strassenbahn,"['13', '4']"
+230,Bersarinplatz,2,strassenbahn,"['13', '4']"
+231,Leninallee,7,strassenbahn,"['13', '4']"
+232,Leninallee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+233,Kniprodestrasse,3,strassenbahn,"['13', '4', '69E']"
+234,Greifswalder Strasse,4,strassenbahn,"['13', '4']"
+235,Greifswalder Strasse,4,bus,"['A44E', 'A44']"
+236,Prenzlauer Allee,7,strassenbahn,"['13', '4']"
+237,Prenzlauer Allee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+238,U-Bhf. Dimitroffstrasse,7,strassenbahn,"['49', '70', '46', '13', '4', '46E', '22']"
+239,Oderberger Strasse,2,strassenbahn,"['13', '4']"
+240,Sandkrugbrücke,1,strassenbahn,['44']
+241,Stromstrasse,4,strassenbahn,"['44', '2', '35']"
+242,Stromstrasse,4,bus,['A70']
+243,Gotzkowskystrasse,2,strassenbahn,"['44', '25']"
+244,U-Bhf. Ernst-Reuter-Platz,10,strassenbahn,"['6', '54', '44', '25', '2', '55']"
+245,U-Bhf. Ernst-Reuter-Platz,10,bus,"['A25', 'A2', 'AS1', 'A62']"
+246,Wilmersdorfer Strasse,7,strassenbahn,"['44', '75', '76']"
+247,Wilmersdorfer Strasse,7,bus,"['A66', 'A69', 'A29', 'A19']"
+248,Kantstrasse,2,strassenbahn,['44']
+249,Kantstrasse,2,bus,['A21']
+250,Kurfürstendamm,8,strassenbahn,"['44', '3', '60']"
+251,Kurfürstendamm,8,bus,"['A21', 'A10', 'AS2', 'A60', 'AS3']"
+252,Fehrbelliner Platz,6,strassenbahn,"['44', '3', '60']"
+253,Fehrbelliner Platz,6,bus,['A50']
+254,Fehrbelliner Platz,6,u-bahn,"['A II', 'B II']"
+255,Hildegardstrasse,1,strassenbahn,['44']
+256,Bundesplatz,8,strassenbahn,"['44', '77', '78']"
+257,Bundesplatz,8,bus,"['A2', 'A65', 'A16', 'AS2', 'A25']"
+258,Schlossstrasse,6,strassenbahn,"['78', '73', '74', '44', '77']"
+259,Schlossstrasse,6,bus,['A2']
+260,Rathaus Steglitz,9,strassenbahn,"['78', '73', '74', '44', '77']"
+261,Rathaus Steglitz,9,bus,"['A17', 'A48', 'A32', 'A68']"
+262,Bhf. Steglitz,3,strassenbahn,['44']
+263,Bhf. Steglitz,3,bus,"['A33', 'A68']"
+264,Schützenstrasse,1,strassenbahn,['44']
+265,Birkbuschstrasse,1,strassenbahn,['44']
+266,"Niedersch nhausen, Schillerstrasse",1,strassenbahn,['46']
+267,Nordend,2,strassenbahn,['46']
+268,Nordend,2,bus,['A7']
+269,Ossietzkyplatz,3,strassenbahn,"['46', '46E']"
+270,Ossietzkyplatz,3,bus,['A7']
+271,Kurt-Fischer-Platz,4,strassenbahn,"['22', '46', '46E']"
+272,Kurt-Fischer-Platz,4,bus,['A7']
+273,"Pankow, Rathaus",6,strassenbahn,"['22', '46', '46E']"
+274,"Pankow, Rathaus",6,bus,"['A45', 'A55', 'A7']"
+275,"Pankow, Kirche",6,strassenbahn,"['22', '46', '46E', '49']"
+276,"Pankow, Kirche",6,bus,"['A45', 'A55']"
+277,U-Bhf. Vinetastrasse,4,strassenbahn,"['46', '46E', '49']"
+278,U-Bhf. Vinetastrasse,4,bus,['A7']
+279,S-Bhf. Sch nhauser Allee,4,strassenbahn,"['22', '46', '46E', '49']"
+280,U-Bhf. Dimitroffstrasse,7,strassenbahn,"['49', '70', '46', '13', '4', '46E', '22']"
+281,Brunnenstrasse,3,strassenbahn,"['46', '46E', '70']"
+282,Invaliden- Ecke Chausseestrasse,4,strassenbahn,"['46', '11', '1', '46E']"
+283,Oranienburger Tor,6,strassenbahn,"['46', '70', '69']"
+284,Oranienburger Tor,6,bus,['O40']
+285,Oranienburger Tor,6,u-bahn,"['C I', 'C II']"
+286,"WeidendammBrücke, Bhf. Friedrichstrasse",3,strassenbahn,"['46', '1', '70']"
+287,Clara-Zetkin-Strasse,1,strassenbahn,['46']
+288,"Niedersch nhausen, Idastrasse bzw. Nordend",1,strassenbahn,['46E']
+289,Ossietzkyplatz,3,strassenbahn,"['46', '46E']"
+290,Ossietzkyplatz,3,bus,['A7']
+291,Kurt-Fischer-Platz,4,strassenbahn,"['22', '46', '46E']"
+292,Kurt-Fischer-Platz,4,bus,['A7']
+293,"Pankow, Rathaus",6,strassenbahn,"['22', '46', '46E']"
+294,"Pankow, Rathaus",6,bus,"['A45', 'A55', 'A7']"
+295,"Pankow, Kirche",6,strassenbahn,"['22', '46', '46E', '49']"
+296,"Pankow, Kirche",6,bus,"['A45', 'A55']"
+297,U-Bhf. Vinetastrasse,4,strassenbahn,"['46', '46E', '49']"
+298,U-Bhf. Vinetastrasse,4,bus,['A7']
+299,S-Bhf. Sch nhauser Allee,4,strassenbahn,"['22', '46', '46E', '49']"
+300,U-Bhf. Dimitroffstrasse,7,strassenbahn,"['49', '70', '46', '13', '4', '46E', '22']"
+301,Brunnenstrasse,3,strassenbahn,"['46', '46E', '70']"
+302,Invaliden- Ecke Chausseestrasse,4,strassenbahn,"['46', '11', '1', '46E']"
+303,"Oranienburger Tor, Hannoversche Strasse",2,strassenbahn,"['11', '46E']"
+304,Hermannplatz,7,strassenbahn,"['47', '26', '2', '95']"
+305,Hermannplatz,7,bus,['A67']
+306,Hermannplatz,7,u-bahn,"['D', 'C I']"
+307,Weichselstrasse,2,strassenbahn,"['47', '26']"
+308,Rathaus Neukölln,5,strassenbahn,"['47', '26', '6']"
+309,Rathaus Neukölln,5,bus,['A4']
+310,Rathaus Neukölln,5,u-bahn,['C I']
+311,Karl-Marx-Platz,2,strassenbahn,"['47', '26']"
+312,U-Bhf. Neukölln,2,strassenbahn,"['47', '15']"
+313,Silbersteinstrasse,2,strassenbahn,"['47', '26']"
+314,U-Bhf. Grenzallee,3,strassenbahn,"['47', '6']"
+315,U-Bhf. Grenzallee,3,bus,['A67']
+316,Buschkrug,2,strassenbahn,"['47', '6']"
+317,Onkel-Herse-Strasse,1,strassenbahn,['47']
+318,Parchimer Allee,1,strassenbahn,['47']
+319,Krankenhause Neukölln,1,strassenbahn,['47']
+320,Johannisthaler Chaussee,2,strassenbahn,['47']
+321,Johannisthaler Chaussee,2,bus,['A47']
+322,Wildmeisterdamm,2,strassenbahn,['47']
+323,Wildmeisterdamm,2,bus,['A52']
+324,Stubenrauchstrasse,1,strassenbahn,['47']
+325,Köpenicker Strasse,3,strassenbahn,"['47', '84']"
+326,Köpenicker Strasse,3,bus,['A52']
+327,Bahnhofstrasse,1,strassenbahn,['47']
+328,"Buchholz, Hauptstrasse",1,strassenbahn,['49']
+329,Blankenburger Weiche,1,strassenbahn,['49']
+330,S-Bhf. Pankow-Heinersdorf,1,strassenbahn,['49']
+331,"Pankow, Kirche",6,strassenbahn,"['22', '46', '46E', '49']"
+332,"Pankow, Kirche",6,bus,"['A45', 'A55']"
+333,U-Bhf. Vinetastrasse,4,strassenbahn,"['46', '46E', '49']"
+334,U-Bhf. Vinetastrasse,4,bus,['A7']
+335,S-Bhf. Sch nhauser Allee,4,strassenbahn,"['22', '46', '46E', '49']"
+336,U-Bhf. Dimitroffstrasse,7,strassenbahn,"['49', '70', '46', '13', '4', '46E', '22']"
+337,Rosenthaler Platz,6,strassenbahn,"['22', '11', '1', '49']"
+338,Rosenthaler Platz,6,bus,['O40']
+339,Rosenthaler Platz,6,u-bahn,['D']
+340,"Hackescher Markt, Große Präsidentenstrasse",2,strassenbahn,"['63', '49']"
+341,Nollendorfplatz,9,strassenbahn,"['53', '55', '54']"
+342,Nollendorfplatz,9,bus,['A19']
+343,Nollendorfplatz,9,u-bahn,"['B II', 'A II', 'B III', 'B I', 'A I']"
+344,Wittenbergplatz,17,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+345,Wittenbergplatz,17,bus,"['A69', 'A29', 'A60', 'A19', 'A62']"
+346,Wittenbergplatz,17,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+347,Bhf. Zoo,14,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+348,Bhf. Zoo,14,bus,"['A2', 'AS2', 'A25', 'AS1', 'AS3', 'A62']"
+349,U-Bhf. Reuter-Platz,1,strassenbahn,['53']
+350,Richard-Wagner-Platz,5,strassenbahn,"['53', '55', '54']"
+351,Richard-Wagner-Platz,5,bus,['A62']
+352,Richard-Wagner-Platz,5,u-bahn,['A III']
+353,Luisenplatz,7,strassenbahn,"['53', '55', '54']"
+354,Luisenplatz,7,bus,"['AS1', 'A21', 'A65', 'A62']"
+355,Königin-Elisabeth-Strasse,4,strassenbahn,"['53', '60', '54']"
+356,Königin-Elisabeth-Strasse,4,bus,['A65']
+357,Kirschenallee,2,strassenbahn,"['53', '54']"
+358,Schloss Ruhwald,3,strassenbahn,"['53', '54']"
+359,Schloss Ruhwald,3,bus,['AS1']
+360,U-Bhf. Ruhleben,5,strassenbahn,"['53', '54']"
+361,U-Bhf. Ruhleben,5,bus,"['A5', 'AS1', 'A31']"
+362,Teltower Strasse,5,strassenbahn,"['53', '54']"
+363,Teltower Strasse,5,bus,"['A5', 'AS1', 'A31']"
+364,"Spandau, Markt",5,strassenbahn,"['75', '76', '53', '54', '55']"
+365,Carl-Schurz-Strasse,2,strassenbahn,"['53', '54']"
+366,Hafenplatz,7,strassenbahn,"['76', '75', '53', '54']"
+367,Hafenplatz,7,bus,"['A34', 'AS1', 'A24']"
+368,Hohenzollernring,5,strassenbahn,"['76', '75', '53', '54']"
+369,Hohenzollernring,5,bus,['AS1']
+370,Hakenfelde,2,strassenbahn,"['75', '53']"
+371,Nollendorfplatz,9,strassenbahn,"['53', '55', '54']"
+372,Nollendorfplatz,9,bus,['A19']
+373,Nollendorfplatz,9,u-bahn,"['B II', 'A II', 'B III', 'B I', 'A I']"
+374,Wittenbergplatz,17,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+375,Wittenbergplatz,17,bus,"['A69', 'A29', 'A60', 'A19', 'A62']"
+376,Wittenbergplatz,17,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+377,Bhf. Zoo,14,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+378,Bhf. Zoo,14,bus,"['A2', 'AS2', 'A25', 'AS1', 'AS3', 'A62']"
+379,U-Bhf. Ernst-Reuter-Platz,10,strassenbahn,"['6', '54', '44', '25', '2', '55']"
+380,U-Bhf. Ernst-Reuter-Platz,10,bus,"['A25', 'A2', 'AS1', 'A62']"
+381,Richard-Wagner-Platz,5,strassenbahn,"['53', '55', '54']"
+382,Richard-Wagner-Platz,5,bus,['A62']
+383,Richard-Wagner-Platz,5,u-bahn,['A III']
+384,Luisenplatz,7,strassenbahn,"['53', '55', '54']"
+385,Luisenplatz,7,bus,"['AS1', 'A21', 'A65', 'A62']"
+386,Königin-Elisabeth-Strasse,4,strassenbahn,"['53', '60', '54']"
+387,Königin-Elisabeth-Strasse,4,bus,['A65']
+388,Kirschenallee,2,strassenbahn,"['53', '54']"
+389,Schloss Ruhwald,3,strassenbahn,"['53', '54']"
+390,Schloss Ruhwald,3,bus,['AS1']
+391,U-Bhf. Ruhleben,5,strassenbahn,"['53', '54']"
+392,U-Bhf. Ruhleben,5,bus,"['A5', 'AS1', 'A31']"
+393,Teltower Strasse,5,strassenbahn,"['53', '54']"
+394,Teltower Strasse,5,bus,"['A5', 'AS1', 'A31']"
+395,"Spandau, Markt",5,strassenbahn,"['75', '76', '53', '54', '55']"
+396,Carl-Schurz-Strasse,2,strassenbahn,"['53', '54']"
+397,Hafenplatz,7,strassenbahn,"['76', '75', '53', '54']"
+398,Hafenplatz,7,bus,"['A34', 'AS1', 'A24']"
+399,Hohenzollernring,5,strassenbahn,"['76', '75', '53', '54']"
+400,Hohenzollernring,5,bus,['AS1']
+401,Johannesstift,1,strassenbahn,['54']
+402,Nollendorfplatz,9,strassenbahn,"['53', '55', '54']"
+403,Nollendorfplatz,9,bus,['A19']
+404,Nollendorfplatz,9,u-bahn,"['B II', 'A II', 'B III', 'B I', 'A I']"
+405,Wittenbergplatz,17,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+406,Wittenbergplatz,17,bus,"['A69', 'A29', 'A60', 'A19', 'A62']"
+407,Wittenbergplatz,17,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+408,Bhf. Zoo,14,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+409,Bhf. Zoo,14,bus,"['A2', 'AS2', 'A25', 'AS1', 'AS3', 'A62']"
+410,U-Bhf. Ernst-Reuter-Platz,10,strassenbahn,"['6', '54', '44', '25', '2', '55']"
+411,U-Bhf. Ernst-Reuter-Platz,10,bus,"['A25', 'A2', 'AS1', 'A62']"
+412,Cauerstrasse,2,strassenbahn,['55']
+413,Cauerstrasse,2,bus,['AS1']
+414,Richard-Wagner-Platz,5,strassenbahn,"['53', '55', '54']"
+415,Richard-Wagner-Platz,5,bus,['A62']
+416,Richard-Wagner-Platz,5,u-bahn,['A III']
+417,Luisenplatz,7,strassenbahn,"['53', '55', '54']"
+418,Luisenplatz,7,bus,"['AS1', 'A21', 'A65', 'A62']"
+419,OsnaBrücker Strasse,2,strassenbahn,"['3', '55']"
+420,Bhf. Jungfernheide,5,strassenbahn,"['55', '35']"
+421,Bhf. Jungfernheide,5,bus,"['A21', 'A65', 'A62']"
+422,Siemensplatz,1,strassenbahn,['55']
+423,Quellweg,2,strassenbahn,"['55', '35']"
+424,Paulsternstrasse,3,strassenbahn,['55']
+425,Paulsternstrasse,3,bus,"['A13', 'A10']"
+426,Zitadellenweg,1,strassenbahn,['55']
+427,"Spandau, Markt",5,strassenbahn,"['75', '76', '53', '54', '55']"
+428,Rathaus Spandau,10,strassenbahn,"['76', '75', '55']"
+429,Rathaus Spandau,10,bus,"['A13', 'A34', 'A63', 'AS1', 'A35', 'A5', 'A31']"
+430,Nauener Strasse,2,strassenbahn,['55']
+431,Nauener Strasse,2,bus,['A31']
+432,Wintersteinstrasse,1,strassenbahn,['6']
+433,U-Bhf. Ernst-Reuter-Platz,10,strassenbahn,"['6', '54', '44', '25', '2', '55']"
+434,U-Bhf. Ernst-Reuter-Platz,10,bus,"['A25', 'A2', 'AS1', 'A62']"
+435,Bhf. Zoo,14,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+436,Bhf. Zoo,14,bus,"['A2', 'AS2', 'A25', 'AS1', 'AS3', 'A62']"
+437,Wittenbergplatz,17,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+438,Wittenbergplatz,17,bus,"['A69', 'A29', 'A60', 'A19', 'A62']"
+439,Wittenbergplatz,17,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+440,Rathaus Sch neberg,5,strassenbahn,"['25', '6', '60']"
+441,Rathaus Sch neberg,5,bus,"['A4', 'A16']"
+442,Hauptstrasse,2,strassenbahn,"['25', '6']"
+443,Bhf. Papestrasse,2,strassenbahn,"['6', '60']"
+444,Tempelhofer Damm,3,strassenbahn,['6']
+445,Tempelhofer Damm,3,bus,"['A25', 'A24']"
+446,Gottlieb-Dunkel-Strasse,2,strassenbahn,['6']
+447,Gottlieb-Dunkel-Strasse,2,bus,['A25']
+448,Britzer Damm,1,strassenbahn,['6']
+449,Buschkrug,2,strassenbahn,"['47', '6']"
+450,U-Bhf. Grenzallee,3,strassenbahn,"['47', '6']"
+451,U-Bhf. Grenzallee,3,bus,['A67']
+452,Bhf. Neukölln,1,strassenbahn,['6']
+453,Rathaus Neukölln,5,strassenbahn,"['47', '26', '6']"
+454,Rathaus Neukölln,5,bus,['A4']
+455,Rathaus Neukölln,5,u-bahn,['C I']
+456,Elsenstrasse,2,strassenbahn,"['87', '6']"
+457,Königin-Elisabeth-Strasse,4,strassenbahn,"['53', '60', '54']"
+458,Königin-Elisabeth-Strasse,4,bus,['A65']
+459,Spandauer Damm,2,strassenbahn,['60']
+460,Spandauer Damm,2,bus,['A10']
+461,Klausenerplatz,1,strassenbahn,['60']
+462,Schloßstrasse Ecke Spandauer Damm,1,strassenbahn,['60']
+463,Kaiser-Friedrich-Strasse,1,strassenbahn,['60']
+464,Stuttgarter Platz,2,strassenbahn,['60']
+465,Stuttgarter Platz,2,bus,['A21']
+466,Kurfürstendamm,8,strassenbahn,"['44', '3', '60']"
+467,Kurfürstendamm,8,bus,"['A21', 'A10', 'AS2', 'A60', 'AS3']"
+468,Fehrbelliner Platz,6,strassenbahn,"['44', '3', '60']"
+469,Fehrbelliner Platz,6,bus,['A50']
+470,Fehrbelliner Platz,6,u-bahn,"['A II', 'B II']"
+471,Bundesallee Ecke Berliner Strasse,4,strassenbahn,"['77', '3', '60', '78']"
+472,Martin-Luther-Strasse,2,strassenbahn,"['3', '60']"
+473,Rathaus Sch neberg,5,strassenbahn,"['25', '6', '60']"
+474,Rathaus Sch neberg,5,bus,"['A4', 'A16']"
+475,Hauptstrasse (Sch neberg),2,strassenbahn,"['66', '60']"
+476,Bhf. Papestrasse,2,strassenbahn,"['6', '60']"
+477,Bosestrasse,1,strassenbahn,['60']
+478,Eythstrasse,1,strassenbahn,['60']
+479,"Hohensch nhausen, Gartenstadt",1,strassenbahn,['63']
+480,Falkenbergerstrasse Ecke Wartenberger Strasse,1,strassenbahn,['63']
+481,Degnerstrasse,2,strassenbahn,"['63', '64']"
+482,Weißenseer Weg,3,strassenbahn,"['63', '64']"
+483,Weißenseer Weg,3,bus,['O41']
+484,Steuerhaus,4,strassenbahn,"['69E', '69', '63', '64']"
+485,Dimitroffstrasse,9,strassenbahn,"['72', '69', '64', '74E', '71', '74', '63', '69E']"
+486,Dimitroffstrasse,9,bus,['O41']
+487,Leninplatz,5,strassenbahn,"['69', '1', '63', '64']"
+488,Leninplatz,5,bus,['O40']
+489,"Alexanderplatz, Memhardstrasse",4,strassenbahn,"['22', '11', '63', '69']"
+490,"Hackescher Markt, Große Präsidentenstrasse",2,strassenbahn,"['63', '49']"
+491,"Hohensch nhausen, Falkenberger Strasse",3,strassenbahn,"['70', '64']"
+492,"Hohensch nhausen, Falkenberger Strasse",3,bus,['A39']
+493,Degnerstrasse,2,strassenbahn,"['63', '64']"
+494,Weißenseer Weg,3,strassenbahn,"['63', '64']"
+495,Weißenseer Weg,3,bus,['O41']
+496,Steuerhaus,4,strassenbahn,"['69E', '69', '63', '64']"
+497,Dimitroffstrasse,9,strassenbahn,"['72', '69', '64', '74E', '71', '74', '63', '69E']"
+498,Dimitroffstrasse,9,bus,['O41']
+499,Leninplatz,5,strassenbahn,"['69', '1', '63', '64']"
+500,Leninplatz,5,bus,['O40']
+501,"Alexanderplatz, Grunestrasse",1,strassenbahn,['64']
+502,Jacobystrasse,1,strassenbahn,['64']
+503,U-Bhf. Neanderstrasse,1,strassenbahn,['64']
+504,Spittelmarkt,5,strassenbahn,"['72', '74', '64']"
+505,Spittelmarkt,5,u-bahn,"['A II', 'A I']"
+506,D nhoffplatz,1,strassenbahn,['64']
+507,Belziger Strasse,1,strassenbahn,['66']
+508,Hauptstrasse (Sch neberg),2,strassenbahn,"['66', '60']"
+509,Innsbrucker Platz,10,strassenbahn,"['74', '88', '66', '73']"
+510,Innsbrucker Platz,10,bus,"['A4', 'A48', 'A65', 'A16']"
+511,Innsbrucker Platz,10,s-bahn,"['KBS 100a', 'KBS 100']"
+512,Traegerstrasse,1,strassenbahn,['66']
+513,Cecilieng rten,1,strassenbahn,['66']
+514,Rembrandtstrasse,1,strassenbahn,['66']
+515,Canovastrasse (Krankenhaus),1,strassenbahn,['66']
+516,Thorwaldsenstrasse,1,strassenbahn,['66']
+517,Bergstrasse,3,strassenbahn,['66']
+518,Bergstrasse,3,bus,"['A2', 'A68']"
+519,"Johannisthal, Haeckelstrasse",2,strassenbahn,"['69E', '69']"
+520,Königsweide,2,strassenbahn,"['69E', '69']"
+521,Bhf. Schöneweide,5,strassenbahn,"['69E', '87', '92', '69']"
+522,Bhf. Schöneweide,5,bus,['A47']
+523,Wilhelminenhofstrasse,2,strassenbahn,"['69E', '69']"
+524,S-Bhf. Karlshorst,2,strassenbahn,"['69E', '69']"
+525,Hochschule f r konomie,2,strassenbahn,"['69E', '69']"
+526,Tierpark Berlin,2,strassenbahn,"['69E', '69']"
+527,Schlossstrasse Ecke Alt-Friedrichsfelde,5,strassenbahn,"['69E', '69']"
+528,Schlossstrasse Ecke Alt-Friedrichsfelde,5,bus,"['A8', 'A43', 'O37']"
+529,Bhf. Lichtenberg,4,strassenbahn,"['69E', '69']"
+530,Bhf. Lichtenberg,4,bus,"['O30', 'O37']"
+531,"BVG-Bf. Lichtenberg, Siegfriedstrasse",2,strassenbahn,"['69E', '69']"
+532,Klubhaus VEB Elektrokohle,2,strassenbahn,"['69E', '69']"
+533,Roederplatz,4,strassenbahn,"['69E', '3', '69']"
+534,Roederplatz,4,bus,['O30']
+535,Steuerhaus,4,strassenbahn,"['69E', '69', '63', '64']"
+536,Dimitroffstrasse,9,strassenbahn,"['72', '69', '64', '74E', '71', '74', '63', '69E']"
+537,Dimitroffstrasse,9,bus,['O41']
+538,Leninplatz,5,strassenbahn,"['69', '1', '63', '64']"
+539,Leninplatz,5,bus,['O40']
+540,"Alexanderplatz, Memhardstrasse",4,strassenbahn,"['22', '11', '63', '69']"
+541,Hackescher Markt,1,strassenbahn,['69']
+542,Oranienburger Tor,6,strassenbahn,"['46', '70', '69']"
+543,Oranienburger Tor,6,bus,['O40']
+544,Oranienburger Tor,6,u-bahn,"['C I', 'C II']"
+545,Invalidenstrasse Ecke Chausseestrasse,2,strassenbahn,"['70', '69']"
+546,Walter-Ulbricht-Stadion,1,strassenbahn,['69']
+547,"Johannisthal, Haeckelstrasse",2,strassenbahn,"['69E', '69']"
+548,Königsweide,2,strassenbahn,"['69E', '69']"
+549,Bhf. Schöneweide,5,strassenbahn,"['69E', '87', '92', '69']"
+550,Bhf. Schöneweide,5,bus,['A47']
+551,Wilhelminenhofstrasse,2,strassenbahn,"['69E', '69']"
+552,S-Bhf. Karlshorst,2,strassenbahn,"['69E', '69']"
+553,Hochschule f r konomie,2,strassenbahn,"['69E', '69']"
+554,Tierpark Berlin,2,strassenbahn,"['69E', '69']"
+555,Schlossstrasse Ecke Alt-Friedrichsfelde,5,strassenbahn,"['69E', '69']"
+556,Schlossstrasse Ecke Alt-Friedrichsfelde,5,bus,"['A8', 'A43', 'O37']"
+557,Bhf. Lichtenberg,4,strassenbahn,"['69E', '69']"
+558,Bhf. Lichtenberg,4,bus,"['O30', 'O37']"
+559,"BVG-Bf. Lichtenberg, Siegfriedstrasse",2,strassenbahn,"['69E', '69']"
+560,Klubhaus VEB Elektrokohle,2,strassenbahn,"['69E', '69']"
+561,Roederplatz,4,strassenbahn,"['69E', '3', '69']"
+562,Roederplatz,4,bus,['O30']
+563,Steuerhaus,4,strassenbahn,"['69E', '69', '63', '64']"
+564,Dimitroffstrasse,9,strassenbahn,"['72', '69', '64', '74E', '71', '74', '63', '69E']"
+565,Dimitroffstrasse,9,bus,['O41']
+566,Kniprodestrasse,3,strassenbahn,"['13', '4', '69E']"
+567,"Hohensch nhausen, Falkenberger Strasse",3,strassenbahn,"['70', '64']"
+568,"Hohensch nhausen, Falkenberger Strasse",3,bus,['A39']
+569,Stadion Buschallee,1,strassenbahn,['70']
+570,Buschallee Ecke Klement-Gottwald-Allee,1,strassenbahn,['70']
+571,Antonplatz,5,strassenbahn,"['72', '74E', '70', '74', '3']"
+572,Prenzlauer Promenade,3,strassenbahn,"['72', '3', '70']"
+573,Humannplatz,1,strassenbahn,['70']
+574,U-Bhf. Dimitroffstrasse,7,strassenbahn,"['49', '70', '46', '13', '4', '46E', '22']"
+575,Brunnenstrasse,3,strassenbahn,"['46', '46E', '70']"
+576,Invalidenstrasse Ecke Chausseestrasse,2,strassenbahn,"['70', '69']"
+577,Oranienburger Tor,6,strassenbahn,"['46', '70', '69']"
+578,Oranienburger Tor,6,bus,['O40']
+579,Oranienburger Tor,6,u-bahn,"['C I', 'C II']"
+580,"WeidendammBrücke, Bhf. Friedrichstrasse",3,strassenbahn,"['46', '1', '70']"
+581,Am Kupfergraben (Haus der Frau),1,strassenbahn,['70']
+582,"Heinersdorf, Romain-Rolland-Str.",1,strassenbahn,['71']
+583,"Heinersdorf, Kirche",3,strassenbahn,['71']
+584,"Heinersdorf, Kirche",3,bus,"['A42', 'A55']"
+585,Am Steinberg,3,strassenbahn,['71']
+586,Am Steinberg,3,bus,"['A42', 'A45']"
+587,Prenzlauer Allee Ecke Wisbyer Strasse,1,strassenbahn,['71']
+588,S-Bhf. Prenzlauer Allee,2,strassenbahn,"['71', '72']"
+589,Dimitroffstrasse,9,strassenbahn,"['72', '69', '64', '74E', '71', '74', '63', '69E']"
+590,Dimitroffstrasse,9,bus,['O41']
+591,SaarBrücker Strasse,2,strassenbahn,"['71', '72']"
+592,Prenzlauer Tor,2,strassenbahn,"['71', '72']"
+593,"Alexanderplatz, Grunerstrasse",5,strassenbahn,"['72', '82', '74E', '71', '74']"
+594,"J denstrasse, Mokenmarkt",1,strassenbahn,['71']
+595,"Weißensee, Pasedagplatz",1,strassenbahn,['72']
+596,Klement-Gottwald-Allee Ecke Bernkasteler Strasse,4,strassenbahn,"['72', '74']"
+597,Klement-Gottwald-Allee Ecke Bernkasteler Strasse,4,bus,"['A46', 'A45']"
+598,Antonplatz,5,strassenbahn,"['72', '74E', '70', '74', '3']"
+599,Prenzlauer Promenade,3,strassenbahn,"['72', '3', '70']"
+600,S-Bhf. Prenzlauer Allee,2,strassenbahn,"['71', '72']"
+601,Dimitroffstrasse,9,strassenbahn,"['72', '69', '64', '74E', '71', '74', '63', '69E']"
+602,Dimitroffstrasse,9,bus,['O41']
+603,SaarBrücker Strasse,2,strassenbahn,"['71', '72']"
+604,Prenzlauer Tor,2,strassenbahn,"['71', '72']"
+605,"Alexanderplatz, Grunerstrasse",5,strassenbahn,"['72', '82', '74E', '71', '74']"
+606,"J denstrasse, Molkenmarkt",3,strassenbahn,"['74E', '72', '74']"
+607,Spittelmarkt,5,strassenbahn,"['72', '74', '64']"
+608,Spittelmarkt,5,u-bahn,"['A II', 'A I']"
+609,Taubenstrasse,1,strassenbahn,['72']
+610,Bhf. Lichterfelde-Ost,3,strassenbahn,"['96', '73']"
+611,Bhf. Lichterfelde-Ost,3,bus,['A11']
+612,Wiesenbaude,3,strassenbahn,"['74', '73']"
+613,Wiesenbaude,3,bus,['A11']
+614,Moltkestrasse,2,strassenbahn,"['74', '73']"
+615,Händelplatz,4,strassenbahn,"['77', '74', '73', '78']"
+616,Schlossstrasse,6,strassenbahn,"['78', '73', '74', '44', '77']"
+617,Schlossstrasse,6,bus,['A2']
+618,Rathaus Steglitz,9,strassenbahn,"['78', '73', '74', '44', '77']"
+619,Rathaus Steglitz,9,bus,"['A17', 'A48', 'A32', 'A68']"
+620,Bundesallee,4,strassenbahn,"['74', '73']"
+621,Bundesallee,4,bus,"['A17', 'A48']"
+622,Kaisereiche,5,strassenbahn,"['88', '74', '73']"
+623,Kaisereiche,5,bus,"['A25', 'A48']"
+624,Lauterplatz,2,strassenbahn,"['74', '73']"
+625,Innsbrucker Platz,10,strassenbahn,"['74', '88', '66', '73']"
+626,Innsbrucker Platz,10,bus,"['A4', 'A48', 'A65', 'A16']"
+627,Innsbrucker Platz,10,s-bahn,"['KBS 100a', 'KBS 100']"
+628,Dominicusstrasse,5,strassenbahn,"['88', '74', '73']"
+629,Dominicusstrasse,5,bus,"['A4', 'A48']"
+630,Albertstrasse,2,strassenbahn,"['74', '73']"
+631,Kaiser-Wilhelm-Platz,5,strassenbahn,"['88', '74', '73']"
+632,Kaiser-Wilhelm-Platz,5,bus,"['A4', 'A48']"
+633,U-Bhf. Bülowstrasse,4,strassenbahn,"['88', '74', '73']"
+634,U-Bhf. Bülowstrasse,4,bus,['A48']
+635,Lützowstrasse,5,strassenbahn,"['88', '74', '73']"
+636,Lützowstrasse,5,bus,"['A48', 'A29']"
+637,Potsdamer Platz,7,strassenbahn,"['74', '73']"
+638,Potsdamer Platz,7,u-bahn,"['A II', 'A I']"
+639,Potsdamer Platz,7,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+640,Finckensteinallee,1,strassenbahn,['74']
+641,Wiesenbaude,3,strassenbahn,"['74', '73']"
+642,Wiesenbaude,3,bus,['A11']
+643,Moltkestrasse,2,strassenbahn,"['74', '73']"
+644,Händelplatz,4,strassenbahn,"['77', '74', '73', '78']"
+645,Schlossstrasse,6,strassenbahn,"['78', '73', '74', '44', '77']"
+646,Schlossstrasse,6,bus,['A2']
+647,Rathaus Steglitz,9,strassenbahn,"['78', '73', '74', '44', '77']"
+648,Rathaus Steglitz,9,bus,"['A17', 'A48', 'A32', 'A68']"
+649,Bundesallee,4,strassenbahn,"['74', '73']"
+650,Bundesallee,4,bus,"['A17', 'A48']"
+651,Kaisereiche,5,strassenbahn,"['88', '74', '73']"
+652,Kaisereiche,5,bus,"['A25', 'A48']"
+653,Lauterplatz,2,strassenbahn,"['74', '73']"
+654,Innsbrucker Platz,10,strassenbahn,"['74', '88', '66', '73']"
+655,Innsbrucker Platz,10,bus,"['A4', 'A48', 'A65', 'A16']"
+656,Innsbrucker Platz,10,s-bahn,"['KBS 100a', 'KBS 100']"
+657,Dominicusstrasse,5,strassenbahn,"['88', '74', '73']"
+658,Dominicusstrasse,5,bus,"['A4', 'A48']"
+659,Albertstrasse,2,strassenbahn,"['74', '73']"
+660,Kaiser-Wilhelm-Platz,5,strassenbahn,"['88', '74', '73']"
+661,Kaiser-Wilhelm-Platz,5,bus,"['A4', 'A48']"
+662,U-Bhf. Bülowstrasse,4,strassenbahn,"['88', '74', '73']"
+663,U-Bhf. Bülowstrasse,4,bus,['A48']
+664,Lützowstrasse,5,strassenbahn,"['88', '74', '73']"
+665,Lützowstrasse,5,bus,"['A48', 'A29']"
+666,Potsdamer Platz,7,strassenbahn,"['74', '73']"
+667,Potsdamer Platz,7,u-bahn,"['A II', 'A I']"
+668,Potsdamer Platz,7,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+669,"Wie ensee, Pasedagplatz",1,strassenbahn,['74']
+670,BVG-Bf. Weißensee,1,strassenbahn,['74']
+671,Klement-Gottwald-Allee Ecke Bernkasteler Strasse,4,strassenbahn,"['72', '74']"
+672,Klement-Gottwald-Allee Ecke Bernkasteler Strasse,4,bus,"['A46', 'A45']"
+673,Antonplatz,5,strassenbahn,"['72', '74E', '70', '74', '3']"
+674,S-Bhf. Greifswalder Strasse,2,strassenbahn,"['74E', '74']"
+675,Dimitroffstrasse,9,strassenbahn,"['72', '69', '64', '74E', '71', '74', '63', '69E']"
+676,Dimitroffstrasse,9,bus,['O41']
+677,Königstor,6,strassenbahn,"['74E', '74']"
+678,Königstor,6,bus,"['A57', 'O30', 'A9', 'O40']"
+679,"Alexanderplatz, Grunerstrasse",5,strassenbahn,"['72', '82', '74E', '71', '74']"
+680,"J denstrasse, Molkenmarkt",3,strassenbahn,"['74E', '72', '74']"
+681,Spittelmarkt,5,strassenbahn,"['72', '74', '64']"
+682,Spittelmarkt,5,u-bahn,"['A II', 'A I']"
+683,Leipziger Platz,1,strassenbahn,['74']
+684,Klement-Gottwald-Allee,1,strassenbahn,['74E']
+685,Antonplatz,5,strassenbahn,"['72', '74E', '70', '74', '3']"
+686,S-Bhf. Greifswalder Strasse,2,strassenbahn,"['74E', '74']"
+687,Dimitroffstrasse,9,strassenbahn,"['72', '69', '64', '74E', '71', '74', '63', '69E']"
+688,Dimitroffstrasse,9,bus,['O41']
+689,Königstor,6,strassenbahn,"['74E', '74']"
+690,Königstor,6,bus,"['A57', 'O30', 'A9', 'O40']"
+691,"Alexanderplatz, Grunerstrasse",5,strassenbahn,"['72', '82', '74E', '71', '74']"
+692,"J denstrasse, Molkenmarkt",3,strassenbahn,"['74E', '72', '74']"
+693,"Bhf. Zoo, Kantstrasse",1,strassenbahn,['75']
+694,Wilmersdorfer Strasse,7,strassenbahn,"['44', '75', '76']"
+695,Wilmersdorfer Strasse,7,bus,"['A66', 'A69', 'A29', 'A19']"
+696,Amtsgericht,2,strassenbahn,"['76', '75']"
+697,Messedamm,3,strassenbahn,"['76', '75']"
+698,Messedamm,3,bus,['A4']
+699,Reichskanzlerplatz,5,strassenbahn,"['76', '75']"
+700,Reichskanzlerplatz,5,bus,['A4']
+701,Reichskanzlerplatz,5,u-bahn,"['B I', 'A I']"
+702,Bhf. Heerstrasse,2,strassenbahn,"['76', '75']"
+703,Reichssportfeldstrasse,2,strassenbahn,"['76', '75']"
+704,St enseeBrücke,1,strassenbahn,['75']
+705,Pichelsdorfer Strasse,3,strassenbahn,"['76', '75']"
+706,Pichelsdorfer Strasse,3,bus,['A13']
+707,"Weverstrasse, Strassenbahnhof",2,strassenbahn,"['76', '75']"
+708,Seeburger Strasse,2,strassenbahn,"['76', '75']"
+709,Rathaus Spandau,10,strassenbahn,"['76', '75', '55']"
+710,Rathaus Spandau,10,bus,"['A13', 'A34', 'A63', 'AS1', 'A35', 'A5', 'A31']"
+711,"Spandau, Markt",5,strassenbahn,"['75', '76', '53', '54', '55']"
+712,Hafenplatz,7,strassenbahn,"['76', '75', '53', '54']"
+713,Hafenplatz,7,bus,"['A34', 'AS1', 'A24']"
+714,Hohenzollernring,5,strassenbahn,"['76', '75', '53', '54']"
+715,Hohenzollernring,5,bus,['AS1']
+716,Hakenfelde,2,strassenbahn,"['75', '53']"
+717,"Spandau, Johannesstift",1,strassenbahn,['76']
+718,Hohenzollernring,5,strassenbahn,"['76', '75', '53', '54']"
+719,Hohenzollernring,5,bus,['AS1']
+720,Hafenplatz,7,strassenbahn,"['76', '75', '53', '54']"
+721,Hafenplatz,7,bus,"['A34', 'AS1', 'A24']"
+722,"Spandau, Markt",5,strassenbahn,"['75', '76', '53', '54', '55']"
+723,Rathaus Spandau,10,strassenbahn,"['76', '75', '55']"
+724,Rathaus Spandau,10,bus,"['A13', 'A34', 'A63', 'AS1', 'A35', 'A5', 'A31']"
+725,Seeburger Strasse,2,strassenbahn,"['76', '75']"
+726,"Weverstrasse, Strassenbahnhof",2,strassenbahn,"['76', '75']"
+727,Pichelsdorfer Strasse,3,strassenbahn,"['76', '75']"
+728,Pichelsdorfer Strasse,3,bus,['A13']
+729,Stössenseebrücke,1,strassenbahn,['76']
+730,Reichssportfeldstrasse,2,strassenbahn,"['76', '75']"
+731,Bhf. Heerstrasse,2,strassenbahn,"['76', '75']"
+732,Reichskanzlerplatz,5,strassenbahn,"['76', '75']"
+733,Reichskanzlerplatz,5,bus,['A4']
+734,Reichskanzlerplatz,5,u-bahn,"['B I', 'A I']"
+735,Messedamm,3,strassenbahn,"['76', '75']"
+736,Messedamm,3,bus,['A4']
+737,Amtsgericht,2,strassenbahn,"['76', '75']"
+738,Wilmersdorfer Strasse,7,strassenbahn,"['44', '75', '76']"
+739,Wilmersdorfer Strasse,7,bus,"['A66', 'A69', 'A29', 'A19']"
+740,Kanststrasse Ecke Joachimsthaler Strasse,1,strassenbahn,['76']
+741,Bhf. Zoo,14,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+742,Bhf. Zoo,14,bus,"['A2', 'AS2', 'A25', 'AS1', 'AS3', 'A62']"
+743,Wittenbergplatz,17,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+744,Wittenbergplatz,17,bus,"['A69', 'A29', 'A60', 'A19', 'A62']"
+745,Wittenbergplatz,17,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+746,Grunewaldstrasse,2,strassenbahn,"['77', '78']"
+747,Bundesallee Ecke Berliner Strasse,4,strassenbahn,"['77', '3', '60', '78']"
+748,Bundesplatz,8,strassenbahn,"['44', '77', '78']"
+749,Bundesplatz,8,bus,"['A2', 'A65', 'A16', 'AS2', 'A25']"
+750,Friedrich-Wilhelm-Platz,3,strassenbahn,"['77', '78']"
+751,Friedrich-Wilhelm-Platz,3,bus,['A2']
+752,Schlossstrasse,6,strassenbahn,"['78', '73', '74', '44', '77']"
+753,Schlossstrasse,6,bus,['A2']
+754,Rathaus Steglitz,9,strassenbahn,"['78', '73', '74', '44', '77']"
+755,Rathaus Steglitz,9,bus,"['A17', 'A48', 'A32', 'A68']"
+756,Hindenburgdamm,3,strassenbahn,"['77', '78']"
+757,Hindenburgdamm,3,bus,['A48']
+758,Händelplatz,4,strassenbahn,"['77', '74', '73', '78']"
+759,Bhf. Botanischer Garten,2,strassenbahn,"['77', '78']"
+760,Bhf. Lichterfelde-West,3,strassenbahn,"['77', '78']"
+761,Bhf. Lichterfelde-West,3,bus,['A11']
+762,Rittberg-Krankenhaus,2,strassenbahn,"['77', '78']"
+763,Wismarer Strasse,3,strassenbahn,"['77', '96']"
+764,Wismarer Strasse,3,bus,['A1']
+765,Goerzallee,2,strassenbahn,"['77', '78']"
+766,Bhf. Zoo,14,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+767,Bhf. Zoo,14,bus,"['A2', 'AS2', 'A25', 'AS1', 'AS3', 'A62']"
+768,Wittenbergplatz,17,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+769,Wittenbergplatz,17,bus,"['A69', 'A29', 'A60', 'A19', 'A62']"
+770,Wittenbergplatz,17,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+771,Grunewaldstrasse,2,strassenbahn,"['77', '78']"
+772,Bundesallee Ecke Berliner Strasse,4,strassenbahn,"['77', '3', '60', '78']"
+773,Bundesplatz,8,strassenbahn,"['44', '77', '78']"
+774,Bundesplatz,8,bus,"['A2', 'A65', 'A16', 'AS2', 'A25']"
+775,Friedrich-Wilhelm-Platz,3,strassenbahn,"['77', '78']"
+776,Friedrich-Wilhelm-Platz,3,bus,['A2']
+777,Schlossstrasse,6,strassenbahn,"['78', '73', '74', '44', '77']"
+778,Schlossstrasse,6,bus,['A2']
+779,Rathaus Steglitz,9,strassenbahn,"['78', '73', '74', '44', '77']"
+780,Rathaus Steglitz,9,bus,"['A17', 'A48', 'A32', 'A68']"
+781,Hindenburgdamm,3,strassenbahn,"['77', '78']"
+782,Hindenburgdamm,3,bus,['A48']
+783,Händelplatz,4,strassenbahn,"['77', '74', '73', '78']"
+784,Bhf. Botanischer Garten,2,strassenbahn,"['77', '78']"
+785,Bhf. Lichterfelde-West,3,strassenbahn,"['77', '78']"
+786,Bhf. Lichterfelde-West,3,bus,['A11']
+787,Rittberg-Krankenhaus,2,strassenbahn,"['77', '78']"
+788,Goerzallee,2,strassenbahn,"['77', '78']"
+789,Lichterfelde Süd Lindenstrasse,1,strassenbahn,['78']
+790,"Mahlsdorf-Süd, Hubertus",2,strassenbahn,"['82', '86']"
+791,S-Bhf. Köpenick,4,strassenbahn,"['82', '83', '86']"
+792,S-Bhf. Köpenick,4,bus,['A27']
+793,Bahnhofstrasse Ecke Lindenstrasse,3,strassenbahn,"['82', '87']"
+794,Bahnhofstrasse Ecke Lindenstrasse,3,bus,['A27']
+795,Parkstrasse,2,strassenbahn,"['82', '87']"
+796,Wilhelminenhof- Ecke Edisonstrasse,1,strassenbahn,['82']
+797,Treskowallee Ecke Ehrlichstrasse,1,strassenbahn,['82']
+798,Blockdammweg Ecke Köpenicker Chaussee,1,strassenbahn,['82']
+799,Hauptstrasse Ecke Karlshorster Strasse,1,strassenbahn,['82']
+800,S-Bhf. Ostkreuz,1,strassenbahn,['82']
+801,Stralauer Allee Ecke Markgrafendamm,1,strassenbahn,['82']
+802,Warschauer Strasse,2,strassenbahn,['82']
+803,Warschauer Strasse,2,bus,['O30']
+804,Ostbahnhof,5,strassenbahn,['82']
+805,Ostbahnhof,5,bus,['O40']
+806,Ostbahnhof,5,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+807,Andreasstrasse,2,strassenbahn,['82']
+808,Andreasstrasse,2,bus,['O30']
+809,Blumenstrasse/Schicklerstrasse,1,strassenbahn,['82']
+810,"Alexanderplatz, Grunerstrasse",5,strassenbahn,"['72', '82', '74E', '71', '74']"
+811,Elisabethstrasse,3,strassenbahn,"['82', '22']"
+812,Elisabethstrasse,3,bus,['O37']
+813,Wendenschloß Ecke Ekhofstrasse,1,strassenbahn,['83']
+814,Strassenbahnhof Köpenick,1,strassenbahn,['83']
+815,Schüßlerplatz,3,strassenbahn,"['83', '84', '86']"
+816,Lindenstrasse Ecke Bahnhofstrasse,3,strassenbahn,"['83', '84', '86']"
+817,S-Bhf. Köpenick,4,strassenbahn,"['82', '83', '86']"
+818,S-Bhf. Köpenick,4,bus,['A27']
+819,Uhlenhorst,2,strassenbahn,"['83', '86']"
+820,Mahlsdorf-Süd,1,strassenbahn,['83']
+821,Hubertus,1,strassenbahn,['83']
+822,Bütower Strasse,1,strassenbahn,['83']
+823,S-Bhf. Mahlsdorf,3,strassenbahn,['83']
+824,S-Bhf. Mahlsdorf,3,bus,"['A44E', 'A44']"
+825,"Altglienicke, Am Falkenberg",1,strassenbahn,['84']
+826,Köpenicker Strasse,3,strassenbahn,"['47', '84']"
+827,Köpenicker Strasse,3,bus,['A52']
+828,Benzolwerk,1,strassenbahn,['84']
+829,S-Bhf. Adlershof,1,strassenbahn,['84']
+830,Marktplatz,1,strassenbahn,['84']
+831,S-Bhf. Spindlersfeld,1,strassenbahn,['84']
+832,Köllnischer Platz,2,strassenbahn,"['84', '86']"
+833,Schüßlerplatz,3,strassenbahn,"['83', '84', '86']"
+834,Lindenstrasse Ecke Bahnhofstrasse,3,strassenbahn,"['83', '84', '86']"
+835,Seelenbinderstrasse,1,strassenbahn,['84']
+836,Hirschgarten,3,strassenbahn,"['87', '84']"
+837,Hirschgarten,3,s-bahn,['KBS 102']
+838,Fürstenwalder Damm,1,strassenbahn,['84']
+839,S-Bhf. Friedrichshagen,2,strassenbahn,"['87', '84']"
+840,Brauerei,1,strassenbahn,['84']
+841,"Friedrichshagen, Wasserwerk",1,strassenbahn,['84']
+842,Alt-Schmöckwitz,1,strassenbahn,['86']
+843,Vetschauer Allee,1,strassenbahn,['86']
+844,Richtershorn,1,strassenbahn,['86']
+845,Regattahäuser,1,strassenbahn,['86']
+846,Bhf. Grünau,1,strassenbahn,['86']
+847,Chemische Fabrik,1,strassenbahn,['86']
+848,Vollkropfgraben,1,strassenbahn,['86']
+849,Köllnischer Platz,2,strassenbahn,"['84', '86']"
+850,Schüßlerplatz,3,strassenbahn,"['83', '84', '86']"
+851,Lindenstrasse Ecke Bahnhofstrasse,3,strassenbahn,"['83', '84', '86']"
+852,S-Bhf. Köpenick,4,strassenbahn,"['82', '83', '86']"
+853,S-Bhf. Köpenick,4,bus,['A27']
+854,Uhlenhorst,2,strassenbahn,"['83', '86']"
+855,"Mahlsdorf-Süd, Hubertus",2,strassenbahn,"['82', '86']"
+856,Rahnsdorf,2,strassenbahn,['87']
+857,Rahnsdorf,2,s-bahn,['KBS 102']
+858,S-Bhf. Friedrichshagen,2,strassenbahn,"['87', '84']"
+859,Hirschgarten,3,strassenbahn,"['87', '84']"
+860,Hirschgarten,3,s-bahn,['KBS 102']
+861,Bahnhofstrasse Ecke Lindenstrasse,3,strassenbahn,"['82', '87']"
+862,Bahnhofstrasse Ecke Lindenstrasse,3,bus,['A27']
+863,Parkstrasse,2,strassenbahn,"['82', '87']"
+864,Wilhelminenhofstrasse Ecke Edisonstrasse,1,strassenbahn,['87']
+865,Bhf. Schöneweide,5,strassenbahn,"['69E', '87', '92', '69']"
+866,Bhf. Schöneweide,5,bus,['A47']
+867,Köpenicker Landstrasse Ecke Baumschulenstrasse,1,strassenbahn,['87']
+868,Am Treptower Park Ecke Bulgarische Strasse,1,strassenbahn,['87']
+869,Elsenstrasse,2,strassenbahn,"['87', '6']"
+870,Wiener Brücke,2,strassenbahn,"['87', '88']"
+871,Stadtpark,2,strassenbahn,['88']
+872,Stadtpark,2,bus,['A17']
+873,Lauenburger Platz,1,strassenbahn,['88']
+874,Kaisereiche,5,strassenbahn,"['88', '74', '73']"
+875,Kaisereiche,5,bus,"['A25', 'A48']"
+876,Innsbrucker Platz,10,strassenbahn,"['74', '88', '66', '73']"
+877,Innsbrucker Platz,10,bus,"['A4', 'A48', 'A65', 'A16']"
+878,Innsbrucker Platz,10,s-bahn,"['KBS 100a', 'KBS 100']"
+879,Dominicusstrasse,5,strassenbahn,"['88', '74', '73']"
+880,Dominicusstrasse,5,bus,"['A4', 'A48']"
+881,Eisenacher Strasse,1,strassenbahn,['88']
+882,Kaiser-Wilhelm-Platz,5,strassenbahn,"['88', '74', '73']"
+883,Kaiser-Wilhelm-Platz,5,bus,"['A4', 'A48']"
+884,U-Bhf. Bülowstrasse,4,strassenbahn,"['88', '74', '73']"
+885,U-Bhf. Bülowstrasse,4,bus,['A48']
+886,Lützowstrasse,5,strassenbahn,"['88', '74', '73']"
+887,Lützowstrasse,5,bus,"['A48', 'A29']"
+888,Anhalter Bahnhof,4,strassenbahn,['88']
+889,Anhalter Bahnhof,4,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+890,U-Bhf. Kochstrasse,1,strassenbahn,['88']
+891,Oranienstrasse,2,strassenbahn,['88']
+892,Oranienstrasse,2,bus,['A28']
+893,U-Bhf. Moritzplatz,1,strassenbahn,['88']
+894,Skalitzer Strasse,1,strassenbahn,['88']
+895,Spreewaldplatz,3,strassenbahn,"['88', '26', '2']"
+896,Wiener Brücke,2,strassenbahn,"['87', '88']"
+897,"Treptow, Flutgraben",1,strassenbahn,['92']
+898,S-Bhf. Treptow,1,strassenbahn,['92']
+899,Bulgarische Strasse,1,strassenbahn,['92']
+900,Baumschulenstrasse,1,strassenbahn,['92']
+901,Bhf. Schöneweide,5,strassenbahn,"['69E', '87', '92', '69']"
+902,Bhf. Schöneweide,5,bus,['A47']
+903,Britzer Strasse,1,strassenbahn,['92']
+904,Bhf. Oberspree,1,strassenbahn,['92']
+905,Attilaplatz,4,strassenbahn,"['95', '96']"
+906,Attilaplatz,4,bus,"['A25', 'AS2']"
+907,Berlinickeplatz,2,strassenbahn,['95']
+908,Berlinickeplatz,2,bus,['A65']
+909,Hoeppnerstrasse,1,strassenbahn,['95']
+910,Adolf-Scheidt-Platz,1,strassenbahn,['95']
+911,U-Bhf. Flughafen,5,strassenbahn,"['98', '95', '99']"
+912,U-Bhf. Flughafen,5,bus,"['A4', 'A19']"
+913,Gneisenaustrasse,2,strassenbahn,['95']
+914,Gneisenaustrasse,2,bus,['A24']
+915,Blöcherplatz,1,strassenbahn,['95']
+916,Baerwaldstrasse,1,strassenbahn,['95']
+917,Urban-Krankenhaus,1,strassenbahn,['95']
+918,Hermannplatz,7,strassenbahn,"['47', '26', '2', '95']"
+919,Hermannplatz,7,bus,['A67']
+920,Hermannplatz,7,u-bahn,"['D', 'C I']"
+921,Erkstrasse,2,strassenbahn,['95']
+922,Erkstrasse,2,bus,['A67']
+923,Hertzbergplatz,2,strassenbahn,['95']
+924,Hertzbergplatz,2,bus,['A67']
+925,Bhf. Sonnenallee,3,strassenbahn,"['95', '15']"
+926,Bhf. Sonnenallee,3,bus,['A67']
+927,Schulenburgpark,2,strassenbahn,"['95', '15']"
+928,Schwarzer Weg,1,strassenbahn,['95']
+929,"Baumschulenweg, Sonnenallee",1,strassenbahn,['95']
+930,Köpenicker landstrasse,1,strassenbahn,['95']
+931,S-Bhf. Schöneweide,1,strassenbahn,['95']
+932,"Wilhelminenhofstrasse, Edisonstrasse",1,strassenbahn,['95']
+933,Pionierrepublik,1,strassenbahn,['95']
+934,"Lindenstrasse, Bahnhofstrasse",1,strassenbahn,['95']
+935,Grünstrasse,1,strassenbahn,['95']
+936,"Köpenick, Krankenhaus",2,strassenbahn,['95']
+937,"Köpenick, Krankenhaus",2,bus,['A27']
+938,Machnower Schleuse,1,strassenbahn,['96']
+939,Alte Wagenhalle,1,strassenbahn,['96']
+940,Neue Wagenhalle,1,strassenbahn,['96']
+941,Hamburger Platz,3,strassenbahn,['96']
+942,Hamburger Platz,3,bus,"['A56', 'A45']"
+943,Ruhlsdorfer Platz,1,strassenbahn,['96']
+944,Fritz-Reuter Strasse,1,strassenbahn,['96']
+945,"Teltow, Paul-Gerhardt-Strasse",1,strassenbahn,['96']
+946,U-Bhf. Tempelhof,1,strassenbahn,['96']
+947,Alt-Tempelhof,3,strassenbahn,"['98', '96', '99']"
+948,Kaiserin-Augusta-Strasse,3,strassenbahn,"['98', '96', '99']"
+949,Friedrich-Karl-Strasse,3,strassenbahn,"['98', '96', '99']"
+950,Attilaplatz,4,strassenbahn,"['95', '96']"
+951,Attilaplatz,4,bus,"['A25', 'AS2']"
+952,Röblingstrasse,1,strassenbahn,['96']
+953,Bhf. Mariendorf,2,strassenbahn,['96']
+954,Bhf. Mariendorf,2,bus,['A33']
+955,Friedrichstrasse,1,strassenbahn,['96']
+956,"Lankwitz, Kirche",3,strassenbahn,['96']
+957,"Lankwitz, Kirche",3,bus,"['A2', 'A32']"
+958,Seydlitzstrasse,1,strassenbahn,['96']
+959,Bhf. Lichterfelde-Ost,3,strassenbahn,"['96', '73']"
+960,Bhf. Lichterfelde-Ost,3,bus,['A11']
+961,Berliner Strasse,6,strassenbahn,['96']
+962,Berliner Strasse,6,bus,"['A2', 'A11', 'A53', 'AS2', 'A60']"
+963,Glesendorfer Strasse,1,strassenbahn,['96']
+964,Osdorfer Strasse,1,strassenbahn,['96']
+965,Wismarer Strasse,3,strassenbahn,"['77', '96']"
+966,Wismarer Strasse,3,bus,['A1']
+967,Schwelmer Strasse,1,strassenbahn,['96']
+968,Mehringplatz (Hallesches Tor),1,strassenbahn,['98']
+969,Yorckstrasse/Gneisenaustrasse,1,strassenbahn,['98']
+970,U-Bhf. Flughafen,5,strassenbahn,"['98', '95', '99']"
+971,U-Bhf. Flughafen,5,bus,"['A4', 'A19']"
+972,U-Bhf. Paradestrasse,1,strassenbahn,['98']
+973,Bahnhof Tempelhof,1,strassenbahn,['98']
+974,Alt-Tempelhof,3,strassenbahn,"['98', '96', '99']"
+975,Kaiserin-Augusta-Strasse,3,strassenbahn,"['98', '96', '99']"
+976,Friedrich-Karl-Strasse,3,strassenbahn,"['98', '96', '99']"
+977,Kaiserstrasse,3,strassenbahn,"['98', '99']"
+978,Kaiserstrasse,3,bus,['A33']
+979,Prühßstrasse,1,strassenbahn,['98']
+980,Mariendorfer Damm Ecke Alt-Mariendorf,1,strassenbahn,['98']
+981,Grossbeerenstrasse Ecke Daimlerstrasse,1,strassenbahn,['98']
+982,Daimlerstrasse Ecke Birnhornweg,1,strassenbahn,['98']
+983,Lindenstrasse,2,strassenbahn,['99']
+984,Lindenstrasse,2,bus,['A1']
+985,Mehringplatz,1,strassenbahn,['99']
+986,Yorckstrasse,2,strassenbahn,['99']
+987,Yorckstrasse,2,bus,['A28']
+988,U-Bhf. Flughafen,5,strassenbahn,"['98', '95', '99']"
+989,U-Bhf. Flughafen,5,bus,"['A4', 'A19']"
+990,Flughafen Tempelhof,2,strassenbahn,['99']
+991,Flughafen Tempelhof,2,bus,['A65']
+992,Alt-Tempelhof,3,strassenbahn,"['98', '96', '99']"
+993,Rathaus Tempelhof,1,strassenbahn,['99']
+994,Kaiserin-Augusta-Strasse,3,strassenbahn,"['98', '96', '99']"
+995,Friedrich-Karl-Strasse,3,strassenbahn,"['98', '96', '99']"
+996,Kaiserstrasse,3,strassenbahn,"['98', '99']"
+997,Kaiserstrasse,3,bus,['A33']
+998,Alt-Mariendorf,2,strassenbahn,['99']
+999,Alt-Mariendorf,2,bus,['AS2']
+1000,Rennbahn,1,strassenbahn,['99']
+1001,Marienfelder Chaussee,1,strassenbahn,['99']
+1002,Marienfelder Strasse,2,strassenbahn,['99']
+1003,Marienfelder Strasse,2,bus,['A32']
+1004,Bhf. Lichtenrade,1,strassenbahn,['99']
+1005,Waldstrasse,1,bus,['A1']
+1006,Otto-Surh-Allee,1,bus,['A1']
+1007,Kurfürstendamm Ecke Konstanzer Strasse,1,bus,['A1']
+1008,U-Bhf. Fehrbelliner Platz,4,bus,"['A1', 'A4', 'AS3', 'A21']"
+1009,Detmolder Strasse,1,bus,['A1']
+1010,Breitenbachplatz,5,bus,"['A1', 'A16', 'A32']"
+1011,Breitenbachplatz,5,u-bahn,"['A II', 'B II']"
+1012,Botanischer Garten,3,bus,"['A1', 'A68']"
+1013,Botanischer Garten,3,s-bahn,['KBS 104']
+1014,Pacelli-/Thielallee,1,bus,['A1']
+1015,Clayallee,2,bus,"['A1', 'A68']"
+1016,U-Bhf. Oskar-Helene-Heim,5,bus,"['A3', 'A11', 'A18', 'A1', 'AS3']"
+1017,Potsdamer Strasse Ecke Clayallee,2,bus,"['A1', 'A18']"
+1018,Bhf. Zehlendorf,2,bus,"['A1', 'A53']"
+1019,Beeskowdamm,1,bus,['A1']
+1020,Wismarer Strasse,3,strassenbahn,"['77', '96']"
+1021,Wismarer Strasse,3,bus,['A1']
+1022,Lindenstrasse,2,strassenbahn,['99']
+1023,Lindenstrasse,2,bus,['A1']
+1024,"Haselhorst, Kirche",1,bus,['A10']
+1025,Paulsternstrasse,3,strassenbahn,['55']
+1026,Paulsternstrasse,3,bus,"['A13', 'A10']"
+1027,Verwaltungs-Gebäude,1,bus,['A10']
+1028,Spandauer Damm,2,strassenbahn,['60']
+1029,Spandauer Damm,2,bus,['A10']
+1030,U-Bhf. Kaiserdamm,2,bus,"['A65', 'A10']"
+1031,Amtsgerichsplatz,1,bus,['A10']
+1032,Kurfürstendamm,8,strassenbahn,"['44', '3', '60']"
+1033,Kurfürstendamm,8,bus,"['A21', 'A10', 'AS2', 'A60', 'AS3']"
+1034,Bhf. Halensee,6,bus,"['A66', 'A4', 'A69', 'A29', 'A10', 'A19']"
+1035,Elsterplatz,2,bus,"['A50', 'A10']"
+1036,Hundekehlestrasse,1,bus,['A10']
+1037,Königin-Luise-Strasse,2,bus,"['AS3', 'A10']"
+1038,U-Bhf. Thielplatz,1,bus,['A10']
+1039,Dahlemer Weg,3,bus,"['A53', 'A48', 'A10']"
+1040,Teltower Damm,3,bus,"['A53', 'A48', 'A10']"
+1041,Behring-Krankenhaus,1,bus,['A10']
+1042,Lupsteiner Weg,1,bus,['A10']
+1043,Saargem nder Strasse,2,bus,"['A11', 'A18']"
+1044,U-Bhf. Oskar-Helene-Heim,5,bus,"['A3', 'A11', 'A18', 'A1', 'AS3']"
+1045,Ihnestrasse,1,bus,['A11']
+1046,Corrensplatz,1,bus,['A11']
+1047,Under den Eichen,1,bus,['A11']
+1048,Bhf. Lichterfelde-West,3,strassenbahn,"['77', '78']"
+1049,Bhf. Lichterfelde-West,3,bus,['A11']
+1050,Ringstrasse,1,bus,['A11']
+1051,Wiesenbaude,3,strassenbahn,"['74', '73']"
+1052,Wiesenbaude,3,bus,['A11']
+1053,Berliner Strasse,6,strassenbahn,['96']
+1054,Berliner Strasse,6,bus,"['A2', 'A11', 'A53', 'AS2', 'A60']"
+1055,Marienstrasse,1,bus,['A11']
+1056,Bismarckstrasse,3,bus,"['A33', 'A11', 'A68']"
+1057,Bhf. Lichterfelde-Ost,3,strassenbahn,"['96', '73']"
+1058,Bhf. Lichterfelde-Ost,3,bus,['A11']
+1059,Lange Strasse,1,bus,['A11']
+1060,Hildburghauser Strasse,1,bus,['A11']
+1061,Trippsteinstrasse,2,bus,"['A2', 'A11']"
+1062,Weddingplatz,6,strassenbahn,"['25', '2', '35']"
+1063,Weddingplatz,6,bus,"['A12S', 'A12', 'A70']"
+1064,Schulstrasse,2,bus,"['A12S', 'A12']"
+1065,U-Bhf. Seestrasse,4,bus,"['A12S', 'A64', 'A12', 'A16']"
+1066,Barfusstrasse,2,bus,"['A12S', 'A12']"
+1067,Bristolstrasse,1,bus,['A12']
+1068,Emmentaler Strasse,3,bus,"['A12S', 'A71', 'A12']"
+1069,Lindauer Strasse Ecke Aroser Allee,2,bus,"['A12S', 'A12']"
+1070,Lindenweg,2,bus,"['A14', 'A12']"
+1071,Holzhauser Strasse,3,bus,"['A14', 'A15', 'A12']"
+1072,Cyclopstrasse,2,bus,"['A12S', 'A12']"
+1073,Zabel-Krüger-Damm,2,bus,"['A12S', 'A12']"
+1074,Kirchstrasse,1,bus,['A12']
+1075,Hermsdorfer Damm,3,bus,"['A12S', 'A15', 'A12']"
+1076,Bhf. Frohnau,3,bus,"['A12S', 'A15', 'A12']"
+1077,Donnersmarckplatz,2,bus,"['A15', 'A12']"
+1078,Hainbuchenstrasse,1,bus,['A12']
+1079,Weddingplatz,6,strassenbahn,"['25', '2', '35']"
+1080,Weddingplatz,6,bus,"['A12S', 'A12', 'A70']"
+1081,Schulstrasse,2,bus,"['A12S', 'A12']"
+1082,U-Bhf. Seestrasse,4,bus,"['A12S', 'A64', 'A12', 'A16']"
+1083,Barfusstrasse,2,bus,"['A12S', 'A12']"
+1084,Emmentaler Strasse,3,bus,"['A12S', 'A71', 'A12']"
+1085,Lindauer Strasse Ecke Aroser Allee,2,bus,"['A12S', 'A12']"
+1086,Oranienburger Strasse,2,bus,"['A12S', 'A21']"
+1087,Rathaus Reinickendorf,1,bus,['A12S']
+1088,Cyclopstrasse,2,bus,"['A12S', 'A12']"
+1089,Zabel-Krüger-Damm,2,bus,"['A12S', 'A12']"
+1090,Schildower Strasse,1,bus,['A12S']
+1091,Hermsdorfer Damm,3,bus,"['A12S', 'A15', 'A12']"
+1092,Oswinsteig,1,bus,['A12S']
+1093,Hohefeldstrasse,1,bus,['A12S']
+1094,Im Fischgrund,1,bus,['A12S']
+1095,Bhf. Frohnau,3,bus,"['A12S', 'A15', 'A12']"
+1096,Alt-Heiligensee,2,bus,"['A13', 'A14']"
+1097,Am Dachsbau,1,bus,['A13']
+1098,Gabelung,1,bus,['A13']
+1099,Ruppiner Chaussee,1,bus,['A13']
+1100,U-Bhf. Tegel,4,bus,"['A15', 'A13', 'A14', 'A20']"
+1101,Bernauer Strasse,3,bus,"['A13', 'A64', 'A61']"
+1102,Krankenhaus Tegel-Süd,1,bus,['A13']
+1103,Strasse nach Staatwinkel,1,bus,['A13']
+1104,Paulsternstrasse,3,strassenbahn,['55']
+1105,Paulsternstrasse,3,bus,"['A13', 'A10']"
+1106,Daumstrasse,1,bus,['A13']
+1107,Havelstrasse,1,bus,['A13']
+1108,Rathaus Spandau,10,strassenbahn,"['76', '75', '55']"
+1109,Rathaus Spandau,10,bus,"['A13', 'A34', 'A63', 'AS1', 'A35', 'A5', 'A31']"
+1110,Pichelsdorfer Strasse,3,strassenbahn,"['76', '75']"
+1111,Pichelsdorfer Strasse,3,bus,['A13']
+1112,Päwesiner Weg,1,bus,['A13']
+1113,Heerstrasse,3,bus,"['A13', 'A34', 'A35']"
+1114,Weinmeisterhornweg,3,bus,"['A13', 'A34', 'A35']"
+1115,Alt-Heiligensee,2,bus,"['A13', 'A14']"
+1116,Mattenbuder Pfad,1,bus,['A14']
+1117,Bhf. Heiligensee,1,bus,['A14']
+1118,Bhf. Schulzendorf,1,bus,['A14']
+1119,Heiligenseestrasse,2,bus,"['A14', 'A20']"
+1120,U-Bhf. Tegel,4,bus,"['A15', 'A13', 'A14', 'A20']"
+1121,Ziekowstrasse,1,bus,['A14']
+1122,Nordgraben,1,bus,['A14']
+1123,Holzhauser Strasse,3,bus,"['A14', 'A15', 'A12']"
+1124,Lindenweg,2,bus,"['A14', 'A12']"
+1125,Aroser Allee,2,bus,"['A14', 'A61']"
+1126,Kopenhagener Strasse,2,strassenbahn,['35']
+1127,Kopenhagener Strasse,2,bus,['A14']
+1128,Pankower Allee,2,strassenbahn,['35']
+1129,Pankower Allee,2,bus,['A14']
+1130,Pankstrasse,2,bus,"['A14', 'A61']"
+1131,U-Bhf. Gesundbrunnen,1,bus,['A14']
+1132,Rügener Strasse,4,strassenbahn,['25']
+1133,Rügener Strasse,4,bus,"['A71', 'A14', 'A61']"
+1134,Lübarser Strasse,1,bus,['A15']
+1135,Bhf. Wittenau,1,bus,['A15']
+1136,Alt-Wittenau,3,bus,"['A15', 'A21', 'A62']"
+1137,Tor 5,1,bus,['A15']
+1138,Bhf. Eichbornstrasse,2,bus,"['A15', 'A21']"
+1139,Holzhauser Strasse,3,bus,"['A14', 'A15', 'A12']"
+1140,Borsigwalder Weg,1,bus,['A15']
+1141,GorkiStrasse,1,bus,['A15']
+1142,U-Bhf. Tegel,4,bus,"['A15', 'A13', 'A14', 'A20']"
+1143,Hermsdorfer Damm,3,bus,"['A12S', 'A15', 'A12']"
+1144,Am Flie,1,bus,['A15']
+1145,Schulzendorfer Strasse,1,bus,['A15']
+1146,Bhf. Hermsdorf,1,bus,['A15']
+1147,Dominikus-Krankenhaus,1,bus,['A15']
+1148,Donnersmarckplatz,2,bus,"['A15', 'A12']"
+1149,Bhf. Frohnau,3,bus,"['A12S', 'A15', 'A12']"
+1150,Louise-Schroeder-Platz,1,bus,['A16']
+1151,U-Bhf. Seestrasse,4,bus,"['A12S', 'A64', 'A12', 'A16']"
+1152,Afrikanische Strasse,2,bus,"['A64', 'A16']"
+1153,Virchow-Krankenhaus,1,bus,['A16']
+1154,Bhf. PutlitzStrasse,1,bus,['A16']
+1155,TurmStrasse,1,bus,['A16']
+1156,Hansaplatz,3,bus,"['A66', 'A25', 'A16']"
+1157,Tiergartenstrasse,3,bus,"['A69', 'A16', 'A24']"
+1158,Lützowplatz,3,bus,"['A69', 'A16', 'A24']"
+1159,EinemStrasse,1,bus,['A16']
+1160,Rathaus Sch neberg,5,strassenbahn,"['25', '6', '60']"
+1161,Rathaus Sch neberg,5,bus,"['A4', 'A16']"
+1162,Innsbrucker Platz,10,strassenbahn,"['74', '88', '66', '73']"
+1163,Innsbrucker Platz,10,bus,"['A4', 'A48', 'A65', 'A16']"
+1164,Innsbrucker Platz,10,s-bahn,"['KBS 100a', 'KBS 100']"
+1165,Bundesplatz,8,strassenbahn,"['44', '77', '78']"
+1166,Bundesplatz,8,bus,"['A2', 'A65', 'A16', 'AS2', 'A25']"
+1167,Wiesbadener Strasse,1,bus,['A16']
+1168,Breitenbachplatz,5,bus,"['A1', 'A16', 'A32']"
+1169,Breitenbachplatz,5,u-bahn,"['A II', 'B II']"
+1170,Englerallee,1,bus,['A16']
+1171,Bhf. Grunewald,1,bus,['A17']
+1172,Hagenplatz,2,bus,"['A17', 'A19']"
+1173,Rosenecke,1,bus,['A17']
+1174,Warnem nder Strasse,1,bus,['A17']
+1175,U-Bhf. Rüdesheimer Platz,1,bus,['A17']
+1176,Friedriche-Wilhelm-Platz,1,bus,['A17']
+1177,Bundesallee,4,strassenbahn,"['74', '73']"
+1178,Bundesallee,4,bus,"['A17', 'A48']"
+1179,Rathaus Steglitz,9,strassenbahn,"['78', '73', '74', '44', '77']"
+1180,Rathaus Steglitz,9,bus,"['A17', 'A48', 'A32', 'A68']"
+1181,Stadtpark,2,strassenbahn,['88']
+1182,Stadtpark,2,bus,['A17']
+1183,LeonorenStrasse,2,bus,"['A17', 'A32']"
+1184,Stadion Lichterfelde,1,bus,['A17']
+1185,Wilhelmstrasse,1,bus,['A17']
+1186,BismarckStrasse,1,bus,['A17']
+1187,Oberhofer Platz,1,bus,['A17']
+1188,Saaleckplatz,1,bus,['A17']
+1189,Saargem nder Strasse,2,bus,"['A11', 'A18']"
+1190,U-Bhf. Oskar-Helene-Heim,5,bus,"['A3', 'A11', 'A18', 'A1', 'AS3']"
+1191,Sophie-Charlotten-Strasse,1,bus,['A18']
+1192,Scharfestrasse,1,bus,['A18']
+1193,Potsdamer Strasse Ecke Clayallee,2,bus,"['A1', 'A18']"
+1194,Mittelstrasse,1,bus,['A18']
+1195,Wolzogenstrasse,1,bus,['A18']
+1196,Benschallee,2,bus,"['A3', 'A18']"
+1197,Waldfriedhof,1,bus,['A18']
+1198,Quantzstrasse,1,bus,['A18']
+1199,Kronprinzessinen Weg,1,bus,['A18']
+1200,Am Grossen Wannsee,4,bus,"['A3', 'A6', 'A18', 'A51']"
+1201,Pfaueninsel-Chaussee,3,bus,"['A3', 'A6', 'A18']"
+1202,Rathaus Wannsee,3,bus,"['A3', 'A6', 'A18']"
+1203,St lpchensee,1,bus,['A18']
+1204,Kohlhasenbr ck,1,bus,['A18']
+1205,Roseneck,4,bus,"['A50', 'AS3', 'A29', 'A19']"
+1206,Hagenplatz,2,bus,"['A17', 'A19']"
+1207,Erdener Strasse,1,bus,['A19']
+1208,Bhf. Halensee,6,bus,"['A66', 'A4', 'A69', 'A29', 'A10', 'A19']"
+1209,Wilmersdorfer Strasse,7,strassenbahn,"['44', '75', '76']"
+1210,Wilmersdorfer Strasse,7,bus,"['A66', 'A69', 'A29', 'A19']"
+1211,Olivaer Platz,3,bus,"['A66', 'A29', 'A19']"
+1212,Joachimstaler Strasse,5,bus,"['A66', 'A69', 'A29', 'A60', 'A19']"
+1213,Breitscheidplatz,5,bus,"['A66', 'A69', 'A29', 'A60', 'A19']"
+1214,Wittenbergplatz,17,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+1215,Wittenbergplatz,17,bus,"['A69', 'A29', 'A60', 'A19', 'A62']"
+1216,Wittenbergplatz,17,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+1217,Nollendorfplatz,9,strassenbahn,"['53', '55', '54']"
+1218,Nollendorfplatz,9,bus,['A19']
+1219,Nollendorfplatz,9,u-bahn,"['B II', 'A II', 'B III', 'B I', 'A I']"
+1220,Potsdamer Strasse,6,strassenbahn,"['2', '3']"
+1221,Potsdamer Strasse,6,bus,"['A53', 'A29', 'A24', 'A19']"
+1222,Bhf. Yorckstrasse,2,strassenbahn,['2']
+1223,Bhf. Yorckstrasse,2,bus,['A19']
+1224,Katzbachstrasse,1,bus,['A19']
+1225,Mehringdamm,6,strassenbahn,"['2', '3']"
+1226,Mehringdamm,6,bus,"['A28', 'A19']"
+1227,Mehringdamm,6,u-bahn,"['C I', 'C II']"
+1228,U-Bhf. Flughafen,5,strassenbahn,"['98', '95', '99']"
+1229,U-Bhf. Flughafen,5,bus,"['A4', 'A19']"
+1230,Flughafen,3,bus,"['A24', 'A19']"
+1231,Flughafen,3,u-bahn,['C II']
+1232,Strasse des 17. Juni,1,bus,['A2']
+1233,U-Bhf. Ernst-Reuter-Platz,10,strassenbahn,"['6', '54', '44', '25', '2', '55']"
+1234,U-Bhf. Ernst-Reuter-Platz,10,bus,"['A25', 'A2', 'AS1', 'A62']"
+1235,Bhf. Zoo,14,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+1236,Bhf. Zoo,14,bus,"['A2', 'AS2', 'A25', 'AS1', 'AS3', 'A62']"
+1237,U-Bhf. Spichernstrasse,2,bus,"['A25', 'A2']"
+1238,Berliner Strasse,6,strassenbahn,['96']
+1239,Berliner Strasse,6,bus,"['A2', 'A11', 'A53', 'AS2', 'A60']"
+1240,Bundesplatz,8,strassenbahn,"['44', '77', '78']"
+1241,Bundesplatz,8,bus,"['A2', 'A65', 'A16', 'AS2', 'A25']"
+1242,Friedrich-Wilhelm-Platz,3,strassenbahn,"['77', '78']"
+1243,Friedrich-Wilhelm-Platz,3,bus,['A2']
+1244,Schlossstrasse,6,strassenbahn,"['78', '73', '74', '44', '77']"
+1245,Schlossstrasse,6,bus,['A2']
+1246,Bhf. Feuerbachstrasse,1,bus,['A2']
+1247,Bergstrasse,3,strassenbahn,['66']
+1248,Bergstrasse,3,bus,"['A2', 'A68']"
+1249,Steglitzer Damm,1,bus,['A2']
+1250,Leonorenstrasse,1,bus,['A2']
+1251,"Lankwitz, Kirche",3,strassenbahn,['96']
+1252,"Lankwitz, Kirche",3,bus,"['A2', 'A32']"
+1253,Havensteinstrasse,1,bus,['A2']
+1254,Lerbacher Weg,1,bus,['A2']
+1255,Trippsteinstrasse,2,bus,"['A2', 'A11']"
+1256,Tegelort,1,bus,['A20']
+1257,Walderseestrasse,1,bus,['A20']
+1258,Falkenplatz,1,bus,['A20']
+1259,Mühlenstrasse,3,strassenbahn,"['3', '4']"
+1260,Mühlenstrasse,3,bus,['A20']
+1261,Heiligenseestrasse,2,bus,"['A14', 'A20']"
+1262,Karolinenstrasse,1,bus,['A20']
+1263,U-Bhf. Tegel,4,bus,"['A15', 'A13', 'A14', 'A20']"
+1264,Hatzfeldallee,1,bus,['A20']
+1265,Martin-Luther-Friedhof,1,bus,['A20']
+1266,Freie Scholle,1,bus,['A20']
+1267,Waldstrasse Ecke Waidmannslust,1,bus,['A20']
+1268,Bhf. Waidmannslust,1,bus,['A20']
+1269,Oraniendamm,1,bus,['A20']
+1270,Am Vierrutenbert,1,bus,['A20']
+1271,"Lübars, Dorfaue",1,bus,['A20']
+1272,Wentowsteig,1,bus,['A21']
+1273,Oranienburger Strasse,2,bus,"['A12S', 'A21']"
+1274,Alt-Wittenau,3,bus,"['A15', 'A21', 'A62']"
+1275,Bhf. Eichbornstrasse,2,bus,"['A15', 'A21']"
+1276,Scharnweberstrasse,1,bus,['A21']
+1277,Kurt-Schumacher-Platz,3,bus,['A21']
+1278,Kurt-Schumacher-Platz,3,u-bahn,"['C I', 'C II']"
+1279,Kaserne Südtor,1,bus,['A21']
+1280,Heckerdamm,2,bus,"['A21', 'A62']"
+1281,Bhf. Jungfernheide,5,strassenbahn,"['55', '35']"
+1282,Bhf. Jungfernheide,5,bus,"['A21', 'A65', 'A62']"
+1283,Luisenplatz,7,strassenbahn,"['53', '55', '54']"
+1284,Luisenplatz,7,bus,"['AS1', 'A21', 'A65', 'A62']"
+1285,Kantstrasse,2,strassenbahn,['44']
+1286,Kantstrasse,2,bus,['A21']
+1287,Stuttgarter Platz,2,strassenbahn,['60']
+1288,Stuttgarter Platz,2,bus,['A21']
+1289,Amtsgericht Charlottenburg,1,bus,['A21']
+1290,Kurfürstendamm,8,strassenbahn,"['44', '3', '60']"
+1291,Kurfürstendamm,8,bus,"['A21', 'A10', 'AS2', 'A60', 'AS3']"
+1292,Bhf. Hohenzollerndamm,4,bus,"['A50', 'AS3', 'A21', 'A65']"
+1293,U-Bhf. Fehrbelliner Platz,4,bus,"['A1', 'A4', 'AS3', 'A21']"
+1294,"Hessenwinkel, Lindenstrasse",1,bus,['A22']
+1295,Fahlenbergstrasse Ecke Fürstenwalder Allee,1,bus,['A22']
+1296,S-Bhf. Wilhelmshagen,1,bus,['A22']
+1297,Zentralschule,1,bus,['A22']
+1298,Waldschänke,1,bus,['A22']
+1299,S-Bhf. Rahnsdorf,1,bus,['A22']
+1300,"Fichtenau, Stadtgrenze",1,bus,['A22']
+1301,"Altglienicke, Kirche",2,bus,['A23']
+1302,Gerosteig,1,bus,['A23']
+1303,Dankmarsteig,1,bus,['A23']
+1304,"Altglienicke, Kirche",2,bus,['A23']
+1305,Wiebestrasse,2,strassenbahn,['3']
+1306,Wiebestrasse,2,bus,['A24']
+1307,GotzkowskyStrasse,1,bus,['A24']
+1308,StromStrasse,1,bus,['A24']
+1309,Rathenower Strasse,4,strassenbahn,"['2', '35']"
+1310,Rathenower Strasse,4,bus,"['A70', 'A24']"
+1311,Alt-Moabit,2,bus,"['A66', 'A24']"
+1312,John-Foster-Dulles-Allee,1,bus,['A24']
+1313,Tiergartenstrasse,3,bus,"['A69', 'A16', 'A24']"
+1314,Lützowplatz,3,bus,"['A69', 'A16', 'A24']"
+1315,Potsdamer Strasse,6,strassenbahn,"['2', '3']"
+1316,Potsdamer Strasse,6,bus,"['A53', 'A29', 'A24', 'A19']"
+1317,Hafenplatz,7,strassenbahn,"['76', '75', '53', '54']"
+1318,Hafenplatz,7,bus,"['A34', 'AS1', 'A24']"
+1319,Anhalter Bhf.,2,bus,"['A29', 'A24']"
+1320,U-Bhf. Hallesches Tor,1,bus,['A24']
+1321,Gneisenaustrasse,2,strassenbahn,['95']
+1322,Gneisenaustrasse,2,bus,['A24']
+1323,Columbiadamm,1,bus,['A24']
+1324,Tempelhofer Damm,3,strassenbahn,['6']
+1325,Tempelhofer Damm,3,bus,"['A25', 'A24']"
+1326,Flughafen,3,bus,"['A24', 'A19']"
+1327,Flughafen,3,u-bahn,['C II']
+1328,Unionplatz,1,bus,['A25']
+1329,Gotzkowskybrücke,1,bus,['A25']
+1330,Hansaplatz,3,bus,"['A66', 'A25', 'A16']"
+1331,U-Bhf. Ernst-Reuter-Platz,10,strassenbahn,"['6', '54', '44', '25', '2', '55']"
+1332,U-Bhf. Ernst-Reuter-Platz,10,bus,"['A25', 'A2', 'AS1', 'A62']"
+1333,Bhf. Zoo,14,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+1334,Bhf. Zoo,14,bus,"['A2', 'AS2', 'A25', 'AS1', 'AS3', 'A62']"
+1335,U-Bhf. Spichernstrasse,2,bus,"['A25', 'A2']"
+1336,Bundesplatz,8,strassenbahn,"['44', '77', '78']"
+1337,Bundesplatz,8,bus,"['A2', 'A65', 'A16', 'AS2', 'A25']"
+1338,Kaisereiche,5,strassenbahn,"['88', '74', '73']"
+1339,Kaisereiche,5,bus,"['A25', 'A48']"
+1340,Grazer Platz,1,bus,['A25']
+1341,Attilaplatz,4,strassenbahn,"['95', '96']"
+1342,Attilaplatz,4,bus,"['A25', 'AS2']"
+1343,Tempelhofer Damm,3,strassenbahn,['6']
+1344,Tempelhofer Damm,3,bus,"['A25', 'A24']"
+1345,Gottlieb-Dunkel-Strasse,2,strassenbahn,['6']
+1346,Gottlieb-Dunkel-Strasse,2,bus,['A25']
+1347,Grüner Weg,2,bus,"['A52', 'A25']"
+1348,Gutschmidtstrasse,1,bus,['A25']
+1349,"S-Bhf. Kaulsdorf, Planitzstrasse",1,bus,['A27']
+1350,Chemnitzer Strasse,1,bus,['A27']
+1351,Ulmenstrasse,1,bus,['A27']
+1352,Gehsener Strasse,1,bus,['A27']
+1353,S-Bhf. Köpenick,4,strassenbahn,"['82', '83', '86']"
+1354,S-Bhf. Köpenick,4,bus,['A27']
+1355,Bahnhofstrasse Ecke Lindenstrasse,3,strassenbahn,"['82', '87']"
+1356,Bahnhofstrasse Ecke Lindenstrasse,3,bus,['A27']
+1357,"Köpenick, Krankenhaus",2,strassenbahn,['95']
+1358,"Köpenick, Krankenhaus",2,bus,['A27']
+1359,Chausseehaus,1,bus,['A27']
+1360,Alt-Müggelheim,1,bus,['A27']
+1361,Loewenhardtdamm,1,bus,['A28']
+1362,Dudenstrasse,1,bus,['A28']
+1363,Kreuzbergstrasse,1,bus,['A28']
+1364,Yorckstrasse,2,strassenbahn,['99']
+1365,Yorckstrasse,2,bus,['A28']
+1366,Mehringdamm,6,strassenbahn,"['2', '3']"
+1367,Mehringdamm,6,bus,"['A28', 'A19']"
+1368,Mehringdamm,6,u-bahn,"['C I', 'C II']"
+1369,Zossener Strasse,1,bus,['A28']
+1370,Südstern,3,strassenbahn,['2']
+1371,Südstern,3,bus,['A28']
+1372,Südstern,3,u-bahn,['C I']
+1373,Urban-Krankenhause,1,bus,['A28']
+1374,U-Bhf. Prinzenstrasse,1,bus,['A28']
+1375,U-Bhf Kottbusser Tor,1,bus,['A28']
+1376,Oranienstrasse,2,strassenbahn,['88']
+1377,Oranienstrasse,2,bus,['A28']
+1378,Waldemarstrasse,1,bus,['A28']
+1379,Mariannenplatz,1,bus,['A28']
+1380,Köpenicker Strasse Ecke Manteuffelstrasse,1,bus,['A28']
+1381,U-Bhf. Schlesisches Tor,1,bus,['A28']
+1382,Heckmannufer,1,bus,['A28']
+1383,Roseneck,4,bus,"['A50', 'AS3', 'A29', 'A19']"
+1384,Berkaer Strasse,1,bus,['A29']
+1385,BSC-Sportplatz,1,bus,['A29']
+1386,Bismarckplatz,3,bus,"['A66', 'A69', 'A29']"
+1387,Bhf. Halensee,6,bus,"['A66', 'A4', 'A69', 'A29', 'A10', 'A19']"
+1388,Joachim-Friedrich-Strasse,3,bus,"['A66', 'A69', 'A29']"
+1389,Wilmersdorfer Strasse,7,strassenbahn,"['44', '75', '76']"
+1390,Wilmersdorfer Strasse,7,bus,"['A66', 'A69', 'A29', 'A19']"
+1391,Olivaer Platz,3,bus,"['A66', 'A29', 'A19']"
+1392,Uhlandstrasse,4,bus,"['A66', 'A50', 'A29', 'A69']"
+1393,Joachimstaler Strasse,5,bus,"['A66', 'A69', 'A29', 'A60', 'A19']"
+1394,Breitscheidplatz,5,bus,"['A66', 'A69', 'A29', 'A60', 'A19']"
+1395,Wittenbergplatz,17,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+1396,Wittenbergplatz,17,bus,"['A69', 'A29', 'A60', 'A19', 'A62']"
+1397,Wittenbergplatz,17,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+1398,Lutherstrasse,2,bus,"['A69', 'A29']"
+1399,Lützowstrasse,5,strassenbahn,"['88', '74', '73']"
+1400,Lützowstrasse,5,bus,"['A48', 'A29']"
+1401,Potsdamer Strasse,6,strassenbahn,"['2', '3']"
+1402,Potsdamer Strasse,6,bus,"['A53', 'A29', 'A24', 'A19']"
+1403,Anhalter Bhf.,2,bus,"['A29', 'A24']"
+1404,Rathaus Zehlendorf,3,bus,"['A3', 'AS3', 'A53']"
+1405,Winifriedstrasse,1,bus,['A3']
+1406,Sundgauer Strasse,3,bus,"['A3', 'A48', 'AS3']"
+1407,U-Bhf. Oskar-Helene-Heim,5,bus,"['A3', 'A11', 'A18', 'A1', 'AS3']"
+1408,U-Bhf. Onkel-Toms-H tte,1,bus,['A3']
+1409,U-Bhf. Krumme Lanke,1,bus,['A3']
+1410,Bhf. Lindenthaler Allee,1,bus,['A3']
+1411,Benschallee,2,bus,"['A3', 'A18']"
+1412,Schopenhauerstrasse,1,bus,['A3']
+1413,Bhf. Nikolassee,1,bus,['A3']
+1414,Am Beelitzhof,1,bus,['A3']
+1415,Bhf. Wannsee,3,bus,"['A3', 'A6', 'A51']"
+1416,Am Grossen Wannsee,4,bus,"['A3', 'A6', 'A18', 'A51']"
+1417,Pfaueninsel-Chaussee,3,bus,"['A3', 'A6', 'A18']"
+1418,Rathaus Wannsee,3,bus,"['A3', 'A6', 'A18']"
+1419,Stölpchensee,1,bus,['A3']
+1420,Machandelweg,2,bus,"['A5', 'A31']"
+1421,U-Bhf. Ruhleben,5,strassenbahn,"['53', '54']"
+1422,U-Bhf. Ruhleben,5,bus,"['A5', 'AS1', 'A31']"
+1423,Friedhof Ruhleben,2,bus,"['A5', 'A31']"
+1424,Kinderheim Ruhleben,1,bus,['A31']
+1425,Teltower Strasse,5,strassenbahn,"['53', '54']"
+1426,Teltower Strasse,5,bus,"['A5', 'AS1', 'A31']"
+1427,Grenadierstrasse,2,bus,"['A5', 'A31']"
+1428,Stresowplatz,2,bus,"['A5', 'A31']"
+1429,Breite Strasse,4,bus,"['A5', 'A33', 'A68', 'A31']"
+1430,Rathaus Spandau,10,strassenbahn,"['76', '75', '55']"
+1431,Rathaus Spandau,10,bus,"['A13', 'A34', 'A63', 'AS1', 'A35', 'A5', 'A31']"
+1432,Brunsb tteler Damm,1,bus,['A31']
+1433,Nauener Strasse,2,strassenbahn,['55']
+1434,Nauener Strasse,2,bus,['A31']
+1435,Egelpfuhlstrasse,1,bus,['A31']
+1436,Magistratsweg,1,bus,['A31']
+1437,Spandauer Strasse,1,bus,['A31']
+1438,Hackbuschstrasse,1,bus,['A31']
+1439,Heidebergplan,1,bus,['A31']
+1440,Breitenbachplatz,5,bus,"['A1', 'A16', 'A32']"
+1441,Breitenbachplatz,5,u-bahn,"['A II', 'B II']"
+1442,GritznerStrasse,1,bus,['A32']
+1443,SchlossStrasse,1,bus,['A32']
+1444,Rathaus Steglitz,9,strassenbahn,"['78', '73', '74', '44', '77']"
+1445,Rathaus Steglitz,9,bus,"['A17', 'A48', 'A32', 'A68']"
+1446,SedanStrasse,1,bus,['A32']
+1447,StindeStrasse,1,bus,['A32']
+1448,LeonorenStrasse,2,bus,"['A17', 'A32']"
+1449,"Lankwitz, Kirche",3,strassenbahn,['96']
+1450,"Lankwitz, Kirche",3,bus,"['A2', 'A32']"
+1451,Marienfelder Strasse,2,strassenbahn,['99']
+1452,Marienfelder Strasse,2,bus,['A32']
+1453,Marchandstrasse,1,bus,['A32']
+1454,Marienfelder Allee,1,bus,['A32']
+1455,Stegerwaldstrasse,1,bus,['A32']
+1456,Bhf. Marienfelde,2,strassenbahn,['15']
+1457,Bhf. Marienfelde,2,bus,['A32']
+1458,Bhf. Steglitz,3,strassenbahn,['44']
+1459,Bhf. Steglitz,3,bus,"['A33', 'A68']"
+1460,Breite Strasse,4,bus,"['A5', 'A33', 'A68', 'A31']"
+1461,Klingsorstrasse,1,bus,['A33']
+1462,Sedanstrasse,1,bus,['A33']
+1463,Bismarckstrasse,3,bus,"['A33', 'A11', 'A68']"
+1464,Halskestrasse,1,bus,['A33']
+1465,Bhf. Südende,1,bus,['A33']
+1466,Bhf. Mariendorf,2,strassenbahn,['96']
+1467,Bhf. Mariendorf,2,bus,['A33']
+1468,Kurfürstenstrasse,1,bus,['A33']
+1469,Kaiserstrasse/Ringstrasse,1,bus,['A33']
+1470,Rathaus Mariendorf,1,bus,['A33']
+1471,Kaiserstrasse,3,strassenbahn,"['98', '99']"
+1472,Kaiserstrasse,3,bus,['A33']
+1473,"Spandau, Friedhof",1,bus,['A34']
+1474,Askanierring,3,bus,"['A34', 'A63', 'A35']"
+1475,Hafenplatz,7,strassenbahn,"['76', '75', '53', '54']"
+1476,Hafenplatz,7,bus,"['A34', 'AS1', 'A24']"
+1477,Rathaus Spandau,10,strassenbahn,"['76', '75', '55']"
+1478,Rathaus Spandau,10,bus,"['A13', 'A34', 'A63', 'AS1', 'A35', 'A5', 'A31']"
+1479,Wilhelmstrasse Ecke Pichelsdorferstrasse,2,bus,"['A34', 'A35']"
+1480,Adamstrasse,2,bus,"['A34', 'A35']"
+1481,Heerstrasse,3,bus,"['A13', 'A34', 'A35']"
+1482,Weinmeisterhornweg,3,bus,"['A13', 'A34', 'A35']"
+1483,Ortsgrenze Gatow,2,bus,"['A34', 'A35']"
+1484,"Gatow, Kirche",2,bus,"['A34', 'A35']"
+1485,Großglienicker Weg,2,bus,"['A34', 'A35']"
+1486,Krankenhaus Hohengatow,2,bus,"['A34', 'A35']"
+1487,Krankenhaus Havelhöhe,2,bus,"['A34', 'A35']"
+1488,Alt-Kladow,2,bus,"['A34', 'A35']"
+1489,Schwiezerhaus,1,bus,['A34']
+1490,Gutshof,1,bus,['A34']
+1491,Germersheimer Platz,1,bus,['A35']
+1492,Askanierring,3,bus,"['A34', 'A63', 'A35']"
+1493,Rathaus Spandau,10,strassenbahn,"['76', '75', '55']"
+1494,Rathaus Spandau,10,bus,"['A13', 'A34', 'A63', 'AS1', 'A35', 'A5', 'A31']"
+1495,Wilhelmstrasse Ecke Pichelsdorferstrasse,2,bus,"['A34', 'A35']"
+1496,Adamstrasse,2,bus,"['A34', 'A35']"
+1497,Heerstrasse,3,bus,"['A13', 'A34', 'A35']"
+1498,Gatower Strasse,1,bus,['A35']
+1499,Weinmeisterhornweg,3,bus,"['A13', 'A34', 'A35']"
+1500,Ortsgrenze Gatow,2,bus,"['A34', 'A35']"
+1501,"Gatow, Kirche",2,bus,"['A34', 'A35']"
+1502,Großglienicker Weg,2,bus,"['A34', 'A35']"
+1503,Krankenhaus Hohengatow,2,bus,"['A34', 'A35']"
+1504,Krankenhaus Havelhöhe,2,bus,"['A34', 'A35']"
+1505,Alt-Kladow,2,bus,"['A34', 'A35']"
+1506,Krampnitzer Weg,1,bus,['A35']
+1507,Hottengrund,1,bus,['A35']
+1508,Waltersdorf,1,bus,['A38']
+1509,"Bohnsdorf, Waldstrasse",1,bus,['A38']
+1510,Eichbuschplatz,1,bus,['A38']
+1511,Joachimstrasse,1,bus,['A38']
+1512,S-Bhf. Grünau,3,bus,"['A38', 'AZ', 'AD/36']"
+1513,"Wartenberg, Siedlung",1,bus,['A39']
+1514,"Wartenberg, Dorfstrasse",1,bus,['A39']
+1515,Falkenberger Chaussee,1,bus,['A39']
+1516,"Kolonie ""Land in Sonne""",1,bus,['A39']
+1517,"Hohensch nhausen, Falkenberger Strasse",3,strassenbahn,"['70', '64']"
+1518,"Hohensch nhausen, Falkenberger Strasse",3,bus,['A39']
+1519,Brixplatz,1,bus,['A4']
+1520,Reichskanzlerplatz,5,strassenbahn,"['76', '75']"
+1521,Reichskanzlerplatz,5,bus,['A4']
+1522,Reichskanzlerplatz,5,u-bahn,"['B I', 'A I']"
+1523,Messedamm,3,strassenbahn,"['76', '75']"
+1524,Messedamm,3,bus,['A4']
+1525,Bhf. Halensee,6,bus,"['A66', 'A4', 'A69', 'A29', 'A10', 'A19']"
+1526,Hochmeisterplatz,1,bus,['A4']
+1527,U-Bhf. Fehrbelliner Platz,4,bus,"['A1', 'A4', 'AS3', 'A21']"
+1528,Bundesallee Ecke Badensche Strasse,1,bus,['A4']
+1529,Rathaus Sch neberg,5,strassenbahn,"['25', '6', '60']"
+1530,Rathaus Sch neberg,5,bus,"['A4', 'A16']"
+1531,Innsbrucker Platz,10,strassenbahn,"['74', '88', '66', '73']"
+1532,Innsbrucker Platz,10,bus,"['A4', 'A48', 'A65', 'A16']"
+1533,Innsbrucker Platz,10,s-bahn,"['KBS 100a', 'KBS 100']"
+1534,Dominicusstrasse,5,strassenbahn,"['88', '74', '73']"
+1535,Dominicusstrasse,5,bus,"['A4', 'A48']"
+1536,Kaiser-Wilhelm-Platz,5,strassenbahn,"['88', '74', '73']"
+1537,Kaiser-Wilhelm-Platz,5,bus,"['A4', 'A48']"
+1538,U-Bhf. Flughafen,5,strassenbahn,"['98', '95', '99']"
+1539,U-Bhf. Flughafen,5,bus,"['A4', 'A19']"
+1540,Friesenstrasse,1,bus,['A4']
+1541,U-Bhf. Boddinstrasse,2,strassenbahn,['27']
+1542,U-Bhf. Boddinstrasse,2,bus,['A4']
+1543,Rathaus Neukölln,5,strassenbahn,"['47', '26', '6']"
+1544,Rathaus Neukölln,5,bus,['A4']
+1545,Rathaus Neukölln,5,u-bahn,['C I']
+1546,Finowstrasse,1,bus,['A4']
+1547,"Buch, Zepernicker Strasse",1,bus,['A42']
+1548,Alt-Buch,1,bus,['A42']
+1549,Lindenberger Weg,1,bus,['A42']
+1550,"Karow, Bahnhofstrasse",1,bus,['A42']
+1551,G terau enring,1,bus,['A42']
+1552,"Blankenburg, Bahnhofstrasse",1,bus,['A42']
+1553,"Heinersdorf, Kirche",3,strassenbahn,['71']
+1554,"Heinersdorf, Kirche",3,bus,"['A42', 'A55']"
+1555,Am Steinberg,3,strassenbahn,['71']
+1556,Am Steinberg,3,bus,"['A42', 'A45']"
+1557,Ostseestrasse (Spitze),1,bus,['A42']
+1558,Bürknersfelde,3,bus,"['O41', 'A43', 'O37']"
+1559,"Marzahn, Berliner Chaussee",1,bus,['A43']
+1560,G terbahnhof Springpfuhl,1,bus,['A43']
+1561,S-Bhf. Friedrichsfelde-Ost,1,bus,['A43']
+1562,Schlossstrasse Ecke Alt-Friedrichsfelde,5,strassenbahn,"['69E', '69']"
+1563,Schlossstrasse Ecke Alt-Friedrichsfelde,5,bus,"['A8', 'A43', 'O37']"
+1564,U-Bhf. Friedrichsfelde,2,bus,"['A8', 'A43']"
+1565,"Hönow, Dorfstrasse",1,bus,['A44']
+1566,Greifswalder Strasse,4,strassenbahn,"['13', '4']"
+1567,Greifswalder Strasse,4,bus,"['A44E', 'A44']"
+1568,Am Rosenhag,2,bus,"['A44E', 'A44']"
+1569,S-Bhf. Mahlsdorf,3,strassenbahn,['83']
+1570,S-Bhf. Mahlsdorf,3,bus,"['A44E', 'A44']"
+1571,Greifswalder Strasse,4,strassenbahn,"['13', '4']"
+1572,Greifswalder Strasse,4,bus,"['A44E', 'A44']"
+1573,Am Rosenhag,2,bus,"['A44E', 'A44']"
+1574,S-Bhf. Mahlsdorf,3,strassenbahn,['83']
+1575,S-Bhf. Mahlsdorf,3,bus,"['A44E', 'A44']"
+1576,"Wilhelmsruh, Fontanestrasse",2,bus,"['A45', 'A55']"
+1577,Hauptstrasse Ecke Edelwei strasse,2,bus,"['A45', 'A55']"
+1578,Ehrenmal,2,bus,"['A45', 'A55']"
+1579,Heinrich-Mann-Platz,1,bus,['A45']
+1580,"Pankow, Rathaus",6,strassenbahn,"['22', '46', '46E']"
+1581,"Pankow, Rathaus",6,bus,"['A45', 'A55', 'A7']"
+1582,"Pankow, Kirche",6,strassenbahn,"['22', '46', '46E', '49']"
+1583,"Pankow, Kirche",6,bus,"['A45', 'A55']"
+1584,Prenzlauer Promenade Ecke Kissingenstrasse,1,bus,['A45']
+1585,Am Steinberg,3,strassenbahn,['71']
+1586,Am Steinberg,3,bus,"['A42', 'A45']"
+1587,Langhans Strasse Ecke Gustav-Adolf-Strasse,1,bus,['A45']
+1588,Hamburger Platz,3,strassenbahn,['96']
+1589,Hamburger Platz,3,bus,"['A56', 'A45']"
+1590,Pistoriusstrasse Ecke Klement-Gottwald-Allee,1,bus,['A45']
+1591,Klement-Gottwald-Allee Ecke Bernkasteler Strasse,4,strassenbahn,"['72', '74']"
+1592,Klement-Gottwald-Allee Ecke Bernkasteler Strasse,4,bus,"['A46', 'A45']"
+1593,"Weißensee, Schwarzelfenweg",1,bus,['A45']
+1594,"Ahrensfeld, Kirche",1,bus,['A46']
+1595,Stadtrandsiedlung,1,bus,['A46']
+1596,"Falkenberg, Schule",1,bus,['A46']
+1597,Strasse nach Wartenberg,1,bus,['A46']
+1598,Malchower Weg,1,bus,['A46']
+1599,Falkenberger Strasse,1,bus,['A46']
+1600,Klement-Gottwald-Allee Ecke Bernkasteler Strasse,4,strassenbahn,"['72', '74']"
+1601,Klement-Gottwald-Allee Ecke Bernkasteler Strasse,4,bus,"['A46', 'A45']"
+1602,Feldtmannstrasse,1,bus,['A46']
+1603,"Malchow, Dorfstrasse",2,bus,"['A46', 'AL']"
+1604,Bhf. Schöneweide,5,strassenbahn,"['69E', '87', '92', '69']"
+1605,Bhf. Schöneweide,5,bus,['A47']
+1606,Sterndamm,1,bus,['A47']
+1607,Johannisthaler Chaussee,2,strassenbahn,['47']
+1608,Johannisthaler Chaussee,2,bus,['A47']
+1609,Baumschulenstrasse Ecke Südostallee,1,bus,['A47']
+1610,S-Bhf. Baumschulenweg,1,bus,['A47']
+1611,Eichbuschallee,1,bus,['A47']
+1612,"Treptow, Rathaus",1,bus,['A47']
+1613,S-Bhf. Treptower Park,1,bus,['A47']
+1614,Potsdamer Strasse Ecke Fischerh ttenstrasse,1,bus,['A48']
+1615,Teltower Damm,3,bus,"['A53', 'A48', 'A10']"
+1616,Sundgauer Strasse,3,bus,"['A3', 'A48', 'AS3']"
+1617,Dahlemer Weg,3,bus,"['A53', 'A48', 'A10']"
+1618,Drakestrasse,1,bus,['A48']
+1619,Hindenburgdamm,3,strassenbahn,"['77', '78']"
+1620,Hindenburgdamm,3,bus,['A48']
+1621,Rathaus Steglitz,9,strassenbahn,"['78', '73', '74', '44', '77']"
+1622,Rathaus Steglitz,9,bus,"['A17', 'A48', 'A32', 'A68']"
+1623,Bundesallee,4,strassenbahn,"['74', '73']"
+1624,Bundesallee,4,bus,"['A17', 'A48']"
+1625,Kaisereiche,5,strassenbahn,"['88', '74', '73']"
+1626,Kaisereiche,5,bus,"['A25', 'A48']"
+1627,Innsbrucker Platz,10,strassenbahn,"['74', '88', '66', '73']"
+1628,Innsbrucker Platz,10,bus,"['A4', 'A48', 'A65', 'A16']"
+1629,Innsbrucker Platz,10,s-bahn,"['KBS 100a', 'KBS 100']"
+1630,Dominicusstrasse,5,strassenbahn,"['88', '74', '73']"
+1631,Dominicusstrasse,5,bus,"['A4', 'A48']"
+1632,Kaiser-Wilhelm-Platz,5,strassenbahn,"['88', '74', '73']"
+1633,Kaiser-Wilhelm-Platz,5,bus,"['A4', 'A48']"
+1634,Goeben-/Pallasstrasse,1,bus,['A48']
+1635,U-Bhf. Bülowstrasse,4,strassenbahn,"['88', '74', '73']"
+1636,U-Bhf. Bülowstrasse,4,bus,['A48']
+1637,Lützowstrasse,5,strassenbahn,"['88', '74', '73']"
+1638,Lützowstrasse,5,bus,"['A48', 'A29']"
+1639,Margaretenstrasse,1,bus,['A48']
+1640,"Kaulsdorf, Bausdorfstrasse",2,bus,['A49']
+1641,Ridbacher Strasse,1,bus,['A49']
+1642,Grottkauer Strasse,1,bus,['A49']
+1643,Uckermarkstrasse,1,bus,['A49']
+1644,"Kaulsdorf, Bausdorfstrasse",2,bus,['A49']
+1645,Machandelweg,2,bus,"['A5', 'A31']"
+1646,U-Bhf. Ruhleben,5,strassenbahn,"['53', '54']"
+1647,U-Bhf. Ruhleben,5,bus,"['A5', 'AS1', 'A31']"
+1648,Friedhof Ruhleben,2,bus,"['A5', 'A31']"
+1649,Hauptkinderheim,1,bus,['A5']
+1650,Teltower Strasse,5,strassenbahn,"['53', '54']"
+1651,Teltower Strasse,5,bus,"['A5', 'AS1', 'A31']"
+1652,Grenadierstrasse,2,bus,"['A5', 'A31']"
+1653,Stresowplatz,2,bus,"['A5', 'A31']"
+1654,Breite Strasse,4,bus,"['A5', 'A33', 'A68', 'A31']"
+1655,Rathaus Spandau,10,strassenbahn,"['76', '75', '55']"
+1656,Rathaus Spandau,10,bus,"['A13', 'A34', 'A63', 'AS1', 'A35', 'A5', 'A31']"
+1657,Bhf. Spandau-West,2,bus,"['A5', 'A63']"
+1658,Hochgerichtstrasse,2,bus,"['A5', 'A63']"
+1659,Falkenseer Chaussee,2,bus,"['A5', 'A63']"
+1660,Viersener Strasse,2,bus,"['A5', 'A63']"
+1661,Wolburgsweg,1,bus,['A5']
+1662,Stadtrandstrasse,1,bus,['A5']
+1663,Waldkrankenhaus,1,bus,['A5']
+1664,Roseneck,4,bus,"['A50', 'AS3', 'A29', 'A19']"
+1665,Hohenzollerndamm,2,bus,['A50']
+1666,Hohenzollerndamm,2,s-bahn,['KBS 100']
+1667,Elsterplatz,2,bus,"['A50', 'A10']"
+1668,Forckenbeckstrasse,1,bus,['A50']
+1669,Flinsberger Platz,1,bus,['A50']
+1670,Cunostrasse,1,bus,['A50']
+1671,Bhf. Hohenzollerndamm,4,bus,"['A50', 'AS3', 'A21', 'A65']"
+1672,Konstanzer Strasse,1,bus,['A50']
+1673,Ruhrstrasse,1,bus,['A50']
+1674,Fehrbelliner Platz,6,strassenbahn,"['44', '3', '60']"
+1675,Fehrbelliner Platz,6,bus,['A50']
+1676,Fehrbelliner Platz,6,u-bahn,"['A II', 'B II']"
+1677,Emser Platz,1,bus,['A50']
+1678,Uhlandstrasse,4,bus,"['A66', 'A50', 'A29', 'A69']"
+1679,Nassauische Strasse,1,bus,['A50']
+1680,Prager Platz,1,bus,['A50']
+1681,Bhf. Wannsee,3,bus,"['A3', 'A6', 'A51']"
+1682,Königstrasse/Kronprinzessinnenweg,1,bus,['A51']
+1683,Am Grossen Wannsee,4,bus,"['A3', 'A6', 'A18', 'A51']"
+1684,KoblanckStrasse,1,bus,['A51']
+1685,Colomierstrasse,1,bus,['A51']
+1686,Krankenhaus Wannsee,1,bus,['A51']
+1687,Zum Heckeshorn,1,bus,['A51']
+1688,Krankenhaus Heckeshorn,1,bus,['A51']
+1689,Alt-Marienfelde,1,bus,['A52']
+1690,Gutshof Marienfelde,1,bus,['A52']
+1691,Bhf. Buckower Chaussee,1,bus,['A52']
+1692,Lichtenrader Damm,1,bus,['A52']
+1693,B hler Weg,1,bus,['A52']
+1694,Buckower Friedhof,1,bus,['A52']
+1695,Buckower Damm,1,bus,['A52']
+1696,Grüner Weg,2,bus,"['A52', 'A25']"
+1697,Triftweg,1,bus,['A52']
+1698,Rudower Strasse,1,bus,['A52']
+1699,Efeuweg,1,bus,['A52']
+1700,Wildmeisterdamm,2,strassenbahn,['47']
+1701,Wildmeisterdamm,2,bus,['A52']
+1702,Köpenicker Strasse,3,strassenbahn,"['47', '84']"
+1703,Köpenicker Strasse,3,bus,['A52']
+1704,Friedhof Rudow,1,bus,['A52']
+1705,Kanalstrasse,1,bus,['A52']
+1706,Mimosenweg,1,bus,['A52']
+1707,Krumme Lanke,3,bus,['A53']
+1708,Krumme Lanke,3,u-bahn,"['A II', 'B II']"
+1709,Sven-Hedin-Strasse,1,bus,['A53']
+1710,Hartmannsweiler Weg,1,bus,['A53']
+1711,Potsdamer Strasse,6,strassenbahn,"['2', '3']"
+1712,Potsdamer Strasse,6,bus,"['A53', 'A29', 'A24', 'A19']"
+1713,Berliner Strasse,6,strassenbahn,['96']
+1714,Berliner Strasse,6,bus,"['A2', 'A11', 'A53', 'AS2', 'A60']"
+1715,Teltower Damm,3,bus,"['A53', 'A48', 'A10']"
+1716,Rathaus Zehlendorf,3,bus,"['A3', 'AS3', 'A53']"
+1717,Bhf. Zehlendorf,2,bus,"['A1', 'A53']"
+1718,Seehofstrasse,1,bus,['A53']
+1719,Knesebeckstrasse,1,bus,['A53']
+1720,J nickestrasse,1,bus,['A53']
+1721,Dahlemer Weg,3,bus,"['A53', 'A48', 'A10']"
+1722,Osteweg,1,bus,['A53']
+1723,4. Ring,1,bus,['A53']
+1724,Luzerner Strasse,1,bus,['A53']
+1725,Thuner Platz,1,bus,['A53']
+1726,"Wilhelmsruh, Fontanestrasse",2,bus,"['A45', 'A55']"
+1727,Hauptstrasse Ecke Edelwei strasse,2,bus,"['A45', 'A55']"
+1728,Ehrenmal,2,bus,"['A45', 'A55']"
+1729,S-Bhf. Wollkanstrasse,1,bus,['A55']
+1730,"Pankow, Rathaus",6,strassenbahn,"['22', '46', '46E']"
+1731,"Pankow, Rathaus",6,bus,"['A45', 'A55', 'A7']"
+1732,"Pankow, Kirche",6,strassenbahn,"['22', '46', '46E', '49']"
+1733,"Pankow, Kirche",6,bus,"['A45', 'A55']"
+1734,Retzbacher Weg,1,bus,['A55']
+1735,"Heinersdorf, Kirche",3,strassenbahn,['71']
+1736,"Heinersdorf, Kirche",3,bus,"['A42', 'A55']"
+1737,"Weißensee, Rennbahnstrasse Ecke Gustav-Adolf-Strasse",1,bus,['A55']
+1738,Große Seestrasse Ecke Klement-Gottwald-Allee,1,bus,['A55']
+1739,"Weißensee, Liebermannstrasse Ecke Piesporter Strasse",1,bus,['A55']
+1740,"Weißensee, Feldtmannstrasse",1,bus,['A56']
+1741,Rennbahnstrasse Ecke Gustav-Adolf-Strasse,1,bus,['A56']
+1742,Hamburger Platz,3,strassenbahn,['96']
+1743,Hamburger Platz,3,bus,"['A56', 'A45']"
+1744,Prenzlauer Allee (Spitze),1,bus,['A56']
+1745,Wicherstrasse,1,bus,['A56']
+1746,Kniprodestrasse Ecke Erml ndische Strasse,1,bus,['A57']
+1747,Königstor,6,strassenbahn,"['74E', '74']"
+1748,Königstor,6,bus,"['A57', 'O30', 'A9', 'O40']"
+1749,S-Bhf. Alexanderplatz,3,bus,"['A57', 'O30', 'A9']"
+1750,Marx-Engels-Platz,5,bus,"['A57', 'A9']"
+1751,Marx-Engels-Platz,5,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+1752,Bhf. Friedrichstrasse,2,bus,"['A57', 'A9']"
+1753,Albrechtstrasse,1,bus,['A57']
+1754,Robert-Koch-Platz,2,bus,"['A57', 'O40']"
+1755,Bhf. Wannsee,3,bus,"['A3', 'A6', 'A51']"
+1756,Königstrasse,1,bus,['A6']
+1757,Am Grossen Wannsee,4,bus,"['A3', 'A6', 'A18', 'A51']"
+1758,Endestrasse,1,bus,['A6']
+1759,Pfaueninsel-Chaussee,3,bus,"['A3', 'A6', 'A18']"
+1760,Rathaus Wannsee,3,bus,"['A3', 'A6', 'A18']"
+1761,Friedenstrasse,1,bus,['A6']
+1762,Sch ferberg,1,bus,['A6']
+1763,Nikolskoer Weg,1,bus,['A6']
+1764,Schloss Glienicke,1,bus,['A6']
+1765,Glienicker Brücke,1,bus,['A6']
+1766,"Roseneck, Hundekehl",1,bus,['A60']
+1767,Warnem nder/Berkaer Strasse,1,bus,['A60']
+1768,Zappoter/Oeynhauser Strasse,1,bus,['A60']
+1769,"Hamburger Strasse, Rudolf-Mosse-Platz",1,bus,['A60']
+1770,U-Bhf. Heidelberger Platz,1,bus,['A60']
+1771,Brabanter Platz,1,bus,['A60']
+1772,Am Volkspark,1,bus,['A60']
+1773,Berliner Strasse,6,strassenbahn,['96']
+1774,Berliner Strasse,6,bus,"['A2', 'A11', 'A53', 'AS2', 'A60']"
+1775,Postamt,1,bus,['A60']
+1776,G ntzelstrasse,1,bus,['A60']
+1777,Ludwigkirchstrasse/Pariser Strasse,1,bus,['A60']
+1778,Kurfürstendamm,8,strassenbahn,"['44', '3', '60']"
+1779,Kurfürstendamm,8,bus,"['A21', 'A10', 'AS2', 'A60', 'AS3']"
+1780,Joachimstaler Strasse,5,bus,"['A66', 'A69', 'A29', 'A60', 'A19']"
+1781,Breitscheidplatz,5,bus,"['A66', 'A69', 'A29', 'A60', 'A19']"
+1782,Wittenbergplatz,17,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+1783,Wittenbergplatz,17,bus,"['A69', 'A29', 'A60', 'A19', 'A62']"
+1784,Wittenbergplatz,17,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+1785,ZobeltitzStrasse,1,bus,['A61']
+1786,"U-Bhf. Scharnweberstrasse, Sportplatz",1,bus,['A61']
+1787,Schillingstrasse,1,bus,['A61']
+1788,U-Bhf. Kurt-Schumacher-Platz,3,bus,"['A64', 'A61', 'A62']"
+1789,Humboldtstrasse,1,bus,['A61']
+1790,Sebastianfriedhof,1,bus,['A61']
+1791,Teichstrasse,1,bus,['A61']
+1792,Aroser Allee,2,bus,"['A14', 'A61']"
+1793,Osloer Strasse,4,strassenbahn,['35']
+1794,Osloer Strasse,4,bus,"['A70', 'A71', 'A61']"
+1795,Exerzierstrasse,1,bus,['A61']
+1796,Pankstrasse,2,bus,"['A14', 'A61']"
+1797,Bhf. Gesundbrunnen,3,strassenbahn,['25']
+1798,Bhf. Gesundbrunnen,3,bus,"['A71', 'A61']"
+1799,Rügener Strasse,4,strassenbahn,['25']
+1800,Rügener Strasse,4,bus,"['A71', 'A14', 'A61']"
+1801,Bernauer Strasse,3,bus,"['A13', 'A64', 'A61']"
+1802,"Gartenplatz, Feldstrasse",1,bus,['A61']
+1803,Wittenau,1,bus,['A62']
+1804,Alt-Wittenau,3,bus,"['A15', 'A21', 'A62']"
+1805,"Heilst tten, Wittenau",1,bus,['A62']
+1806,Auguste-Viktoria-Allee,1,bus,['A62']
+1807,U-Bhf. Kurt-Schumacher-Platz,3,bus,"['A64', 'A61', 'A62']"
+1808,"Kaserne, Südtor",1,bus,['A62']
+1809,Saatwinkler Damm,1,bus,['A62']
+1810,Heckerdamm,2,bus,"['A21', 'A62']"
+1811,Bhf. Jungfernheide,5,strassenbahn,"['55', '35']"
+1812,Bhf. Jungfernheide,5,bus,"['A21', 'A65', 'A62']"
+1813,Luisenplatz,7,strassenbahn,"['53', '55', '54']"
+1814,Luisenplatz,7,bus,"['AS1', 'A21', 'A65', 'A62']"
+1815,Richard-Wagner-Platz,5,strassenbahn,"['53', '55', '54']"
+1816,Richard-Wagner-Platz,5,bus,['A62']
+1817,Richard-Wagner-Platz,5,u-bahn,['A III']
+1818,U-Bhf. Ernst-Reuter-Platz,10,strassenbahn,"['6', '54', '44', '25', '2', '55']"
+1819,U-Bhf. Ernst-Reuter-Platz,10,bus,"['A25', 'A2', 'AS1', 'A62']"
+1820,Bhf. Zoo,14,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+1821,Bhf. Zoo,14,bus,"['A2', 'AS2', 'A25', 'AS1', 'AS3', 'A62']"
+1822,Marburger Strasse,1,bus,['A62']
+1823,Wittenbergplatz,17,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+1824,Wittenbergplatz,17,bus,"['A69', 'A29', 'A60', 'A19', 'A62']"
+1825,Wittenbergplatz,17,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+1826,Radelandstrasse,1,bus,['A63']
+1827,Pionierstrasse,1,bus,['A63']
+1828,Falkenseer Chaussee,2,bus,"['A5', 'A63']"
+1829,ZweiBrücker Strasse,1,bus,['A63']
+1830,Askanierring,3,bus,"['A34', 'A63', 'A35']"
+1831,Bezirksamt,1,bus,['A63']
+1832,Moritzstrasse,1,bus,['A63']
+1833,Rathaus Spandau,10,strassenbahn,"['76', '75', '55']"
+1834,Rathaus Spandau,10,bus,"['A13', 'A34', 'A63', 'AS1', 'A35', 'A5', 'A31']"
+1835,Bhf. Spandau-West,2,bus,"['A5', 'A63']"
+1836,Staakener Strasse,1,bus,['A63']
+1837,Hochgerichtstrasse,2,bus,"['A5', 'A63']"
+1838,Viersener Strasse,2,bus,"['A5', 'A63']"
+1839,Dyotzer Strasse,1,bus,['A63']
+1840,Leuthingerweg,1,bus,['A63']
+1841,Strasse 393,1,bus,['A63']
+1842,Seegefelder Weg,1,bus,['A63']
+1843,U-Bhf. Kurt-Schumacher-Platz,3,bus,"['A64', 'A61', 'A62']"
+1844,Afrikanische Strasse,2,bus,"['A64', 'A16']"
+1845,Petersallee (Freilichtbühne Rehberge),1,bus,['A64']
+1846,Sansibarstrasse,1,bus,['A64']
+1847,T rkenstrasse,1,bus,['A64']
+1848,Seestrasse,1,bus,['A64']
+1849,U-Bhf. Seestrasse,4,bus,"['A12S', 'A64', 'A12', 'A16']"
+1850,U-Bhf. Leopoldplatz,1,bus,['A64']
+1851,Triftstrasse,1,bus,['A64']
+1852,Nettelbeckplatz,2,strassenbahn,['35']
+1853,Nettelbeckplatz,2,bus,['A64']
+1854,Gerichstrasse,1,bus,['A64']
+1855,Lenzener Platz,1,bus,['A64']
+1856,Grenzstrasse,1,bus,['A64']
+1857,Gartenplatz,1,bus,['A64']
+1858,Bernauer Strasse,3,bus,"['A13', 'A64', 'A61']"
+1859,Bernauer Strasse Ecke Gartenstrasse,1,bus,['A64']
+1860,Goebelplatz,1,bus,['A65']
+1861,Kurt-Schumacher-Damme,1,bus,['A65']
+1862,Bhf. Jungfernheide,5,strassenbahn,"['55', '35']"
+1863,Bhf. Jungfernheide,5,bus,"['A21', 'A65', 'A62']"
+1864,Landgericht,1,bus,['A65']
+1865,SchlossBrücke,1,bus,['A65']
+1866,Luisenplatz,7,strassenbahn,"['53', '55', '54']"
+1867,Luisenplatz,7,bus,"['AS1', 'A21', 'A65', 'A62']"
+1868,Bhf. Westend,1,bus,['A65']
+1869,Königin-Elisabeth-Strasse,4,strassenbahn,"['53', '60', '54']"
+1870,Königin-Elisabeth-Strasse,4,bus,['A65']
+1871,U-Bhf. Kaiserdamm,2,bus,"['A65', 'A10']"
+1872,Masurenallee,1,bus,['A65']
+1873,Rathenauplatz,2,bus,"['A69', 'A65']"
+1874,Bhf. Hohenzollerndamm,4,bus,"['A50', 'AS3', 'A21', 'A65']"
+1875,U-Bhf. Heidelberg Platz,1,bus,['A65']
+1876,Bundesplatz,8,strassenbahn,"['44', '77', '78']"
+1877,Bundesplatz,8,bus,"['A2', 'A65', 'A16', 'AS2', 'A25']"
+1878,Innsbrucker Platz,10,strassenbahn,"['74', '88', '66', '73']"
+1879,Innsbrucker Platz,10,bus,"['A4', 'A48', 'A65', 'A16']"
+1880,Innsbrucker Platz,10,s-bahn,"['KBS 100a', 'KBS 100']"
+1881,Bhf. Sch neberg,1,bus,['A65']
+1882,Berlinickeplatz,2,strassenbahn,['95']
+1883,Berlinickeplatz,2,bus,['A65']
+1884,Bhf. Tempelhof,1,bus,['A65']
+1885,U-Bhf. Paradesstrasse,1,bus,['A65']
+1886,Flughafen Tempelhof,2,strassenbahn,['99']
+1887,Flughafen Tempelhof,2,bus,['A65']
+1888,Bismarckplatz,3,bus,"['A66', 'A69', 'A29']"
+1889,Bhf. Halensee,6,bus,"['A66', 'A4', 'A69', 'A29', 'A10', 'A19']"
+1890,Joachim-Friedrich-Strasse,3,bus,"['A66', 'A69', 'A29']"
+1891,Wilmersdorfer Strasse,7,strassenbahn,"['44', '75', '76']"
+1892,Wilmersdorfer Strasse,7,bus,"['A66', 'A69', 'A29', 'A19']"
+1893,Olivaer Platz,3,bus,"['A66', 'A29', 'A19']"
+1894,Uhlandstrasse,4,bus,"['A66', 'A50', 'A29', 'A69']"
+1895,Joachimstaler Strasse,5,bus,"['A66', 'A69', 'A29', 'A60', 'A19']"
+1896,Breitscheidplatz,5,bus,"['A66', 'A69', 'A29', 'A60', 'A19']"
+1897,Wichmannstrasse,1,bus,['A66']
+1898,Großer Stern,1,bus,['A66']
+1899,Hansaplatz,3,bus,"['A66', 'A25', 'A16']"
+1900,Bhf. Bellevue,1,bus,['A66']
+1901,Alt-Moabit,2,bus,"['A66', 'A24']"
+1902,Turmstrasse,2,strassenbahn,['25']
+1903,Turmstrasse,2,bus,['A66']
+1904,Perleberger Strasse,1,bus,['A66']
+1905,Stephanplatz,1,bus,['A66']
+1906,"Jerusalems-Kirche, Lindenstrasse",1,bus,['A67']
+1907,Moritzplatz,2,bus,['A67']
+1908,Moritzplatz,2,u-bahn,['D']
+1909,Oranienplatz,1,bus,['A67']
+1910,U-Bhf. Kottbusser Tor,1,bus,['A67']
+1911,Kottbusser Brücke,1,bus,['A67']
+1912,Hohenstaufenplatz,1,bus,['A67']
+1913,Hermannplatz,7,strassenbahn,"['47', '26', '2', '95']"
+1914,Hermannplatz,7,bus,['A67']
+1915,Hermannplatz,7,u-bahn,"['D', 'C I']"
+1916,Reuterstrasse,1,bus,['A67']
+1917,Fuldastrasse,1,bus,['A67']
+1918,Erkstrasse,2,strassenbahn,['95']
+1919,Erkstrasse,2,bus,['A67']
+1920,Hertzbergplatz,2,strassenbahn,['95']
+1921,Hertzbergplatz,2,bus,['A67']
+1922,Bhf. Sonnenallee,3,strassenbahn,"['95', '15']"
+1923,Bhf. Sonnenallee,3,bus,['A67']
+1924,Dammweg,2,strassenbahn,['15']
+1925,Dammweg,2,bus,['A67']
+1926,Neuköllnische Allee,1,bus,['A67']
+1927,Am Oberhafen,1,bus,['A67']
+1928,U-Bhf. Grenzallee,3,strassenbahn,"['47', '6']"
+1929,U-Bhf. Grenzallee,3,bus,['A67']
+1930,Clayallee,2,bus,"['A1', 'A68']"
+1931,Vogelsang,1,bus,['A68']
+1932,Thielallee/Pacelliallee,1,bus,['A68']
+1933,U-Bhf. Dahlem-Dorf,1,bus,['A68']
+1934,"Postamt, Museum Dahlem",1,bus,['A68']
+1935,Arnimallee,1,bus,['A68']
+1936,Botanischer Garten,3,bus,"['A1', 'A68']"
+1937,Botanischer Garten,3,s-bahn,['KBS 104']
+1938,Kaiser-Wilhelm-Strasse,1,bus,['A68']
+1939,Lepsiusstrasse,1,bus,['A68']
+1940,Rathaus Steglitz,9,strassenbahn,"['78', '73', '74', '44', '77']"
+1941,Rathaus Steglitz,9,bus,"['A17', 'A48', 'A32', 'A68']"
+1942,Bhf. Steglitz,3,strassenbahn,['44']
+1943,Bhf. Steglitz,3,bus,"['A33', 'A68']"
+1944,Breite Strasse,4,bus,"['A5', 'A33', 'A68', 'A31']"
+1945,Bergstrasse,3,strassenbahn,['66']
+1946,Bergstrasse,3,bus,"['A2', 'A68']"
+1947,Bismarckstrasse,3,bus,"['A33', 'A11', 'A68']"
+1948,Munsterdamm,1,bus,['A68']
+1949,"Grazer Damm, OverbeckStrasse",1,bus,['A68']
+1950,Bismarckplatz,3,bus,"['A66', 'A69', 'A29']"
+1951,Rathenauplatz,2,bus,"['A69', 'A65']"
+1952,Bhf. Halensee,6,bus,"['A66', 'A4', 'A69', 'A29', 'A10', 'A19']"
+1953,Joachim-Friedrich-Strasse,3,bus,"['A66', 'A69', 'A29']"
+1954,Wilmersdorfer Strasse,7,strassenbahn,"['44', '75', '76']"
+1955,Wilmersdorfer Strasse,7,bus,"['A66', 'A69', 'A29', 'A19']"
+1956,Leibnizstrasse,1,bus,['A69']
+1957,Bleibtreustrasse,1,bus,['A69']
+1958,Uhlandstrasse,4,bus,"['A66', 'A50', 'A29', 'A69']"
+1959,Joachimstaler Strasse,5,bus,"['A66', 'A69', 'A29', 'A60', 'A19']"
+1960,Breitscheidplatz,5,bus,"['A66', 'A69', 'A29', 'A60', 'A19']"
+1961,Wittenbergplatz,17,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+1962,Wittenbergplatz,17,bus,"['A69', 'A29', 'A60', 'A19', 'A62']"
+1963,Wittenbergplatz,17,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+1964,Lutherstrasse,2,bus,"['A69', 'A29']"
+1965,Lützowplatz,3,bus,"['A69', 'A16', 'A24']"
+1966,Tiergartenstrasse,3,bus,"['A69', 'A16', 'A24']"
+1967,Kongre halle,1,bus,['A69']
+1968,Brandenburger Tor,1,bus,['A69']
+1969,"Glienicke, Kirche",2,bus,"['AN', 'A7']"
+1970,Els sser Strasse,1,bus,['A7']
+1971,"Schildow, Kirche",1,bus,['A7']
+1972,"Blankenfelde, Hauptstrasse",1,bus,['A7']
+1973,"Kolonie ""Daheim""",1,bus,['A7']
+1974,Nordend,2,strassenbahn,['46']
+1975,Nordend,2,bus,['A7']
+1976,Ossietzkyplatz,3,strassenbahn,"['46', '46E']"
+1977,Ossietzkyplatz,3,bus,['A7']
+1978,Kurt-Fischer-Platz,4,strassenbahn,"['22', '46', '46E']"
+1979,Kurt-Fischer-Platz,4,bus,['A7']
+1980,"Pankow, Rathaus",6,strassenbahn,"['22', '46', '46E']"
+1981,"Pankow, Rathaus",6,bus,"['A45', 'A55', 'A7']"
+1982,U-Bhf. Vinetastrasse,4,strassenbahn,"['46', '46E', '49']"
+1983,U-Bhf. Vinetastrasse,4,bus,['A7']
+1984,Bhf. Wollankstrasse,1,bus,['A70']
+1985,Osloer Strasse,4,strassenbahn,['35']
+1986,Osloer Strasse,4,bus,"['A70', 'A71', 'A61']"
+1987,Badstrasse,1,bus,['A70']
+1988,Brunneplatz,1,bus,['A70']
+1989,Wiesenstrasse,1,bus,['A70']
+1990,Bhf. Wedding,1,bus,['A70']
+1991,Weddingplatz,6,strassenbahn,"['25', '2', '35']"
+1992,Weddingplatz,6,bus,"['A12S', 'A12', 'A70']"
+1993,Am Nordhafen,1,bus,['A70']
+1994,Rathenower Strasse,4,strassenbahn,"['2', '35']"
+1995,Rathenower Strasse,4,bus,"['A70', 'A24']"
+1996,Turmstrasse/Rathenower Strasse,1,bus,['A70']
+1997,Krankenhaus Moabit,1,bus,['A70']
+1998,Stromstrasse,4,strassenbahn,"['44', '2', '35']"
+1999,Stromstrasse,4,bus,['A70']
+2000,Rathaus Tiergarten,1,bus,['A70']
+2001,Waldstrasse/Gotzkowskystrasse,1,bus,['A70']
+2002,Reuchlinstrasse,1,bus,['A70']
+2003,"Wiebestrasse, Strassenbahnhof",1,bus,['A70']
+2004,Bhf. Wilhelmsruh,2,strassenbahn,['35']
+2005,Bhf. Wilhelmsruh,2,bus,['A71']
+2006,Lindauer Strasse,1,bus,['A71']
+2007,Emmentaler Strasse,3,bus,"['A12S', 'A71', 'A12']"
+2008,"Sch fersee, Pankower Allee",1,bus,['A71']
+2009,"Letteplatz, Strassenbahnhof",1,bus,['A71']
+2010,Provinzstrasse/Pankower Allee,1,bus,['A71']
+2011,Ritterlandweg,1,bus,['A71']
+2012,Prinzenallee/Soldiner Strasse,1,bus,['A71']
+2013,Osloer Strasse,4,strassenbahn,['35']
+2014,Osloer Strasse,4,bus,"['A70', 'A71', 'A61']"
+2015,Badstrasse/Prinzenallee,1,bus,['A71']
+2016,Bhf. Gesundbrunnen,3,strassenbahn,['25']
+2017,Bhf. Gesundbrunnen,3,bus,"['A71', 'A61']"
+2018,Ramlerstrasse,1,bus,['A71']
+2019,Rügener Strasse,4,strassenbahn,['25']
+2020,Rügener Strasse,4,bus,"['A71', 'A14', 'A61']"
+2021,Usedomer Strasse,1,bus,['A71']
+2022,Bernauer Strasse/Brunnenstrasse,1,bus,['A71']
+2023,Wolliner Strasse,3,strassenbahn,"['25', '2']"
+2024,Wolliner Strasse,3,bus,['A71']
+2025,Waldesruh,1,bus,['A8']
+2026,Malhlsdorfer Allee,1,bus,['A8']
+2027,Fichtestrasse Ecke Schopenhauerstrasse,1,bus,['A8']
+2028,Hultschiner Damme,1,bus,['A8']
+2029,Sadowastrasse,1,bus,['A8']
+2030,Chemnitzer Ecke Ulmenstrasse,1,bus,['A8']
+2031,Eichenallee,1,bus,['A8']
+2032,"Alt-Biesdorf, Oberfeldstrasse",1,bus,['A8']
+2033,Schlossstrasse Ecke Alt-Friedrichsfelde,5,strassenbahn,"['69E', '69']"
+2034,Schlossstrasse Ecke Alt-Friedrichsfelde,5,bus,"['A8', 'A43', 'O37']"
+2035,U-Bhf. Friedrichsfelde,2,bus,"['A8', 'A43']"
+2036,Kinderheim,1,bus,['A82P']
+2037,Friedrich-Junge-Strasse,1,bus,['A82P']
+2038,Markgrafendamm,1,bus,['A82P']
+2039,Kurische Strasse,1,bus,['A9']
+2040,Königstor,6,strassenbahn,"['74E', '74']"
+2041,Königstor,6,bus,"['A57', 'O30', 'A9', 'O40']"
+2042,S-Bhf. Alexanderplatz,3,bus,"['A57', 'O30', 'A9']"
+2043,Marx-Engels-Platz,5,bus,"['A57', 'A9']"
+2044,Marx-Engels-Platz,5,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2045,Bhf. Friedrichstrasse,2,bus,"['A57', 'A9']"
+2046,Chausseestrasse Ecke Invalidenstrasse,1,bus,['A9']
+2047,Scharnhorst- Ecke Kieler Strasse,1,bus,['A9']
+2048,"Diepensee, Flughafen",1,bus,['AD/36']
+2049,Waltersdorfer Chaussee (Spinne),1,bus,['AD/36']
+2050,"Sch nefeld, Siedlung",2,bus,"['AZ', 'AD/36']"
+2051,"Bohnsdorf, Kirche",1,bus,['AD/36']
+2052,Gartenstadtweg,1,bus,['AD/36']
+2053,S-Bhf. Grünau,3,bus,"['A38', 'AZ', 'AD/36']"
+2054,Neu-Lindenberg,1,bus,['AL']
+2055,Lindenberg,1,bus,['AL']
+2056,"Malchow, Dorfstrasse",2,bus,"['A46', 'AL']"
+2057,S-Bhf. Hohen Neuendorf,1,bus,['AN']
+2058,"Bergfelde, Karl-Marx-Strasse",1,bus,['AN']
+2059,"Schönfließ, Kirche",1,bus,['AN']
+2060,"Glienicke, Breitscheidstrasse",1,bus,['AN']
+2061,"Glienicke, Kirche",2,bus,"['AN', 'A7']"
+2062,Bhf. Zoo,14,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+2063,Bhf. Zoo,14,bus,"['A2', 'AS2', 'A25', 'AS1', 'AS3', 'A62']"
+2064,U-Bhf. Ernst-Reuter-Platz,10,strassenbahn,"['6', '54', '44', '25', '2', '55']"
+2065,U-Bhf. Ernst-Reuter-Platz,10,bus,"['A25', 'A2', 'AS1', 'A62']"
+2066,Cauerstrasse,2,strassenbahn,['55']
+2067,Cauerstrasse,2,bus,['AS1']
+2068,Luisenplatz,7,strassenbahn,"['53', '55', '54']"
+2069,Luisenplatz,7,bus,"['AS1', 'A21', 'A65', 'A62']"
+2070,Fürstenbrunner Weg,1,bus,['AS1']
+2071,Schloss Ruhwald,3,strassenbahn,"['53', '54']"
+2072,Schloss Ruhwald,3,bus,['AS1']
+2073,U-Bhf. Ruhleben,5,strassenbahn,"['53', '54']"
+2074,U-Bhf. Ruhleben,5,bus,"['A5', 'AS1', 'A31']"
+2075,Teltower Strasse,5,strassenbahn,"['53', '54']"
+2076,Teltower Strasse,5,bus,"['A5', 'AS1', 'A31']"
+2077,Rathaus Spandau,10,strassenbahn,"['76', '75', '55']"
+2078,Rathaus Spandau,10,bus,"['A13', 'A34', 'A63', 'AS1', 'A35', 'A5', 'A31']"
+2079,Hafenplatz,7,strassenbahn,"['76', '75', '53', '54']"
+2080,Hafenplatz,7,bus,"['A34', 'AS1', 'A24']"
+2081,Lynastrasse,1,bus,['AS1']
+2082,Klinkeplatz,1,bus,['AS1']
+2083,Hohenzollernring,5,strassenbahn,"['76', '75', '53', '54']"
+2084,Hohenzollernring,5,bus,['AS1']
+2085,Bhf. Zoo,14,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+2086,Bhf. Zoo,14,bus,"['A2', 'AS2', 'A25', 'AS1', 'AS3', 'A62']"
+2087,HardenbergStrasse,2,bus,"['AS3', 'AS2']"
+2088,Kurfürstendamm,8,strassenbahn,"['44', '3', '60']"
+2089,Kurfürstendamm,8,bus,"['A21', 'A10', 'AS2', 'A60', 'AS3']"
+2090,"Rankeplatz, Bundeshaus",1,bus,['AS2']
+2091,Berliner Strasse,6,strassenbahn,['96']
+2092,Berliner Strasse,6,bus,"['A2', 'A11', 'A53', 'AS2', 'A60']"
+2093,Bundesplatz,8,strassenbahn,"['44', '77', '78']"
+2094,Bundesplatz,8,bus,"['A2', 'A65', 'A16', 'AS2', 'A25']"
+2095,"Schlossstrasse, Wilhelm-Schreiber-Platz",1,bus,['AS2']
+2096,Canovastrasse,1,bus,['AS2']
+2097,Attilaplatz,4,strassenbahn,"['95', '96']"
+2098,Attilaplatz,4,bus,"['A25', 'AS2']"
+2099,Mariendorfer Damm,2,strassenbahn,['15']
+2100,Mariendorfer Damm,2,bus,['AS2']
+2101,Alt-Mariendorf,2,strassenbahn,['99']
+2102,Alt-Mariendorf,2,bus,['AS2']
+2103,"Tauernallee, Adlerm hle",1,bus,['AS2']
+2104,Buckower Chaussee,1,bus,['AS2']
+2105,"Lichtenrade, Goethestrasse",1,bus,['AS2']
+2106,Goltzstrasse,1,bus,['AS2']
+2107,"Lichtenrade, Blohmstrasse Ecke W nsdorfer Strasse",1,bus,['AS2']
+2108,Bhf. Zoo,14,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+2109,Bhf. Zoo,14,bus,"['A2', 'AS2', 'A25', 'AS1', 'AS3', 'A62']"
+2110,HardenbergStrasse,2,bus,"['AS3', 'AS2']"
+2111,Kurfürstendamm,8,strassenbahn,"['44', '3', '60']"
+2112,Kurfürstendamm,8,bus,"['A21', 'A10', 'AS2', 'A60', 'AS3']"
+2113,Rankeplatz/Bundeshaus,1,bus,['AS3']
+2114,U-Bhf. Fehrbelliner Platz,4,bus,"['A1', 'A4', 'AS3', 'A21']"
+2115,Bhf. Hohenzollerndamm,4,bus,"['A50', 'AS3', 'A21', 'A65']"
+2116,"Berkaer Strasse, Elsterplatz",1,bus,['AS3']
+2117,Roseneck,4,bus,"['A50', 'AS3', 'A29', 'A19']"
+2118,P cklerstrasse,1,bus,['AS3']
+2119,Königin-Luise-Strasse,2,bus,"['AS3', 'A10']"
+2120,U-Bhf. Oskar-Helene-Heim,5,bus,"['A3', 'A11', 'A18', 'A1', 'AS3']"
+2121,Sundgauer Strasse,3,bus,"['A3', 'A48', 'AS3']"
+2122,Winfriedstrasse,1,bus,['AS3']
+2123,Clayallee/Teltower Damm,1,bus,['AS3']
+2124,Rathaus Zehlendorf,3,bus,"['A3', 'AS3', 'A53']"
+2125,Groß Ziethen,1,bus,['AZ']
+2126,Bhf. Groß Ziethen,1,bus,['AZ']
+2127,Klein Ziethen,1,bus,['AZ']
+2128,"Waßmannsdorf, Warteh.",1,bus,['AZ']
+2129,Selchow,1,bus,['AZ']
+2130,Waltersforder Chaussee (Spinne),1,bus,['AZ']
+2131,"Sch nefeld, Siedlung",2,bus,"['AZ', 'AD/36']"
+2132,S-Bhf. Grünau,3,bus,"['A38', 'AZ', 'AD/36']"
+2133,Kosterstrasse,1,bus,['O30']
+2134,Andreasstrasse,2,strassenbahn,['82']
+2135,Andreasstrasse,2,bus,['O30']
+2136,Küstriner Platz,2,bus,"['O30', 'O40']"
+2137,Warschauer Strasse,2,strassenbahn,['82']
+2138,Warschauer Strasse,2,bus,['O30']
+2139,Holteistrasse,2,strassenbahn,['13']
+2140,Holteistrasse,2,bus,['O30']
+2141,S-Bhf. Rummelsburg,1,bus,['O30']
+2142,M nsterlandstrasse,1,bus,['O30']
+2143,Bhf. Lichtenberg,4,strassenbahn,"['69E', '69']"
+2144,Bhf. Lichtenberg,4,bus,"['O30', 'O37']"
+2145,"BVG-Bf. Lichtenberg, Siegfriestrasse",1,bus,['O30']
+2146,Roederplatz,4,strassenbahn,"['69E', '3', '69']"
+2147,Roederplatz,4,bus,['O30']
+2148,Proskauer Ecke Dolziger Strasse,1,bus,['O30']
+2149,Ebertystrasse Ecke Leninallee,1,bus,['O30']
+2150,Greifswalderstrasse Ecke Dimitroffstrasse,1,bus,['O30']
+2151,Königstor,6,strassenbahn,"['74E', '74']"
+2152,Königstor,6,bus,"['A57', 'O30', 'A9', 'O40']"
+2153,S-Bhf. Alexanderplatz,3,bus,"['A57', 'O30', 'A9']"
+2154,Klosterstrasse,1,bus,['O30']
+2155,Bürknersfelde,3,bus,"['O41', 'A43', 'O37']"
+2156,"Alt-Marzahn, Kirche",1,bus,['O37']
+2157,Elisabethstrasse,3,strassenbahn,"['82', '22']"
+2158,Elisabethstrasse,3,bus,['O37']
+2159,Cecilienstrasse Ecke Oberfeldstrasse,1,bus,['O37']
+2160,S-Bhf. Biesdorf,1,bus,['O37']
+2161,Schlossstrasse Ecke Alt-Friedrichsfelde,5,strassenbahn,"['69E', '69']"
+2162,Schlossstrasse Ecke Alt-Friedrichsfelde,5,bus,"['A8', 'A43', 'O37']"
+2163,Bhf. Lichtenberg,4,strassenbahn,"['69E', '69']"
+2164,Bhf. Lichtenberg,4,bus,"['O30', 'O37']"
+2165,Ostbahnhof,5,strassenbahn,['82']
+2166,Ostbahnhof,5,bus,['O40']
+2167,Ostbahnhof,5,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2168,Küstriner Platz,2,bus,"['O30', 'O40']"
+2169,Stalinallee,7,strassenbahn,['1']
+2170,Stalinallee,7,bus,['O40']
+2171,Stalinallee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2172,Leninplatz,5,strassenbahn,"['69', '1', '63', '64']"
+2173,Leninplatz,5,bus,['O40']
+2174,Königstor,6,strassenbahn,"['74E', '74']"
+2175,Königstor,6,bus,"['A57', 'O30', 'A9', 'O40']"
+2176,Rosenthaler Platz,6,strassenbahn,"['22', '11', '1', '49']"
+2177,Rosenthaler Platz,6,bus,['O40']
+2178,Rosenthaler Platz,6,u-bahn,['D']
+2179,Oranienburger Tor,6,strassenbahn,"['46', '70', '69']"
+2180,Oranienburger Tor,6,bus,['O40']
+2181,Oranienburger Tor,6,u-bahn,"['C I', 'C II']"
+2182,Robert-Koch-Platz,2,bus,"['A57', 'O40']"
+2183,Bürknersfelde,3,bus,"['O41', 'A43', 'O37']"
+2184,Dingelstädter Strasse,1,bus,['O41']
+2185,Siegfriestrasse,1,bus,['O41']
+2186,Weißenseer Weg,3,strassenbahn,"['63', '64']"
+2187,Weißenseer Weg,3,bus,['O41']
+2188,Oderbruchstrasse,1,bus,['O41']
+2189,Dimitroffstrasse,9,strassenbahn,"['72', '69', '64', '74E', '71', '74', '63', '69E']"
+2190,Dimitroffstrasse,9,bus,['O41']
+2191,Alt-Schm ckwitz,2,bus (Umlandlinie),"['Schmöckwitz<>Ziegenhals (VEB Kraftverkehr Schöneiche-Rüdersdorf)', 'Schmöckwitz<>Eichwalde (VEB Kraftverkehr Schöneiche-Rüdersdorf)']"
+2192,"Eichwalde, Uhlandstrasse",1,bus (Umlandlinie),['Schmöckwitz<>Eichwalde (VEB Kraftverkehr Schöneiche-Rüdersdorf)']
+2193,Bhf. Eichwalde,1,bus (Umlandlinie),['Schmöckwitz<>Eichwalde (VEB Kraftverkehr Schöneiche-Rüdersdorf)']
+2194,Alt-Schm ckwitz,2,bus (Umlandlinie),"['Schmöckwitz<>Ziegenhals (VEB Kraftverkehr Schöneiche-Rüdersdorf)', 'Schmöckwitz<>Eichwalde (VEB Kraftverkehr Schöneiche-Rüdersdorf)']"
+2195,Konsum Wernsdorf,1,bus (Umlandlinie),['Schmöckwitz<>Ziegenhals (VEB Kraftverkehr Schöneiche-Rüdersdorf)']
+2196,Konsum Ziegenhals,1,bus (Umlandlinie),['Schmöckwitz<>Ziegenhals (VEB Kraftverkehr Schöneiche-Rüdersdorf)']
+2197,"Ziegenhals, VA Dienststelle",1,bus (Umlandlinie),['Schmöckwitz<>Ziegenhals (VEB Kraftverkehr Schöneiche-Rüdersdorf)']
+2198,Kladow,1,bus,['Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt)']
+2199,Wannsee,4,bus,['Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt)']
+2200,Wannsee,4,s-bahn,"['KBS 104b', 'KBS 104', 'KBS 102']"
+2201,Pankow (Vinetastr.),2,u-bahn,"['A II', 'A I']"
+2202,Schönhauser Allee,7,u-bahn,"['A II', 'A I']"
+2203,Schönhauser Allee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2204,Dimitroffstr.,2,u-bahn,"['A II', 'A I']"
+2205,Senefelderplatz,2,u-bahn,"['A II', 'A I']"
+2206,Luxemburgplatz,2,u-bahn,"['A II', 'A I']"
+2207,Alexanderplatz,7,u-bahn,"['D', 'E', 'A II', 'A I']"
+2208,Alexanderplatz,7,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2209,Klosterstr.,2,u-bahn,"['A II', 'A I']"
+2210,Märkisches Museum,2,u-bahn,"['A II', 'A I']"
+2211,Spittelmarkt,5,strassenbahn,"['72', '74', '64']"
+2212,Spittelmarkt,5,u-bahn,"['A II', 'A I']"
+2213,Hausvogteiplatz,2,u-bahn,"['A II', 'A I']"
+2214,Stadtmitte (Mohrenstr.),2,u-bahn,"['A II', 'A I']"
+2215,Thälmannplatz,2,u-bahn,"['A II', 'A I']"
+2216,Potsdamer Platz,7,strassenbahn,"['74', '73']"
+2217,Potsdamer Platz,7,u-bahn,"['A II', 'A I']"
+2218,Potsdamer Platz,7,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2219,Gleisdreieck,4,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+2220,Bülowstr.,2,u-bahn,"['A II', 'A I']"
+2221,Nollendorfplatz,9,strassenbahn,"['53', '55', '54']"
+2222,Nollendorfplatz,9,bus,['A19']
+2223,Nollendorfplatz,9,u-bahn,"['B II', 'A II', 'B III', 'B I', 'A I']"
+2224,Wittenbergplatz,17,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+2225,Wittenbergplatz,17,bus,"['A69', 'A29', 'A60', 'A19', 'A62']"
+2226,Wittenbergplatz,17,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+2227,Zoologischer Garten,5,u-bahn,"['B I', 'A I']"
+2228,Zoologischer Garten,5,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2229,Ernst-Reuter-Platz,2,u-bahn,"['B I', 'A I']"
+2230,Deutsches Opernhaus (Bismarckstr.),3,u-bahn,"['B I', 'A I', 'A III']"
+2231,Sophie-Charlotte-Platz,2,u-bahn,"['B I', 'A I']"
+2232,Kaiserdamm (Messedamm),2,u-bahn,"['B I', 'A I']"
+2233,Reichskanzlerplatz,5,strassenbahn,"['76', '75']"
+2234,Reichskanzlerplatz,5,bus,['A4']
+2235,Reichskanzlerplatz,5,u-bahn,"['B I', 'A I']"
+2236,Pankow (Vinetastr.),2,u-bahn,"['A II', 'A I']"
+2237,Schönhauser Allee,7,u-bahn,"['A II', 'A I']"
+2238,Schönhauser Allee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2239,Dimitroffstr.,2,u-bahn,"['A II', 'A I']"
+2240,Senefelderplatz,2,u-bahn,"['A II', 'A I']"
+2241,Luxemburgplatz,2,u-bahn,"['A II', 'A I']"
+2242,Alexanderplatz,7,u-bahn,"['D', 'E', 'A II', 'A I']"
+2243,Alexanderplatz,7,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2244,Klosterstr.,2,u-bahn,"['A II', 'A I']"
+2245,Märkisches Museum,2,u-bahn,"['A II', 'A I']"
+2246,Spittelmarkt,5,strassenbahn,"['72', '74', '64']"
+2247,Spittelmarkt,5,u-bahn,"['A II', 'A I']"
+2248,Hausvogteiplatz,2,u-bahn,"['A II', 'A I']"
+2249,Stadtmitte (Mohrenstr.),2,u-bahn,"['A II', 'A I']"
+2250,Thälmannplatz,2,u-bahn,"['A II', 'A I']"
+2251,Potsdamer Platz,7,strassenbahn,"['74', '73']"
+2252,Potsdamer Platz,7,u-bahn,"['A II', 'A I']"
+2253,Potsdamer Platz,7,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2254,Gleisdreieck,4,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+2255,Bülowstr.,2,u-bahn,"['A II', 'A I']"
+2256,Nollendorfplatz,9,strassenbahn,"['53', '55', '54']"
+2257,Nollendorfplatz,9,bus,['A19']
+2258,Nollendorfplatz,9,u-bahn,"['B II', 'A II', 'B III', 'B I', 'A I']"
+2259,Wittenbergplatz,17,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+2260,Wittenbergplatz,17,bus,"['A69', 'A29', 'A60', 'A19', 'A62']"
+2261,Wittenbergplatz,17,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+2262,Spichernstr. (Bundesallee),2,u-bahn,"['A II', 'B II']"
+2263,Hohenzollernplatz,2,u-bahn,"['A II', 'B II']"
+2264,Fehrbelliner Platz,6,strassenbahn,"['44', '3', '60']"
+2265,Fehrbelliner Platz,6,bus,['A50']
+2266,Fehrbelliner Platz,6,u-bahn,"['A II', 'B II']"
+2267,Heidelberger Platz,2,u-bahn,"['A II', 'B II']"
+2268,Rüdesheimer Platz,2,u-bahn,"['A II', 'B II']"
+2269,Breitenbachplatz,5,bus,"['A1', 'A16', 'A32']"
+2270,Breitenbachplatz,5,u-bahn,"['A II', 'B II']"
+2271,Podbielskiallee,2,u-bahn,"['A II', 'B II']"
+2272,Dahlem-Dorf,2,u-bahn,"['A II', 'B II']"
+2273,Thielplatz,2,u-bahn,"['A II', 'B II']"
+2274,Oskar-Helene-Heim,2,u-bahn,"['A II', 'B II']"
+2275,Onkel Toms Hütte,2,u-bahn,"['A II', 'B II']"
+2276,Krumme Lanke,3,bus,['A53']
+2277,Krumme Lanke,3,u-bahn,"['A II', 'B II']"
+2278,Deutsches Opernhaus (Bismarckstr.),3,u-bahn,"['B I', 'A I', 'A III']"
+2279,Richard-Wagner-Platz,5,strassenbahn,"['53', '55', '54']"
+2280,Richard-Wagner-Platz,5,bus,['A62']
+2281,Richard-Wagner-Platz,5,u-bahn,['A III']
+2282,Warschauer Brücke,2,u-bahn,"['B I', 'B II']"
+2283,Schlesisches Tor,2,u-bahn,"['B I', 'B II']"
+2284,Görlitzer Bahnhof (Oranienstr.),2,u-bahn,"['B I', 'B II']"
+2285,Kottbusser Tor,3,u-bahn,"['B I', 'D', 'B II']"
+2286,Prinzenstr.,2,u-bahn,"['B I', 'B II']"
+2287,Hallesches Tor,4,u-bahn,"['B I', 'C I', 'C II', 'B II']"
+2288,Möckernbrücke,2,u-bahn,"['B I', 'B II']"
+2289,Gleisdreieck,4,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+2290,Kurfürstenstr.,2,u-bahn,"['B I', 'B II']"
+2291,Nollendorfplatz,9,strassenbahn,"['53', '55', '54']"
+2292,Nollendorfplatz,9,bus,['A19']
+2293,Nollendorfplatz,9,u-bahn,"['B II', 'A II', 'B III', 'B I', 'A I']"
+2294,Wittenbergplatz,17,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+2295,Wittenbergplatz,17,bus,"['A69', 'A29', 'A60', 'A19', 'A62']"
+2296,Wittenbergplatz,17,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+2297,Zoologischer Garten,5,u-bahn,"['B I', 'A I']"
+2298,Zoologischer Garten,5,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2299,Ernst-Reuter-Platz,2,u-bahn,"['B I', 'A I']"
+2300,Deutsches Opernhaus (Bismarckstr.),3,u-bahn,"['B I', 'A I', 'A III']"
+2301,Sophie-Charlotte-Platz,2,u-bahn,"['B I', 'A I']"
+2302,Kaiserdamm (Messedamm),2,u-bahn,"['B I', 'A I']"
+2303,Reichskanzlerplatz,5,strassenbahn,"['76', '75']"
+2304,Reichskanzlerplatz,5,bus,['A4']
+2305,Reichskanzlerplatz,5,u-bahn,"['B I', 'A I']"
+2306,Neu-Westend,1,u-bahn,['B I']
+2307,Olympia-Stadion,1,u-bahn,['B I']
+2308,Ruhleben,1,u-bahn,['B I']
+2309,Warschauer Brücke,2,u-bahn,"['B I', 'B II']"
+2310,Schlesisches Tor,2,u-bahn,"['B I', 'B II']"
+2311,Görlitzer Bahnhof (Oranienstr.),2,u-bahn,"['B I', 'B II']"
+2312,Kottbusser Tor,3,u-bahn,"['B I', 'D', 'B II']"
+2313,Prinzenstr.,2,u-bahn,"['B I', 'B II']"
+2314,Hallesches Tor,4,u-bahn,"['B I', 'C I', 'C II', 'B II']"
+2315,Möckernbrücke,2,u-bahn,"['B I', 'B II']"
+2316,Gleisdreieck,4,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+2317,Kurfürstenstr.,2,u-bahn,"['B I', 'B II']"
+2318,Nollendorfplatz,9,strassenbahn,"['53', '55', '54']"
+2319,Nollendorfplatz,9,bus,['A19']
+2320,Nollendorfplatz,9,u-bahn,"['B II', 'A II', 'B III', 'B I', 'A I']"
+2321,Wittenbergplatz,17,strassenbahn,"['78', '6', '53', '54', '77', '25', '2', '55']"
+2322,Wittenbergplatz,17,bus,"['A69', 'A29', 'A60', 'A19', 'A62']"
+2323,Wittenbergplatz,17,u-bahn,"['B I', 'A II', 'A I', 'B II']"
+2324,Spichernstr. (Bundesallee),2,u-bahn,"['A II', 'B II']"
+2325,Hohenzollernplatz,2,u-bahn,"['A II', 'B II']"
+2326,Fehrbelliner Platz,6,strassenbahn,"['44', '3', '60']"
+2327,Fehrbelliner Platz,6,bus,['A50']
+2328,Fehrbelliner Platz,6,u-bahn,"['A II', 'B II']"
+2329,Heidelberger Platz,2,u-bahn,"['A II', 'B II']"
+2330,Rüdesheimer Platz,2,u-bahn,"['A II', 'B II']"
+2331,Breitenbachplatz,5,bus,"['A1', 'A16', 'A32']"
+2332,Breitenbachplatz,5,u-bahn,"['A II', 'B II']"
+2333,Podbielskiallee,2,u-bahn,"['A II', 'B II']"
+2334,Dahlem-Dorf,2,u-bahn,"['A II', 'B II']"
+2335,Thielplatz,2,u-bahn,"['A II', 'B II']"
+2336,Oskar-Helene-Heim,2,u-bahn,"['A II', 'B II']"
+2337,Onkel Toms Hütte,2,u-bahn,"['A II', 'B II']"
+2338,Krumme Lanke,3,bus,['A53']
+2339,Krumme Lanke,3,u-bahn,"['A II', 'B II']"
+2340,Nollendorfplatz,9,strassenbahn,"['53', '55', '54']"
+2341,Nollendorfplatz,9,bus,['A19']
+2342,Nollendorfplatz,9,u-bahn,"['B II', 'A II', 'B III', 'B I', 'A I']"
+2343,Viktoria-Luise-Platz,1,u-bahn,['B III']
+2344,Bayerischer Platz,1,u-bahn,['B III']
+2345,Rathaus Schöneberg,1,u-bahn,['B III']
+2346,Innsbrucker Platz (Hauptstr.),1,u-bahn,['B III']
+2347,Tegel,3,u-bahn,"['C I', 'C II']"
+2348,Tegel,3,s-bahn,['KBS 105']
+2349,Borsigwerke,2,u-bahn,"['C I', 'C II']"
+2350,Holzhauser Str.,2,u-bahn,"['C I', 'C II']"
+2351,Seidelstr. (Flugplatz Tegel),2,u-bahn,"['C I', 'C II']"
+2352,Scharnweberstr. (Eichborndamm),2,u-bahn,"['C I', 'C II']"
+2353,Kurt-Schumacher-Platz,3,bus,['A21']
+2354,Kurt-Schumacher-Platz,3,u-bahn,"['C I', 'C II']"
+2355,Afrikanische Str.,2,u-bahn,"['C I', 'C II']"
+2356,Rehberge,2,u-bahn,"['C I', 'C II']"
+2357,Seestr.,2,u-bahn,"['C I', 'C II']"
+2358,Leopoldplatz,2,u-bahn,"['C I', 'C II']"
+2359,Bahnhof Wedding,2,u-bahn,"['C I', 'C II']"
+2360,Reinickendorfer Str.,2,u-bahn,"['C I', 'C II']"
+2361,Schwartzkopffstr.,2,u-bahn,"['C I', 'C II']"
+2362,Nordbahnhof,5,u-bahn,"['C I', 'C II']"
+2363,Nordbahnhof,5,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2364,Oranienburger Tor,6,strassenbahn,"['46', '70', '69']"
+2365,Oranienburger Tor,6,bus,['O40']
+2366,Oranienburger Tor,6,u-bahn,"['C I', 'C II']"
+2367,Bahnhof Friedrichstr. (Stadtbahn),2,u-bahn,"['C I', 'C II']"
+2368,Französische Str.,2,u-bahn,"['C I', 'C II']"
+2369,Stadtmitte (Leipziger Str.),2,u-bahn,"['C I', 'C II']"
+2370,Kochstr.,2,u-bahn,"['C I', 'C II']"
+2371,Hallesches Tor,4,u-bahn,"['B I', 'C I', 'C II', 'B II']"
+2372,Mehringdamm,6,strassenbahn,"['2', '3']"
+2373,Mehringdamm,6,bus,"['A28', 'A19']"
+2374,Mehringdamm,6,u-bahn,"['C I', 'C II']"
+2375,Gneisenaustr.,1,u-bahn,['C I']
+2376,Südstern,3,strassenbahn,['2']
+2377,Südstern,3,bus,['A28']
+2378,Südstern,3,u-bahn,['C I']
+2379,Hermannplatz,7,strassenbahn,"['47', '26', '2', '95']"
+2380,Hermannplatz,7,bus,['A67']
+2381,Hermannplatz,7,u-bahn,"['D', 'C I']"
+2382,Rathaus Neukölln,5,strassenbahn,"['47', '26', '6']"
+2383,Rathaus Neukölln,5,bus,['A4']
+2384,Rathaus Neukölln,5,u-bahn,['C I']
+2385,Karl-Marx-Str.,1,u-bahn,['C I']
+2386,Neukölln (Südring),1,u-bahn,['C I']
+2387,Grenzallee,1,u-bahn,['C I']
+2388,Tegel,3,u-bahn,"['C I', 'C II']"
+2389,Tegel,3,s-bahn,['KBS 105']
+2390,Borsigwerke,2,u-bahn,"['C I', 'C II']"
+2391,Holzhauser Str.,2,u-bahn,"['C I', 'C II']"
+2392,Seidelstr. (Flugplatz Tegel),2,u-bahn,"['C I', 'C II']"
+2393,Scharnweberstr. (Eichborndamm),2,u-bahn,"['C I', 'C II']"
+2394,Kurt-Schumacher-Platz,3,bus,['A21']
+2395,Kurt-Schumacher-Platz,3,u-bahn,"['C I', 'C II']"
+2396,Afrikanische Str.,2,u-bahn,"['C I', 'C II']"
+2397,Rehberge,2,u-bahn,"['C I', 'C II']"
+2398,Seestr.,2,u-bahn,"['C I', 'C II']"
+2399,Leopoldplatz,2,u-bahn,"['C I', 'C II']"
+2400,Bahnhof Wedding,2,u-bahn,"['C I', 'C II']"
+2401,Reinickendorfer Str.,2,u-bahn,"['C I', 'C II']"
+2402,Schwartzkopffstr.,2,u-bahn,"['C I', 'C II']"
+2403,Nordbahnhof,5,u-bahn,"['C I', 'C II']"
+2404,Nordbahnhof,5,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2405,Oranienburger Tor,6,strassenbahn,"['46', '70', '69']"
+2406,Oranienburger Tor,6,bus,['O40']
+2407,Oranienburger Tor,6,u-bahn,"['C I', 'C II']"
+2408,Bahnhof Friedrichstr. (Stadtbahn),2,u-bahn,"['C I', 'C II']"
+2409,Französische Str.,2,u-bahn,"['C I', 'C II']"
+2410,Stadtmitte (Leipziger Str.),2,u-bahn,"['C I', 'C II']"
+2411,Kochstr.,2,u-bahn,"['C I', 'C II']"
+2412,Hallesches Tor,4,u-bahn,"['B I', 'C I', 'C II', 'B II']"
+2413,Mehringdamm,6,strassenbahn,"['2', '3']"
+2414,Mehringdamm,6,bus,"['A28', 'A19']"
+2415,Mehringdamm,6,u-bahn,"['C I', 'C II']"
+2416,Flughafen,3,bus,"['A24', 'A19']"
+2417,Flughafen,3,u-bahn,['C II']
+2418,Paradestr.,1,u-bahn,['C II']
+2419,Tempelhof (Südring),1,u-bahn,['C II']
+2420,Gesundbrunnen,9,u-bahn,['D']
+2421,Gesundbrunnen,9,s-bahn,"['KBS 103a', 'KBS 104', 'KBS 106', 'KBS 100', 'KBS 100c', 'KBS 105']"
+2422,Voltastr.,1,u-bahn,['D']
+2423,Bernauer Str.,1,u-bahn,['D']
+2424,Rosenthaler Platz,6,strassenbahn,"['22', '11', '1', '49']"
+2425,Rosenthaler Platz,6,bus,['O40']
+2426,Rosenthaler Platz,6,u-bahn,['D']
+2427,Weinmeisterstr.,1,u-bahn,['D']
+2428,Alexanderplatz,7,u-bahn,"['D', 'E', 'A II', 'A I']"
+2429,Alexanderplatz,7,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2430,Jannowitzbrücke,4,u-bahn,['D']
+2431,Jannowitzbrücke,4,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2432,Neanderstr.,1,u-bahn,['D']
+2433,Moritzplatz,2,bus,['A67']
+2434,Moritzplatz,2,u-bahn,['D']
+2435,Kottbusser Tor,3,u-bahn,"['B I', 'D', 'B II']"
+2436,Kottbusser Damm (Schönleinstr.),1,u-bahn,['D']
+2437,Hermannplatz,7,strassenbahn,"['47', '26', '2', '95']"
+2438,Hermannplatz,7,bus,['A67']
+2439,Hermannplatz,7,u-bahn,"['D', 'C I']"
+2440,Boddinstr.,1,u-bahn,['D']
+2441,Leinestr.,1,u-bahn,['D']
+2442,Alexanderplatz,7,u-bahn,"['D', 'E', 'A II', 'A I']"
+2443,Alexanderplatz,7,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2444,Schillingstr.,1,u-bahn,['E']
+2445,Strausberger Platz,1,u-bahn,['E']
+2446,Marchlewskistr.,1,u-bahn,['E']
+2447,Bersarinstr. (Frankfurter Tor),1,u-bahn,['E']
+2448,Samariterstr.,1,u-bahn,['E']
+2449,Stalinallee (Ringbahn),1,u-bahn,['E']
+2450,Magdalenenstr.,1,u-bahn,['E']
+2451,Bahnhof Lichtenberg (Zentralfriedhof),1,u-bahn,['E']
+2452,Friedrichsfelde (Tierpark),1,u-bahn,['E']
+2453,Gesundbrunnen,9,u-bahn,['D']
+2454,Gesundbrunnen,9,s-bahn,"['KBS 103a', 'KBS 104', 'KBS 106', 'KBS 100', 'KBS 100c', 'KBS 105']"
+2455,Schönhauser Allee,7,u-bahn,"['A II', 'A I']"
+2456,Schönhauser Allee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2457,Prenzlauer Allee,7,strassenbahn,"['13', '4']"
+2458,Prenzlauer Allee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2459,Greifswalder Str.,5,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2460,Leninallee,7,strassenbahn,"['13', '4']"
+2461,Leninallee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2462,Zentralviehhof,5,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2463,Stalinallee,7,strassenbahn,['1']
+2464,Stalinallee,7,bus,['O40']
+2465,Stalinallee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2466,Ostkreuz,8,s-bahn,"['KBS 103a', 'KBS 102', 'KBS 100', 'KBS 103', 'KBS 101', 'KBS 100b', 'KBS 100c']"
+2467,Treptower Park,3,s-bahn,"['KBS 103a', 'KBS 103', 'KBS 100']"
+2468,Sonnenallee,2,strassenbahn,['26']
+2469,Sonnenallee,2,s-bahn,['KBS 100']
+2470,Neukölln,2,s-bahn,"['KBS 100a', 'KBS 100']"
+2471,Hermannstr.,2,s-bahn,"['KBS 100a', 'KBS 100']"
+2472,Tempelhof,2,s-bahn,"['KBS 100a', 'KBS 100']"
+2473,Papestr.,4,s-bahn,"['KBS 105', 'KBS 100a', 'KBS 106', 'KBS 100']"
+2474,Schöneberg,3,s-bahn,"['KBS 104', 'KBS 100a', 'KBS 100']"
+2475,Innsbrucker Platz,10,strassenbahn,"['74', '88', '66', '73']"
+2476,Innsbrucker Platz,10,bus,"['A4', 'A48', 'A65', 'A16']"
+2477,Innsbrucker Platz,10,s-bahn,"['KBS 100a', 'KBS 100']"
+2478,Wilmersdorf,2,s-bahn,"['KBS 100a', 'KBS 100']"
+2479,Schmargendorf,1,s-bahn,['KBS 100']
+2480,Hohenzollerndamm,2,bus,['A50']
+2481,Hohenzollerndamm,2,s-bahn,['KBS 100']
+2482,Halensee,2,s-bahn,"['KBS 100c', 'KBS 100']"
+2483,Westkreuz,5,s-bahn,"['KBS 102', 'KBS 100', 'KBS 103', 'KBS 101', 'KBS 100c']"
+2484,Witzleben,2,s-bahn,"['KBS 100c', 'KBS 100']"
+2485,Westend,2,s-bahn,"['KBS 100c', 'KBS 100']"
+2486,Jungfernheide,5,s-bahn,"['KBS 100c', 'KBS 100d', 'KBS 103a', 'KBS 100']"
+2487,Beusselstr.,4,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100']"
+2488,Putlitzstr.,4,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100']"
+2489,Wedding,4,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100']"
+2490,Gesundbrunnen,9,u-bahn,['D']
+2491,Gesundbrunnen,9,s-bahn,"['KBS 103a', 'KBS 104', 'KBS 106', 'KBS 100', 'KBS 100c', 'KBS 105']"
+2492,Wilmersdorf,2,s-bahn,"['KBS 100a', 'KBS 100']"
+2493,Innsbrucker Platz,10,strassenbahn,"['74', '88', '66', '73']"
+2494,Innsbrucker Platz,10,bus,"['A4', 'A48', 'A65', 'A16']"
+2495,Innsbrucker Platz,10,s-bahn,"['KBS 100a', 'KBS 100']"
+2496,Schöneberg,3,s-bahn,"['KBS 104', 'KBS 100a', 'KBS 100']"
+2497,Papestr.,4,s-bahn,"['KBS 105', 'KBS 100a', 'KBS 106', 'KBS 100']"
+2498,Tempelhof,2,s-bahn,"['KBS 100a', 'KBS 100']"
+2499,Hermannstr.,2,s-bahn,"['KBS 100a', 'KBS 100']"
+2500,Neukölln,2,s-bahn,"['KBS 100a', 'KBS 100']"
+2501,Köllnische Heide,1,s-bahn,['KBS 100a']
+2502,Baumschulenweg,3,s-bahn,"['KBS 103a', 'KBS 100a', 'KBS 103']"
+2503,Schöneweide,3,s-bahn,"['KBS 103a', 'KBS 100a', 'KBS 103']"
+2504,Betriebsbahnhof Schöneweide,2,s-bahn,"['KBS 100a', 'KBS 103']"
+2505,Adlershof,2,s-bahn,"['KBS 100a', 'KBS 103']"
+2506,Grünau,2,s-bahn,"['KBS 100a', 'KBS 103']"
+2507,Blankenburg,2,s-bahn,"['KBS 100b', 'KBS 106']"
+2508,Pankow-Heinersdorf,2,s-bahn,"['KBS 100b', 'KBS 106']"
+2509,Pankow,2,s-bahn,"['KBS 100b', 'KBS 106']"
+2510,Schönhauser Allee,7,u-bahn,"['A II', 'A I']"
+2511,Schönhauser Allee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2512,Prenzlauer Allee,7,strassenbahn,"['13', '4']"
+2513,Prenzlauer Allee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2514,Greifswalder Str.,5,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2515,Leninallee,7,strassenbahn,"['13', '4']"
+2516,Leninallee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2517,Zentralviehhof,5,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2518,Stalinallee,7,strassenbahn,['1']
+2519,Stalinallee,7,bus,['O40']
+2520,Stalinallee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2521,Ostkreuz,8,s-bahn,"['KBS 103a', 'KBS 102', 'KBS 100', 'KBS 103', 'KBS 101', 'KBS 100b', 'KBS 100c']"
+2522,Warschauer Str.,6,s-bahn,"['KBS 102', 'KBS 103', 'KBS 101', 'KBS 100b', 'KBS 100c']"
+2523,Gartenfeld,2,s-bahn,"['KBS 100d', 'KBS 100c']"
+2524,Siemensstadt,2,s-bahn,"['KBS 100d', 'KBS 100c']"
+2525,Wernerwerk,2,s-bahn,"['KBS 100d', 'KBS 100c']"
+2526,Jungfernheide,5,s-bahn,"['KBS 100c', 'KBS 100d', 'KBS 103a', 'KBS 100']"
+2527,Beusselstr.,4,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100']"
+2528,Putlitzstr.,4,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100']"
+2529,Wedding,4,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100']"
+2530,Gesundbrunnen,9,u-bahn,['D']
+2531,Gesundbrunnen,9,s-bahn,"['KBS 103a', 'KBS 104', 'KBS 106', 'KBS 100', 'KBS 100c', 'KBS 105']"
+2532,Schönhauser Allee,7,u-bahn,"['A II', 'A I']"
+2533,Schönhauser Allee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2534,Prenzlauer Allee,7,strassenbahn,"['13', '4']"
+2535,Prenzlauer Allee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2536,Greifswalder Str.,5,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2537,Leninallee,7,strassenbahn,"['13', '4']"
+2538,Leninallee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2539,Zentralviehhof,5,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2540,Stalinallee,7,strassenbahn,['1']
+2541,Stalinallee,7,bus,['O40']
+2542,Stalinallee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2543,Ostkreuz,8,s-bahn,"['KBS 103a', 'KBS 102', 'KBS 100', 'KBS 103', 'KBS 101', 'KBS 100b', 'KBS 100c']"
+2544,Warschauer Str.,6,s-bahn,"['KBS 102', 'KBS 103', 'KBS 101', 'KBS 100b', 'KBS 100c']"
+2545,Halensee,2,s-bahn,"['KBS 100c', 'KBS 100']"
+2546,Westkreuz,5,s-bahn,"['KBS 102', 'KBS 100', 'KBS 103', 'KBS 101', 'KBS 100c']"
+2547,Witzleben,2,s-bahn,"['KBS 100c', 'KBS 100']"
+2548,Westend,2,s-bahn,"['KBS 100c', 'KBS 100']"
+2549,Jungfernheide,5,s-bahn,"['KBS 100c', 'KBS 100d', 'KBS 103a', 'KBS 100']"
+2550,Beusselstr.,4,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100']"
+2551,Putlitzstr.,4,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100']"
+2552,Wedding,4,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100']"
+2553,Gesundbrunnen,9,u-bahn,['D']
+2554,Gesundbrunnen,9,s-bahn,"['KBS 103a', 'KBS 104', 'KBS 106', 'KBS 100', 'KBS 100c', 'KBS 105']"
+2555,Schönhauser Allee,7,u-bahn,"['A II', 'A I']"
+2556,Schönhauser Allee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2557,Prenzlauer Allee,7,strassenbahn,"['13', '4']"
+2558,Prenzlauer Allee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2559,Greifswalder Str.,5,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2560,Leninallee,7,strassenbahn,"['13', '4']"
+2561,Leninallee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2562,Zentralviehhof,5,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2563,Stalinallee,7,strassenbahn,['1']
+2564,Stalinallee,7,bus,['O40']
+2565,Stalinallee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2566,Ostkreuz,8,s-bahn,"['KBS 103a', 'KBS 102', 'KBS 100', 'KBS 103', 'KBS 101', 'KBS 100b', 'KBS 100c']"
+2567,Warschauer Str.,6,s-bahn,"['KBS 102', 'KBS 103', 'KBS 101', 'KBS 100b', 'KBS 100c']"
+2568,Jungfernheide,5,s-bahn,"['KBS 100c', 'KBS 100d', 'KBS 103a', 'KBS 100']"
+2569,Wernerwerk,2,s-bahn,"['KBS 100d', 'KBS 100c']"
+2570,Siemensstadt,2,s-bahn,"['KBS 100d', 'KBS 100c']"
+2571,Gartenfeld,2,s-bahn,"['KBS 100d', 'KBS 100c']"
+2572,Staaken,1,s-bahn,['KBS 101']
+2573,Spandau West,3,s-bahn,"['KBS 103a', 'KBS 101', 'KBS 103']"
+2574,Spandau,3,s-bahn,"['KBS 103a', 'KBS 101', 'KBS 103']"
+2575,Pichelsberg,2,s-bahn,"['KBS 101', 'KBS 103']"
+2576,Reichssportfeld,2,s-bahn,"['KBS 101', 'KBS 103']"
+2577,Heerstr.,2,s-bahn,"['KBS 101', 'KBS 103']"
+2578,Eichkamp,2,s-bahn,"['KBS 101', 'KBS 103']"
+2579,Westkreuz,5,s-bahn,"['KBS 102', 'KBS 100', 'KBS 103', 'KBS 101', 'KBS 100c']"
+2580,Charlottenburg,3,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2581,Savignyplatz,3,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2582,Zoologischer Garten,5,u-bahn,"['B I', 'A I']"
+2583,Zoologischer Garten,5,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2584,Tiergarten,3,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2585,Bellevue,3,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2586,Lehrter Stadtbahnhof,3,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2587,Friedrichstr.,6,s-bahn,"['KBS 104', 'KBS 102', 'KBS 106', 'KBS 103', 'KBS 101', 'KBS 105']"
+2588,Marx-Engels-Platz,5,bus,"['A57', 'A9']"
+2589,Marx-Engels-Platz,5,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2590,Alexanderplatz,7,u-bahn,"['D', 'E', 'A II', 'A I']"
+2591,Alexanderplatz,7,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2592,Jannowitzbrücke,4,u-bahn,['D']
+2593,Jannowitzbrücke,4,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2594,Ostbahnhof,5,strassenbahn,['82']
+2595,Ostbahnhof,5,bus,['O40']
+2596,Ostbahnhof,5,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2597,Warschauer Str.,6,s-bahn,"['KBS 102', 'KBS 103', 'KBS 101', 'KBS 100b', 'KBS 100c']"
+2598,Ostkreuz,8,s-bahn,"['KBS 103a', 'KBS 102', 'KBS 100', 'KBS 103', 'KBS 101', 'KBS 100b', 'KBS 100c']"
+2599,Nöldnerplatz,1,s-bahn,['KBS 101']
+2600,Lichtenberg,1,s-bahn,['KBS 101']
+2601,Friedrichsfelde Ost,1,s-bahn,['KBS 101']
+2602,Biesdorf,1,s-bahn,['KBS 101']
+2603,Kaulsdorf,1,s-bahn,['KBS 101']
+2604,Mahlsdorf,1,s-bahn,['KBS 101']
+2605,Hoppegarten (Mark),1,s-bahn,['KBS 101']
+2606,Neuenhagen (b Bln),1,s-bahn,['KBS 101']
+2607,Fredersdorf (b Bln),1,s-bahn,['KBS 101']
+2608,Giebelsee,1,s-bahn,['KBS 101']
+2609,Strausberg,2,s-bahn,"['KBS 101a', 'KBS 101']"
+2610,Strausberg,2,s-bahn,"['KBS 101a', 'KBS 101']"
+2611,Strausberg Stadt,1,s-bahn,['KBS 101a']
+2612,Strausberg Nord,1,s-bahn,['KBS 101a']
+2613,Potsdam,1,s-bahn,['KBS 102']
+2614,Babelsberg,1,s-bahn,['KBS 102']
+2615,Griebnitzsee,1,s-bahn,['KBS 102']
+2616,Wannsee,4,bus,['Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt)']
+2617,Wannsee,4,s-bahn,"['KBS 104b', 'KBS 104', 'KBS 102']"
+2618,Nikolassee,2,s-bahn,"['KBS 104', 'KBS 102']"
+2619,Grunewald,1,s-bahn,['KBS 102']
+2620,Westkreuz,5,s-bahn,"['KBS 102', 'KBS 100', 'KBS 103', 'KBS 101', 'KBS 100c']"
+2621,Charlottenburg,3,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2622,Savignyplatz,3,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2623,Zoologischer Garten,5,u-bahn,"['B I', 'A I']"
+2624,Zoologischer Garten,5,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2625,Tiergarten,3,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2626,Bellevue,3,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2627,Lehrter Stadtbahnhof,3,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2628,Friedrichstr.,6,s-bahn,"['KBS 104', 'KBS 102', 'KBS 106', 'KBS 103', 'KBS 101', 'KBS 105']"
+2629,Marx-Engels-Platz,5,bus,"['A57', 'A9']"
+2630,Marx-Engels-Platz,5,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2631,Alexanderplatz,7,u-bahn,"['D', 'E', 'A II', 'A I']"
+2632,Alexanderplatz,7,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2633,Jannowitzbrücke,4,u-bahn,['D']
+2634,Jannowitzbrücke,4,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2635,Ostbahnhof,5,strassenbahn,['82']
+2636,Ostbahnhof,5,bus,['O40']
+2637,Ostbahnhof,5,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2638,Warschauer Str.,6,s-bahn,"['KBS 102', 'KBS 103', 'KBS 101', 'KBS 100b', 'KBS 100c']"
+2639,Ostkreuz,8,s-bahn,"['KBS 103a', 'KBS 102', 'KBS 100', 'KBS 103', 'KBS 101', 'KBS 100b', 'KBS 100c']"
+2640,Rummelsburg,1,s-bahn,['KBS 102']
+2641,Betriebsbahnhof Rummelsburg,1,s-bahn,['KBS 102']
+2642,Karlshorst,1,s-bahn,['KBS 102']
+2643,Wuhlheide,1,s-bahn,['KBS 102']
+2644,Köpenick,1,s-bahn,['KBS 102']
+2645,Hirschgarten,3,strassenbahn,"['87', '84']"
+2646,Hirschgarten,3,s-bahn,['KBS 102']
+2647,Friedrichshagen,1,s-bahn,['KBS 102']
+2648,Rahnsdorf,2,strassenbahn,['87']
+2649,Rahnsdorf,2,s-bahn,['KBS 102']
+2650,Wilhelmshagen,1,s-bahn,['KBS 102']
+2651,Erkner,1,s-bahn,['KBS 102']
+2652,Falkensee,1,s-bahn,['KBS 103']
+2653,Albrechtshof,1,s-bahn,['KBS 103']
+2654,Spandau West,3,s-bahn,"['KBS 103a', 'KBS 101', 'KBS 103']"
+2655,Spandau,3,s-bahn,"['KBS 103a', 'KBS 101', 'KBS 103']"
+2656,Pichelsberg,2,s-bahn,"['KBS 101', 'KBS 103']"
+2657,Reichssportfeld,2,s-bahn,"['KBS 101', 'KBS 103']"
+2658,Heerstr.,2,s-bahn,"['KBS 101', 'KBS 103']"
+2659,Eichkamp,2,s-bahn,"['KBS 101', 'KBS 103']"
+2660,Westkreuz,5,s-bahn,"['KBS 102', 'KBS 100', 'KBS 103', 'KBS 101', 'KBS 100c']"
+2661,Charlottenburg,3,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2662,Savignyplatz,3,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2663,Zoologischer Garten,5,u-bahn,"['B I', 'A I']"
+2664,Zoologischer Garten,5,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2665,Tiergarten,3,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2666,Bellevue,3,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2667,Lehrter Stadtbahnhof,3,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2668,Friedrichstr.,6,s-bahn,"['KBS 104', 'KBS 102', 'KBS 106', 'KBS 103', 'KBS 101', 'KBS 105']"
+2669,Marx-Engels-Platz,5,bus,"['A57', 'A9']"
+2670,Marx-Engels-Platz,5,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2671,Alexanderplatz,7,u-bahn,"['D', 'E', 'A II', 'A I']"
+2672,Alexanderplatz,7,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2673,Jannowitzbrücke,4,u-bahn,['D']
+2674,Jannowitzbrücke,4,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2675,Ostbahnhof,5,strassenbahn,['82']
+2676,Ostbahnhof,5,bus,['O40']
+2677,Ostbahnhof,5,s-bahn,"['KBS 101', 'KBS 102', 'KBS 103']"
+2678,Warschauer Str.,6,s-bahn,"['KBS 102', 'KBS 103', 'KBS 101', 'KBS 100b', 'KBS 100c']"
+2679,Ostkreuz,8,s-bahn,"['KBS 103a', 'KBS 102', 'KBS 100', 'KBS 103', 'KBS 101', 'KBS 100b', 'KBS 100c']"
+2680,Treptower Park,3,s-bahn,"['KBS 103a', 'KBS 103', 'KBS 100']"
+2681,Plänterwald,2,s-bahn,"['KBS 103a', 'KBS 103']"
+2682,Baumschulenweg,3,s-bahn,"['KBS 103a', 'KBS 100a', 'KBS 103']"
+2683,Schöneweide,3,s-bahn,"['KBS 103a', 'KBS 100a', 'KBS 103']"
+2684,Betriebsbahnhof Schöneweide,2,s-bahn,"['KBS 100a', 'KBS 103']"
+2685,Adlershof,2,s-bahn,"['KBS 100a', 'KBS 103']"
+2686,Grünau,2,s-bahn,"['KBS 100a', 'KBS 103']"
+2687,Eichwalde,1,s-bahn,['KBS 103']
+2688,Zeuthen,1,s-bahn,['KBS 103']
+2689,Wildau,1,s-bahn,['KBS 103']
+2690,Königs Wusterhausen,1,s-bahn,['KBS 103']
+2691,Spandau West,3,s-bahn,"['KBS 103a', 'KBS 101', 'KBS 103']"
+2692,Spandau,3,s-bahn,"['KBS 103a', 'KBS 101', 'KBS 103']"
+2693,Siemensstadt-Fürstenbrunn,1,s-bahn,['KBS 103a']
+2694,Jungfernheide,5,s-bahn,"['KBS 100c', 'KBS 100d', 'KBS 103a', 'KBS 100']"
+2695,Beusselstr.,4,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100']"
+2696,Putlitzstr.,4,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100']"
+2697,Wedding,4,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100']"
+2698,Gesundbrunnen,9,u-bahn,['D']
+2699,Gesundbrunnen,9,s-bahn,"['KBS 103a', 'KBS 104', 'KBS 106', 'KBS 100', 'KBS 100c', 'KBS 105']"
+2700,Schönhauser Allee,7,u-bahn,"['A II', 'A I']"
+2701,Schönhauser Allee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2702,Prenzlauer Allee,7,strassenbahn,"['13', '4']"
+2703,Prenzlauer Allee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2704,Greifswalder Str.,5,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2705,Leninallee,7,strassenbahn,"['13', '4']"
+2706,Leninallee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2707,Zentralviehhof,5,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2708,Stalinallee,7,strassenbahn,['1']
+2709,Stalinallee,7,bus,['O40']
+2710,Stalinallee,7,s-bahn,"['KBS 100c', 'KBS 103a', 'KBS 100b', 'KBS 100']"
+2711,Ostkreuz,8,s-bahn,"['KBS 103a', 'KBS 102', 'KBS 100', 'KBS 103', 'KBS 101', 'KBS 100b', 'KBS 100c']"
+2712,Treptower Park,3,s-bahn,"['KBS 103a', 'KBS 103', 'KBS 100']"
+2713,Plänterwald,2,s-bahn,"['KBS 103a', 'KBS 103']"
+2714,Baumschulenweg,3,s-bahn,"['KBS 103a', 'KBS 100a', 'KBS 103']"
+2715,Schöneweide,3,s-bahn,"['KBS 103a', 'KBS 100a', 'KBS 103']"
+2716,Oberspree,1,s-bahn,['KBS 103a']
+2717,Spindlersfeld,1,s-bahn,['KBS 103a']
+2718,Oranienburg,1,s-bahn,['KBS 104']
+2719,Lehnitz,1,s-bahn,['KBS 104']
+2720,Borgsdorf,1,s-bahn,['KBS 104']
+2721,Birkenwerder,1,s-bahn,['KBS 104']
+2722,Hohen-Neuendorf (b Bln),1,s-bahn,['KBS 104']
+2723,Frohnau,1,s-bahn,['KBS 104']
+2724,Hermsdorf,1,s-bahn,['KBS 104']
+2725,Waidmannslust,1,s-bahn,['KBS 104']
+2726,Wittenau (Nordbahn),1,s-bahn,['KBS 104']
+2727,Wilhelmsruh,1,s-bahn,['KBS 104']
+2728,Schönholz,2,s-bahn,"['KBS 105', 'KBS 104']"
+2729,Wollankstr.,2,s-bahn,"['KBS 105', 'KBS 104']"
+2730,Bornholmer Str.,3,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2731,Gesundbrunnen,9,u-bahn,['D']
+2732,Gesundbrunnen,9,s-bahn,"['KBS 103a', 'KBS 104', 'KBS 106', 'KBS 100', 'KBS 100c', 'KBS 105']"
+2733,Humboldthain,3,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2734,Nordbahnhof,5,u-bahn,"['C I', 'C II']"
+2735,Nordbahnhof,5,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2736,Oranienburger Str.,3,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2737,Friedrichstr.,6,s-bahn,"['KBS 104', 'KBS 102', 'KBS 106', 'KBS 103', 'KBS 101', 'KBS 105']"
+2738,Unter den Linden,3,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2739,Potsdamer Platz,7,strassenbahn,"['74', '73']"
+2740,Potsdamer Platz,7,u-bahn,"['A II', 'A I']"
+2741,Potsdamer Platz,7,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2742,Anhalter Bahnhof,4,strassenbahn,['88']
+2743,Anhalter Bahnhof,4,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2744,Großgörschenstr.,1,s-bahn,['KBS 104']
+2745,Schöneberg,3,s-bahn,"['KBS 104', 'KBS 100a', 'KBS 100']"
+2746,Friedenau,1,s-bahn,['KBS 104']
+2747,Feuerbachstr.,1,s-bahn,['KBS 104']
+2748,Steglitz,1,s-bahn,['KBS 104']
+2749,Botanischer Garten,3,bus,"['A1', 'A68']"
+2750,Botanischer Garten,3,s-bahn,['KBS 104']
+2751,Lichterfelde West,1,s-bahn,['KBS 104']
+2752,Sundgauer Str.,1,s-bahn,['KBS 104']
+2753,Zehlendorf,2,s-bahn,"['KBS 104', 'KBS 104a']"
+2754,Lindenthaler Allee,1,s-bahn,['KBS 104']
+2755,Schlachtensee,1,s-bahn,['KBS 104']
+2756,Nikolassee,2,s-bahn,"['KBS 104', 'KBS 102']"
+2757,Wannsee,4,bus,['Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt)']
+2758,Wannsee,4,s-bahn,"['KBS 104b', 'KBS 104', 'KBS 102']"
+2759,Zehlendorf,2,s-bahn,"['KBS 104', 'KBS 104a']"
+2760,Düppel-Kleinmachnow,1,s-bahn,['KBS 104a']
+2761,Wannsee,4,bus,['Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt)']
+2762,Wannsee,4,s-bahn,"['KBS 104b', 'KBS 104', 'KBS 102']"
+2763,Dreilinden,1,s-bahn,['KBS 104b']
+2764,Stahnsdorf,1,s-bahn,['KBS 104b']
+2765,Velten (Mark),1,s-bahn,['KBS 105']
+2766,Hohenschöpping,1,s-bahn,['KBS 105']
+2767,Hennigsdorf,1,s-bahn,['KBS 105']
+2768,Hennigsdorf (b Bln),1,s-bahn,['KBS 105']
+2769,Stolpe Süd,1,s-bahn,['KBS 105']
+2770,Heiligensee,1,s-bahn,['KBS 105']
+2771,Schulzendorf (b Tegel),1,s-bahn,['KBS 105']
+2772,Tegel,3,u-bahn,"['C I', 'C II']"
+2773,Tegel,3,s-bahn,['KBS 105']
+2774,Eichbornstr.,1,s-bahn,['KBS 105']
+2775,Wittenau (Kremmener Bahn),1,s-bahn,['KBS 105']
+2776,Reinickendorf,1,s-bahn,['KBS 105']
+2777,Schönholz,2,s-bahn,"['KBS 105', 'KBS 104']"
+2778,Wollankstr.,2,s-bahn,"['KBS 105', 'KBS 104']"
+2779,Bornholmer Str.,3,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2780,Gesundbrunnen,9,u-bahn,['D']
+2781,Gesundbrunnen,9,s-bahn,"['KBS 103a', 'KBS 104', 'KBS 106', 'KBS 100', 'KBS 100c', 'KBS 105']"
+2782,Humboldthain,3,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2783,Nordbahnhof,5,u-bahn,"['C I', 'C II']"
+2784,Nordbahnhof,5,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2785,Oranienburger Str.,3,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2786,Friedrichstr.,6,s-bahn,"['KBS 104', 'KBS 102', 'KBS 106', 'KBS 103', 'KBS 101', 'KBS 105']"
+2787,Unter den Linden,3,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2788,Potsdamer Platz,7,strassenbahn,"['74', '73']"
+2789,Potsdamer Platz,7,u-bahn,"['A II', 'A I']"
+2790,Potsdamer Platz,7,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2791,Anhalter Bahnhof,4,strassenbahn,['88']
+2792,Anhalter Bahnhof,4,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2793,Yorckstr.,2,s-bahn,"['KBS 105', 'KBS 106']"
+2794,Papestr.,4,s-bahn,"['KBS 105', 'KBS 100a', 'KBS 106', 'KBS 100']"
+2795,Priesterweg,2,s-bahn,"['KBS 105', 'KBS 106']"
+2796,Mariendorf,1,s-bahn,['KBS 105']
+2797,Marienfelde,1,s-bahn,['KBS 105']
+2798,Buckower Ch.,1,s-bahn,['KBS 105']
+2799,Lichtenrade,1,s-bahn,['KBS 105']
+2800,Mahlow,1,s-bahn,['KBS 105']
+2801,Blankenfelde,1,s-bahn,['KBS 105']
+2802,Dahlewitz,1,s-bahn,['KBS 105']
+2803,Rangsdorf,1,s-bahn,['KBS 105']
+2804,Bernau (b Bln),1,s-bahn,['KBS 106']
+2805,Zepernick (Kr Niederbarnim),1,s-bahn,['KBS 106']
+2806,Röntgental,1,s-bahn,['KBS 106']
+2807,Buch,1,s-bahn,['KBS 106']
+2808,Karow,1,s-bahn,['KBS 106']
+2809,Blankenburg,2,s-bahn,"['KBS 100b', 'KBS 106']"
+2810,Pankow-Heinersdorf,2,s-bahn,"['KBS 100b', 'KBS 106']"
+2811,Pankow,2,s-bahn,"['KBS 100b', 'KBS 106']"
+2812,Bornholmer Str.,3,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2813,Gesundbrunnen,9,u-bahn,['D']
+2814,Gesundbrunnen,9,s-bahn,"['KBS 103a', 'KBS 104', 'KBS 106', 'KBS 100', 'KBS 100c', 'KBS 105']"
+2815,Humboldthain,3,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2816,Nordbahnhof,5,u-bahn,"['C I', 'C II']"
+2817,Nordbahnhof,5,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2818,Oranienburger Str.,3,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2819,Friedrichstr.,6,s-bahn,"['KBS 104', 'KBS 102', 'KBS 106', 'KBS 103', 'KBS 101', 'KBS 105']"
+2820,Unter den Linden,3,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2821,Potsdamer Platz,7,strassenbahn,"['74', '73']"
+2822,Potsdamer Platz,7,u-bahn,"['A II', 'A I']"
+2823,Potsdamer Platz,7,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2824,Anhalter Bahnhof,4,strassenbahn,['88']
+2825,Anhalter Bahnhof,4,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']"
+2826,Yorckstr.,2,s-bahn,"['KBS 105', 'KBS 106']"
+2827,Papestr.,4,s-bahn,"['KBS 105', 'KBS 100a', 'KBS 106', 'KBS 100']"
+2828,Priesterweg,2,s-bahn,"['KBS 105', 'KBS 106']"
+2829,Südende,1,s-bahn,['KBS 106']
+2830,Lankwitz,1,s-bahn,['KBS 106']
+2831,Lichterfelde Ost,1,s-bahn,['KBS 106']
+2832,Lichterfelde Süd,1,s-bahn,['KBS 106']
+2833,Teltow,1,s-bahn,['KBS 106']

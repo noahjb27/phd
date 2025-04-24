@@ -1,0 +1,415 @@
+,stop_name,line_count,type,in_lines
+0,Mahlsdorfer Allee,1,bus,{'8'}
+1,Summter Strasse,1,bus,{'8'}
+2,Hultschiner Damm,1,bus,{'8'}
+3,Jägerstrasse,2,bus,"{'27', '8'}"
+4,Köpenicker Strasse,2,bus,"{'8', '37'}"
+5,Elsterwerdaer Platz,2,bus,"{'35', '8'}"
+6,Oberfeldstrasse,2,bus,"{'35', '8'}"
+7,Werner-Lamberz-Strasse,2,bus,"{'35', '8'}"
+8,Bhf. Friedrichsfelde,1,bus,{'8'}
+9,Bhf. Lichtenberg,3,bus,"{'54', '8', '30'}"
+10,S-Bhf. Kaulsdorf,6,bus,"{'91', '60', '27', '99', '95'}"
+11,Alt-Kaulsdorf,1,bus,{'27'}
+12,Chemnitzer Strasse,1,bus,{'27'}
+13,Jägerstrasse,2,bus,"{'27', '8'}"
+14,Gehsener Strasse,1,bus,{'27'}
+15,S-Bhf. Köpenick,2,bus,"{'68', '27'}"
+16,Seelenbinderstrasse,1,bus,{'27'}
+17,Lindenstrasse,2,bus,"{'68', '27'}"
+18,Müggelheimer Strasse,2,bus,"{'68', '27'}"
+19,Krankenhaus Köpenick,1,bus,{'27'}
+20,Chausseehaus,1,bus,{'27'}
+21,Rübezahl,1,bus,{'27'}
+22,Müggelseeperle,1,bus,{'27'}
+23,"Müggelheim, Dorf",1,bus,{'27'}
+24,Alt-Müggelheim,1,bus,{'27'}
+25,Robert-Koch-Platz,2,bus,"{'40', '30'}"
+26,Oranienburger Tor,4,bus,"{'59', '40', '57', '30'}"
+27,Rosenthaler Platz,3,bus,"{'40', '30', '78'}"
+28,U-Bhf. Rosa-Luxemburg-Platz,2,bus,"{'40', '30'}"
+29,Prenzlauer Allee,2,bus,"{'40', '30'}"
+30,Dimitroffstrasse,2,bus,"{'57', '30'}"
+31,Artur-Becker-Strasse,1,bus,{'30'}
+32,Leninallee,3,bus,"{'48', '30', '53'}"
+33,Mühsamstrasse,1,bus,{'30'}
+34,Samariterstrasse,1,bus,{'30'}
+35,Jacques-Duclos-Strasse,2,bus,"{'30', '56'}"
+36,Herzbergstrasse,2,bus,"{'30', '56'}"
+37,Siegfriedstrasse,2,bus,"{'93', '30'}"
+38,Omnibus Betriebshof,1,bus,{'30'}
+39,U-Bhf. Magdalenenstrasse,1,bus,{'30'}
+40,Bhf. Lichtenberg,3,bus,"{'54', '8', '30'}"
+41,Weitlingstrasse,4,bus,"{'35', '30', '96', '43'}"
+42,Lückstrasse,1,bus,{'30'}
+43,S-Bhf. Rummelsburg,1,bus,{'30'}
+44,Holteistrasse,1,bus,{'30'}
+45,Warschauer Strasse,1,bus,{'30'}
+46,Franz-Mehring-Platz,2,bus,"{'40', '30'}"
+47,Ostbahnhof,3,bus,"{'32', '40', '30'}"
+48,"Buch, Hobrechtsfelder Chaussee",1,bus,{'31'}
+49,S-Bhf. Buch,2,bus,"{'51', '31'}"
+50,Karower Strasse,2,bus,"{'42', '31'}"
+51,Stadtrandsiedlung,3,bus,"{'42', '41', '31'}"
+52,Alt-Karow,2,bus,"{'42', '31'}"
+53,Straße 26,2,bus,"{'42', '31'}"
+54,Alt-Blankenburg,2,bus,"{'42', '31'}"
+55,Heinersdorfer Kirche,1,bus,{'31'}
+56,Am Steinberg,3,bus,"{'42', '31', '45'}"
+57,Ostseestrasse,2,bus,"{'42', '31'}"
+58,Hans-Beimler-Strasse,1,bus,{'32'}
+59,Am Friedrichshain,3,bus,"{'32', '57', '40'}"
+60,Leninplatz,2,bus,"{'32', '40'}"
+61,Karl Marx-Allee,1,bus,{'32'}
+62,Ostbahnhof,3,bus,"{'32', '40', '30'}"
+63,S-Bhf. Jannowitzbrücke,2,bus,"{'32', '78'}"
+64,Fischerinsel,1,bus,{'32'}
+65,Friedrichstrasse,1,bus,{'32'}
+66,Otto-Grotewohl-Strasse,2,bus,"{'32', '59'}"
+67,Grumbkowstrasse,2,bus,"{'50', '33'}"
+68,Kurt-Fischer-Platz,1,bus,{'33'}
+69,Bürgerpark,3,bus,"{'50', '55', '33'}"
+70,"Pankow, Kirche",1,bus,{'33'}
+71,S-Bhf. Pankow,2,bus,"{'33', '45'}"
+72,U-Bhf. Pankow,4,bus,"{'50', '52', '55', '33'}"
+73,"Biesdorf-Süd, Köpenicker Strasse",1,bus,{'35'}
+74,Hadubrandstrasse,1,bus,{'35'}
+75,Zimmermannstrasse,1,bus,{'35'}
+76,Grabensprung,1,bus,{'35'}
+77,Elsterwerdaer Platz,2,bus,"{'35', '8'}"
+78,Oberfeldstrasse,2,bus,"{'35', '8'}"
+79,Werner-Lamberz-Strasse,2,bus,"{'35', '8'}"
+80,U-Bhf. Friedrichsfelde,3,bus,"{'35', '53', '43'}"
+81,Lincolnstrasse,1,bus,{'35'}
+82,Weitlingstrasse,4,bus,"{'35', '30', '96', '43'}"
+83,S-Bhf. Nöldnerplatz,4,bus,"{'35', '96', '43'}"
+84,S-Bhf. Grünau,3,bus,"{'36', '38', '37'}"
+85,Gartenstadtweg,1,bus,{'36'}
+86,"Bohnsdorf, Kirche",1,bus,{'36'}
+87,S-Bhf. Grünbergallee,1,bus,{'36'}
+88,S-Bhf. Schönefeld,1,bus,{'36'}
+89,"Schönefeld, Dorfstrasse",1,bus,{'36'}
+90,S-Bhf. Grünau,3,bus,"{'36', '38', '37'}"
+91,Germanenstrasse,1,bus,{'37'}
+92,Normannenstrasse,1,bus,{'37'}
+93,Köpenicker Strasse,2,bus,"{'8', '37'}"
+94,Rudower Strasse,3,bus,"{'47', '65', '37'}"
+95,S-Bhf. Grünau,3,bus,"{'36', '38', '37'}"
+96,Joachimstrasse,1,bus,{'38'}
+97,Eichbuschplatz,1,bus,{'38'}
+98,Waltersdorfer Strasse,1,bus,{'38'}
+99,"Bohnsdorf, Waldstrasse",1,bus,{'38'}
+100,Waltersdorf,1,bus,{'38'}
+101,Kienberg,1,bus,{'38'}
+102,Diepensee,1,bus,{'38'}
+103,"Wartenberg, Siedlung",1,bus,{'39'}
+104,Lindenberger Strasse,3,bus,"{'50', '91', '39'}"
+105,Falkenberger Chaussee,1,bus,{'39'}
+106,Gehrenseestrasse,2,bus,"{'53', '39'}"
+107,Wollenberger Strasse,1,bus,{'39'}
+108,Marzahner Strasse,3,bus,"{'48', '53', '39'}"
+109,Große Leege Strasse,1,bus,{'39'}
+110,Degnerstrasse,2,bus,"{'53', '39'}"
+111,Robert-Koch-Platz,2,bus,"{'40', '30'}"
+112,Oranienburger Tor,4,bus,"{'59', '40', '57', '30'}"
+113,Rosenthaler Platz,3,bus,"{'40', '30', '78'}"
+114,U-Bhf. Rosa-Luxemburg-Platz,2,bus,"{'40', '30'}"
+115,Prenzlauer Allee,2,bus,"{'40', '30'}"
+116,Am Friedrichshain,3,bus,"{'32', '57', '40'}"
+117,Leninplatz,2,bus,"{'32', '40'}"
+118,Karl-Marx-Allee,1,bus,{'40'}
+119,Franz-Mehring-Platz,2,bus,"{'40', '30'}"
+120,Ostbahnhof,3,bus,"{'32', '40', '30'}"
+121,Neu-Lindenberg,1,bus,{'41'}
+122,"Lindenberg, Dorf",1,bus,{'41'}
+123,"Malchow, Dorf",1,bus,{'41'}
+124,Feldtmannstrasse,1,bus,{'41'}
+125,Rennbahnstrasse,2,bus,"{'41', '56'}"
+126,Falkenberger Strasse,1,bus,{'41'}
+127,Liebermannstrasse,1,bus,{'41'}
+128,Straße nach Wartenberg,1,bus,{'41'}
+129,"Falkenberg, Schule",1,bus,{'41'}
+130,Stadtrandsiedlung,3,bus,"{'42', '41', '31'}"
+131,S-Bhf. Ahrensfelde,2,bus,"{'91', '41'}"
+132,"Ahrensfelde, Lindenberger Strasse",1,bus,{'41'}
+133,"Buch, Zepernicker Strasse",1,bus,{'42'}
+134,Karower Strasse,2,bus,"{'42', '31'}"
+135,Stadtrandsiedlung,3,bus,"{'42', '41', '31'}"
+136,Alt-Karow,2,bus,"{'42', '31'}"
+137,Straße 26,2,bus,"{'42', '31'}"
+138,Alt-Blankenburg,2,bus,"{'42', '31'}"
+139,"Heinersdorf, Kirche",2,bus,"{'42', '55'}"
+140,Am Steinberg,3,bus,"{'42', '31', '45'}"
+141,Ostseestrasse,2,bus,"{'42', '31'}"
+142,S-Bhf. Marzahn,4,bus,"{'92', '54', '95', '43'}"
+143,Murtzaner Ring,1,bus,{'43'}
+144,Boschpoler Strasse,1,bus,{'43'}
+145,S-Bhf. Springpfuhl,2,bus,"{'99', '43'}"
+146,Kröver Strasse,3,bus,"{'99', '53', '43'}"
+147,S-Bhf. Friedrichsfelde Ost,5,bus,"{'53', '99', '54', '48', '43'}"
+148,Straße der Befreiung,3,bus,"{'54', '53', '43'}"
+149,U-Bhf. Friedrichsfelde,3,bus,"{'35', '53', '43'}"
+150,Weitlingstrasse,4,bus,"{'35', '30', '96', '43'}"
+151,S-Bhf. Nöldnerplatz,4,bus,"{'35', '96', '43'}"
+152,"Hönow, Dorf",1,bus,{'44'}
+153,Thälmannstrasse,1,bus,{'44'}
+154,Greifswalder Strasse,4,bus,"{'95', '99', '56', '44'}"
+155,Am Rosenhag,3,bus,"{'99', '95', '44'}"
+156,S-Bhf. Mahlsdorf,3,bus,"{'99', '95', '44'}"
+157,"Wilhelmsruh, Schillerstrasse",1,bus,{'45'}
+158,Edelweißstrasse,2,bus,"{'55', '45'}"
+159,Ehrenmal Schönholz,2,bus,"{'55', '45'}"
+160,Heinrich-Mann-Platz,1,bus,{'45'}
+161,"Pankow, Rathaus",1,bus,{'45'}
+162,S-Bhf. Pankow,2,bus,"{'33', '45'}"
+163,Prenzlauer Promenade,3,bus,"{'55', '56', '45'}"
+164,Am Steinberg,3,bus,"{'42', '31', '45'}"
+165,Hamburger Platz,2,bus,"{'56', '45'}"
+166,Klement-Gottwald-Allee,2,bus,"{'55', '45'}"
+167,Lichtenberger Strasse,1,bus,{'45'}
+168,Gehringstrasse,2,bus,"{'56', '45'}"
+169,Schwarzelfenweg,1,bus,{'45'}
+170,"Treptow, Eichenstrasse",1,bus,{'47'}
+171,S-Bhf. Treptower Park,4,bus,"{'66', '65', '47', '67'}"
+172,"Treptow, Rathaus",1,bus,{'47'}
+173,Eichbuschallee,1,bus,{'47'}
+174,S-Bhf. Baumschulenweg,1,bus,{'47'}
+175,Sonnenallee,1,bus,{'47'}
+176,Johannisthaler Chaussee,1,bus,{'47'}
+177,Sterndamm,2,bus,"{'66', '47'}"
+178,Bhf. Schöneweide,5,bus,"{'65', '47', '67', '62', '66'}"
+179,Rudower Strasse,3,bus,"{'47', '65', '37'}"
+180,S-Bhf. Oberspree,2,bus,"{'65', '47'}"
+181,Marzahner Strasse,3,bus,"{'48', '53', '39'}"
+182,Plauener Strasse,1,bus,{'48'}
+183,Leninallee,3,bus,"{'48', '30', '53'}"
+184,Allee der Kosmonauten,2,bus,"{'48', '53'}"
+185,S-Bhf. Friedrichsfelde Ost,5,bus,"{'53', '99', '54', '48', '43'}"
+186,Rolandstrasse,1,bus,{'50'}
+187,Grumbkowstrasse,2,bus,"{'50', '33'}"
+188,Lindenberger Strasse,3,bus,"{'50', '91', '39'}"
+189,Idastrasse,1,bus,{'50'}
+190,Ossietzkyplatz,1,bus,{'50'}
+191,Kurt-Fischer-Strasse,1,bus,{'50'}
+192,Bürgerpark,3,bus,"{'50', '55', '33'}"
+193,Görschstrasse,1,bus,{'50'}
+194,Dolomitenstrasse,1,bus,{'50'}
+195,U-Bhf. Pankow,4,bus,"{'50', '52', '55', '33'}"
+196,"Buch, Am Sandhaus",1,bus,{'51'}
+197,S-Bhf. Buch,2,bus,"{'51', '31'}"
+198,Zepernicker Strasse,1,bus,{'51'}
+199,"Zepernick, Kirche",1,bus,{'51'}
+200,Achtermannstrasse,1,bus,{'52'}
+201,Galenusstrasse,1,bus,{'52'}
+202,Prenzlauer Chaussee,1,bus,{'52'}
+203,Granitzstrasse,1,bus,{'52'}
+204,Kissingenstrasse,1,bus,{'52'}
+205,Kissingenplatz,1,bus,{'52'}
+206,Stadtbezirksgericht,1,bus,{'52'}
+207,U-Bhf. Pankow,4,bus,"{'50', '52', '55', '33'}"
+208,Degnerstrasse,2,bus,"{'53', '39'}"
+209,Gehrenseestrasse,2,bus,"{'53', '39'}"
+210,Marzahner Strasse,3,bus,"{'48', '53', '39'}"
+211,Mischwerk,1,bus,{'53'}
+212,Leninallee,3,bus,"{'48', '30', '53'}"
+213,Allee der Kosmonauten,2,bus,"{'48', '53'}"
+214,Kröver Strasse,3,bus,"{'99', '53', '43'}"
+215,S-Bhf. Friedrichsfelde Ost,5,bus,"{'53', '99', '54', '48', '43'}"
+216,Straße der Befreiung,3,bus,"{'54', '53', '43'}"
+217,U-Bhf. Friedrichsfelde,3,bus,"{'35', '53', '43'}"
+218,Mellenseestrasse,2,bus,"{'96', '53'}"
+219,U-Bhf. Tierpark,4,bus,"{'96', '94', '53'}"
+220,S-Bhf. Marzahn,4,bus,"{'92', '54', '95', '43'}"
+221,Alt-Marzahn,5,bus,"{'91', '92', '99', '54', '95'}"
+222,Elisabethstrasse,4,bus,"{'91', '99', '54', '95'}"
+223,Cecilienstrasse,2,bus,"{'54', '92'}"
+224,S-Bhf. Biesdorf,2,bus,"{'54', '92'}"
+225,Alt-Biesdorf,1,bus,{'54'}
+226,S-Bhf. Friedrichsfelde Ost,5,bus,"{'53', '99', '54', '48', '43'}"
+227,Straße der Befreiung,3,bus,"{'54', '53', '43'}"
+228,Bhf. Lichtenberg,3,bus,"{'54', '8', '30'}"
+229,Fontanestrasse,1,bus,{'55'}
+230,Edelweißstrasse,2,bus,"{'55', '45'}"
+231,Ehrenmal Schönholz,2,bus,"{'55', '45'}"
+232,Heinrich-Mann-Strasse,1,bus,{'55'}
+233,Bürgerpark,3,bus,"{'50', '55', '33'}"
+234,U-Bhf. Pankow,4,bus,"{'50', '52', '55', '33'}"
+235,Prenzlauer Promenade,3,bus,"{'55', '56', '45'}"
+236,"Heinersdorf, Kirche",2,bus,"{'42', '55'}"
+237,Pasedagplatz,1,bus,{'55'}
+238,Klement-Gottwald-Allee,2,bus,"{'55', '45'}"
+239,Piesporter Strasse,1,bus,{'55'}
+240,Gehringstrasse,2,bus,"{'56', '45'}"
+241,Rennbahnstrasse,2,bus,"{'41', '56'}"
+242,Wigandstaler Strasse,1,bus,{'56'}
+243,Hamburger Platz,2,bus,"{'56', '45'}"
+244,Prenzlauer Promenade,3,bus,"{'55', '56', '45'}"
+245,Greilstrasse,1,bus,{'56'}
+246,Greifswalder Strasse,4,bus,"{'95', '99', '56', '44'}"
+247,Storkower Strasse,2,bus,"{'57', '56'}"
+248,S-Bhf. Leninallee,1,bus,{'56'}
+249,Ho-Chi-Minh-Strasse,1,bus,{'56'}
+250,Vulkanstrasse,1,bus,{'56'}
+251,Herzbergstrasse,2,bus,"{'30', '56'}"
+252,Jacques-Duclos-Strasse,2,bus,"{'30', '56'}"
+253,S-Bhf. Storkower Strasse,1,bus,{'56'}
+254,Michelangelostrasse,1,bus,{'57'}
+255,Stedinger Weg,1,bus,{'57'}
+256,Storkower Strasse,2,bus,"{'57', '56'}"
+257,Conrad-Blenke-Strasse,1,bus,{'57'}
+258,Dimitroffstrasse,2,bus,"{'57', '30'}"
+259,Hufelandstrasse,1,bus,{'57'}
+260,Bötzowstrasse,1,bus,{'57'}
+261,Am Friedrichshain,3,bus,"{'32', '57', '40'}"
+262,Mollstrasse,1,bus,{'57'}
+263,Karl-Liebknecht-Strasse,1,bus,{'57'}
+264,Bhf. Alexanderplatz,1,bus,{'57'}
+265,Palasthotel,1,bus,{'57'}
+266,Universitätsstrasse,1,bus,{'57'}
+267,Bhf. Friedrichstrasse,3,bus,"{'57', '59', '78'}"
+268,Oranienburger Tor,4,bus,"{'59', '40', '57', '30'}"
+269,Schlegelstrasse,1,bus,{'57'}
+270,Invalidenstrasse,3,bus,"{'57', '59', '78'}"
+271,Platz vor dem Neuen Tor,1,bus,{'57'}
+272,Orthopädische Klinik,1,bus,{'57'}
+273,Scharnhorststrasse,1,bus,{'57'}
+274,Stadion der Weltjugend,1,bus,{'59'}
+275,Invalidenstrasse,3,bus,"{'57', '59', '78'}"
+276,Oranienburger Tor,4,bus,"{'59', '40', '57', '30'}"
+277,Bhf. Friedrichstrasse,3,bus,"{'57', '59', '78'}"
+278,U-Bhf. Stadtmitte,1,bus,{'59'}
+279,Leipziger Strasse,1,bus,{'59'}
+280,Otto-Grotewohl-Strasse,2,bus,"{'32', '59'}"
+281,S-Bhf. Kaulsdorf,6,bus,"{'91', '60', '27', '99', '95'}"
+282,Briesener Weg,1,bus,{'60'}
+283,Wernerbad,1,bus,{'60'}
+284,Grottkauer Strasse,1,bus,{'60'}
+285,Uckermarkstrasse,1,bus,{'60'}
+286,S-Bhf. Kaulsdorf,6,bus,"{'91', '60', '27', '99', '95'}"
+287,"Schöneiche, Dorfaue",1,bus,{'61'}
+288,Dr.-Wilhelm-Külz-Strasse,1,bus,{'61'}
+289,S-Bhf. Rahnsdorf,1,bus,{'61'}
+290,Waldschänke,1,bus,{'61'}
+291,Zentralschule,1,bus,{'61'}
+292,S-Bhf. Wilhelmshagen,1,bus,{'61'}
+293,Fahlenbergstrasse,1,bus,{'61'}
+294,Hessenwinkel,1,bus,{'61'}
+295,VEB Kombinat Auto Trans,2,bus,"{'62', '67'}"
+296,Bhf. Schöneweide,5,bus,"{'65', '47', '67', '62', '66'}"
+297,Hoevelstrasse,1,bus,{'62'}
+298,Springbornstrasse,2,bus,"{'66', '62'}"
+299,Krüllsstrasse,2,bus,"{'66', '65'}"
+300,S-Bhf. Treptower Park,4,bus,"{'66', '65', '47', '67'}"
+301,S-Bhf. Plänterwald,3,bus,"{'66', '65', '67'}"
+302,Baumschulenstrasse,2,bus,"{'66', '65'}"
+303,Bhf. Schöneweide,5,bus,"{'65', '47', '67', '62', '66'}"
+304,Rudower Strasse,3,bus,"{'47', '65', '37'}"
+305,S-Bhf. Oberspree,2,bus,"{'65', '47'}"
+306,Oberspree,1,bus,{'65'}
+307,Krüllsstrasse,2,bus,"{'66', '65'}"
+308,S-Bhf. Treptower Park,4,bus,"{'66', '65', '47', '67'}"
+309,S-Bhf. Plänterwald,3,bus,"{'66', '65', '67'}"
+310,Baumschulenstrasse,2,bus,"{'66', '65'}"
+311,Bhf. Schöneweide,5,bus,"{'65', '47', '67', '62', '66'}"
+312,Sterndamm,2,bus,"{'66', '47'}"
+313,Lindhorstweg,1,bus,{'66'}
+314,Springbornstrasse,2,bus,"{'66', '62'}"
+315,S-Bhf. Treptower Park,4,bus,"{'66', '65', '47', '67'}"
+316,S-Bhf. Plänterwald,3,bus,"{'66', '65', '67'}"
+317,Hänselstrasse,1,bus,{'67'}
+318,Krematorium,1,bus,{'67'}
+319,Bhf. Schöneweide,5,bus,"{'65', '47', '67', '62', '66'}"
+320,VEB Kombinat Auto Trans,2,bus,"{'62', '67'}"
+321,Kaulsdorfer Strasse,1,bus,{'68'}
+322,S-Bhf. Köpenick,2,bus,"{'68', '27'}"
+323,Lindenstrasse,2,bus,"{'68', '27'}"
+324,Müggelheimer Strasse,2,bus,"{'68', '27'}"
+325,"Krankenhaus, Köpenick",1,bus,{'68'}
+326,Müggelschlößchenweg,1,bus,{'68'}
+327,Arkonaplatz,1,bus,{'78'}
+328,Invalidenstrasse,3,bus,"{'57', '59', '78'}"
+329,Rosenthaler Platz,3,bus,"{'40', '30', '78'}"
+330,Alexanderplatz,1,bus,{'78'}
+331,S-Bhf. Jannowitzbrücke,2,bus,"{'32', '78'}"
+332,Adalbertstrasse,1,bus,{'78'}
+333,U-Bhf. Märkisches Museum,1,bus,{'78'}
+334,Oberwallstrasse,1,bus,{'78'}
+335,Bhf. Friedrichstrasse,3,bus,"{'57', '59', '78'}"
+336,Schumannstrasse,1,bus,{'78'}
+337,Lindenberger Strasse,3,bus,"{'50', '91', '39'}"
+338,S-Bhf. Ahrensfelde,2,bus,"{'91', '41'}"
+339,S-Bhf. Otto-Winzer-Strasse,1,bus,{'91'}
+340,Otto-Buchwitz-Strasse,2,bus,{'91'}
+341,Alt-Marzahn,5,bus,"{'91', '92', '99', '54', '95'}"
+342,Elisabethstrasse,4,bus,"{'91', '99', '54', '95'}"
+343,Otto-Buchwitz-Strasse,2,bus,{'91'}
+344,Siegmarstrasse,1,bus,{'91'}
+345,Hellersdorfer Strasse,1,bus,{'91'}
+346,Kaulsdorf-Nord,2,bus,"{'91', '95'}"
+347,S-Bhf. Kaulsdorf,6,bus,"{'91', '60', '27', '99', '95'}"
+348,S-Bhf. Marzahn,4,bus,"{'92', '54', '95', '43'}"
+349,S-Bhf. Bruno-Leuschner-Strasse,2,bus,"{'98', '92'}"
+350,Paul-Dessau-Strasse,1,bus,{'92'}
+351,Alt-Marzahn,5,bus,"{'91', '92', '99', '54', '95'}"
+352,Charlottenstrasse,1,bus,{'92'}
+353,Cecilienstrasse,2,bus,"{'54', '92'}"
+354,S-Bhf. Biesdorf,2,bus,"{'54', '92'}"
+355,Lindenhof,1,bus,{'93'}
+356,Siegfriedstrasse,2,bus,"{'93', '30'}"
+357,Fanninger Strasse,1,bus,{'93'}
+358,U-Bhf. Lichtenberg,1,bus,{'93'}
+359,U-Bhf. Tierpark,4,bus,"{'96', '94', '53'}"
+360,Zwieseler Strasse,1,bus,{'94'}
+361,Robert-Siewert-Strasse,1,bus,{'94'}
+362,Frankestrasse,1,bus,{'94'}
+363,U-Bhf. Tierpark,4,bus,"{'96', '94', '53'}"
+364,Greifswalder Strasse,4,bus,"{'95', '99', '56', '44'}"
+365,An den Siedlergärten,1,bus,{'95'}
+366,Hönower Strasse,2,bus,"{'99', '95'}"
+367,Am Rosenhag,3,bus,"{'99', '95', '44'}"
+368,Lindenhofstrasse,1,bus,{'95'}
+369,S-Bhf. Mahlsdorf,3,bus,"{'99', '95', '44'}"
+370,Landréstrasse,2,bus,"{'99', '95'}"
+371,S-Bhf. Kaulsdorf,6,bus,"{'91', '60', '27', '99', '95'}"
+372,Kaulsdorf-Nord,2,bus,"{'91', '95'}"
+373,Hellersdorf,1,bus,{'95'}
+374,LPG Edwin-Hoernle,1,bus,{'95'}
+375,Otto-Buchwitzstrasse,2,bus,"{'99', '95'}"
+376,Alt-Marzahn,5,bus,"{'91', '92', '99', '54', '95'}"
+377,Elisabethstrasse,4,bus,"{'91', '99', '54', '95'}"
+378,Bruno-Baum-Strasse,1,bus,{'95'}
+379,S-Bhf. Marzahn,4,bus,"{'92', '54', '95', '43'}"
+380,S-Bhf. Nöldnerplatz,4,bus,"{'35', '96', '43'}"
+381,Schlichtallee,1,bus,{'96'}
+382,Kraftwerk,1,bus,{'96'}
+383,IFA-Vertrieb,1,bus,{'96'}
+384,Bhf. Karlshorst,1,bus,{'96'}
+385,Waldowallee,1,bus,{'96'}
+386,U-Bhf. Tierpark,4,bus,"{'96', '94', '53'}"
+387,Mellenseestrasse,2,bus,"{'96', '53'}"
+388,Volkradstrasse,1,bus,{'96'}
+389,Weitlingstrasse,4,bus,"{'35', '30', '96', '43'}"
+390,S-Bhf. Nöldnerplatz,4,bus,"{'35', '96', '43'}"
+391,Rangierbahnhof,2,bus,{'97'}
+392,S-Bhf. Karlshorst,1,bus,{'97'}
+393,Sangeallee,1,bus,{'97'}
+394,Wallensteinstrasse,1,bus,{'97'}
+395,Dolgenseestrasse,1,bus,{'97'}
+396,Rangierbahnhof,2,bus,{'97'}
+397,Franz-Stenzer-Strasse,1,bus,{'98'}
+398,S-Bhf. Bruno-Leuschner-Strasse,2,bus,"{'98', '92'}"
+399,Backwarenkombinat,1,bus,{'98'}
+400,Arbeitsstättengebiet Marzahn,1,bus,{'98'}
+401,Greifswalder Strasse,4,bus,"{'95', '99', '56', '44'}"
+402,Hönower Strasse,2,bus,"{'99', '95'}"
+403,Am Rosenhag,3,bus,"{'99', '95', '44'}"
+404,S-Bhf. Mahlsdorf,3,bus,"{'99', '95', '44'}"
+405,Landréstrasse,2,bus,"{'99', '95'}"
+406,S-Bhf. Kaulsdorf,6,bus,"{'91', '60', '27', '99', '95'}"
+407,"Kaulsdorf, Nord",1,bus,{'99'}
+408,Otto-Buchwitzstrasse,2,bus,"{'99', '95'}"
+409,Alt-Marzahn,5,bus,"{'91', '92', '99', '54', '95'}"
+410,Elisabethstrasse,4,bus,"{'91', '99', '54', '95'}"
+411,S-Bhf. Springpfuhl,2,bus,"{'99', '43'}"
+412,Kröver Strasse,3,bus,"{'99', '53', '43'}"
+413,S-Bhf. Friedrichsfelde Ost,5,bus,"{'53', '99', '54', '48', '43'}"

@@ -1,0 +1,1232 @@
+,line_id,stop_name,stop_order,stop_id
+0,19511,Hallesches Tor (Stresemannstrasse),0,1951328
+1,19511,Prinzenstrasse,1,1951626
+2,19511,U-Bhf. Moritzplatz,2,1951837
+3,19511,Brückenstrasse/Neanderstrasse,3,1951167
+4,19511,Schillingbrücke,4,1951702
+5,19511,Andreasplatz,5,195129
+6,19511,Alexanderplatz,6,19516
+7,19511,Rosentaler Platz,7,1951666
+8,19511,Invalidenstrasse Ecke Chausseestrasse,8,1951386
+9,19511,Oranienburger Tor,9,1951565
+10,19511,Dorotheestrasse (Bhf. Friedrichstrasse),10,1951206
+11,19511,Charlottenstrasse Ecke Unter den Linden,11,1951182
+12,19512,Werftstrasse Ecke Alt-Moabit,0,1951896
+13,19512,"Rathenowerstrasse, Kriminalgericht",1,1951645
+14,19512,Stromstrasse Ecke Turmstrasse,2,1951792
+15,19512,Waldstrasse Ecke Gotzkowskystrasse,3,1951868
+16,19512,Knie,4,1951424
+17,19512,Bhf. Zoo,5,1951135
+18,19512,U-Bhf. Wittenbergplatz,6,1951856
+19,19512,U-Bhf. Nollendorfplatz,7,1951841
+20,19512,Potsdamerstrasse Ecke Bülowstrasse,8,1951611
+21,19512,Mansteinstrasse (Bhf. Großgörschenstrasse),9,1951502
+22,19513,Osloerstrasse Ecke Grüntalerstrasse,0,1951571
+23,19513,Prinzenallee Ecke Osloerstrasse,1,1951624
+24,19513,Oskarplatz,2,1951570
+25,19513,Müllerstrasse Ecke Seestrasse,3,1951532
+26,19513,Seestraßenbrücke,4,1951737
+27,19513,Turmstrasse Ecke Gotzkowskystrasse,5,1951820
+28,19513,Osnabrückerstrasse Ecke Taurroggenerstrasse,6,1951573
+29,19513,Schloßbrücke/Luisenplatz,7,1951709
+30,19513,Berlinerstrasse Ecke Wilmersdorferstrasse,8,195164
+31,19513,Kanststrasse Ecke Wilmersdorferstrasse,9,1951405
+32,19513,Fehrbelliner Platz,10,1951240
+33,19513,Brandenburgischestrasse Ecke Berlinerstrasse,11,1951159
+34,19513,Bundesallee Ecke Berlinerstrasse,12,1951174
+35,19513,Bayerischer Platz,13,195148
+36,19513,Martin-Luther-Strasse Ecke Grunewaldstrasse,14,1951513
+37,19513,Potsdamerstrasse Ecke Goebenstrasse,15,1951612
+38,19513,Mehringdamm Ecke Gneisenaustrasse,16,1951521
+39,19513,Zossenerstrasse Ecke Gneisenaustrasse,17,1951938
+40,19513,Südstern,18,1951797
+41,19513,Hermannplatz,19,1951353
+42,19514,Osloerstrasse Ecke Grüntalerstrasse,0,1951571
+43,19514,Schönhauser Allee/Berlinerstrasse,1,1951727
+44,19514,Prenzlauer Allee/Prenzlauer Promenade,2,1951616
+45,19514,Berliner Allee Ecke Langhansstrasse,3,195152
+46,19514,Hohenschönhauserstrasse Ecke Weißenseerweg,4,1951367
+47,19514,Landsberger Allee & Weißenseer Weg,5,1951457
+48,19514,Roederstrasse/Herzbergerstrasse,6,1951662
+49,19514,Stalinallee,7,1951777
+50,19514,Boxhagenerstrasse,8,1951156
+51,19514,Warschauer Brücke,9,1951877
+52,19514,Schlesisches Tor,10,1951707
+53,19514,"Treptow, Elsenstrasse",11,1951816
+54,19515,Strelitzerstrasse Ecke Bernauerstrasse,0,1951790
+55,19515,Eberwalderstrasse Ecke Schönhauserallee,1,1951213
+56,19515,Prenzlauerstrasse Ecke Dimitroffstrasse,2,1951621
+57,19515,Greifswalderstrasse Ecke Dimitroffstrasse,3,1951298
+58,19515,Leninallee Ecke Bersarinstrasse,4,1951467
+59,19515,Weidenweg Ecke Bersarinstrasse,5,1951886
+60,19515,Boxhagenerstrasse Ecke Warschauerstrasse,6,1951157
+61,19515,Kopernikusstrasse Ecke Warschauerstrasse,7,1951427
+62,19515,Warschauer Brücke,8,1951877
+63,19515,Stralauer Allee Ecke Warschauerstrasse,9,1951785
+64,19515,Schlesisches Tor,10,1951707
+65,19516,Kurfürstendamm Ecke Joachimstalerstrasse,0,1951436
+66,19516,Bhf. Zoo,1,1951135
+67,19516,U-Bhf. Wittenbergplatz,2,1951856
+68,19516,Grunewaldstrasse Ecke Martin-Luther-Strasse,3,1951311
+69,19516,Rudolf-Wilde-Platz (Schöneberger Rathaus),4,1951671
+70,19516,Hauptstrasse Ecke Dominicusstrasse,5,1951333
+71,19516,Alboinstrasse Ecke Schönebergerstrasse,6,19513
+72,19516,Tempelhofer Damm Ecke Alt-Tempelhof,7,1951809
+73,19516,Gottlieb-Dunkel-Strasse Ecke Germaniastrasse,8,1951290
+74,19516,Hermannstrasse Ecke Hertastrasse,9,1951356
+75,19516,U-Bhf. Neukölln,10,1951840
+76,19516,U-Bhf. Rathaus Neukölln,11,1951844
+77,19516,Elsenstrasse Ecke Heidelbergerstrasse,12,1951221
+78,19517,Kraftwerk Klingenberg,0,1951430
+79,19517,Nöldnerstrasse Ecke Karlshorsterstrasse,1,1951554
+80,19517,Holteistrasse Ecke Boxhagenerstrasse,2,1951371
+81,19517,Warschaerstrasse Ecke Boxhagenerstrasse,3,1951876
+82,19517,Bersarinstrasse station,4,195172
+83,19517,Weidenweg Ecke Bersarinstrasse,5,1951886
+84,19517,Leninallee Ecke Dimitroffstrasse,6,1951468
+85,19518,Bersarinplatz,0,195170
+86,19518,Bersarinstrasse Ecke Warschauerstrasse,1,195171
+87,19518,Holteistrasse Ecke Boxhagenerstrasse,2,1951371
+88,19518,Karlshorsterstrasse Ecke Nöldnerstrasse,3,1951412
+89,19518,Lückstrasse Ecke Wilhelmstrasse,4,1951489
+90,19518,Frankfurter Tor,5,1951248
+91,19518,Siegfriedstrasse Ecke Herzbergerstrasse,6,1951741
+92,19518,Möllendorferstrasse Ecke Herzbergerstrasse,7,1951529
+93,19518,Scheffelstrasse Ecke Möllendorferstrasse,8,1951699
+94,19519,"Marienfelde, Daimlerstrasse",0,1951509
+95,19519,Mariendorfer Damm Ecke Alt-Mariendorf,1,1951507
+96,19519,Germaniastrasse Ecke Gottlieb-Dunkel-Strasse,2,1951279
+97,19519,Hermannstrasse Ecke Hertastrasse,3,1951356
+98,19519,Bhf. Neukölln,4,1951110
+99,19519,Bhf. Sonnenallee,5,1951117
+100,19519,"Neukölln, Schulenburgpark",6,1951544
+101,195110,"Moabit, Wiebestrasse",0,1951524
+102,195110,Gotzkowskystrasse Ecke Waldstrasse,1,1951292
+103,195110,Stromstrasse Ecke Turmstrasse,2,1951792
+104,195110,Rathenowerstrasse (Kriminalgericht),3,1951643
+105,195110,Lehrter Bhf.,4,1951463
+106,195110,Brandenburger Tor,5,1951158
+107,195110,"Potsdamer Platz, Voßstrasse",6,1951609
+108,195110,Anhalter Bhf.,7,195132
+109,195110,Hallesches Tor,8,1951326
+110,195110,Gneisenaustrasse Ecke Zossenerstrasse,9,1951285
+111,195110,Friesenstrasse Ecke Schwiebusserstrasse,10,1951266
+112,195111,"Rosenthal, Quickbornerstrasse",0,1951667
+113,195111,Siedlung Weiche,1,1951739
+114,195111,Grenzweiche,2,1951301
+115,195111,Platanenstrasse Ecke Klosterweg,3,1951600
+116,195111,Bismarckplatz,4,1951141
+117,195111,"Pankow, Rathaus",5,1951588
+118,195111,Bhf. Wollankstrasse (Grenze),6,1951132
+119,195111,Badstrasse Ecke Pankstrasse,7,195141
+120,195111,Nettelbeckplatz,8,1951535
+121,195111,Weddingplatz,9,1951884
+122,195111,Augustenburger Platz (Virchow-Krankenhaus),10,195137
+123,195112,"Buchholz, Hauptstrasse",0,1951170
+124,195112,Eweststrasse Ecke Paswealkerstrasse,1,1951231
+125,195112,Blankenburger Weiche,2,1951144
+126,195112,Heinersdorfer Weiche,3,1951350
+127,195112,Bhf. Pankow-Heinersdorf,4,1951113
+128,195112,"Pankow, Kirche",5,1951586
+129,195112,"Pankow, Rathaus",6,1951588
+130,195112,Bhf. Wollankstrasse,7,1951131
+131,195112,Prinzenstrasse Ecke Badstrasse,8,1951628
+132,195112,Bhf. Gesundbrunnen,9,195186
+134,195113,"Tegel, Alt-Tegel",0,1951801
+135,195113,Bernauerstrasse (Gaswerke),1,195168
+136,195113,Sportplatz (Reinickendorf-West),2,1951768
+137,195113,Berlinerstrasse Ecke Scharnweberstrasse,3,195161
+138,195113,Londonerstrasse (Rehberge),4,1951486
+139,195113,Seestrasse Ecke Müllerstrasse,5,1951735
+140,195113,Müllerstrasse Ecke Schulstrasse,6,1951531
+141,195113,Weddingplatz,7,1951884
+142,195113,Stromstrasse Ecke Turmstrasse,8,1951792
+143,195113,Waldstrasse/Gotzkowskystrasse,9,1951869
+144,195113,Knie,10,1951424
+145,195113,Bhf. Zoo,11,1951135
+146,195113,U-Bhf. Wittenbergplatz,12,1951856
+147,195113,Grunewaldstrasse Ecke Martin-Luther-Strasse,13,1951311
+148,195113,Rudolf-Wilde-Platz (Schöneberger Rathaus),14,1951671
+149,195113,Hauptstrasse Ecke Dominicusstrasse,15,1951333
+150,195113,Kaiser-Wilhelm-Platz,16,1951394
+151,195113,"Schöneberg, Gotenstrasse",17,1951721
+152,195114,"Görlitzer Bhf., Spreewaldplatz",0,1951319
+153,195114,Hermannplatz,1,1951353
+154,195114,Erkstrasse Ecke Karl-Marx-Strasse,2,1951227
+155,195114,U-Bhf. Neukölln,3,1951840
+156,195114,Bhf. Grenzallee,4,195187
+157,195114,Buschkrugallee Ecke Blaschkoallee,5,1951177
+158,195114,Chaussestrasse Ecke Gradestrasse,6,1951185
+159,195114,Wilhelm-Borgmann Brücke,7,1951908
+160,195115,"Neukölln, Hermannplatz",0,1951543
+161,195115,U-Bhf. Boddinstrasse,1,1951822
+162,195115,Bhf. Leinestrasse,2,1951100
+163,195115,Bhf. Hermannstrasse,3,195193
+164,195115,Gradestrasse Ecke Chausseestrasse,4,1951295
+165,195115,"Buckow-West, Alt-Buckow",5,1951171
+166,195116,"Tegelort, Kurzestrasse",0,1951802
+167,195116,Falkenplatz,1,1951236
+168,195116,Gabelung,2,1951269
+169,195116,Alt-Tegel,3,195121
+170,195116,Bernauerstrasse (Gaswerke),4,195168
+171,195116,Sportplatz (Reinickendorf-West),5,1951768
+172,195116,Berlinerstrasse Ecke Scharnweberstrasse,6,195161
+173,195116,Londonerstrasse (Rehberge),7,1951486
+174,195116,Seestrasse Ecke Müllerstrasse,8,1951735
+175,195116,Müllerstrasse Ecke Schulstrasse,9,1951531
+176,195116,Pankstrasse/Prinzenallee,10,1951593
+177,195116,Bhf. Gesundbrunnen,11,195186
+178,195116,Rügenesrstrasse Ecke Brunnenstrasse,12,1951679
+179,195117,"Heiligensee, Dorfaue",0,1951346
+180,195117,Hennigsdorferstrasse Ecke Heiligensee,1,1951352
+181,195117,Gabelung,2,1951269
+182,195117,Alt-Tegel,3,195121
+183,195117,Bernauerstrasse (Gaswerke),4,195168
+184,195117,Sportplatz (Reinickendorf-West),5,1951768
+185,195117,Berlinerstrasse Ecke Scharnweberstrasse,6,195161
+186,195117,Londonerstrasse (Rehberge),7,1951486
+187,195117,Seestrasse Ecke Müllerstrasse,8,1951735
+188,195117,Müllerstrasse Ecke Schulstrasse,9,1951531
+189,195117,Pankstrasse/Prinzenallee,10,1951593
+190,195117,Bhf. Gesundbrunnen,11,195186
+191,195117,Rügenesrstrasse Ecke Brunnenstrasse,12,1951679
+192,195118,Siemensstadt (Verwaltungsgebäude),0,1951743
+193,195118,Bhf. Jungfernheide,1,195196
+194,195118,Gotzkowskystrasse/Waldstrasse,2,1951293
+195,195118,Stromstrasse Ecke Turmstrasse,3,1951792
+196,195118,Rathenowerstrasse (Kriminalgericht),4,1951643
+197,195118,Weddingplatz,5,1951884
+198,195118,Nettelbeckplatz,6,1951535
+199,195118,Pankower Allee (Schäfersee),7,1951591
+200,195118,Residenzstrasse Ecke Hauptstrasse,8,1951656
+201,195118,"Wilhelmsruh, Hauptstrasse",9,1951913
+202,195119,"Wilhelmsruh, Hauptstrasse",0,1951913
+203,195119,Hauptstrasse (Reinickendorf-Ost),1,1951332
+204,195119,Pankower Allee (Schäfersee) Osloerstrasse Ecke Kolonie-Drontheim,2,1951592
+205,195119,Badstrasse Ecke Pankstrasse,3,195141
+206,195119,Bhf. Gesundbrunnen,4,195186
+207,195119,Rügenerstrasse Ecke Brunnenstrasse,5,1951678
+208,195120,"Dahlem, Clayallee",0,1951190
+209,195120,Pacelliallee Ecke Königin-Luise-strasse,1,1951581
+210,195120,U-Bhf. Dahlem-Dorf,2,1951825
+211,195120,Podbielskiallee (Botanischer Garten),3,1951602
+212,195120,Steglitz Rathaus,4,1951780
+213,195120,"Steglitz, Birkbuschstrasse Ecke Siemensstrasse",5,1951781
+214,195121,"Tegel, Alt-Tegel",0,1951801
+215,195121,Bernauerstrasse (Gaswerke),1,195168
+216,195121,Sportplatz (Reinickendorf-West),2,1951768
+217,195121,Scharnweberstrasse Ecke Berlinerstrasse,3,1951698
+218,195121,Teichstrasse Ecke Gotthardstrasse,4,1951803
+219,195121,Hauptstrasse Ecke Residenzstrasse,5,1951337
+220,195121,Pankower Allee (Schäfersee),6,1951591
+221,195121,Oslowerstrasse Ecke Schwedenstrasse,7,1951572
+222,195121,Pankstrasse/Prinzenallee,8,1951593
+223,195121,U-Bhf. Gesundbrunnen,9,1951831
+224,195121,Rügenerstrasse Ecke Brunnenstrasse,10,1951678
+225,195122,"Sandkrugbrücke, Lehrter Bahnhof",0,1951694
+226,195122,Rathenowerstrasse Ecke Invalidenstrasse,1,1951644
+227,195122,Stromstrasse Ecke Alt-Moabit,2,1951791
+228,195122,Gotzkowskystrasse Ecke Alt-Moabit,3,1951291
+229,195122,U-Bhf. Ernst-Reuter-Platz,4,1951827
+230,195122,Wilmersdorfer Strasse Ecke Berlinerstrasse,5,1951916
+231,195122,Kantstrasse Ecke Wilmersdorferstrasse,6,1951407
+232,195122,Kurfürstendamm Ecke Wilmersdorferstrasse,7,1951440
+233,195122,Fehrbelliner Platz,8,1951240
+234,195122,Berlinerstrasse Ecke Blissestrasse,9,195156
+235,195122,Hildegardstrasse Ecke Bundesallee,10,1951360
+236,195122,Bundesplatz,11,1951176
+237,195122,Friedrich-Wilhelm-Platz,12,1951258
+238,195122,Titania-Palast,13,1951815
+239,195122,Bhf. Steglitz,14,1951123
+240,195122,Schloßstrasse Ecke Albrechtstrasse,15,1951710
+241,195122,Birkbuschstrasse Ecke Siemensstrasse,16,1951137
+242,195123,"Nordend, Kaiser-Wilhelm-Strasse",0,1951552
+243,195123,Ossietzkyplatz,1,1951575
+244,195123,Bismarckplatz,2,1951141
+245,195123,"Pankow, Rathaus",3,1951588
+246,195123,"Pankow, Kirche",4,1951586
+247,195123,Kissingenstrasse Ecke Berlinerstrasse,5,1951419
+248,195123,Bhf. Vinetastrasse,6,1951127
+249,195123,Bornholmerstrasse/Wisbyerstrasse,7,1951153
+250,195123,Bhf. Schönhauser Allee,8,1951116
+251,195123,Bhf. Dimitroffstrasse,9,195181
+252,195123,Zionskirchplatz,10,1951934
+253,195123,Nordbahnhof,11,1951550
+254,195123,Oranienburger Tor,12,1951565
+255,195123,Dorothenstrasse Ecke Friedrichstrasse,13,1951207
+256,195123,Franzstrasse Ecke Oberwallstrasse,14,1951249
+257,195123,Dönhoffplatz,15,1951210
+258,195124,Hermannplatz,0,1951353
+259,195124,"Erkstrasse, Rathaus Neukölln",1,1951228
+260,195124,Karl-Marx-Strasse Station,2,1951408
+261,195124,U-Bhf. Neukölln,3,1951840
+262,195124,U-Bhf. Grenzallee,4,1951832
+263,195124,Buschkrugallee Ecke Blaschkoallee,5,1951177
+264,195124,Parchimerallee Ecke Rudowerstrasse,6,1951596
+265,195124,Krankenhaus Neukölln,7,1951431
+266,195124,Johannisthaler Chaussee Ecke Rudowerstrasse,8,1951390
+267,195124,Waltersdorfer Chaussee Ecke Neuköllnerstrasse,9,1951873
+268,195124,"Rudow, Bahnhofstrasse",10,1951672
+269,195124,"Rudow, Stadtgrenze",11,1951673
+270,195125,"Buchholz, Hauptstrasse",0,1951170
+271,195125,Eweststrasse Ecke Pasewalkerstrasse,1,1951230
+272,195125,"Galenusstrasse, Pankow, Krankenhaus",2,1951270
+273,195125,S-Bhf. Pankow-Heinersdorf,3,1951686
+274,195125,"Pankow, Kirche",4,1951586
+275,195125,"S-Bhf. Pankow, Florastrasse",5,1951685
+276,195125,U-Bhf. Vinetastrasse,6,1951855
+277,195125,S-Bhf. Schönhauser Allee,7,1951687
+278,195125,"Eberswalderstrasse, U-Bhf. Dimitroffstrasse",8,1951212
+279,195125,Zionskirchstrasse,9,1951935
+280,195125,Rosenthaler Platz,10,1951668
+281,195125,Hackescher Markt,11,1951322
+282,195125,Große Präsidentenstrasse,12,1951306
+283,195126,Roseneck,0,1951664
+284,195126,Bhf. Schmargendorf,1,1951114
+285,195126,Berlinerstrasse Ecke Uhlandstrasse,2,195163
+286,195126,Kurfürstendamm Ecke Uhlandstrasse,3,1951439
+287,195126,Bhf. Zoo,4,1951135
+288,195127,"Spandau, Johannesstift",0,1951757
+289,195127,Spandau Stadtpark,1,1951754
+290,195127,Hafenplatz,2,1951323
+291,195127,Spandau Markt,3,1951752
+292,195127,Bhf. Spandau,4,1951119
+293,195127,Güterbahnhof Ruhleben,5,1951320
+294,195127,U-Bhf. Ruhleben,6,1951847
+295,195127,Spandauer Bock,7,1951763
+296,195127,Kirschenallee Ecke Spandauer Damm,8,1951418
+297,195127,Königin-Elisabethstrasse Ecke Spandauer Damm,9,1951447
+298,195127,"U-Bhf. Richard-Wagner-Platz, Wintersteinstrasse",10,1951846
+299,195128,"Spandau, Nauener Strasse",0,1951760
+300,195128,Bhf. Spandau-West,1,1951120
+301,195128,"Spandau, Markt",2,1951759
+302,195128,Industriebahn,3,1951381
+303,195128,Paulsternstrasse Ecke Gartenfelderstrasse,4,1951597
+304,195128,Verwaltungsgebäude,5,1951860
+305,195128,Wernerwerk,6,1951898
+306,195128,Bhf. Jungfernheide,7,195196
+307,195128,Tauroggenerstrasse Ecke Osnabrückerstrasse,8,1951799
+308,195128,Berlinerstrasse Ecke Wilmersdorferstrasse,9,195164
+309,195128,Knie,10,1951424
+310,195128,Bhf. Zoo,11,1951135
+311,195128,Kurfürstendamm v. Marmorhaus,12,1951441
+312,195129,Emser Platz,0,1951225
+313,195129,Fehrbelliner Platz,1,1951240
+314,195129,Bhf. Hohenzollerndamm,2,195194
+315,195129,Elsterplatz,3,1951224
+316,195129,Roseneck,4,1951664
+317,195130,Königin-Elisabeth-Strasse Ecke Kaiserdamm,0,1951446
+318,195130,Spandauer Damm Ecke Königin-Elisabeth-Strasse,1,1951764
+319,195130,Sophie-Charlotte-Platz,2,1951748
+320,195130,Amtsgerichtsplatz,3,195128
+321,195130,Stuttgarter Platz,4,1951793
+322,195130,Kurfürstendamm Ecke Wilmersdorferstrasse,5,1951440
+323,195130,Fehrbelliner Platz,6,1951240
+324,195130,Bundesallee Ecke Berlinerstrasse,7,1951174
+325,195130,Bayerischer Platz,8,195148
+326,195130,Rudolf-Wilde-Platz,9,1951670
+327,195130,Hauptstrasse Ecke Dominicusstrasse,10,1951333
+328,195130,Sachsendamm Ecke Alboinstrasse,11,1951691
+329,195130,"Lindenhof, Eythstrasse",12,1951483
+330,195131,"Hohenschönhausen, Falkenberger Strasse",0,1951366
+331,195131,Orankestrasse,1,1951568
+332,195131,Weißenseer Weg,2,1951892
+333,195131,Steuerhaus,3,1951784
+334,195131,S-Bhf. Leninallee,4,1951683
+335,195131,Leninallee Ecke Dimitroffstrasse,5,1951468
+336,195131,Leninplatz,6,1951471
+337,195131,Kleine Frankfurterstrasse,7,1951422
+338,195131,"Alexanderplatz, Grunestrasse",8,19519
+339,195131,Bhf. Jannowitzbrücke,9,195195
+340,195131,U-Bhf. Neanderstrasse,10,1951838
+341,195131,Spittelmarkt,11,1951766
+342,195131,"Dönhoffplatz, Krausenstrasse",12,1951211
+343,195132,Hackescher Markt,0,1951322
+344,195132,Weinmeisterstrasse,1,1951888
+345,195132,Prenzlauerstrasse Ecke Memhardtstrasse,2,1951622
+346,195132,"Alexanderplatz, Neue Königsstrasse",3,195110
+347,195132,Leninallee Ecke Friedenstrasse,4,1951469
+348,195132,Dimitroffstrasse Ecke Bersarinstrasse,5,1951200
+349,195132,Weidenweg Ecke Bersarinstrasse,6,1951886
+350,195132,Eldenaerstrasse Ecke Scheffelstrasse,7,1951220
+351,195132,"Loeperplatz, Scheffelstrasse",8,1951485
+352,195133,"Schöneberg, Belzigerstrasse (Straßenbahnhof)",0,1951720
+353,195133,U-Bhf. Innsbrucker Platz,1,1951834
+354,195133,"Schöneberg, Thorwaldsenstrasse (August-Viktoria-Krankenhaus",2,1951722
+355,195134,"Wittenau, Nordbahn",0,1951921
+356,195134,"Wittenau, Heilanstalt",1,1951920
+357,195134,Berlinerstrasse Ecke Scharnweberstrasse,2,195161
+358,195134,Londonerstrasse (Rehberge),3,1951486
+359,195134,Müllerstrasse Ecke Seestrasse,4,1951532
+360,195134,Schulstrasse Ecke Müllerstrasse,5,1951716
+361,195134,Nettelbeckplatz,6,1951535
+362,195135,Hackescher Markt,0,1951322
+363,195135,"Alexanderplatz, Neue Königsstrasse",1,195110
+364,195135,Lenineallee Ecke Friedenstrasse,2,1951470
+365,195135,Dimitroffstrasse/Bersarinstrasse,3,1951203
+366,195135,Roederstrasse Ecke Möllendorffstrasse,4,1951661
+367,195135,Siegfriedstrasse Ecke Alt-Friedrichfelde,5,1951740
+368,195135,Marzahner Chaussee Ecke Schloßstrasse,6,1951517
+369,195135,Treskow Allee Ecke Marksburgstrasse,7,1951819
+370,195135,Wilhelminenhofstrasse Ecke Edisonstrasse,8,1951909
+371,195136,"Weißensee, Buschallee",0,1951889
+372,195136,Antonplatz,1,195133
+373,195136,Prenzlauer Promenade Ecke Krügerstrasse,2,1951618
+374,195136,U-Bhf. Danzigerstrasse,3,1951826
+375,195136,Zionskirchplatz,4,1951934
+376,195136,Brunnenstrasse Ecke Veteranenstrasse,5,1951166
+377,195136,Invalidenstrasse Ecke Chausseestrasse,6,1951386
+378,195136,Oranienburger Tor,7,1951565
+379,195136,Kupfergraben,8,1951435
+380,195137,"Heinersdorf, Helgestrasse",0,1951348
+381,195137,Prenzlauer Promenade Ecke Prenzlauer Allee,1,1951619
+382,195137,Danziger Strasse Ecke Prenzlauer Allee,2,1951196
+383,195137,Prenzlauer Tor,3,1951620
+384,195137,"Alexanderplatz, Grunerstrasse",4,19518
+385,195137,"Jüdenstrasse, Rathaus",5,1951392
+386,195138,"Weißensee, Rennbahnstrasse Ecke Parkstrasse",0,1951891
+387,195138,Antonplatz,1,195133
+388,195138,Gustav-Adolf-Strasse Ecke Prenzlauer Promenade,2,1951316
+389,195138,Dimitroffstrasse Ecke Prenzlauer Allee,3,1951202
+390,195138,"Saarbrücker Strasse, Prenzlauer Tor",4,1951690
+391,195138,"Alexanderplatz, Grunerstrasse",5,19518
+392,195138,Molkenmarkt,6,1951525
+393,195138,Spittelmarkt,7,1951766
+394,195138,Charlottenstrasse Ecke Taubenstrasse,8,1951181
+395,195139,Bhf. Lichterfelde-Ost,0,1951104
+396,195139,"Wiesenbaude, Giesendorferstrasse",1,1951905
+397,195139,Händelplatz,2,1951379
+398,195139,Rathaus Steglitz,3,1951639
+399,195139,Kaisereiche,4,1951398
+400,195139,U-Bhf. Innsbrucker Platz,5,1951834
+401,195139,Dominicusstrasse Ecke Hauptstrasse,6,1951205
+402,195139,Eisenacherstrasse Ecke Potsdamerstrasse,7,1951219
+403,195139,Pallasstrasse Ecke Potsdamerstrasse,8,1951582
+404,195139,Lützowstrasse Ecke Potsdamerstrasse,9,1951493
+405,195139,"Potsdamer Platz, Linkstrasse",10,1951608
+406,195139,Dönhoffplatz,11,1951210
+407,195139,Spittelmarkt,12,1951766
+408,195139,Molkenmarkt,13,1951525
+409,195139,"Alexanderplatz, Grunerstrasse",14,19518
+410,195139,Königstor,15,1951451
+411,195139,Danzigerstrasse Ecke Greifswalderstrasse,16,1951197
+412,195139,Antonplatz,17,195133
+413,195139,"Rennbahnstrasse, Weißensee",18,1951655
+414,195140,"Lichtefelde, Finckensteinallee",0,1951473
+415,195140,Wiesenbaude,1,1951904
+416,195140,Händelplatz,2,1951379
+417,195140,Rathaus Steglitz,3,1951639
+418,195140,Kaisereiche,4,1951398
+419,195140,U-Bhf. Innsbrucker Platz,5,1951834
+420,195140,Dominicusstrasse Ecke Hauptstrasse,6,1951205
+421,195140,Eisenacherstrasse Ecke Potsdamerstrasse,7,1951219
+422,195140,Pallasstrasse Ecke Potsdamerstrasse,8,1951582
+423,195140,Kurfürstenstrasse Ecke Potsdamerstrasse,9,1951443
+424,195140,Lützowstrasse Ecke Potsdamerstrasse,10,1951493
+425,195140,"Potsdamer Platz, Link-Strasse",11,1951607
+426,195140,Dönhoffplatz,12,1951210
+427,195140,Spittelmarkt,13,1951766
+428,195140,"Alexanderplatz, Grunerstrasse",14,19518
+429,195140,Königstor,15,1951451
+430,195140,Danzigerstrasse Ecke Greifswalderstrasse,16,1951197
+431,195140,Antonplatz,17,195133
+432,195140,"Rennbahnstrasse, Weißensee",18,1951655
+433,195141,Spandau Hakenfelde,0,1951751
+434,195141,Hafenplatz,1,1951323
+435,195141,Spandau Markt,2,1951752
+436,195141,Spandau Rathaus,3,1951753
+437,195141,Strassenbahnhof Spandau,4,1951787
+438,195141,Heerstrasse Ecke Pichelsdorferstrasse,5,1951342
+439,195141,Scholzplatz,6,1951714
+440,195141,Bhf. Heerstrasse,7,195192
+441,195141,Reichskanzler-Platz,8,1951647
+442,195141,Ausstellungshallen,9,195138
+443,195141,Amtsgericht,10,195127
+444,195141,Savignyplatz,11,1951696
+445,195141,Bhf. Zoo,12,1951135
+446,195142,Hundekehle über Königsallee,0,1951377
+447,195142,Bhf. Halensee,1,195191
+448,195142,Wilmersdorferstrasse Ecke Kurfürsten Damm,2,1951917
+449,195142,U-Bhf. Uhlandstrasse,3,1951854
+450,195142,Bhf. Zoo,4,1951135
+451,195142,Wittenbergplatz,5,1951922
+452,195142,Lützowplatz,6,1951492
+453,195142,Lütsowstrasse Ecke Potsdamerstrasse,7,1951490
+454,195142,Anhalter Bhf.,8,195132
+455,195143,Hundekehlenstrasse Ecke Teplitzerstrasse,0,1951378
+456,195143,Hagenstrasse Ecke Königsallee,1,1951324
+457,195143,Hubertusallee Ecke Kurfürstendamm,2,1951375
+458,195143,Kurfürstendamm Ecke Wilmersdorferstrasse,3,1951440
+459,195143,Kurfürstendamm Ecke Uhlandstrasse,4,1951439
+460,195143,Kurfürstendamm Ecke Joachimsthalerstrasse,5,1951437
+461,195143,Bhf. Zoo,6,1951135
+462,195143,Wittenbergplatz,7,1951922
+463,195143,Nollendorfplatz,8,1951547
+464,195144,Bhf. Zoo,0,1951135
+465,195144,Wittenbergplatz,1,1951922
+466,195144,Kurfürstendamm Ecke Joachimsthalerstrasse,2,1951437
+467,195144,Bundesallee Ecke Berliner Strasse,3,1951173
+468,195144,Bundesplatz,4,1951176
+469,195144,Friedrich-Wilhelm-Platz,5,1951258
+470,195144,Schloßstrasse Ecke Bundesallee,6,1951712
+471,195144,Rathaus Steglitz,7,1951639
+472,195144,Hindenburgdamm Ecke Schloßstrasse,8,1951362
+473,195144,Händelplatz,9,1951379
+474,195144,Bhf. Botanischer Garten,10,195180
+475,195144,Bhf. Lichterfelde-West,11,1951106
+476,195144,Baselerstrasse,12,195144
+477,195144,Rittberg-Krankenhaus,13,1951659
+478,195144,Goerzallee Ecke Wismarer Strasse,14,1951287
+479,195144,"Lichterfelde, Goerzallee",15,1951480
+480,195145,"Lichterfelde-Süd, Lindenstrasse",0,1951482
+481,195145,Goerzallee Ecke Wismarstrasse,1,1951289
+482,195145,Rittberg-Krankenhaus,2,1951659
+483,195145,Drakestrasse (Bhf. Lichterfelde-West),3,1951208
+484,195145,Händelplatz,4,1951379
+485,195145,Steglitz Rathaus,5,1951780
+486,195145,Bundesplatz,6,1951176
+487,195145,Berlinerstrasse Ecke Bundes Allee,7,195157
+488,195145,Rankeplatz,8,1951633
+489,195145,Bhf. Zoo,9,1951135
+490,195146,Breitestrasse Ecke Mühlendamm,0,1951164
+491,195146,Molkenmarkt,1,1951525
+492,195146,Bhf. Jannowitzbrücke,2,195195
+493,195146,Schlesischer Bhf./Ostbahnhof,3,1951705
+494,195146,Stralauer Allee Ecke Warschauerstrasse,4,1951785
+495,195146,Osthafen,5,1951577
+496,195146,Markgrafendamm,6,1951512
+497,195146,Alt-Stralau,7,195120
+498,195147,Wendenschloß Ecke Ekhofstrasse,0,1951894
+499,195147,Strassenbahnhof Köpenick,1,1951786
+500,195147,Lindenstrasse Ecke Bahnhofstrasse,2,1951484
+501,195147,S-Bhf. Köpenick,3,1951682
+502,195147,"Mahlsdorf-Süd, Hubertus",4,1951501
+503,195147,Voltastrasse Ecke Hultschiner Damm,5,1951864
+504,195147,"Mahlsdorf, Rathaus",6,1951500
+505,195147,S-Bhf. Mahlsdorf,7,1951684
+506,195148,Bhf. Friedrichshagen,0,195183
+507,195148,Hirschgarten,1,1951364
+508,195148,"Köpenick, Lindenstrasse Ecke Bahnhofstrasse",2,1951454
+509,195148,Köllnischer Platz,3,1951445
+510,195148,Bhf. Adlershof,4,195177
+511,195148,"Adlershof, Oppenbrücke (Benzolwerk)",5,19512
+512,195148,"Alt-Glienicke, Am Falkenberg",6,195113
+513,195149,"Mahlsdorf-Süd, Hubertus",0,1951501
+514,195149,Bhf. Köpenick,1,195199
+515,195149,Lindenstrasse Ecke Bahnhofstrasse,2,1951484
+516,195149,Köllnischer Platz,3,1951445
+517,195149,Vollkropfgraben,4,1951862
+518,195149,Bootshaus,5,1951150
+519,195149,Kattunfabrik,6,1951415
+520,195149,Schule,7,1951715
+521,195149,Bhf. Grünau,8,195189
+522,195149,Regattahaus,9,1951646
+523,195149,Freibad Grünau,10,1951252
+524,195149,Richtershorn,11,1951658
+525,195149,Karolinenhof,12,1951413
+526,195149,Alt-Schmöckwitz,13,195119
+527,195150,"Dönhoffplatz, Krausenstrasse",0,1951211
+528,195150,U-Bhf. Spittelmarkt,1,1951851
+529,195150,U-Bhf. Neanderstrasse,2,1951838
+530,195150,U-Bhf. Schlesisches Tor,3,1951849
+531,195150,Elsenstrasse Ecke Köpenicker Landstrasse,4,1951222
+532,195150,Baumschulenstrasse Ecke Köpenicker Landstrasse,5,195146
+533,195150,Nalepastrasse Ecke Wilhelminenhofstrasse,6,1951533
+534,195150,Königsplatz,7,1951449
+535,195150,Lindenstrasse Ecke Bahnhofstrasse,8,1951484
+536,195150,Seelenbinderstrasse,9,1951733
+537,195150,Hirschgarten,10,1951364
+538,195150,Spreetunnel,11,1951769
+539,195150,Bhf. Friedrichshagen,12,195183
+540,195150,Freibad Müggelsee,13,1951253
+541,195150,Rahnsdorf (Mühle),14,1951631
+542,195151,"Steglitz, Stadtpark",0,1951782
+543,195151,Kaisereiche Ecke Rheinstrasse,1,1951399
+544,195151,Innsbrucker Platz,2,1951384
+545,195151,Dominicusstrasse Ecke Hauptstrasse,3,1951205
+546,195151,Eisenacherstrasse Ecke Hauptstrasse,4,1951218
+547,195151,Pallasstrasse Ecke Potsdamerstrasse,5,1951582
+548,195151,U-Bhf. Kurfürstenstrasse,6,1951836
+549,195151,Potsdamerstrasse Ecke Lützowstrasse,7,1951614
+550,195151,Anhalter Bahnhof,8,195131
+551,195151,Jerusalemer Kirche,9,1951389
+552,195151,U-Bhf. Moritzplatz,10,1951837
+553,195151,U-Bhf. Görlitzer Bahnhof,11,1951833
+554,195151,Wiener Brücke,12,1951902
+555,195152,"Treptow, Rathaus",0,1951817
+556,195152,Baumschulenstrasse,1,195145
+557,195152,"Grünauerstrasse, Bhf. Schöneweide",2,1951314
+558,195152,"Friedrichstrasse, Johannisthal",3,1951264
+559,195153,"Dönhoffplatz, Krausenstrasse",0,1951211
+560,195153,U-Bhf. Spittelmarkt,1,1951851
+561,195153,U-Bhf. Neanderstrasse,2,1951838
+562,195153,U-Bhf. Schlesisches Tor,3,1951849
+563,195153,Elsenstrasse Ecke Köpenicker Landstrasse,4,1951222
+564,195153,Baumschulenstrasse Ecke Köpenicker Landstrasse,5,195146
+565,195153,Bhf. Schöneweide,6,1951115
+566,195153,"Bhf. Oberspree, Sedanstrasse",7,1951112
+567,195154,Attilaplatz,0,195135
+568,195154,Alt-Tempelhof Ecke Manteuffelstrasse,1,195122
+569,195154,Flughafen,2,1951245
+570,195154,Mehringdamm,3,1951518
+571,195154,Mehringdamm Ecke Blücherstrasse,4,1951520
+572,195154,Hermannplatz,5,1951353
+573,195154,Sonnenallee Ecke Teupitzerstrasse,6,1951747
+574,195154,Köpenicker Landstrasse Ecke Schnellerstrasse,7,1951456
+575,195154,Wilhelminenhofstrasse Ecke Edisonstrasse,8,1951909
+576,195154,Lindenstrasse Ecke Bahnhofstrasse,9,1951484
+577,195154,Oberspreestrasse Ecke Grünstrasse,10,1951558
+578,195154,Wendenschloßstrasse Ecke Müggelheimerstrasse,11,1951895
+579,195154,"Köpenick, Krankenhaus",12,1951453
+580,195155,Machnower Schleuse,0,1951494
+581,195155,Hauptstrasse Ecke Potsdamerstrasse,1,1951336
+582,195155,Potsdamerstrasse Ecke Lichterfelderstrasse,2,1951613
+583,195155,Berlinerstrasse Ecke Wismarerstrasse,3,195165
+584,195155,Wilhelmstrasse/Oberhoferweg,4,1951914
+585,195155,Kaiser-Wilhelm-Strasse Ecke Leonorenstrasse,5,1951395
+586,195155,Attilaplatz,6,195135
+587,195155,Friedrich-Karl-Strasse Ecke Mariendorferdamm,7,1951256
+588,195155,Alt-Tempelhof Ecke Tempelhofer Damm,8,195123
+589,195155,Tempelhof (Südring),9,1951807
+590,195155,Bhf. Tempelhof,10,1951126
+591,195156,U-Bhf. Tempelhof,0,1951852
+592,195156,Alt-Tempelhof Ecke Tempelhofer Damm,1,195123
+593,195156,Kaiserin-Augusta-Strasse Ecke Tempelhofer Damm,2,1951401
+594,195156,Kaiserstrasse Ecke Mariendorfer Damm,3,1951402
+596,195156,Mariendorfer Damm Ecke Alt-Mariendorf,4,1951507
+597,195156,Grossbeerenstrasse Ecke Daimlerstrasse,5,1951304
+598,195156,Daimlerstrasse Ecke Birnhornweg,6,1951195
+599,195157,Mehringplatz/Hallesches Tor,0,1951522
+600,195157,Yorckstrasse/Gneisenaustrasse,1,1951928
+601,195157,Dudenstrasse Ecke Mehringdamm,2,1951209
+602,195157,Bhf. Tempelhof,3,1951126
+603,195157,Alt-Tempelhof Ecke Tempelhofer Damm,4,195123
+604,195157,Kaiserin-Augusta-Strasse Ecke Tempelhofer Damm,5,1951401
+606,195157,Kaiserstrasse Ecke Mariendorfer Damm,6,1951403
+607,195157,Alt-Mariendorf Ecke Mariendorfer Damm,7,195117
+608,195157,"Rennbahn, Mariendorf",8,1951654
+609,195157,Marienfelder Chaussee Ecke Lichtenrader Damm,9,1951511
+610,195157,Grimmstrasse Ecke Lichtenrader Damm,10,1951303
+611,195157,Bhf. Lichtenrade,11,1951102
+612,195158,Hundekehle über Königsallee,0,1951377
+613,195158,Bhf. Halensee,1,195191
+614,195158,Wilmersdorferstrasse Ecke Kurfürsten Damm,2,1951917
+615,195158,U-Bhf. Uhlandstrasse,3,1951854
+616,195158,Bhf. Zoo,4,1951135
+617,195158,Wittenbergplatz,5,1951922
+618,195158,Nollendorfplatz,6,1951547
+619,195159,Pankow (Vinetastr.),0,1951583
+620,195159,Schönhauser Allee,1,1951726
+621,195159,Dimitroffstr.,2,1951199
+622,195159,Senefelderplatz,3,1951738
+623,195159,Luxemburgplatz,4,1951487
+624,195159,Alexanderplatz,5,19517
+625,195159,Klosterstr.,6,1951423
+626,195159,Märkisches Museum,7,1951527
+627,195159,Spittelmarkt,8,1951767
+628,195159,Hausvogteiplatz,9,1951339
+629,195159,Stadtmitte (Mohrenstr.),10,1951774
+630,195159,Thälmannplatz,11,1951812
+631,195159,Potsdamer Platz,12,1951606
+632,195159,Gleisdreieck,13,1951283
+633,195159,Bülowstr.,14,1951178
+634,195159,Nollendorfplatz,15,1951548
+635,195159,Wittenbergplatz,16,1951923
+636,195159,Zoologischer Garten,17,1951937
+637,195159,Ernst-Reuter-Platz,18,1951229
+638,195159,Deutsches Opernhaus (Bismarckstr.),19,1951198
+639,195159,Sophie-Charlotte-Platz,20,1951749
+640,195159,Kaiserdamm (Messedamm),21,1951396
+641,195159,Reichskanzlerplatz,22,1951648
+642,195159,Neu-Westend,23,1951537
+643,195159,Olympia-Stadion,24,1951560
+644,195159,Ruhleben,25,1951674
+645,195160,Wittenbergplatz,0,1951923
+646,195160,Nürnberger Platz,1,1951555
+647,195160,Hohenzollernplatz,2,1951370
+648,195160,Fehrbelliner Platz,3,1951241
+649,195160,Heidelberger Platz,4,1951344
+650,195160,Rüdesheimer Platz,5,1951677
+651,195160,Breitenbachplatz,6,1951161
+652,195160,Podbielskiallee,7,1951601
+653,195160,Dahlem-Dorf,8,1951192
+654,195160,Thielplatz,9,1951811
+655,195160,Oskar-Helene-Heim,10,1951569
+656,195160,Onkel Toms Hütte,11,1951561
+657,195160,Krumme Lanke,12,1951434
+658,195161,Deutsches Opernhaus (Bismarckstr.),0,1951198
+659,195161,Richard-Wagner-Platz,1,1951657
+660,195162,"Moabit, Waldstrasse Ecke Turmstrasse",0,1951523
+661,195162,Heimholtzstrasse,1,1951347
+662,195162,Berlinerstrasse Ecke Cauerstrasse,2,195158
+663,195162,Kantstrasse Ecke Leibnizstrasse,3,1951406
+664,195162,Kurfürstendamm Ecke Konstanzer Strasse,4,1951438
+665,195162,U-Bhf. Fehrbelliner Platz,5,1951828
+666,195162,Hildegardstrasse Ecke Blissestrasse,6,1951359
+667,195162,U-Bhf. Breitenbachplatz,7,1951823
+668,195162,Pacellialle Ecke Im Dol,8,1951580
+669,195162,U-Bhf. Oskar-Helene-Heim,9,1951843
+670,195162,Berlinerstrasse Ecke Clayallee,10,195159
+671,195162,Bhf. Zehlendorf,11,1951133
+672,195162,Teltower Damm Ecke Beeskowdamm,12,1951805
+673,195162,Goerzallee Ecke Wismarerstrasse,13,1951288
+675,195163,"Westend, Königin-Elisabeth-Strasse",0,1951900
+676,195163,U-Bhf. Neu-Westend,1,1951839
+677,195163,U-Bhf. Reichskanzlerplatz,2,1951845
+678,195163,Bhf. Halensee,3,195190
+679,195163,Elsterplatz,4,1951223
+680,195163,Wilder Eber,5,1951907
+681,195163,Dahlem-Dorf,6,1951191
+682,195163,U-Bhf. Thielplatz,7,1951853
+683,195163,Thielallee Ecke Berlinerstrasse,8,1951810
+684,195163,Berlinerstrasse Ecke Seehofstrasse,9,195162
+685,195163,Bhf. Zehlendorf,10,1951133
+686,195163,"Machnowerstrasse Ecke Andreezeile, Zehlendorf",11,1951495
+687,195164,U-Bhf. Dahlem-Dorf,0,1951824
+688,195164,U-Bhf. Thielplatz,1,1951853
+689,195164,Habelschwerdter Allee Ecke Unter den Eichen,2,1951321
+690,195164,Bhf. Lichterfelde-West,3,1951105
+691,195164,Wiesenbaude,4,1951903
+692,195164,Bhf. Lichterfelde-Ost,5,1951103
+693,195164,"Lankwitz, Trippsteinstrasse",6,1951461
+694,195165,"Frohnau, Sigismundkorso",0,1951268
+695,195165,Bhf. Frohnau,1,195185
+696,195165,Am Pilz,2,195125
+697,195165,Sandkrug,3,1951693
+698,195165,Hermsdorfer Damm,4,1951358
+699,195165,Waidmannsluster Damm,5,1951866
+700,195165,Oranienburgerstrasse Ecke Hauptstrasse,6,1951567
+701,195165,Hauptstrasse Ecke Roedernallee,7,1951338
+702,195165,Schillerhof,8,1951701
+703,195165,Seestrasse Ecke Müllerstrasse,9,1951734
+704,195166,"Spandau, Weinmeisterhornweg",0,1951762
+705,195166,Heerstrasse Ecke Wilhelmstrasse,1,1951343
+706,195166,Adamstrasse Ecke Wilhelmstrasse,2,19510
+707,195166,Rathaus Spandau,3,1951637
+708,195166,"Spandau, Markt",4,1951758
+709,195166,Gartenfelderstrasse Ecke Am Juliusturm,5,1951273
+710,195166,Gartenfelderstrasse Ecke Paulsternstrasse,6,1951274
+711,195166,"Gartenfeld, Tegeler Brücke",7,1951272
+712,195166,Weg nach Saatwinkel,8,1951885
+713,195166,Wasserwerk,9,1951882
+714,195166,Krankenhaus Tegel-Süd,10,1951432
+715,195166,Berlinerstrasse Ecke Bernauerstrasse,11,195155
+716,195166,Bhf. Tegel,12,1951125
+717,195167,Bhf. Tegel,0,1951125
+718,195167,Waidmannslusterdamm Ecke Buddestrasse,1,1951867
+719,195167,Hauptstrasse Ecke Hermsdorferstrasse,2,1951335
+720,195167,Haupstrasse Ecke Holzhauserdamm,3,1951331
+721,195167,Oranienburgerstrasse Ecke Hauptstrasse,4,1951567
+722,195167,"Reinickendorf, Hauptstrasse Ecke Residenzstrasse",5,1951652
+723,195167,Kopenhagenerstrasse Ecke Flottenstrasse,6,1951426
+724,195167,Reinickendorf Hauptstrasse Ecke Aroserallee,7,1951651
+725,195168,Bhf. Wittenau,0,1951130
+726,195168,Holzhauserstrasse Ecke Hauptstrasse,1,1951372
+727,195168,Breitenbachstrasse Ecke Eichborndamm,2,1951162
+728,195168,Borsigweg Ecke Schubstrasse,3,1951154
+729,195168,Bernauerstrasse Ecke Seidelstrasse,4,195169
+730,195168,Berlinerstrasse Ecke Bahnhofstrasse,5,195154
+731,195168,Bhf. Tegel,6,1951125
+732,195169,U-Bhf. Seestrasse,0,1951850
+733,195169,Augustenburger Platz,1,195136
+734,195169,Fennbrücke,2,1951242
+735,195169,Kriminalgericht,3,1951433
+736,195169,Rathaus Tiergarten,4,1951640
+737,195169,Hansaplatz,5,1951330
+738,195169,Großer Stern,6,1951307
+739,195169,Lützowplatz,7,1951491
+740,195169,Nollendorfplatz,8,1951546
+741,195169,Grunewaldstrasse Ecke Martin-Luther-Strasse,9,1951310
+742,195169,Rathaus Schöneberg,10,1951636
+743,195169,Innsbrucker Platz,11,1951382
+744,195169,Bundesplatz,12,1951175
+745,195169,U-Bhf. Breitenbachplatz,13,1951823
+746,195170,Roseneck,0,1951663
+747,195170,U-Bhf. Rüdesheimer Platz,1,1951848
+748,195170,Friedrich-Wilhelm-Platz,2,1951257
+749,195170,Kaisereiche,3,1951397
+750,195170,Titania-Palast,4,1951814
+751,195170,Rathaus Steglitz,5,1951638
+752,195170,Siemensstrasse Ecke Leopnorenstrasse,6,1951745
+753,195170,Bhf. Lichterfelde-Ost,7,1951103
+754,195170,Oberhofer Platz,8,1951556
+755,195170,Saaleckplatz (Lichterfelde),9,1951689
+756,195171,"Arnswalder Platz, Elbingerstrasse",0,195134
+757,195171,Königstor,1,1951450
+758,195171,Bhf. Alexanderplatz,2,195179
+759,195171,Bhf. Friedrichstrasse,3,195184
+760,195171,Chausseestrasse Ecke Invalidenstrasse,4,1951184
+761,195171,Scharnhorststrasse Ecke Kielerstrasse,5,1951697
+762,195172,Rathaus Zehlendorf,0,1951642
+763,195172,Berlinerstrasse Ecke Seehofstrasse,1,195162
+764,195172,Habelschwerdter Allee Ecke Unter den Eichen,2,1951321
+765,195172,Hindenburgdamm Ecke Schloßstrasse,3,1951361
+766,195172,Feuerbachstrasse Ecke Bismarckstrasse,4,1951244
+767,195172,Stadtpark Steglitz,5,1951775
+768,195172,Siemensstrasse Ecke Leonorenstrasse,6,1951744
+769,195172,"Lankwitz, Kirche",7,1951460
+770,195172,"Lankwitz, Trippsteinstrasse",8,1951461
+771,195173,Müggelheim (An der Großen Krampe),0,1951530
+772,195173,Prinzengarten,1,1951625
+773,195173,Chausseehaus,2,1951183
+774,195173,Köpenicker Krankenhaus,3,1951455
+775,195173,Bahnhofstrasse Ecke Lindenstrasse,4,195143
+776,195173,Bhf. Köpenick,5,195198
+777,195173,Hoppendorferstrasse,6,1951374
+778,195173,Chemnitzerstrasse Ecke Ulmenstrasse,7,1951187
+779,195173,Chemnitzerstrasse Ecke Alt-Kaulsdorf,8,1951186
+780,195173,Bhf. Kaulsdorf,9,195197
+781,195174,Rathaus Zehlendorf,0,1951642
+782,195174,U-Bhf. Oskar-Helene-Heim,1,1951843
+783,195174,U-Bhf. Onkel-Toms-Hütte,2,1951842
+784,195174,U-Bhf. Krumme Lanke,3,1951835
+785,195174,Bhf. Zehlendorf-West,4,1951134
+786,195174,Potsdamer Chaussee Ecke Spanische Allee,5,1951604
+787,195174,Bhf. Nikolassee,6,1951111
+788,195174,Bhf. Wannsee,7,1951129
+789,195174,Rathaus Wannsee,8,1951641
+790,195174,"Stölpchensee, Wilhelmplatz",9,1951794
+791,195175,"Staaken, Heidelbergplan",0,1951772
+792,195175,Bhf. Staaken,1,1951121
+793,195175,Magistratsweg Ecke Brunsbütteler Damm,2,1951497
+794,195175,"Spandau, Rathaus",3,1951761
+795,195175,Bhf. Spandau,4,1951118
+796,195176,Breitenbachplatz,0,1951160
+797,195176,Rathaus Steglitz,1,1951638
+798,195176,Stadtpark Steglitz,2,1951775
+799,195176,Siemensstrasse Ecke Leonorenstrasse,3,1951744
+800,195176,"Lankwitz, Kirche",4,1951460
+801,195176,Marchandstrasse/Lankwitzer Ring,5,1951503
+802,195176,Marienfelder Allee Ecke Lankwitzstrasse,6,1951510
+803,195176,Bhf. Marienfelde,7,1951109
+804,195177,Bhf. Steglitz,0,1951122
+805,195177,Stadtpark Steglitz,1,1951775
+806,195177,Bhf. Südende,2,1951124
+807,195177,Bhf. Mariendorf,3,1951108
+808,195177,Kaiserstrasse/Ringstrasse,4,1951404
+809,195177,"Mariendorf, Kaiserstrasse Ecke Mariendorfer Damm",5,1951506
+810,195178,"Spandau, Askanierring",0,1951756
+811,195178,Rathaus Spandau,1,1951637
+812,195178,Heerstrasse Ecke Pichelsdorferstrasse,2,1951341
+813,195178,Zur Haveldüne (Weinmeisterhöhe),3,1951939
+814,195178,"Gatow, Kirche",4,1951276
+815,195178,Badewiese Ecke Kladower Damm,5,195140
+816,195178,"Gatow, Flugplatz",6,1951275
+817,195178,Neukladowerallee Ecke Kladower Damm,7,1951540
+818,195178,"Alt-Kladow, Kladow",8,195115
+819,195179,S-Bhf. Tegel,0,1951688
+820,195179,Freie Scholle (Schollenhof),1,1951254
+821,195179,Bhf. Waidmannslust,2,1951128
+822,195179,Am Vierrutenberg,3,195126
+823,195179,"Lübars, Dorfplatz",4,1951488
+824,195180,S-Bhf. Grünau,0,1951681
+825,195180,"Bohnsdorf, Kirche",1,1951148
+826,195180,Falkenhöhe,2,1951234
+827,195180,Waltersdorfer Chaussee (Spinne),3,1951872
+828,195180,"Schönefeld, Dorfplatz",4,1951723
+829,195181,Bhf. Lichtenberg,0,1951101
+830,195181,"Friedrichsfelde, Schloßstrasse",1,1951261
+831,195181,S-Bhf. Biesdorf,2,1951680
+832,195181,Cäcilienstrasse,3,1951189
+833,195181,"Geißenweide, Elisabethstrasse",4,1951277
+834,195181,"Alt-Marzahn, Kirche",5,195118
+835,195182,Bhf. Grünau,0,195188
+836,195182,"Bohnsdorf, Sportplatz",1,1951149
+837,195182,Schulzendorferstrasse Ecke Parchwitzerstrasse,2,1951718
+838,195182,Walterdorferstrasse Ecke Waldstrasse,3,1951871
+839,195183,Wartenbergerstrasse Ecke Falkenbergerstrasse,0,1951881
+840,195183,Falkenberger Chaussee,1,1951232
+841,195183,Bhf. Ahrensfelde,2,195178
+842,195183,Birkholzer Weg,3,1951139
+843,195183,"Wartenberg, Siedlung",4,1951880
+844,195184,U-Bhf. Oskar-Helene-Heim,0,1951843
+845,195184,Clayallee Ecke Potsdamerstrasse,1,1951188
+846,195184,Berlinerstrasse Ecke Seehofstrasse,2,195162
+847,195184,Dahlemer Weg Ecke Seehofstrasse,3,1951193
+848,195184,"Lichterfelde, Osteweg",4,1951481
+849,195185,Rathaus Schöneberg,0,1951636
+850,195185,Martin-Luther-Strasse Ecke Hauptstrasse,1,1951514
+851,195185,Kaiser-Wilhelm-Platz,2,1951393
+852,195185,U-Bhf. Flughafen,3,1951829
+853,195185,U-Bhf. Boddinstrasse,4,1951821
+854,195185,Rathaus Neukölln,5,1951634
+855,195186,"Schlesischer Bhf./Ostbahnhof, Madaistrasse",0,1951706
+856,195186,Frankfurter Allee,1,1951247
+857,195186,Königstor,2,1951450
+858,195186,Schönhauser Tor,3,1951728
+859,195186,Rosentaler Platz,4,1951665
+860,195186,Oranienburger Tor,5,1951564
+861,195186,Robert-Koch-Platz,6,1951660
+862,195187,Dimitroffstrasse Ecke Leninallee,0,1951201
+863,195187,Oderbruchstrasse/Steuerhaus,1,1951559
+864,195187,Weißenseer Weg Ecke Landsbergerstrasse,2,1951893
+865,195187,Gensierstrasse Ecke Landsbergerstrasse,3,1951278
+866,195187,Dingelstädterstrasse (Hohenschönhausen) Ecke Landsbergerstrasse,4,1951204
+867,195187,"Marzahn, Bürknersfelde",5,1951516
+868,195188,Ostseestrasse Ecke Prenzlauer Allee,0,1951579
+869,195188,Hamburger Platz (Weißensee),1,1951329
+870,195188,Gustav-Adolf-Strasse Ecke Rennbahnstrasse,2,1951317
+871,195188,"Heinersdorf, Kirche",3,1951349
+872,195188,"Alt-Blankenburg, Kirche",4,195111
+873,195188,"Alt-Karow, Kirche",5,195114
+874,195188,"Alt-Buch, Kirche",6,195112
+875,195188,"Buch, Zepernickerstrasse (Ludwig-Hoffmann-Krankenhaus)",7,1951169
+876,195189,U-Bhf. Friedrichsfelde,0,1951830
+877,195189,Schloßstrasse Ecke Alt-Friedrichsfelde,1,1951711
+878,195189,Bhf. Friedrichsfelde-Ost,2,195182
+879,195189,Springpfuhl,3,1951770
+880,195189,"Pekrunstrasse, Marzahn",4,1951598
+881,195190,"Bhf. Mahlsdorf, Wodanstrasse",0,1951107
+882,195190,Greifswalderstrasse Ecke Hönowerstrasse,1,1951299
+883,195190,"Hönow, Dorfstrasse (Schule)",2,1951380
+884,195191,"Wilhelmsruh, Fontanestrasse",0,1951912
+885,195191,Hauptstrasse Ecke Edelweißstrasse,1,1951334
+886,195191,Edelweißstrasse Ecke Germanenstrasse,2,1951214
+887,195191,Bismarckstrasse Ecke Seckenderstrasse,3,1951142
+888,195191,Grabbeallee Ecke Seckenderstrasse,4,1951294
+889,195191,Breitestrasse Ecke Wollankstrasse,5,1951165
+890,195191,Breitestrasse Ecke Berlinerstrasse,6,1951163
+891,195191,Berlinerstrasse Ecke Kissingenstrasse,7,195160
+892,195191,Prenzlauer Promenade Ecke Berlinerstrasse,8,1951617
+893,195191,Langhansstrasse Ecke Prenzlauerallee,9,1951458
+894,195191,Gustav-Adolf-Strasse Ecke Pistoriusstrasse,10,1951315
+895,195191,Berliner Allee Ecke Wörthstrasse,11,195153
+896,195191,"Weißensee, Lindenallee",12,1951890
+897,195192,"Falkensee, Hansastrasse Ecke Friedrich-Engel-Strasse",0,1951238
+898,195192,"Falkensee, Rathaus",1,1951239
+899,195192,Falkenhöhe/Zonengrenze,2,1951235
+900,195192,Falkenhagener Chaussee Ecke Zeppelinstrasse,3,1951233
+901,195192,Seegefelderstrasse Ecke Zeppelinstrasse,4,1951731
+902,195192,"Spandau, Rathaus",5,1951761
+903,195193,Kladow/Hottengrund,0,1951421
+904,195193,Alt-Kladow/Postamt,1,195116
+905,195193,Seekorso,2,1951732
+906,195193,Groß-Glienick/Gutshof,3,1951305
+907,195194,"Pankow, Elsa-Brandströmstrasse",0,1951584
+908,195194,"Pankow, Kirche",1,1951585
+909,195194,"Pankow, Rathaus",2,1951587
+910,195194,Bismarckplatz,3,1951140
+911,195194,Ossietzkyplatz,4,1951574
+912,195194,"Nordend, Schillerstrasse",5,1951553
+913,195194,"Blankenfelde, Hauptstrasse",6,1951146
+914,195194,"Schildow, Breitestrasse",7,1951700
+915,195195,U-Bhf. Friedrichsfelde,0,1951830
+916,195195,Gregoroviusweg (Gymnasium),1,1951296
+917,195195,Gleiwitzerstrasse Ecke Köpenickerstrasse,2,1951284
+918,195195,Chamnitzerstrasse Ecke Ulmenstrasse,3,1951179
+919,195195,"Kaulsdorf, Sadowastrasse",4,1951417
+920,195196,Potsdamer Platz/Leipziger Platz,0,1951610
+921,195196,Kaiserhof/Thälmannplatz,1,1951400
+922,195196,Karlplatz,2,1951410
+923,195196,Neues Tor,3,1951539
+924,195196,Stettiner Bhf./Nordbahnhof,4,1951783
+925,195197,Innsbrucker Platz,0,1951385
+926,195197,Bayerischer Platz,1,195149
+927,195197,Viktoria-Luise-Platz,2,1951861
+928,195197,Nollendorfplatz,3,1951548
+929,195197,Kurfürstenstrasse,4,1951442
+930,195197,Gleisdreieck,5,1951283
+931,195197,Möckernbrücke,6,1951528
+932,195197,Hallesches Tor,7,1951327
+933,195197,Prinzenstrasse,8,1951627
+934,195197,Kottbusser Tor,9,1951428
+935,195198,Warschauer Brücke,0,1951878
+936,195198,Schlesisches Tor,1,1951708
+937,195198,Görlitzer Bahnhof,2,1951318
+938,195198,Kottbusser Tor,3,1951428
+939,195198,Prinzenstrasse,4,1951627
+940,195198,Hallesches Tor,5,1951327
+941,195198,Möckernbrücke,6,1951528
+942,195198,Gleisdreieck,7,1951283
+943,195198,Kurfürstenstrasse,8,1951442
+944,195198,Nollendorfplatz,9,1951548
+945,195198,Wittenbergplatz,10,1951923
+946,195198,Uhlandstrasse,11,1951857
+947,195199,Seestraße,0,1951736
+948,195199,Leopoldplatz,1,1951472
+949,195199,Bahnhof Wedding,2,195142
+950,195199,Reinickendorfer Straße,3,1951653
+951,195199,Walter-Ulbricht-Stadion,4,1951870
+952,195199,Nordbahnhof,5,1951551
+953,195199,Oranienburger Tor,6,1951566
+954,195199,Friedrichstraße,7,1951265
+955,195199,Französische Straße,8,1951250
+956,195199,Stadtmitte,9,1951773
+957,195199,Kochstraße,10,1951425
+958,195199,Hallesches Tor,11,1951327
+959,195199,Mehringdamm,12,1951519
+960,195199,Gneisenaustraße,13,1951286
+961,195199,Südstern,14,1951798
+962,195199,Hermannplatz,15,1951354
+963,195199,Rathaus Neukölln,16,1951635
+964,195199,Karl-Marx-Straße,17,1951409
+965,195199,Neukölln (Südring),18,1951542
+966,195199,Grenzallee,19,1951300
+967,1951100,Mehringdamm,0,1951519
+968,1951100,Flughafen,1,1951246
+969,1951100,Paradestrasse,2,1951595
+970,1951100,Tempelhof (Südring),3,1951808
+971,1951101,Gesundbrunnen,0,1951281
+972,1951101,Voltastr.,1,1951863
+973,1951101,Bernauer Str.,2,195167
+974,1951101,Rosenthaler Platz,3,1951669
+975,1951101,Weinmeisterstr.,4,1951887
+976,1951101,Alexanderplatz,5,19517
+977,1951101,Jannowitzbrücke,6,1951388
+978,1951101,Neanderstr.,7,1951534
+979,1951101,Moritzplatz,8,1951526
+980,1951101,Kottbusser Tor,9,1951428
+981,1951101,Schönleinstraße,10,1951730
+982,1951101,Hermannplatz,11,1951354
+983,1951101,Boddinstr.,12,1951147
+984,1951101,Leinestr.,13,1951465
+985,1951102,Friedrichsfelde,0,1951259
+986,1951102,Lichtenberg,1,1951475
+987,1951102,Magdalenenstraße,2,1951496
+988,1951102,Stalinallee,3,1951778
+989,1951102,Samariterstraße,4,1951692
+990,1951102,Bersarinstraße,5,195173
+991,1951102,Marchlewskistraße,6,1951504
+992,1951102,Strausberger Platz,7,1951789
+993,1951102,Schillingstraße,8,1951703
+994,1951102,Alexanderplatz,9,19517
+995,1951103,Gesundbrunnen,0,1951280
+996,1951103,Schönhauser Allee,1,1951725
+997,1951103,Prenzlauer Allee,2,1951615
+998,1951103,Greifswalder Str.,3,1951297
+999,1951103,Leninallee,4,1951466
+1000,1951103,Zentralviehhof,5,1951931
+1001,1951103,Stalinallee,6,1951776
+1002,1951103,Ostkreuz,7,1951578
+1003,1951103,Treptower Park,8,1951818
+1004,1951103,Sonnenallee,9,1951746
+1005,1951103,Neukölln,10,1951541
+1006,1951103,Hermannstr.,11,1951355
+1007,1951103,Tempelhof,12,1951806
+1008,1951103,Papestr.,13,1951594
+1009,1951103,Schöneberg,14,1951719
+1010,1951103,Innsbrucker Platz,15,1951383
+1011,1951103,Wilmersdorf,16,1951915
+1012,1951103,Schmargendorf,17,1951713
+1013,1951103,Hohenzollerndamm,18,1951369
+1014,1951103,Halensee,19,1951325
+1015,1951103,Westkreuz,20,1951901
+1016,1951103,Witzleben,21,1951924
+1017,1951103,Westend,22,1951899
+1018,1951103,Jungfernheide,23,1951391
+1019,1951103,Beusselstr.,24,195176
+1020,1951103,Putlitzstr.,25,1951629
+1021,1951103,Wedding,26,1951883
+1022,1951103,Gesundbrunnen,27,1951280
+1023,1951104,Wilmersdorf,0,1951915
+1024,1951104,Innsbrucker Platz,1,1951383
+1025,1951104,Schöneberg,2,1951719
+1026,1951104,Papestr.,3,1951594
+1027,1951104,Tempelhof,4,1951806
+1028,1951104,Hermannstr.,5,1951355
+1029,1951104,Neukölln,6,1951541
+1030,1951104,Köllnische Heide,7,1951444
+1031,1951104,Baumschulenweg,8,195147
+1032,1951104,Schöneweide,9,1951724
+1033,1951104,Betriebsbahnhof Schöneweide,10,195175
+1034,1951104,Adlershof,11,19511
+1035,1951104,Grünau,12,1951313
+1036,1951105,Jungfernheide,0,1951391
+1037,1951105,Wernerwerk,1,1951897
+1038,1951105,Siemensstadt,2,1951742
+1039,1951105,Gartenfeld,3,1951271
+1040,1951106,Schöneweide,0,1951724
+1041,1951106,Oberspree,1,1951557
+1042,1951106,Spindlersfeld,2,1951765
+1043,1951107,Staaken,0,1951771
+1044,1951107,Spandau West,1,1951755
+1045,1951107,Spandau,2,1951750
+1046,1951107,Pichelsberg,3,1951599
+1047,1951107,Reichssportfeld,4,1951649
+1048,1951107,Heerstr.,5,1951340
+1049,1951107,Eichkamp,6,1951216
+1050,1951107,Westkreuz,7,1951901
+1051,1951107,Charlottenburg,8,1951180
+1052,1951107,Savignyplatz,9,1951695
+1053,1951107,Zoologischer Garten,10,1951936
+1054,1951107,Tiergarten,11,1951813
+1055,1951107,Bellevue,12,195150
+1056,1951107,Lehrter Stadtbahnhof,13,1951464
+1057,1951107,Friedrichstr.,14,1951263
+1058,1951107,Marx-Engels-Platz,15,1951515
+1059,1951107,Alexanderplatz,16,19515
+1060,1951107,Jannowitzbrücke,17,1951387
+1061,1951107,Ostbahnhof,18,1951576
+1062,1951107,Warschauer Str.,19,1951879
+1063,1951107,Ostkreuz,20,1951578
+1064,1951107,Neu-Lichtenberg,21,1951536
+1065,1951107,Lichtenberg,22,1951474
+1066,1951107,Friedrichsfelde Ost,23,1951260
+1067,1951107,Biesdorf,24,1951136
+1068,1951107,Kaulsdorf,25,1951416
+1069,1951107,Mahlsdorf,26,1951499
+1070,1951107,Hoppegarten (Mark),27,1951373
+1071,1951107,Neuenhagen (b Bln),28,1951538
+1072,1951107,Fredersdorf (b Bln),29,1951251
+1073,1951107,Giebelsee,30,1951282
+1074,1951107,Strausberg,31,1951788
+1075,1951108,Potsdam,0,1951603
+1076,1951108,Babelsberg,1,195139
+1077,1951108,Griebnitzsee,2,1951302
+1078,1951108,Wannsee,3,1951875
+1079,1951108,Nikolassee,4,1951545
+1080,1951108,Grunewald,5,1951309
+1081,1951108,Westkreuz,6,1951901
+1082,1951108,Charlottenburg,7,1951180
+1083,1951108,Savignyplatz,8,1951695
+1084,1951108,Zoologischer Garten,9,1951936
+1085,1951108,Tiergarten,10,1951813
+1086,1951108,Bellevue,11,195150
+1087,1951108,Lehrter Stadtbahnhof,12,1951464
+1088,1951108,Friedrichstr.,13,1951263
+1089,1951108,Marx-Engels-Platz,14,1951515
+1090,1951108,Alexanderplatz,15,19515
+1091,1951108,Jannowitzbrücke,16,1951387
+1092,1951108,Ostbahnhof,17,1951576
+1093,1951108,Warschauer Str.,18,1951879
+1094,1951108,Ostkreuz,19,1951578
+1095,1951108,Rummelsburg,20,1951675
+1096,1951108,Betriebsbahnhof Rummelsburg,21,195174
+1097,1951108,Karlshorst,22,1951411
+1098,1951108,Wuhlheide,23,1951926
+1099,1951108,Köpenick,24,1951452
+1100,1951108,Hirschgarten,25,1951363
+1101,1951108,Friedrichshagen,26,1951262
+1102,1951108,Rahnsdorf,27,1951630
+1103,1951108,Wilhelmshagen,28,1951910
+1104,1951108,Erkner,29,1951226
+1105,1951109,Falkensee,0,1951237
+1106,1951109,Albrechtshof,1,19514
+1107,1951109,Spandau West,2,1951755
+1108,1951109,Spandau,3,1951750
+1109,1951109,Pichelsberg,4,1951599
+1110,1951109,Reichssportfeld,5,1951649
+1111,1951109,Heerstr.,6,1951340
+1112,1951109,Eichkamp,7,1951216
+1113,1951109,Westkreuz,8,1951901
+1114,1951109,Charlottenburg,9,1951180
+1115,1951109,Savignyplatz,10,1951695
+1116,1951109,Zoologischer Garten,11,1951936
+1117,1951109,Tiergarten,12,1951813
+1118,1951109,Bellevue,13,195150
+1119,1951109,Lehrter Stadtbahnhof,14,1951464
+1120,1951109,Friedrichstr.,15,1951263
+1121,1951109,Marx-Engels-Platz,16,1951515
+1122,1951109,Alexanderplatz,17,19515
+1123,1951109,Jannowitzbrücke,18,1951387
+1124,1951109,Ostbahnhof,19,1951576
+1125,1951109,Warschauer Str.,20,1951879
+1126,1951109,Ostkreuz,21,1951578
+1127,1951109,Treptower Park,22,1951818
+1128,1951109,Baumschulenweg,23,195147
+1129,1951109,Schöneweide,24,1951724
+1130,1951109,Betriebsbahnhof Schöneweide,25,195175
+1131,1951109,Adlershof,26,19511
+1132,1951109,Grünau,27,1951313
+1133,1951109,Eichwalde (Kreis Teltow),28,1951217
+1134,1951109,Zeuthen,29,1951933
+1135,1951109,Wildau,30,1951906
+1136,1951109,Königs Wusterhausen,31,1951448
+1137,1951110,Oranienburg,0,1951562
+1138,1951110,Lehnitz,1,1951462
+1139,1951110,Borgsdorf,2,1951151
+1140,1951110,Birkenwerder,3,1951138
+1141,1951110,Hohen-Neuendorf (b Bln),4,1951365
+1142,1951110,Frohnau,5,1951267
+1143,1951110,Hermsdorf,6,1951357
+1144,1951110,Waidmannslust,7,1951865
+1145,1951110,Wittenau (Nordbahn),8,1951919
+1146,1951110,Wilhelmsruh,9,1951911
+1147,1951110,Schönholz,10,1951729
+1148,1951110,Wollankstrasse,11,1951925
+1149,1951110,Bornholmer Str.,12,1951152
+1150,1951110,Gesundbrunnen,13,1951280
+1151,1951110,Humboldthain,14,1951376
+1152,1951110,Nordbahnhof,15,1951549
+1153,1951110,Oranienburger Str.,16,1951563
+1154,1951110,Friedrichstr.,17,1951263
+1155,1951110,Unter den Linden,18,1951858
+1156,1951110,Potsdamer Platz,19,1951605
+1157,1951110,Anhalter Bahnhof,20,195130
+1158,1951110,Großgörschenstr.,21,1951308
+1159,1951110,Schöneberg,22,1951719
+1160,1951110,Friedenau,23,1951255
+1161,1951110,Feuerbachstr.,24,1951243
+1162,1951110,Steglitz,25,1951779
+1163,1951110,Botanischer Garten,26,1951155
+1164,1951110,Lichterfelde West,27,1951479
+1165,1951110,Sundgauer Str.,28,1951795
+1166,1951110,Zehlendorf,29,1951929
+1167,1951110,Zehlendorf West,30,1951930
+1168,1951110,Schlachtensee,31,1951704
+1169,1951110,Nikolassee,32,1951545
+1170,1951110,Wannsee,33,1951875
+1171,1951111,Zehlendorf,0,1951929
+1174,1951112,Hohenschöpping,1,1951368
+1175,1951112,Hennigsdorf (Kr Oberhavel),2,1951351
+1176,1951112,Heiligensee,3,1951345
+1177,1951112,Schulzendorf (b Tegel),4,1951717
+1178,1951112,Tegel,5,1951800
+1179,1951112,Eichbornstr.,6,1951215
+1180,1951112,Wittenau (Kremmener Bahn),7,1951918
+1181,1951112,Reinickendorf,8,1951650
+1182,1951112,Schönholz,9,1951729
+1183,1951112,Wollankstrasse,10,1951925
+1184,1951112,Bornholmer Str.,11,1951152
+1185,1951112,Gesundbrunnen,12,1951280
+1186,1951112,Humboldthain,13,1951376
+1187,1951112,Nordbahnhof,14,1951549
+1188,1951112,Oranienburger Str.,15,1951563
+1189,1951112,Friedrichstr.,16,1951263
+1190,1951112,Unter den Linden,17,1951858
+1191,1951112,Potsdamer Platz,18,1951605
+1192,1951112,Anhalter Bahnhof,19,195130
+1193,1951113,Nordbahnhof,0,1951549
+1194,1951113,Oranienburger Str.,1,1951563
+1195,1951113,Friedrichstr.,2,1951263
+1196,1951113,Unter den Linden,3,1951858
+1197,1951113,Potsdamer Platz,4,1951605
+1198,1951113,Anhalter Bahnhof,5,195130
+1199,1951113,Yorckstr.,6,1951927
+1200,1951113,Papestr.,7,1951594
+1201,1951113,Priesterweg,8,1951623
+1202,1951113,Mariendorf,9,1951505
+1203,1951113,Marienfelde,10,1951508
+1204,1951113,Buckower Ch.,11,1951172
+1205,1951113,Lichtenrade,12,1951476
+1206,1951113,Mahlow,13,1951498
+1207,1951113,Blankenfelde (Kr. Teltow),14,1951145
+1208,1951113,Dahlewitz,15,1951194
+1209,1951113,Rangsdorf,16,1951632
+1210,1951114,Bernau (b Bln),0,195166
+1211,1951114,Zepernick (Kr Niederbarnim),1,1951932
+1212,1951114,Röntgental,2,1951676
+1213,1951114,Buch,3,1951168
+1214,1951114,Karow,4,1951414
+1215,1951114,Blankenburg,5,1951143
+1216,1951114,Pankow-Heinersdorf,6,1951589
+1217,1951114,Pankow-Schönhausen,7,1951590
+1218,1951114,Bornholmer Str.,8,1951152
+1219,1951114,Gesundbrunnen,9,1951280
+1220,1951114,Humboldthain,10,1951376
+1221,1951114,Nordbahnhof,11,1951549
+1222,1951114,Oranienburger Str.,12,1951563
+1223,1951114,Friedrichstr.,13,1951263
+1224,1951114,Unter den Linden,14,1951858
+1225,1951114,Potsdamer Platz,15,1951605
+1226,1951114,Anhalter Bahnhof,16,195130
+1227,1951114,Yorckstr.,17,1951927
+1228,1951114,Papestr.,18,1951594
+1229,1951114,Priesterweg,19,1951623
+1230,1951114,Südende,20,1951796
+1231,1951114,Lankwitz,21,1951459
+1232,1951114,Lichterfelde Ost,22,1951477
+1233,1951114,Lichterfelde Süd,23,1951478
+1234,1951114,Teltow,24,1951804
+1235,1951115,Kladow,0,1951420
+1236,1951115,Wannsee,1,1951874

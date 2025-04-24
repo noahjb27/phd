@@ -1,0 +1,1742 @@
+,line_id,stop_name,stop_order,stop_id
+0,19711,"Glienicke, Kirche",0,1971329
+1,19711,Elsässer Strasse,1,1971250
+2,19711,"Schildow, Kirche",2,1971965
+3,19711,"Blankenfelde, Hauptstrasse",3,1971136
+4,19711,Industriebahn,4,1971486
+5,19711,Nordend,5,1971731
+6,19711,Kurt-Fischer-Platz,6,1971579
+7,19711,"Pankow, Rathaus",7,1971777
+8,19711,U-Bhf. Pankow,8,19711140
+9,19712,Mahlsdorfer Allee,0,1971663
+10,19712,Hultschiner Damm,1,1971470
+11,19712,Sadowastrasse,2,1971958
+12,19712,Köpenicker Strasse,3,1971594
+13,19712,Oberfeldstrasse,4,1971735
+14,19712,Am Tierpark,5,197153
+15,19712,U-Bhf. Friedrichsfelde,6,19711120
+16,19713,Kurische Strasse,0,1971578
+17,19713,Hufelandstrasse,1,1971469
+18,19713,Königstor,2,1971588
+19,19713,Hans-Beimler-Strasse,3,1971388
+20,19713,Breite Strasse,4,1971153
+21,19713,Charlottenstrasse,5,1971194
+22,19713,Otto-Grotewohl-Strasse,6,1971769
+23,19714,Arkonaplatz,0,197162
+24,19714,Brunnenstrasse,1,1971166
+25,19714,Rosenthaler Platz,2,1971890
+26,19714,Alexanderplatz,3,197113
+27,19714,S-Bhf. Jannowitzbr.,4,1971927
+28,19714,Annenstrasse,5,197159
+29,19714,Adalbertstrasse,6,19712
+30,19715,Adalbertstrasse,0,19712
+31,19715,S-Bhf. Jannowitzbrücke,1,1971928
+32,19715,Alexanderplatz,2,197113
+33,19715,Charlottenstrasse Ecke Französische Straße,3,1971195
+34,19715,Bhf. Friedrichstrasse,4,1971109
+35,19715,Schumannstrasse Ecke Reinhardtstrasse,5,1971984
+36,19715,Robert-Koch-Platz,6,1971882
+63,19719,VEB Bautransporte,0,19711169
+64,19719,Bhf. Schöneweide,1,1971115
+90,197112,S-Bhf. Buch,0,1971917
+91,197112,Karowerstrasse,1,1971529
+92,197112,Alt-Karow,2,197122
+94,197112,Blankenburg,3,1971134
+95,197112,"Heinersd., Kirche",4,1971419
+96,197112,Prenzlauer Promenade,5,1971821
+97,197112,Ostseestrasse,6,1971768
+146,197120,Buch,0,1971168
+147,197120,Karower Strasse,1,1971528
+148,197120,Alt-Karow,2,197122
+149,197120,Blankenburg,3,1971133
+151,197120,"Heinersd., Kirche",4,1971419
+152,197120,Prenzlauer Promenade,5,1971821
+153,197120,Ostseestrasse,6,1971768
+154,197121,"Marzahner Chaussee, Springpfuhl",0,1971685
+155,197121,Stadtberg,1,19711045
+156,197121,Dingelstädter Strasse,2,1971223
+157,197121,S-Bhf. Friedrichsf.-Ost,3,1971918
+158,197121,Am Tierpark,4,197153
+159,197121,U-Bhf. Friedrichsf.,5,19711119
+160,197121,S-Bf. Nöldnerplatz,6,1971910
+161,197122,"Hönow, Dorfstrasse",0,1971477
+162,197122,Greifswalder Strasse,1,1971347
+164,197122,S-Bhf. Mahlsdorf,2,1971935
+165,197123,"Wilhelmsruh, Schillerstrasse",0,19711237
+166,197123,Hauptstrasse Ecke Edelweißstrasse,1,1971400
+167,197123,Heinrich-Mann-Platz,2,1971423
+168,197123,"Pankow, Rathaus",3,1971777
+169,197123,"Pankow, Kirche",4,1971775
+170,197123,Prenzlauer Promenade Ecke Kissingenstrasse,5,1971823
+171,197123,Am Steinberg,6,197152
+172,197123,Hamburger Platz,7,1971386
+173,197123,Lichtenberger Strasse Ecke Klement-Gottwald-Allee,8,1971623
+174,197123,Klement-Gottwald-Allee Ecke Rennbahnstrasse,9,1971541
+175,197123,"Weißensee, Schwarzelfenweg",10,19711212
+176,197124,Bhf. Schöneweide,0,1971115
+177,197124,Johannisthaler Chaussee,1,1971500
+178,197124,S-Bhf. Baumschulenweg,2,1971914
+179,197124,"Treptow, Rathaus",3,19711103
+180,197124,Sowjetisches Ehrenmal,4,19711028
+181,197124,S-Bhf. Treptower Park,5,1971948
+182,197124,"Treptow, Eichenstrasse",6,19711102
+183,197125,Bhf. Schöneweide,0,1971115
+184,197125,Lindhorstweg,1,1971643
+185,197125,Stubenrauchstrasse,2,19711065
+186,197125,Lindhorstweg,3,1971643
+187,197125,Bhf. Schöneweide,4,1971115
+188,197126,"Bhf. Kaulsdorf, Bausdorfstrasse",0,1971111
+189,197126,Wernerbad,1,19711219
+190,197126,Grottkauer Strasse,2,1971354
+191,197126,"Bhf. Kaulsdorf, Bausdorfstrasse",3,1971111
+192,197127,"Niederschönhausen, Rolandstrasse",0,1971725
+193,197127,Kurt-Fischer-Platz,1,1971579
+194,197127,Bürgerpark,2,1971186
+195,197127,Mühlenstrasse Ecke Florastrasse,3,1971715
+196,197127,U-Bhf. Pankow (Vinetastrasse),4,19711142
+197,197128,"Pankow, Achtermannstrasse",0,1971774
+198,197128,Galenusstrasse,1,1971309
+199,197128,Prenzlauer Chaussee,2,1971820
+200,197128,Granitzstrasse,3,1971344
+201,197128,Kissingenstrasse,4,1971537
+202,197128,U-Bhf. Pankow,5,19711140
+203,197129,"Moabit, Waldstrasse Ecke Turmstrasse",0,1971697
+204,197129,Otto-Suhr-Allee Ecke Cauerstrasse,1,1971770
+205,197129,Kurfürstendamm Ecke Leibnizstrasse,2,1971574
+206,197129,Fehrbelliner Platz,3,1971270
+207,197129,Detmolder Strasse Ecke Blissestrasse,4,1971213
+208,197129,Breitenbachplatz,5,1971154
+209,197129,Botanischer Garten,6,1971151
+210,197129,Pacelli/Thielallee,7,1971771
+211,197129,Clayallee Ecke Königin-Luise-Strasse,8,1971199
+212,197129,U-Bhf. Oskar-Helene-Heim,9,19711139
+213,197129,Potsdamer Strasse Ecke Clayallee,10,1971812
+214,197129,Rathaus Zehlendorf,11,1971856
+215,197129,Beeskowdamm Ecke Teltowerdamm,12,197183
+216,197129,Wismarer Strasse Ecke Goerzallee,13,19711251
+217,197129,Lindenstrasse Ecke Müllerstrasse,14,1971638
+218,197130,Haselhorster Damm Ecke Gartenfelderstrasse,0,1971392
+219,197130,Paulsternstrasse Ecke Nonnendammallee,1,1971790
+220,197130,Verwaltungs-Gebäude,2,19711174
+221,197130,Spandauer Damm Ecke Fürstenbrunner Weg,3,19711033
+222,197130,Kaiserdamm Ecke Königin-Elisabethstrasse,4,1971511
+223,197130,Amtsgericht,5,197157
+224,197130,Kurfürstendamm Ecke Joachim-Friedrichstrasse,6,1971573
+225,197130,Henriettenplatz,7,1971427
+226,197130,Elsterplatz,8,1971249
+227,197130,Königin-Luise-Strasse Ecke Pacelliallee,9,1971585
+228,197130,U-Bhf. Thielplatz,10,19711151
+229,197130,Berliner Strasse Ecke Unter den Eichen,11,197194
+230,197130,Teltower Damm Ecke Potsdamerstrasse,12,19711080
+231,197130,Behring-Krankenhaus,13,197184
+232,197130,Lupsteiner Weg,14,1971650
+233,197131,"Dahlem, Waldfriedhof",0,1971205
+234,197131,U-Bhf. Oskar-Helene-Heim,1,19711139
+235,197131,Saargemünder Strasse Ecke Kehler Weg,2,1971955
+236,197131,Corrensplatz,3,1971202
+237,197131,Unter den Eichen Ecke Habelschwerdterallee,4,19711164
+238,197131,Ringstrasse Ecke Drakestrasse,5,1971879
+239,197131,Wiesenbaude,6,19711227
+240,197131,Marienstrasse Ecke Königsbergerstrasse,7,1971679
+241,197131,Kranoldplatz,8,1971565
+242,197131,Geraer Strasse Ecke Mariannenstrasse,9,1971323
+243,197131,Sondershausener Strasse Ecke Hildburghauserstrasse,10,19711021
+244,197131,Alt-Marienfelde Ecke Marienfelderallee,11,197131
+245,197131,Daimlerstrasse Ecke Großbeerenstrasse,12,1971208
+246,197131,Körtingstrasse Ecke Großbeerenstrasse,13,1971596
+247,197131,U-Bhf. Alt-Mariendorf,14,19711110
+248,197132,Bernauerstrasse Ecke Gartenstrasse,0,197199
+249,197132,Gartenplatz,1,1971312
+250,197132,U-Bhf. Leopold-Platz,2,19711130
+251,197132,U-Bhf. Seestrasse,3,19711147
+252,197132,Bristolstrasse Ecke Barfusstrasse,4,1971158
+253,197132,Emmentaler Strasse Ecke Aroserallee,5,1971252
+254,197132,Lindauer Allee Ecke Aroserallee,6,1971632
+255,197132,Tessenowstrasse Ecke Roedernallee,7,19711089
+256,197132,Rathaus Reinickendorf,8,1971849
+257,197132,Zabel-Krüger-Damm Ecke Oraniendamm,9,19711273
+258,197132,Almutstrasse Ecke Berlinerstrasse,10,197117
+259,197132,Hermsdorfer Damm Ecke Burgfrauenstrasse,11,1971435
+260,197132,Zeltinger Platz,12,19711275
+261,197132,Donnersmarckplatz,13,1971227
+262,197132,Hainbuchenstrasse Ecke Maximilian-Korso,14,1971381
+263,197133,Heiligensee,0,1971414
+264,197133,Gabelung,1,1971308
+265,197133,Karolinenstrasse Ecke Heiligenseestrasse,2,1971525
+267,197133,U-Bhf. Tegel,3,19711149
+268,197133,Bernauer Strasse Ecke Berlinerstrasse,4,197198
+269,197133,Krankenhaus Tegel-Süd,5,1971563
+270,197133,Strasse nach Saatwinkel,6,19711056
+271,197133,Paulsternstrasse Ecke Gartenfelderstrasse,7,1971789
+272,197133,Daumstrasse Ecke Am Juliusturm,8,1971212
+273,197133,Carl-Schurz-Strasse Ecke Am Juliusturm,9,1971190
+274,197133,Rathaus Spandau,10,1971852
+275,197133,Seebugerstrasse Ecke Klosterstrasse,11,19711009
+276,197133,Päwesiner Weg Ecke Seeburgerstrasse,12,1971835
+277,197133,Heerstrasse Ecke Wilhelmstrasse,13,1971410
+278,197133,Weinmeisterhornweg Ecke Wilhelmstrasse,14,19711209
+279,197134,Heiligensee Ecke Alt-Heiligensee,0,1971416
+280,197134,Mattenbuder Pfad,1,1971686
+281,197134,Ruppiner Chaussee Ecke Hennigsdorferstrasse,2,1971900
+282,197134,Dambockstrasse Ecke Ruppinerchaussee,3,1971209
+283,197134,Heiligenseestrasse Ecke Karolinenstrasse,4,1971417
+284,197134,U-Bhf. Tegel,5,19711149
+285,197134,Ziekowstrasse Ecke Gorkistrasse,6,19711282
+286,197134,Rathaus Reinickendorf,7,1971849
+287,197134,Bonhoeffer Klinik,8,1971145
+288,197134,Aroser Allee Ecke Lindauerallee,9,197164
+289,197134,Raschdorffstrasse Ecke Residenzstrasse,10,1971847
+290,197134,Pankower Allee Ecke Provinzstrasse,11,1971780
+291,197134,Pankstrasse Ecke Badstrasse,12,1971783
+292,197134,U-Bhf. Gesundbrunnen,13,19711121
+293,197134,Rügenerstrasse Ecke Brunnenstrasse,14,1971909
+294,197135,Alt-Heiligensee,0,197121
+295,197135,Havelblick,1,1971402
+296,197135,Strandbad,2,19711055
+297,197135,Gemeindefriedhof,3,1971322
+298,197135,Sperberstrasse,4,19711037
+299,197135,Falkenplatz,5,1971266
+300,197136,Wittenauer Strasse Ecke Eichhorsterweg,0,19711255
+301,197136,Cyclopstrasse Ecke Oranienburgerstrasse,1,1971203
+302,197136,Alt-Wittenau Ecke Eichborndamm,2,197139
+303,197136,Breitenbachstrasse Ecke Eichborndamm,3,1971156
+304,197136,Holzhauser Strasse Ecke Breitenbachstrasse,4,1971465
+305,197136,Ernststrasse Ecke Conradstrasse,5,1971258
+306,197136,Gorkistrasse Ecke Ziekowstrasse,6,1971336
+307,197136,U-Bhf. Tegel,7,19711149
+308,197136,Hermsdorfer Damm Ecke Karolinenstrasse,8,1971436
+309,197136,Schulzendorfer Strasse Ecke Hermsdorferdamm,9,1971982
+310,197136,Dominikus-Krankenhaus,10,1971226
+311,197136,Donnersmarckplatz,11,1971227
+312,197136,Zeltinger Platz,12,19711275
+313,197136,Am Pilz,13,197150
+314,197136,"Frohnau, Invalidensiedlung",14,1971304
+315,197137,Osloer Strasse Ecke Koloniestrasse,0,1971758
+316,197137,Louise-Schroeder-Platz,1,1971646
+317,197137,U-Bhf. Seestrasse,2,19711147
+318,197137,Virchow-Krankenhaus,3,19711178
+319,197137,Fennstrasse Ecke Tegelerstrasse,4,1971273
+320,197137,Birkenstrasse Ecke Perlebergerstrasse,5,1971123
+321,197137,Hansaplatz,6,1971389
+322,197137,Großer Stern,7,1971357
+323,197137,Lützowplatz,8,1971655
+324,197137,Nollendorfplatz,9,1971729
+325,197137,Rathaus Schöneberg,10,1971850
+326,197137,Prinzregentenstrasse,11,1971830
+327,197137,Bundesplatz,12,1971177
+328,197137,Breitenbachplatz,13,1971154
+329,197137,Englerallee,14,1971253
+330,197138,"Grunewald, Fontanestrasse",0,1971362
+331,197138,Roseneck,1,1971889
+332,197138,Warnemünder Strasse Ecke Breitestrasse,2,19711195
+333,197138,U-Bhf. Rüdesheimer Platz,3,19711145
+334,197138,Friedrich-Wilhelm-Platz,4,1971294
+335,197138,Walter-Schreiber-Platz,5,19711187
+336,197138,Rathaus Steglitz,6,1971853
+337,197138,Bismarckstrasse Ecke Albrechtstrasse,7,1971127
+338,197138,Leonorenstrasse Ecke Siemensstrasse,8,1971616
+339,197138,Königsberger Strasse Ecke Ostpreußen Damm,9,1971587
+340,197138,Morgensternstrasse Ecke Königsbergerstrasse,10,1971702
+341,197138,Oberhofer Platz,11,1971736
+342,197138,Saaleckplatz,12,1971953
+343,197138,Scheelestrasse,13,1971964
+344,197138,Celsiusstrasse,14,1971192
+345,197139,U-Bhf. Oskar-Helene-Heim,0,19711139
+346,197139,Potsdamer Strasse Ecke Clayallee,1,1971812
+347,197139,Spanische Allee Ecke Potsdamerchaussee,2,19711036
+348,197139,Kronprinzessinen Weg Ecke Potsdamer Chaussee,3,1971566
+349,197139,Stölpchensee,4,19711067
+350,197139,Machnowerstrasse Ecke Königsweg,5,1971657
+351,197140,Roseneck,0,1971889
+352,197140,Hagenplatz,1,1971380
+353,197140,Erdener Strasse Ecke Königsallee,2,1971254
+354,197140,Henriettenplatz,3,1971427
+355,197140,Wilmersdorfer Strasse Ecke Kurfürstendamm,4,19711247
+356,197140,Olivaer Platz,5,1971743
+357,197140,Joachimstaler Strasse Ecke Kurfürstendamm,6,1971496
+358,197140,Breitscheidplatz,7,1971157
+359,197140,Wittenbergplatz,8,19711256
+360,197140,Nollendorfplatz,9,1971729
+361,197140,Potsdamer Strasse Ecke Bülowstrasse,10,1971811
+362,197140,Bautzener Strasse Ecke Yorckstrasse,11,197180
+363,197140,Katzbachstrasse Ecke Yorckstrasse,12,1971531
+364,197140,Mehringdamm Ecke Gneisenaustrasse,13,1971688
+365,197140,Flughafen,14,1971276
+366,197141,U-Bhf. Friedrich-Wilhelm-Platz,0,19711117
+367,197141,Walter-Schreiber-Platz,1,19711187
+368,197141,Bismarcktrasse Ecke Feuerbachstrasse,2,1971131
+369,197141,Steglitzer Damm Ecke Bismarckstrasse,3,19711050
+370,197141,Leonorenstrasse Ecke Siemensstrasse,4,1971616
+371,197141,"Lankwitz, Kirche",5,1971603
+372,197141,Lerbacher Weg,6,1971619
+373,197141,Sonderhauserstrasse Ecke Hildburghauserstrasse,7,19711020
+374,197141,Waldsassener Strasse Ecke Ahrensdorfer Strasse,8,19711184
+375,197142,"Tegelort, Almazeile",0,19711079
+376,197142,Gerlindeweg,1,1971324
+377,197142,Falkenplatz,2,1971266
+378,197142,Freiheitsweg,3,1971288
+379,197142,Heiligenseestrasse Ecke Konradshöherstrasse,4,1971418
+381,197142,Karolinenstrasse Ecke Heiligenseestrasse,5,1971526
+382,197142,U-Bhf. Tegel,6,19711149
+383,197142,Hatzfeldtallee Ecke Waidmannsluster Damm,7,1971393
+384,197142,Martin-Luther-Friedhof,8,1971680
+385,197142,Freie Scholle,9,1971287
+386,197142,Waldhornstrasse Ecke Waidmannsluster,10,19711182
+387,197142,Cyclopstrasse Ecke Waidmannsluster,11,1971204
+388,197142,Oraniendamm Ecke Waidmannsluster,12,1971755
+389,197142,Am Vierrutenberg,13,197155
+390,197142,"Lübars, Alt-Lübars",14,1971654
+391,197143,"Quickborner Strasse, Märkische Viertel",0,1971839
+392,197143,Wilhelmsruherdamm Ecke Dannenwalderweg,1,19711240
+393,197143,Oranienburger Strasse Ecke Eichborndamm,2,1971750
+394,197143,Alt-Wittenau Ecke Eichborndamm,3,197139
+395,197143,Breitenbachstrasse Ecke Eichborndamm,4,1971156
+396,197143,Scharnweberstrasse Ecke Eichborndamm,5,1971963
+397,197143,Kurt-Schumacher-Platz,6,1971581
+398,197143,Heckerdamm Ecke Kurt-Schumacher Damm,7,1971403
+399,197143,Jakob-Kaiser-Platz,8,1971492
+400,197143,Luisenplatz,9,1971649
+401,197143,Kantstrasse Ecke Kaiser-Friedrichstrasse,10,1971516
+402,197143,Amtsgericht,11,197157
+403,197143,Kurfürstendamm Ecke Joachim-Friedrichstrasse,12,1971573
+404,197143,Hohenzollerndamm Ecke Seesenerstrasse,13,1971455
+405,197143,Fehrbelliner Platz,14,1971270
+406,197144,Kurt-Schumacher-Platz,0,1971581
+407,197144,Lindauer Allee Ecke Ollenhauerstrasse,1,1971633
+408,197144,Roedernallee Ecke Nordgraben,2,1971884
+409,197144,Märkisches Zentrum,3,1971708
+410,197144,Calauer Strasse Ecke Finsterwalderstrasse,4,1971189
+411,197144,Wittenauer Strasse Ecke Eichhorster Weg,5,19711254
+412,197145,Hardenbergplatz,0,1971391
+413,197145,Ernst-Reuter-Platz,1,1971256
+414,197145,Hansaplatz,2,1971389
+415,197145,Gotzkowskystrasse Ecke Alt-Moabit,3,1971340
+416,197145,Turmstrasse Ecke Beusselstrasse,4,19711107
+417,197145,Seestrasse Ecke Beusselstrasse,5,19711013
+418,197145,Plötzensee,6,1971808
+419,197145,Reichweindamm,7,1971866
+420,197145,Jakob-Kaiser-Platz,8,1971492
+421,197145,Heckerdamm Ecke Kurt-Schumacher Damm,9,1971403
+422,197145,Halemweg Ecke Toeplerstrasse,10,1971383
+423,197145,Goebelplatz,11,1971333
+424,197145,Rohrdamm Ecke Nonnendamm Allee,12,1971887
+425,197145,Buolstrasse Ecke Rohrdamm,13,1971179
+426,197146,Wiebestrasse Ecke Huttenstrasse,0,19711225
+427,197146,Gotzkowskystrasse Ecke Turmstrasse,1,1971341
+428,197146,Stromstrasse Ecke Turmstrasse,2,19711064
+429,197146,Rathenower Strasse Ecke Turmstrasse,3,1971860
+430,197146,Alt-Moabit Ecke Paulstrasse,4,197134
+431,197146,John-Foster-Dulles-Allee Ecke Spreeweg,5,1971503
+432,197146,Tiergartenstrasse Ecke Hofjägerstrasse,6,19711099
+433,197146,Lützowplatz,7,1971655
+434,197146,Potsdamer Strasse Ecke Lützowstrasse,8,1971814
+435,197146,Askanischer Platz,9,197166
+437,197146,U-Bhf. Hallesches Tor,10,19711122
+438,197146,Gneisenaustrasse Ecke Zossenstrasse,11,1971332
+439,197146,Columbiadamm Ecke Friesenstrasse,12,1971200
+440,197146,Platz der Luftbrücke,13,1971805
+441,197147,U-Bhf. Friedrich-Wlhelm-Patz,0,19711118
+442,197147,Kaisereiche,1,1971512
+443,197147,Grazer Platz,2,1971345
+444,197147,Attilaplatz,3,197168
+445,197147,Tempelhofer Damm Ecke Ordensmeisterstrasse,4,19711086
+446,197147,Gottlieb-Dunkel-Strasse Ecke Tempelhofer Weg,5,1971339
+447,197147,Britzer Damm,6,1971161
+448,197147,U-Bhf. Parchimer Allee,7,19711143
+449,197147,Grüner Weg Ecke Buschkrugallee,8,1971370
+450,197148,U-Bhf. Tempelhof,0,19711150
+451,197148,Dudenstrasse Ecke Katzbachstrasse,1,1971231
+452,197148,Mehringdamm Ecke Yorckstrasse,2,1971689
+453,197148,Urban-Krankenhaus,3,19711166
+454,197148,Mariannenplatz,4,1971670
+455,197148,U-Bhf. Schlesisches Tor,5,19711146
+456,197148,Heckmannufer Ecke Schlesischestrasse,6,1971406
+457,197149,Roseneck,0,1971889
+458,197149,Berkaer Strasse Ecke Teplitzerstrasse,1,197190
+459,197149,Bismarckplatz,2,1971125
+460,197149,Henriettenplatz,3,1971427
+461,197149,Joachim-Friedrich-Strasse Ecke Kurfürstendamm,4,1971494
+462,197149,Wilmersdorfer Strasse Ecke Kurfürstendamm,5,19711247
+463,197149,Olivaer Platz,6,1971743
+464,197149,Uhlandstrasse Ecke Kurfürstendamm,7,19711160
+465,197149,Joachimstaler Strasse Ecke Kurfürstendamm,8,1971496
+466,197149,Wittenbergplatz,9,19711256
+467,197149,Lützowplatz,10,1971655
+468,197149,Potsdamer Strasse Ecke Schöneberger Ufer,11,1971815
+470,197149,Askanischer Platz,12,197167
+471,197149,U-Bhf. Kochstrasse,13,19711124
+472,197149,Oranienplatz,14,1971756
+473,197150,Düppel-Süd,0,1971233
+474,197150,Ludwigsfelder Strasse Ecke Berlepschstrasse,1,1971647
+475,197150,Machnower Strasse Ecke Berlepschstrasse,2,1971656
+476,197150,Rathaus Zehlendorf,3,1971856
+477,197150,Schützallee Ecke Riemeisterstrasse,4,19711008
+478,197150,U-Bhf. Krumme Lanke,5,19711126
+479,197150,Lindenthaler Allee Ecke Potsdamerchaussee,6,1971642
+480,197150,Spanische Allee Ecke Potsdamerchaussee,7,19711036
+481,197150,Schopenhauer-Strasse Ecke Spanischeallee,8,1971979
+482,197150,Borussenstrasse Ecke Spanischeallee,9,1971149
+483,197150,Wannsee,10,19711193
+484,197150,Am Großen Wannsee Ecke Königstrasse,11,197147
+485,197150,Koblanckstrasse Ecke Am Großen Wannsee,12,1971549
+486,197150,Krankenhaus Wannsee,13,1971564
+487,197150,Heckeshorn,14,1971405
+488,197151,U-Bhf. Ruhleben,0,19711144
+489,197151,Stresowplatz,1,19711061
+491,197151,Rathaus Spandau,2,1971852
+492,197151,Nauener Strasse Ecke Brunsbütteler Damm,3,1971717
+493,197151,Magistratsweg Ecke Brunsbütteler Damm,4,1971659
+494,197151,Heidebergplan,5,1971412
+495,197152,Breitenbachplatz,0,1971154
+496,197152,Gritznerstrasse Ecke Schildhornstrasse,1,1971353
+497,197152,Schloßstrasse Ecke Albrechtstrasse,2,1971975
+498,197152,Rathaus Steglitz,3,1971853
+499,197152,Bismarckstrasse Ecke Albrechtstrasse,4,1971127
+500,197152,"Lankwitz, Kirche",5,1971603
+501,197152,Belßstrasse Ecke Malteserstrasse,6,197186
+502,197152,Alt-Marienfelde Ecke Marienfelder Allee,7,197130
+503,197152,Stegerwaldstrasse Ecke Marienfelder Allee,8,19711048
+504,197152,"Marienfelde, Bahnstrasse Ecke Marienfelder Allee",9,1971675
+505,197153,Berlinickestrasse,0,197196
+506,197153,Bismarckstrasse Ecke Steglitzer Damm,1,1971130
+507,197153,Heinrich-Seidel-Strasse Ecke Steglitzer Damm,2,1971424
+508,197153,Gersdorfstrasse Ecke Kaiserstrasse,3,1971325
+509,197153,Mariendorfer Damm Ecke Kaiserstrasse,4,1971672
+510,197153,Dirschelweg Ecke Rixdorfer Strasse,5,1971224
+511,197154,"Spandau, Wasserwerk",0,19711032
+512,197154,Friedhof,1,1971292
+513,197154,Askanierring,2,197165
+514,197154,Wröhmännerpark,3,19711266
+515,197154,Rathaus Spandau,4,1971852
+516,197154,Wilhelmstrasse,5,19711242
+517,197154,Adamstrasse,6,19713
+518,197154,Heerstrasse,7,1971408
+519,197154,Gatower Strasse,8,1971317
+520,197154,"Gatow, Kirche",9,1971316
+521,197154,Großglienicker Weg,10,1971358
+522,197154,Krankenhaus Hohengatow,11,1971560
+523,197154,Krankenhaus Havelhöhe,12,1971559
+524,197154,Alt-Kladow,13,197123
+525,197154,Schwiezerhaus,14,1971987
+526,197154,Gutshof,15,1971372
+527,197155,U-Bhf. Ruhleben,0,19711144
+528,197155,Teltower Strasse Ecke Charlottenburgerchaussee,1,19711081
+529,197155,Krowelstrasse,2,1971569
+530,197155,Pichelsdorfer Strasse Ecke Weißenburgerstrasse,3,1971798
+531,197155,Adamstrasse Ecke Földerichstrasse,4,19714
+532,197155,Wilhelmstrasse Ecke Adamstrasse,5,19711243
+533,197155,Heerstrasse Ecke Gatowerstrasse,6,1971409
+534,197155,Weinmeisterhornweg Ecke Gatowerstrasse,7,19711208
+535,197155,"Gatow, Kirche",8,1971316
+536,197155,Krankenhaus Hohengatow,9,1971560
+537,197155,Krankenhaus Havelhöhe,10,1971559
+538,197155,Alt-Kladow Ecke Kladowerdamm,11,197124
+539,197155,Krampnitzer Weg,12,1971558
+540,197155,Hottengrund,13,1971468
+541,197156,Brixplatz,0,1971164
+542,197156,Theodor-Heuss-Platz,1,19711091
+543,197156,Messedamm Ecke Masurenallee,2,1971693
+544,197156,Henriettenplatz,3,1971427
+545,197156,Hochmeisterplatz,4,1971445
+546,197156,Fehrbelliner Platz,5,1971270
+547,197156,Bundesallee Ecke Badenschestrasse,6,1971174
+548,197156,Rathaus Schöneberg,7,1971850
+549,197156,Hauptstrasse Ecke Dominicusstrasse,8,1971399
+550,197156,Kaiser-Wilhelm-Platz,9,1971509
+551,197156,U-Bhf. Flughafen,10,19711116
+552,197156,Friesenstrasse Ecke Columbiadamm,11,1971302
+553,197156,Kienitzer Strasse Ecke Hermannstrasse,12,1971534
+554,197156,Sonnenallee Ecke Erkstrasse,13,19711023
+555,197156,Teuptitzerstrasse Ecke Kiehl-Ufer,14,19711090
+556,197157,Gradestrasse,0,1971342
+557,197157,U-Bhf. Blaschko-Allee,1,19711111
+558,197157,Krankenhaus Neukölln,2,1971562
+559,197157,Zwickauer Damm Ecke Neuköllnerstrasse,3,19711291
+560,197157,Schönefelderstrasse Ecke Waltersdorferstrasse,4,1971992
+561,197157,Rudow Stadtgrenze,5,1971895
+562,197158,Potsdamer Strasse Ecke Fischerhüttenstrasse,0,1971813
+563,197158,Sundgauer Strasse Ecke Berlinerstrasse,1,19711071
+564,197158,Drakestrasse Ecke Unter den Eichen,2,1971230
+565,197158,Rathaus Steglitz,3,1971853
+566,197158,Walter-Schreiber-Platz,4,19711187
+567,197158,Innsbrucker Platz,5,1971487
+568,197158,Kaiser-Wilhelm-Platz,6,1971509
+569,197158,U-Bhf. Kurfürstenstrasse,7,19711127
+570,197158,"Philharmonie, Tiergartenstrasse",8,1971795
+571,197159,U-Bhf. Ruhleben,0,19711144
+572,197159,Stresowplatz,1,19711061
+574,197159,Rathaus Spandau,2,1971852
+575,197159,Falkenseer Chaussee Ecke Zeppelinstrasse,3,1971267
+577,197159,Waldkrankenhaus,4,19711183
+578,197159,Nervenklinik,5,1971719
+579,197160,Roseneck,0,1971889
+580,197160,Forckenbeckstrasse Ecke Hohenzollerndamm,1,1971280
+581,197160,Rudolstädter Strasse Ecke Hohenzollerndamm,2,1971894
+582,197160,Fehrbelliner Platz,3,1971270
+583,197160,Martin-Luther-Strasse Ecke Hohenstaufenstrasse,4,1971681
+584,197160,Potsdamerstrasse Ecke Pallastrasse,5,1971817
+585,197160,Mansteinstrasse Ecke Yorckstrasse,6,1971668
+586,197161,"Marienfelde, Stadtrand-Siedlung",0,1971677
+587,197161,Alt-Marienfelde Ecke Marienfelder Allee,1,197130
+588,197161,Lichtenrader Damm Ecke Buckower Chaussee,2,1971625
+589,197161,Buckower Damm Ecke Alt-Buckow,3,1971172
+590,197161,U-Bhf. Johannisthaler Chaussee,4,19711123
+591,197161,Rudower Strasse Ecke Johannisthaler Chaussee,5,1971896
+592,197161,Wutzkyallee,6,19711268
+593,197161,Efeuweg,7,1971238
+594,197161,Stubenrauchstrasse,8,19711065
+595,197162,"Nikolassee, Alemannenstrasse",0,1971727
+596,197162,Krottnaurerstrasse,1,1971568
+597,197162,Waldemarplatz,2,19711181
+598,197162,Argentinische Allee Ecke Matterhornstrasse,3,197161
+599,197162,U-Bhf. Krumme Lanke,4,19711126
+600,197162,Teltower Damm Ecke Potsdamerstrasse,5,19711080
+601,197162,Rathaus Zehlendorf,6,1971856
+602,197162,Knesebeckstrasse Ecke Seehofstrasse,7,1971545
+603,197162,Dahlemer Weg Ecke Seehofstrasse,8,1971207
+604,197162,4. Ring,9,19710
+605,197162,Luzerner Strasse Ecke Appzellerstrasse,10,1971652
+606,197162,Thuner Platz,11,19711094
+607,197162,Wiesenbaude,12,19711227
+608,197162,Ostpreußendamm Ecke Königsberstrasse,13,1971765
+609,197162,Oberhofer Platz,14,1971736
+610,197163,"Zoo, Hardenbergplatz",0,19711285
+611,197163,Ernst-Reuter-Platz,1,1971256
+612,197163,Cauerstrasse Ecke Otto-Suhr-Allee,2,1971191
+613,197163,Richard-Wagner-Platz,3,1971876
+614,197163,Luisenplatz,4,1971649
+615,197163,Fürstenbbrunner Weg Ecke Spandauer Damm,5,1971307
+616,197163,Schloß Ruhwald,6,1971972
+617,197163,U-Bhf. Ruhleben,7,19711144
+618,197163,Teltowerstrasse Ecke Charlottenburgerstrasse,8,19711082
+619,197163,Rathaus Spandau,9,1971852
+620,197163,Moritzstrasse Ecke Altstädter Ring,10,1971705
+621,197163,Wröhmännerpark,11,19711266
+622,197163,Lynarstrasse Ecke Schönwälderstrasse,12,1971653
+623,197163,Hohenzollernring,13,1971459
+624,197163,Johannesstift,14,1971498
+625,197164,"Zoo, Hardenbergplatz",0,19711285
+626,197164,Ernst-Reuter-Platz,1,1971256
+627,197164,Cauerstrasse Ecke Otto-Suhr-Allee,2,1971191
+628,197164,Richard-Wagner-Platz,3,1971876
+629,197164,Luisenplatz,4,1971649
+630,197164,Osnabrückerstrasse Ecke Tauroggenerstrasse,5,1971761
+631,197164,Landgericht,6,1971599
+632,197164,Jakob-Kaiser-Platz,7,1971492
+633,197164,Quellweg Ecke Nonnendamm Allee,8,1971837
+634,197164,Paulsternstrasse Ecke Gartenfelderstrasse,9,1971789
+635,197164,Zitadellenweg Ecke Am Juliusturm,10,19711283
+636,197164,Carl-Schurz-Strasse Ecke Am Juliusturm,11,1971190
+637,197164,Wröhmannerpark,12,19711265
+638,197164,Hohenzollernring,13,1971459
+639,197164,Hakenfelde,14,1971382
+640,197165,U-Bhf. Ruhleben,0,19711144
+642,197165,Stresowplatz,1,19711062
+643,197165,"Spandau, Markt",2,19711031
+644,197165,Wröhmännerpark,3,19711266
+645,197165,Hohenzollernring,4,1971459
+646,197165,Hakenfelde,5,1971382
+647,197166,Zwickauer Damm,0,19711289
+648,197166,U-Bhf. Zwickauer Damm,1,19711154
+649,197166,Köpenicker Strasse Ecke Neuköllnerstrasse,2,1971595
+650,197166,Kanalstrasse Ecke Köpenickerstrasse,3,1971515
+651,197166,Stubenrauchstrasse Ecke Kanalstrasse,4,19711066
+652,197166,Zwickauer Damm,5,19711289
+653,197167,Wannsee,0,19711193
+654,197167,Königstrasse Ecke Kronprinzessinnenweg,1,1971589
+655,197167,Pfaueninselchaussee Ecke Königstrasse,2,1971794
+656,197167,Rathaus Wannsee,3,1971855
+657,197167,Friedenstrasse Ecke Königstrasse,4,1971291
+658,197167,Schäferberg,5,1971988
+659,197167,Nikolskoer Weg Ecke Königstrasse,6,1971728
+660,197167,Glienicker Brücke,7,1971330
+661,197168,Wittenbergplatz,0,19711256
+662,197168,Breitscheidplatz,1,1971157
+663,197168,Joachimstaler Strasse Ecke Kantstrasse,2,1971495
+664,197168,Kurfürstendamm Ecke Uhlandstrasse,3,1971575
+665,197168,Hohenzollerndamm Ecke Uhlandstrasse,4,1971457
+666,197168,Berliner Strasse Ecke Uhlandstrasse,5,197193
+667,197168,Rudolf-Mosse-Strasse Ecke Mecklenburgischestrasse,6,1971893
+668,197168,Berkaer Strasse Ecke Breitestrasse,7,197189
+669,197168,Roseneck,8,1971889
+670,197168,Im Dol,9,1971484
+671,197168,U-Bhf. Oskar-Helene-Heim,10,19711139
+672,197168,Schützallee Ecke Clayallee,11,19711007
+673,197168,Potsdamer Strasse Ecke Clayallee,12,1971812
+674,197168,Rathaus Zehlendorf,13,1971856
+675,197169,"Gartenplatz, Feldstrasse",0,1971313
+676,197169,U-Bhf. Gesundbrunnen,1,19711121
+677,197169,Pankstrasse Ecke Badstrasse,2,1971783
+678,197169,Schwedenstrasse Ecke Osloerstrasse,3,1971986
+680,197169,Pankower Allee Ecke Residenzstrasse,4,1971782
+681,197169,Aroser Allee Ecke Lindauerallee,5,197164
+682,197169,Kurt-Schumacher-Platz,6,1971581
+683,197169,Zobeltitzstrasse Ecke Eichborndamm,7,19711284
+684,197170,"Wilhemsruher Damm, Sektorengrenze",0,19711244
+685,197170,Treuenbrietzener Strasse Ecke Wilhelmsruher Damm,1,19711105
+686,197170,Eichhorster Weg Ecke Wilhelmsruher Damm,2,1971243
+687,197170,Oranienburgerstrasse Ecke Eichborndamm,3,1971754
+688,197170,Alt-Wittenau Ecke Oranienburgerstrasse,4,197140
+689,197170,Bonhoeffer Klinik,5,1971145
+690,197170,Waldstrasse Ecke Ollenhauerstrasse,6,19711186
+691,197170,U-Bhf. Kurt-Schumacher-Platz,7,19711128
+692,197170,Kaserne Südtor,8,1971530
+693,197170,Heckerdamm Ecke Schumacher Damm,9,1971404
+694,197170,Jakob-Kaiser-Platz,10,1971492
+695,197170,Luisenplatz,11,1971649
+696,197170,Ernst-Reuter-Platz,12,1971256
+697,197170,"Zoo, Hardenbergplatz",13,19711285
+698,197171,Radelandstrasse Ecke Niederheideweg,0,1971840
+699,197171,Kisselnallee Ecke Pionierstrasse,1,1971536
+700,197171,Zweibrücker Strasse Ecke Falkenseerchaussee,2,19711288
+701,197171,Rathaus Spandau,3,1971852
+702,197171,Hochgerichtstrasse Ecke Seegefelderstrasse,4,1971444
+703,197171,Seegefelder Weg,5,19711010
+704,197172,Märkisches Zentrum,0,1971708
+705,197172,Eichhorster Weg,1,1971242
+706,197172,Wilhelmsruher Damm Ecke Eichhorster Weg,2,19711239
+707,197172,Roedernallee Ecke Am Nordgraben,3,1971883
+708,197172,Tessenowstrasse Ecke Roadernallee,4,19711088
+709,197172,Humboldt-Krankenhaus,5,1971472
+710,197172,Holländerstrasse Ecke Londonerstrasse,6,1971460
+711,197172,Müllerstrasse Ecke Petersallee,7,1971716
+712,197172,Transvaalstrasse Ecke Afrikanischestrasse,8,19711101
+713,197172,Seestrasse Ecke Afrikanischestrasse,9,19711012
+714,197172,U-Bhf. Leopoldplatz,10,19711131
+715,197172,Uferstrasse Ecke Badstrasse,11,19711158
+716,197172,U-Bhf. Gesundbrunnen,12,19711121
+717,197172,Usedomer Strasse Ecke Brunnenstrasse,13,19711167
+718,197172,Vinetaplatz,14,19711176
+719,197173,U-Bhf. Seestrasse,0,19711147
+720,197173,Saatwinkler Damm Ecke Seestrasse,1,1971957
+721,197173,Jakob-Kaiser-Platz,2,1971492
+722,197173,Spandauer Damm Ecke Stadtautobahn,3,19711035
+723,197173,Messedamm Ecke Halenseestrasse,4,1971692
+724,197173,Rathenauplatz,5,1971857
+725,197173,Hohenzollerndamm Ecke Stadtautobahn,6,1971456
+726,197173,Bundesallee Ecke Stadtautobahn,7,1971176
+727,197173,Innsbrucker Platz,8,1971487
+728,197173,Hauptstrasse Ecke Dominicusstrasse,9,1971399
+729,197173,Tempelhofer Damm Ecke Tempelhof,10,19711087
+730,197173,Oberlandstrasse Ecke Germaniastrasse,11,1971737
+731,197173,Hermannstrasse Ecke Silbersteinstrasse,12,1971433
+732,197173,Karl-Marx-Strasse Ecke Silbersteinstrasse,13,1971521
+733,197173,Schulenburgpark,14,1971980
+734,197174,"Zoo, Hardenbergplatz",0,19711285
+735,197174,Leibnizstrasse Ecke Kantstrasse,1,1971607
+736,197174,Wilmersdorfer Strasse Ecke Kantstrasse,2,19711246
+737,197174,Amtsgericht,3,197157
+738,197174,Omnibusbahnhof,4,1971747
+739,197174,Kronprinzessinen Weg Ecke Spanische Allee,5,1971567
+740,197174,Wannsee,6,19711193
+741,197174,Am Großen Wannsee Ecke Königsstrasse,7,197146
+742,197174,"Stölpchensee, Glienickerstrasse",8,19711068
+743,197175,U-Bhf. Hallesches Tor,0,19711122
+744,197175,Moritzplatz,1,1971703
+745,197175,U-Bhf. Kottbusser Tor,2,19711125
+746,197175,Hermannplatz,3,1971429
+747,197175,Hertzbergplatz,4,1971437
+748,197175,Grenzallee Ecke Naumbürgerstrasse,5,1971352
+749,197175,Karl-Marx-Strasse Ecke Grenzallee,6,1971520
+750,197175,Blaschkoallee Ecke Buschkrugallee,7,1971138
+751,197175,Johannisthaler Chaussee Ecke Rudower Strasse,8,1971502
+752,197176,Clayallee Ecke Königin-Luise-Strasse,0,1971199
+753,197176,U-Bhf. Dahlem-Dorf,1,19711114
+754,197176,Hermann-Ehlers-Platz,2,1971428
+755,197176,Bismarckstrasse Ecke Bergstrasse,3,1971128
+756,197176,Attilaplatz,4,197168
+757,197176,Tempelhof,5,19711083
+758,197177,Dauerwaldweg Ecke Eichkampstrasse,0,1971211
+759,197177,Deutschlandhalle,1,1971216
+760,197177,Henriettenplatz,2,1971427
+761,197177,Joachim-Friedrich-Strasse Ecke Kurfürstendamm,3,1971494
+762,197177,Wilmersdorfer Strasse Ecke Kurfürstendamm,4,19711247
+763,197177,Olivaer Platz,5,1971743
+764,197177,Uhlandstrasse Ecke Lietzenburgerstrasse,6,19711161
+765,197177,Joachimstaler Strasse Ecke Lietzenburgerstrasse,7,1971497
+766,197177,Breitscheidplatz,8,1971157
+767,197177,Bayreuther Strasse Ecke Kurfürstenstrasse,9,197182
+768,197177,Lützowplatz,10,1971655
+769,197177,Tiergartenstrasse Ecke Hofjägerallee,11,19711098
+770,197177,Großer Stern,12,1971357
+771,197177,Kongreßhalle,13,1971552
+772,197177,Reichstag,14,1971865
+773,197178,"Wollankstrasse, Sektorengrenze",0,19711261
+774,197178,Pankstrasse Ecke Badstrasse,1,1971783
+775,197178,Weddingplatz,2,19711207
+776,197178,U-Bhf.Turmstrasse,3,19711157
+777,197178,Rathaus Tiergarten,4,1971854
+778,197178,Wiebestrasse Ecke Huttenstrasse,5,19711225
+779,197179,"Wilhelmsruh, Kopenhagener Strasse",0,19711236
+780,197179,Schäfersee,1,1971989
+781,197179,Osloer Strasse Ecke Prinzenstrasse,2,1971759
+782,197179,U-Bhf. Gesundbrunnen,3,19711121
+783,197179,Ramlerstrasse Ecke Swinemünderstrasse,4,1971845
+784,197179,Vinetaplatz,5,19711176
+785,197180,"Alt-Reinickendorf, Klemkestrasse Ecke Kopenhagenerstrasse",0,197135
+786,197180,Pankower Allee Ecke Residenzstrasse,1,1971781
+788,197180,Luise-Schröder-Platz,2,1971648
+789,197180,Weddingplatz,3,19711207
+790,197180,Rathenower Strasse Ecke Perlebergerstrasse,4,1971858
+791,197180,U-Bhf. Turmstrasse,5,19711153
+792,197180,Wiebestrasse Ecke Huttenstrasse,6,19711225
+793,197180,Tauroggener Strasse Ecke Osnabrückerstrasse,7,19711075
+794,197180,Landgericht,8,1971599
+795,197180,Jakob-Kaiser-Platz,9,1971492
+796,197180,Quellweg Ecke Nonnendammallee,10,1971838
+797,197180,Paulsternstrasse Ecke Nonnendammallee- Gartenfeld,11,1971791
+798,197181,"Zoo, Hardenbergplatz",0,19711285
+799,197181,Wittenbergplatz,1,19711256
+800,197181,Grunewaldstrasse Ecke Martin-Luther-Strasse,2,1971363
+801,197181,Hauptstrasse Ecke Dominicusstrasse,3,1971399
+802,197181,Berlinickeplatz,4,197195
+803,197181,Tempelhofer Damm Ecke Tempelhof,5,19711087
+804,197181,Gottlieb-Dunkel-Strasse Ecke Germaniastrasse,6,1971338
+805,197181,Britzer Damm Ecke Blaschkoallee,7,1971162
+806,197181,Buschkrug Ecke Blaschkoallee,8,1971183
+807,197182,Königin-Elisabeth-Strasse U-Bhf. Kaiserdamm,0,1971584
+808,197182,Spandauer Damm Ecke Königin-Elisabeth-Strasse,1,19711034
+809,197182,Schlossstrasse Ecke Spandauer Damm,2,1971971
+810,197182,Sophie-Charlotten-Platz,3,19711026
+811,197182,Kaiser-Friedrich-Strasse Ecke Kantstrasse,4,1971508
+812,197182,Wilmersdorfer Strasse Ecke Stuttgarter Platz,5,19711248
+813,197182,Kurfürstendamm Ecke Wilmersdorferstrasse,6,1971576
+814,197182,Fehrbelliner Platz,7,1971270
+815,197182,Bundesallee Ecke Berlinerstrasse,8,1971175
+816,197182,Hauptstrasse Ecke Dominicusstrasse,9,1971399
+817,197182,Gotenstrasse Ecke Sachsenstrasse,10,1971337
+818,197182,Alboinstrasse Ecke Sachsenstrasse,11,197111
+819,197182,Alboinplatz,12,197110
+820,197182,Lindenhof,13,1971634
+821,197183,Munsterdamm Ecke Steglitzer Damm,0,1971706
+822,197183,Bismarckstrasse Ecke Steglitzer Damm,1,1971130
+823,197183,Lauenburger Platz,2,1971604
+824,197183,Kaisereiche,3,1971512
+825,197183,Innsbrucker Platz,4,1971487
+826,197183,Kaiser-Wilhelm-Platz,5,1971509
+827,197183,U-Bhf. Bülowstrasse,6,19711113
+828,197183,Schöneberger Ufer Ecke Potsdamerstrasse,7,1971991
+830,197183,Askanischer Platz,8,197167
+831,197183,U-Bhf. Kochstrasse,9,19711124
+832,197183,Lindenstrasse Ecke Oranienstrasse,10,1971639
+833,197183,U-Bhf. Moritzplatz,11,19711136
+834,197183,Spreewaldplatz,12,19711042
+835,197183,Sonnenallee Ecke Pannierstrasse,13,19711024
+836,197183,Hermannplatz,14,1971429
+837,197184,Walter-Schreiber-Platz,0,19711187
+838,197184,Bismarckstrasse Ecke Feuerbachstrasse,1,1971129
+839,197184,Göttinger Strasse,2,1971374
+840,197184,Priesterweg,3,1971826
+841,197184,Attilastrasse Ecke Gersdorferstrasse,4,197169
+842,197184,Prühßstrasse Ecke Ringstrasse,5,1971831
+843,197184,Großbeerenstrasse Ecke Rathausstrasse,6,1971355
+844,197184,U-Bhf. Alt-Mariendorf,7,19711110
+845,197184,Rennbahn,8,1971871
+846,197184,Säntisstrasse,9,19711072
+847,197184,Buckower Chaussee Ecke Mariendorfer Damm,10,1971171
+848,197184,Goethestrasse,11,1971334
+849,197184,Rehagener Strasse Ecke Bahnhofstrasse,12,1971862
+850,197184,Blohmstrasse Ecke Illigstrasse,13,1971140
+851,197185,Britzer Allee Ecke Nobelstrasse,0,1971160
+852,197185,U-Bhf. Neukölln,1,19711138
+853,197185,Hermannstrasse Ecke Mariendorferweg,2,1971432
+854,197185,Eisenacher Strasse Ecke Rixdorferstrasse,3,1971247
+855,197185,U-Bhf. Alt-Mariendorf,4,19711110
+856,197185,"Marienfelde, Daimlerstrasse",5,1971676
+857,197186,U-Bhf. Alt-Mariendorf,0,19711110
+858,197186,Rennbahn,1,1971871
+859,197186,Säntisstrasse,2,19711072
+860,197186,Quarzweg Ecke Tauernallee,3,1971836
+861,197186,Marienfelder Chaussee Ecke Quarzweg,4,1971678
+862,197186,Alt-Buckow Ecke Buckower Damm,5,197118
+863,197187,Leopoldplatz,0,1971617
+864,197187,Reinickdorferstrasse Ecke Schulstrasse,1,1971868
+865,197187,Osloerstrasse Ecke Schwedenstrasse,2,1971760
+867,197187,Pankower Allee Ecke Residenzstrasse,3,1971782
+868,197187,Mittelbruchzeile,4,1971696
+869,197187,Raschdorffstrasse,5,1971846
+870,197187,Sommerstrasse Ecke Klemkestrasse,6,19711019
+871,197188,U-Bhf. Ruhleben,0,19711144
+872,197188,Stresowplatz,1,19711061
+874,197188,Rathaus Spandau,2,1971852
+875,197188,Nauener Strasse Ecke Brunsbütteler Damm,3,1971717
+876,197188,Magistratsweg Ecke Brunsbütteler Damm,4,1971659
+877,197188,Nennhauser Damm Ecke Brunsbütteler Damm,5,1971718
+878,197189,U-Bhf. Friedrich-Wilhelm-Platz,0,19711117
+879,197189,Walter-Schreiber-Platz,1,19711187
+880,197189,Bismarckstrasse Ecke Bergstrasse,2,1971128
+881,197189,Steglitzer Damm Ecke Halskestrasse,3,19711051
+882,197189,Leonorenstrasse Ecke Kaiser-Wilhelmstrasse,4,1971615
+883,197189,"Lankwitz, Kirche",5,1971603
+884,197189,"Alt-Lankwitz, Dorfaue",6,197125
+885,197189,Alt-Mariendorf Ecke Am Heidefriedhof,7,197129
+886,197189,Dardanellenweg Ecke rixdorferstrasse,8,1971210
+887,197190,Alt-Lichtenrade Ecke Goethestrasse,0,197126
+888,197190,Barnetstrasse Ecke Halker Zeile,1,197176
+889,197190,Illigstrasse Ecke Schichauweg,2,1971482
+890,197190,Blohmstrasse Ecke Illigstrasse,3,1971140
+891,197190,Kirchhainer Damm Ecke Wittelsbacherstrasse,4,1971535
+892,197190,Pechsteinstrasse Ecke Wittelsbacherstrasse,5,1971792
+893,197190,Würzburger Strasse Ecke Bambergerstrasse,6,19711270
+894,197190,Potsdamerstrasse Ecke Alt-Lichtenrade,7,1971816
+895,197191,Nettelbeckplatz,0,1971720
+896,197191,Weddingplatz,1,19711207
+897,197191,Tegeler Strasse Ecke Fennstrasse,2,19711078
+898,197191,Washingtonplatz,3,19711203
+899,197191,Schöneberger Ufer Ecke Potsdamerstrasse,4,1971991
+900,197191,U-Bhf. Bülowstrasse,5,19711113
+901,197191,Kaiser-Wilhelm-Platz,6,1971509
+902,197191,Innsbrucker Platz,7,1971487
+903,197191,Grazer Platz,8,1971345
+904,197191,Bergstrasse Ecke Torwaldsenstrasse,9,197188
+905,197191,Steglitzer Damm Ecke Halskestrasse,10,19711051
+906,197191,"Lankwitz, Kirche",11,1971603
+907,197191,Malteserstrasse Ecke Schneiderstrasse,12,1971667
+908,197191,Belßstrasse Ecke Malteserstrasse,13,197186
+909,197191,Preysingstrasse Ecke Belßstrasse,14,1971825
+910,197192,Ringstrasse Ecke Weißwasserweg,0,1971880
+911,197192,"Lichterfelde, Klinikum",1,1971629
+912,197192,Händelplatz,2,1971476
+913,197192,Friedenauer Brücke,3,1971290
+914,197192,Kaiser-Wilhelm-Platz,4,1971509
+915,197192,U-Bhf. Kurfürstenstrasse,5,19711127
+916,197193,Holtheimer Weg,0,1971463
+917,197193,Ostpreußendamm Ecke Wismarerstrasse,1,1971766
+918,197193,Thuner Platz,2,19711094
+919,197193,Rittberg-Krankenhaus,3,1971881
+920,197193,Drakestrasse,4,1971229
+921,197193,Moltkestrasse,5,1971701
+922,197193,Händelplatz,6,1971476
+923,197193,Rathaus Steglitz,7,1971853
+924,197193,Walter-Schreiber-Platz,8,19711187
+925,197193,Kaisereiche,9,1971512
+926,197193,Innsbrucker Platz,10,1971487
+927,197193,Rathaus Schöneberg,11,1971850
+928,197193,Grunewaldstrasse Ecke Martin-Luther-Strasse,12,1971363
+929,197193,Wittenbergplatz,13,19711256
+930,197194,"Invalidenstrasse, Sektorengrenze",0,1971490
+931,197194,Stromstrasse Ecke Alt-Moabit,1,19711063
+932,197194,Gotzkowskystrasse Ecke Alt-Moabit,2,1971340
+933,197194,Ernst-Reuter-Platz,3,1971256
+934,197194,Richard-Wagner-Platz,4,1971876
+935,197194,Kantstrasse Ecke Wilmersdorferstrasse,5,1971517
+936,197194,Kurfürstendamm Ecke Wilmersdorferstrasse,6,1971576
+937,197194,Fehrbelliner Platz,7,1971270
+938,197194,Hildegardstrasse Ecke Blissestrasse,8,1971440
+939,197194,Bundesplatz,9,1971177
+940,197194,Friedrich-Wilhelm-Platz,10,1971294
+941,197194,Walter-Schreiber-Platz,11,19711187
+942,197194,Rathaus Steglitz,12,1971853
+943,197194,Klingsorstrasse Ecke Birkbuschstrasse,13,1971542
+944,197194,Birkbuschstrasse,14,1971121
+945,197195,Richard-Wagner-Platz,0,1971876
+946,197195,Wilmersdorferstrasse Ecke Otto-Suhr-Allee,1,19711250
+947,197195,Luisenplatz,2,1971649
+948,197195,Klausenerplatz,3,1971538
+949,197195,Sophie-Charlotten-Strasse Ecke Spandauer Damm,4,19711027
+950,197195,Pulsstrasse Ecke Sophie-Charlottestrasse,5,1971832
+951,197196,"Bornholmerstrasse, Sektorengrenze",0,1971147
+952,197196,Prinzenallee Ecke Osloerstrasse,1,1971828
+953,197196,Schwedenstrasse Ecke Osloerstrasse,2,1971986
+954,197196,Louise-Schroeder-Platz,3,1971646
+955,197196,U-Bhf. Seestrasse,4,19711147
+956,197196,Afrikanischestrasse Ecke Seestrasse,5,19717
+957,197196,Beusselstrasse Ecke Seestrasse,6,1971105
+958,197196,Huttenstrasse Ecke Beusselstrasse,7,1971475
+959,197196,Ilsenburger Strasse Ecke Kaiserin-Augusta-Allee,8,1971483
+960,197196,Luisenplatz,9,1971649
+961,197196,Bismarckstrasse,10,1971126
+962,197196,Kantstrasse Ecke Wilmersdorferstrasse,11,1971517
+963,197196,Kurfürstendamm Ecke Wilmersdorferstrasse,12,1971576
+964,197196,Fehrbelliner Platz,13,1971270
+965,197197,"Hohenschönhausen, Marzahnerstrasse",0,1971451
+966,197197,Landsberger Chaussee,1,1971601
+967,197197,Marzahner Chaussee,2,1971684
+968,197197,S-Bhf. Friedrichsfelde Ost,3,1971919
+969,197197,Alt-Friedrichsfelde,4,197119
+970,197197,U-Bhf.Friedrichsfelde,5,19711155
+971,197198,"Bhf. Zoo, Hardenbergplatz",0,1971117
+972,197198,Ernst-Reuter-Platz,1,1971256
+973,197198,Dovebrücke,2,1971228
+974,197198,Alt-Moabit Ecke Gotzkowskystrasse,3,197133
+975,197198,U-Bhf. Turmstrasse,4,19711153
+976,197198,Rathenowerstrasse Ecke Alt-Moabit,5,1971861
+977,197198,Seydlitzstrasse Ecke Lehrterstrasse,6,19711016
+978,197198,Poststadion,7,1971810
+979,197198,Am Nordhafen,8,197149
+980,197198,Weddingplatz,9,19711207
+981,197198,Gartenstrasse Ecke Gerichtstrasse,10,1971315
+982,197198,Hussitenstrasse Ecke Grenzstrasse,11,1971474
+983,197198,Wattstrasse Ecke Usedomerstrasse,12,19711204
+984,197198,Vinetaplatz,13,19711176
+985,197199,Hermannplatz,0,1971429
+986,197199,U-Bhf. Leinestrasse,1,19711129
+987,197199,Mariendorfer Weg Ecke Britzer Damm,2,1971673
+988,197199,Gradestrasse Ecke Britzer Damm,3,1971343
+989,197199,Gutschmidtstrasse Ecke Buckowerdamm,4,1971371
+990,197199,Ringslebenstrasse Ecke Buckowerdamm,5,1971878
+991,1971100,"Zoo, Hardenbergplatz",0,19711285
+992,1971100,Wilmersdorfer Strasse Ecke Kantstrasse,1,19711246
+993,1971100,Amtsgericht,2,197157
+994,1971100,Messedamm Ecke Masurenallee,3,1971693
+995,1971100,Theodor-Heuss-Platz,4,19711091
+996,1971100,Reichssportfeldstrasse Ecke Heerstrasse,5,1971864
+997,1971100,Scholzplatz,6,1971978
+998,1971100,Pichelsdorfer Strasse Ecke Heerstrasse,7,1971797
+999,1971100,Konkordiastrasse Ecke Adamstrasse,8,1971553
+1000,1971101,Waßmannsdorfer Chaussee Ecke Großziethenerstrasse,0,19711205
+1001,1971101,Eichenauer Weg Ecke Waßmannsdorfer Chaussee,1,1971240
+1002,1971101,Lockenhuhnweg Ecke Waßmannsdorfer Chaussee,2,1971645
+1003,1971101,Geflügelsteig,3,1971319
+1004,1971101,Rhodeländerweg Ecke Geflügelsteig,4,1971875
+1005,1971101,Lakenfelder Weg Ecke Geflügelsteig,5,1971598
+1006,1971101,Großziethener Chaussee Ecke Geflügelsteig,6,1971360
+1007,1971101,Pirnaer Strasse Ecke Großziethener Chaussee,7,1971803
+1008,1971101,Kolonie Ewige Heimat,8,1971551
+1009,1971101,Waßmannsdorfer Chaussee Ecke Großziethenerstrasse,9,19711205
+1010,1971102,"Zoo, Hardenbergplatz",0,19711285
+1011,1971102,Wilmersdorferstrasse Ecke Kantstrasse,1,19711249
+1012,1971102,Amtsgericht,2,197157
+1013,1971102,Messedamm Ecke Masurenallee,3,1971693
+1014,1971102,Theodor-Heuss-Platz,4,19711091
+1015,1971102,Reichssportfeldstrasse Ecke Heerstrasse,5,1971864
+1016,1971102,Pichelsdorferstrasse Ecke Heerstrasse,6,1971799
+1017,1971102,Gatowerstrasse Ecke Heerstrasse,7,1971318
+1018,1971102,Reimerweg Ecke Heerstrasse,8,1971867
+1019,1971103,Schwarzer Weg Ecke Sonnenallee,0,1971985
+1020,1971103,Saalestrasse Ecke Sonnenallee,1,1971954
+1021,1971103,Wildenbruchstrasse Ecke Sonnenallee,2,19711230
+1022,1971103,Hermannplatz,3,1971429
+1023,1971103,Urban-Krankenhaus,4,19711166
+1024,1971103,U-Bhf. Hallesches Tor,5,19711122
+1025,1971104,Flughafen Tempelhof,0,1971278
+1026,1971104,Berlinickeplatz,1,197195
+1027,1971104,Attilaplatz,2,197168
+1028,1971104,Leonorenstrasse Ecke Kaiser-Wilhelm-Strasse,3,1971614
+1029,1971104,Kranoldplatz,4,1971565
+1030,1971104,Lindenstrasse Ecke Ostpreußendamm,5,1971640
+1031,1971105,Reimerweg Ecke Heerstrasse,0,1971867
+1032,1971105,Gatowerstrasse Ecke Heerstrasse,1,1971318
+1033,1971105,Pichelsdorfer Strasse Ecke Heerstrasse,2,1971797
+1034,1971105,Metzer Strasse Ecke Pichelsdorferstrasse,3,1971694
+1035,1971105,Rathaus Spandau,4,1971852
+1036,1971105,Wröhmännerpark,5,19711266
+1037,1971105,Hohenzollernring,6,1971459
+1038,1971105,Mertensstrasse,7,1971691
+1039,1971105,Aalemannufer,8,19711
+1040,1971106,U-Bhf. Britz-Süd,0,19711112
+1041,1971106,Buckower Damm Ecke Gutschmidtstrasse,1,1971173
+1042,1971106,Fulhamer Allee Ecke Britzer Damm,2,1971305
+1043,1971106,U-Bhf Parchimer Allee,3,19711108
+1044,1971106,Grüner Weg Ecke Buschkrugallee,4,1971370
+1045,1971106,U-Bhf. Britz-Süd,5,19711112
+1046,1971107,Usedomer Strasse Ecke Brunnenstrasse,0,19711167
+1047,1971107,U-Bhf. Gesundbrunnen,1,19711121
+1048,1971107,Brunnenplatz,2,1971165
+1049,1971107,Nettelbeckplatz,3,1971720
+1050,1971107,Rathenower Strasse Ecke Quitzowstrasse,4,1971859
+1051,1971107,Emdener Strasse Ecke Siemensstrasse,5,1971251
+1052,1971107,Saatwinkler Damm Ecke Beusselstrasse,6,1971956
+1053,1971107,Jakob-Kaiser-Platz,7,1971492
+1054,1971107,Wernerwerk,8,19711220
+1055,1971107,Quellweg Ecke Nonnendammallee,9,1971838
+1056,1971107,Paulsternstrasse Ecke Nonnendammallee,10,1971790
+1057,1971107,Carl-Schurz-Strasse Ecke Am Juliusturm,11,1971190
+1058,1971107,Rathaus Spandau,12,1971852
+1059,1971107,Hochgerichtstrasse Ecke Seegefelderstrasse,13,1971444
+1061,1971107,Falkenseer Chaussee Ecke Zeppelinstrasse,14,1971268
+1062,1971107,Im Spektefeld,15,1971485
+1063,1971108,"Wilhelmsruhe, Fontanestrasse",0,19711238
+1064,1971108,Edelweißstrasse,1,1971236
+1065,1971108,Bürgerpark,2,1971186
+1066,1971108,"Pankow, Rathaus",3,1971777
+1067,1971108,"Pankow, Kirche",4,1971775
+1068,1971108,Prenzlauer Promenade,5,1971821
+1069,1971108,"Heinersdorf, Kirche",6,1971420
+1070,1971108,Pasedagplatz,7,1971787
+1071,1971108,Liebermannstrasse,8,1971630
+1072,1971108,Piesporter Strasse,9,1971800
+1073,1971109,"Weißensee, Nüßlerstrasse",0,19711210
+1074,1971109,Gehringstrasse Ecke Gustav-Adolf-Strasse,1,1971320
+1075,1971109,Hamburger Platz,2,1971386
+1076,1971109,Grellstrasse,3,1971350
+1077,1971109,Hosemannstrasse,4,1971467
+1078,1971109,Ostseeplatz,5,1971767
+1080,1971109,Greifswalder Strasse,6,1971348
+1081,1971109,Funk- w.Fernmeld,7,1971306
+1082,1971109,S-Bhf. Leninallee,8,1971933
+1083,1971109,Dimitroffstrasse,9,1971219
+1084,1971110,Kniprodestrasse,0,1971547
+1085,1971110,Königstor,1,1971588
+1086,1971110,Alexanderplatz,2,197113
+1087,1971110,Marx-Engels-Platz,3,1971682
+1088,1971110,Bhf. Friedrichstrasse,4,1971109
+1089,1971110,Oranienburger Tor,5,1971751
+1090,1971110,Platz vor dem Neuen Tor,6,1971806
+1091,1971110,Scharnhorststrasse,7,1971961
+1092,1971111,Fontanestrasse,0,1971279
+1093,1971111,Hauptstrasse,1,1971394
+1094,1971111,Heinrich-Mann-Platz,2,1971423
+1095,1971111,"Pankow, Rathaus",3,1971777
+1096,1971111,"Pankow, Kirche",4,1971775
+1097,1971111,S-Bhf. Pankow,5,1971939
+1098,1971111,U-Bhf. Pankow (Vinetastrasse),6,19711142
+1099,1971112,Walther-Ulbricht-Stadion,0,19711192
+1100,1971112,Oranienburger Tor,1,1971751
+1101,1971112,Bhf. Friedrichstrasse,2,1971109
+1102,1971112,U-Bhf. Stadtmitte,3,19711148
+1103,1971112,U-Bhf. Thälmannplatz,4,19711152
+1104,1971113,Oberspree,0,1971739
+1105,1971113,Britzer Strasse,1,1971163
+1106,1971113,Bhf. Schöneweide,2,1971115
+1107,1971113,VEB Autotrans,3,19711168
+1114,1971115,S-Bhf. Mahlsdorf,0,1971935
+1115,1971115,Am Rosenhag,1,197151
+1116,1971115,Hönowerstrasse Ecke Greifswalderstrasse,2,1971481
+1117,1971115,Am Rosenhag,3,197151
+1118,1971115,S-Bhf. Mahlsdorf,4,1971935
+1119,1971116,S-Bhf. Buch,0,1971917
+1120,1971116,Karowerstrasse,1,1971529
+1121,1971116,Akademie der Wissenschaften,2,19719
+1122,1971117,Diepensee,0,1971217
+1123,1971117,Mitschurinweg,1,1971695
+1124,1971117,Kienberg,2,1971533
+1125,1971117,Waltersdorf,3,19711190
+1126,1971117,"Bohnsdorf, Waldstrasse",4,1971144
+1127,1971118,"Ahrensfeld, Kirche",0,19718
+1128,1971118,LPG Falkenberg,1,1971597
+1129,1971118,Malchower Weg,2,1971666
+1130,1971118,Buschallee Ecke Klement-Gottwald-Allee,3,1971181
+1131,1971118,Rennbahnstrasse,4,1971872
+1132,1971118,Feldtmannstrasse,5,1971272
+1133,1971118,"Malchow, Dorfstrasse",6,1971665
+1134,1971119,Wilhelmstrand,0,19711241
+1135,1971119,Baumschulenweg,1,197178
+1136,1971120,Wendenschloß,0,19711215
+1137,1971120,Grünau,1,1971364
+1138,1971121,Schmöckwitz,0,1971977
+1139,1971121,Große Krampe,1,1971356
+1140,1971121,Krampenburg,2,1971557
+1141,1971122,Rahnsdorf,0,1971841
+1142,1971122,Müggelhort,1,1971712
+1143,1971123,Müggelheim,0,1971710
+1144,1971123,Rahnsdorf,1,1971841
+1145,1971124,Friedrichstr.,0,1971300
+1146,1971124,Marx-Engels-Platz,1,1971683
+1147,1971124,Alexanderplatz,2,197114
+1148,1971124,Jannowitzbrücke,3,1971493
+1149,1971124,Ostbahnhof,4,1971763
+1150,1971124,Warschauer Str.,5,19711196
+1151,1971124,Ostkreuz,6,1971764
+1152,1971124,Nöldnerplatz,7,1971734
+1153,1971124,Lichtenberg,8,1971621
+1154,1971124,Friedrichsfelde Ost,9,1971297
+1155,1971124,Biesdorf,10,1971120
+1156,1971124,Kaulsdorf,11,1971532
+1157,1971124,Mahlsdorf,12,1971660
+1158,1971124,Hoppegarten (Mark),13,1971466
+1159,1971124,Neuenhagen (b Bln),14,1971722
+1160,1971124,Fredersdorf (b Bln),15,1971286
+1161,1971124,Petershagen Nord,16,1971793
+1162,1971124,Strausberg,17,19711057
+1163,1971124,Strausberg Stadt,18,19711059
+1164,1971124,Strausberg Nord,19,19711058
+1165,1971125,Friedrichstr.,0,1971300
+1166,1971125,Marx-Engels-Platz,1,1971683
+1167,1971125,Alexanderplatz,2,197114
+1168,1971125,Jannowitzbrücke,3,1971493
+1169,1971125,Ostbahnhof,4,1971763
+1170,1971125,Warschauer Str.,5,19711196
+1171,1971125,Ostkreuz,6,1971764
+1172,1971125,Rummelsburg,7,1971899
+1173,1971125,Betriebsbhf. Rummelsburg,8,1971102
+1174,1971125,Karlshorst,9,1971522
+1175,1971125,Wuhlheide,10,19711267
+1176,1971125,Köpenick,11,1971590
+1177,1971125,Hirschgarten,12,1971441
+1178,1971125,Friedrichshagen,13,1971298
+1179,1971125,Rahnsdorf,14,1971842
+1180,1971125,Wilhelmshagen,15,19711234
+1181,1971125,Erkner,16,1971255
+1182,1971126,Friedrichstr.,0,1971300
+1183,1971126,Marx-Engels-Platz,1,1971683
+1184,1971126,Alexanderplatz,2,197114
+1185,1971126,Jannowitzbrücke,3,1971493
+1186,1971126,Ostbahnhof,4,1971763
+1187,1971126,Warschauer Str. (< Ostkreuz),5,19711197
+1188,1971126,Treptower Park,6,19711104
+1189,1971126,Plänterwald,7,1971807
+1190,1971126,Baumschulenweg,8,197179
+1191,1971126,Schöneweide,9,19711001
+1192,1971126,Betriebsbhf. Schöneweide,10,1971103
+1193,1971126,Adlershof,11,19715
+1194,1971126,Grünau,12,1971365
+1195,1971126,Eichwalde,13,1971245
+1196,1971126,Zeuthen,14,19711281
+1197,1971126,Wildau,15,19711229
+1198,1971126,Königs Wusterhausen,16,1971586
+1199,1971127,Friedrichstr.,0,1971300
+1200,1971127,Marx-Engels-Platz,1,1971683
+1201,1971127,Alexanderplatz,2,197114
+1202,1971127,Jannowitzbrücke,3,1971493
+1203,1971127,Ostbahnhof,4,1971763
+1204,1971127,Warschauer Str. (< Ostkreuz),5,19711197
+1205,1971127,Treptower Park,6,19711104
+1206,1971127,Plänterwald,7,1971807
+1207,1971127,Baumschulenweg,8,197179
+1208,1971127,Schöneweide,9,19711001
+1209,1971127,Betriebsbhf. Schöneweide,10,1971103
+1210,1971127,Adlershof,11,19715
+1211,1971127,Altglienicke,12,197141
+1212,1971127,Grünbergallee,13,1971366
+1213,1971127,Zentralflughafen Berlin-Schönefeld,14,19711277
+1214,1971128,Hennigsdorf (b Bln),0,1971425
+1215,1971128,Hennigsdorf Nord,1,1971426
+1216,1971128,Hohenschöpping,2,1971453
+1217,1971128,Velten (Mark),3,19711173
+1218,1971129,Oranienburg,0,1971749
+1219,1971129,Lehnitz,1,1971605
+1220,1971129,Borgsdorf,2,1971146
+1221,1971129,Birkenwerder,3,1971124
+1222,1971129,Hohen Neuendorf (b Bln),4,1971448
+1223,1971129,Bergfelde (b Bln),5,197187
+1224,1971129,Schönfließ,6,19711002
+1225,1971129,Blankenburg,7,1971135
+1226,1971129,Pankow-Heinersdorf,8,1971779
+1227,1971129,Pankow,9,1971772
+1228,1971129,Schönhauser Allee,10,19711003
+1229,1971129,Prenzlauer Allee,11,1971818
+1230,1971129,Greifswalder Str.,12,1971346
+1231,1971129,Leninallee,13,1971610
+1232,1971129,Zentralviehhof,14,19711279
+1233,1971129,Frankfurter Allee,15,1971281
+1234,1971129,Ostkreuz,16,1971764
+1235,1971129,Treptower Park,17,19711104
+1236,1971129,Plänterwald,18,1971807
+1237,1971129,Baumschulenweg,19,197179
+1238,1971129,Schöneweide,20,19711001
+1239,1971129,Betriebsbhf. Schöneweide,21,1971103
+1240,1971129,Adlershof,22,19715
+1241,1971129,Altglienicke,23,197141
+1242,1971129,Grünbergallee,24,1971366
+1243,1971129,Zentralflughafen Berlin-Schönefeld,25,19711277
+1244,1971130,Bernau (b Bln),0,197197
+1245,1971130,Zepernick (b Bernau),1,19711280
+1246,1971130,Röntgental,2,1971901
+1247,1971130,Buch,3,1971169
+1248,1971130,Karow,4,1971527
+1249,1971130,Blankenburg,5,1971135
+1250,1971130,Pankow-Heinersdorf,6,1971779
+1251,1971130,Pankow,7,1971772
+1252,1971130,Schönhauser Allee,8,19711003
+1253,1971130,Prenzlauer Allee,9,1971818
+1254,1971130,Greifswalder Str.,10,1971346
+1255,1971130,Leninallee,11,1971610
+1256,1971130,Zentralviehhof,12,19711279
+1257,1971130,Frankfurter Allee,13,1971281
+1258,1971130,Ostkreuz,14,1971764
+1259,1971130,Treptower Park,15,19711104
+1260,1971130,Plänterwald,16,1971807
+1261,1971130,Baumschulenweg,17,197179
+1262,1971130,Schöneweide,18,19711001
+1263,1971130,Betriebsbhf. Schöneweide,19,1971103
+1264,1971130,Adlershof,20,19715
+1265,1971130,Grünau,21,1971365
+1266,1971130,Eichwalde,22,1971245
+1267,1971130,Zeuthen,23,19711281
+1268,1971131,Blankenburg,0,1971135
+1269,1971131,Pankow-Heinersdorf,1,1971779
+1270,1971131,Pankow,2,1971772
+1271,1971131,Schönhauser Allee,3,19711003
+1272,1971131,Prenzlauer Allee,4,1971818
+1273,1971131,Greifswalder Str.,5,1971346
+1274,1971131,Leninallee,6,1971610
+1275,1971131,Zentralviehhof,7,19711279
+1276,1971131,Frankfurter Allee,8,1971281
+1277,1971131,Ostkreuz,9,1971764
+1278,1971131,Treptower Park,10,19711104
+1279,1971131,Plänterwald,11,1971807
+1280,1971131,Baumschulenweg,12,197179
+1281,1971131,Schöneweide,13,19711001
+1282,1971131,Oberspree,14,1971740
+1283,1971131,Spindlersfeld,15,19711039
+1284,1971132,Alexanderplatz,0,197114
+1285,1971132,Jannowitzbrücke,1,1971493
+1286,1971132,Ostbahnhof,2,1971763
+1287,1971132,Warschauer Str. (> Ostkreuz),3,19711198
+1288,1971132,Frankfurter Allee,4,1971281
+1289,1971132,Zentralviehhof,5,19711279
+1290,1971132,Leninallee,6,1971610
+1291,1971132,Greifswalder Str.,7,1971346
+1292,1971132,Prenzlauer Allee,8,1971818
+1293,1971132,Schönhauser Allee,9,19711003
+1294,1971132,Pankow,10,1971772
+1295,1971132,Pankow-Heinersdorf,11,1971779
+1296,1971132,Blankenburg,12,1971135
+1297,1971133,Gesundbrunnen,0,1971326
+1298,1971133,Wedding,1,19711206
+1299,1971133,Putlitzstr.,2,1971833
+1300,1971133,Beusselstr.,3,1971104
+1301,1971133,Jungfernheide,4,1971505
+1302,1971133,Westend,5,19711222
+1303,1971133,Witzleben,6,19711258
+1304,1971133,Westkreuz,7,19711223
+1305,1971133,Halensee,8,1971384
+1306,1971133,Hohenzollerndamm,9,1971454
+1307,1971133,Schmargendorf,10,1971976
+1308,1971133,Wilmersdorf,11,19711245
+1309,1971133,Innsbrucker Platz,12,1971488
+1310,1971133,Schöneberg,13,1971990
+1311,1971133,Papestr.,14,1971784
+1312,1971133,Tempelhof,15,19711084
+1313,1971133,Hermannstr.,16,1971431
+1314,1971133,Neukölln,17,1971723
+1315,1971133,Sonnenallee,18,19711022
+1316,1971134,Zoologischer Garten,0,19711286
+1317,1971134,Savignyplatz,1,1971960
+1318,1971134,Charlottenburg,2,1971193
+1319,1971134,Halensee,3,1971384
+1320,1971134,Hohenzollerndamm,4,1971454
+1321,1971134,Schmargendorf,5,1971976
+1322,1971134,Wilmersdorf,6,19711245
+1323,1971134,Innsbrucker Platz,7,1971488
+1324,1971134,Schöneberg,8,1971990
+1325,1971134,Papestr.,9,1971784
+1326,1971134,Tempelhof,10,19711084
+1327,1971134,Hermannstr.,11,1971431
+1328,1971134,Neukölln,12,1971723
+1329,1971134,Köllnische Heide,13,1971583
+1330,1971135,Heiligensee,0,1971415
+1331,1971135,Schulzendorf (b Tegel),1,1971981
+1332,1971135,Tegel,2,19711076
+1333,1971135,Eichbornstr.,3,1971239
+1334,1971135,Wittenau (Kremmener Bahn),4,19711252
+1335,1971135,Reinickendorf,5,1971869
+1336,1971135,Schönholz,6,19711006
+1337,1971135,Wollankstr.,7,19711260
+1338,1971135,Gesundbrunnen,8,1971326
+1339,1971135,Humboldthain,9,1971473
+1340,1971135,Friedrichstr.,10,1971300
+1341,1971135,Anhalter Bahnhof,11,197158
+1342,1971135,Yorckstr.,12,19711271
+1343,1971135,Papestr.,13,1971784
+1344,1971135,Priesterweg,14,1971827
+1345,1971135,Mariendorf,15,1971671
+1346,1971135,Marienfelde,16,1971674
+1347,1971135,Buckower Ch.,17,1971170
+1348,1971135,Lichtenrade,18,1971624
+1349,1971136,Gesundbrunnen,0,1971326
+1350,1971136,Humboldthain,1,1971473
+1351,1971136,Friedrichstr.,2,1971300
+1352,1971136,Anhalter Bahnhof,3,197158
+1353,1971136,Yorckstr.,4,19711271
+1354,1971136,Papestr.,5,1971784
+1355,1971136,Priesterweg,6,1971827
+1356,1971136,Südende,7,19711073
+1357,1971136,Lankwitz,8,1971602
+1358,1971136,Lichterfelde Ost,9,1971626
+1359,1971136,Lichterfelde Süd,10,1971627
+1360,1971137,Frohnau,0,1971303
+1361,1971137,Hermsdorf,1,1971434
+1362,1971137,Waidmannslust,2,19711180
+1363,1971137,Wittenau (Nordbahn),3,19711253
+1364,1971137,Wilhelmsruh,4,19711235
+1365,1971137,Schönholz,5,19711006
+1366,1971137,Wollankstr.,6,19711260
+1367,1971137,Gesundbrunnen,7,1971326
+1368,1971137,Humboldthain,8,1971473
+1369,1971137,Friedrichstr.,9,1971300
+1370,1971137,Anhalter Bahnhof,10,197158
+1371,1971137,Großgörschenstr.,11,1971359
+1372,1971137,Schöneberg,12,1971990
+1373,1971137,Friedenau,13,1971289
+1374,1971137,Feuerbachstr.,14,1971274
+1375,1971137,Steglitz,15,19711049
+1376,1971137,Botanischer Garten,16,1971152
+1377,1971137,Lichterfelde West,17,1971628
+1378,1971137,Sundgauer Str.,18,19711070
+1379,1971137,Zehlendorf,19,19711274
+1380,1971137,Lindenthaler Allee,20,1971641
+1381,1971137,Schlachtensee,21,1971967
+1382,1971137,Nikolassee,22,1971726
+1383,1971137,Wannsee,23,19711194
+1384,1971138,Zehlendorf,0,19711274
+1385,1971138,Düppel-Kleinmachnow,1,1971232
+1386,1971139,Friedrichstr.,0,1971300
+1387,1971139,Lehrter Stadtbahnhof,1,1971606
+1388,1971139,Bellevue,2,197185
+1389,1971139,Tiergarten,3,19711097
+1390,1971139,Zoologischer Garten,4,19711286
+1391,1971139,Savignyplatz,5,1971960
+1392,1971139,Charlottenburg,6,1971193
+1393,1971139,Westkreuz,7,19711223
+1394,1971139,Grunewald,8,1971361
+1395,1971139,Nikolassee,9,1971726
+1396,1971139,Wannsee,10,19711194
+1397,1971140,Friedrichstr.,0,1971300
+1398,1971140,Lehrter Stadtbahnhof,1,1971606
+1399,1971140,Bellevue,2,197185
+1400,1971140,Tiergarten,3,19711097
+1401,1971140,Zoologischer Garten,4,19711286
+1402,1971140,Savignyplatz,5,1971960
+1403,1971140,Charlottenburg,6,1971193
+1404,1971140,Westkreuz,7,19711223
+1405,1971140,Eichkamp,8,1971244
+1406,1971140,Heerstr.,9,1971407
+1407,1971140,Olympiastadion,10,1971745
+1408,1971140,Pichelsberg,11,1971796
+1409,1971140,Spandau,12,19711029
+1410,1971140,Spandau West,13,19711030
+1411,1971141,Gesundbrunnen,0,1971326
+1412,1971141,Wedding,1,19711206
+1413,1971141,Putlitzstr.,2,1971833
+1414,1971141,Beusselstr.,3,1971104
+1415,1971141,Jungfernheide,4,1971505
+1416,1971141,Siemensstadt-Fürstenbrunn,5,19711018
+1417,1971141,Spandau,6,19711029
+1418,1971141,Spandau West,7,19711030
+1419,1971141,Staaken,8,19711043
+1420,1971142,Jungfernheide,0,1971505
+1421,1971142,Wernerwerk,1,19711221
+1422,1971142,Siemensstadt,2,19711017
+1423,1971142,Gartenfeld,3,1971311
+1424,1971143,Björnsonstrasse,0,1971132
+1425,1971143,Schönhauser Allee,1,19711004
+1426,1971143,Stahlheimerstrasse,2,19711047
+1427,1971143,Prenzlauer Promenade,3,1971822
+1428,1971143,Antonplatz,4,197160
+1429,1971143,Lichtenberger Strasse,5,1971622
+1430,1971143,Omnibus Betriebshof,6,1971746
+1431,1971143,Hohenschönhauser Strasse,7,1971452
+1432,1971143,Landsberger Ch.,8,1971600
+1433,1971143,Roederplatz,9,1971886
+1434,1971143,Josef-Orlopp-Strasse,10,1971504
+1435,1971143,Frankfurter Allee,11,1971282
+1436,1971143,Holteistrasse Ecke Boxhagenerstrasse,12,1971462
+1437,1971143,Warschauer Strasse,13,19711200
+1438,1971143,Revaler Strasse,14,1971873
+1439,1971144,Eberswalderstrasse Ecke Oderberger Strasse,0,1971235
+1440,1971144,U-Bhf. Dimitroffstrasse,1,19711115
+1441,1971144,Prenzlauer Allee,2,1971819
+1442,1971144,Greifswalder Strasse,3,1971349
+1443,1971144,Arnswalder Platz,4,197163
+1444,1971144,Kniprodestrasse,5,1971548
+1445,1971144,Leninallee,6,1971611
+1446,1971144,Frankfurter Tor,7,1971284
+1447,1971144,Grünberger Strasse,8,1971368
+1448,1971144,Revalerstrasse,9,1971874
+1449,1971145,Oderberger Strasse Ecke Eberswalderstrasse,0,1971742
+1450,1971145,U-Bhf. Dimitroffstrasse,1,19711115
+1451,1971145,Prenzlauer Allee,2,1971819
+1452,1971145,Greifswalder Strasse,3,1971349
+1453,1971145,Arnswalder Platz,4,197163
+1454,1971145,Kniprodestrasse,5,1971548
+1455,1971145,Leninallee,6,1971611
+1456,1971145,Frankfurter Tor,7,1971284
+1457,1971145,Holteistrasse Ecke Boxhagenerstrasse,8,1971462
+1458,1971145,Hauptstrasse,9,1971395
+1462,1971145,Kraftwerk Klingenberg,10,1971556
+1463,1971145,Hönower Wiesenweg Ecke Blockdammweg,11,1971480
+1464,1971146,Haeckelstrasse,0,1971379
+1465,1971146,Bf.Schöneweide,1,1971108
+1466,1971146,Wilhelminenhofstrasse,2,19711232
+1467,1971146,Bf.Karlshorst,3,1971106
+1468,1971146,Hochsch.f.Ökonomie,4,1971446
+1469,1971146,Tierpark Berlin,5,19711100
+1470,1971146,Bf.Lichtenberg,6,1971107
+1471,1971146,Strab.-Betriebshof,7,19711054
+1472,1971146,VEB Elektrokohle,8,19711172
+1473,1971146,Roederplatz,9,1971886
+1474,1971146,S-Bf.Leninallee,10,1971911
+1475,1971146,Dimitroffstrasse,11,1971220
+1478,1971146,Kniprodestrasse,12,1971548
+1479,1971147,Mahlsdorferstrasse,0,1971664
+1480,1971147,S-Bhf.Köpenick,1,1971950
+1481,1971147,Hegelschule,2,1971411
+1482,1971147,Pionierpark,3,1971801
+1484,1971147,Edisonstrasse,4,1971237
+1485,1971147,Bhf.Karlshorst,5,1971118
+1486,1971147,Hochsch.f.Ökonomie,6,1971446
+1487,1971147,Tierpark Berlin,7,19711100
+1488,1971147,Bhf.Lichtenberg,8,1971119
+1489,1971147,Strab.-Betriebshof,9,19711054
+1490,1971147,VEB Elektrokohle,10,19711172
+1491,1971147,Roederplatz,11,1971886
+1492,1971147,S-Bhf.Leninallee,12,1971951
+1493,1971147,Dimitroffstrasse,13,1971220
+1496,1971147,Kniprodestrasse,14,1971548
+1497,1971148,S-Bhf.Ostkreuz,0,1971952
+1498,1971148,Kraftwerk Klingenberg,1,1971556
+1499,1971148,"Hönow, Wiesenweg",2,1971478
+1500,1971148,H.-Duncker-strasse,3,1971377
+1501,1971148,Wilhelminenhofstrasse,4,19711232
+1502,1971148,Bhf. Schöneweide,5,1971116
+1503,1971148,Kali-Chemie,6,1971514
+1504,1971148,S-Bhf. Baumschulenweg,7,1971915
+1507,1971149,Hauptstrasse,0,1971397
+1509,1971149,Nordendstrasse,1,1971733
+1510,1971149,Kurt-Fischer-Platz,2,1971580
+1511,1971149,"Pankow, Rathaus",3,1971778
+1512,1971149,"Pankow, Kirche",4,1971776
+1513,1971149,U-Bhf.Pankow,5,19711156
+1514,1971149,S-Bhf. Schönhauser Allee,6,1971946
+1515,1971149,U-Bhf. Dimitroffstrasse,7,19711115
+1516,1971149,Brunnenstrasse,8,1971167
+1517,1971149,Oranienburgerstrasse,9,1971753
+1518,1971149,Bhf. Friedrichstrasse,10,1971110
+1519,1971149,Am Kupfergraben,11,197148
+1520,1971150,Nordend,0,1971732
+1521,1971150,Kurt-Fischer-Platz,1,1971580
+1522,1971150,"Pankow, Rathaus",2,1971778
+1523,1971150,"Pankow, Kirche",3,1971776
+1524,1971150,U-Bhf. Pankow,4,19711141
+1525,1971150,S-Bhf. Schönhauser Allee,5,1971946
+1526,1971150,Vinetastrasse,6,19711177
+1527,1971150,U-Bhf. Dimitroffstrasse,7,19711115
+1528,1971150,Brunnenstrasse,8,1971167
+1529,1971150,Oranienburger Tor,9,1971752
+1530,1971150,Bhf. Friedrichstrasse,10,1971110
+1531,1971150,Am Kupfergraben,11,197148
+1535,1971151,Hauptstrasse,0,1971398
+1536,1971151,Rosenthalerstrasse,1,1971892
+1537,1971151,Galenusstrasse,2,1971310
+1538,1971151,S-Bhf. Pankow-Heinersdorf,3,1971940
+1539,1971151,"Pankow, Kirche",4,1971776
+1540,1971151,U-Bhf- Pankow,5,19711109
+1541,1971151,S-Bhf. Schönhauser Allee,6,1971946
+1542,1971151,U-Bhf. Dimitroffstrasse,7,19711115
+1543,1971151,Rosenthaler Platz,8,1971891
+1544,1971151,Hackescher Markt,9,1971378
+1545,1971152,"Hohenschönhausen, Gartenstadt",0,1971450
+1546,1971152,Falkenbergerstrasse Ecke Wartenberger Strasse,1,1971264
+1547,1971152,Suermondtstrasse,2,19711069
+1548,1971152,Oberseestrasse,3,1971738
+1549,1971152,Weißenseer Weg,4,19711214
+1550,1971152,S-Bhf. Leninallee,5,1971934
+1551,1971152,Dimitroffstrasse,6,1971220
+1554,1971152,Leninplatz,7,1971613
+1555,1971152,Prenzlauer Tor,8,1971824
+1556,1971152,U-Bhf. Luxemburgplatz,9,19711134
+1557,1971152,Hackescher Markt,10,1971378
+1558,1971152,Oranienburger Tor,11,1971752
+1559,1971152,Walter-Ulbricht-Stadion,12,19711188
+1560,1971153,"Johannisthal, Haeckelstrasse",0,1971499
+1561,1971153,Bhf. Schöneweide,1,1971116
+1562,1971153,Wilhelminenhofstrasse,2,19711232
+1563,1971153,S-Bhf. Karlshorst,3,1971929
+1564,1971153,Hochschule für Ökonomie,4,1971447
+1565,1971153,Tierpark Berlin,5,19711100
+1566,1971153,Alt-Friedrichsfelde Ecke Am Tierpark,6,197120
+1567,1971153,Bhf. Lichtenberg,7,1971113
+1568,1971153,Strab. Bhf. Siegfriedstrasse,8,19711053
+1569,1971153,Herzbergstrasse,9,1971438
+1570,1971153,Roederplatz,10,1971886
+1571,1971153,Steuerhaus,11,19711052
+1572,1971153,Dimitroffstrasse,12,1971220
+1575,1971153,Leninplatz,13,1971613
+1576,1971153,"Alexanderplatz, Memhardstrasse",14,197116
+1577,1971153,Hackescher Markt,15,1971378
+1578,1971153,Oranienburger Tor,16,1971752
+1579,1971153,Walter-Ulbricht-Stadion,17,19711188
+1580,1971154,"Hohenschönhausen, Falkenberger Strasse",0,1971449
+1581,1971154,Berliner Strasse Ecke Suermondtstrasse,1,197192
+1582,1971154,Stadion Buschallee,2,19711044
+1583,1971154,Kniprodeallee,3,1971546
+1584,1971154,Buschallee Ecke Klement-Gottwald-Allee,4,1971182
+1585,1971154,Lichtenberger Strasse,5,1971622
+1586,1971154,Antonplatz,6,197160
+1587,1971154,Prenzlauer Promenade,7,1971822
+1588,1971154,Humannplatz,8,1971471
+1589,1971154,U-Bhf. Dimitroffstrasse,9,19711115
+1590,1971154,Brunnenstrasse,10,1971167
+1591,1971154,Chausseestrasse,11,1971196
+1592,1971154,Oranienburger Tor,12,1971752
+1593,1971154,Bhf. Friedrichstrasse,13,1971110
+1594,1971154,Am Kupfergraben,14,197148
+1595,1971155,"Romain-Rolland-Strasse, Heinersdorf",0,1971888
+1596,1971155,"Heinersdorf, Kirche",1,1971421
+1597,1971155,Grüne Wiese,2,1971369
+1598,1971155,Prenzlauer Promenade,3,1971822
+1599,1971155,S-Bhf. Prenzlauer Allee,4,1971942
+1602,1971155,Dimitroffstrasse,5,1971222
+1603,1971155,Knaackstrasse,6,1971544
+1604,1971155,Wilhelm-Piek-Strasse,7,19711231
+1605,1971155,U-Bhf. Luxemburgplatz,8,19711134
+1606,1971155,Hackescher Markt,9,1971378
+1607,1971155,Oranienburger Tor,10,1971752
+1608,1971155,Am Kupfergraben,11,197148
+1609,1971156,"Weißensee, Pasedagplatz",0,19711211
+1610,1971156,Buschallee,1,1971180
+1611,1971156,Antonplatz,2,197160
+1612,1971156,Prenzlauer Promenade,3,1971822
+1613,1971156,S-Bhf. Prenzlauer Allee,4,1971942
+1616,1971156,Dimitroffstrasse,5,1971222
+1617,1971156,Knaackstrasse,6,1971544
+1618,1971156,Wilhelm-Piek-Strasse,7,19711231
+1619,1971156,U-Bhf. Luxemburgplatz,8,19711134
+1620,1971156,Hackescher Markt,9,1971378
+1621,1971157,"Weißensee, Pasedagplatz",0,19711211
+1622,1971157,Buschallee,1,1971180
+1623,1971157,Antonplatz,2,197160
+1624,1971157,S-Bhf. Greifswalderstrasse,3,1971923
+1626,1971157,Dimitroffstrasse,4,1971221
+1628,1971157,U-Bhf. Luxemburgplatz,5,19711134
+1629,1971157,Hackescher Markt,6,1971378
+1630,1971157,Oranienburger Tor,7,1971752
+1631,1971157,Walter-Ulbricht-Stadion über Greifswalderstrasse,8,19711189
+1632,1971158,"Wießensee, Bernkastelerstrasse",0,19711228
+1633,1971158,Buschallee,1,1971180
+1634,1971158,Antonplatz,2,197160
+1635,1971158,S-Bhf. Greifswalder Strasse,3,1971922
+1637,1971158,Dimitroffstrasse,4,1971221
+1639,1971158,Mollstrasse Ecke Hans-Beimler-Strasse,5,1971700
+1640,1971158,Leninplatz,6,1971613
+1641,1971158,Bersarinstrasse,7,1971101
+1642,1971158,S-Bhf. Leninallee,8,1971934
+1643,1971158,Weißenseer Weg,9,19711214
+1645,1971158,Hauptstrasse,10,1971396
+1648,1971158,Falkenbergerstrasse,11,1971263
+1649,1971159,Bernkastelerstrasse,0,1971100
+1650,1971159,Buschallee,1,1971180
+1651,1971159,Antonplatz,2,197160
+1652,1971159,S-Bhf. Greifswalder Strasse,3,1971922
+1654,1971159,Dimitroffstrasse,4,1971221
+1656,1971159,Mollstrasse,5,1971699
+1657,1971159,U-Bhf. Luxemburgplatz,6,19711134
+1658,1971159,Hackescher Markt,7,1971378
+1659,1971160,"Mahlsdorf-Süd, Hubertus",0,1971662
+1660,1971160,Uhlenhorst,1,19711162
+1661,1971160,S-Bhf. Köpenick,2,1971932
+1662,1971160,Hegelschule,3,1971411
+1663,1971160,E.-Weinert-Klubh.,4,1971234
+1665,1971160,Pionierpark,5,1971802
+1666,1971160,Wilhelminenhofstrasse Ecke Edisonstrasse,6,19711233
+1667,1971160,Heinrich-Duncker-Strasse Ecke Ehrlichstrasse,7,1971422
+1668,1971160,Hönower Wiesenweg,8,1971479
+1669,1971160,Kraftwerk Klingenberg,9,1971556
+1670,1971160,Karlshorsterstrasse,10,1971523
+1671,1971160,S-Bhf. Ostkreuz,11,1971938
+1672,1971161,S-Bhf. Mahlsdorf,0,1971936
+1673,1971161,Alt-Mahlsdorf,1,197127
+1674,1971161,Rahnsdorfer Strasse,2,1971844
+1675,1971161,Bürgerwäldchen,3,1971187
+1676,1971161,Ruhlsdorfer Strasse,4,1971898
+1677,1971161,Mahlsdorf-Süd,5,1971661
+1678,1971161,Wongrowitzer Steig,6,19711264
+1679,1971161,S-Bhf. Köpenick,7,1971932
+1680,1971161,Lindenstrasse Ecke Bahnhofstrasse,8,1971636
+1681,1971161,"Köpenick, Strab.-Betriebshof",9,1971592
+1682,1971161,VEB Bootswerften,10,19711170
+1683,1971161,Wendenschloß Ecke Ekhofstrasse,11,19711217
+1684,1971162,"Friedrichshagen, Wasserwerk",0,1971299
+1685,1971162,"Bölschestrasse, Brauerei",1,1971184
+1686,1971162,S-Bhf. Friedrichshagen,2,1971920
+1687,1971162,Hirschgarten,3,1971442
+1688,1971162,Bahnhofstrasse Ecke Lindenstrasse,4,197175
+1689,1971162,Schloßplatz Köpenick,5,1971974
+1690,1971162,S-Bhf. Spindlersfeld,6,1971947
+1691,1971162,S-Bhf. Adlershof,7,1971912
+1692,1971162,"Altglienicke, Kirche",8,197143
+1693,1971162,Am Falkenberg,9,197145
+1694,1971163,Wendenschloß,0,19711216
+1695,1971163,VEB Bootswerften,1,19711170
+1696,1971163,"Köpenick, Strab.-Betriebshof",2,1971592
+1697,1971163,Lindenstrasse Ecke Hegelschule,3,1971637
+1698,1971163,Pionierpark,4,1971801
+1700,1971163,Edisonstrasse,5,1971237
+1701,1971163,Bhf. Schöneweide,6,1971116
+1702,1971163,"Johannisthal, Haeckelstrasse",7,1971499
+1703,1971164,Alt-Schmöckwitz,0,197136
+1704,1971164,Karolinenhof Mitte,1,1971524
+1705,1971164,Richtershorn,2,1971877
+1706,1971164,S-Bhf. Grünau,3,1971925
+1707,1971164,Chemische Fabrik,4,1971197
+1708,1971164,Jachtwerft,5,1971491
+1709,1971164,Schloßplatz Köpenick,6,1971974
+1710,1971164,Lindenstrasse Ecke Bahnhofstrasse,7,1971636
+1711,1971164,S-Bhf. Köpenick,8,1971932
+1712,1971164,Hirtestrasse,9,1971443
+1713,1971165,Rahnsdorf,0,1971843
+1714,1971165,Müggelseedamm,1,1971713
+1715,1971165,S-Bhf. Friedrichshagen,2,1971920
+1716,1971165,Hirschgarten,3,1971442
+1717,1971165,Bahnhofstrasse Ecke Lindenstrasse,4,197175
+1718,1971165,E.-Weinert-Klubh.,5,1971234
+1719,1971165,Pionierpark,6,1971801
+1721,1971165,Wilhelminenhofstrasse Ecke Edisonstrasse,7,19711233
+1722,1971165,Bhf. Schöneweide,8,1971116
+1723,1971165,Köpenicker Landstrasse Ecke Baumschulenstrasse,9,1971593
+1724,1971165,S-Bhf. Plänterwald,10,1971941
+1725,1971165,Am Treptower Park Ecke Elsenstrasse,11,197154
+1726,1971165,Wiener Brücke,12,19711226
+1727,1971166,Krankenhaus Köpenick,0,1971561
+1728,1971166,Lindenstrasse Ecke Hegelschule,1,1971637
+1729,1971166,E.-Weinert-Klubh.,2,1971234
+1730,1971166,Pionierpark,3,1971801
+1732,1971166,Edisonstrasse,4,1971237
+1733,1971166,Bhf. Schöneweide,5,1971116
+1734,1971166,Baumschulenstrasse Ecke Köpenicker Landstrasse,6,197177
+1735,1971166,S-Bhf. Plänterwald,7,1971941
+1736,1971166,Elsenstrasse Ecke Am Treptower Park,8,1971248
+1737,1971166,Wiener Brücke,9,19711226
+1738,1971167,Falkenberger Strasse,0,1971262
+1739,1971167,Stadion Buschallee,1,19711044
+1740,1971167,Kniprodeallee,2,1971546
+1741,1971167,Klement-Gottwald-Allee,3,1971540
+1742,1971167,Pasedagplatz,4,1971788
+1743,1971168,S-Bhf. Friedrichshagen (Grenze),0,1971921
+1744,1971168,"Schöneiche, Waldstrasse",1,19711000
+1745,1971168,"Schöneiche, Goethepark",2,1971995
+1746,1971168,"Schöneiche, Rahnsdorferstrasse",3,1971998
+1747,1971168,"Schöneiche, Dorfstrasse",4,1971994
+1748,1971168,"Schöneiche, Dorfaue",5,1971993
+1749,1971168,"Schöneiche, Schillerstrasse",6,1971999
+1750,1971168,"Schöneiche, Grätzwalde",7,1971996
+1751,1971168,"Schöneiche, Jägerstrasse",8,1971997
+1752,1971168,"Rüdersdorf, Berghof",9,1971902
+1753,1971168,"Rüdersdorf, Torellplatz",10,1971907
+1754,1971168,"Rüdersdorf, Heinitzstrasse",11,1971903
+1755,1971168,"Rüdersdorf, Post",12,1971905
+1756,1971168,"Rüdersdorf, Schulstrasse",13,1971906
+1757,1971168,"Rüdersdorf, Karl-Marx-Platz",14,1971904
+1758,1971169,S-Bhf. Rahnsdorf,0,1971944
+1759,1971169,Goethestrasse,1,1971335
+1760,1971169,Eichendamm,2,1971241
+1761,1971169,Lerchenstrasse,3,1971620
+1762,1971169,Fasanenstrasse,4,1971269
+1763,1971169,Thälmannplatz,5,19711095
+1764,1971169,Blumenstrasse,6,1971141
+1765,1971169,"Woltersdorf, Krankenhaus",7,19711262
+1766,1971169,Woltersdorfer Schleuse,8,19711263
+1767,1971170,Schlesisches Tor,0,1971968
+1768,1971170,Görlitzer Bahnhof (Oranienstr.),1,1971373
+1769,1971170,Kottbusser Tor,2,1971555
+1770,1971170,Prinzenstr.,3,1971829
+1771,1971170,Hallesches Tor,4,1971385
+1772,1971170,Möckernbrücke,5,1971709
+1773,1971170,Gleisdreieck,6,1971328
+1774,1971170,Kurfürstenstr.,7,1971577
+1775,1971170,Nollendorfplatz,8,1971730
+1776,1971170,Wittenbergplatz,9,19711257
+1777,1971170,Zoologischer Garten,10,19711287
+1778,1971170,Ernst-Reuter-Platz,11,1971257
+1779,1971170,Deutsche Oper (Bismarckstr.),12,1971214
+1780,1971170,Sophie-Charlotte-Platz,13,19711025
+1781,1971170,Kaiserdamm,14,1971510
+1782,1971170,Theodor-Heuss-Platz,15,19711092
+1783,1971170,Neu-Westend,16,1971721
+1784,1971170,Olympia-Stadion,17,1971744
+1785,1971170,Ruhleben,18,1971897
+1786,1971171,Gleisdreieck,0,1971328
+1787,1971171,Bülowstr.,1,1971185
+1788,1971171,Nollendorfplatz,2,1971730
+1789,1971171,Wittenbergplatz,3,19711257
+1790,1971171,Augsburger Str.,4,197170
+1791,1971171,Spichernstr. (Bundesallee),5,19711038
+1792,1971171,Hohenzollernplatz,6,1971458
+1793,1971171,Fehrbelliner Platz,7,1971271
+1794,1971171,Heidelberger Platz,8,1971413
+1795,1971171,Rüdesheimer Platz,9,1971908
+1796,1971171,Breitenbachplatz,10,1971155
+1797,1971171,Podbielskiallee,11,1971809
+1798,1971171,Dahlem-Dorf,12,1971206
+1799,1971171,Thielplatz,13,19711093
+1800,1971171,Oskar-Helene-Heim,14,1971757
+1801,1971171,Onkel Toms Hütte,15,1971748
+1802,1971171,Krumme Lanke,16,1971570
+1803,1971172,Wittenbergplatz,0,19711257
+1804,1971172,Kurfürstendamm (Joachimstaler Str.),1,1971571
+1805,1971172,Uhlandstr.,2,19711159
+1806,1971173,Nollendorfplatz,0,1971730
+1807,1971173,Viktoria-Luise-Platz,1,19711175
+1808,1971173,Bayerischer Platz,2,197181
+1809,1971173,Rathaus Schöneberg,3,1971851
+1810,1971173,Innsbrucker Platz (Hauptstr.),4,1971489
+1811,1971174,Tegel,0,19711077
+1812,1971174,Borsigwerke,1,1971148
+1813,1971174,Holzhauser Str.,2,1971464
+1814,1971174,Seidelstr. (Flughafen Tegel),3,19711014
+1815,1971174,Scharnweberstr. (Eichborndamm),4,1971962
+1816,1971174,Kurt-Schumacher-Platz,5,1971582
+1817,1971174,Afrikanische Str. (Friedrich-Ebert-Siedlung),6,19716
+1818,1971174,Rehberge,7,1971863
+1819,1971174,Seestr.,8,19711011
+1820,1971174,Leopoldplatz,9,1971618
+1821,1971174,Bahnhof Wedding,10,197173
+1822,1971174,Reinickendorfer Str.,11,1971870
+1823,1971174,Bahnhof Friedrichstr. (Stadtbahn),12,197171
+1824,1971174,Kochstr.,13,1971550
+1825,1971174,Hallesches Tor,14,1971385
+1826,1971174,Mehringdamm,15,1971687
+1827,1971174,Flughafen,16,1971277
+1828,1971174,Paradestr.,17,1971785
+1829,1971174,Tempelhof,18,19711085
+1830,1971174,Alt-Tempelhof,19,197138
+1831,1971174,Kaiserin-Augusta-Str.,20,1971513
+1832,1971174,Ullsteinstr.,21,19711163
+1833,1971174,Westpfahlweg,22,19711224
+1834,1971174,Alt-Mariendorf,23,197128
+1835,1971175,Fehrbelliner Platz,0,1971271
+1836,1971175,Blissestrasse,1,1971139
+1837,1971175,Berliner Strasse,2,197191
+1838,1971175,Bayerischer Platz,3,197181
+1839,1971175,Eisenacher Strasse,4,1971246
+1840,1971175,Kleistpark,5,1971539
+1841,1971175,Yorckstrasse,6,19711272
+1842,1971175,Möckernbrücke,7,1971709
+1843,1971175,Mehringdamm,8,1971687
+1844,1971175,Gneisenaustrasse,9,1971331
+1845,1971175,Südstern,10,19711074
+1846,1971175,Hermannplatz,11,1971430
+1847,1971175,Rathaus Neukölln,12,1971848
+1848,1971175,Karl-Marx-Strasse,13,1971519
+1849,1971175,Neukölln,14,1971724
+1850,1971175,Grenzallee,15,1971351
+1851,1971175,Blaschkoallee,16,1971137
+1852,1971175,Parchimer Allee,17,1971786
+1853,1971175,Britz-Süd,18,1971159
+1854,1971175,Johannisthaler Chaussee,19,1971501
+1855,1971175,Lipschitzallee,20,1971644
+1856,1971175,Wutzkyallee,21,19711269
+1858,1971176,Gesundbrunnen,0,1971327
+1859,1971176,Voltastr.,1,19711179
+1860,1971176,Moritzplatz,2,1971704
+1861,1971176,Kottbusser Tor,3,1971555
+1862,1971176,Kottbusser Damm (Schönleinstr.),4,1971554
+1863,1971176,Hermannplatz,5,1971430
+1864,1971176,Boddinstr.,6,1971142
+1865,1971176,Leinestr.,7,1971608
+1866,1971177,Leopoldplatz,0,1971618
+1867,1971177,Amrumer Str. (Rudolf-Virchow-Krankenhaus),1,197156
+1868,1971177,Putlitzstr. (Westhafen),2,1971834
+1869,1971177,Birkenstr.,3,1971122
+1870,1971177,Turmstr.,4,19711106
+1871,1971177,Hansaplatz,5,1971390
+1872,1971177,Zoologischer Garten,6,19711287
+1873,1971177,Kurfürstendamm (Joachmistaler Str.),7,1971572
+1874,1971177,Spichernstr. (Bundesallee),8,19711038
+1875,1971177,Güntzelstrasse,9,1971375
+1876,1971177,Berliner Strasse,10,197191
+1877,1971177,Bundesplatz,11,1971178
+1880,1971178,Pankow (Vinetastr.),0,1971773
+1881,1971178,Schönhauser Allee,1,19711005
+1882,1971178,Dimitroffstr.,2,1971218
+1883,1971178,Senefelderplatz,3,19711015
+1884,1971178,Luxemburgplatz,4,1971651
+1885,1971178,Alexanderplatz,5,197115
+1886,1971178,Klosterstr.,6,1971543
+1887,1971178,Märkisches Museum,7,1971707
+1888,1971178,Spittelmarkt,8,19711041
+1889,1971178,Hausvogteiplatz,9,1971401
+1890,1971178,Stadtmitte,10,19711046
+1891,1971178,Thälmannplatz,11,19711096
+1892,1971179,Alexanderplatz,0,197115
+1893,1971179,Schillingstr.,1,1971966
+1894,1971179,Strausberger Platz,2,19711060
+1895,1971179,Marchlewskistr.,3,1971669
+1896,1971179,Frankfurter Tor,4,1971285
+1897,1971179,Samariterstr.,5,1971959
+1898,1971179,Frankfurter Allee,6,1971283
+1899,1971179,Magdalenenstr.,7,1971658
+1900,1971179,Bahnhof Lichtenberg,8,197172
+1901,1971179,Friedrichsfelde,9,1971296

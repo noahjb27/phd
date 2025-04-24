@@ -1,0 +1,1255 @@
+,stop_id,stop_name,type,location,in_lines,identifier
+0,19560,Adamstrasse Ecke Wilhelmstrasse,bus,"52.5210974258045, 13.187990320264987",['A13'],nan
+1,19561,Adlershof,s-bahn,"52.434722222222,13.541388888889","['KBS 100a', 'KBS 103']",Q323551
+2,19562,Adolf-Scheidt-Platz,strassenbahn,"52.478194856980814, 13.37836902238447",['95'],nan
+3,19563,Afrikanische Str.,u-bahn,"52.560027777778,13.334633333333",['C I'],Q559239
+4,19564,"Ahrensfeld, Lindenbergerstrasse",bus,"52.57534151289329, 13.576465760668366",['A46'],nan
+5,19565,Alboinstrasse Ecke Schönebergerstrasse,strassenbahn,"52.4698434808757, 13.372061552266187",['6'],nan
+6,19566,Albrechtshof,s-bahn,"52.5494,13.1283",['KBS 103'],Q800470
+7,19567,Alexanderplatz,s-bahn,"52.521388888889,13.411944444444","['KBS 102', 'KBS 101', 'KBS 103']",Q111324700
+8,19568,Alexanderplatz,u-bahn,"52.5214,13.4119","['D', 'E', 'A I']",Q17173458
+9,19569,"Alexanderplatz, Grunerstrasse",strassenbahn,"52.52008326268696, 13.41408418961877","['74', '22', '71', '72']",nan
+10,195610,"Alexanderplatz, Grunestrasse",strassenbahn,"52.52008326268696, 13.41408418961877",['64'],nan
+11,195611,"Alexanderplatz, Memhardstr.",strassenbahn,"52.5233439,13.4110773",['1'],Q65227406
+12,195612,"Alexanderplatz, Memhardstrasse",strassenbahn,"52.5233439,13.4110773","['63', '69', '11']",Q65227406
+13,195613,"Alt-Biesdorf, Oberfeldstrasse",bus,"52.50918606891929, 13.553347058493491",['A8'],nan
+14,195614,Alt-Kladow,bus,"52.454591413254434, 13.144488043956764",['A34'],nan
+15,195615,Alt-Kladow Ecke Kladower Damm,bus,"52.453456955410275, 13.143930501157236",['A35'],nan
+16,195616,Alt-Mariendorf,strassenbahn,"52.4401532176395, 13.387265005984174",['99'],nan
+17,195617,Alt-Marienfelde Ecke Marienfelderallee,bus,"52.41357787421618, 13.363330517921128",['A52'],nan
+18,195618,"Alt-Marzahn, Kirche",bus,"52.542423454435976, 13.564061751343658","['A37', 'O37']",nan
+19,195619,Alt-Moabit/Paulstrasse,bus,"52.52362366662573, 13.356925243183808",['A24'],nan
+20,195620,Alt-Müggelheim,bus,"52.41018331064196, 13.665897531850348",['A27'],nan
+21,195621,Alt-Reinickendorf Ecke Roedernstrasse,bus,"52.575847957276935, 13.347790909547232","['A12', 'A12S']",nan
+22,195622,Alt-Schmöckwitz,strassenbahn,"52.3752767,13.649549",['86'],Q66459540
+23,195623,Alt-Tegel,bus,"52.58954346115138, 13.283679780746766",['A15'],nan
+24,195624,Alt-Tegel Ecke Schloßstrasse,strassenbahn,"52.58969334067717, 13.283400910032718","['28', '29']",nan
+25,195625,Alt-Tegel/Gorkistrasse,bus,"52.58966264834485, 13.283744661306388",['A13'],nan
+26,195626,Alt-Tempelhof,strassenbahn,"52.4660774066416, 13.3856316379907","['98', '99']",nan
+27,195627,Alt-Tempelhof Ecke Tempelhofer Damm,strassenbahn,"52.465914246760505, 13.385603415873367",['96'],nan
+28,195628,Alt-Wittenau Ecke Holzhauserstrasse,bus,"52.59184437684138, 13.326382322502273","['A21', 'A15']",nan
+29,195629,Alt-Wittenau Ecke Oranienburgerstrasse,strassenbahn,"52.58971750833865, 13.33418249504555",['68'],nan
+30,195630,"Altglienicke, Am Falkenberg",strassenbahn,"52.41079970042163, 13.570452931545786",['84'],nan
+31,195631,"Altglienicke, Kirche",bus,"52.421845729296805, 13.539407702079252",['A23'],nan
+32,195632,Am Grossen Wannsee,bus,"52.420496581432594, 13.167192967572669",['A6'],nan
+33,195633,Am Knie,bus,"52.512731625753695, 13.321879176786634",['A2'],nan
+34,195634,Am Knie,strassenbahn,"52.51266887977092, 13.321859924761794",['2'],nan
+35,195635,Am Kupfergraben,strassenbahn,"52.5194208,13.3953839","['1', '46']",Q65055027
+36,195636,Am Rosenhag,bus,"52.52474356253909, 13.621775828105108","['A44E', 'A44']",nan
+37,195637,"Am Steinberg, Thulestrasse",strassenbahn,"52.55644689291127, 13.429226457898798",['71'],nan
+38,195638,Am Vierrutenberg,bus,"52.613535544271876, 13.343827205969221",['A20'],nan
+39,195639,Am Wilden Eber,bus,"52.47052881317704, 13.28962423686069",['A10'],nan
+40,195640,Amtsgerichsplatz,bus,"52.50685665976427, 13.295057483522156",['A10'],nan
+41,195641,Amtsgericht,strassenbahn,"52.50682617853116, 13.297391449613752",['75'],nan
+42,195642,Amtsgericht Charlottenburg,bus,"52.50571853839105, 13.295347400894903",['A21'],nan
+43,195643,Andreasstrasse,bus,"52.51797306914227, 13.432895480772247",['O30'],nan
+44,195644,Anhalter Bahnhof,s-bahn,"52.503055555556,13.381944444444","['KBS 106', 'KBS 105', 'KBS 104']",Q111324573
+45,195645,Anhalter Bahnhof,strassenbahn,"52.50453275122, 13.382326534592197",['88'],nan
+46,195646,Anhalter Bhf.,bus,"52.504693895352524, 13.381969502572149","['A24', 'A29']",nan
+47,195647,Antonplatz,strassenbahn,"52.5484803,13.4517416","['70', '74', '3', '72']",Q65548849
+48,195648,"Arnsalder Platz, Dimitroffstrasse",bus,"52.53375379232583, 13.438171369537619",['A9'],nan
+49,195649,Arnswalder Platz,strassenbahn,"52.5342216,13.4371245","['13', '4']",Q65707667
+50,195650,Aroserallee Ecke Reinickendorferstrasse,strassenbahn,"52.57498246454504, 13.352382539856182",['41'],nan
+51,195651,Asternplatz,bus,"52.44943428965909, 13.30387630211606",['A48'],nan
+52,195652,Attilaplatz,bus,"52.45590179888225, 13.376512495751076",['A25'],nan
+53,195653,Attilaplatz,strassenbahn,"52.455498340147045, 13.375619638525905","['95', '96']",nan
+54,195654,Augustenburger Platz,bus,"52.542186362228115, 13.34942313975666",['A16'],nan
+55,195655,Augustenburger Platz,strassenbahn,"52.54195473048106, 13.349004434392675",['23'],nan
+56,195656,"BVG-Bf. Lichtenberg, Siegfriedstrasse",strassenbahn,"52.5206411,13.4994454",['69'],Q66014798
+57,195657,"BVG-Bf. Lichtenberg, Siegfriestrasse",bus,"52.52004640241046, 13.499373630980266",['O30'],nan
+58,195658,Babelsberg,s-bahn,"52.3914,13.0928",['KBS 102'],Q801326
+59,195659,Badenschestrasse Ecke Berlinerstrasse,strassenbahn,"52.486641395734374, 13.327690760992157",['60'],nan
+60,195660,Badenschestrasse Ecke Bundeasallee,bus,"52.48615870557847, 13.331126508025347",['A25'],nan
+61,195661,Badenschestrasse Ecke Martin-Luther-Strasse,strassenbahn,"52.48560327173668, 13.345065127516245",['25'],nan
+62,195662,Badewiese Ecke Kladower Damm,bus,"52.47885441421296, 13.179170959997965","['A35', 'A34']",nan
+63,195663,Badstrasse Ecke Prinzenallee,strassenbahn,"52.5523069891351, 13.381468267243408",['23'],nan
+64,195664,Baerwaldstrasse Ecke Urbanstrasse,strassenbahn,"52.493899843231475, 13.403460093532933",['95'],nan
+65,195665,Bahnhof Friedrichstr. (Stadtbahn),u-bahn,"52.520111111111,13.388305555556",['C I'],Q3753274
+66,195666,Bahnhof Lichtenberg (Zentralfriedhof),u-bahn,"52.510556,13.496389",['E'],Q3831986
+67,195667,Bahnhof Tempelhof,strassenbahn,"52.46587999632718, 13.38561353594905",['98'],nan
+68,195668,Bahnhof Wedding,u-bahn,"52.5425,13.366111",['C I'],Q4018733
+69,195669,Bahnhofstrasse Ecke Königstrasse,bus,"52.419951974527734, 13.17530842784429",['A51'],nan
+70,195670,Bahnhofstrasse Ecke Lindenstrasse,bus,"52.45096281111, 13.572146868709519",['A27'],nan
+71,195671,Bahnhofstrasse Ecke Lindenstrasse,strassenbahn,"52.4505094,13.572684",['87'],Q66095701
+72,195672,"Bahnhofstrasse, Bhf. wannsee",bus,"52.42169058071068, 13.17890239355643",['A18'],nan
+73,195673,Baltenring,bus,"52.524249941537185, 13.599609519435084",['A49'],nan
+74,195674,Baselerstrasse,strassenbahn,"52.43778761993494, 13.295382291568542","['77', '78']",nan
+75,195675,Baumschulenstrasse,strassenbahn,"52.469081846595664, 13.491329912138305","['92', '91']",nan
+76,195676,Baumschulenstrasse Ecke Südostallee,bus,"52.46095841731415, 13.481191835004426",['A47'],nan
+77,195677,Baumschulenweg,s-bahn,"52.4675,13.489722","['KBS 103a', 'KBS 100a', 'KBS 103']",Q324336
+78,195678,"Baumschulenweg, Sonnenallee",strassenbahn,"52.46729434178432, 13.489094025693007",['95'],nan
+79,195679,Bayerischer Platz,u-bahn,"52.488333333333,13.340277777778",['B II'],Q668574
+80,195680,Beckerstrasse Ecke Rubensstrasse,strassenbahn,"52.46715058485194, 13.34420201780685",['66'],nan
+81,195681,"Beerwinkel, Wasserwerk",bus,"52.55122661682322, 13.165376030409284",['A5'],nan
+82,195682,Behring-Krankenhaus,bus,"52.42410894567823, 13.251764544509987",['A10'],nan
+83,195683,Bellevue,s-bahn,"52.52,13.348055555556","['KBS 102', 'KBS 101', 'KBS 103']",Q374018
+84,195684,Belziger Strasse Ecke Martin-Luther-Strasse,strassenbahn,"52.484605108660936, 13.345203000681114",['66'],nan
+85,195685,Benzolwerk,strassenbahn,"52.426414690299055, 13.546444409734137",['84'],nan
+86,195686,"Bergfelde, Karl-Marx-Strasse",bus,"52.665111405939506, 13.307446011435928",['AN'],nan
+87,195687,Berliner Strasse Ecke Wilhelmstrasse,bus,"52.43078277200043, 13.317517990126834",['A11'],nan
+88,195688,Berlinerstrasse Ecke Bernauerstrasse,bus,"52.576291888956334, 13.29470160184664",['A13'],nan
+89,195689,Berlinerstrasse Ecke Blissestrasse,strassenbahn,"52.48648462511159, 13.320423728961352",['44'],nan
+90,195690,Berlinerstrasse Ecke Bundesallee,bus,"52.48732454383587, 13.33099327646108",['A2'],nan
+91,195691,Berlinerstrasse Ecke Bundesallee,bus,"52.48734713753147, 13.330894817805682",['A25'],nan
+92,195692,Berlinerstrasse Ecke Teltower Damm,bus,"52.43505188210353, 13.260493583407289",['A48'],nan
+93,195693,Berlinerstrasse Ecke Thielallee,bus,"52.441890769452854, 13.282753127037218",['A10'],nan
+94,195694,Berlinerstrasse Ecke Uhlandstrasse,strassenbahn,"52.48648936437959, 13.322515759458744",['51'],nan
+95,195695,Berlinerstrasse/Alt-Tegel,bus,"52.5899612855956, 13.283282916503648","['A20', 'A14']",nan
+96,195696,Berlinickeplatz,strassenbahn,"52.466329675590764, 13.378144688199017",['95'],nan
+97,195697,Bernau (b Bln),s-bahn,"52.6763,13.5931",['KBS 106'],Q479789
+98,195698,Bernauer Str.,u-bahn,"52.5375,13.396666666667",['D'],Q689293
+99,195699,Bernauerstrasse Ecke Berlinerstrasse,strassenbahn,"52.57628303756777, 13.294731570510573","['41', '28', '29', '25']",nan
+100,1956100,Bernauerstrasse Ecke Wollinerstrasse,strassenbahn,"52.5399996,13.4020564","['24', '41', '2']",Q65719652
+101,1956101,Bersarinplatz,strassenbahn,"52.519215,13.4525257","['13', '4']",Q65706258
+102,1956102,Bersarinstr. (Frankfurter Tor),u-bahn,"52.515833333333,13.454166666667",['E'],Q568627
+103,1956103,Betriebsbahnhof Rummelsburg,s-bahn,"52.4939,13.4978",['KBS 102'],Q829009
+104,1956104,Betriebsbahnhof Schöneweide,s-bahn,"52.44676,13.52391","['KBS 100a', 'KBS 103']",Q4526101
+105,1956105,Beusselstr.,s-bahn,"52.534444444444,13.329166666667","['KBS 100', 'KBS 103a']",Q323219
+106,1956106,Bhf. Ahrensfelde,bus,"52.571313719653176, 13.566341546222308",['A46'],nan
+107,1956107,Bhf. Alexanderplatz,bus,"52.521287385126946, 13.413242035902146",['A9'],nan
+108,1956108,Bhf. Botanischer Garten,strassenbahn,"52.44730098506532, 13.3083006582632","['77', '78']",nan
+109,1956109,Bhf. Buckower Chaussee,bus,"52.41109589500145, 13.382466497921738",['A52'],nan
+110,1956110,Bhf. Eichbornstrasse,bus,"52.57760143817809, 13.31554154716","['A21', 'A15']",nan
+111,1956111,Bhf. Frohnau,bus,"52.63311782571585, 13.28947655939645","['A12', 'A15', 'A12S']",nan
+112,1956112,Bhf. Gesundbrunnen,strassenbahn,"52.54913505997412, 13.38715173368261","['36', '28', '29', '24']",nan
+113,1956113,Bhf. Grunewald,bus,"52.488010147803465, 13.26315524644143",['A17'],nan
+114,1956114,Bhf. Grünau,strassenbahn,"52.413493,13.5746802",['86'],Q62470512
+115,1956115,Bhf. Halensee,bus,"52.496865585452014, 13.289557340809273","['A19', 'A4', 'A29', 'A10']",nan
+116,1956116,Bhf. Heerstrasse,strassenbahn,"52.50857975740797, 13.258353900023156",['75'],nan
+117,1956117,Bhf. Heiligensee,bus,"52.625151238346696, 13.229659068045944",['A14'],nan
+118,1956118,Bhf. Hermannstrasse,strassenbahn,"52.4676866643192, 13.431210901516543",['27'],nan
+119,1956119,Bhf. Hermsdorf,bus,"52.61953939324446, 13.30416069232153",['A15'],nan
+120,1956120,Bhf. Hohen Neuendorf,bus,"52.66955559285079, 13.286994683662725",['AN'],nan
+121,1956121,Bhf. Hohenzollerndamm,bus,"52.48832716566947, 13.301436926268025","['A21', 'A50']",nan
+122,1956122,Bhf. Jannowitzbrücke,strassenbahn,"52.51476676652865, 13.417918697531025","['11', '64']",nan
+123,1956123,Bhf. Jungfernheide,bus,"52.530138785889896, 13.296018817180764",['A21'],nan
+124,1956124,Bhf. Jungfernheide,strassenbahn,"52.53103413649224, 13.300559481238167","['35', '55']",nan
+125,1956125,Bhf. Lichtefelde-Ost,strassenbahn,"52.428826211846044, 13.328680809875795",['96'],nan
+126,1956126,Bhf. Lichtenberg,bus,"52.5112875601879, 13.499591119128855","['A37', 'O37', 'O30']",nan
+127,1956127,Bhf. Lichtenberg,strassenbahn,"52.5123603,13.4977547",['69'],Q66013733
+128,1956128,Bhf. Lichtenrade,strassenbahn,"52.38669305818232, 13.39694576786419",['99'],nan
+129,1956129,Bhf. Lichterfelde-Ost,bus,"52.42911680950547, 13.329847267881705",['A11'],nan
+130,1956130,Bhf. Lichterfelde-Ost,strassenbahn,"52.4289149405705, 13.329002919186095",['73'],nan
+131,1956131,Bhf. Lichterfelde-West,bus,"52.44397675869793, 13.295628699942629",['A11'],nan
+132,1956132,Bhf. Lichterfelde-West,strassenbahn,"52.442695165817675, 13.297046489476738","['77', '78']",nan
+133,1956133,Bhf. Mariendorf,bus,"52.446757741789085, 13.360550212856184",['A33 (Obus)'],nan
+134,1956134,Bhf. Mariendorf,strassenbahn,"52.447078310256, 13.361439800164863",['96'],nan
+135,1956135,Bhf. Marienfelde,bus,"52.42342246533686, 13.374664175181172",['A32 (Obus)'],nan
+136,1956136,Bhf. Marienfelde,strassenbahn,"52.42613307832105, 13.375057660174704",['15'],nan
+137,1956137,Bhf. Nikolassee,bus,"52.43378197004219, 13.193152057415048",['A3'],nan
+138,1956138,Bhf. Papestrasse,strassenbahn,"52.474088737380455, 13.363804736501839",['60'],nan
+139,1956139,Bhf. Pulitzstrasse,bus,"52.53623559129739, 13.343725255116645",['A16'],nan
+140,1956140,Bhf. Rosenthal,strassenbahn,"52.598664,13.3726652",['22'],Q65364041
+141,1956141,Bhf. Schulzendorf,bus,"52.61386001623567, 13.245879660333635",['A14'],nan
+142,1956142,Bhf. Schöneweide,bus,"52.45374952013775, 13.510200397684477",['A47'],nan
+143,1956143,Bhf. Schöneweide,strassenbahn,"52.45640818289644, 13.509916574756422",['69'],nan
+144,1956144,Bhf. Sonnenallee,strassenbahn,"52.47414312526527, 13.455499525035636","['15', '94', '95']",nan
+145,1956145,Bhf. Spandau,bus,"52.53480116953711, 13.199406530019054",['A31'],nan
+146,1956146,Bhf. Spandau,strassenbahn,"52.53469533777715, 13.199489615484376",['54'],nan
+147,1956147,Bhf. Spandau-West,bus,"52.53497194201396, 13.198460334945361",['A5'],nan
+148,1956148,"Bhf. Stalineallee, Gürtelstrasse",strassenbahn,"52.51351239359716, 13.47709676710546",['3'],nan
+149,1956149,Bhf. Steglitz,bus,"52.4567389564548, 13.32114701824465",['A33 (Obus)'],nan
+150,1956150,Bhf. Steglitz,strassenbahn,"52.45628485348418, 13.322383851748043","['44', '40']",nan
+151,1956151,Bhf. Südende,bus,"52.44906892859584, 13.354097834514832",['A33 (Obus)'],nan
+152,1956152,Bhf. Tegel,bus,"52.58863500559534, 13.28998515086127","['A13', 'A20']",nan
+153,1956153,Bhf. Tempelhof,strassenbahn,"52.470773327648985, 13.385638027802058",['99'],nan
+154,1956154,Bhf. Waidmannslust,bus,"52.60711750606285, 13.32022370793147",['A20'],nan
+155,1956155,Bhf. Wannsee,bus,"52.42151302311533, 13.17810256503659","['A6', 'A51', 'A3']",nan
+156,1956156,Bhf. Warschauer Brücke,strassenbahn,"52.5080429,13.4505973","['4', '3']",Q65706190
+157,1956157,Bhf. Wilhelmsruh,strassenbahn,"52.581085096062374, 13.3634387891469",['36'],nan
+158,1956158,Bhf. Wittenau,bus,"52.59721246906266, 13.332631469768408",['A15'],nan
+159,1956159,"Bhf. Wittenau, Nordbahn, Cyclopstrasse",strassenbahn,"52.597638124029146, 13.332456251456765",['68'],nan
+160,1956160,Bhf. Witzleben,bus,"52.50645623658754, 13.282727805906516",['A10'],nan
+161,1956161,Bhf. Wollankstrasse,strassenbahn,"52.56476177190086, 13.393786862899335","['23', '24']",nan
+162,1956162,Bhf. Yorckstrasse,bus,"52.49297747613118, 13.369530914840707",['A19'],nan
+163,1956163,Bhf. Zehlendorf,bus,"52.43121177777893, 13.259164408129196","['A1', 'A3E', 'A10']",nan
+164,1956164,Bhf. Zehlendorf-West,bus,"52.43749073325525, 13.232184039572378",['A3'],nan
+165,1956165,Bhf. Zoo,bus,"52.506232782829265, 13.332362081097921","['A2', 'A25']",nan
+166,1956166,Bhf. Zoo,strassenbahn,"52.50719345524868, 13.332629878993917","['6', '51', '25', '2', '55', '77', '78', '54']",nan
+167,1956167,"Bhf. Zoo, Kantstrasse",strassenbahn,"52.50540350310839, 13.330367559360592",['75'],nan
+168,1956168,Biesdorf,s-bahn,"52.5131,13.5554",['KBS 101'],Q4892357
+169,1956169,Birkbuschstrasse Ecke Siemensstrasse,strassenbahn,"52.442440684586664, 13.332088961364885",['44'],nan
+170,1956170,Birkenstrasse Ecke Pulitzstrasse,strassenbahn,"52.53191761456842, 13.34299173910032",['23'],nan
+171,1956171,Birkenwerder,s-bahn,"52.6885,13.2888",['KBS 104'],Q2343634
+172,1956172,Birkholzer Weg,bus,"52.57869319879437, 13.519763145415514",['A39'],nan
+173,1956173,Bismarckplatz,bus,"52.492064537089135, 13.28493897027407",['A29'],nan
+174,1956174,Bismarckstrasse Ecke Beckerstrasse,bus,"52.466645214180495, 13.338512379680626",['A25'],nan
+175,1956175,Bismarckstrasse Ecke Leibnizstrasse,bus,"52.51215118510006, 13.31478565667606",['A1'],nan
+176,1956176,Bismarckstrasse Ecke Wilhelmstrasse,bus,"52.42818043799337, 13.325162624362573",['A11'],nan
+177,1956177,Bismarckstrasse Ecke Wilhelmstrasse,strassenbahn,"52.42583357480061, 13.316822713171266",['96'],nan
+178,1956178,Björnsonstrasse,strassenbahn,"52.5544232,13.4030585",['3'],Q65920495
+179,1956179,Blankenburg,s-bahn,"52.5915,13.4435","['KBS 106', 'KBS 100b']",Q800469
+180,1956180,"Blankenburg, Bahnhofstrasse",bus,"52.591380472079955, 13.453512267562314",['A42'],nan
+181,1956181,Blankenfelde (Kr. Zossen),s-bahn,"52.3376,13.4158",['KBS 105'],Q111311372
+182,1956182,"Blankenfelde, Hauptstrasse",bus,"52.63002534735451, 13.38262328371393",['A7'],nan
+183,1956183,Blissestrasse Ecke Berlinerstrasse,strassenbahn,"52.48649403940226, 13.320421770976779",['60'],nan
+184,1956184,Boddinstr.,u-bahn,"52.48,13.425277777778",['D'],Q819495
+185,1956185,"Bohnsdorf, Kirche",bus,"52.39948771402893, 13.555574431978044",['A36'],nan
+186,1956186,"Bohnsdorf, Waldstrasse",bus,"52.389397192754984, 13.570666562153916",['A38'],nan
+187,1956187,Borgsdorf,s-bahn,"52.7155,13.2764",['KBS 104'],Q4093486
+188,1956188,Bornholmer Str.,s-bahn,"52.554287,13.397985","['KBS 106', 'KBS 105', 'KBS 104']",Q32662318
+189,1956189,Borsigwalder Weg Ecke Conradstrasse,bus,"52.58481416731561, 13.297935793851755",['A15'],nan
+190,1956190,Botanischer Garten,bus,"52.458598799471524, 13.303436055459807",['A1'],nan
+191,1956191,Botanischer Garten,s-bahn,"52.44806,13.30722",['KBS 104'],Q800498
+192,1956192,Boxhagener Strasse,strassenbahn,"52.50705770251508, 13.468302201729777","['13', '3']",nan
+193,1956193,Brauerei,strassenbahn,"52.44699265840037, 13.624251999339991","['84', '87']",nan
+194,1956194,"Breite Strasse, Pankow, Rathaus",strassenbahn,"52.5694816,13.4038045",['22'],Q65055060
+195,1956195,Breitenbachplatz,bus,"52.467219717443385, 13.309473490660878","['A1', 'A32 (Obus)', 'A16']",nan
+196,1956196,Breitenbachplatz,u-bahn,"52.466388888889,13.308055555556",['A II'],Q571339
+197,1956197,Breitestrasse Ecke Charlottenstrasse,bus,"52.53614645525182, 13.204413686344584",['A31'],nan
+198,1956198,"Breitestrasse, Pankow, Rathaus",strassenbahn,"52.5694816,13.4038045",['46'],Q65055060
+199,1956199,Breitscheidplatz,bus,"52.504438063129996, 13.33564615707506","['A19', 'A29']",nan
+200,1956200,Britzer Damm Ecke Blaschkoallee,strassenbahn,"52.4526338354554, 13.438571852960825",['6'],nan
+201,1956201,Britzer Damm Ecke Tempelhofer Weg,bus,"52.44894113315902, 13.436220481040927",['A25'],nan
+202,1956202,Britzer Strasse,strassenbahn,"52.45407075126685, 13.51932686914549",['92'],nan
+203,1956203,Brixplatz,bus,"52.51907944117457, 13.25699370576959",['A4'],nan
+204,1956204,Brunnen Ecke Invalidenstrasse,strassenbahn,"52.5324542,13.3974236","['1', '11']",Q65691740
+205,1956205,Brunnenstrasse Ecke Bernauerstrasse,strassenbahn,"52.5380716,13.3954653","['41', '24']",Q65720089
+206,1956206,Brunsbütteler Damm Ecke Klosterstrasse,bus,"52.53290711065629, 13.198465586490917",['A31'],nan
+207,1956207,Brückenallee Ecke Altonaerstrasse,bus,"52.51683079236027, 13.344675037924292",['A24'],nan
+208,1956208,"Brückenstrasse, Bhf. Schöneweide",strassenbahn,"52.45637439548328, 13.509945288270968",['87'],nan
+209,1956209,Buch,s-bahn,"52.6359,13.4917",['KBS 106'],Q4892359
+210,1956210,"Buch, Zepernicker Strasse",bus,"52.64161725444106, 13.515575706154056",['A42'],nan
+211,1956211,Buchholz,strassenbahn,"52.619072064369824, 13.393383358408967",['49'],nan
+212,1956212,"Buckow, Alt-Buckow",strassenbahn,"52.423668878489224, 13.436627633953467",['27'],nan
+213,1956213,Buckower Ch.,s-bahn,"52.4103,13.3829",['KBS 105'],Q800499
+214,1956214,Buckower Damm Ecke Alt-Buckow,bus,"52.42364382786418, 13.436660506458884",['A52'],nan
+215,1956215,Bulgarische Strasse,strassenbahn,"52.48142358933512, 13.473067363351124","['92', '87']",nan
+216,1956216,Bulgarischestrasse Ecke Köpenicker Landstrasse,strassenbahn,"52.48145143387759, 13.473096322596954",['91'],nan
+217,1956217,Bundesallee,bus,"52.46493052962428, 13.32853185257923",['A17'],nan
+218,1956218,Bundesallee,strassenbahn,"52.4649035990206, 13.328399625987563",['74'],nan
+219,1956219,Bundesallee Ecke Badensche Strasse,bus,"52.48613795045858, 13.33110029774997",['A4'],nan
+220,1956220,Bundesallee Ecke Berliner Strasse,strassenbahn,"52.48733630342845, 13.331014163134173","['77', '3', '60', '78']",nan
+221,1956221,"Bundesallee, Titaniapalast",bus,"52.4648492937768, 13.328387113884073",['A48'],nan
+222,1956222,Bundesplatz,bus,"52.478678991134835, 13.32860278411238","['A2', 'A16']",nan
+223,1956223,Bundesplatz,strassenbahn,"52.4777799057296, 13.328566193541166","['77', '44', '78']",nan
+224,1956224,Buschallee Ecke Klement-Gottwald-Allee,strassenbahn,"52.5537598,13.4691966",['70'],Q65546661
+225,1956225,Buschkrug,strassenbahn,"52.452470895695484, 13.450748195174354","['47', '6']",nan
+226,1956226,Bülowstr.,u-bahn,"52.497552777778,13.363419444444",['A I'],Q374881
+227,1956227,Bülowstrasse,strassenbahn,"52.497813344481855, 13.362040057608386",['74'],nan
+228,1956228,Bülowstrasse Ecke Potsdamerstrasse,bus,"52.49780909063729, 13.362045681344197",['A48'],nan
+229,1956229,Bülowstrasse Ecke Potsdamerstrasse,strassenbahn,"52.49781509487618, 13.362026328869662",['88'],nan
+230,1956230,Bürknersfelde,bus,"52.538889807153126, 13.534159376784622","['O41', 'O37', 'A43']",nan
+231,1956231,Bütowerstrasse,strassenbahn,"52.486103,13.603983",['83'],Q66364552
+232,1956232,Canovastrasse (Krankenhaus),strassenbahn,"52.4631967931949, 13.344688692199414",['66'],nan
+233,1956233,Ceciliengärten,strassenbahn,"52.475079473741275, 13.343064768876424",['66'],nan
+234,1956234,Cecilienstrasse,bus,"52.52908780357339, 13.565850348404304",['O37'],nan
+235,1956235,Charlottenburg,s-bahn,"52.504722222222,13.303333333333","['KBS 102', 'KBS 101', 'KBS 103']",Q111326217
+236,1956236,Charlottenstrasse Ecke Taubenstrasse,strassenbahn,"52.513122303707654, 13.391373467504213","['74', '72']",nan
+237,1956237,Chausseehaus,bus,"52.430090871325774, 13.614694292071622",['A27'],nan
+238,1956238,Chemische Fabrik,strassenbahn,"52.42696432509712, 13.573540465650169",['86'],nan
+239,1956239,Chemnitzer Ecke Ulmenstrasse,bus,"52.48730504728054, 13.5749460378103",['A8'],nan
+240,1956240,Chemnitzer Strasse,bus,"52.5051288553116, 13.581585054064426",['A27'],nan
+241,1956241,Clara-Zetkin-Strasse Ecke Neue Wilhelmstrasse,strassenbahn,"52.518183487912616, 13.38042348165456",['70'],nan
+242,1956242,Clayallee Ecke Teltower Damm,bus,"52.435050499187106, 13.260433006441355",['A10'],nan
+243,1956243,Colomierstrasse,bus,"52.42928675585897, 13.164090298875724",['A51'],nan
+244,1956244,Corrensplatz,bus,"52.446014012041694, 13.284264679815902","['A11', 'A10']",nan
+245,1956245,Cyclopstrasse Ecke Hermsdorferstrasse,bus,"52.60209919870515, 13.324826857059096","['A12', 'A12S']",nan
+246,1956246,Cäcilienstrasse,bus,"52.529646990986734, 13.558004345591469",['A37'],nan
+247,1956247,"Dahlem, Clayallee",strassenbahn,"52.45975923254636, 13.274628659008574",['40'],nan
+248,1956248,Dahlem-Dorf,u-bahn,"52.456944444444,13.289444444444",['A II'],Q668585
+249,1956249,Dahlewitz,s-bahn,"52.326389,13.419722",['KBS 105'],Q5208886
+250,1956250,Daimlerstrasse,strassenbahn,"52.423949959899865, 13.380145054879522",['15'],nan
+251,1956251,Daimlerstrasse Ecke Birnhornweg,strassenbahn,"52.42214076766627, 13.384616153471871",['98'],nan
+252,1956252,Dammweg,strassenbahn,"52.47070358256429, 13.46392233215299",['15'],nan
+253,1956253,Dammweg Ecke Sonnenallee,strassenbahn,"52.4702891791955, 13.464619670250386",['94'],nan
+254,1956254,Dankmarsteig,bus,"52.412460454887416, 13.528705230313825",['A23'],nan
+255,1956255,Detmolder Strasse Ecke Blissestrasse,bus,"52.47876002753526, 13.320303638716377",['A1'],nan
+256,1956256,Deutsches Opernhaus (Bismarckstr.),u-bahn,"52.511944444444,13.310555555556","['A III', 'A I']",Q869501
+257,1956257,Dimitroffstr.,u-bahn,"52.541666666667,13.412222222222",['A I'],Q571382
+258,1956258,Dimitroffstrasse,bus,"52.52644944679887, 13.447574773361476",['O41'],nan
+259,1956259,Dimitroffstrasse Ecke Greifswalderstrasse,bus,"52.53619274354974, 13.433066383288713",['O30'],nan
+260,1956260,Dimitroffstrasse Ecke Greifswalderstrasse,strassenbahn,"52.53616928671014, 13.433023161244224",['74'],nan
+261,1956261,Dimitroffstrasse Ecke Prenzlauer Allee,strassenbahn,"52.539226902813354, 13.424209201692193","['71', '72']",nan
+262,1956262,Dingelstädter Strasse,bus,"52.53587676296107, 13.522058626010088",['O41'],nan
+263,1956263,Dingelstädterstrasse,bus,"52.53583260072521, 13.522029544772353",['A41'],nan
+264,1956264,Dominicusstrasse,strassenbahn,"52.48182811502358, 13.348369024265194",['74'],nan
+265,1956265,Dominicusstrasse Ecke Hauptstrasse,bus,"52.48180071652041, 13.348377997983935","['A48', 'A4']",nan
+266,1956266,Dominicusstrasse Ecke Hauptstrasse,strassenbahn,"52.48178458875194, 13.348361062077318","['88', '73', '25']",nan
+267,1956267,Dominikus-Krankenhaus,bus,"52.626196524368744, 13.294495665499268",['A15'],nan
+268,1956268,Donnersmarckplatz,bus,"52.62982465046043, 13.28047497184123",['A15'],nan
+269,1956269,Drakestrasse Ecke Unter den Eichen,bus,"52.44573233334527, 13.293697221399606",['A48'],nan
+270,1956270,Dreilinden,s-bahn,"52.40334210617422, 13.175963626814108",['KBS 104b'],Q96473908
+271,1956271,Dudenstrasse Ecke Katzbachstrasse,bus,"52.48507657537121, 13.376576066981372",['A28'],nan
+272,1956272,Dudenstrasse Ecke Mehringdamm,bus,"52.4849438868393, 13.386026708341968",['A19'],nan
+273,1956273,"Dönhoffplatz, Krausenstrasse",strassenbahn,"52.510082685363386, 13.398911668058874","['82', '64']",nan
+274,1956274,Düppel-Kleinmachnow,s-bahn,"52.421388888889,13.226666666667",['KBS 104a'],Q44763529
+275,1956275,"Eberswalderstrasse, U-Bhf. Dimitroffstrasse",strassenbahn,"52.5401928,13.4113979","['22', '49', '46']",Q65088313
+276,1956276,Edisonstrasse Ecke Wilhelminenhofstrasse,strassenbahn,"52.4619496,13.5139049",['82'],Q65951882
+277,1956277,Egelpfuhlstrasse Ecke Brunsbütteler Damm,bus,"52.533514698600456, 13.169417212078342",['A31'],nan
+278,1956278,Eichborndamm Ecke Scharnweberstrasse,strassenbahn,"52.56794261660899, 13.3119260816067","['41', '25']",nan
+279,1956279,"Eichborndamm, Sportplatz Reinickendorf",strassenbahn,"52.56784752553447, 13.311804701580398",['29'],nan
+280,1956280,Eichbornstr.,s-bahn,"52.5776,13.3169",['KBS 105'],Q800500
+281,1956281,"Eichenborndamm, Sportplatz Reinickendorf",strassenbahn,"52.567917831991906, 13.311954450797398",['28'],nan
+282,1956282,Eichholzbahn,bus,"52.53745641909849, 13.149835716602464",['A31'],nan
+283,1956283,Eichkamp,s-bahn,"52.4987,13.2702","['KBS 101', 'KBS 103']",Q800504
+284,1956284,Eichwalde,s-bahn,"52.3715,13.6152",['KBS 103'],Q19274479
+285,1956285,Eisenacherstrasse Ecke Hauptstrasse,strassenbahn,"52.48459360671036, 13.35306002871114",['73'],nan
+286,1956286,Eisenacherstrasse Ecke Hauptstrasse,strassenbahn,"52.4845984441846, 13.353073553684412",['88'],nan
+287,1956287,Elisabethstrasse,bus,"52.53409533705918, 13.55949915809485",['O37'],nan
+288,1956288,Elisabethstrasse,strassenbahn,"52.51764985236767, 13.418046139104245",['22'],Q65364041
+289,1956289,Elsenstrasse Ecke Am Treptower Park,strassenbahn,"52.49175632207382, 13.457757874335021",['87'],nan
+290,1956290,Elsenstrasse Ecke Heidelbergerstrasse,strassenbahn,"52.48685029508912, 13.45118006834624",['6'],nan
+291,1956291,"Elsenstrasse, S-Bhf. Treptow",strassenbahn,"52.49392050526826, 13.460637127431074",['92'],nan
+292,1956292,Elsterplatz,bus,"52.47977982878401, 13.285507613099716","['A10', 'A50']",nan
+293,1956293,Emmentalerstrasse Ecke Aroserallee,bus,"52.567564056567846, 13.351342420019115","['A12', 'A12S']",nan
+294,1956294,"Emser Platz, Pfalzburgerstrasse",bus,"52.49294890954554, 13.321749965916931",['A50'],nan
+295,1956295,"Englerallee, Breitenbachplatz",bus,"52.465841806408555, 13.30615348093324",['A16'],nan
+296,1956296,Erkner,s-bahn,"52.4296,13.7513",['KBS 102'],Q14434071
+297,1956297,Erkstrasse Ecke Sonnenallee,strassenbahn,"52.48169987618706, 13.440143697235596","['94', '95']",nan
+298,1956298,"Erkstrasse, Rathaus Neukölln",strassenbahn,"52.48088289227713, 13.435445948459439",['47'],nan
+299,1956299,Ernst-Reuter-Platz,u-bahn,"52.511944444444,13.322222222222",['A I'],Q658361
+300,1956300,Eweststrasse,strassenbahn,"52.594079233661624, 13.432171197739503",['49'],nan
+301,1956301,"Falkenberg, Schule",bus,"52.56880573894071, 13.549528314980424",['A46'],nan
+302,1956302,Falkenberger Chaussee,bus,"52.565816857333125, 13.511913714753",['A39'],nan
+303,1956303,Falkenbergerstrasse Ecke Wartenberger Strasse,strassenbahn,"52.55036672097044, 13.509915032138812",['63'],nan
+304,1956304,Falkenhöhe,bus,"52.400507029940435, 13.538229483128243",['A36'],nan
+305,1956305,Falkenplatz,strassenbahn,"52.585285954271406, 13.227452060134016",['28'],nan
+306,1956306,Falkensee,s-bahn,"52.559722,13.088889",['KBS 103'],Q5431918
+307,1956307,Fehrbelliner Platz,bus,"52.49040638965375, 13.314204217177087",['A50'],nan
+308,1956308,Fehrbelliner Platz,strassenbahn,"52.49032472677901, 13.314317300484289","['3', '60', '44']",nan
+309,1956309,Fehrbelliner Platz,u-bahn,"52.490277777778,13.314444444444",['A II'],Q663245
+310,1956310,Fehrbelliner Tor,strassenbahn,"52.55534910528559, 13.198621894913103",['54'],nan
+311,1956311,Fennbrücke,strassenbahn,"52.53789913636452, 13.361535518846207","['23', '2']",nan
+312,1956312,Feuerbachstr.,s-bahn,"52.463611111111,13.332777777778",['KBS 104'],Q800501
+313,1956313,Feuerbachstrasse Ecke Bismarckstrasse,bus,"52.464513435475055, 13.338927866545799",['A2'],nan
+314,1956314,Feuerbachstrasse Ecke Knausstrasse,strassenbahn,"52.4645176561027, 13.338945240453217",['88'],nan
+315,1956315,"Fichtenau, Stadtgrenze",bus,"52.45479242349705, 13.701499962608066",['A22'],nan
+316,1956316,Finowstrasse Ecke Sonnenallee,bus,"52.48107312004714, 13.441395678745941",['A4'],nan
+317,1956317,Flinsbergerplatz,bus,"52.48363157821334, 13.29263347325828",['A50'],nan
+318,1956318,"Florastrasse, S-Bhf. Pankow",bus,"52.566793710626044, 13.410032511165026","['A55', 'A45']",nan
+319,1956319,Flughafen,u-bahn,"52.485556, 13.385833",['C II'],Q557582
+320,1956320,Flugplatz,bus,"52.46661352386276, 13.164648960485769",['A35'],nan
+321,1956321,Frankfurter Tor/Stalinallee,strassenbahn,"52.5153903,13.4540172","['13', '4']",Q65706246
+322,1956322,Französische Str.,u-bahn,"52.514722222222,13.389166666667",['C I'],Q571479
+323,1956323,Frauenklinik,strassenbahn,"52.463949908172545, 13.427509548910932",['15'],nan
+324,1956324,Fredersdorf (b Bln),s-bahn,"52.5265,13.7625",['KBS 101'],Q15197387
+325,1956325,Freie Scholle,bus,"52.599851537868666, 13.301736158422598",['A20'],nan
+326,1956326,Freienwalderstrasse Ecke Orankestrasse,strassenbahn,"52.5443517,13.4929992",['63'],Q65555700
+327,1956327,Friedenau,s-bahn,"52.47,13.341",['KBS 104'],Q800471
+328,1956328,Friedenstrasse,bus,"52.417223782342035, 13.138950169993388",['A6'],nan
+329,1956329,Friedrich-Junge-Strasse,bus,"52.49382897072681, 13.471572865851856",['A82P'],nan
+330,1956330,Friedrich-Karl-Strasse,strassenbahn,"52.455797262882406, 13.383934284553103","['98', '99']",nan
+331,1956331,Friedrich-Wilhelm-Platz,strassenbahn,"52.47132415928576, 13.328417218543715","['77', '44', '78']",nan
+332,1956332,Friedrichsfelde (Tierpark),u-bahn,"52.506111111111,13.512777777778",['E'],Q429781
+333,1956333,Friedrichsfelde Ost,s-bahn,"52.5141,13.5198",['KBS 101'],Q800473
+334,1956334,"Friedrichsfelde, Schloßstrasse",bus,"52.50970330922865, 13.519045879792072",['A37'],nan
+335,1956335,Friedrichshagen,s-bahn,"52.4574,13.6233",['KBS 102'],Q800474
+336,1956336,"Friedrichshagen, Wasserwerk",strassenbahn,"52.4560563,13.6419956",['84'],Q66362601
+337,1956337,Friedrichstr.,s-bahn,"52.52027777777778,13.386944444444444","['KBS 105', 'KBS 104', 'KBS 106', 'KBS 102', 'KBS 101', 'KBS 103']",Q111219456
+338,1956338,Friesenstrasse Ecke Columbiadamm,bus,"52.483955843943605, 13.394382269747895","['A24', 'A4']",nan
+339,1956339,Fritz-Reuter-Allee Ecke Parchimerallee,bus,"52.44564578764053, 13.449948721190864",['A25'],nan
+340,1956340,Frohnau,s-bahn,"52.6325,13.2902",['KBS 104'],Q800472
+341,1956341,"Frohnau, Invalidensiedlung",bus,"52.65584641928224, 13.29035792910375",['A12'],nan
+342,1956342,Gabelung,strassenbahn,"52.599887444177305, 13.25203703437107","['28', '29']",nan
+343,1956343,"Galenusstrasse, Pankow, Krankenhaus",strassenbahn,"52.5818183,13.4287678",['49'],Q66195410
+344,1956344,Gartenfeld,s-bahn,"52.54695,13.24882",['KBS 100d'],Q96080469
+345,1956345,Gartenfelderstrasse Ecke Nonnendammallee,bus,"52.53933030097356, 13.232239626278965",['A13'],nan
+346,1956346,Gartenfelderstrasse Ecke Paulsternstrasse,bus,"52.54415086230652, 13.247076804185845","['A13', 'A10']",nan
+347,1956347,Gartenfelderstrasse Ecke Paulsternstrasse,strassenbahn,"52.54413344873405, 13.247080226892141",['55'],nan
+348,1956348,"Gartenstadt, Staaken, Heidelbergplan",bus,"52.541199833983136, 13.1468428723857",['A31'],nan
+349,1956349,"Gatow, Flugplatz",bus,"52.47170253033803, 13.123057426760603",['A34'],nan
+350,1956350,"Gatow, Kirche",bus,"52.48684680676539, 13.18215147844503","['A35', 'A34']",nan
+351,1956351,Gehsener Strasse,bus,"52.46321577871702, 13.58365868698432",['A27'],nan
+352,1956352,"Geißenweide, Elisabethstrasse",bus,"52.53416191228728, 13.561380969716343",['A37'],nan
+353,1956353,Genslerstrasse,bus,"52.534226679073065, 13.4967918058346",['A41'],nan
+354,1956354,Germaniastrasse Ecke Gottlieb-Dunkel-Strasse,strassenbahn,"52.46053987437175, 13.418058888486561","['15', '26']",nan
+355,1956355,Germersheimer Platz,bus,"52.54433253766927, 13.187336363919895",['A35'],nan
+356,1956356,Gesundbrunnen,s-bahn,"52.548611111111,13.389444444444","['KBS 100', 'KBS 105', 'KBS 103a', 'KBS 100c', 'KBS 104', 'KBS 106']",Q111239092
+357,1956357,Gesundbrunnen,u-bahn,"52.548611,13.389444",['D'],Q3761416
+358,1956358,Giebelsee,s-bahn,"52.5291,13.791",['KBS 101'],Q7178217
+359,1956359,"Gipsstrasse, U-Bhf. Weinmeisterstrasse",strassenbahn,"52.5253215,13.4035047",['1'],Q65094293
+360,1956360,Gleisdreieck,u-bahn,"52.49952,13.37409","['B I', 'A I', 'A II']",Q678372
+361,1956361,Glewitzerstrasse,bus,"52.49387671144271, 13.561907737951769",['A8'],nan
+362,1956362,"Glienicke, Elsässerstrasse",bus,"52.633385044072064, 13.345111730588611",['AN'],nan
+363,1956363,"Glienicke, Kirche",bus,"52.63062737184449, 13.312861916755343",['A7'],nan
+364,1956364,"Glienicke, Pilz",bus,"52.639037149237545, 13.364327759051822",['A7'],nan
+365,1956365,Glienicker Brücke,bus,"52.413474089031965, 13.091235881924467",['A6'],nan
+366,1956366,Glogauer Strasse,strassenbahn,"52.493437003779434, 13.43739124697587",['26'],nan
+367,1956367,Gneisenaustr.,u-bahn,"52.491388888889,13.395555555556",['C I'],Q668618
+368,1956368,Gneisenaustrasse/Yorckstrasse,strassenbahn,"52.492963715746406, 13.387720175188994",['95'],nan
+369,1956369,Goebenstrasse Ecke Bülowstrasse,strassenbahn,"52.49367856128188, 13.365670601708574",['2'],nan
+370,1956370,Goerzallee Ecke Wismarer Strasse,strassenbahn,"52.42193877862271, 13.298495448017045",['77'],nan
+371,1956371,Goerzallee Ecke Wismarerstrasse,bus,"52.42193975704034, 13.29849525230179",['A1'],nan
+372,1956372,Golfplatz,bus,"52.415837593448295, 13.128194256851318",['A6'],nan
+373,1956373,Gottlieb-Dunkel-Strasse Ecke Germaniastrasse,bus,"52.46056887553805, 13.417975404195007",['A25'],nan
+374,1956374,Gottlieb-Dunkel-Strasse Ecke Germaniastrasse,strassenbahn,"52.46057706686739, 13.417997050677094",['6'],nan
+375,1956375,Gotzkowskybrücke Ecke Alt-Moabit,bus,"52.52378497716608, 13.329592570734203",['A25'],nan
+376,1956376,Gotzkowskystrasse Ecke Alt-Moabit,strassenbahn,"52.5237772942417, 13.329787285101991",['44'],nan
+377,1956377,Gotzkowskystrasse Ecke Turmstrasse,bus,"52.52721970192428, 13.330570000205638",['A24'],nan
+378,1956378,Gotzkowskystrasse Ecke Turmstrasse,strassenbahn,"52.52723347192614, 13.330503468404352","['3', '2']",nan
+379,1956379,Gotzkowskystrasse Ecke turmstrasse,strassenbahn,"52.527219088204575, 13.330516261373727",['35'],nan
+380,1956380,Gradestrasse,strassenbahn,"52.45261828426318, 13.438552708749976",['27'],nan
+381,1956381,Gradestrasse (51) Ecke Tempelhofer Weg,bus,"52.452533085780615, 13.43301993500373",['A25'],nan
+382,1956382,Graf-Roedern-Allee Ecke Alt-Reinickendorf,strassenbahn,"52.575826791074604, 13.347823169310754",['35'],nan
+383,1956383,Graf-Roedernallee Ecke Reinickendorferstrasse,strassenbahn,"52.57584985636525, 13.347862354343286",['41'],nan
+384,1956384,Grazer Damm Ecke Prellerweg,bus,"52.459057935646065, 13.348604369406305",['A25'],nan
+385,1956385,Greifswalder Str.,s-bahn,"52.539722222222,13.439444444444","['KBS 100', 'KBS 103a', 'KBS 100c', 'KBS 100b']",Q439246
+386,1956386,Greifswalder Strasse,bus,"52.53002871375482, 13.62681794411932",['A44E'],nan
+387,1956387,Greifswalder Strasse,strassenbahn,"52.5364975,13.4334045","['13', '4']",Q65548960
+388,1956388,Grenzallee,u-bahn,"52.463333333333,13.443888888889",['C I'],Q571836
+389,1956389,Griebnitzsee,s-bahn,"52.3944,13.1272",['KBS 102'],Q315133
+390,1956390,Grossbeerenstrasse Ecke Daimlerstrasse,strassenbahn,"52.42636680081003, 13.37431638254586",['98'],nan
+391,1956391,"Groß-Glienicke, Gutshof",bus,"52.477548281200235, 13.12051364935305",['A34'],nan
+392,1956392,Große Präsidentenstrasse,strassenbahn,"52.52326345734971, 13.401134586268517","['49', '63']",nan
+393,1956393,Großer Stern,bus,"52.514524715463295, 13.349933192922938","['A24', 'A16']",nan
+394,1956394,Großgörschenstr.,s-bahn,"52.4922745,13.3678588",['KBS 104'],Q21776726
+395,1956395,Grunewald,s-bahn,"52.4892,13.2614",['KBS 102'],Q457266
+396,1956396,Grunewaldstrasse Ecke Martin-Luther-Strasse,bus,"52.489052179432406, 13.345015381967391",['A16'],nan
+397,1956397,Grunewaldstrasse Ecke Martin-Luther-Strasse,strassenbahn,"52.489114608736564, 13.344981706170403","['6', '25']",","
+398,1956398,Grünau,Fähre,"52.41748994875358, 13.582453633911928",['Wendenschloß<>Grünau'],nan
+399,1956399,Grünau,s-bahn,"52.4122,13.5746","['KBS 100a', 'KBS 103']",Q111307258
+400,1956400,"Grünauerstrasse, Bhf. Schöneweide",strassenbahn,"52.45604414856236, 13.510449640756448","['92', '91']",nan
+401,1956401,Grünberger Strasse,strassenbahn,"52.5122359,13.452609",['4'],Q65706239
+402,1956402,Grüner Weg Ecke Buschkrugallee,bus,"52.44277699347086, 13.45626759453103",['A25'],nan
+403,1956403,Grünstrasse,strassenbahn,"52.44496664892706, 13.57413386885382",['95'],nan
+404,1956404,Grüntalerstrasse Ecke Osloer Strasse,strassenbahn,"52.555331,13.3909979",['3'],Q65807452
+405,1956405,Gustav-Adolf-Strasse Ecke Prenzlauer Promenade,strassenbahn,"52.551688022464916, 13.430349300575484",['72'],nan
+406,1956406,Gustav-Adolf-Strasse Ecke Rennbahnstrasse,bus,"52.562178269666816, 13.454275093038184",['A42'],nan
+407,1956407,Gutshof Marienfelde,bus,"52.41088450558385, 13.373192649319066",['A52'],nan
+408,1956408,Görlitzer Bahnhof (Oranienstr.),u-bahn,"52.4992,13.428",['B I'],Q597759
+409,1956409,Güterbahnhof Springpfuhl,bus,"52.52561231977731, 13.533687321893124",['A43'],nan
+410,1956410,Hackescher Markt,strassenbahn,"52.522700593509725, 13.401605863643521","['49', '69']",Q65094590
+411,1956411,Hackescher Markt,strassenbahn,"52.52386243784762, 13.402614038025424",['63'],nan
+412,1956412,Hafenplatz,bus,"52.54215888169655, 13.206044861619935",['A34'],nan
+413,1956413,Hafenplatz,strassenbahn,"52.542292547760184, 13.206201126048732","['75', '54']",nan
+414,1956414,Hagenplatz,bus,"52.483382973651, 13.265818700272884","['A19', 'A17']",nan
+415,1956415,Hakenfelde,strassenbahn,"52.57886009874865, 13.210057800310379",['75'],nan
+416,1956416,Halensee,s-bahn,"52.4961,13.2906","['KBS 100', 'KBS 100a']",Q800476
+417,1956417,Halenseestrasse Ecke Kurfürstendamm,bus,"52.494939726732675, 13.285466139009724",['A4'],nan
+418,1956418,Hallesches Tor,strassenbahn,"52.49761471032374, 13.38904657659308",['95'],nan
+419,1956419,Hallesches Tor,u-bahn,"52.497777777778,13.391111111111","['C I', 'B I', 'A II']",Q658302
+420,1956420,Hannoversche Strasse,strassenbahn,"52.52716496126181, 13.387046759579254",['11'],nan
+421,1956421,Hansaplatz,bus,"52.5179343319099, 13.342038193257153","['A25', 'A16']",nan
+422,1956422,"Haselhorst, Kirche",bus,"52.5468281751583, 13.237065889883622",['A10'],nan
+423,1956423,Hauptstrasse,strassenbahn,"52.48184785648144, 13.34836694193233",['6'],nan
+424,1956424,Hauptstrasse Ecke Dominicusstrasse,strassenbahn,"52.48179322469747, 13.348385662518401",['60'],nan
+425,1956425,Hauptstrasse Ecke Dominicusstrasse,strassenbahn,"52.48185447998682, 13.34839211499204",['66'],nan
+426,1956426,Hauptstrasse Ecke Edelweißstrasse,bus,"52.586379262142074, 13.36752938856218","['A55', 'A45']",nan
+427,1956427,Hausvogteiplatz,u-bahn,"52.513055555556,13.396666666667",['A I'],Q656523
+428,1956428,Heerstr.,s-bahn,"52.5086,13.2586","['KBS 101', 'KBS 103']",Q800502
+429,1956429,Heerstrasse Ecke Pichelsdorferstrasse,bus,"52.51303188952818, 13.196865381046361","['A35', 'A34']",nan
+430,1956430,Heerstrasse Ecke Wilhelmstrasse,bus,"52.51662457723462, 13.179022303033726",['A13'],nan
+431,1956431,"Hegemeisterweg, Rennbahn",strassenbahn,"52.4741663,13.5204016","['69', '82']",Q65951916
+432,1956432,Heidelberger Platz,u-bahn,"52.479808333333,13.313236111111",['A II'],Q21777872
+433,1956433,Heilanstalt,strassenbahn,"52.58284634558199, 13.33436306449741",['68'],nan
+434,1956434,Heiligensee,s-bahn,"52.6247,13.2292",['KBS 105'],Q800475
+435,1956435,"Heiligensee, Dorfaue",strassenbahn,"52.606510891749345, 13.210444640210534",['29'],nan
+436,1956436,"Heiligensee, Hennigsdorferstrasse Ecke Mattenbuder Pfad",bus,"52.61696001333966, 13.22053830566762",['A14'],nan
+437,1956437,Heiligenseestrasse Ecke Karolinenstrasse,bus,"52.5979470528879, 13.275036672101873",['A14'],nan
+438,1956438,"Heimholtzstrasse, Autobusbahnhof",bus,"52.52150833390987, 13.324513693545313",['A1'],nan
+439,1956439,"Heinersdorf, Kirche",bus,"52.56826376476754, 13.440601903603064","['A55', 'A42']",nan
+440,1956440,"Heinersdorf, Kirche",strassenbahn,"52.5686908,13.4389053",['71'],Q65096107
+441,1956441,"Heinersdorf, Romain-Rolland-Str.",strassenbahn,"52.5725511,13.4371063",['71'],Q65096052
+442,1956442,Heinrich-Mann-Platz,bus,"52.57297246262195, 13.392146133350426",['A45'],nan
+443,1956443,Hennigsdorf (b Bln),s-bahn,"52.638,13.2057",['KBS 105'],Q800909
+444,1956444,Hennigsdorferstrasse Ecke Heiligensee,strassenbahn,"52.610995069028775, 13.216547112858846",['29'],nan
+445,1956445,"Herbstrasse, Bhf. Schönholz",bus,"52.57156679071471, 13.37987849268627",['A14'],nan
+446,1956446,Hermannplatz,strassenbahn,"52.487085572732276, 13.424752445258537","['94', '2', '47', '95', '26']",nan
+447,1956447,Hermannplatz,u-bahn,"52.48629,13.42455","['D', 'C I']",Q658929
+448,1956448,Hermannstr.,s-bahn,"52.4675,13.431111111111","['KBS 100', 'KBS 100a']",Q111263802
+449,1956449,Hermannstrasse Ecke Hertastrasse,strassenbahn,"52.464683821768375, 13.432895770730918","['15', '26']",nan
+450,1956450,Hermsdorf,s-bahn,"52.6178,13.3069",['KBS 104'],Q263189
+451,1956451,Hermsdorfer Damm Ecke Hohefeldstrasse,bus,"52.620540768055236, 13.305942509128208","['A12', 'A12S']",nan
+452,1956452,Hermsdorfer Damm Ecke Karolinenstrasse,bus,"52.596782782505926, 13.276626902280602",['A15'],nan
+453,1956453,Hermsdorferstrasse Ecke Alt-Wittenau,bus,"52.593597362933814, 13.32127606815509",['A14'],nan
+454,1956454,Hertzbergplatz,strassenbahn,"52.4773735457893, 13.448843811492495",['95'],nan
+455,1956455,"Hessenwinkel, Lindenstrasse",bus,"52.42653518647879, 13.728458969026482",['A22'],nan
+456,1956456,Hildburghauser Strasse Ecke Sonderhauserstrasse,bus,"52.41595186598356, 13.341732660124851",['A11'],nan
+457,1956457,Hildegardstrasse Ecke Bundesallee,bus,"52.48166617205108, 13.329413382898865",['A25'],nan
+458,1956458,Hildegardstrasse Ecke Bundesallee,strassenbahn,"52.48165880537118, 13.329435201187513",['44'],nan
+459,1956459,Hindenburgdamm Ecke Schloßstrasse,bus,"52.4534980325969, 13.315600039325448",['A48'],nan
+460,1956460,Hindenburgdamm Ecke Schloßstrasse,strassenbahn,"52.45350181384508, 13.315623434662008","['74', '73', '78', '77']",nan
+461,1956461,Hirschgarten,s-bahn,"52.4579,13.6032",['KBS 102'],Q4892435
+462,1956462,"Hirschgarten, Fürstenwalder Damm",strassenbahn,"52.4518533,13.6006245",['84'],Q66360740
+463,1956463,Hirschgartenm Fürstenwalderdamm,strassenbahn,"52.4518533,13.6006245",['87'],Q66360740
+464,1956464,Hochgerichtstrasse Ecke Seegefelderstrasse,bus,"52.53829981817958, 13.183413413138643",['A5'],nan
+465,1956465,Hochmeisterplatz,bus,"52.49468637986547, 13.301254684721862",['A4'],nan
+466,1956466,Hoeppnerstrasse Ecke Boelckestrasse,strassenbahn,"52.472423965861076, 13.377880937631122",['95'],nan
+467,1956467,Hohen-Neuendorf (b Bln),s-bahn,"52.6684,13.287",['KBS 104'],Q4500489
+468,1956468,"Hohenschönhausen, Falkenberger Strasse",bus,"52.550229554941964, 13.509585042301534",['A39'],nan
+469,1956469,"Hohenschönhausen, Falkenberger Strasse",strassenbahn,"52.5508672,13.5094994","['70', '64']",Q65555882
+470,1956470,"Hohenschönhausen, Gartenstadt",strassenbahn,"52.5508672,13.5094994",['63'],Q65555882
+471,1956471,Hohenschönhauser Strasse,strassenbahn,"52.5359329,13.4729468",['3'],Q65553684
+472,1956472,Hohenschöpping,s-bahn,"52.67,13.1945",['KBS 105'],Q19274489
+473,1956473,Hohenzollerndamm,s-bahn,"52.4885,13.3004","['KBS 100', 'KBS 100a']",Q800503
+474,1956474,Hohenzollernplatz,u-bahn,"52.493888888889,13.325",['A II'],Q571570
+475,1956475,Hohenzollernring Ecke streitstrasse,strassenbahn,"52.555723356381655, 13.207565635560826",['75'],nan
+476,1956476,"Holszhauserstrasse, Rathaus Reinickendorf",bus,"52.58866002637413, 13.324907108580643",['A14'],nan
+477,1956477,Holteistrasse,strassenbahn,"52.5088235,13.465969",['13'],Q65675805
+478,1956478,Holzhauserstrasse Ecke Alt-Wittenau,bus,"52.5918852691518, 13.326446441068011","['A12', 'A12S']",nan
+479,1956479,Hoppegarten (Mark),s-bahn,"52.5183,13.6734",['KBS 101'],Q15197357
+480,1956480,Hubertussportplatz,bus,"52.48558020529857, 13.284213603833559",['A29'],nan
+481,1956481,Hultschiner Damm,bus,"52.47711373957008, 13.600598140620137",['A8'],nan
+482,1956482,Humboldthain,s-bahn,"52.5451,13.3796","['KBS 106', 'KBS 105', 'KBS 104']",Q481276
+483,1956483,Händelplatz,strassenbahn,"52.450279094879285, 13.315466784727654","['77', '78']",nan
+484,1956484,"Hönow, Dorfstrasse",bus,"52.54884927869554, 13.63648687804691",['A44'],nan
+485,1956485,Hönowerstrasse Ecke Greifswalder Strasse,bus,"52.530040800451005, 13.626846072179225",['A44'],nan
+486,1956486,Ihnestrasse,bus,"52.44831039409289, 13.276355065531465",['A11'],nan
+487,1956487,Imbrosweg,strassenbahn,"52.443541863050356, 13.398564688322455",['15'],nan
+488,1956488,Industriebahn,bus,"52.618604307482244, 13.390395775797886",['A7'],nan
+489,1956489,Industriestrasse,strassenbahn,"52.455350229930445, 13.409794385645863",['15'],nan
+490,1956490,Innsbrucker Platz,bus,"52.478545508234895, 13.34405868604117","['A48', 'A16', 'A4']",nan
+491,1956491,Innsbrucker Platz,s-bahn,"52.4786,13.3439","['KBS 100', 'KBS 100a']",Q111263876
+492,1956492,Innsbrucker Platz,strassenbahn,"52.47804266204959, 13.343446877940893","['74', '73', '88']",nan
+493,1956493,Innsbrucker Platz,strassenbahn,"52.47851767561872, 13.344017066649423",['66'],nan
+494,1956494,Innsbrucker Platz (Hauptstr.),u-bahn,"52.4786,13.3439",['B II'],Q10275871
+495,1956495,Invalidenstrasse Ecke Brunnenstrasse,strassenbahn,"52.5324542,13.3974236",['70'],Q65691740
+496,1956496,Invalidenstrasse Ecke Chausseestrasse,bus,"52.530584371359055, 13.383078391497033",['A9'],nan
+497,1956497,Invalidenstrasse Ecke Chausseestrasse,strassenbahn,"52.5304158,13.3827302","['1', '46', '11', '70']",Q65552697
+498,1956498,Jannowitzbrücke,s-bahn,"52.514822222222,13.41795","['KBS 102', 'KBS 101'], ['KBS 103']","Q27955427, Q27955427"
+499,1956499,Jannowitzbrücke,u-bahn,"52.515656,13.418185",['D'],Q27955418
+500,1956500,Jerusalemerstrasse Ecke Oranienstrasse,strassenbahn,"52.50708720031073, 13.398253391849371",['88'],nan
+501,1956501,Joachim-Friedrich-Strasse Ecke Kurfürstendamm,bus,"52.49797143420066, 13.296225635820692",['A29'],nan
+502,1956502,Joachim-Friedrichstrasse Ecke Kurfürstendamm,bus,"52.49796817826004, 13.296225269333464",['A10'],nan
+503,1956503,Joachimthalerstrasse Ecke Kurfürstendamm,bus,"52.503861587707846, 13.331325108026789",['A19'],nan
+504,1956504,"Johannisthal, Haeckelstrasse",strassenbahn,"52.4402944,13.5052638","['69', '91']",Q66225573
+505,1956505,Johannisthaler Chaussee Ecke Rudower Strasse,bus,"52.434347637532014, 13.469038766571366",['A52'],nan
+506,1956506,Johannisthaler Chaussee Ecke Rudowerstrasse,strassenbahn,"52.43434486015572, 13.469069460026562",['47'],nan
+507,1956507,Jungfernheide,s-bahn,"52.53035,13.299433333333","['KBS 100', 'KBS 103a', 'KBS 100d']",Q110977325
+508,1956508,Jänickestrasse,bus,"52.427213941734294, 13.271659447787256",['A3E'],nan
+509,1956509,"Jüdenstrasse, Berliner Rathaus",strassenbahn,"52.51752981496212, 13.41012157203756",['71'],nan
+510,1956510,Kabelwerk,bus,"52.54877901870861, 13.247911091031332",['A13'],nan
+511,1956511,Kaiser-Friedrich-Strasse Ecke Kantstrasse,strassenbahn,"52.506770000763346, 13.302336386579878","['75', '60']",nan
+512,1956512,Kaiser-Wilhelm-Platz,bus,"52.486329247981715, 13.35655627172785","['A48', 'A4']",nan
+513,1956513,Kaiser-Wilhelm-Platz,strassenbahn,"52.486331659025346, 13.356584679052645",['25'],nan
+514,1956514,Kaiserdamm (Messedamm),u-bahn,"52.51,13.2822",['A I'],Q656409
+515,1956515,Kaisereiche,bus,"52.46896806014468, 13.332614886077709","['A48', 'A25', 'A17']",nan
+516,1956516,Kaisereiche,strassenbahn,"52.468942127334586, 13.332672961457298",['73'],nan
+517,1956517,Kaisereiche Ecke Rheinstrasse,strassenbahn,"52.468990950159686, 13.332592813586178",['88'],nan
+518,1956518,Kaiserin-Augusta-Strasse,strassenbahn,"52.4593658645353, 13.384489423034925","['98', '99']",nan
+519,1956519,Kaiserin-Augusta-Strasse Ecke Tempelhoferdamm,strassenbahn,"52.45936644511665, 13.384489178200493",['96'],nan
+520,1956520,Kaiserstrasse,strassenbahn,"52.44556344693812, 13.385808423835684","['98', '99']",nan
+521,1956521,Kaiserstrasse/Ringstrasse,bus,"52.44449600134536, 13.372233806361567",['A33 (Obus)'],nan
+522,1956522,Kantstrasse Ecke Hardenburgerstrasse,strassenbahn,"52.5054580140811, 13.333929381277338",['54'],nan
+523,1956523,Kantstrasse Ecke Wilmersdorfer Strasse,strassenbahn,"52.506696695421546, 13.306678533368224",['3'],nan
+524,1956524,Kantstrasse Ecke Wilmersdorferstrasse,strassenbahn,"52.50671197701565, 13.306654872825778",['44'],nan
+525,1956525,Karl-Marx-Str.,u-bahn,"52.476111111111,13.439166666667",['C I'],Q519494
+526,1956526,Karl-Marx-Strasse Station,strassenbahn,"52.47610260014145, 13.439445058091593",['47'],nan
+527,1956527,Karl-Marx-Strasse-Station,strassenbahn,"52.47611575459998, 13.439379278251234",['26'],nan
+528,1956528,Karlshorst,s-bahn,"52.4808,13.5258",['KBS 102'],Q111327045
+529,1956529,"Karlshorst, Treskowallee",strassenbahn,"52.47857308487424, 13.524470348260262",['82'],nan
+530,1956530,Karow,s-bahn,"52.615,13.4692",['KBS 106'],Q111324168
+531,1956531,"Karow, Kirche",bus,"52.612016271884954, 13.483134353282757",['A42'],nan
+532,1956532,Kaserne,bus,"52.61786251305711, 13.241444195903478",['A14'],nan
+533,1956533,Katzbachstrasse,bus,"52.491584280543336, 13.376725460315825",['A19'],nan
+534,1956534,Katzbachstrasse Ecke Dudenstrasse,bus,"52.48505320501064, 13.376546682899214",['A4'],nan
+535,1956535,Kaulsdorf,s-bahn,"52.5121,13.5904",['KBS 101'],Q800478
+536,1956536,"Kaulsdorf, Bausdorfstrasse",bus,"52.51256368150751, 13.601906818686038",['A49'],nan
+537,1956537,"Kaulsdorf, Hönowerstrasse Ecke Bausdorfstrasse",bus,"52.51299647106114, 13.612239044418734",['A49'],nan
+538,1956538,Kettelerpfad,bus,"52.59645135323533, 13.294232187056318",['A20'],nan
+539,1956539,Kinderheim,bus,"52.4898153097415, 13.481404230737937",['A82P'],nan
+540,1956540,Kissingenplatz,bus,"52.56737310947877, 13.422339887399149",['A45'],nan
+541,1956541,Kladow,Fähre,"52.45151498638808, 13.147961938847912",['Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt)'],nan
+542,1956542,"Kladow, Hottengrund (Stadtgrenze)",bus,"52.44607912406518, 13.12629608245484",['A35'],nan
+543,1956543,Klausenerplatz,strassenbahn,"52.519202008553854, 13.291867366490655",['60'],nan
+544,1956544,Kleine Frankfurterstrasse,strassenbahn,"52.52316104022035, 13.427849786497696","['63', '64']",nan
+545,1956545,Klement-Gottwald-Allee Ecke Bernkasteler Strasse,strassenbahn,"52.557020581568636, 13.466903185329526","['74', '72']",nan
+546,1956546,Klement-Gottwald-Allee Ecke Falkenbergerstrasse,bus,"52.555008425434956, 13.467651295944174",['A46'],nan
+547,1956547,Klement-Gottwald-Allee/Lichtenberger Strasse,strassenbahn,"52.55197851771295, 13.465492657377409",['3'],nan
+548,1956548,"Klingenberg, Blockdammweg",strassenbahn,"52.4842462,13.5104609",['13'],Q66085182
+549,1956549,"Klingenberg, Hauptstrasse",strassenbahn,"52.49911536933863, 13.480658310279543",['13'],nan
+550,1956550,Klingsorstrasse Ecke Birkbuschstrasse,strassenbahn,"52.44753002135401, 13.326343877499239",['40'],nan
+551,1956551,Klosterstr.,u-bahn,"52.516111111111,13.412222222222",['A I'],Q657893
+552,1956552,Klosterstrasse,bus,"52.51798604342281, 13.412126746747086",['O30'],nan
+553,1956553,Knie,strassenbahn,"52.51266887977092, 13.321859924761794",['55'],nan
+554,1956554,Koblanckstrasse,bus,"52.42616031178746, 13.1614370371839",['A51'],nan
+555,1956555,Kochstr.,u-bahn,"52.505897222222,13.390611111111",['C I'],Q201849
+556,1956556,Kohlhasenbrück,bus,"52.399386850068794, 13.141401147548066",['A18'],nan
+557,1956557,Koloniestrasse Ecke Drontheimerstrasse,bus,"52.55659295123383, 13.377186424053912",['A14'],nan
+558,1956558,Konstanzerstrasse Ecke Brandenburgischestrasse,strassenbahn,"52.49353646131809, 13.310142408780207",['60'],nan
+559,1956559,Konstanzerstrasse Ecke Hohenzollerndamm,bus,"52.488557879230406, 13.307970125730856",['A50'],nan
+560,1956560,Kosterstrasse,bus,"52.51798604342281, 13.412126746747086",['O30'],nan
+561,1956561,Kottbusser Damm (Schönleinstr.),u-bahn,"52.493055555556,13.421944444444",['D'],Q666868
+562,1956562,Kottbusser Tor,strassenbahn,"52.49904927716114, 13.418240814761639",['94'],nan
+563,1956563,Kottbusser Tor,u-bahn,"52.499166666667,13.418055555556","['D', 'B I', 'A II']",Q819768
+564,1956564,Kraftwerk Klingenberg,strassenbahn,"52.4881374,13.4958685","['13', '82']",Q66079524
+565,1956565,Krankenhaus Heckeshorn,bus,"52.43498872792054, 13.161716693825408",['A51'],nan
+566,1956566,Krankenhaus Neukölln,strassenbahn,"52.43977054074335, 13.459359057866306",['47'],nan
+567,1956567,Krankenhaus Tegel-Süd,bus,"52.57573397877684, 13.278749331662",['A13'],nan
+568,1956568,Krankenhaus Wannsee,bus,"52.43102764694952, 13.164964517227903",['A51'],nan
+569,1956569,Kriminalgericht,strassenbahn,"52.52664,13.35458",['25'],Q121863924
+570,1956570,Krumme Lanke,u-bahn,"52.443333333333,13.241388888889",['A II'],Q663945
+571,1956571,Kufsteinerstrasse Ecke Wexstrasse,bus,"52.47882775194336, 13.336919580493483",['A16'],nan
+572,1956572,Kurfürstendamm Ecke Brandenburgischestrasse,strassenbahn,"52.4999887817538, 13.30701206865973",['3'],nan
+573,1956573,Kurfürstendamm Ecke Joachim-Friedrich-Strasse,bus,"52.49794483473113, 13.29620731326561",['A21'],nan
+574,1956574,Kurfürstendamm Ecke Joachimstalerstrasse,bus,"52.503821761621026, 13.331324056667572",['A25'],nan
+575,1956575,Kurfürstendamm Ecke Konstanzer Strasse,bus,"52.500599097108285, 13.31304940813286",['A1'],nan
+576,1956576,Kurfürstendamm Ecke Wilmersdorferstrasse,strassenbahn,"52.499999022801454, 13.307019457045545","['44', '60']",nan
+577,1956577,Kurfürstenstr.,u-bahn,"52.5,13.361944444444",['B I'],Q690203
+578,1956578,Kurfürstenstrasse,u-bahn,"52.5,13.361944",['A II'],Q690203
+579,1956579,Kurt-Fischer-Platz,bus,"52.57973292845757, 13.398330728468228",['A7'],nan
+580,1956580,Kurt-Fischer-Platz,strassenbahn,"52.578668,13.3983016","['22', '46']",Q65032974
+581,1956581,Kurt-Schuhmacher-Platz,strassenbahn,"52.56335709197197, 13.327155109650729","['41', '68', '25']",nan
+582,1956582,Kurt-Schumacher-Platz,bus,"52.563438249109005, 13.32713028618972",['A21'],nan
+583,1956583,Kurt-Schumacher-Platz,strassenbahn,"52.56337002830784, 13.327125115241373","['28', '29']",nan
+584,1956584,Kurt-Schumacher-Platz,u-bahn,"52.563555555556,13.326572222222",['C I'],Q555916
+585,1956585,Köllnische Heide,s-bahn,"52.4694,13.4675",['KBS 100a'],Q800505
+586,1956586,Köllnischer Platz,strassenbahn,"52.4447189,13.5686225","['84', '86']",Q66363379
+587,1956587,Königin-Elisabeth-Strasse Ecke Kaiserdamm,strassenbahn,"52.510016445572965, 13.281838957682126",['60'],nan
+588,1956588,Königin-Elisabeth-Strasse Ecke Spandauer Damm,strassenbahn,"52.518365980839796, 13.280210738296512",['54'],nan
+589,1956589,"Königin-Luise-Strasse, Dahlem-Dorf",bus,"52.45807171681151, 13.289705778474532",['A10'],nan
+590,1956590,Königs Wusterhausen,s-bahn,"52.2966,13.6311",['KBS 103'],Q178002
+591,1956591,Königsheideweg,strassenbahn,"52.4467799,13.5066707",['91'],Q66236157
+592,1956592,Königstor,bus,"52.52520269485428, 13.419834994127731","['A9', 'O40', 'O30']",nan
+593,1956593,Königstor,strassenbahn,"52.52821600265539, 13.423869016265495",['74'],nan
+594,1956594,Königstrasse Ecke Am Grossen Wannsee,bus,"52.42052024120557, 13.167173648441983",['A51'],nan
+595,1956595,Königstrasse Ecke Bahnhofstrasse,bus,"52.419951974527734, 13.17530842784429",['A6'],nan
+596,1956596,Königsweide,strassenbahn,"52.4467799,13.5066707",['69'],Q66236157
+597,1956597,Köpenick,s-bahn,"52.4586,13.5808",['KBS 102'],Q800479
+598,1956598,"Köpenick, Hirtestrasse",strassenbahn,"52.4590446,13.5838302",['82'],Q66459446
+599,1956599,"Köpenick, Krankenhaus",bus,"52.43861200573594, 13.592411258792163",['A27'],nan
+600,1956600,"Köpenick, Krankenhaus",strassenbahn,"52.4388396,13.5920763",['95'],Q66091900
+601,1956601,"Köpenick, Lindenstrasse Ecke Bahnhofstrasse",strassenbahn,"52.4505094,13.572684",['95'],Q66095701
+602,1956602,Köpenicker Landstrasse Ecke Baumschulenstrasse,strassenbahn,"52.46913201072182, 13.491340045687773",['87'],nan
+603,1956603,Köpenicker Strasse,strassenbahn,"52.420483475304536, 13.538745338445915",['84'],nan
+604,1956604,Köpenicker Strasse Ecke Adalbertstrasse,strassenbahn,"52.50851870094253, 13.425367474591651",['11'],nan
+605,1956605,Köpenicker landstrasse,strassenbahn,"52.464462017739535, 13.49806222885837",['95'],nan
+606,1956606,Küstriner Platz,bus,"52.51324778107561, 13.439333192026231","['O40', 'O30']",nan
+607,1956607,Landsberger Chaussee Ecke Weißenseer Weg,strassenbahn,"52.533024946185236, 13.476229453708001",['3'],nan
+608,1956608,Lange Strasse Ecke Lorenzstrasse,bus,"52.424014090614754, 13.333133243045594",['A11'],nan
+609,1956609,Lankwitz,s-bahn,"52.4386,13.3417",['KBS 106'],Q800481
+610,1956610,"Lankwitz, Kirche",bus,"52.43629186979271, 13.345745387354132","['A32 (Obus)', 'A2']",nan
+611,1956611,"Lankwitz, Kirche",strassenbahn,"52.43629411008752, 13.34577793920493",['96'],nan
+612,1956612,"Lankwitz, Trippsteinstrasse",bus,"52.418980941735455, 13.34615060419153",['A2'],nan
+613,1956613,Lauterplatz,strassenbahn,"52.475528954378376, 13.340160154844037",['73'],nan
+614,1956614,Lehnitz,s-bahn,"52.7411,13.2635",['KBS 104'],Q4258498
+615,1956615,Lehrter Stadtbahnhof,s-bahn,"52.5253,13.3694","['KBS 102', 'KBS 101', 'KBS 103']",Q821299
+616,1956616,Leibnizstrasse Ecke Berlinerstrasse,strassenbahn,"52.514658325486884, 13.315181218887487",['54'],nan
+617,1956617,Leibnizstrasse Ecke Kantstrasse,strassenbahn,"52.50628298931102, 13.313891417291615",['75'],nan
+618,1956618,Leinbnizstrasse Ecke Kurfürstendamm,bus,"52.50066112971303, 13.31302315566327",['A19'],nan
+619,1956619,Leinestr.,u-bahn,"52.472777777778,13.428333333333",['D'],Q668563
+620,1956620,Leninallee,s-bahn,"52.5295,13.4548","['KBS 100', 'KBS 103a', 'KBS 100c', 'KBS 100b']",Q800507
+621,1956621,Leninallee,strassenbahn,"52.5259343,13.4462368","['13', '4']",Q65553230
+622,1956622,Leninallee Ecke Dimitroffstrasse,bus,"52.52640062347416, 13.44756753374412","['A41', 'O30']",nan
+623,1956623,Leninallee Ecke Dimitroffstrasse,strassenbahn,"52.526376866541014, 13.447609553656962","['69', '64']",nan
+624,1956624,"Leninallee, Dimitroffstrasse",strassenbahn,"52.52635268845449, 13.447647811228835",['63'],nan
+625,1956625,"Leninallee, Kleine Frankfurterstrasse",strassenbahn,"52.52325524053295, 13.425909002630009",['1'],nan
+626,1956626,Leninplatz,bus,"52.523238998562235, 13.433594583798834",['O40'],nan
+627,1956627,Leninplatz,bus,"52.63065467770951, 13.310368480730466",['AN'],nan
+628,1956628,Leninplatz,strassenbahn,"52.5232658,13.4326457","['1', '63', '69', '64']",Q65553105
+629,1956629,Leonorenstrasse,bus,"52.444367159567626, 13.338879863390057",['A17'],nan
+630,1956630,Leopoldplatz,u-bahn,"52.5465,13.3591",['C I'],Q1960809
+631,1956631,"Lichtefelde, Finckensteinallee",strassenbahn,"52.43248605965966, 13.29928826605782",['74'],nan
+632,1956632,Lichtenberg,s-bahn,"52.5106,13.4964",['KBS 101'],Q634247
+633,1956633,Lichtenrade,s-bahn,"52.3876,13.3963",['KBS 105'],Q6543354
+634,1956634,Lichtenrader Damm Ecke Buckower Chaussee,bus,"52.41458109674137, 13.401170404046406",['A52'],nan
+635,1956635,Lichterfelde Ost,s-bahn,"52.43,13.3289",['KBS 106'],Q111311299
+636,1956636,Lichterfelde Süd,s-bahn,"52.41,13.3086",['KBS 106'],Q800482
+637,1956637,Lichterfelde West,s-bahn,"52.4433,13.2947",['KBS 104'],Q111327103
+638,1956638,"Lichterfelde, Goerzallee",strassenbahn,"52.421933927255864, 13.298529678385423",['77'],nan
+639,1956639,"Lichterfelde, Osteweg",bus,"52.42100405812812, 13.281128356360531",['A3E'],nan
+640,1956640,"Lichterfelde, Saaleckplatz",bus,"52.41647199447382, 13.324058758059154",['A17'],nan
+641,1956641,"Lichterfelde-Süd, Lindenstrasse",bus,"52.41753870563818, 13.30666652302355",['A1'],nan
+642,1956642,"Lichterfelde-Süd, Schwelmerstrasse",strassenbahn,"52.4121712121314, 13.299051842415402",['96'],nan
+643,1956643,Lindenberg,bus,"52.602597712625055, 13.5250306401055",['AL'],nan
+644,1956644,Lindenberger Weg,bus,"52.63267168488251, 13.500299102148412",['A42'],nan
+645,1956645,Lindenhof Eythstrasse,strassenbahn,"52.45989495654381, 13.362167423686113",['60'],nan
+646,1956646,Lindenstrasse,strassenbahn,"52.41767689435255, 13.306043554097547",['78'],nan
+647,1956647,Lindenstrasse Ecke Bahnhofstrasse,strassenbahn,"52.4505094,13.572684","['84', '82', '83', '86']",Q66095701
+648,1956648,Lindenstrasse Ecke Berlinerstrasse,strassenbahn,"52.41789737041096, 13.305180259623016",['96'],nan
+649,1956649,Lindenstrasse Ecke Waltersdorferstrasse,bus,"52.392261654461066, 13.572266950845714",['A38'],nan
+650,1956650,"Lindenstrasse, Jerusalemer Kirche",strassenbahn,"52.503613870382836, 13.395579408898824",['99'],nan
+651,1956651,Lindenweg Ecke Roedernallee,bus,"52.58316056446954, 13.343735372540845",['A14'],nan
+652,1956652,Loewenhardtdamm Ecke Boelckestrasse,bus,"52.47958964372846, 13.376900027080955",['A28'],nan
+653,1956653,"Londoner Strasse, Strassenbahnhof",strassenbahn,"52.560151357479135, 13.339556870341623",['25'],nan
+654,1956654,Londonerstrasse Ecke Müllerstrasse,strassenbahn,"52.55872916187675, 13.337389368424244","['68', '28', '29']",nan
+655,1956655,Luisenplatz,bus,"52.52005408723936, 13.2995133852506",['A21'],nan
+656,1956656,Luisenplatz,strassenbahn,"52.51951940474329, 13.300024347605849","['3', '55', '54']",nan
+657,1956657,Luxemburgplatz,u-bahn,"52.528333333333,13.410277777778",['A I'],Q658790
+658,1956658,"Lübars, Alt-Lübars",bus,"52.61810884217379, 13.354625867884963",['A20'],nan
+659,1956659,Lützowplatz,bus,"52.505029017314186, 13.351822867208506","['A24', 'A16']",nan
+660,1956660,Lützowplatz Ecke Lützowstrasse,bus,"52.5053124599662, 13.353762415416787",['A29'],nan
+661,1956661,Lützowstrasse Ecke Potdamerstrasse,strassenbahn,"52.50308590730989, 13.365688207489654",['73'],nan
+662,1956662,Lützowstrasse Ecke Potsdamerstrasse,bus,"52.50306888585583, 13.365670233164014",['A48'],nan
+663,1956663,Machandelweg Ecke Charlottenburger Chaussee,bus,"52.52491855591643, 13.24499064333442",['A5'],nan
+664,1956664,Machnower Schleuse,strassenbahn,"52.39513316459733, 13.20831380290797",['96'],nan
+665,1956665,Magdalenenstr.,u-bahn,"52.5125,13.486388888889",['E'],Q473901
+666,1956666,Magistratsweg Ecke Brunsbütteler Damm,bus,"52.53308685678349, 13.157955808881047",['A31'],nan
+667,1956667,Mahlow,s-bahn,"52.3602,13.4085",['KBS 105'],Q2641431
+668,1956668,Mahlsdorf,s-bahn,"52.5121,13.6106",['KBS 101'],Q800484
+669,1956669,"Mahlsdorf-Süd, Hubertus",strassenbahn,"52.4741663,13.5991443","['83', '86']",Q66368466
+670,1956670,"Malchow, Dorfstrasse",bus,"52.580462270708544, 13.482797576255583","['A46', 'AL']",nan
+671,1956671,Malchower Weg,bus,"52.56152031238405, 13.500485897507804",['A46'],nan
+672,1956672,Manteuffelstrasse Ecke Köpenicker Strasse,bus,"52.50572611981578, 13.43197052522801",['A28'],nan
+673,1956673,Marchandstrasse/Lankwitzer Ring,bus,"52.42302374778929, 13.357490310151075",['A32 (Obus)'],nan
+674,1956674,Marchlewskistr.,u-bahn,"52.516794444444,13.444991666667",['E'],Q551768
+675,1956675,Mariendorf,s-bahn,"52.4478,13.3609",['KBS 105'],Q800497
+676,1956676,"Mariendorf, Kaiserstrasse Ecke Mariendorfer Damm",bus,"52.44556685028663, 13.38579424415166",['A33 (Obus)'],nan
+677,1956677,Mariendorfer Allee,strassenbahn,"52.44417698631804, 13.433567533504721",['27'],nan
+678,1956678,Mariendorfer Damm Ecke Alt-Mariendorf,strassenbahn,"52.4401803123353, 13.38732780334823","['15', '98']",nan
+679,1956679,Mariendorfer Friedhof,strassenbahn,"52.44953069256824, 13.404755931664896",['15'],nan
+680,1956680,Marienfelde,s-bahn,"52.4242,13.3747",['KBS 105'],Q800485
+681,1956681,Marienfelder Allee Ecke Lankwitzstrasse,bus,"52.4137412612811, 13.362086756533897",['A32 (Obus)'],nan
+682,1956682,Marienfelder Chaussee,strassenbahn,"52.4146041420917, 13.40113672565082",['99'],nan
+683,1956683,Marienfelder Strasse,strassenbahn,"52.392463281396054, 13.406662016554435",['99'],nan
+684,1956684,Marienstrasse Ecke Wilhelmstrasse,bus,"52.42960081549452, 13.321322942544775",['A11'],nan
+685,1956685,Markgrafendamm,bus,"52.49919969372071, 13.465742293248686",['A82P'],nan
+686,1956686,Markgrafendamm,strassenbahn,"52.49918957829234, 13.465807953098425",['82'],nan
+687,1956687,Marktplatz,strassenbahn,"52.43777454049099, 13.54773332680887",['84'],nan
+688,1956688,Martin-Luther-Strasse,strassenbahn,"52.488858993840374, 13.344921966484465",['3'],nan
+689,1956689,Martin-Luther-Strasse Ecke Grunewaldstrasse,strassenbahn,"52.48908286801741, 13.345066393609416",['60'],nan
+690,1956690,Martin-Luther-Strasse Ecke Motzstrasse,bus,"52.49711020506073, 13.346050564321276",['A16'],nan
+691,1956691,Marx-Engels-Platz,s-bahn,"52.5226,13.4022","['KBS 102', 'KBS 101', 'KBS 103']",Q689312
+692,1956692,"Marzahn, Bürknersfelde",bus,"52.53899732215637, 13.53460083201667",['A41'],nan
+693,1956693,"Marzahn, Pekrunstrasse",bus,"52.54023584809127, 13.546170091264191",['A43'],nan
+694,1956694,Masurenallee Ecke Messedamm,bus,"52.50649281916902, 13.280384055456446",['A4'],nan
+695,1956695,Mehringdamm,strassenbahn,"52.49298792323627, 13.387950331490586","['3', '2']",nan
+696,1956696,Mehringdamm,u-bahn,"52.493888888889,13.388333333333","['C I', 'C II']",Q657905
+697,1956697,Mehringdamm Ecke Gneisenaustrasse,bus,"52.49294262719779, 13.387697510363818",['A28'],nan
+698,1956698,Mehringplatz,strassenbahn,"52.4979249057416, 13.39108106831653",['99'],nan
+699,1956699,Mehringplatz (Hallesches Tor),strassenbahn,"52.4979249057416, 13.39108106831653",['98'],nan
+700,1956700,Memhardtstrasse Ecke Liebknechtstrasse,strassenbahn,"52.52399783975834, 13.412259780549107",['22'],nan
+701,1956701,Merkurstrasse Ecke Schulzendorferstrasse,bus,"52.397301765126436, 13.582619581036573",['A38'],nan
+702,1956702,Messedamm,strassenbahn,"52.50641938570246, 13.280392436943686",['75'],nan
+703,1956703,Mirbachplatz,bus,"52.55290279216196, 13.448885779648633",['A45'],nan
+704,1956704,"Moabit, Waldstrasse",bus,"52.529241314571834, 13.330905788251384",['A1'],nan
+705,1956705,"Moabit, Wiebestrasse Strassenbahnhof",bus,"52.530584741975225, 13.319392176398098",['A24'],nan
+706,1956706,"Moabit, Zwinglistrasse",strassenbahn,"52.525747628916534, 13.328044124055296",['23'],nan
+707,1956707,Molkenmarkt,strassenbahn,"52.51679321421663, 13.409330619020574","['74', '82', '72']",nan
+708,1956708,Monumentenstrasse Ecke Katzbachstrasse,bus,"52.48771272495207, 13.376640369266253",['A28'],nan
+709,1956709,Moritzplatz,u-bahn,"52.503611111111,13.410833333333",['D'],Q374225
+710,1956710,Märkisches Museum,u-bahn,"52.511944444444,13.408888888889",['A I'],Q657871
+711,1956711,Möckernbrücke,u-bahn,"52.499166666667,13.382777777778","['B I', 'A II']",Q704716
+712,1956712,Müggelseedamm,strassenbahn,"52.4498638,13.661534",['87'],Q66361484
+713,1956713,Mühlenstrasse,strassenbahn,"52.508543937506005, 13.43489757970717","['4', '3']",nan
+714,1956714,Müllerstrasse Ecke Schulstrasse,strassenbahn,"52.54639788626855, 13.359150434534053","['28', '29']",nan
+715,1956715,Münsterlandstrasse,bus,"52.50386179154858, 13.494630993360548",['O30'],nan
+716,1956716,Neanderstr.,u-bahn,"52.510833333333,13.416388888889",['D'],Q663204
+717,1956717,Nettelbeckplatz,strassenbahn,"52.54423653105294, 13.369853072459598","['35', '23', '68']",nan
+718,1956718,Neu-Westend,u-bahn,"52.515555555556,13.261111111111",['A I'],Q656431
+719,1956719,Neue Bahnhofstrasse,bus,"52.50643159569136, 13.469770456707195",['O30'],nan
+720,1956720,"Neue Wagenhalle, Kleiststrasse",strassenbahn,"52.394007518432645, 13.237288942514153",['96'],nan
+721,1956721,Neuenhagen (b Bln),s-bahn,"52.5208,13.7003",['KBS 101'],Q7001614
+722,1956722,Neukladowerallee Ecke Kladower Damm,bus,"52.45988940678482, 13.153891640951477","['A35', 'A34']",nan
+723,1956723,Neukölln,s-bahn,"52.469166666667,13.441666666667","['KBS 100', 'KBS 100a']",Q111325412
+724,1956724,Neukölln (Südring),u-bahn,"52.469166666667,13.441666666667",['C I'],Q569905
+725,1956725,"Neukölln, Hermannplatz",strassenbahn,"52.48645092944154, 13.424243030746648","['27', '3']",nan
+726,1956726,"Neukölln, Schulenburgpark",strassenbahn,"52.4666566988453, 13.470193015552026",['94'],nan
+727,1956727,Neuköllnerstrasse Ecke Köpenickerstrasse,bus,"52.41704466295391, 13.493979323476385",['A52'],nan
+728,1956728,"Niederschönhausen, Schillerstrasse",strassenbahn,"52.5923051,13.41088",['46'],Q65032581
+729,1956729,Nikolassee,s-bahn,"52.4317,13.1933","['KBS 102', 'KBS 104']",Q637052
+730,1956730,Nikolskoer Weg,bus,"52.41405938531216, 13.109270752484141",['A6'],nan
+731,1956731,Nollendorfplatz,bus,"52.49968843634292, 13.353086438468269",['A19'],nan
+732,1956732,Nollendorfplatz,strassenbahn,"52.49974136660471, 13.352878927585127",['2'],nan
+733,1956733,Nollendorfplatz,u-bahn,"52.499166666667,13.353888888889","['B II', 'B I', 'A I', 'A II']",Q571039
+734,1956734,"Nollendorfplatz, Einemstrasse",bus,"52.499844039844604, 13.354110288647837",['A16'],nan
+735,1956735,Nordbahnhof,s-bahn,"52.5319,13.3878","['KBS 106', 'KBS 105', 'KBS 104']",Q673721
+736,1956736,Nordbahnhof,u-bahn,"52.531111111111,13.3825",['C I'],Q554399
+737,1956737,"Nordend, Dietzgenstrasse",strassenbahn,"52.59006653572326, 13.40176941341587",['46'],nan
+738,1956738,"Nordend, Schillerstrasse",bus,"52.590233030676416, 13.40273305362098",['A7'],nan
+739,1956739,Nordendstrasse,strassenbahn,"52.588534,13.3882952",['22'],Q65428345
+740,1956740,Nöldnerplatz,s-bahn,"52.5038,13.4853",['KBS 101'],Q4892447
+741,1956741,Oberlandstrasse Ecke Germaniastrasse,strassenbahn,"52.46347941663018, 13.402097341937894",['6'],nan
+742,1956742,Oberschöneweide Ecke Wilhelminenhofstrasse,strassenbahn,"52.46244038154977, 13.514131377086349",['69'],nan
+743,1956743,"Oberschöneweide, Parkstrasse",strassenbahn,"52.45762107903834, 13.538789788199837",['82'],nan
+744,1956744,Oberspree,s-bahn,"52.4525,13.5382",['KBS 103a'],Q15192700
+745,1956745,Oberspree,strassenbahn,"52.45208939834283, 13.532927876229891",['92'],nan
+746,1956746,Oderberger Strasse,strassenbahn,"52.54058395613876, 13.404619006480333","['13', '4']",nan
+747,1956747,Oderbruchstrasse,bus,"52.52965617389457, 13.461022889581898",['O41'],nan
+748,1956748,Olympia-Stadion,u-bahn,"52.517222222222,13.25",['A I'],Q656441
+749,1956749,Onkel Toms Hütte,u-bahn,"52.450277777778,13.253333333333",['A II'],Q389214
+750,1956750,Oranienburg,s-bahn,"52.7536,13.2496",['KBS 104'],Q2341669
+751,1956751,Oranienburger Str.,s-bahn,"52.525,13.3929","['KBS 106', 'KBS 105', 'KBS 104']",Q480249
+752,1956752,Oranienburger Strasse Ecke Eichborndamm,bus,"52.59549417383574, 13.332977441612183",['A21'],nan
+753,1956753,Oranienburger Tor,bus,"52.52716314203455, 13.38710905184874","['A9', 'O40']",nan
+754,1956754,Oranienburger Tor,strassenbahn,"52.5256031,13.3872745","['46', '11', '70', '69', '1']",Q65095375
+755,1956755,Oranienburger Tor,u-bahn,"52.524886111111,13.387477777778",['C I'],Q571485
+756,1956756,Oranienburgerstrasse Ecke Alt-Wittenau,bus,"52.589697010821375, 13.334214120290952","['A12', 'A12S', 'A14']",nan
+757,1956757,Oraniendamm Ecke Waidmannslusterdamm,bus,"52.60786538735034, 13.323762781054324",['A20'],nan
+758,1956758,"Oranienplatz, Dresdenerstrasse",strassenbahn,"52.50311696005453, 13.415352054334681",['94'],nan
+759,1956759,Orankestrasse,strassenbahn,"52.544048109588445, 13.492293861074563",['64'],nan
+760,1956760,Oskar-Helene-Heim,u-bahn,"52.450277777778,13.269722222222",['A II'],Q681336
+761,1956761,Oskarplatz,strassenbahn,"52.5570174,13.3659987","['3', '35']",Q65767112
+762,1956762,Osloer Strasse Ecke Prinzenallee,strassenbahn,"52.5559072,13.3837614",['23'],Q65807451
+763,1956763,Osloerstrasse Ecke Kolonie-Drontheim,strassenbahn,"52.556467046084194, 13.377071802941376",['36'],nan
+764,1956764,Osloerstrasse Ecke Prinzenallee,strassenbahn,"52.5559072,13.3837614",['24'],Q65807451
+765,1956765,Osloerstrasse Ecke Schwedenstrasse,bus,"52.556656015402865, 13.373862995391455",['A14'],nan
+766,1956766,Osloerstrasse Ecke Schwedenstrasse,strassenbahn,"52.55673816805014, 13.373819940687156",['41'],nan
+767,1956767,Osnabrückerstrasse Ecke Tauroggenerstrasse,strassenbahn,"52.52582913610088, 13.301920465528912",['3'],nan
+768,1956768,Ossietzkyplatz,bus,"52.58150700684141, 13.404249587640239",['A7'],nan
+769,1956769,Ossietzkyplatz,strassenbahn,"52.58100580136794, 13.404014807678767",['46'],nan
+770,1956770,Ostbahnhof,bus,"52.50976670730252, 13.43372198235041",['O40'],nan
+771,1956771,Ostbahnhof,s-bahn,"52.51,13.4347","['KBS 102', 'KBS 101', 'KBS 103']",Q111325075
+772,1956772,Ostbahnhof,strassenbahn,"52.509107635417394, 13.43550619008533",['82'],nan
+773,1956773,Ostkreuz,s-bahn,"52.5031,13.4689","['KBS 100', 'KBS 103', 'KBS 103a', 'KBS 100c', 'KBS 102', 'KBS 101', 'KBS 100b']",Q111251530
+774,1956774,Ostseestrasse Ecke Prenzlauerallee,bus,"52.551163338390026, 13.430159248011455",['A42'],nan
+775,1956775,Pacelliallee/Thielallee,strassenbahn,"52.45822300734783, 13.287066898066222",['40'],nan
+776,1956776,Pallasstrasse,strassenbahn,"52.49433531886079, 13.361034439138953",['74'],nan
+777,1956777,Pallasstrasse Ecke Potsdamerstrasse,strassenbahn,"52.49433490661493, 13.361066683851742",['73'],nan
+778,1956778,Pallasstrasse Ecke Potsdamerstrasse,strassenbahn,"52.49434438235142, 13.361071570325102",['88'],nan
+779,1956779,Pankow,s-bahn,"52.5667,13.4111","['KBS 106', 'KBS 100b']",Q111273850
+780,1956780,Pankow (Vinetastr.),u-bahn,"52.559166666667,13.413333333333",['A I'],Q570906
+781,1956781,"Pankow, Kirche",strassenbahn,"52.5706452,13.4103115","['22', '49', '46']",Q65055066
+782,1956782,"Pankow, Rathaus",bus,"52.56953908840178, 13.404186437171612",['A7'],nan
+783,1956783,Pankow-Heinersdorf,s-bahn,"52.5780653,13.4295093","['KBS 106', 'KBS 100b']",Q4892366
+784,1956784,Pankower Allee Ecke Provinzstrasse,strassenbahn,"52.564687007235015, 13.378064380060506",['36'],nan
+785,1956785,"Pankower Allee, Schäfersee",strassenbahn,"52.56380596476722, 13.36429105979567",['36'],nan
+786,1956786,"Pankower Allee, Strassenbahnhof",strassenbahn,"52.56413459612286, 13.371439913700597",['36'],nan
+787,1956787,Pankowerallee (Schäfersee),strassenbahn,"52.563819246507876, 13.364340886677011",['41'],nan
+788,1956788,Pankowerallee Ecke Provinzstrasse,bus,"52.56468310933743, 13.378061412582335",['A14'],nan
+789,1956789,Pankowerallee Ecke Residenzstrasse,strassenbahn,"52.56382389768817, 13.364287138448507",['35'],nan
+790,1956790,Pankstrasse Ecke Badstrasse,strassenbahn,"52.55232675891994, 13.381359506860218",['36'],nan
+791,1956791,Pankstrasse/Prinzenallee,strassenbahn,"52.55229630055077, 13.381421035926673","['41', '28', '29']",nan
+792,1956792,Papestr.,s-bahn,"52.4756,13.3644","['KBS 106', 'KBS 100', 'KBS 100a', 'KBS 105']",Q111323139
+793,1956793,Paradestrasse,u-bahn,"52.478055555556,13.386111111111",['C II'],Q557543
+794,1956794,Paradiesgarten,bus,"52.44194344887106, 13.68660586923869",['A22'],nan
+795,1956795,Parchimerallee Ecke Rudowerstrasse,strassenbahn,"52.44546832801967, 13.455025325633102",['47'],nan
+796,1956796,Pariserstrasse Ecke Bundesallee,strassenbahn,"52.49610379255558, 13.330698373835808","['77', '78']",nan
+797,1956797,Parkstrasse,strassenbahn,"52.45876522318908, 13.53993545855609",['87'],nan
+798,1956798,Paul-Heyse-Strasse,strassenbahn,"52.5291682,13.4447186","['13', '4']",Q65706974
+799,1956799,Pfaueninselchaussee,bus,"52.418854030922695, 13.153074716476008",['A6'],nan
+800,1956800,Pichelsberg,s-bahn,"52.5103,13.2271","['KBS 101', 'KBS 103']",Q800488
+801,1956801,Pichelsdorfer Strasse Ecke Heerstrasse,strassenbahn,"52.513085070592794, 13.196815633639886",['75'],nan
+802,1956802,Pionierrepublik,strassenbahn,"52.4575779,13.5436031","['82', '95', '87']",Q66104117
+803,1956803,Plänterwald,s-bahn,"52.4786,13.4733","['KBS 103a', 'KBS 103']",Q7205917
+804,1956804,Plötzensee,strassenbahn,"52.54143051047615, 13.334522358003783",['3'],nan
+805,1956805,Podbielskiallee,u-bahn,"52.464444444444,13.296388888889",['A II'],Q571324
+806,1956806,Podbielskiallee (Botanischer Garten),strassenbahn,"52.45866344963711, 13.303795091272793",['40'],nan
+807,1956807,Potsdam,s-bahn,"52.3917,13.0667",['KBS 102'],Q647973
+808,1956808,"Potsdamer Brücke, Am Karlsbad",bus,"52.50552546320693, 13.368019266643435",['A48'],nan
+809,1956809,Potsdamer Chaussee Ecke Spanische Allee,bus,"52.42963465458752, 13.224071111730964",['A3'],nan
+810,1956810,Potsdamer Platz,s-bahn,"52.5094,13.3766","['KBS 106', 'KBS 105', 'KBS 104']",Q106086519
+811,1956811,Potsdamer Platz,u-bahn,"52.5092,13.3782",['A I'],Q3909578
+812,1956812,"Potsdamer Platz, Linkstrasse",strassenbahn,"52.50856492805897, 13.377132677663122","['74', '73']",nan
+813,1956813,Potsdamer Strasse,strassenbahn,"52.497947693481, 13.362087448651582",['3'],nan
+814,1956814,Potsdamer Strasse Ecke Bülowstrasse,bus,"52.497900834061184, 13.362004472211375",['A19'],nan
+815,1956815,Potsdamer Strasse Ecke Clayallee,bus,"52.43504800046437, 13.260425575475969","['A1', 'A18']",nan
+816,1956816,Potsdamer Strasse Ecke Fischerhüttenstrasse,bus,"52.4357751453625, 13.256027995378796",['A48'],nan
+817,1956817,Potsdamer Strasse Ecke Lützowstrasse,bus,"52.50309197205672, 13.36572928290069","['A24', 'A29']",nan
+818,1956818,Potsdamerstrasse Ecke Berlinerstrasse,bus,"52.43503284838459, 13.260476479199593",['A3E'],nan
+819,1956819,Potsdamerstrasse Ecke Lützowstrasse,strassenbahn,"52.50308960322814, 13.365693026618919",['88'],nan
+820,1956820,Prenzlauer Allee,s-bahn,"52.544775,13.426116","['KBS 100', 'KBS 103a', 'KBS 100c', 'KBS 100b']",Q32661483
+821,1956821,Prenzlauer Allee,strassenbahn,"52.5396522,13.4244789","['13', '4']",Q65222180
+822,1956822,Prenzlauer Promenade Ecke Gustav-Adolf-Strasse,strassenbahn,"52.551756288963574, 13.43036423385003","['70', '3']",nan
+823,1956823,Prenzlauer Promenade Ecke Thulestrasse,bus,"52.556408509119564, 13.42916030906555",['A45'],nan
+824,1956824,Prenzlauer Promenade Ecke Wisbyer Strasse,strassenbahn,"52.55114992903115, 13.430157632309445",['71'],nan
+825,1956825,Prenzlauer Tor,bus,"52.52709114016772, 13.415809370320808",['O40'],nan
+826,1956826,Prenzlauerstrasse Ecke Granitzstrasse,bus,"52.572073843408724, 13.428739624379482",['A55'],nan
+827,1956827,Priesterweg,s-bahn,"52.4601,13.3563","['KBS 106', 'KBS 105']",Q800508
+828,1956828,Prinzenallee Ecke Badstrasse,strassenbahn,"52.55229397230918, 13.381436969273926",['24'],nan
+829,1956829,Prinzenallee Ecke Osloer Strasse,strassenbahn,"52.5559072,13.3837614",['3'],Q65807451
+830,1956830,Prinzenstr.,u-bahn,"52.498333333333,13.406111111111",['B I'],Q689797
+831,1956831,Prinzenstrasse,u-bahn,"52.498333333333,13.406111111111",['A II'],Q689797
+832,1956832,Proskauer Ecke Dolziger Strasse,bus,"52.519874079766325, 13.463289228834057",['O30'],nan
+833,1956833,Provinzstrasse,bus,"52.57446959285376, 13.380786692860628","['A55', 'A45']",nan
+834,1956834,Prühßstrasse,strassenbahn,"52.443274813352325, 13.38622115632198",['98'],nan
+835,1956835,Putlitzstr.,s-bahn,"52.536,13.344","['KBS 100', 'KBS 103a']",Q465972
+836,1956836,Päwesiner Weg Ecke Seeburgerstrasse,bus,"52.526347644869524, 13.181851254649866",['A13'],nan
+837,1956837,Quantzstrasse Ecke Potsdamer Chaussee,bus,"52.423187276655185, 13.202235240977128",['A18'],nan
+838,1956838,Rahnsdorf,s-bahn,"52.4516372,13.6899776",['KBS 102'],Q800489
+839,1956839,Rahnsdorf,strassenbahn,"52.443531694444445,13.685038",['87'],Q66361311
+840,1956840,Rahnsdorferstrasse,strassenbahn,"52.4985173,13.613101",['83'],Q66364532
+841,1956841,Rangsdorf,s-bahn,"52.294444,13.430278",['KBS 105'],Q801345
+842,1956842,Rathaus Lichtenberg,strassenbahn,"52.5156658,13.4788562",['3'],Q65948511
+843,1956843,Rathaus Neukölln,bus,"52.48152537358512, 13.434381079123925",['A4'],nan
+844,1956844,Rathaus Neukölln,strassenbahn,"52.4815671803902, 13.434281220930867",['26'],nan
+845,1956845,Rathaus Neukölln,u-bahn,"52.481666666667,13.434166666667",['C I'],Q628770
+846,1956846,Rathaus Schöneberg,bus,"52.48515473887597, 13.345086596743203","['A16', 'A4']",nan
+847,1956847,Rathaus Schöneberg,strassenbahn,"52.48509787554474, 13.345072009289709",['6'],nan
+848,1956848,Rathaus Schöneberg,u-bahn,"52.483116666667,13.341930555556",['B II'],Q570926
+849,1956849,Rathaus Schöneberg (Belzigerstrasse),strassenbahn,"52.48461294697747, 13.345170808707232",['25'],nan
+850,1956850,Rathaus Spandau,bus,"52.53480744415333, 13.199505517192808","['A31', 'A5', 'A13', 'A35', 'A34']",nan
+851,1956851,Rathaus Spandau,strassenbahn,"52.53488081670858, 13.199058849732252",['75'],nan
+852,1956852,Rathaus Steglitz,bus,"52.45683244954579, 13.320757398114617","['A48', 'A32 (Obus)', 'A17']",nan
+853,1956853,Rathaus Steglitz,strassenbahn,"52.45691682931275, 13.320745348424166","['73', '77', '40', '74', '78']",nan
+854,1956854,Rathaus Wannsee,bus,"52.418440129670444, 13.148872492834737","['A6', 'A18', 'A3']",nan
+855,1956855,Rathaus Zehlendorf,bus,"52.433207520111885, 13.259531923613192",['A3'],nan
+856,1956856,Rathenower Strasse Ecke Turmstrasse,bus,"52.52674219932397, 13.3553876111091",['A24'],nan
+857,1956857,Rathenowerstrasse Ecke Invalidenstrasse,strassenbahn,"52.5236499477288, 13.356930609567168",['44'],nan
+858,1956858,Rathenowerstrasse Ecke Perlebergstrasse,strassenbahn,"52.532491398196385, 13.35056839552805",['35'],nan
+859,1956859,Regattahäuser,strassenbahn,"52.4114287,13.5880881",['86'],Q66490561
+860,1956860,Rehberge,u-bahn,"52.5567,13.3412",['C I'],Q253850
+861,1956861,Reichenberger Strasse,strassenbahn,"52.495535248263636, 13.430362951622532",['26'],nan
+862,1956862,Reichskanzlerplatz,bus,"52.50929184084697, 13.27265693784035",['A4'],nan
+863,1956863,Reichskanzlerplatz,strassenbahn,"52.5089140766086, 13.272251406623242",['75'],nan
+864,1956864,Reichskanzlerplatz,u-bahn,"52.509722222222,13.273055555556",['A I'],Q657857
+865,1956865,Reichssportfeld,s-bahn,"52.511,13.2416","['KBS 101', 'KBS 103']",Q800506
+866,1956866,Reinickendorf,s-bahn,"52.5779,13.3506",['KBS 105'],Q800496
+867,1956867,"Reinickendorf, Teichstrasse Ecke Humboldtstrasse",strassenbahn,"52.574634934155156, 13.346000182216187",['35'],nan
+868,1956868,Reinickendorfer Str.,u-bahn,"52.539911111111,13.370377777778",['C I'],Q559249
+869,1956869,Reinickendorferstrasse Ecke Schulstrasse,strassenbahn,"52.55157643054178, 13.367360408407965","['28', '29']",nan
+870,1956870,Rennbahn,strassenbahn,"52.430060594099295, 13.39244351468167",['99'],nan
+871,1956871,Rennbahnstrasse,bus,"52.557029825201695, 13.466976894786637",['A45'],nan
+872,1956872,Residenzstrasse Ecke Alt-Reinickendorf,strassenbahn,"52.574255171209124, 13.359159577429239","['41', '36', '35']",nan
+873,1956873,Residenzstrasse/Kopenhagenerstrasse,bus,"52.574253400902535, 13.359169613216297",['A14'],nan
+874,1956874,Richard-Wagner-Platz,u-bahn,"52.5175,13.306388888889",['A III'],Q662201
+875,1956875,Richardstrasse,strassenbahn,"52.47097391592754, 13.446301038467002",['15'],nan
+876,1956876,Richtershorn,strassenbahn,"52.40105,13.6248473",['86'],Q66481215
+877,1956877,Ridbacher Strasse,bus,"52.527457204488485, 13.606447755554132",['A49'],nan
+878,1956878,Ringstrasse Ecke Drakestrasse,bus,"52.43979421249329, 13.300201657021095",['A11'],nan
+879,1956879,Rittberg-Krankenhaus,strassenbahn,"52.42987951650218, 13.288961460110901","['77', '78']",nan
+880,1956880,Robert-Koch-Platz,bus,"52.527570508835595, 13.37877230286134",['O40'],nan
+881,1956881,Roedernallee Ecke Reinickdorferstrasse,bus,"52.57584197969028, 13.347821878274898",['A14'],nan
+882,1956882,Roederplatz,bus,"52.52671388514014, 13.479662353432392",['O30'],nan
+883,1956883,Roederplatz,strassenbahn,"52.5266001,13.479068","['3', '69']",Q65685373
+884,1956884,"Rohrdammbrücke (Bhf. Siemensstadt, Fürstenbrunn)",bus,"52.53894892076107, 13.263781763827655",['A10'],nan
+885,1956885,Roseneck,bus,"52.47580089902253, 13.282411270445099","['A29', 'A17']",nan
+886,1956886,"Roseneck, Grunewald",bus,"52.477204856992834, 13.280639294338984",['A19'],nan
+887,1956887,"Roseneck, Grunewald",strassenbahn,"52.476834885293094, 13.280925334015338",['51'],nan
+888,1956888,"Roseneck, Rheinbabenallee, Grunewald",bus,"52.47687414320646, 13.281021071068828",['A50'],nan
+889,1956889,"Rosenthal, Siedlung",strassenbahn,"52.59500971124665, 13.38035213667906",['22'],nan
+890,1956890,Rosenthaler Platz,bus,"52.5296729549826, 13.401428926082492",['O40'],nan
+891,1956891,Rosenthaler Platz,strassenbahn,"52.5301769,13.4016121","['1', '22', '49', '11']",Q65093945
+892,1956892,Rosenthaler Platz,u-bahn,"52.53,13.401111111111",['D'],Q663231
+893,1956893,Roßstrasse Ecke Breitestrasse,strassenbahn,"52.512044719873295, 13.408694600852993",['72'],nan
+894,1956894,Rubensstrasse Ecke Grazer Platz,bus,"52.46748000817942, 13.344120481042479",['A25'],nan
+895,1956895,"Rudow, Bahnhofstrasse",strassenbahn,"52.40195520982694, 13.51319617947882",['47'],nan
+896,1956896,"Rudow, Kanalstrasse Ecke Mimosenweg",bus,"52.42676343930019, 13.506125149904188",['A52'],nan
+897,1956897,Ruhleben,u-bahn,"52.525555555556,13.241388888889",['A I'],Q656401
+898,1956898,Ruhlsdorfer Platz,strassenbahn,"52.40085341513547, 13.268853571967181",['96'],nan
+899,1956899,Rummelsburg,s-bahn,"52.501244,13.478545",['KBS 102'],Q15107132
+900,1956900,Ruppiner Chaussee Ecke Karolinenstrasse,strassenbahn,"52.59794146808619, 13.275024358001108",['28'],nan
+901,1956901,Ruppiner Chaussee Ecke Karolinenstrasse,strassenbahn,"52.597947472486396, 13.275065027135373",['29'],nan
+902,1956902,Röblingstrasse Ecke Arnulfstrasse,bus,"52.45674603255616, 13.359408554060307",['A25'],nan
+903,1956903,Röntgental,s-bahn,"52.6487,13.5136",['KBS 106'],Q801386
+904,1956904,Rüdesheimer Platz,u-bahn,"52.473333333333,13.314444444444",['A II'],Q167147
+905,1956905,Rügenerstrasse Ecke Brunnenstrasse,strassenbahn,"52.54468383613832, 13.391054406802407","['36', '29', '24']",nan
+906,1956906,Rügenesrstrasse Ecke Brunnenstrasse,strassenbahn,"52.54471634192088, 13.391012495632392",['28'],nan
+907,1956907,S-Bhf. Adlershof,strassenbahn,"52.435251,13.5408489",['84'],Q66363728
+908,1956908,"S-Bhf. Baumschulenweg, Glanzstrasse",bus,"52.46785040523502, 13.489799682908586",['A47'],nan
+909,1956909,S-Bhf. Biesdorf,bus,"52.513432593832405, 13.555387279249894","['A37', 'O37']",nan
+910,1956910,S-Bhf. Friedrichsfelde-Ost,bus,"52.51324537165634, 13.524030584354616",['A43'],nan
+911,1956911,S-Bhf. Friedrichshagen,strassenbahn,"52.4564126,13.6253656","['84', '87']",Q66360784
+912,1956912,S-Bhf. Friedrichstrasse,bus,"52.519653499291785, 13.388483515392778",['A9'],nan
+913,1956913,S-Bhf. Greifswalder Strasse,strassenbahn,"52.5407234,13.4382904",['74'],Q65548932
+914,1956914,S-Bhf. Grünau,bus,"52.41361515857581, 13.573796290663196","['A36', 'A38']",nan
+915,1956915,S-Bhf. Karlshorst,strassenbahn,"52.481331,13.5254433",['69'],Q65952829
+916,1956916,"S-Bhf. Kaulsdorf, Planitzstrasse",bus,"52.51113864301491, 13.58755467300039",['A27'],nan
+917,1956917,S-Bhf. Köpenick,bus,"52.45882190200453, 13.579564677172508",['A27'],nan
+918,1956918,S-Bhf. Köpenick,strassenbahn,"52.4582153,13.5790435","['82', '83', '86']",Q66370784
+919,1956919,S-Bhf. Leninallee,strassenbahn,"52.52851097343215, 13.455862308166953","['64'], ['63']","nan, nan"
+920,1956920,S-Bhf. Mahlsdorf,bus,"52.51234908870327, 13.61221793610957","['A44E', 'A44']",nan
+921,1956921,S-Bhf. Mahlsdorf,strassenbahn,"52.51221826761895, 13.612190748726157",['83'],nan
+922,1956922,S-Bhf. Ostkreuz,strassenbahn,"52.50243021718411, 13.469020052690205",['82'],nan
+923,1956923,"S-Bhf. Pankow, Florastrasse",strassenbahn,"52.56665022842682, 13.409775813699397","['22', '49', '46']",nan
+924,1956924,S-Bhf. Pankow-Heinersdorf,strassenbahn,"52.577507820515834, 13.427853061920917",['49'],nan
+925,1956925,S-Bhf. Prenzlauer Allee,strassenbahn,"52.5448075,13.427408","['71', '72']",Q65219791
+926,1956926,S-Bhf. Rahnsdorf,bus,"52.451628368326396, 13.691579101298974",['A22'],nan
+927,1956927,S-Bhf. Rummelsburg,bus,"52.50179539105723, 13.478028581044718",['O30'],nan
+928,1956928,S-Bhf. Schöneweide,strassenbahn,"52.4553413,13.5110449",['95'],Q65950245
+929,1956929,S-Bhf. Schönhauser Allee,strassenbahn,"52.5493619,13.4135734","['22', '49', '46']",Q65088013
+930,1956930,S-Bhf. Spindlersfeld,strassenbahn,"52.4457311,13.5624298",['84'],Q66363397
+931,1956931,S-Bhf. Wilhelmshagen,bus,"52.43886122089184, 13.721060252199655",['A22'],nan
+932,1956932,Saarbrücker Strasse Ecke Prenzlauer Tor,strassenbahn,"52.528602411479305, 13.417036440468811",['71'],nan
+933,1956933,"Saarbrücker Strasse, Prenzlauer Tor",strassenbahn,"52.528602411479305, 13.417036440468811",['72'],nan
+934,1956934,Saargemünder Strasse,bus,"52.450918082089416, 13.270922488527036","['A18', 'A11']",nan
+935,1956935,Saargemünderstrasse,bus,"52.45100999300224, 13.270719781407637",['A3E'],nan
+936,1956936,Saatwinkler Damm,bus,"52.54802938567344, 13.300569461587116",['A21'],nan
+937,1956937,Sachsendamm Ecke Alboinstrasse,strassenbahn,"52.47043068842395, 13.372774905947711",['60'],nan
+938,1956938,"Saganerstrasse, Güterbahn",strassenbahn,"52.49537114725559, 13.488310191715467",['13'],nan
+939,1956939,Samariterstr.,u-bahn,"52.514722222222,13.464444444444",['E'],Q552891
+940,1956940,"Sandkrugbrücke, Lehrter Bahnhof",strassenbahn,"52.52767207168016, 13.37315298082495",['44'],nan
+941,1956941,Savignyplatz,s-bahn,"52.5051746,13.3190659","['KBS 102', 'KBS 101', 'KBS 103']",Q554382
+942,1956942,"Scharnhorststrasse, Volkspolizeikrankenhaus",bus,"52.534871028835916, 13.3697264570911",['A9'],nan
+943,1956943,"Schildow, Kirche",bus,"52.63581867397586, 13.377719168374458",['A7'],nan
+944,1956944,Schillingbrücke (Ostbahnhof),strassenbahn,"52.51050795350326, 13.430220315575571",['1'],nan
+945,1956945,Schillingstr.,u-bahn,"52.520278,13.421667",['E'],Q552899
+946,1956946,Schlachtensee,s-bahn,"52.4401,13.2153",['KBS 104'],Q800509
+947,1956947,Schlesisches Tor,u-bahn,"52.500833333333,13.441666666667",['B I'],Q602282
+948,1956948,Schlesischestrasse Ecke Heckmannufer,bus,"52.49754552939811, 13.44838500299095",['A28'],nan
+949,1956949,Schlossstrasse Ecke Alt-Friedrichsfelde,bus,"52.50943477223745, 13.518813938774796",['O37'],nan
+950,1956950,Schlossstrasse Ecke Alt-Friedrichsfelde,strassenbahn,"52.50962902699515, 13.518687787679205",['69'],nan
+951,1956951,Schlossstrasse Ecke Suarezstrasse,strassenbahn,"52.51097987249772, 13.297346871756105",['60'],nan
+952,1956952,Schloß Ruhwald,strassenbahn,"52.52172956608864, 13.25972836899749",['54'],nan
+953,1956953,Schloßstrasse Ecke Albrechtstrasse,strassenbahn,"52.45689966776005, 13.320717501470192",['44'],nan
+954,1956954,Schloßstrasse Ecke Alt-Friedrichsfelde,bus,"52.509610401707185, 13.519032193156905",['A8'],nan
+955,1956955,Schloßstrasse Ecke Bundesallee,bus,"52.464963007508956, 13.328430457757777",['A2'],nan
+956,1956956,Schloßstrasse Ecke Bundesallee,strassenbahn,"52.464945681945046, 13.328508519102458","['73', '78', '77']",nan
+957,1956957,Schloßstrasse Ecke Spandauer Damm,strassenbahn,"52.51943665353602, 13.295856149320608",['54'],nan
+958,1956958,Schmargendorf,s-bahn,"52.479672222222,13.312441666667","['KBS 100', 'KBS 100a']",Q302810
+959,1956959,Scholzplatz,strassenbahn,"52.50686709880324, 13.22787843505697",['75'],nan
+960,1956960,Schulenburgpark,strassenbahn,"52.466660612786704, 13.470292593214328","['15', '95']",nan
+961,1956961,Schulstrasse Ecke Müllerstrasse,strassenbahn,"52.546390098849415, 13.359141321985554",['68'],nan
+962,1956962,Schulstrasse Ecke Reinickendorferstrasse,strassenbahn,"52.55156144326628, 13.367366569642245",['35'],nan
+963,1956963,Schulzendorf (b Tegel),s-bahn,"52.6128,13.2462",['KBS 105'],Q800487
+964,1956964,"Schulzestrasse, S-Bhf. Wollkanstrasse",bus,"52.56642190833653, 13.392165766141737",['A55'],nan
+965,1956965,Schwartzkopffstr.,u-bahn,"52.535277777778,13.377222222222",['C I'],Q554360
+966,1956966,Schwedenstrasse/Uferstrasse,strassenbahn,"52.553911062442545, 13.377083433527124",['36'],nan
+967,1956967,Schöneberg,s-bahn,"52.4794,13.3517","['KBS 100', 'KBS 100a', 'KBS 104']",Q543855
+968,1956968,"Schöneberg, Gotenstrasse",strassenbahn,"52.48139451073493, 13.360284897059513",['25'],nan
+969,1956969,"Schönefeld, Dorfplatz",bus,"52.342093062255294, 13.510465453623498",['A36'],nan
+970,1956970,Schöneweide,s-bahn,"52.455,13.509444444444","['KBS 103a', 'KBS 100a', 'KBS 103']",Q111323931
+971,1956971,"Schönfließ , Kirche",bus,"52.656068668442224, 13.338922030955636",['AN'],nan
+972,1956972,Schönhauser Allee,s-bahn,"52.549329,13.413706","['KBS 100', 'KBS 103a', 'KBS 100c', 'KBS 100b']",Q111264493
+973,1956973,Schönhauser Allee,strassenbahn,"52.5537705,13.4138898","['70', '3']",Q65076842
+974,1956974,Schönhauser Allee,u-bahn,"52.549328888889,13.413706111111",['A I'],Q47014936
+975,1956975,Schönholz,s-bahn,"52.5714,13.3814","['KBS 105', 'KBS 104']",Q800490
+976,1956976,Schüßlerplatz,strassenbahn,"52.44553303566032, 13.576935078888754","['84', '83', '86']",nan
+977,1956977,Seeburger Strasse Ecke Klosterstrasse,strassenbahn,"52.529132883770416, 13.19560053430765",['75'],nan
+978,1956978,Seelenbinderstrasse,strassenbahn,"52.4554632,13.5769303","['84', '87']",Q66324934
+979,1956979,Seestr.,u-bahn,"52.55056,13.35194",['C I'],Q554391
+980,1956980,Seestrasse Ecke Amrumerstrasse,bus,"52.546219138042765, 13.344049906089847",['A16'],nan
+981,1956981,Seestrasse Ecke Müllerstrasse,strassenbahn,"52.55044753588031, 13.351974539230612","['68', '28', '29', '25']",nan
+982,1956982,Senefelderplatz,u-bahn,"52.53242,13.412743",['A I'],Q32661454
+983,1956983,Siedlung Haselhorst,strassenbahn,"52.54187453996567, 13.23587661353632",['55'],nan
+984,1956984,Siegfriestrasse,bus,"52.53435088055727, 13.499697796899122",['O41'],nan
+985,1956985,Siemensstadt,s-bahn,"52.53923,13.26365",['KBS 100d'],Q96080453
+986,1956986,Siemensstadt-Fürstenbrunn,s-bahn,"52.528,13.2695",['KBS 103a'],Q18747940
+987,1956987,"Siemensstradt, Nonnendammallee",strassenbahn,"52.538287573206645, 13.247726107146976",['35'],nan
+988,1956988,Siemensstrasse Ecke Leonorenstrasse,bus,"52.44438216972009, 13.338842091785603",['A2'],nan
+989,1956989,Sonnenallee,s-bahn,"52.473,13.4558",['KBS 100'],Q481364
+990,1956990,Sonnenallee,strassenbahn,"52.48608535616972, 13.4303114768788",['26'],nan
+991,1956991,Sonnenallee Ecke Schwarzer Weg,strassenbahn,"52.46218348846541, 13.477104416215733",['95'],nan
+992,1956992,Sophie-Charlotte-Platz,u-bahn,"52.510833333333,13.296666666667",['A I'],Q657879
+993,1956993,Sophie-Charlotte-Strasse,bus,"52.44597915575293, 13.267817468250367",['A3E'],nan
+994,1956994,Sophie-Charlotten-Strasse,bus,"52.44594955353092, 13.267788405970709",['A18'],nan
+995,1956995,Sophienstrasse,bus,"52.630731213748696, 13.334026700101015",['A7'],nan
+996,1956996,Spandau,s-bahn,"52.532, 13.2089","['KBS 103a', 'KBS 101', 'KBS 103']",Q800491
+997,1956997,Spandau West,s-bahn,"52.5347,13.1958","['KBS 103a', 'KBS 101', 'KBS 103']",Q111325678
+998,1956998,"Spandau, Friedhof",bus,"52.553136286584845, 13.179674445908985",['A34'],nan
+999,1956999,"Spandau, Johannesstift",strassenbahn,"52.567653498027326, 13.191830361576441",['54'],nan
+1000,19561000,"Spandau, Markt",bus,"52.537581553341596, 13.203797305616401",['A5'],nan
+1001,19561001,"Spandau, Markt",strassenbahn,"52.53784349532438, 13.204135429364628","['75', '55', '54']",nan
+1002,19561002,"Spandau, Nauenerstrasse",strassenbahn,"52.53843224737293, 13.182345389221855",['55'],nan
+1003,19561003,"Spandau, Stadtpark",strassenbahn,"52.56203117454324, 13.197052969822593",['54'],nan
+1004,19561004,"Spandau, Waldkrankenhaus",bus,"52.56214542863615, 13.158340085815741",['A5'],nan
+1005,19561005,"Spandau, Weinmeisterhornweg",bus,"52.51105909016346, 13.171587026206698",['A13'],nan
+1006,19561006,Spandauer Damm Ecke Königin-Elisabeth-Strasse,bus,"52.51837002948088, 13.28016802012015",['A10'],nan
+1007,19561007,Spandauer Damm Königin-Elisabeth-Strasse,strassenbahn,"52.51838060187781, 13.28020893113207",['60'],nan
+1008,19561008,"Spandauerstrasse, Rathaus",bus,"52.518410763356016, 13.407213957047396",['A9'],nan
+1009,19561009,Spanische Allee Ecke Potsdamer Chaussee,bus,"52.42964101999663, 13.224040761562332",['A18'],nan
+1010,19561010,Spindlersfeld,s-bahn,"52.4472,13.5613",['KBS 103a'],Q4892371
+1011,19561011,Spittelmarkt,strassenbahn,"52.511243321361405, 13.40494539543245","['74', '82', '64']",nan
+1012,19561012,Spittelmarkt,u-bahn,"52.511111111111,13.403611111111",['A I'],Q569489
+1013,19561013,Sportplatz Reinickendorf,bus,"52.56795889171696, 13.312035395866104",['A21'],nan
+1014,19561014,Spreewaldplatz,strassenbahn,"52.49792227545992, 13.430617008810609","['26', '88']",nan
+1015,19561015,Staaken,s-bahn,"52.5378,13.1414",['KBS 101'],Q477545
+1016,19561016,Stadion Buschallee,strassenbahn,"52.5566718,13.4869834",['70'],Q65504715
+1017,19561017,Stadion Lichterfelde-Ost,bus,"52.43855446658727, 13.324891642446353",['A17'],nan
+1018,19561018,Stadthaus Teltow,strassenbahn,"52.401109556161956, 13.26263746561454",['96'],nan
+1019,19561019,Stadtmitte (Leipziger Str.),u-bahn,"52.5122,13.3894",['C I'],Q660066
+1020,19561020,Stadtmitte (Mohrenstr.),u-bahn,"52.5122,13.3894",['A I'],Q660066
+1021,19561021,Stadtpark,strassenbahn,"52.45106715288867, 13.337967917367436",['88'],nan
+1022,19561022,Stadtpark Steglitz,bus,"52.45110500206577, 13.337263231840865","['A33 (Obus)', 'A32 (Obus)', 'A2', 'A17']",nan
+1023,19561023,Stahnsdorf,s-bahn,"52.38972222,13.19",['KBS 104b'],Q23787450
+1024,19561024,Stalinallee,bus,"52.51715128685504, 13.440640767102789","['O40', 'O30']",nan
+1025,19561025,Stalinallee,s-bahn,"52.514166666667,13.474722222222","['KBS 100', 'KBS 103a', 'KBS 100c', 'KBS 100b']",Q111250033
+1026,19561026,Stalinallee,strassenbahn,"52.51808306742478, 13.432938339097822",['1'],nan
+1027,19561027,Stalinallee,u-bahn,"52.514166666667,13.474722222222",['E'],Q552872
+1028,19561028,Steglitz,s-bahn,"52.4562,13.3216",['KBS 104'],Q111264179
+1029,19561029,"Steglitz, Birkbuschstrasse Ecke Siemensstrasse",strassenbahn,"52.44243083769542, 13.332094600927585",['40'],nan
+1030,19561030,Sterndamm Ecke Königsheideweg,bus,"52.44657996862236, 13.506480255725577",['A47'],nan
+1031,19561031,Steuerhaus,bus,"52.530493,13.4614989",['A41'],nan
+1032,19561032,Steuerhaus,strassenbahn,"52.530493,13.4614989","['63', '69', '64']",Q65553632
+1033,19561033,"Strasse 46, Güteraußenring",bus,"52.60084857563519, 13.470163623329423",['A42'],nan
+1034,19561034,Strasse nach Wartenberg,bus,"52.56866269126953, 13.520582099858125",['A46'],nan
+1035,19561035,Strassenbahnhof Köpenick,strassenbahn,"52.4399134,13.5817824",['83'],Q66370900
+1036,19561036,Strausberg,s-bahn,"52.531933,13.836933","['KBS 101a', 'KBS 101']",Q7622326
+1037,19561037,Strausberg Nord,s-bahn,"52.5902,13.9084",['KBS 101a'],Q7622324
+1038,19561038,Strausberg Stadt,s-bahn,"52.5766,13.8878",['KBS 101a'],Q7622325
+1039,19561039,Strausberger Platz,u-bahn,"52.518055555556,13.430833333333",['E'],Q570999
+1040,19561040,Stromstrase Ecke Turmstrasse,strassenbahn,"52.5263049551978, 13.34320465990971",['23'],nan
+1041,19561041,Stromstrasse Ecke Alt-Moabit,strassenbahn,"52.525423127112404, 13.34283986840417",['44'],nan
+1042,19561042,Stromstrasse Ecke Turmstrasse,bus,"52.526341844675855, 13.343124963846464",['A24'],nan
+1043,19561043,Stromstrasse Ecke Turmstrasse,strassenbahn,"52.52632254227867, 13.343185347872527",['25'],nan
+1044,19561044,Stuttgarter Platz,bus,"52.50551610729052, 13.302923303561508",['A21'],nan
+1045,19561045,Stuttgarter Platz,strassenbahn,"52.50566810519856, 13.306864497506904",['60'],nan
+1046,19561046,Stölpchensee,bus,"52.41228329093362, 13.141800667623677",['A18'],nan
+1047,19561047,"Stölpchensee, Wilhelmplatz",bus,"52.41240583089011, 13.141644518533106",['A3'],nan
+1048,19561048,Stößenseebrücke,strassenbahn,"52.508894368243524, 13.217475972829826",['75'],nan
+1049,19561049,Suermondtstrasse Ecke Hauptstrasse,strassenbahn,"52.54903058024453, 13.50161484830381",['70'],nan
+1050,19561050,Summterstrasse,bus,"52.47786081005491, 13.613221000132798",['A8'],nan
+1051,19561051,Sundgauer Str.,s-bahn,"52.436291,13.273772",['KBS 104'],Q800513
+1052,19561052,Sundgauer Strasse Ecke Berlinerstrasse,bus,"52.43833636899285, 13.271438368698744",['A48'],nan
+1053,19561053,Süd-West-Korso Ecke Bundesallee,bus,"52.4772524189012, 13.328479355917244",['A25'],nan
+1054,19561054,Südende,s-bahn,"52.4481,13.3536",['KBS 106'],Q800511
+1055,19561055,Südstern,strassenbahn,"52.489200004098294, 13.407589825806399","['3', '2']",nan
+1056,19561056,Südstern,u-bahn,"52.489444444444,13.407777777778",['C I'],Q656081
+1057,19561057,Tauroggenerstrasse Ecke Osnabrückerstrasse,strassenbahn,"52.52583942409434, 13.301930866209489",['35'],nan
+1058,19561058,Tegel,s-bahn,"52.5886,13.2894",['KBS 105'],Q800493
+1059,19561059,"Tegel, Alt-Tegel",strassenbahn,"52.589904229457645, 13.283306953160388","['41', '25']",nan
+1060,19561060,"Tegelort, Kurzestrasse",strassenbahn,"52.57057206458455, 13.229144292870291",['28'],nan
+1061,19561061,Teltow,s-bahn,"52.388056,13.299444",['KBS 106'],Q7697868
+1062,19561062,"Teltow, Hamburger Platz",strassenbahn,"52.3983465820797, 13.246558303241358",['96'],nan
+1063,19561063,"Teltow, Paul-Gerhardt-Strasse",strassenbahn,"52.41175171527543, 13.297893346256327",['96'],nan
+1064,19561064,Teltower Damm Ecke Beeskowdamm,bus,"52.40898247800021, 13.267419069153956",['A1'],nan
+1065,19561065,Teltowerstrasse Ecke Charlottenburgerstrasse,bus,"52.52694632793839, 13.21601948232148",['A5'],nan
+1066,19561066,Teltowerstrasse Ecke Charlottenburgerstrasse,strassenbahn,"52.52694632793839, 13.21601948232148",['54'],nan
+1067,19561067,Tempelhof,s-bahn,"52.4708,13.3854","['KBS 100', 'KBS 100a']",Q111264368
+1068,19561068,Tempelhof (Südring),u-bahn,"52.47075,13.385361111111",['C II'],Q3983109
+1069,19561069,"Tempelhof, Flughafen",bus,"52.47821365665261, 13.385850741443086","['A19', 'A24']",nan
+1070,19561070,"Tempelhof, Industriestrasse",strassenbahn,"52.4553398033838, 13.409901803195611",['26'],nan
+1071,19561071,Tempelhofer Damm Ecke Alt-Tempelhof,strassenbahn,"52.46597106229217, 13.385653163707664",['6'],nan
+1072,19561072,Tempelhofer Damm Ecke Friedrich-Karl-Strasse,bus,"52.4557662805014, 13.383913574584998",['A25'],nan
+1073,19561073,Thielallee Ecke Berlinerstrasse,bus,"52.44187703328261, 13.282715632576368",['A48'],nan
+1074,19561074,Thielplatz,u-bahn,"52.451111111111,13.282222222222",['A II'],Q571331
+1075,19561075,Thorwaldsenstrasse Ecke Grazer Damm,strassenbahn,"52.459134019857125, 13.348736044492982",['66'],nan
+1076,19561076,Thälmannplatz,u-bahn,"52.51167,13.38472",['A I'],Q658391
+1077,19561077,Tiergarten,s-bahn,"52.5144,13.3365","['KBS 102', 'KBS 101', 'KBS 103']",Q572112
+1078,19561078,Tierpark Berlin,strassenbahn,"52.50297204519277, 13.520916474066839",['69'],nan
+1079,19561079,Titania-Palast,strassenbahn,"52.464032555260935, 13.32750541098576",['44'],nan
+1080,19561080,Traegerstrasse,strassenbahn,"52.476296219875636, 13.341188525686016",['66'],nan
+1081,19561081,"Treptow, Flutgraben",strassenbahn,"52.49652089552196, 13.450211854195379",['92'],nan
+1082,19561082,"Treptow, Rathaus",strassenbahn,"52.483613037029144, 13.480317575778315",['91'],nan
+1083,19561083,"Treptow, Spreeterrassen",strassenbahn,"52.4858076815485, 13.48219418555229",['91'],nan
+1084,19561084,Treptower Park,s-bahn,"52.4938,13.4618","['KBS 100', 'KBS 103a', 'KBS 103']",Q559274
+1085,19561085,Trippsteinstrasse Ecke Sondershauserstrasse,bus,"52.42160582692339, 13.343681427593937",['A11'],nan
+1086,19561086,Turmstrasse Ecke Gotzkowskystrasse,strassenbahn,"52.5272342163684, 13.330508113555048","['23', '25']",nan
+1087,19561087,Turmstrasse Ecke Huttenstrasse,bus,"52.52739408994267, 13.328665796393357",['A25'],nan
+1088,19561088,Turmstrasse Ecke Rathenowerstrasse,strassenbahn,"52.52676605769317, 13.355268210021727",['2'],nan
+1089,19561089,Turmstrasse Ecke Stromstrasse,bus,"52.52631573511827, 13.34320006470035",['A16'],nan
+1090,19561090,Turmstrasse Ecke Stromstrasse,strassenbahn,"52.5263082977077, 13.343145312622728",['35'],nan
+1091,19561091,U-Bhf Kottbusser Tor,bus,"52.499051258453434, 13.418359009880978",['A28'],nan
+1092,19561092,U-Bhf. Alexanderplatz,bus,"52.521587882181876, 13.413821924399596",['O30'],nan
+1093,19561093,U-Bhf. Boddinstrasse,bus,"52.48028651973042, 13.425279574612379",['A4'],nan
+1094,19561094,U-Bhf. Boddinstrasse,strassenbahn,"52.48027865367161, 13.4251690465859",['27'],nan
+1095,19561095,U-Bhf. Bülowstrasse,strassenbahn,"52.4977947071403, 13.362041491653272",['73'],nan
+1096,19561096,U-Bhf. Dahlem-Dorf,strassenbahn,"52.45806630220509, 13.290310484320848",['40'],nan
+1097,19561097,U-Bhf. Dimitroffstrasse,strassenbahn,"52.5401928,13.4113979","['13', '4']",Q65088313
+1098,19561098,U-Bhf. Ernst-Reuter-Platz,bus,"52.51164603099566, 13.322290858670174",['A25'],nan
+1099,19561099,U-Bhf. Ernst-Reuter-Platz,strassenbahn,"52.511726576083134, 13.32260139821175","['54', '44', '25']",nan
+1100,19561100,U-Bhf. Fehrbelliner Platz,bus,"52.490390927187676, 13.31417745809863","['A1', 'A21', 'A4']",nan
+1101,19561101,U-Bhf. Flughafen,bus,"52.48488595983176, 13.38599654703171",['A4'],nan
+1102,19561102,U-Bhf. Flughafen,strassenbahn,"52.484779980367215, 13.385962227231367","['98', '95', '99']",nan
+1103,19561103,U-Bhf. Friedrichsfelde,bus,"52.50624112361932, 13.512853060220209","['A8', 'A43']",nan
+1104,19561104,U-Bhf. Gesundbrunnen,strassenbahn,"52.54821570803947, 13.38830480823042",['41'],nan
+1105,19561105,U-Bhf. Gneisenaustrasse,bus,"52.491226587637556, 13.396327911797728","['A24', 'A28']",nan
+1106,19561106,U-Bhf. Grenzallee,strassenbahn,"52.46348178875844, 13.444377273631815","['47', '6']",nan
+1107,19561107,U-Bhf. Görlitzer Bahnhof,strassenbahn,"52.4992556401354, 13.42774699131215",['88'],nan
+1108,19561108,U-Bhf. Hallesches Tor,bus,"52.497910015148264, 13.391307667735301",['A24'],nan
+1109,19561109,U-Bhf. Heidelberger Platz,strassenbahn,"52.48019261801072, 13.312401045561629",['51'],nan
+1110,19561110,U-Bhf. Hohenzollernplatz,strassenbahn,"52.493881414319354, 13.324128070900262",['51'],nan
+1111,19561111,U-Bhf. Kaiserdamm,bus,"52.50999451351762, 13.28180313022396",['A10'],nan
+1112,19561112,U-Bhf. Kochstrasse,strassenbahn,"52.50671104890453, 13.39050917018471",['88'],nan
+1113,19561113,U-Bhf. Kottbusser Damm,strassenbahn,"52.49267738794113, 13.422287154794477",['94'],nan
+1114,19561114,U-Bhf. Krumme Lanke,bus,"52.44308074990891, 13.24046555211665",['A3'],nan
+1115,19561115,U-Bhf. Moritzplatz,strassenbahn,"52.503642228347914, 13.410708942561621",['88'],nan
+1116,19561116,U-Bhf. Neanderstrasse,strassenbahn,"52.511034507689814, 13.41638558442145","['11', '64']",nan
+1117,19561117,U-Bhf. Neukölln,strassenbahn,"52.46965567921364, 13.441614939772098","['15', '47', '6', '26']",nan
+1118,19561118,U-Bhf. Onkel-Toms-Hütte,bus,"52.45007713385221, 13.251272593463492",['A3'],nan
+1119,19561119,U-Bhf. Oskar-Helene-Heim,bus,"52.450279005868815, 13.270361987159156","['A18', 'A11', 'A3E', 'A3', 'A1']",nan
+1120,19561120,U-Bhf. Paradestrasse,strassenbahn,"52.478209745217, 13.385797973983829",['98'],nan
+1121,19561121,U-Bhf. Prinzenstrasse,bus,"52.49844153838657, 13.406643837212261",['A28'],nan
+1122,19561122,U-Bhf. Rathaus Neukölln,strassenbahn,"52.48155631900372, 13.434303920603828",['6'],nan
+1123,19561123,U-Bhf. Richard-Wagner-Platz,strassenbahn,"52.51748234491785, 13.306584464164093","['55', '54']",nan
+1124,19561124,U-Bhf. Ruhleben,bus,"52.52596833151868, 13.241478578696297",['A5'],nan
+1125,19561125,U-Bhf. Ruhleben,strassenbahn,"52.52595776615238, 13.241371866188729",['54'],nan
+1126,19561126,U-Bhf. Rüdesheimer Platz,bus,"52.4720831087791, 13.314909778144818",['A17'],nan
+1127,19561127,U-Bhf. Schlesisches Tor,bus,"52.50108419874335, 13.441971259873345",['A28'],nan
+1128,19561128,U-Bhf. Seestrasse,bus,"52.550315408708514, 13.352298502985231","['A16', 'A12', 'A12S']",nan
+1129,19561129,U-Bhf. Seestrasse,strassenbahn,"52.5502459,13.3516304",['3'],Q65729619
+1130,19561130,U-Bhf. Tempelhof,strassenbahn,"52.465913635809336, 13.385525190230428",['96'],nan
+1131,19561131,U-Bhf. Thielplatz,bus,"52.45104520805668, 13.281736418792137",['A10'],nan
+1132,19561132,U-Bhf. Uhlandstrasse,strassenbahn,"52.50265789390516, 13.325933098024459",['51'],nan
+1133,19561133,U-Bhf. Vinetastrasse,bus,"52.55981894046453, 13.413208628380339",['A7'],nan
+1134,19561134,U-Bhf. Vinetastrasse,strassenbahn,"52.5596168,13.413232","['22', '49', '46']",Q65075426
+1135,19561135,U-Bhf. Weinmeisterstrasse,strassenbahn,"52.5253215,13.4035047","['63', '11']",Q65094293
+1136,19561136,Uckermarkstrasse,bus,"52.52145144349922, 13.596724604247981",['A49'],nan
+1137,19561137,Uferstrasse Ecke Badstrasse,strassenbahn,"52.553714712982824, 13.37727108863802",['41'],nan
+1138,19561138,Uferstrasse Ecke Exerzierstrasse,strassenbahn,"52.553723998432375, 13.377122671623093",['28'],nan
+1139,19561139,Uferstrasse Ekce Exerziestrasse,strassenbahn,"52.553760127727564, 13.377089925102863",['29'],nan
+1140,19561140,Uhlandstrasse,u-bahn,"52.5025,13.325555555556",['B I'],Q568224
+1141,19561141,Uhlandstrasse Ecke Berlinerstrasse,strassenbahn,"52.48648120024464, 13.322426360810834",['60'],nan
+1142,19561142,Uhlandstrasse Ecke Kurfürstendamm,bus,"52.502532428867724, 13.325280453057784","['A29', 'A19']",nan
+1143,19561143,Uhlenhorst,strassenbahn,"52.468276850494775, 13.5867542618861","['83', '86']",nan
+1144,19561144,Ulmenstrasse,bus,"52.48730877811447, 13.574932033917504",['A27'],nan
+1145,19561145,Unionplatz,bus,"52.533059397499464, 13.337278814540305",['A25'],nan
+1146,19561146,Unter den Eichen Ecke Habelschwerdterallee,bus,"52.44571623856252, 13.293689331540065",['A11'],nan
+1147,19561147,Unter den Linden,s-bahn,"52.516388888889,13.380833333333","['KBS 106', 'KBS 105', 'KBS 104']",Q477185
+1148,19561148,Unter den Linden Ecke Friedrichstrasse,bus,"52.517002154850104, 13.388838236105823",['A9'],nan
+1149,19561149,Urban-Krankenhaus,strassenbahn,"52.493170013997506, 13.407958861404088",['95'],nan
+1150,19561150,Urbanstrasse Ecke Baerwaldstrasse,bus,"52.4939129076448, 13.403470823371807",['A28'],nan
+1151,19561151,Usedomerstrasse,strassenbahn,"52.54110977481431, 13.393795244737682","['41', '2']",nan
+1152,19561152,Velten (Mark),s-bahn,"52.685,13.172222",['KBS 105'],Q19274518
+1153,19561153,Verwaltungs-Gebäude,bus,"52.537063326963775, 13.262285169635492",['A10'],nan
+1154,19561154,Verwaltungsgebäude,strassenbahn,"52.53699730933042, 13.262264223562065",['55'],nan
+1155,19561155,Veteranenstrasse Ecke Brunnenstrasse,strassenbahn,"52.5324542,13.3974236",['46'],Q65691740
+1156,19561156,Vetschauer Allee,strassenbahn,"52.3864124,13.633786",['86'],Q66459670
+1157,19561157,Viktoria-Luise-Platz,u-bahn,"52.496161111111,13.342702777778",['B II'],Q178685
+1158,19561158,Vollkropfgraben,strassenbahn,"52.4386665,13.5714889",['86'],Q66493847
+1159,19561159,Voltastr.,u-bahn,"52.542093,13.393022",['D'],Q663308
+1160,19561160,Waidmannslust,s-bahn,"52.6064,13.321",['KBS 104'],Q800492
+1161,19561161,Waidmannsluster Damm Ecke Oraniendamm,bus,"52.607850168715785, 13.323802799642452","['A12', 'A12S']",nan
+1162,19561162,Waldesruh,bus,"52.48487246674627, 13.628942223225485",['A8'],nan
+1163,19561163,Walter-Ulbricht-Stadion,strassenbahn,"52.535963327585435, 13.376321651970404",['69'],nan
+1164,19561164,Waltersdorf,bus,"52.36492901110609, 13.555712408051676",['A38'],nan
+1165,19561165,Waltersdorfer Chaussee (Spinne),bus,"52.392853002264665, 13.522677096747554",['A36'],nan
+1166,19561166,Wannsee,Fähre,"52.421928022812146, 13.175815964118582",['Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt)'],nan
+1167,19561167,Wannsee,s-bahn,"52.4214,13.1792","['KBS 104b', 'KBS 102', 'KBS 104']",Q111325896
+1168,19561168,Warschauer Brücke,u-bahn,"52.5051,13.4491",['B I'],Q18380174
+1169,19561169,Warschauer Str.,s-bahn,"52.506416666667,13.450955555556","['KBS 100c', 'KBS 100b', 'KBS 102', 'KBS 101', 'KBS 103']",Q111252298
+1170,19561170,Warschauer Strasse,bus,"52.512432267445355, 13.452598837307189",['O30'],nan
+1171,19561171,Warschauerstrasse,strassenbahn,"52.502777525603406, 13.446908213469491",['82'],nan
+1172,19561172,"Wartenberg, Siedlung",bus,"52.58393195902164, 13.53076033685478",['A39'],nan
+1173,19561173,Wasserwerk,bus,"52.57559434763526, 13.265051965662359",['A13'],nan
+1174,19561174,Wedding,s-bahn,"52.5425,13.3661","['KBS 100', 'KBS 103a']",Q638604
+1175,19561175,Weddingplatz,strassenbahn,"52.54152535588228, 13.369198549039789","['25', '23', '2']",nan
+1176,19561176,"Weddingplatz, Müllerstrasse",strassenbahn,"52.54067197409985, 13.36925376891696",['35'],nan
+1177,19561177,Weg nach Saatwinkel,bus,"52.56198891016255, 13.254628464556555",['A13'],nan
+1178,19561178,Weichselstrasse,strassenbahn,"52.48313752772782, 13.431480309407663",['26'],nan
+1179,19561179,"Weidendammbrücke, Bhf. Friedrichstrasse",strassenbahn,"52.521693018839535, 13.387977713287484","['1', '46', '70']",nan
+1180,19561180,Weinmeisterhornweg,bus,"52.50924681744358, 13.180314851039075",['A35'],nan
+1181,19561181,Weinmeisterstr.,u-bahn,"52.525833333333,13.403888888889",['D'],Q661876
+1182,19561182,"Weißensee, Feldmannstrasse",bus,"52.56400731258861, 13.469728040430168",['A45'],nan
+1183,19561183,"Weißensee, Feldtmannstrasse",bus,"52.56399218182505, 13.469768291231707",['A46'],nan
+1184,19561184,"Weißensee, Rennbahnstrasse Ecke Gustav-Adolf-Strasse",bus,"52.56218731483447, 13.45427047483045",['A55'],nan
+1185,19561185,"Weißensee, Rennbahnstrasse Ecke Parkstrasse",strassenbahn,"52.558956439159395, 13.462042583727074",['72'],nan
+1186,19561186,"Weißensee, Schwarzelfenweg",bus,"52.56729838338304, 13.46535452978551",['A55'],nan
+1187,19561187,Weißenseer Weg,bus,"52.53305919668049, 13.476252837088406","['O41', 'A41']",nan
+1188,19561188,Weißenseer Weg,strassenbahn,"52.532258,13.476705","['63', '64']",Q65942700
+1189,19561189,Wendenschloß,Fähre,"52.418495536542906, 13.587117060699361",['Wendenschloß<>Grünau'],nan
+1190,19561190,Wendenschloß Ecke Ekhofstrasse,strassenbahn,"52.41633000736971, 13.589690772826726",['83'],nan
+1191,19561191,Wentowsteig Ecke Wilhelmsruher Damm,bus,"52.596725620424536, 13.357038942593737",['A21'],nan
+1192,19561192,Wernerwerk,s-bahn,"52.534863,13.27599",['KBS 100d'],Q96077001
+1193,19561193,Wernerwerk,strassenbahn,"52.53552540037026, 13.275770067588141",['35'],nan
+1194,19561194,Westend,s-bahn,"52.5181,13.2844","['KBS 100', 'KBS 100a']",Q323214
+1195,19561195,Westfälischestrasse Ecke Brandenburgischestrasse,strassenbahn,"52.4914070372114, 13.312743069846684",['60'],nan
+1196,19561196,Westkreuz,s-bahn,"52.5011,13.2839","['KBS 100', 'KBS 102', 'KBS 101', 'KBS 100a', 'KBS 103']",Q678125
+1197,19561197,"Weverstrasse, Strassenbahnhof",strassenbahn,"52.51946975407937, 13.19781896484702",['75'],nan
+1198,19561198,"Wichertstrasse, Humannplatz",strassenbahn,"52.548490830161896, 13.421530198756246",['70'],nan
+1199,19561199,Wiebestrasse Ecke Huttenstrasse,strassenbahn,"52.52837387288732, 13.319417647566699",['35'],nan
+1200,19561200,Wiener Brücke,strassenbahn,"52.49588477409083, 13.43650068505988","['87', '88']",nan
+1201,19561201,"Wienerstrasse, Spreewaldplatz",strassenbahn,"52.497484113614775, 13.431754452594797",['2'],nan
+1202,19561202,Wiesbadener Strasse Ecke Süd-West-Korso,bus,"52.471639768771304, 13.319585730218195",['A16'],nan
+1203,19561203,Wiesbadenerstrasse Ecke Bundesallee,bus,"52.47133681077612, 13.328506541299452",['A25'],nan
+1204,19561204,Wiesenbaude,bus,"52.430495242672045, 13.31180861060395",['A11'],nan
+1205,19561205,Wiesenbaude,strassenbahn,"52.43330952304924, 13.307272184416341",['74'],nan
+1206,19561206,"Wiesenbaude, Giesendorferstrasse",strassenbahn,"52.43129460045176, 13.309610313200116",['73'],nan
+1207,19561207,"Wießensee, Rennbahnstrasse Ecke Parkstrasse",strassenbahn,"52.5589592412027, 13.462044943671438",['74'],nan
+1208,19561208,Wildau,s-bahn,"52.32,13.634",['KBS 103'],Q8000974
+1209,19561209,Wildmeisterdamm,strassenbahn,"52.426124062490864, 13.48276594555747",['47'],nan
+1210,19561210,Wildmeisterdamm Ecke Neuköllnerstrasse,bus,"52.425751026416485, 13.483230583356491",['A52'],nan
+1211,19561211,Wilhelminenhofstrasse Ecke Edisonstrasse,strassenbahn,"52.4619496,13.5139049","['95', '87']",Q65951882
+1212,19561212,Wilhelmshagen,s-bahn,"52.4386,13.7222",['KBS 102'],Q800494
+1213,19561213,Wilhelmsruh,s-bahn,"52.5814,13.3631",['KBS 104'],Q800495
+1214,19561214,"Wilhelmsruh, Fontanestrasse",bus,"52.58985938767378, 13.361193570257216","['A55', 'A45']",nan
+1215,19561215,Wilhelmstrasse,bus,"52.43057879952989, 13.318592903820731",['A17'],nan
+1216,19561216,Wilmersdorf,s-bahn,"52.477658333333,13.328525","['KBS 100', 'KBS 100a']",Q464094
+1217,19561217,Wilmersdorfer Strasse Ecke Berlinerstrasse,strassenbahn,"52.51810404338167, 13.30449191797482",['44'],nan
+1218,19561218,Wilmersdorfer Strasse Ecke Kantstrasse,strassenbahn,"52.506693329632505, 13.306673473535692",['75'],nan
+1219,19561219,Wilmersdorfer Strasse Ecke Kurfürstendamm,bus,"52.50002844680595, 13.307125123915897","['A19', 'A29']",nan
+1220,19561220,Wilmersdorferstrasse Ecke Berliner Strasse,strassenbahn,"52.518120287209314, 13.30441696262747",['3'],nan
+1221,19561221,Wilmersdorferstrasse Ecke Berlinerstrasse,strassenbahn,"52.51806976258965, 13.304449974056093",['54'],nan
+1222,19561222,Winfriedstrasse Ecke Berlinerstrasse,bus,"52.43751005569713, 13.269455453459413",['A10'],nan
+1223,19561223,Wismarerstrasse Ecke Goerzallee,strassenbahn,"52.42194049381176, 13.298545829842265",['78'],nan
+1224,19561224,Wittenau (Kremmener Bahn),s-bahn,"52.597013,13.334329",['KBS 105'],Q111264319
+1225,19561225,Wittenau (Nordbahn),s-bahn,"52.597013,13.334329",['KBS 104'],Q111264319
+1226,19561226,Wittenbergplatz,bus,"52.50188939146253, 13.342697883756577","['A19', 'A29']",nan
+1227,19561227,Wittenbergplatz,strassenbahn,"52.50185025953713, 13.343098350806866","['6', '25', '2', '77', '78']",nan
+1228,19561228,Wittenbergplatz,u-bahn,"52.501944444444,13.343055555556","['B I', 'A I']",Q692727
+1229,19561229,Witzleben,s-bahn,"52.5078,13.2836","['KBS 100', 'KBS 100a']",Q321266
+1230,19561230,Wolfmarsteig,bus,"52.41268952057738, 13.536602630335091",['A23'],nan
+1231,19561231,Wollankstr.,s-bahn,"52.5651525,13.3923627","['KBS 105', 'KBS 104']",Q800515
+1232,19561232,Wuhlheide,s-bahn,"52.4689,13.5533",['KBS 102'],Q800514
+1233,19561233,Yorckstr.,s-bahn,"52.491777777778,13.372141666667","['KBS 106', 'KBS 105']",Q21776729
+1234,19561234,Yorckstrasse Ecke Großbeerenstrasse,bus,"52.49371348390495, 13.383502210451628",['A28'],nan
+1235,19561235,Yorckstrasse Ecke Mehringdamm,bus,"52.49284414680239, 13.38759523078496",['A19'],nan
+1236,19561236,Yorckstrasse/Gneisenaustrasse,strassenbahn,"52.492962048633196, 13.387727495303821","['98', '99']",nan
+1237,19561237,Zehlendorf,s-bahn,"52.4309,13.2584","['KBS 104', 'KBS 104a']",Q737962
+1238,19561238,Zehlendorf West,s-bahn,"52.4375,13.2325",['KBS 104'],Q315891
+1239,19561239,"Zehlendorf, Andreezeile Ecke Sachtlebenstrasse",bus,"52.410390221161, 13.2663399148655",['A10'],nan
+1240,19561240,Zehlendorfer Damm,strassenbahn,"52.39232815680093, 13.222475728473649",['96'],nan
+1241,19561241,Zentralschule,bus,"52.43465069286089, 13.703692212644038",['A22'],nan
+1242,19561242,Zentralviehhof,s-bahn,"52.5238,13.4644","['KBS 100', 'KBS 103a', 'KBS 100c', 'KBS 100b']",Q800512
+1243,19561243,Zepernick (Kr Niederbarnim),s-bahn,"52.6598,13.5342",['KBS 106'],Q801657
+1244,19561244,Zeppelinstrasse Ecke Falkenhagener Chaussee,bus,"52.54753014000956, 13.18470939899787",['A5'],nan
+1245,19561245,Zeuthen,s-bahn,"52.3486,13.6274",['KBS 103'],Q8069824
+1246,19561246,Ziekowstrasse Ecke Gorkistrasse,bus,"52.59058635821372, 13.292106368112313",['A14'],nan
+1247,19561247,Zimmermannstrasse,bus,"52.486610959320956, 13.5603667983302",['A8'],nan
+1248,19561248,Zionskirchstrasse,strassenbahn,"52.53410664596866, 13.404963978167501","['70', '22', '49', '46']",nan
+1249,19561249,Zoologischer Garten,s-bahn,"52.507222222222,13.3325","['KBS 102', 'KBS 101', 'KBS 103']",Q111326238
+1250,19561250,Zoologischer Garten,u-bahn,"52.5058669,13.3330236",['A I'],Q4024764
+1251,19561251,Zosener Strasse Ecke Gneisenaustrasse,strassenbahn,"52.49160445042071, 13.394429954032182",['3'],nan
+1252,19561252,Zossenerstrasse Ecke Blücherstrasse,strassenbahn,"52.49619215453013, 13.395069779961219",['95'],nan
+1253,19561253,Zum Heckeshorn,bus,"52.43307505069834, 13.164008736441371",['A51'],nan

@@ -1,0 +1,408 @@
+stop_name,type,in_lines,location,identifier
+"Ahrensfelde, Kirche",Autobus,['A 46'],"52.57532251281871, 13.576456279814597",
+Alexanderplatz,u-bahn,"['E', 'A']","52.5214,13.4119",Q17173458
+"Alexanderplatz, Grunerstrasse",Omnibus,['1'],"52.52008326268696, 13.41408418961877",
+"Alexanderplatz, Grunerstrasse",strassenbahn,['71'],"52.52008326268696, 13.41408418961877",
+"Alexanderplatz, Leninallee",strassenbahn,"['69', '64']","52.522103158947594, 13.416511130432587",
+"Alexanderplatz, Memhardstrasse",strassenbahn,"['22', '1', '11']","52.5233439,13.4110773",Q65227406
+"Alexanderplatz, Memhardstrasse",strassenbahn,"['82', '74', '63', '71', '72']","52.5233439,13.4110773",Q65227406
+"Alt-Biesdorf, Oberfelderstrasse",Autobus,['A 8'],"52.50918606891929, 13.553347058493491",
+"Alt-Biesdorf, Oberfeldstrasse",Omnibus,['O 37'],"52.50918606891929, 13.553347058493491",
+Alt-Friedrichsfelde/Am Tierpark,Autobus,"['A 43', 'A 8']","52.5097025850849, 13.518832511815527",
+Alt-Friedrichsfelde/Am Tierpark,Omnibus,['O 37'],"52.5097025850849, 13.518832511815527",
+Alt-Friedrichsfele/Am Tierpark,strassenbahn,['69'],"52.50914093654053, 13.518129930582422",
+"Alt-Karow, Bahnhofstrasse",Autobus,['A 42'],"52.60931228539711, 13.481265848599735",
+"Alt-Marzahn, Kirche",Omnibus,['O 37'],"52.542423454435976, 13.564061751343658",
+Alt-Schmöckwitz,Autobus,"['Schmöckwitz - Ziegenhals', 'Schmöckwitz - Eichwalde']","52.37536708814027, 13.649399886968025",
+Alt-Schmöckwitz,strassenbahn,['86'],"52.3752767,13.649549",Q66459540
+"Altglienicke, Am Falkenberg",strassenbahn,['84'],"52.41079970042163, 13.570452931545786",
+"Altglienicke, Kirche",Autobus,['A 23'],"52.421845729296805, 13.539407702079252",
+"Altglienicke, Kirche",strassenbahn,['84'],"52.421845729296805, 13.539407702079252",
+Am Kupfergraben,strassenbahn,"['70', '46', '11']","52.5194208,13.3953839",Q65055027
+Am Rosenhag,Autobus,"['A 44', 'A 44 E']","52.52474356253909, 13.621775828105108",
+Am Steinberg,Autobus,"['A 45', 'A 42']","52.55648144940878, 13.429306764151775",
+Am Steinberg,strassenbahn,['71'],"52.5585796,13.4333751",Q65103320
+Am Steinberg/Thulestrasse,Autobus,['A 55'],"52.55644689291127, 13.429226457898798",
+Andreasstrasse,Omnibus,['O 30'],"52.51797306914227, 13.432895480772247",
+Antonplatz,strassenbahn,"['70', '72', '74', '3']","52.5484803,13.4517416",Q65548849
+Arnswalder Platz,Autobus,['A 9'],"52.53376530892205, 13.438121296337357",
+Bahnhof Lichtenberg (Zentralfriedhof),u-bahn,['E'],"52.510556,13.496389",Q3831986
+Bahnhofstrasse,strassenbahn,['49'],"52.59633,13.432876",Q66192394
+Bahnhofstrasse Ecke Lindenstrasse,Autobus,['A 27'],"52.45096281111, 13.572146868709519",
+Bahnhofstrasse Ecke Lindenstrasse,strassenbahn,"['84', '87', '86']","52.4505094,13.572684",Q66095701
+Bahnhofstrasse/Lindenstrasse,strassenbahn,['83'],"52.4505094,13.572684",Q66095701
+Baumschulenstrasse,Autobus,['A 47'],"52.460823690124585, 13.503654622533428",
+Baumschulenstrasse,strassenbahn,"['87', '92', '95']","52.46085478943951, 13.481376331759526",
+Bersarinplatz,strassenbahn,"['13', '4']","52.519215,13.4525257",Q65706258
+Bersarinstrasse Ecke Leninallee,strassenbahn,['63'],"52.52637416456414, 13.447600391274861",
+Ebertystrasse Ecke Leninallee,Omnibus,['O 30'],"52.52722237261361, 13.450799684654514",
+Bf. Siegfriedstrasse,Omnibus,"['O 30', 'O 37']","52.520558278471135, 13.49943441740371",
+Bf. Siegfriedstrasse,strassenbahn,['69'],"52.52557752899851, 13.49972478101036",
+Bhf. Eichwalde,Autobus,['Schmöckwitz - Eichwalde'],"52.371950560017005, 13.614447144096058",
+Bhf. Friedrichstrasse,Autobus,"['A 57', 'A 9', 'A 59']","52.5205606637086, 13.388231915342985",
+Bhf. Friedrichstrasse,strassenbahn,['11'],"52.5192805,13.3884107",Q65095382
+Bhf. Friedrichstrasse,strassenbahn,"['70', '46']","52.5192805,13.3884107",Q65095382
+Bhf. Lichtenberg,Omnibus,"['O 30', 'O 37']","52.5442346,13.4687215",Q65939077
+Bhf. Lichtenberg,strassenbahn,['69'],"52.5123603,13.4977547",Q66013733
+Bhf. Schönefeld,Autobus,"['A Z', 'A 24']","52.38192403313463, 13.511545079208773",
+Bhf. Schöneweide,Autobus,"['A 47', 'A 26']","52.45374952013775, 13.510200397684477",
+Bhf. Schöneweide,strassenbahn,"['69', '92', '95']","52.4553413,13.5110449",Q65950245
+"Bhf. Schöneweide, Brückenstrasse",strassenbahn,['87'],"52.45648404130997, 13.509984392000785",
+Björnsonstrasse Ecke Ibsenstrasse,strassenbahn,['3'],"52.55438588228195, 13.40316116759326",
+"Blankenburg, Bahnhofstrasse",Autobus,['A 42'],"52.591380472079955, 13.453512267562314",
+Blankenburger Strasse,strassenbahn,['49'],"52.58856735400595, 13.430204947038318",
+"Blankenfelde, Hauptstrasse",Autobus,['A 7'],"52.63002534735451, 13.38262328371393",
+Blumenstrasse,Autobus,['S-Bhf. Rahnsdorf - Woltersdorfer Schleuse'],"52.44932599725309, 13.759715132008731",
+"Bohnsdorf, Kirche",Autobus,['A 36'],"52.39948771402893, 13.555574431978044",
+"Bohnsdorf, Waldstrasse",Autobus,['A 38'],"52.389397192754984, 13.570666562153916",
+Bornholmer Strasse Ecke Schönhauser Alle,strassenbahn,['22'],"52.553700502372415, 13.414415773259165",
+Bornholmer Strasse Ecke Schönhauser Allee,strassenbahn,['46'],"52.5537705,13.4138898",Q65076842
+Bornholmer Strasse Ecke Schönhauser Allee,strassenbahn,['49'],"52.5537705,13.4138898",Q65076842
+Boxhagenerstrasse Ecke Holteistrasse,Omnibus,['O 30'],"52.508613193309614, 13.466277189422302",
+Boxhagenerstrasse Ecke Holteistrasse,strassenbahn,['13'],"52.5088235,13.465969","Q65675805, Q65675805"
+Breslauerstrasse Ecke Andreasstrasse,strassenbahn,['1'],"52.51112572772843, 13.430544216648766",
+Brunnenstrasse Ecke Invalidenstrasse,strassenbahn,"['1', '11']","52.5324542,13.3974236",Q65691740
+Brunnenstrasse Ecke Invalidenstrasse,strassenbahn,"['82', '70', '46']","52.5324542,13.3974236",Q65691740
+"Buch, Kiesgruben",Autobus,['A 42'],"52.641758052786535, 13.515964627443202",
+"Bucholz, Elfenallee",strassenbahn,['49'],"52.60622577373445, 13.436532929306946",
+"Bucholz, Hauptstrasse",strassenbahn,['49'],"52.60726996020294, 13.433394005316927",
+Buschallee,strassenbahn,['72'],"52.553924140794436, 13.467529287034905",
+Buschallee Ecke Klement-Gottwald-Allee,Autobus,['A 46'],"52.55387173520125, 13.467543412166556",
+Buschallee/K.-Gottwald-Allee,strassenbahn,['70'],"52.553924140794436, 13.467529287034905",
+"Bölschestrasse, Brauerei",strassenbahn,"['84', '87']","52.44699265840037, 13.624251999339991",
+Bürgerwäldchen,strassenbahn,['83'],"52.48924332057368, 13.606368760127548",Q66364551
+Bürknersfelde,Autobus,['A 43'],"52.538889807153126, 13.534159376784622",
+Bürknersfelde,Omnibus,['O 37'],"52.538889807153126, 13.534159376784622",
+Charlottenstrasse,strassenbahn,['72'],"52.51050786460274, 13.391831492474326",
+Chemische Fabrik,strassenbahn,['86'],"52.42696432509712, 13.573540465650169",
+Chemnitzer Strasse/Alt-Kaulsdorf,Autobus,['A 27'],"52.5051288553116, 13.581585054064426",
+Chemnitzerstrasse Ecke Ulmenstrasse,Autobus,['A 8'],"52.487292887135375, 13.574950596463296",
+Degnerstrasse,strassenbahn,['63'],"52.54488036635163, 13.493949954029993",
+Degnerstrasse,strassenbahn,['64'],"52.54489445227284, 13.493984825262666",
+Dimitroffstrasse,u-bahn,['A'],"52.541666666667,13.412222222222",Q571382
+Dimitroffstrasse Ecke Bötzowstrasse,Autobus,['A 9'],"52.53414393000563, 13.437397675986524",
+Dimitroffstrasse Ecke Greifswalderstrasse,strassenbahn,['74'],"52.53616928671014, 13.433023161244224",
+Dimitroffstrasse Ecke Leninallee,strassenbahn,['64'],"52.5259343,13.4462368",Q65553230
+Dimitroffstrasse Ecke Leninallee,strassenbahn,"['69', '63']","52.5259343,13.4462368",Q65553230
+Dimitroffstrasse Ecke Prenzlauer Allee,strassenbahn,"['72', '71']","52.539226902813354, 13.424209201692193",
+Dimitroffstrasse/Leninallee,Omnibus,['O 37'],"52.52644398829154, 13.447645022319072",
+Dingelstädter Strasse,Omnibus,['O 37'],"52.53587676296107, 13.522058626010088",
+Dorfaue,Autobus,"['S-Bhf. Friedrichshagen - Rüdersdorf, Karl-Marx-Platz']","52.47886105131975, 13.70053232372426",
+Dönhoffplatz,strassenbahn,['64'],"52.509950568117645, 13.398144081918815",
+Eberswalderstrasse Ecke Oderberger Strasse,strassenbahn,"['13', '4']","52.54061076763243, 13.404559930731686",","
+Edisonstrasse Ecke An der Wuhlheide,strassenbahn,"['82', '95']","52.468743401601294, 13.514467987195852",
+Ehrenmal,Autobus,"['A 55', 'A 58', 'A 45']","52.57958419912971, 13.375974716701414",
+Ehrlichstrasse Ecke Treskowallee,strassenbahn,['82'],"52.47856329184395, 13.524546995527436",
+Eichbuschallee,Autobus,['A 47'],"52.47574296676633, 13.487312571777435",
+Eichbuschplatz,Autobus,['A 38'],"52.39366126137233, 13.582046308470128",
+Eichendamm,Autobus,['S-Bhf. Rahnsdorf - Woltersdorfer Schleuse'],"52.45563928691219, 13.730601143973864",
+"Eichwalde, Uhlandstrasse",Autobus,['Schmöckwitz - Eichwalde'],"52.372634587228696, 13.62680242919348",
+Elisabethstrasse,Omnibus,['O 37'],"52.53409533705918, 13.55949915809485",
+Elsenstrasse/S-Bhf. Treptower Park,strassenbahn,"['87', '92']","52.49175631513716, 13.457761342155928",
+Elsässer Strasse,Autobus,['A 7'],"52.63337294510061, 13.345103420124245",
+Fahlenbergstrasse/Fürstenwalder Allee,Autobus,['A 22'],"52.431470149043314, 13.718708856639706",
+Falkenberger Chaussee,Autobus,['A 39'],"52.565814225343445, 13.511924619006814",
+Falkenbergerstrasse Ecke Wartenberger Strasse,strassenbahn,['63'],"52.55036672097044, 13.509915032138812",
+Fasanenstrasse,Autobus,['S-Bhf. Rahnsdorf - Woltersdorfer Schleuse'],"52.45303125634222, 13.744280675634114",
+Feldtmannstrasse,Autobus,['A 46'],"52.56401588379611, 13.46980857664685",
+"Fichtenau, Stadtgrenze",Autobus,['A 22'],"52.45479242349705, 13.701499962608066",
+Fichtestrasse Ecke Schopenhauerstrasse,Autobus,['A 8'],"52.47979924975105, 13.617292306977053",
+Frankfurter Tor,strassenbahn,"['13', '4']","52.5153903,13.4540172",Q65706246
+Frankfurter Tor,u-bahn,['E'],"52.515833333333,13.454166666667",Q568627
+Freibad Grünau,strassenbahn,['86'],"52.4086224,13.604455",Q66489598
+Friedrich-Junge-Strasse,Autobus,['A 82 P'],"52.49382897072681, 13.471572865851856",
+Friedrichsfelde (Tierpark),u-bahn,['E'],"52.506111111111,13.512777777778",Q429781
+"Friedrichshagen, Wasserwerk",strassenbahn,['84'],"52.4560563,13.6419956",Q66362601
+Friedrichstrasse Ecke Unter den Linden,Autobus,['A 57'],"52.51718498081941, 13.388821428784585",
+Friedrichstrasse Ecke Unter den Linden,Autobus,['A 9'],"52.51718498081941, 13.388821428784585",
+Galenusstrasse/ Krankenhaus Pankow,strassenbahn,['49'],"52.58161537149107, 13.428740729800658",
+Gartenstadtweg,Autobus,['A 36'],"52.412313913821045, 13.56660267841369",
+Genslerstrasse/Siegfriedstrasse,Omnibus,['O 37'],"52.53419051284018, 13.497014225567375",
+"Glienicke, Kirche",Autobus,['A 7'],"52.63062737184449, 13.312861916755343",
+Goethestrasse,Autobus,['S-Bhf. Rahnsdorf - Woltersdorfer Schleuse'],"52.40437395250698, 13.406194791584095",
+Greifswalder Strasse,Autobus,['A 44'],"52.53002871375482, 13.62681794411932",
+Greifswalder Strasse,strassenbahn,['4'],"52.5364975,13.4334045",Q65548960
+Greifswalder Strasse Ecke Dimitroffstrasse,strassenbahn,['13'],"52.5364975,13.4334045",Q65548960
+Greifswalder Strasse Ecke Hönower Strasse,Autobus,['A 44 E'],"52.53002871375482, 13.62681794411932",
+Greifswalderstrasse Ecke Dimitroffstrasse,Omnibus,['O 30'],"52.5362177572407, 13.433017500945247",
+Grottkauer Strasse,Autobus,['A 49'],"52.52747689361331, 13.606500303391726",
+Groß Ziethen,Autobus,['A Z'],"52.41404104155547, 13.438879163306126",
+Große Präsidentenstrasse,strassenbahn,"['63', '49']","52.52326345734971, 13.401134586268517",
+Grünberger Strasse,strassenbahn,['4'],"52.5122359,13.452609",Q65706239
+Gustav-Adolf-Strasse Ecke Rennbahnstrasse,Autobus,['A 55'],"52.562178269666816, 13.454275093038184",
+Güteraußenring,Autobus,['A 42'],"52.599887239389226, 13.469297130431492",
+Güterbahnhof Springpfuhl,Autobus,['A 43'],"52.52561231977731, 13.533687321893124",
+Hackescher Markt,strassenbahn,"['69', '63', '49']","52.522700593509725, 13.401605863643521",Q65094590
+Hamburger Platz,Autobus,"['A 56', 'A 55']","52.555394187589414, 13.438973139463632",
+Hannoversche Strasse,strassenbahn,['1'],"52.52716496126181, 13.387046759579254",
+Hauptstrasse/Berliner Strasse,strassenbahn,['63'],"52.54899316592503, 13.501757745807819",
+Hauptstrasse Ecke Edelweißstrasse,Autobus,"['A 55', 'A 45']","52.586379262142074, 13.36752938856218",
+Hauptstrasse Ecke Hertzstrasse,Autobus,['A 58'],"52.58936172371789, 13.369900800420519",
+Hauptstrasse/Berliner Strasse,strassenbahn,['64'],"52.54899316592503, 13.501757745807819",
+Hauptstrasse/Suermondstrasse,strassenbahn,['70'],"52.54899316592503, 13.501757745807819",
+"Heinersdorf, Kirche",Autobus,['A 42'],"52.568251990817764, 13.440484539756532",
+"Heinersdorf, Kirche",strassenbahn,['71'],"52.5686908,13.4389053",Q65096107
+"Heinersdorf, Romain-Rolland-Strasse",strassenbahn,['71'],"52.5725511,13.4371063",Q65096052
+Heinersdorf/Kirche,Autobus,['A 55'],"52.56826376476754, 13.440601903603064",
+Heinrich-Heine-Strasse,strassenbahn,['64'],"52.51099529411967, 13.416420239383946",
+Heinrich-Heine-Strasse Ecke Schmidtstrasse,strassenbahn,['11'],"52.510985527920624, 13.416475371446467",
+Heinrich-Mann-Platz,Autobus,"['A 55', 'A 58', 'A 45']","52.57297246262195, 13.392146133350426",
+"Hessenwinkel, Lindenstrasse",Autobus,['A 22'],"52.42653518647879, 13.728458969026482",
+Hirschgarten,strassenbahn,"['84', '87']","52.4518533,13.6006245",Q66360740
+Hirtestrasse,strassenbahn,['86'],"52.4590446,13.5838302",Q66459446
+Hochschule für Ökonomie,strassenbahn,['69'],"52.4927681,13.5266059",Q65952866
+Hohenschönhauser Strasse,strassenbahn,['3'],"52.5359329,13.4729468",Q65553684
+"Hohenschönhausen, Falkenberger Strasse",strassenbahn,"['70', '64']","52.5508672,13.5094994",Q65555882
+"Hohenschönhausen, Falkenberger Strasse",Autobus,['A 39'],"52.550229554941964, 13.509585042301534",
+"Hohenschönhausen, Gartenstadt",strassenbahn,['63'],"52.5508672,13.5094994",Q65555882
+Holteistrasse Ecke Boxhagener Strasse,strassenbahn,['3'],"52.5088235,13.465969",Q65675805
+Hultschiner Damm,Autobus,['A 8'],"52.47711373957008, 13.600598140620137",
+Humannplatz,strassenbahn,['70'],"52.5493627,13.4213646",Q65962652
+"Hönow, Dorfstrasse",Autobus,['A 44'],"52.54884927869554, 13.63648687804691",
+Invalidenstrasse Ecke Chausseestrasse,Autobus,['A 59'],"52.530584371359055, 13.383078391497033",
+Invalidenstrasse Ecke Chausseestrasse,strassenbahn,['82'],"52.5304158,13.3827302",Q65552697
+Joachimstrasse,Autobus,['A 38'],"52.40316589631168, 13.57664158970399",
+"Johannisthal, Haeckelstrasse",strassenbahn,['69'],"52.4402944,13.5052638",Q66225573
+Johannisthaler Chaussee,Autobus,['A 47'],"52.45136033294721, 13.488299619950027",
+Jüdenstrasse,strassenbahn,['71'],"52.51609564053117, 13.410616931384226",
+Kali-Chemie,strassenbahn,"['87', '92', '95']","52.46329854840191, 13.499789773217568",
+Karl-Marx-Allee,Omnibus,['O 40'],"52.51831920404112, 13.430003655626638",
+Karlshorster Strasse,strassenbahn,['13'],"52.502334098187674, 13.475466875195085",
+Karolinenhof Mitte,strassenbahn,['86'],"52.39176095915858, 13.634654256792825",
+Karower Strasse/Alt-Buch,Autobus,['A 42'],"52.6353147366511, 13.49919747411447",
+"Kaulsdorf, Bausdorfstrasse",Autobus,['A 49'],"52.51256368150751, 13.601906818686038",
+Kienbergstrasse,Autobus,['A 24'],"52.37533197787343, 13.541625075853752",
+Kniprodestrasse Ecke Dimitroffstrasse,strassenbahn,['13'],"52.53212517120371, 13.441486830298444",
+Klein Ziethen,Autobus,['A Z'],"52.379580499215606, 13.44656986522325",
+Klement-Gottwald-Allee,strassenbahn,['3'],"52.55207481375682, 13.465630856253787",
+Klement-Gottwald-Allee Ecke Rennbahnstrasse,Autobus,['A 55'],"52.55694652931542, 13.466966083751453",","
+Klement-Gottwald-Allee/Rennbahnstrasse,Autobus,"['A 46', 'A 45']","52.55694573710591, 13.46690169748388",
+Klement-Gottwald-Allee/Rennbahnstrasse,strassenbahn,['72'],"52.55698366082651, 13.466917794929422",
+"Klingenberg, Blockdammweg",strassenbahn,['13'],"52.4842462,13.5104609",Q66085182
+Klosterstrasse,Omnibus,['O 30'],"52.51798604342281, 13.412126746747086",
+Klosterstrasse,u-bahn,['A'],"52.516111111111, 13.412222222222",Q657893
+Kniprodestrasse,strassenbahn,['4'],"52.5325286,13.4406868",Q65707391
+Kniprodestrasse/Ermländische Strasse,Autobus,['A 57'],"52.53412263578274, 13.444622763935293",
+"Kolonie ""Land im Sonne""",Autobus,['A 39'],"52.55462883361286, 13.511870302373488",
+Konsum Wernsdorf,Autobus,['Schmöckwitz - Ziegenhals'],"52.36448396303661, 13.698441127852544",
+Konsum Ziegenhals,Autobus,['Schmöckwitz - Ziegenhals'],"52.353014165379946, 13.671672670712805",
+Kraftwerk Klingenberg,strassenbahn,"['82', '13']","52.4881374,13.4958685",Q66079524
+Krankenhaus Köpenick,Autobus,['A 27'],"52.4388396,13.5920763",
+Krankenhaus Köpenick,strassenbahn,['95'],"52.43861200573594, 13.592411258792163",
+Kurische Strasse,Autobus,['A 9'],"52.53541468899389, 13.439085794623837",
+Kurt-Fischer-Platz,Autobus,['A 7'],"52.57973292845757, 13.398330728468228",
+Kurt-Fischer-Platz,strassenbahn,"['22', '46']","52.578668,13.3983016",Q65032974
+Köllnischer Platz,strassenbahn,"['84', '86']","52.4447189,13.5686225",Q66363379
+Königstor,Autobus,"['A 57', 'A 9']","52.52520269485428, 13.419834994127731",
+Königstor,Omnibus,['O 40'],"52.52520269485428, 13.419834994127731",
+Königstor,strassenbahn,['74'],"52.52821600265539, 13.423869016265495",
+Köpenickerstrasse Ecke Adalbertstrasse,Omnibus,['1'],"52.5088020100168, 13.42459205564356",
+Küstriner Platz,Omnibus,"['O 30', 'O 40']","52.51324778107561, 13.439333192026231",
+LPG Falkenberg,Autobus,['A 46'],"52.57689764194031, 13.582483848603614",
+Langhansstrasse Ecke Gustav-Adolf-Strasse,Autobus,"['A 55', 'A 45']","52.55363454206649, 13.43469073771919",
+Leninallee,strassenbahn,['4'],"52.5259343,13.4462368",Q65553230
+Leninallee Ecke Dimitroffstrasse,strassenbahn,['13'],"52.5259343,13.4462368",Q65553230
+Leninplatz,Omnibus,['O 40'],"52.523238998562235, 13.433594583798834",
+Leninplatz,strassenbahn,"['1', '63', '69', '64']","52.5232658,13.4326457",Q65553105
+Lerchenstrasse,Autobus,['S-Bhf. Rahnsdorf - Woltersdorfer Schleuse'],"52.45518873071384, 13.734268401558374",
+Lichtenberger Strasse,strassenbahn,['72'],"52.552032612200605, 13.465689924366766",
+Lichtenberger Strasse,strassenbahn,['74'],"52.552032612200605, 13.465689924366766",
+Lichtenberger Strasse Ecke Buschallee,strassenbahn,['70'],"52.55398925514543, 13.467683317947278",
+Lindenberg,Autobus,['A L'],"52.602597712625055, 13.5250306401055",
+Lindenstrasse Ecke Bahnhofstrasse,strassenbahn,['95'],"52.4505094,13.572684",Q66095701
+Luxemburgplatz,u-bahn,['A'],"52.528333333333,13.410277777778",Q658790
+Magdalenenstrasse,u-bahn,['E'],"52.5125,13.486388888889",Q473901
+Mahlsdorf-Süd,strassenbahn,['83'],"52.4741663,13.5991443",Q66368466
+"Mahlsdorf-Süd, Hubertus",strassenbahn,"['82', '86']","52.4741663,13.5991443",Q66368466
+"Malchow, Dorfstrasse",Autobus,"['A 46', 'A L']","52.580462270708544, 13.482797576255583",
+Malchower Weg,Autobus,['A 46'],"52.56152031238405, 13.500485897507804",
+Marchlewskistrasse,u-bahn,['E'],"52.516794444444,13.444991666667",Q551768
+Margaretenaue,strassenbahn,['49'],"52.587907241470944, 13.430038901840085",
+Markgrafendamm,Autobus,['A 82 P'],"52.49919969372071, 13.465742293248686",
+Marx-Engels-Platz,Autobus,"['A 57', 'A 9']","52.51617617310524, 13.400937413635054",
+"Marzahn, Berliner Chaussee",Autobus,['A 43'],"52.54286481407268, 13.550124906736844",
+Marzahner Chaussee,Omnibus,['O 37'],"52.53978688562053, 13.53943029431785",
+Molkenmarkt,strassenbahn,"['72', '74', '71']","52.51679321421663, 13.409330619020574",
+Müggelheim,Autobus,['A 27'],"52.41018331064196, 13.665897531850348",
+Müggelseeperle,Autobus,['A 27'],"52.42170168937569, 13.640893083169368",
+Neu-Lindenberg,Autobus,['A L'],"52.600885625411856, 13.554794085696633",
+Nordend,Autobus,['A 7'],"52.59006569360479, 13.401740566033476",
+Nordend,strassenbahn,['46'],"52.5902104,13.4027524",Q65032696
+Nordendstrasse,strassenbahn,['22'],"52.588534,13.3882952",Q65428345
+Normannenstrasse,Autobus,['A 23'],"52.41755553724523, 13.541493283222094",
+"Oberspree, Bruno-Bürgel-Weg",strassenbahn,['92'],"52.452777014581045, 13.537124836409932",
+Omnibus-Bf. Lichtenberger Strasse,strassenbahn,['3'],"52.5442346,13.4687215",Q65939077
+Oranienburger Tor,Autobus,"['A 9', 'A 59']","52.52716314203455, 13.38710905184874",
+Oranienburger Tor,Omnibus,['O 40'],"52.52716314203455, 13.38710905184874",
+Oranienburger Tor,strassenbahn,"['1', '46', '70', '11', '69']","52.5256031,13.3872745",Q65095375
+Ossietzkyplatz,strassenbahn,['46'],"52.58100580136794, 13.404014807678767",
+Ostbahnhof,Omnibus,['O 40'],"52.50976670730252, 13.43372198235041",
+Ostbahnhof,strassenbahn,"['82', '1']","52.509107635417394, 13.43550619008533",
+Pankow (Vinetastrasse),u-bahn,['A'],"52.559166666667,13.413333333333",Q570906
+"Pankow, Kirche",Autobus,"['A 55', 'A 58', 'A 45']","52.57124680898358, 13.410670715665145",
+"Pankow, Kirche",strassenbahn,"['22', '49', '46']","52.5706452,13.4103115",Q65055066
+"Pankow, Rathaus",Autobus,"['A 45', 'A 55', 'A 58', 'A 7']","52.56953908840178, 13.404186437171612",
+"Pankow, Rathaus",strassenbahn,"['22', '46']","52.5694816,13.4038045",Q65055060
+Parkstrasse Ecke An der Wuhlheide,strassenbahn,['82'],"52.458692811582104, 13.539859756020707",
+Parkstrasse Ecke An der Wulheide,strassenbahn,['95'],"52.458692811582104, 13.539859756020707",
+Parkstrasse,strassenbahn,['87'],"52.45870588645984, 13.539865120378947",
+Piesporter Strasse,Autobus,['A 55'],"52.560428325050296, 13.476578086985889",
+Platz vor dem Neuen Tor,Autobus,['A 9'],"52.52921245715711, 13.378513556812177",
+Post,Autobus,"['S-Bhf. Friedrichshagen - Rüdersdorf, Karl-Marx-Platz']","52.47029587176764, 13.786537970773646",
+Prenzlauer Allee,strassenbahn,['4'],"52.5396522,13.4244789",Q65222180
+Prenzlauer Allee Ecke Dimitroffstrasse,strassenbahn,['13'],"52.539197857899126, 13.424201067893557",
+Prenzlauer Promenade,Autobus,['A 56'],"52.5516751737526, 13.430326005865055",
+Prenzlauer Promenade,strassenbahn,"['70', '72', '3']","52.55155536618067, 13.43032253030515",
+Prenzlauer Promenade (Spitze),Autobus,['A 42'],"52.55169017006126, 13.430288457592285",
+Prenzlauer Promenade (Spitze),strassenbahn,['71'],"52.5516751737526, 13.430326005865055",
+Prenzlauer Promenade Ecke Granitzstrasse,Autobus,['A 55'],"52.572092016203484, 13.42875772052513",
+Prenzlauer Promenade Ecke Kissingenstrasse,Autobus,['A 45'],"52.56795804833996, 13.427734373319213",
+Prenzlauer Tor,Omnibus,['O 40'],"52.52709114016772, 13.415809370320808",
+Prenzlauer Tor,strassenbahn,['71'],"52.52709114016772, 13.415809370320808",
+Proskauerstrasse Ecke Dolziger Strasse,Omnibus,['O 30'],"52.519874079766325, 13.463289228834057",
+Rahnsdorf,strassenbahn,['87'],"52.443531694444445,13.685038",Q66361311
+Rahnsdorfer Strasse Ecke Hultschiner Damm,strassenbahn,['83'],"52.49863606696212, 13.613320584450898",
+Rennbahnstrasse Ecke Bernkasteler Strasse,strassenbahn,['74'],"52.55697630217991, 13.466894532923181",
+Rennbahnstrasse Ecke Gustav-Adolf-Strasse,Autobus,['A 56'],"52.56218648050474, 13.454267038723398",
+Richtershorn,strassenbahn,['86'],"52.40105,13.6248473",Q66481215
+Ridbacher Strasse,Autobus,['A 49'],"52.527457204488485, 13.606447755554132",
+Robert-Koch-Platz,Autobus,['A 57'],"52.527570508835595, 13.37877230286134",
+Robert-Koch-Platz,Omnibus,['O 40'],"52.527570508835595, 13.37877230286134",
+Roederplatz,Omnibus,['O 30'],"52.52671388514014, 13.479662353432392",
+Roederplatz,strassenbahn,"['69', '3']","52.5266001,13.479068",Q65685373
+"Rosenthal, Haupstrasse",strassenbahn,['22'],"52.5970063,13.3763916",Q65364985
+Rosenthaler Platz,Omnibus,['O 40'],"52.5296729549826, 13.401428926082492",
+Rosenthaler Platz,strassenbahn,"['22', '49', '82']","52.5301769,13.4016121",Q65093945
+Rosenthaler Strasse,strassenbahn,['49'],"52.59633,13.432876",Q66192394
+"Rüdersdorf, Karl-Marx-Platz",Autobus,"['S-Bhf. Friedrichshagen - Rüdersdorf, Karl-Marx-Platz']","52.468598623083736, 13.791633300477105",
+"Rüdersdorf, Thälmannplatz",Autobus,"['S-Bhf. Friedrichshagen - Rüdersdorf, Karl-Marx-Platz']","52.474663106849825, 13.77362632033625",
+S-Bhf. Adlershof,strassenbahn,['84'],"52.435251,13.5408489",Q66363728
+S-Bhf. Alexanderplatz,Autobus,"['A 57', 'A 9']","52.52074877770386, 13.412147230655155",
+S-Bhf. Alexanderplatz,Omnibus,['O 30'],"52.52074877770386, 13.412147230655155",
+S-Bhf. Altglienicke,Autobus,['A 23'],"52.40840519773821, 13.558816171743953",
+S-Bhf. Baumschulenweg,Autobus,['A 47'],"52.4674967534767, 13.489379882069517",
+S-Bhf. Baumschulenweg,strassenbahn,"['95P', '95']","52.467425320387854, 13.489303343986984",
+S-Bhf. Biesdorf,Omnibus,['O 37'],"52.513432593832405, 13.555387279249894",
+S-Bhf. Friedrichsfelde-Ost,Autobus,['A 43'],"52.51324537165634, 13.524030584354616",
+S-Bhf. Friedrichshagen,Autobus,"['S-Bhf. Friedrichshagen - Rüdersdorf, Karl-Marx-Platz']","52.45731046148184, 13.625536519339297",
+S-Bhf. Friedrichshagen,strassenbahn,"['84', '87']","52.4564126,13.6253656",Q66360784
+S-Bhf. Greifswalder Strasse,strassenbahn,['74'],"52.5407234,13.4382904",Q65548932
+S-Bhf. Grünau,Autobus,"['A 36', 'A 38']","52.41361515857581, 13.573796290663196",
+S-Bhf. Grünau,strassenbahn,['86'],"52.413493,13.5746802",Q62470512
+S-Bhf. Grünbergallee,Autobus,['A 36'],"52.39982232817773, 13.540170966673278",
+S-Bhf. Jannowitzbrücke,strassenbahn,"['22', '82', '64', '71', '11']","52.51478599600389, 13.418056238742702",
+S-Bhf. Karlshorst,strassenbahn,['69'],"52.481331,13.5254433",Q65952829
+"S-Bhf. Kaulsdorf, Planitzstrasse",Autobus,['A 27'],"52.51113864301491, 13.58755467300039",
+S-Bhf. Köpenick,Autobus,['A 27'],"52.45882190200453, 13.579564677172508",
+S-Bhf. Köpenick,strassenbahn,"['82', '86', '83']","52.4582153,13.5790435",Q66370784
+S-Bhf. Mahlsdorf,Autobus,"['A 44', 'A 44 E']","52.51234908870327, 13.61221793610957",
+S-Bhf. Mahlsdorf,strassenbahn,['83'],"52.51221826761895, 13.612190748726157",
+S-Bhf. Marx-Engels-Platz,strassenbahn,['49'],"52.52299166458439, 13.401977754137919",
+S-Bhf. Ostkreuz,strassenbahn,['82'],"52.50243021718411, 13.469020052690205",
+S-Bhf. Pankow,Autobus,"['A 55', 'A 58', 'A 45']","52.56742037379333, 13.412250129587665",
+S-Bhf. Pankow,strassenbahn,"['22', '49', '46']","52.5675692,13.4121641",Q65055075
+S-Bhf. Pankow-Heinersdorf,strassenbahn,['49'],"52.577507820515834, 13.427853061920917",
+S-Bhf. Plänterwald,strassenbahn,"['87', '92']","52.479645467025435, 13.47567729609248",
+S-Bhf. Prenzlauer Allee,strassenbahn,"['72', '71']","52.5448075,13.427408",Q65219791
+S-Bhf. Rahnsdorf,Autobus,"['A 22', 'S-Bhf. Rahnsdorf - Woltersdorfer Schleuse']","52.451628368326396, 13.691579101298974",
+S-Bhf. Rummelsburg,Omnibus,['O 30'],"52.50179539105723, 13.478028581044718",
+S-Bhf. Schönhauser Allee,strassenbahn,"['22', '49', '46']","52.5493619,13.4135734",Q65088013
+S-Bhf. Spindlersfeld,strassenbahn,['84'],"52.4457311,13.5624298",Q66363397
+S-Bhf. Treptower Park,Autobus,['A 47'],"52.49403640886682, 13.460762565516704",
+S-Bhf. Warschauer Strasse,strassenbahn,"['3', '4']","52.506416666667,13.450955555556",Q111252298
+S-Bhf. Wilhelmshagen,Autobus,['A 22'],"52.43886122089184, 13.721060252199655",
+Saarbrücker Strasse Ecke Prenzlauer Allee,strassenbahn,"['72', '71']","52.52853502182196, 13.41711797726751",
+Sadowastrasse,Autobus,['A 8'],"52.482675472271694, 13.584833068425244",
+Samariterstrasse,u-bahn,['E'],"52.514722222222,13.464444444444",Q552891
+Scharnhorststrasse,Autobus,['A 57'],"52.530048717863, 13.374421833191816",
+Scharnhorststrasse Ecke Kieler Strasse,Autobus,['A 9'],"52.534358722624745, 13.370310836134667",
+"Schildow, Kirche",Autobus,['A 7'],"52.63581867397586, 13.377719168374458",
+Schillingstrasse,u-bahn,['E'],"52.520277777778,13.421666666667",Q552899
+Schumannstrasse,Autobus,['A 57'],"52.52350700053633, 13.379478600060418",
+Schönefeld Gartenstrasse,Autobus,['A 36'],"52.39306384968221, 13.524936786130585",
+"Schönefeld, Flughafen Nord",Autobus,['A 24'],"52.391408388594286, 13.516045082012493",
+"Schönefeld, Flughafen Süd",Autobus,['A 24'],"52.36638150611842, 13.518172113668877",
+"Schönefeld, Gartenstrasse",Autobus,['A 36'],"52.39306384968221, 13.524936786130585",
+"Schönefeld, Kirche",Autobus,"['A Z', 'A 24']","52.387425080944524, 13.505964115736859",
+Schönefelder Chaussee,Autobus,['A 23'],"52.409778884134546, 13.526974904149686",
+"Schöneiche, Goethepark",Autobus,"['S-Bhf. Friedrichshagen - Rüdersdorf, Karl-Marx-Platz']","52.470798548586494, 13.68835638892532",
+Schönhauser Allee,strassenbahn,['3'],"52.5537705,13.4138898",Q65076842
+Schönhauser Allee,u-bahn,['A'],"52.549328888889,13.413706111111",Q47014936
+Seelenbinderstrasse,strassenbahn,['83'],"52.4554632,13.5769303",Q66324934
+Seelenbinderstrasse Ecke Bahnhofstrasse,strassenbahn,['87'],"52.4554632,13.5769303",Q66324934
+Seelenbinderstrasse,strassenbahn,"['84', '86']","52.45577189402544, 13.577137501189938",
+Siegfriedstrasse Ecke Herzbergstrasse,strassenbahn,['69'],"52.52637512000325, 13.499791136524967",
+Sonnenallee,strassenbahn,['95P'],"52.46218348846541, 13.477104416215733",
+Spittelmarkt,strassenbahn,"['72', '74', '64']","52.511243321361405, 13.40494539543245",
+Spittelmarkt,u-bahn,['A'],"52.511111111111,13.403611111111",Q569489
+Stadion Buschallee,strassenbahn,['70'],"52.5566718,13.4869834",Q65504715
+Stadtmitte,u-bahn,['A'],"52.5122,13.3894",Q660066
+Stalinallee (Ringbahn),u-bahn,['E'],"52.514166666667,13.474722222222",Q552872
+Sterndamm,Autobus,['A 47'],"52.44658674940087, 13.506534865142585",
+Steuerhaus,Omnibus,['O 37'],"52.530493,13.4614989",
+Steuerhaus,strassenbahn,"['69', '63', '64']","52.530493,13.4614989",Q65553632
+Strab. Bf. Köpenick,strassenbahn,['83'],"52.4582153,13.5790435",Q66370784
+"Stralau, Kinderheim",Autobus,['A 82 P'],"52.4898153097415, 13.481404230737937",
+Stralauer Allee,strassenbahn,['82'],"52.49740745019046, 13.46463650693144",
+Strasse 78,Autobus,['A 42'],"52.614646041574915, 13.484873269723556",
+Strasse nach Wartenberg,Autobus,['A 46'],"52.56866269126953, 13.520582099858125",
+Strausberger Platz,u-bahn,['E'],"52.518055555556,13.430833333333",Q570999
+Taubenstrasse Ecke Glinkastrasse,strassenbahn,['72'],"52.51282807699578, 13.386550049684635",
+Thälmannplatz,Autobus,['S-Bhf. Rahnsdorf - Woltersdorfer Schleuse'],"52.45066904252597, 13.752260000383929",
+Thälmannplatz,u-bahn,['A'],"52.51167,13.38472",Q658391
+Tierpark Berlin,strassenbahn,['69'],"52.50297204519277, 13.520916474066839",
+"Treptow, Rathaus",Autobus,['A 47'],"52.48358899866382, 13.480324760498638",
+U- u. S-Bhf. Frankfurter Allee,strassenbahn,['3'],"52.5138037,13.4773772",Q65948557
+U-Bhf. Dimitroffstrasse,strassenbahn,"['22', '70', '13', '4']","52.5401928,13.4113979",Q65088313
+U-Bhf. Dimitroffstrasse,strassenbahn,"['49', '46']","52.5401928,13.4113979",Q65088313
+U-Bhf. Franzsösische Strasse,Autobus,['A 59'],"52.514766362780534, 13.389198160378083",
+U-Bhf. Friedrichsfelde (Tierpark),Autobus,"['A 43', 'A 8']","52.505467902077775, 13.513705817628793",
+U-Bhf. Pankow (Vinetastrasse),Autobus,"['A 58', 'A 7']","52.559329803871, 13.413333194922279",
+U-Bhf. Pankow (Vinetastrasse),strassenbahn,"['22', '46']","52.5596168,13.413232",Q65075426
+U-Bhf. Pankow (Vinetastrasse),strassenbahn,['49'],"52.5596168,13.413232",Q65075426
+U-Bhf. Stadtmitte,Autobus,['A 59'],"52.5104179669139, 13.389881304836392",
+U-Bhf. Strausberger Platz,strassenbahn,['1'],"52.51808306742478, 13.432938339097822",
+U-Bhf. Thälmannplatz,Autobus,['A 59'],"52.5114441966642, 13.383432905885536",
+Uckermarkstrasse,Autobus,['A 49'],"52.52145144349922, 13.596724604247981",
+Ulmenstrasse,Autobus,['A 27'],"52.48730877811447, 13.574932033917504",
+VEB Baustransporte,Autobus,['A 26'],"52.44295541604966, 13.519519091051876",
+VEB Schiffswerft,strassenbahn,['83'],"52.42547977761138, 13.586220039541647",
+"Waldesruh, Mahlsdorfer Allee",Autobus,['A 8'],"52.48493120102871, 13.629069441163518",
+Waldschänke,Autobus,['A 22'],"52.443318139967566, 13.68593963431219",
+Wallnerstrasse Ecke Alexanderstrasse,strassenbahn,['22'],"52.515528873421424, 13.418227297042726",
+Wallnerstrasse Ecke Alexanderstrasse,strassenbahn,['71'],"52.515528873421424, 13.418227297042726",
+Walter-Ulbricht-Stadion,Autobus,['A 59'],"52.536515137173154, 13.377775719050113",
+Walter-Ulbricht-Stadion,strassenbahn,"['82', '69']","52.536515137173154, 13.377775719050113",
+Waltersdorf,Autobus,['A 38'],"52.36492901110609, 13.555712408051676",
+Waltersdorfer Chaussee,Autobus,['A 24'],"52.402177459037354, 13.51294235752257",
+Warschauer Strasse,Omnibus,['O 30'],"52.512432267445355, 13.452598837307189",
+Warschauer Strasse,strassenbahn,['82'],"52.50502,13.44863",Q63490275
+"Wartenberg, Dorfstrasse",Autobus,['A 39'],"52.57484089632958, 13.518020972979759",
+"Wartenberg, Siedlung",Autobus,['A 39'],"52.58393195902164, 13.53076033685478",
+Wasserwerk,strassenbahn,['87'],"52.4560563,13.6419956",Q66362601
+Waßmannsdorf,Autobus,['A Z'],"52.37269773285082, 13.465032652682668",
+Waßmannsdorfer Weg,Autobus,['A 24'],"52.36725754220821, 13.466690921850635",
+"Weißensee, Nüßlerstrasse",Autobus,['A 56'],"52.56398537909407, 13.469733771213992",
+"Weißensee, Pasedagplatz",strassenbahn,['72'],"52.5594027,13.4609594",Q65954665
+"Weißensee, Pasedagplatz/Klement-Gottwald-Allee",strassenbahn,['74'],"52.5597125027563, 13.460307340258108",
+"Weißensee, Schwarzelfenweg",Autobus,['A 45'],"52.56729838338304, 13.46535452978551",
+Weißenseer Weg,Omnibus,['O 37'],"52.53305919668049, 13.476252837088406",
+Weißenseer Weg,strassenbahn,['63'],"52.532258,13.476705",Q65942700
+Weißenseer Weg Ecke Berliner Strasse,strassenbahn,['64'],"52.532258,13.476705",Q65942700
+Wendenschloß,strassenbahn,['83'],"52.4169658,13.5885926",Q66363928
+Wendenstrasse,Autobus,['A 23'],"52.41578842802203, 13.549898784524798",
+Wicherstrasse Ecke Prenzlauer Allee,Autobus,['A 56'],"52.5456730102219, 13.427746498417138",
+Wiener Brücke,strassenbahn,['92'],"52.49588477409083, 13.43650068505988",
+"Wiener Brücke, Krüllstrasse",strassenbahn,['87'],"52.49164735650872, 13.446700972117204",
+Wilhelminenhofstrasse,strassenbahn,['69'],"52.460837970970566, 13.521054382869073",Q65951882
+Wilhelminenhofstrasse Ecke Edisonstrasse,strassenbahn,['87'],"52.4619496,13.5139049",Q65951882
+"Wilhelmsruh, Fontanestrasse",Autobus,"['A 55', 'A 58', 'A 45']","52.58985938767378, 13.361193570257216",
+Wilhelmstrasse,Autobus,['A 59'],"52.5100063666283, 13.384161195049645",
+Wilhelmstrasse,strassenbahn,['74'],"52.51000721625461, 13.384162341711823",
+Wisbyer Strasse Ecke Schönhauser Allee,strassenbahn,['49'],"52.55374610843057, 13.414453768690132",
+Wolfmarsteig,Autobus,['A 23'],"52.41268952057738, 13.536602630335091",
+Woltersdorfer Schleuse,Autobus,['S-Bhf. Rahnsdorf - Woltersdorfer Schleuse'],"52.4427723984596, 13.764524016423056",
+Wongrowitzer Steig,Autobus,['A 27'],"52.4669377,13.5853227",
+Zentralschule,Autobus,['A 22'],"52.43465069286089, 13.703692212644038",
+"Ziegenhals, VA-Dienststelle",Autobus,['Schmöckwitz - Ziegenhals'],"52.3470916280972, 13.664196000865504",
+Lindenstrasse/Hegelschule,strassenbahn,['82'],"52.4505094,13.572684",Q66095701

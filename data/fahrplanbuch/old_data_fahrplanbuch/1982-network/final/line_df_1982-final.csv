@@ -1,0 +1,181 @@
+,line_id,year,line_name,type,start_stop,Length (time),east_west,Frequency
+0,19821,1982,1,bus,"Moabit, Waldstrasse Ecke Turmstrasse<> Lichterfelde, Lindenstrasse",69,West,12
+1,19822,1982,10,bus,"Haselhorster Damm<> Zehlendorf-Süd, Sachtlebenstrasse Ecke Lupsteiner Weg",67,West,12
+2,19823,1982,11,bus,Dahlem Waldfriedhof<> U-Bhf. Alt-Mariendorf,43,West,12
+3,19824,1982,11,strassenbahn,S-Bhf. Marzahn<> Stadion der Weltjugend,47,Ost,20
+4,19825,1982,12,bus,"Wedding, Bernauer Strasse<> Maximiliankorso Ecke Hainbuchenstrasse",61,West,15
+5,19826,1982,12,strassenbahn,S-Bhf. Marzahn<> Scharnweberstrasse,27,Ost,20
+6,19827,1982,13,bus,Alt-Heiligensee<> Spandau Weinmeisterhornweg,66,West,12
+7,19828,1982,13,strassenbahn,Eberswalder Strasse<> Hönower Wiesenweg,40,Ost,10
+8,19829,1982,14,bus,U-Bhf. Osloer Strasse<> Alt-Heiligensee,60,West,15
+9,198210,1982,14E,bus,Alt-Heiligensee<> Falkenplatz,9,West,30
+10,198211,1982,15,bus,Wittenauer Strasse Märkisches Viertel<> Frohnau Invalidensiedlung,58,West,20
+11,198212,1982,15,strassenbahn,"Bhf. Lichtenberg<> Hackescher Markt""",37,Ost,20
+12,198213,1982,16,bus,Reinickendorf Klemkestrasse/Sommerstrasse<> Breitenbachplatz,63,West,15
+13,198214,1982,17,bus,Grundewald Fontanestrasse<> Lichterfelde Celsiusstrasse,56,West,12
+14,198215,1982,17,strassenbahn,Besarinstrasse<> Haeckelstrasse,56,Ost,12
+15,198216,1982,18,bus,U-Bhf. Oskar-Helene-Heim<> Steinstücken,33,West,20
+16,198217,1982,18,strassenbahn,"Biesdorf, Elisabethstrasse<> Stadion der Weltjugend",49,Ost,20
+17,198218,1982,19,bus,Grunewald Roseneck<> Platz der Luftbrücke,44,West,10
+18,198219,1982,19,strassenbahn,"Köpenick, Krankenhaus<> Artur-Becker-Strasse",68,Ost,20
+19,198220,1982,2,bus,"U-Bhf. Friedrich-Wilhelm-Platz<> Marienfelde, Waldsassener Strasse",36,West,7
+20,198221,1982,20,bus,Tegelort<> Lübars Alt-Lübars,41,West,15
+21,198222,1982,20,strassenbahn,Bhf. Lichtenberg<> Hackerscher Markt,50,Ost,20
+22,198223,1982,21,bus,Quickborner Strasse Märkisches Viertel<> Fehrbelliner Platz,63,West,20
+23,198224,1982,21,strassenbahn,"Eberswalder Strasse<> Köpenick, Krankenhaus",72,Ost,20
+24,198225,1982,22,bus,U-Bhf. Osloer Strasse<> Waidmannslust Titiseestrasse,37,West,15
+25,198226,1982,22,strassenbahn,"Rosenthal, Quickborner Strasse<> Am Kupfergraben",50,Ost,15
+26,198227,1982,23,bus,Falkenhöhe<> Rudower Chaussee,28,Ost,20
+27,198228,1982,23,bus,"Zoo, Hardenbergplatz<> Saatwinkler Damm Mäkeritzwiesen",50,West,15
+28,198229,1982,24,bus,Moabit Wiebestrasse<> Platz der Luftbrücke,43,West,15
+29,198230,1982,24,strassenbahn,Pasedagplatz<> Stadion der Weltjugend,36,Ost,12
+30,198231,1982,25,bus,Britz-Süd<> U-Bhf. Friedrich-Wilhelm-Platz,39,West,15
+31,198232,1982,25,strassenbahn,Sterndamm<> Rahnsdorf,47,Ost,20
+32,198233,1982,26,strassenbahn,"Sterndamm<> Köpenick, Krankenhaus",26,Ost,20
+33,198234,1982,27,bus,S-Bhf. Kaulsdorf<> Alt-Müggelheim,41,Ost,10
+34,198235,1982,28,bus,U-Bhf. Tempelhof<> Schlesische Strasse Ecke Heckmannufer,44,West,15
+35,198236,1982,29,bus,"Grunewald, Roseneck<> Oranienplatz",45,West,10
+36,198237,1982,3,bus,"Düppel-Süd<> Wannsee, Heckeshorn",46,West,15
+37,198238,1982,3,strassenbahn,Björnsonstrasse<> S-Bhf. Warschauer Strasse,43,Ost,10
+38,198239,1982,30,bus,Robert-Koch-Platz<> Ostbahnhof,67,Ost,15
+39,198240,1982,30,bus,U-Bhf. Rathaus Steglitz<> Lichtenrade Nahariyastrasse,37,West,20
+40,198241,1982,31,bus,"Buch, Hobrechtsfelder Chaussee<> Ostseestrasse",39,Ost,20
+41,198242,1982,31,bus,U-Bhf. Ruhleben<> Staaken Heidebergplan,28,West,10
+42,198243,1982,32,bus,Hans-Beimler-Strasse<> Otto-Grotewohl-Strasse,22,Ost,6
+43,198244,1982,32,bus,U-Bhf. Rathaus Steglitz<> Marienfelde Bahnstrasse,28,West,10
+44,198245,1982,33,bus,Grumbkowstrasse<> U-Bhf. Pankow,17,Ost,20
+45,198246,1982,33,bus,U-Bhf. Breitenbachplatz<> Mariendorf Rixdorfer Strasse Ecke Dirschelweg,29,West,10
+46,198247,1982,34,bus,U-Bhf. Marchlewskistrasse<> Alt-Stralau,17,Ost,15
+47,198248,1982,34,bus,"Spandau, Wasserwerk<> Glienicke Gutshof",50,West,20
+48,198249,1982,35,bus,"Biesdorf-Süd, Köpenicker Strasse<> S-Bhf. Nöldnerplatz",32,Ost,20
+49,198250,1982,35,bus,U-Bhf. Ruhleben<> Kladow Hottengrund,37,West,20
+50,198251,1982,36,bus,"S-Bhf. Grünau<> Schönefeld, Dorfstrasse",18,Ost,10
+51,198252,1982,361,bus,Flughafen Schönefeld<> Flughafen Schönefeld,9,Ost,20
+52,198253,1982,362,bus,Flughafen Schönefeld<> Flughafen Schönefeld,6,Ost,20
+53,198254,1982,37,bus,S-Bhf. Grünau<> Rudower Strasse,12,Ost,30
+54,198255,1982,38,bus,S-Bhf. Grünau<> Diepensee,25,Ost,60
+55,198256,1982,39,bus,"Wartenberg, Siedlung<> Gehrenseestrasse",14,Ost,20
+56,198257,1982,4,bus,"Neu-Westend, Brixplatz<> Neukölln, Teupitzer Strasse",64,West,10
+57,198258,1982,4,strassenbahn,Eberswalder Strasse<> S-Bhf. Warschauer Strasse,24,Ost,10
+58,198259,1982,40,bus,Robert-Koch-Platz<> Ostbahnhof,21,Ost,7
+59,198260,1982,41,bus,"Neu-Lindenberg<> Ahrensfelde, Kirche",39,Ost,30
+60,198261,1982,41,bus,Rudow Stadtgrenze<> U-Bhf. Hallesches Tor,58,West,12
+61,198262,1982,42,bus,"Buch, Zepernicker Strasse<> Ostseestrasse",30,Ost,12
+62,198263,1982,43,bus,S-Bhf. Marzahn<> S-Bhf. Nöldnerplatz,28,Ost,10
+63,198264,1982,44,bus,"Hönow, Nord<> S-Bhf. Mahlsdorf",16,Ost,60
+64,198265,1982,45,bus,"Wilhelmsruh, Schillerstrasse<> Schwarzelfenweg",38,Ost,6
+65,198266,1982,46,strassenbahn,Nordend<> Am Kupfergraben,48,Ost,15
+66,198267,1982,47,bus,"Treptow, Eichenstrasse<> Bhf. Schöneweide",30,Ost,15
+67,198268,1982,48,bus,"Hohenschönhausen, Chemie-Handel<> Dimitroffstrasse",23,Ost,10
+68,198269,1982,48,bus,Zehlendorf Fischerhüttenstrasse Ecke Potsdamer Strasse<> Tiergartenstrasse Philharmonie,46,West,12
+69,198270,1982,49,strassenbahn,"Bucholz, Hauptstrasse<> Hackescher Markt",39,Ost,15
+70,198271,1982,5,bus,"U-Bhf. Ruhleben<> Spandau, Nervenklinik",32,West,10
+71,198272,1982,50,bus,Rolandstrasse<> U-Bhf. Pankow,15,Ost,7
+72,198273,1982,50,bus,Grunewald Roseneck<> Schöneberg Mansteinstrasse,26,West,15
+73,198274,1982,51,bus,"Buch, Am Sandhaus<> Zepernick, Kirche",0,Ost,20
+74,198275,1982,51E,bus,"Buch, Am Sandhaus<> Akademie der Wissenschaften",0,Ost,10
+75,198276,1982,52,bus,Achtermannstrasse<> U-Bhf. Pankow,14,Ost,15
+76,198277,1982,52,bus,Rudow Stubenrauchstrasse<> Marienfelde Stadtrandsiedlung,35,West,7
+77,198278,1982,53,bus,"Hohenschönhausen, Degnerstrasse<> U-Bhf. Tierpark",39,Ost,10
+78,198279,1982,53,bus,Nikolassee Alemannenstrasse<> Lichterfelde Oberhofer Platz,40,West,15
+79,198280,1982,54,bus,Bhf. Lichtenberg<> Artur-Becker-Strasse,62,Ost,10
+80,198281,1982,54,bus,"Spandau Johannesstift<> Zoo, Hardenbergplatz",45,West,10
+81,198282,1982,55,bus,"Wilhelmsruh, Fontanestrasse<> Piesporter Strasse",33,Ost,7
+82,198283,1982,55,bus,Jakob-Kaiser-Platz<> Spandau Hakenfelde,33,West,15
+83,198284,1982,56,bus,Gehringstrasse<> S-Bhf. Storkower Strasse,28,Ost,6
+84,198285,1982,56,bus,U-Bhf. Ruhleben<> Spandau Hakenfelde,23,West,15
+85,198286,1982,57,bus,Artur-Becker-Strasse Ecke Michelangelostrasse<> Scharnhorststrasse,31,Ost,2
+86,198287,1982,57,bus,Rudower Ring (U-Bhf. Zwickauer Damm)<> Rudower Ring (U-Bhf. Zwickauer Damm),44,West,20
+87,198288,1982,59,bus,Stadion der Weltjugend<> Otto-Grotewohl-Strasse,15,Ost,10
+88,198289,1982,6,bus,"Wannsee, Kronprinzessinnenweg<> Glienicker Brücke",14,West,30
+89,198290,1982,60,bus,"S-Bhf. Kaulsdorf, Bausdorfstrasse<> S-Bhf. Kaulsdorf, Bausdorfstrasse",14,Ost,20
+90,198291,1982,60,bus,Wittenbergplatz<> U-Bhf. Oskar-Helene-Heim,40,West,15
+91,198292,1982,61,bus,"Schöneiche, Dorfaue<> Hessenwinkel",31,Ost,20
+92,198293,1982,61,bus,U-Bhf. Gesundbrunnen<> U-Bhf. Scharnweberstrasse,37,West,15
+93,198294,1982,62,bus,VEB Kombinat Auto Trans<> Springbornstrasse,13,Ost,7
+94,198295,1982,62,bus,"Wilhelmsruher Damm Märkisches Viertel<> Zoo, Hardenbergplatz",50,West,12
+95,198296,1982,63,bus,Spandau Waldkrankenhaus<> Spandau Seegefelder Weg,30,West,15
+96,198297,1982,63,strassenbahn,"Hohenschönhausen, Gartenstadt<> Stadion der Weltjugend",48,Ost,12
+97,198298,1982,64,bus,Krüllsstrasse<> Karl-Kunger-Strasse,18,Ost,15
+98,198299,1982,64,bus,Senftenberger Ring Märkisches Zentrum<> Bernauer Strasse Ecke Wollinger Strasse,48,West,15
+99,1982100,1982,65,bus,Krüllsstrasse<> Oberspree,26,Ost,20
+100,1982101,1982,65,bus,Wedding Seestrasse Ecke Müllerstrasse<> Neukölln Schulenburgpark,58,West,10
+101,1982102,1982,66,bus,Krüllsstrasse<> Springbornstrasse,27,Ost,20
+102,1982103,1982,66,bus,"Zoo, Hardenbergplatz<> Stölpchensee Glienicker Strasse",39,West,15
+103,1982104,1982,67,bus,S-Bhf. Treptower Park<> VEB Kombinat Auto Trans,26,Ost,20
+104,1982105,1982,68,bus,Kaulsdorfer Strasse<> Wendenschloßstrasse,15,Ost,10
+105,1982106,1982,68,bus,Dahlem Clayallee Ecke Königin-Luise-Strasse<> U-Bhf. Tempelhof,35,West,15
+106,1982107,1982,69,bus,Eichkamp Dauerwaldweg<> Reichstag,37,West,20
+107,1982108,1982,7,bus,"Glienicke, Kirche<> U-Bhf. Pankow",42,Ost,10
+108,1982109,1982,7,bus,"U-Bhf. Alt-Mariendorf<> Lichtenrade, Motzener Strasse Egestorffstrasse",15,West,15
+109,1982110,1982,70,bus,Wollankstrasse Ecke Kattegatstrasse<> Moabit Wiebestrasse,34,West,12
+110,1982111,1982,70,strassenbahn,Gehrenseestrasse<> Am Kupfergraben,49,Ost,15
+111,1982112,1982,71,strassenbahn,Heinersdorf<> Am Kupfergraben,37,Ost,15
+112,1982113,1982,72,bus,Wilhelmsruh Kopenhagener Strasse<> Gartenfeld,56,West,15
+113,1982114,1982,72,strassenbahn,Pasedagplatz<> Hackescher Markt,31,Ost,15
+114,1982115,1982,73,bus,"Zoo Hardenbergplatz<> Britz, Buschkrug",41,West,7
+115,1982116,1982,74,bus,Charlottenburg Königin-Elisabeth-Strasse<> Lindenhof,44,West,15
+116,1982117,1982,76,bus,U-Bhf. Walther-Schreiber-Platz<> Lichtenrade Blohmstrasse Ecke Wünsdorfer Strasse,42,West,7
+117,1982118,1982,76E,bus,U-Bhf. Alt-Mariendorf<> Lichtenrade Bahnhofstrasse,21,West,5
+118,1982119,1982,77,bus,Neukölln Britzer Allee<> Marienfelde Daimlerstrasse,32,West,20
+119,1982120,1982,78,bus,Arkonaplatz<> Schumannstrasse,31,Ost,10
+120,1982121,1982,78,bus,"U-Bhf. Alt-Mariendorf<> Buckow, Alt-Buckow",16,West,20
+121,1982122,1982,78E,bus,Arkonaplatz<> Adalbertstrasse,18,Ost,10
+122,1982123,1982,79,bus,Alexanderstrasse<> Otto-Grotewohl-Strasse,11,Ost,15
+123,1982124,1982,79,bus,U-Bhf. Alt-Mariendorf<> Lichtenrade Nahariyastrasse,24,West,20
+124,1982125,1982,8,bus,Mahlsdorfer Allee<> Bhf. Lichtenberg,36,Ost,7
+125,1982126,1982,8,bus,Flughafen Berlin-Tegel<> U-Bhf. Osloer Strasse,24,West,15
+126,1982127,1982,81,bus,U-Bhf. Friedrich-Wilhelm-Platz<> Mariendorf Dardanellenweg,39,West,7
+127,1982128,1982,82,bus,Blohmstrasse Ecke Wünsdorfer Strasse<> Blohmstrasse/Wünsdorfer Strasse,28,West,10
+128,1982129,1982,82,strassenbahn,Mahlsdorf-Süd<> S-Bhf. Ostkreuz,49,Ost,12
+129,1982130,1982,83,bus,"Nettelbeckplatz<> Lankwitz, Belßstrasse Ecke Preysingstrasse",51,West,12
+130,1982131,1982,83,strassenbahn,S-Bhf. Mahlsdorf<> Wendenschloß,42,Ost,15
+131,1982132,1982,84,bus,Lichterfelde Ringstrasse Ecke Weißwasserweg<> U-Bhf. Kurfürstenstrasse,36,West,12
+132,1982133,1982,84,strassenbahn,Wasserwerk<> Am Falkenberg,47,Ost,12
+133,1982134,1982,85,bus,Lichterfelde-Süd Holtheimer Weg<> Wittenbergplatz,48,West,10
+134,1982135,1982,86,bus,"Fehrbelliner Platz<> Lichterfelde, Celsiusstrasse",41,West,12
+135,1982136,1982,87,bus,U-Bhf. Richard-Wagner-Platz<> Pulsstrasse,10,West,20
+136,1982137,1982,88,bus,"U-Bhf. Rathaus Steglitz<> Lichterfelde, Augustaplatz",12,West,10
+137,1982138,1982,89,bus,Bornholmer Strasse<> U-Bhf. Mierendorffplatz,28,West,10
+138,1982139,1982,9,bus,John-Schehr-Strasse<> Otto-Grotewohl-Strasse,19,Ost,2
+139,1982140,1982,9,bus,Flughafen Berlin-Tegel<> Budapester Strasse,39,West,15
+140,1982141,1982,90,bus,"Zoo, Hardenbergplatz<> Bernauer Strasse Ecke Wolliner Strasse",39,West,20
+141,1982142,1982,91,bus,Buckow-Süd<> Hermannplatz,29,West,10
+142,1982143,1982,92,bus,S-Bhf. Marzahn<> S-Bhf. Biesdorf,17,Ost,10
+143,1982144,1982,92,bus,"Staaken Brunsbütteler Damm<> Zoo, Hardenbergplatz",47,West,10
+144,1982145,1982,92E,bus,S-Bhf. Biesdorf<> Wilhem-Griesinger-Krankenhaus,4,Ost,20
+145,1982146,1982,93,bus,Lindenhof<> U-Bhf. Lichtenberg,4,Ost,20
+146,1982147,1982,93,bus,U-Bhf. Alt-Mariendorf<> Britz-Süd Gutschmidtstrasse,13,West,20
+147,1982148,1982,94,bus,U-Bhf. Tierpark<> U-Bhf. Tierpark,13,Ost,20
+148,1982149,1982,95,bus,Greifswalder Strasse<> S-Bhf. Marzahn,34,Ost,20
+149,1982150,1982,95,bus,Sonnenallee Ecke Peter-Anders-Strasse<> U-Bhf. Hallesches Tor,26,West,12
+150,1982151,1982,96,bus,S-Bhf. Nöldnerplatz<> S-Bhf. Nöldnerplatz,29,Ost,15
+151,1982152,1982,96,bus,Platz der Luftbrücke<> Lichterfelde Lindenstrasse,34,West,12
+152,1982153,1982,97,bus,Heerstrasse/Stadtgrenze<> Hakenfelde Aalemannufer,38,West,20
+153,1982154,1982,99,bus,"Wedding, Gartenplatz<> Spandau Freudstrasse",75,West,12
+154,1982155,1982,E,bus,Wannsee Kronprinzessinenweg<> Drewitz,0,West,60
+155,1982156,1982,S-Bhf. Friedrichshagen <> Rüdersdorf,strassenbahn,S-Bhf. Friedrichshagen<> Alt-Rüdersdorf,42,Ost,20
+156,1982157,1982,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse,strassenbahn,S-Bhf. Rahnsdorf<> Woltersdorfer Schleuse,0,Ost,20
+157,1982158,1982,1,u-bahn,Schlesisches Tor<> Ruhleben,0,West,10
+158,1982159,1982,2,u-bahn,Wittenbergplatz<> Krumme Lanke,22,West,6
+159,1982160,1982,3,u-bahn,Wittenbergplatz<> Uhlandstrasse,2,West,10
+160,1982161,1982,4,u-bahn,Nollendorfplatz<> Innsbrucker Platz,6,West,5
+161,1982162,1982,6,u-bahn,Tegel<> Alt-Mariendorf,37,West,3
+162,1982163,1982,7,u-bahn,Rohrdamm<> Rudow,46,West,3
+163,1982164,1982,8,u-bahn,Osloer Strasse<> Leinestrasse,23,West,6
+164,1982165,1982,9,u-bahn,Osloer Strasse<> Rathaus Steglitz,22,West,3
+165,1982166,1982,152,s-bahn,Frohnau<> Lichtenrade,0,West,0
+166,1982167,1982,153,s-bahn,Heiligensee<> Lichterfelde Süd,0,West,0
+167,1982168,1982,156,s-bahn,Friedrichstrasse<> Wannsee,0,West,0
+168,1982169,1982,100,s-bahn,Friedrichstrasse<> Strausberg Nord,65,Ost,20
+169,1982170,1982,101,s-bahn,Warschauer Strasse<> Otto-Winzer-Str,21,Ost,20
+170,1982171,1982,105,s-bahn,Friedrichstrasse<> Erkner,45,Ost,20
+171,1982172,1982,110,s-bahn,Friedrichstrasse<> Königs Wusterhausen,51,Ost,20
+172,1982173,1982,115,s-bahn,Friedrichstrasse<> Schönefeld,39,Ost,20
+173,1982174,1982,140,s-bahn,Oranienburg<> Schönefeld,83,Ost,20
+174,1982175,1982,141,s-bahn,Bernau<> Zeuthen,73,Ost,20
+175,1982176,1982,142,s-bahn,Blankenburg<> Spindlersfeld,41,Ost,20
+176,1982177,1982,143,s-bahn,Buch<> Alexanderplatz,40,Ost,20
+177,1982178,1982,143,s-bahn,Buch<> Schöneweide,47,Ost,20
+178,1982179,1982,A,u-bahn,Panko (Vinetastrasse)<> Thälmannplatz,19,Ost,2
+179,1982180,1982,E,u-bahn,Tierpark<> Alexanderplatz,18,Ost,4

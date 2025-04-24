@@ -1,0 +1,958 @@
+,stop_name,type,in_lines,location,identifier,previous_in_lines,stop_description
+0,Adamstrasse Ecke Wilhelmstrasse,bus,['A13'],"52.5210974258045, 13.187990320264987",nan,['A13'],nan
+1,Adlershof,s-bahn,"['KBS 100a', 'KBS 103']","52.434722222222,13.541388888889",Q323551,"['KBS 100a', 'KBS 103']+ KBS 103,KBS 100a+ KBS 103,KBS 100a,KBS 106+ KBS 106a,KBS 103,KBS 103a",nan+ Berlin-Adlershof station+ Berlin-Adlershof station+ Berlin-Adlershof station
+2,"Adlershof, Oppenbrücke (Benzolwerk)",strassenbahn,['84'],,,,
+3,"Ahrensfelde, Lindenbergerstrasse (Kirche)",bus,['A39'],,,,
+4,Alboinstrasse Ecke Schönebergerstrasse,strassenbahn,['6'],"52.4698434808757, 13.372061552266187",nan,['6'],nan
+5,Albrechtshof,s-bahn,['KBS 103'],"52.5494,13.1283",Q800470,['KBS 103']+ KBS 103+ KBS 103+ KBS 103,nan+ Berlin Albrechtshof station+ Berlin Albrechtshof station+ Berlin Albrechtshof station
+6,Alexanderplatz,s-bahn,"['KBS 101', 'KBS 103', 'KBS 102']","52.521388888889,13.411944444444",Q111324700,"['KBS 102', 'KBS 101', 'KBS 103']+ KBS 102,KBS 103,KBS 101+ KBS 101,KBS 103,KBS 102+ KBS 101,KBS 102,KBS 103,KBS 103a,KBS 104",nan+ S-Bahnhof Berlin Alexanderplatz+ S-Bahnhof Berlin Alexanderplatz+ S-Bahnhof Berlin Alexanderplatz
+7,Alexanderplatz,strassenbahn,['1'],,,,
+8,Alexanderplatz,u-bahn,"['A I', 'D', 'E']","52.5214,13.4119",Q17173458,"['D', 'E', 'A I']+ E,D,A I,A II+ A,E+ A,E",nan+ Alexanderplatz u-bahn station+ Alexanderplatz u-bahn station+ Alexanderplatz u-bahn station
+9,"Alexanderplatz, Grunerstrasse",strassenbahn,"['73', '71', '72']","52.52008326268696, 13.41408418961877",nan,"['74', '22', '71', '72']+ 82,74,74E,72,71+ 71+ 71","nan+ Alexanderplatz, Grunerstrasse+ Alexanderplatz, Grunerstrasse+ Alexanderplatz, Grunerstrasse"
+10,"Alexanderplatz, Grunestrasse",strassenbahn,['64'],"52.52008326268696, 13.41408418961877",nan,['64']+ 64,"nan+ Alexanderplatz, Grunerstrasse"
+11,"Alexanderplatz, Neue Königsstrasse",strassenbahn,"['69', '65']",,,,
+12,"Alt-Blankenburg, Kirche",bus,['A42'],,,,
+13,"Alt-Buch, Kirche",bus,['A42'],,,,
+14,"Alt-Glienicke, Am Falkenberg",strassenbahn,['84'],,,,
+15,"Alt-Karow, Kirche",bus,['A42'],,,,
+16,"Alt-Kladow, Kladow",bus,['A34'],,,,
+17,Alt-Kladow/Postamt,bus,['A6'],,,,
+18,Alt-Mariendorf Ecke Mariendorfer Damm,strassenbahn,['99'],,,,
+19,"Alt-Marzahn, Kirche",bus,['A37'],"52.542423454435976, 13.564061751343658",nan,"['A37', 'O37']+ O37+ O37+ O37","nan+ Alt-Marzahn, Kirche+ Alt-Marzahn, Kirche+ Alt-Marzahn, Kirche"
+20,Alt-Schmöckwitz,strassenbahn,['86'],"52.3752767,13.649549",Q66459540,['86']+ 86+ 86+ 86,nan+ Alt-Schmöckwitz+ Alt-Schmöckwitz+ Alt-Schmöckwitz
+21,Alt-Stralau,strassenbahn,['82'],,,,
+22,Alt-Tegel,strassenbahn,"['29', '28']",,,,
+23,Alt-Tempelhof Ecke Meanteuffelstrasse,strassenbahn,['95'],,,,
+24,Alt-Tempelhof Ecke Tempelhofer Damm,strassenbahn,"['99', '98', '96']","52.465914246760505, 13.385603415873367",nan,['96'],nan
+25,Altes Chausseehaus,bus,['A39'],,,,
+26,Am Knie,bus,['A2'],"52.512731625753695, 13.321879176786634",nan,['A2'],nan
+27,Am Pilz,bus,['A12'],"52.64251497264632, 13.300908054411988",nan,A15,nan
+28,Am Vierrutenberg,bus,['A35'],"52.613535544271876, 13.343827205969221",nan,['A20'],nan
+29,Amtsgericht,strassenbahn,['75'],"52.50682617853116, 13.297391449613752",nan,"['75']+ 76,75+ 75,76+ 75,76",nan+ Amtsgericht+ Amtsgericht+ Amtsgericht
+30,Amtsgerichtsplatz,strassenbahn,['60'],,,,
+31,Andreasplatz,strassenbahn,['1'],,,,
+32,Anhalter Bahnhof,s-bahn,"['KBS 105', 'KBS 104', 'KBS 105b', 'KBS 106']","52.503055555556,13.381944444444",Q111324573,"['KBS 106', 'KBS 105', 'KBS 104']+ KBS 106,KBS 105,KBS 104+ KBS 104,KBS 105,KBS 106+ KBS 100d,KBS 100c,KBS 100e",nan+ S-Bahnhof Berlin Anhalter Bahnhof+ S-Bahnhof Berlin Anhalter Bahnhof+ S-Bahnhof Berlin Anhalter Bahnhof
+33,Anhalter Bahnhof,strassenbahn,['88'],"52.50453275122, 13.382326534592197",nan,['88']+ 88,nan+ Anhalter Bahnhof
+34,Anhalter Bhf.,strassenbahn,"['76', '21']",,,,
+35,Antonplatz,strassenbahn,"['73', '74', '70', '72']","52.5484803,13.4517416",Q65548849,"['70', '74', '3', '72']+ 74,70,74E,72,3+ 3,70,72,74E,74+ 72,74E,3,74,70",nan+ Antonplatz+ Antonplatz+ Antonplatz
+36,"Arnswalder Platz, Elbingerstrasse",bus,['A19'],,,,
+37,Attilaplatz,strassenbahn,"['95', '96']","52.455498340147045, 13.375619638525905",nan,"['95', '96']+ 95,96+ 96+ 96",nan+ Attilaplatz+ Attilaplatz+ Attilaplatz
+38,Augustenburger Platz,bus,['A16'],"52.542186362228115, 13.34942313975666",nan,['A16']+ A64,nan+ nan
+39,Augustenburger Platz (Virchow-Krankenhaus),strassenbahn,['23'],,,,
+40,Ausstellungshallen,strassenbahn,['75'],,,,
+41,Babelsberg,s-bahn,['KBS 102'],"52.3914,13.0928",Q801326,['KBS 102']+ KBS 102+ KBS 102,nan+ Potsdam-Babelsberg station+ Potsdam-Babelsberg station
+42,Badewiese Ecke Kladower Damm,bus,['A34'],"52.47885441421296, 13.179170959997965",nan,"['A35', 'A34']",nan
+43,Badstrasse Ecke Pankstrasse,strassenbahn,"['36', '23']",,,,
+44,Bahnhof Friedrichstrasse,u-bahn,['C I'],,,,
+45,Bahnhof Lichtenberg,u-bahn,['E'],,,,
+46,Bahnhof Wedding,u-bahn,['C I'],"52.5425,13.366111",Q4018733,"['C I']+ C I,C II+ C I+ C I",nan+ U-Bahnhof Wedding+ U-Bahnhof Wedding+ U-Bahnhof Wedding
+47,Bahnhofstrasse Ecke Lindenstrasse,bus,['A27'],"52.45096281111, 13.572146868709519",nan,['A27']+ A27+ A27+ A27,nan+ Bahnhofstrasse Ecke Lindenstrasse+ Bahnhofstrasse Ecke Lindenstrasse+ Bahnhofstrasse Ecke Lindenstrasse
+48,Baselerstrasse,strassenbahn,['77'],"52.43778761993494, 13.295382291568542",nan,"['77', '78']",nan
+49,Baumschulenstrasse,strassenbahn,['91'],"52.469081846595664, 13.491329912138305",nan,"['92', '91']+ 92+ 95,92+ 92,95",nan+ Baumschulenstrasse Ecke Köpenicker Landstrasse+ Baumschulenstrasse Ecke Köpenicker Landstrasse+ Baumschulenstrasse Ecke Köpenicker Landstrasse
+50,Baumschulenstrasse Ecke Köpenicker Landstrasse,strassenbahn,"['92', '87']",,,,
+51,Baumschulenweg,s-bahn,"['KBS 100a', 'KBS 103']","52.4675,13.489722",Q324336,"['KBS 103a', 'KBS 100a', 'KBS 103']+ KBS 103,KBS 103a,KBS 100a+ KBS 103,KBS 103a,KBS 100a,KBS 106+ KBS 106a,KBS 106,KBS 103,KBS 103a",nan+ Berlin-Baumschulenweg station+ Berlin-Baumschulenweg station+ Berlin-Baumschulenweg station
+52,Bayerischer Platz,strassenbahn,"['60', '3']",,,,
+53,Bayerischer Platz,u-bahn,['B I'],"52.488333333333,13.340277777778",Q668574,['B II']+ B III+ B III+ B I,nan+ Bayerischer Platz station+ Bayerischer Platz station+ Bayerischer Platz station
+54,Bellevue,s-bahn,"['KBS 101', 'KBS 103', 'KBS 102']","52.52,13.348055555556",Q374018,"['KBS 102', 'KBS 101', 'KBS 103']+ KBS 102,KBS 103,KBS 101+ KBS 101,KBS 102+ KBS 100h,KBS 100g",nan+ Berlin Bellevue station+ Berlin Bellevue station+ Berlin Bellevue station
+55,Berliner Allee Ecke Wörthstrasse,bus,['A45'],,,,
+56,Berlinerstrasse,bus,['A2'],,,,
+57,Berlinerstrasse Ecke Bahnhofstrasse,bus,['A15'],,,,
+58,Berlinerstrasse Ecke Bernauerstrasse,bus,['A13'],"52.576291888956334, 13.29470160184664",nan,['A13'],nan
+59,Berlinerstrasse Ecke Blissestrasse,strassenbahn,['44'],"52.48648462511159, 13.320423728961352",nan,['44'],nan
+60,Berlinerstrasse Ecke Bundes Allee,strassenbahn,['78'],,,,
+61,Berlinerstrasse Ecke Cauerstrasse,bus,['A1 (Obus)'],,,,
+62,Berlinerstrasse Ecke Clayallee,bus,['A1 (Obus)'],,,,
+63,Berlinerstrasse Ecke Kissingenstrasse,bus,['A45'],,,,
+64,Berlinerstrasse Ecke Langhans Allee,strassenbahn,['3'],,,,
+65,Berlinerstrasse Ecke Scharnweberstrasse,strassenbahn,"['29', '68', '25', '28']",,,,
+66,Berlinerstrasse Ecke Schloßstrasse,bus,['A14'],,,,
+67,Berlinerstrasse Ecke Seehofstrasse,bus,"['A3E', 'A10']",,,,
+68,Berlinerstrasse Ecke Uhlandstrasse,strassenbahn,['51'],"52.48648936437959, 13.322515759458744",nan,['51'],nan
+69,Berlinerstrasse Ecke Wilmersdorferstrasse,strassenbahn,"['55', '3']",,,,
+70,Berlinerstrasse Ecke Wismarerstrasse,strassenbahn,['96'],,,,
+71,Bernau (b Bln),s-bahn,['KBS 106'],"52.6763,13.5931",Q479789,['KBS 106']+ KBS 106+ KBS 106+ KBS 106,nan+ Bernau bei Berlin station+ Bernau bei Berlin station+ Bernau bei Berlin station
+72,Bernauer Str.,u-bahn,['D'],"52.5375,13.396666666667",Q689293,['D']+ D,nan+ Bernauer Straße station
+73,Bernauerstrasse (Gaswerke),strassenbahn,"['29', '41', '25', '28']",,,,
+74,Bernauerstrasse Ecke Seidelstrasse,bus,['A15'],,,,
+75,Bersarinplatz,strassenbahn,['14'],"52.519215,13.4525257",Q65706258,"['13', '4']+ 4,13+ 13,4+ 4,13",nan+ Bersarinplatz+ Bersarinplatz+ Bersarinplatz
+76,Bersarinstrasse,strassenbahn,['13'],,,,
+77,Bersarinstrasse,u-bahn,['E'],,,,
+78,Bersarinstrasse Ecke Warschauerstrasse,strassenbahn,['14'],,,,
+79,Betriebsbahnhof Rummelsburg,s-bahn,['KBS 102'],"52.4939,13.4978",Q829009,['KBS 102']+ KBS 102+ KBS 102+ KBS 102,nan+ Betriebsbahnhof Rummelsburg station+ Betriebsbahnhof Rummelsburg station+ Betriebsbahnhof Rummelsburg station
+80,Betriebsbahnhof Schöneweide,s-bahn,"['KBS 100a', 'KBS 103']","52.44676,13.52391",Q4526101,"['KBS 100a', 'KBS 103']+ KBS 103,KBS 100a+ KBS 103,KBS 100a,KBS 106+ KBS 106a,KBS 103,KBS 103a",nan+ Berlin-Johannisthal railway station+ Berlin-Johannisthal railway station+ Berlin-Johannisthal railway station
+81,Beusselstr.,s-bahn,['KBS 100'],"52.534444444444,13.329166666667",Q323219,"['KBS 100', 'KBS 103a']+ KBS 100c,KBS 103a,KBS 100+ KBS 100+ KBS 100a,KBS 100",nan+ Berlin Beusselstraße station+ Berlin Beusselstraße station+ Berlin Beusselstraße station
+82,Bhf. Adlershof,strassenbahn,['84'],,,,
+83,Bhf. Ahrensfelde,bus,['A39'],"52.571313719653176, 13.566341546222308",nan,['A46'],nan
+84,Bhf. Alexanderplatz,bus,['A19'],"52.521287385126946, 13.413242035902146",nan,['A9'],nan
+85,Bhf. Botanischer Garten,strassenbahn,['77'],"52.44730098506532, 13.3083006582632",nan,"['77', '78']+ 77,78+ 77,78",nan+ Bhf. Botanischer Garten+ Bhf. Botanischer Garten
+86,Bhf. Dimitroffstrasse,strassenbahn,['46'],,,,
+87,Bhf. Friedrichsfelde-Ost,bus,['A43'],,,,
+88,Bhf. Friedrichshagen,strassenbahn,"['84', '87']",,,,
+89,Bhf. Friedrichstrasse,bus,['A19'],"52.5205606637086, 13.388231915342985",nan,"A9,A57+ A57,A9+ A57,A9,A59",Bhf. Friedrichstrasse+ Bhf. Friedrichstrasse+ Bhf. Friedrichstrasse
+90,Bhf. Frohnau,bus,['A12'],"52.63311782571585, 13.28947655939645",nan,"['A12', 'A15', 'A12S']+ A12,A15,A12S+ A15,A12",nan+ Bhf. Frohnau+ Bhf. Frohnau
+91,Bhf. Gesundbrunnen,strassenbahn,"['36', '24', '29', '28']","52.54913505997412, 13.38715173368261",nan,"['36', '28', '29', '24']+ 25",nan+ Bhf. Gesundbrunnen
+92,Bhf. Grenzallee,strassenbahn,['26'],,,,
+93,Bhf. Grünau,bus,['A38'],,,,
+94,Bhf. Grünau,strassenbahn,['86'],"52.413493,13.5746802",Q62470512,['86']+ 86,nan+ S-Bahnhof Grünau (tram stop)
+95,Bhf. Halensee,bus,['A10'],"52.496865585452014, 13.289557340809273",nan,"['A19', 'A4', 'A29', 'A10']+ A66,A4,A69,A19,A29,A10+ A10,A29,A4,A19,A69",nan+ Bhf. Halensee+ Bhf. Halensee
+96,Bhf. Halensee,strassenbahn,"['76', '76E']",,,,
+97,Bhf. Heerstrasse,strassenbahn,['75'],"52.50857975740797, 13.258353900023156",nan,"['75']+ 76,75+ 75,76",nan+ Bhf. Heerstrasse+ Bhf. Heerstrasse
+98,Bhf. Hermannstrasse,strassenbahn,['27'],"52.4676866643192, 13.431210901516543",nan,['27']+ 27+ 27,nan+ Bhf. Hermannstrasse+ Bhf. Hermannstrasse
+99,Bhf. Hohenzollerndamm,strassenbahn,['57'],,,,
+100,Bhf. Jannowitzbrücke,strassenbahn,"['64', '82']","52.51476676652865, 13.417918697531025",nan,"['11', '64']",nan
+101,Bhf. Jungfernheide,strassenbahn,"['35', '55']","52.53103413649224, 13.300559481238167",nan,"['35', '55']+ 35,55+ 55",nan+ Bhf. Jungfernheide+ Bhf. Jungfernheide
+102,Bhf. Kaulsdorf,bus,['A27'],,,,
+103,Bhf. Köpenick,bus,['A27'],,,,
+104,Bhf. Köpenick,strassenbahn,['86'],"52.4582153,13.5790435",Q66370784,83,nan
+105,Bhf. Leinestrasse,strassenbahn,['27'],,,,
+106,Bhf. Lichtenberg,bus,['A37'],"52.5112875601879, 13.499591119128855",nan,"['A37', 'O37', 'O30']+ O37,O30+ O30,O37+ O37,O30",nan+ Bhf. Lichtenberg+ Bhf. Lichtenberg+ Bhf. Lichtenberg
+107,Bhf. Lichtenrade,strassenbahn,['99'],"52.38669305818232, 13.39694576786419",nan,['99']+ 99,nan+ Bhf. Lichtenrade
+108,Bhf. Lichterfelde-Ost,bus,"['A11', 'A17']","52.42911680950547, 13.329847267881705",nan,['A11']+ A11+ A11,nan+ Bhf. Lichterfelde-Ost+ Bhf. Lichterfelde-Ost
+109,Bhf. Lichterfelde-Ost,strassenbahn,['73'],"52.4289149405705, 13.329002919186095",nan,"['73']+ 73,96+ 73,96",nan+ Bhf. Lichterfelde-Ost+ Bhf. Lichterfelde-Ost
+110,Bhf. Lichterfelde-West,bus,['A11'],"52.44397675869793, 13.295628699942629",nan,['A11']+ A11+ A11+ A11,nan+ Bhf. Lichterfelde-West+ Bhf. Lichterfelde-West+ Bhf. Lichterfelde-West
+111,Bhf. Lichterfelde-West,strassenbahn,['77'],"52.442695165817675, 13.297046489476738",nan,"['77', '78']+ 77,78+ 77,78",nan+ Bhf. Lichterfelde-West+ Bhf. Lichterfelde-West
+112,"Bhf. Mahlsdorf, Wodanstrasse",bus,['A44'],,,,
+113,Bhf. Mariendorf,bus,['A33 (Obus)'],"52.446757741789085, 13.360550212856184",nan,['A33 (Obus)']+ A33+ A33,nan+ Bhf. Mariendorf (Attilastrasse)+ Bhf. Mariendorf (Attilastrasse)
+114,Bhf. Marienfelde,bus,['A32 (Obus)'],"52.42342246533686, 13.374664175181172",nan,"['A32 (Obus)']+ A32+ A32,A77+ A77,A32",nan+ Bhf. Marienfelde+ Bhf. Marienfelde+ Bhf. Marienfelde
+115,Bhf. Neukölln,strassenbahn,['15'],"52.469429556071695, 13.441761396090287",nan,6,Bhf. Neukölln
+116,Bhf. Nikolassee,bus,['A3'],"52.43378197004219, 13.193152057415048",nan,['A3']+ A3+ A3,nan+ Bhf. Nikolassee+ Bhf. Nikolassee
+117,"Bhf. Oberspree, Sedanstrasse",strassenbahn,['92'],,,,
+118,Bhf. Pankow-Heinersdorf,strassenbahn,['24'],,,,
+119,Bhf. Schmargendorf,strassenbahn,['51'],,,,
+120,Bhf. Schöneweide,strassenbahn,['92'],"52.45640818289644, 13.509916574756422",nan,"['69']+ 87,92,69E,69+ 95,69,92+ 85,69E,92,87,69,95",nan+ Bhf. Schöneweide+ Bhf. Schöneweide+ Bhf. Schöneweide
+121,Bhf. Schönhauser Allee,strassenbahn,['46'],,,,
+122,Bhf. Sonnenallee,strassenbahn,['15'],"52.47414312526527, 13.455499525035636",nan,"['15', '94', '95']+ 95,15+ 15,95",nan+ Bhf. Sonnenallee+ Bhf. Sonnenallee
+123,Bhf. Spandau,bus,['A31'],"52.53480116953711, 13.199406530019054",nan,['A31'],nan
+124,Bhf. Spandau,strassenbahn,['54'],"52.53469533777715, 13.199489615484376",nan,"['54']+ 53,54",nan+ nan
+125,Bhf. Spandau-West,strassenbahn,['55'],,,,
+126,Bhf. Staaken,bus,['A31'],,,,
+127,Bhf. Steglitz,bus,['A33 (Obus)'],"52.4567389564548, 13.32114701824465",nan,"['A33 (Obus)']+ A33,A68+ A33",nan+ Bhf. Steglitz+ Bhf. Steglitz
+128,Bhf. Steglitz,strassenbahn,['44'],"52.45628485348418, 13.322383851748043",nan,"['44', '40']+ 44",nan+ Bhf. Steglitz
+129,Bhf. Südende,bus,['A33 (Obus)'],"52.44906892859584, 13.354097834514832",nan,['A33 (Obus)']+ A33+ A33,nan+ Bhf. Südende+ Bhf. Südende
+130,Bhf. Tegel,bus,"['A14', 'A15', 'A13']","52.58863500559534, 13.28998515086127",nan,"['A13', 'A20']",nan
+131,Bhf. Tempelhof,strassenbahn,"['99', '96']","52.470773327648985, 13.385638027802058",nan,['99'],nan
+132,Bhf. Vinetastrasse,strassenbahn,['46'],,,,
+133,Bhf. Waidmannslust,bus,['A35'],"52.60711750606285, 13.32022370793147",nan,['A20']+ A20+ A20,nan+ Bhf. Waidmannslust+ Bhf. Waidmannslust
+134,Bhf. Wannsee,bus,['A3'],"52.42151302311533, 13.17810256503659",nan,"['A6', 'A51', 'A3']+ A6,A51,A3+ A3,A51,A6+ AS4,A3,A51,A6",nan+ Bhf. Wannsee+ Bhf. Wannsee+ Bhf. Wannsee
+135,Bhf. Wittenau,bus,['A15'],"52.59721246906266, 13.332631469768408",nan,['A15']+ A15+ A15,nan+ Bhf. Wittenau+ Bhf. Wittenau
+136,Bhf. Wollankstrasse,strassenbahn,['24'],"52.56476177190086, 13.393786862899335",nan,"['23', '24']",nan
+137,Bhf. Wollankstrasse (Grenze),strassenbahn,['23'],,,,
+138,Bhf. Zehlendorf,bus,"['A1 (Obus)', 'A10']","52.43121177777893, 13.259164408129196",nan,"['A1', 'A3E', 'A10']+ A1,A53+ A1,A53",nan+ Bhf. Zehlendorf+ Bhf. Zehlendorf
+139,Bhf. Zehlendorf-West,bus,['A3'],"52.43749073325525, 13.232184039572378",nan,['A3'],nan
+140,Bhf. Zoo,bus,['A2'],"52.506232782829265, 13.332362081097921",nan,"['A2', 'A25']+ A25,AS3,A2,AS2,A62,AS1+ A73,AS2,AS3,A25,A62,AS1,A2+ A2,A62,AS2s,A25,AS3s,AS4,A73,AS1s",nan+ Bhf. Zoo+ Bhf. Zoo+ Bhf. Zoo
+141,Bhf. Zoo,strassenbahn,"['78', '2', '51', '55', '25', '75', '76E', '77', '76', '6']","52.50719345524868, 13.332629878993917",nan,"['6', '51', '25', '2', '55', '77', '78', '54']+ 77,78,54,25,55,6,2,53+ 2,55,77,78+ 55",nan+ Bhf. Zoo+ Bhf. Zoo+ Bhf. Zoo
+142,Biesdorf,s-bahn,['KBS 101'],"52.5131,13.5554",Q4892357,['KBS 101']+ KBS 101+ KBS 101+ KBS 101,nan+ Berlin-Biesdorf station+ Berlin-Biesdorf station+ Berlin-Biesdorf station
+143,Birkbuschstrasse Ecke Siemensstrasse,strassenbahn,['44'],"52.442440684586664, 13.332088961364885",nan,['44'],nan
+144,Birkenwerder,s-bahn,['KBS 104'],"52.6885,13.2888",Q2343634,['KBS 104']+ KBS 104+ KBS 104+ KBS 104,nan+ Birkenwerder station+ Birkenwerder station+ Birkenwerder station
+145,Bismarckplatz,bus,['A7'],"52.492064537089135, 13.28493897027407",nan,"['A29']+ A69,A66,A29+ A29+ A29",nan+ Bismarckplatz+ Bismarckplatz+ Bismarckplatz
+146,Bismarckplatz,strassenbahn,['23'],,,,
+147,Bismarckstrasse Ecke Kaiser-Wilhelm-Strasse,strassenbahn,['46'],,,,
+148,Bismarckstrasse Ecke Seckenderstrasse,bus,['A45'],,,,
+149,"Blanenfelde, Hauptstrasse",bus,['A7'],,,,
+150,Blankenburg,s-bahn,['KBS 106'],"52.5915,13.4435",Q800469,"['KBS 106', 'KBS 100b']+ KBS 106,KBS 100b+ KBS 106+ KBS 104,KBS 106",nan+ Berlin-Blankenburg station+ Berlin-Blankenburg station+ Berlin-Blankenburg station
+151,Blankenburger Weiche,strassenbahn,['24'],"52.59393771117341, 13.432128114084042",nan,49,Blankenburger Weiche
+152,Blankenfelde (Kr. Teltow),s-bahn,['KBS 105b'],,,,
+153,Boddinstr.,u-bahn,['D'],"52.48,13.425277777778",Q819495,['D']+ D+ D+ D,nan+ Boddinstraße+ Boddinstraße+ Boddinstraße
+154,"Bohnsdorf, Kirche",bus,['A36'],"52.39948771402893, 13.555574431978044",nan,['A36']+ AD/36+ AD/36+ A36,"nan+ Bohnsdorf, Kirche+ Bohnsdorf, Kirche+ Bohnsdorf, Kirche"
+155,Bootshaus,strassenbahn,['86'],,,,
+156,Borgsdorf,s-bahn,['KBS 104'],"52.7155,13.2764",Q4093486,['KBS 104']+ KBS 104+ KBS 104+ KBS 104,nan+ Borgsdorf station+ Borgsdorf station+ Borgsdorf station
+157,Bornholmer Str.,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']","52.554287,13.397985",Q32662318,"['KBS 106', 'KBS 105', 'KBS 104']+ KBS 106,KBS 105,KBS 104",nan+ Berlin Bornholmer Straße station
+158,Bornholmerstrasse/Wisbyerstrasse,strassenbahn,['46'],,,,
+159,Borsigweg Ecke Schubstrasse,bus,['A15'],,,,
+160,Botanischer Garten,s-bahn,['KBS 104'],"52.44806,13.30722",Q800498,['KBS 104']+ KBS 104+ KBS 104+ KBS 100e,nan+ Berlin Botanischer Garten station+ Berlin Botanischer Garten station+ Berlin Botanischer Garten station
+161,Boxhagener strasse Ecke Bersarinstrasse,strassenbahn,['4'],,,,
+162,Boxhagenerstrasse,strassenbahn,['3'],,,,
+163,Brandenburger Tor,strassenbahn,['21'],,,,
+164,Breitenbachplatz,bus,['A32 (Obus)'],"52.467219717443385, 13.309473490660878",nan,"['A1', 'A32 (Obus)', 'A16']+ A16,A1,A32+ A1,A32,A16+ A1,A16,A32",nan+ Breitenbachplatz+ Breitenbachplatz+ Breitenbachplatz
+165,Breitenbachplatz,u-bahn,['A II'],"52.466388888889,13.308055555556",Q571339,"['A II']+ B II,A II+ A II,B II+ A II",nan+ Breitenbachplatz metro station+ Breitenbachplatz metro station+ Breitenbachplatz metro station
+166,Breitenbachstrasse Ecke Eichborndamm,bus,['A15'],"52.57783789535704, 13.314837431368987",nan,A15,nan
+167,Breitestrasse,strassenbahn,['82'],,,,
+168,Breitestrasse Ecke Berlinerstrasse,bus,['A45'],,,,
+169,Breitestrasse Ecke Berlinerstrasse,strassenbahn,['46'],,,,
+170,Breitestrasse Ecke Wollankstrasse,bus,['A45'],,,,
+171,Brunnenstrasse Ecke Veteranenstrasse,strassenbahn,['70'],,,,
+172,Brückenstrasse/Neanderstrasse,strassenbahn,['1'],,,,
+173,Buch,s-bahn,['KBS 106'],"52.6359,13.4917",Q4892359,['KBS 106']+ KBS 106+ KBS 106+ KBS 106,nan+ Berlin-Buch station+ Berlin-Buch station+ Berlin-Buch station
+174,"Buch, Zepernickerstrasse (Ludwig-Hoffmann-Krankenhaus)",bus,['A42'],,,,
+175,"Buchholz, Hauptstrasse",strassenbahn,"['49', '24']","52.619072064369824, 13.393383358408967",nan,49+ 49+ 49,"Buchholz, Hauptstrasse+ Buchholz, Hauptstrasse+ Buchholz, Hauptstrasse"
+176,"Buckow-West, Alt-Buckow",strassenbahn,['27'],,,,
+177,Buckower Ch.,s-bahn,['KBS 105b'],"52.4103,13.3829",Q800499,['KBS 105']+ KBS 105+ KBS 105+ KBS 100c,nan+ Buckower Chaussee station+ Buckower Chaussee station+ Buckower Chaussee station
+178,Bundesallee Ecke Berliner Strasse,strassenbahn,['77'],"52.48733630342845, 13.331014163134173",nan,"['77', '3', '60', '78']+ 77,3,78,60",nan+ Bundesallee Ecke Berliner Strasse 
+179,Bundesallee Ecke Berlinerstrasse,strassenbahn,['60'],,,,
+180,Bundesallee Ecke Brandenburgischestrasse,strassenbahn,['3'],,,,
+181,Bundesplatz,bus,"['A2', 'A16']","52.478678991134835, 13.32860278411238+52.47869393029977, 13.328448766668432",nan,"['A2', 'A16']+ A25,A2,AS2,A16,A65+ AS2,A25,A65,A16,A2+ A2,AS2s,A25,A16,A81,A86,A65+ A85",nan+ Bundesplatz+ Bundesplatz+ Bundesplatz+ nan
+182,Bundesplatz,strassenbahn,"['78', '44', '77']","52.4777799057296, 13.328566193541166",nan,"['77', '44', '78']+ 77,78,44+ 77,78",nan+ Bundesplatz+ Bundesplatz
+183,Buschallee Ecke Berliner Allee,bus,['A39'],,,,
+184,Buschkrug Ecke Bloaschkoallee,strassenbahn,['47'],,,,
+185,Buschkrugallee Ecke Blaschkoallee,strassenbahn,['26'],,,,
+186,Bülowstr.,u-bahn,['A I'],"52.497552777778,13.363419444444",Q374881,"['A I']+ A I,A II+ A I",nan+ Bülowstraße metro station+ Bülowstraße metro station
+187,Chamnitzerstrasse Ecke Ulmenstrasse,bus,['A8'],,,,
+188,Charlottenburg,s-bahn,"['KBS 101', 'KBS 103', 'KBS 102']","52.504722222222,13.303333333333",Q111326217,"['KBS 102', 'KBS 101', 'KBS 103']+ KBS 102,KBS 103,KBS 101+ KBS 101,KBS 102+ KBS 100h,KBS 100g,KBS 100k",nan+ S-Bahnhof Berlin Charlottenburg+ S-Bahnhof Berlin Charlottenburg+ S-Bahnhof Berlin Charlottenburg
+189,Charlottenstrasse Ecke Taubenstrasse,strassenbahn,['72'],"52.513122303707654, 13.391373467504213",nan,"['74', '72']",nan
+190,Charlottenstrasse Ecke Unter den Linden,strassenbahn,['1'],,,,
+191,Chausseehaus,bus,['A27'],"52.430090871325774, 13.614694292071622",nan,['A27']+ A27,nan+ Chausseehaus
+192,Chausseestrasse Ecke Invalidenstrasse,bus,['A19'],"52.53058679882093, 13.38309848189674",nan,A9,Chausseestrasse Ecke Invalidenstrasse
+193,Chaussestrasse Ecke Gradestrasse,strassenbahn,['26'],,,,
+194,Chemnitzerstrasse Ecke Alt-Kaulsdorf,bus,['A27'],,,,
+195,Chemnitzerstrasse Ecke Ulmenstrasse,bus,['A27'],,,,
+196,Clayallee Ecke Potsdamerstrasse,bus,['A3E'],,,,
+197,Cäcilienstrasse,bus,['A37'],"52.529646990986734, 13.558004345591469",nan,['A37'],nan
+198,"Dahlem, Clayallee",strassenbahn,['40'],"52.45975923254636, 13.274628659008574",nan,['40'],nan
+199,Dahlem-Dorf,bus,['A10'],,,,
+200,Dahlem-Dorf,u-bahn,['A II'],"52.456944444444,13.289444444444",Q668585,"['A II']+ B II,A II+ A II,B II+ A II",nan+ Dahlem-Dorf+ Dahlem-Dorf+ Dahlem-Dorf
+201,Dahlemer Weg Ecke Seehofstrasse,bus,['A3E'],,,,
+202,Dahlewitz,s-bahn,['KBS 105b'],"52.326389,13.419722",Q5208886,['KBS 105']+ KBS 105+ KBS 105,nan+ Dahlewitz railway station+ Dahlewitz railway station
+203,Daimlerstrasse Ecke Birnhornweg,strassenbahn,['98'],"52.42214076766627, 13.384616153471871",nan,['98']+ 98,nan+ Daimlerstrasse Ecke Birnhornweg
+204,Danziger Strasse Ecke Prenzlauer Allee,strassenbahn,['71'],,,,
+205,Danzigerstrasse Ecke Greifswalderstrasse,strassenbahn,"['73', '74']",,,,
+206,Deutsches Opernhaus (Bismarckstr.),u-bahn,"['A I', 'A III']","52.511944444444,13.310555555556",Q869501,"['A III', 'A I']+ B I,A III,A I",nan+ Deutsche Oper
+207,Dimitroffstr.,u-bahn,['A I'],"52.541666666667,13.412222222222",Q571382,"['A I']+ A I,A II+ A+ A",nan+ Eberswalder Straße metro station+ Eberswalder Straße metro station+ Eberswalder Straße metro station
+208,Dimitroffstrasse Ecke Bersarinstrasse,strassenbahn,['65'],,,,
+209,Dimitroffstrasse Ecke Leninallee,bus,['A41'],"52.52644398829154, 13.447645022319072",nan,O37+ A54,nan+ nan
+210,Dimitroffstrasse Ecke Prenzlauer Allee,strassenbahn,['72'],"52.539226902813354, 13.424209201692193",nan,"['71', '72']",nan
+211,Dimitroffstrasse/Bersarinstrasse,strassenbahn,['69'],,,,
+212,Dingelstädterstrasse (Hohenschönhausen) Ecke Landsbergerstrasse,bus,['A41'],,,,
+213,Dominicusstrasse Ecke Hauptstrasse,strassenbahn,"['73', '88', '74']","52.48178458875194, 13.348361062077318",nan,"['88', '73', '25']",nan
+214,Dorotheestrasse (Bhf. Friedrichstrasse),strassenbahn,['1'],,,,
+215,Dorothenstrasse Ecke Friedrichstrasse,strassenbahn,['46'],,,,
+216,Drakestrasse (Bhf. Lichterfelde-West),strassenbahn,['78'],,,,
+217,Dudenstrasse Ecke Mehringdamm,strassenbahn,['99'],,,,
+218,Dönhoffplatz,strassenbahn,"['46', '73', '74']","52.509950568117645, 13.398144081918815",nan,64+ 64,nan+ nan
+219,"Dönhoffplatz, Krausenstrasse",strassenbahn,"['64', '92', '87']","52.510082685363386, 13.398911668058874",nan,"['82', '64']",nan
+220,Düppel,s-bahn,['KBS 104a'],,,,
+221,"Eberswalderstrasse, U-Bhf. Dimitroffstrasse",strassenbahn,['49'],"52.5401928,13.4113979",Q65088313,"['22', '49', '46']",nan
+222,Eberwalderstrasse Ecke Schönhauserallee,strassenbahn,['4'],,,,
+223,Edelweißstrasse Ecke Germanenstrasse,bus,['A45'],,,,
+224,Eichbornstr.,s-bahn,['KBS 105'],"52.5776,13.3169",Q800500,['KBS 105']+ KBS 105+ KBS 105+ KBS 100c,nan+ Eichborndamm station+ Eichborndamm station+ Eichborndamm station
+225,Eichkamp,s-bahn,"['KBS 101', 'KBS 103']","52.4987,13.2702",Q800504,"['KBS 101', 'KBS 103']+ KBS 103,KBS 101+ KBS 101+ KBS 100g",nan+ Berlin Messe Süd railway station+ Berlin Messe Süd railway station+ Berlin Messe Süd railway station
+226,Eichwalde (Kreis Teltow),s-bahn,['KBS 103'],,,,
+227,Eisenacherstrasse Ecke Hauptstrasse,strassenbahn,['88'],"52.48459360671036, 13.35306002871114+52.4845984441846, 13.353073553684412",nan,['73']+ ['88'],nan+ nan
+228,Eisenacherstrasse Ecke Potsdamerstrasse,strassenbahn,"['73', '74']",,,,
+229,Eldenaerstrasse Ecke Scheffelstrasse,strassenbahn,['65'],,,,
+230,Elsenstrasse Ecke Heidelbergerstrasse,strassenbahn,['6'],"52.48685029508912, 13.45118006834624",nan,['6'],nan
+231,Elsenstrasse Ecke Köpenicker Landstrasse,strassenbahn,"['92', '87']",,,,
+232,Elsterplatz,bus,['A10'],"52.47977982878401, 13.285507613099716",nan,"['A10', 'A50']+ A10,A50+ A10,A50+ A10,A50",nan+ Elsterplatz+ Elsterplatz+ Elsterplatz
+233,Elsterplatz,strassenbahn,['57'],,,,
+234,Emser Platz,strassenbahn,['57'],,,,
+235,Erkner,s-bahn,['KBS 102'],"52.4296,13.7513",Q14434071,['KBS 102']+ KBS 102+ KBS 102+ KBS 102,nan+ Erkner railway station+ Erkner railway station+ Erkner railway station
+236,Erkstrasse Ecke Karl-Marx-Strasse,strassenbahn,['26'],,,,
+237,"Erkstrasse, Rathaus Neukölln",strassenbahn,['47'],"52.48088289227713, 13.435445948459439",nan,['47'],nan
+238,Ernst-Reuter-Platz,u-bahn,['A I'],"52.511944444444,13.322222222222",Q658361,"['A I']+ B I,A I+ A I,B I+ A I",nan+ Ernst-Reuter-Platz metro station+ Ernst-Reuter-Platz metro station+ Ernst-Reuter-Platz metro station
+239,Ewestrasse Ecke Pasewalkerstrasse,strassenbahn,['49'],,,,
+240,Eweststrasse Ecke Paswealkerstrasse,strassenbahn,['24'],,,,
+241,"Falkenberg, Schule",bus,['A39'],"52.56880573894071, 13.549528314980424",nan,['A46']+ A46,"nan+ Falkenberg, Schule"
+242,Falkenhagener Chaussee Ecke Zeppelinstrasse,bus,['A5'],,,,
+243,Falkenhöhe,bus,['A36'],"52.400507029940435, 13.538229483128243",nan,['A36']+ A23,nan+ nan
+244,Falkenhöhe/Zonengrenze,bus,['A5'],,,,
+245,Falkenplatz,strassenbahn,['28'],"52.585285954271406, 13.227452060134016",nan,['28'],nan
+246,Falkensee,s-bahn,['KBS 103'],"52.559722,13.088889",Q5431918,['KBS 103']+ KBS 103+ KBS 103+ KBS 103,nan+ Falkensee railway station+ Falkensee railway station+ Falkensee railway station
+247,"Falkensee, Hansastrasse Ecke Friedrich-Engel-Strasse",bus,['A5'],,,,
+248,"Falkensee, Rathaus",bus,['A5'],,,,
+249,Fehrbelliner Platz,strassenbahn,"['60', '44', '3', '57']","52.49032472677901, 13.314317300484289",nan,"['3', '60', '44']+ 60,44,3+ 60,3",nan+ Fehrbelliner Platz+ Fehrbelliner Platz
+250,Fehrbelliner Platz,u-bahn,['A II'],"52.490277777778,13.314444444444",Q663245,"['A II']+ B II,A II+ A II,B II+ A II",nan+ U-Fehrbelliner Platz+ U-Fehrbelliner Platz+ U-Fehrbelliner Platz
+251,Fennbrücke,bus,['A16'],,,,
+252,Feuerbachstr.,s-bahn,['KBS 104'],"52.463611111111,13.332777777778",Q800501,['KBS 104']+ KBS 104+ KBS 104+ KBS 100e,nan+ Berlin Feuerbachstraße station+ Berlin Feuerbachstraße station+ Berlin Feuerbachstraße station
+253,Feuerbachstrasse Ecke Bismarckstrasse,bus,['A2'],"52.464513435475055, 13.338927866545799",nan,"['A2']+ A81,A2",nan+ nan
+254,Flughafen,strassenbahn,['95'],,,,
+255,Flughafen,u-bahn,['C II'],"52.485556, 13.385833",Q557582,['C II']+ C II+ C II+ C II,nan+ Platz der Luftbrücke+ Platz der Luftbrücke+ Platz der Luftbrücke
+256,Frankfurter Allee,bus,['A40'],,,,
+257,Franzstrasse Ecke Oberwallstrasse,strassenbahn,['46'],,,,
+258,Französisiche Strasse,u-bahn,['C I'],,,,
+259,Fredersdorf (b Bln),s-bahn,['KBS 101'],"52.5265,13.7625",Q15197387,['KBS 101']+ KBS 101+ KBS 101+ KBS 101,nan+ Fredersdorf station+ Fredersdorf station+ Fredersdorf station
+260,Freibad Grünau,strassenbahn,['86'],"52.4086224,13.604455",Q66489598,86+ 86,nan+ nan
+261,Freibad Müggelsee,strassenbahn,['87'],,,,
+262,Freie Scholle (Schollenhof),bus,['A35'],,,,
+263,Friedenau,s-bahn,['KBS 104'],"52.47,13.341",Q800471,['KBS 104']+ KBS 104+ KBS 104+ KBS 100e,nan+ Berlin-Friedenau station+ Berlin-Friedenau station+ Berlin-Friedenau station
+264,Friedrich-Karl-Strasse Ecke Mariendorferdamm,strassenbahn,['96'],,,,
+265,Friedrich-Wilhelm-Platz,bus,['A17'],"52.47128806242274, 13.328362126543809",nan,"A2+ A2+ A85,A2,A17",Friedrich-Wilhelm-Platz+ Friedrich-Wilhelm-Platz+ Friedrich-Wilhelm-Platz
+266,Friedrich-Wilhelm-Platz,strassenbahn,"['44', '77']","52.47132415928576, 13.328417218543715",nan,"['77', '44', '78']+ 77,78+ 77,78",nan+ Friedrich-Wilhelm-Platz+ Friedrich-Wilhelm-Platz
+267,Friedrichsfelde,u-bahn,['E'],,,,
+268,Friedrichsfelde Ost,s-bahn,['KBS 101'],"52.5141,13.5198",Q800473,['KBS 101']+ KBS 101+ KBS 101+ KBS 101,nan+ Berlin-Friedrichsfelde Ost station+ Berlin-Friedrichsfelde Ost station+ Berlin-Friedrichsfelde Ost station
+269,"Friedrichsfelde, Schloßstrasse",bus,['A37'],"52.50970330922865, 13.519045879792072",nan,['A37'],nan
+270,Friedrichshagen,s-bahn,['KBS 102'],"52.4574,13.6233",Q800474,['KBS 102']+ KBS 102+ KBS 102+ KBS 102,nan+ Berlin-Friedrichshagen station+ Berlin-Friedrichshagen station+ Berlin-Friedrichshagen station
+271,Friedrichstr.,s-bahn,"['KBS 105', 'KBS 105b', 'KBS 106', 'KBS 101', 'KBS 104', 'KBS 103', 'KBS 102']","52.52027777777778,13.386944444444444",Q111219456,"['KBS 105', 'KBS 104', 'KBS 106', 'KBS 102', 'KBS 101', 'KBS 103']+ KBS 104,KBS 106,KBS 103,KBS 102,KBS 101,KBS 105+ KBS 106,KBS 104,KBS 101,KBS 105,KBS 103,KBS 102+ KBS 100d,KBS 101,KBS 100g,KBS 100c,KBS 100h,KBS 102,KBS 103,KBS 103a,KBS 100e",nan+ S-Bahnhof Friedrichstraße+ S-Bahnhof Friedrichstraße+ S-Bahnhof Friedrichstraße
+272,"Friedrichstrasse, Johannisthal",strassenbahn,['91'],,,,
+273,Friesenstrasse Ecke Schwiebusserstrasse,strassenbahn,['21'],,,,
+274,Frohnau,s-bahn,['KBS 104'],"52.6325,13.2902",Q800472,['KBS 104']+ KBS 104+ KBS 106+ KBS 100e,nan+ Berlin-Frohnau station+ Berlin-Frohnau station+ Berlin-Frohnau station
+275,"Frohnau, Sigismundkorso",bus,['A12'],,,,
+276,Gabelung,strassenbahn,"['29', '28']","52.599887444177305, 13.25203703437107",nan,"['28', '29']",nan
+277,"Galenusstrasse, Pankow, Krankenhaus",strassenbahn,['49'],"52.5818183,13.4287678",Q66195410,['49'],nan
+278,Gartenfeld,s-bahn,['KBS 100b'],"52.54695,13.24882",Q96080469,"['KBS 100d']+ KBS 100c,KBS 100d+ KBS 100c+ KBS 100b",nan+ Gartenfeld+ Gartenfeld+ Gartenfeld
+279,"Gartenfeld, Tegeler Brücke",bus,['A13'],,,,
+280,Gartenfelderstrasse Ecke Am Juliusturm,bus,['A13'],,,,
+281,Gartenfelderstrasse Ecke Paulsternstrasse,bus,['A13'],"52.54415086230652, 13.247076804185845",nan,"['A13', 'A10']",nan
+282,"Gatow, Flugplatz",bus,['A34'],"52.47170253033803, 13.123057426760603",nan,['A34'],nan
+283,"Gatow, Kirche",bus,['A34'],"52.48684680676539, 13.18215147844503",nan,"['A35', 'A34']+ A35,A34+ A34,A35+ A34,A35","nan+ Gatow, Kirche+ Gatow, Kirche+ Gatow, Kirche"
+284,"Geißenweide, Elisabethstrasse",bus,['A37'],"52.53416191228728, 13.561380969716343",nan,['A37'],nan
+285,Gensierstrasse Ecke Landsbergerstrasse,bus,['A41'],,,,
+286,Germaniastrasse Ecke Gottlieb-Dunkel-Strasse,strassenbahn,['15'],"52.46053987437175, 13.418058888486561",nan,"['15', '26']",nan
+287,Gesundbrunnen,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106', 'KBS 100']","52.548611111111,13.389444444444",Q111239092,"['KBS 100', 'KBS 105', 'KBS 103a', 'KBS 100c', 'KBS 104', 'KBS 106']+ KBS 104,KBS 106,KBS 100,KBS 100c,KBS 103a,KBS 105+ KBS 100,KBS 104,KBS 105,KBS 106+ KBS 100d,KBS 100,KBS 100a,KBS 100c,KBS 100e",nan+ S-Bahnhof Berlin-Gesundbrunnen+ S-Bahnhof Berlin-Gesundbrunnen+ S-Bahnhof Berlin-Gesundbrunnen
+288,Gesundbrunnen,u-bahn,['D'],"52.548611,13.389444",Q3761416,['D']+ D+ D+ D,nan+ U-Bahnhof Gesundbrunnen+ U-Bahnhof Gesundbrunnen+ U-Bahnhof Gesundbrunnen
+289,Giebelsee,s-bahn,['KBS 101'],"52.5291,13.791",Q7178217,['KBS 101']+ KBS 101+ KBS 101+ KBS 101,nan+ Petershagen Nord railway station+ Petershagen Nord railway station+ Petershagen Nord railway station
+290,Gleisdreieck,u-bahn,"['A I', 'B I', 'B II']","52.49952,13.37409",Q678372,"['B I', 'A I', 'A II']+ B II,A I,B I,A II+ A II,A I,B II,B I+ A I,A II",nan+ Gleisdreieck+ Gleisdreieck+ Gleisdreieck
+291,Gleiwitzerstrasse Ecke Köpenickerstrasse,bus,['A8'],,,,
+292,Gneisenaustrasse,u-bahn,['C I'],,,,
+293,Gneisenaustrasse Ecke Zossenerstrasse,strassenbahn,['21'],,,,
+294,Goerzallee Ecke Wismarer Strasse,strassenbahn,['77'],"52.42193877862271, 13.298495448017045",nan,['77'],nan
+295,Goerzallee Ecke Wismarerstrasse,bus,['A1 (Obus)'],"52.42193975704034, 13.29849525230179",nan,['A1'],nan
+296,Goerzallee Ecke Wismarstrasse,strassenbahn,['78'],,,,
+297,Gottlieb-Dunkel-Strasse Ecke Germaniastrasse,strassenbahn,['6'],"52.46057706686739, 13.417997050677094",nan,['6'],nan
+298,Gotzkowskystrasse Ecke Alt-Moabit,strassenbahn,['44'],"52.5237772942417, 13.329787285101991",nan,['44'],nan
+299,Gotzkowskystrasse Ecke Waldstrasse,strassenbahn,['21'],,,,
+300,Gotzkowskystrasse/Waldstrasse,strassenbahn,['35'],,,,
+301,Grabbeallee Ecke Friedrich-Engels-Strasse,strassenbahn,['46'],,,,
+302,Grabbeallee Ecke Seckenderstrasse,bus,['A45'],,,,
+303,Grabbeallee Ecke Wollankstrasse,strassenbahn,['46'],,,,
+304,Gradestrasse Ecke Chausseestrasse,strassenbahn,['27'],,,,
+305,Gregoroviusweg (Gymnasium),bus,['A8'],,,,
+306,Greifswalder Str.,s-bahn,['KBS 100'],"52.539722222222,13.439444444444",Q439246,"['KBS 100', 'KBS 103a', 'KBS 100c', 'KBS 100b']+ KBS 100,KBS 100c,KBS 103a,KBS 100b+ KBS 103a,KBS 106+ KBS 106a,KBS 104,KBS 106",nan+ Berlin Greifswalder Straße station+ Berlin Greifswalder Straße station+ Berlin Greifswalder Straße station
+307,Greifswalderstrasse,bus,['A44'],,,,
+308,Greifswalderstrasse Ecke Dimitroffstrasse,strassenbahn,['4'],,,,
+309,Grenzallee,u-bahn,['C I'],"52.463333333333,13.443888888889",Q571836,['C I']+ C I+ C I+ C I,nan+ Grenzallee+ Grenzallee+ Grenzallee
+310,Grenzweiche,strassenbahn,['23'],,,,
+311,Griebnitzsee,s-bahn,['KBS 102'],"52.3944,13.1272",Q315133,['KBS 102']+ KBS 102+ KBS 102,nan+ Potsdam Griebnitzsee railway station+ Potsdam Griebnitzsee railway station
+312,Grimmstrasse Ecke Lichtenrader Damm,strassenbahn,['99'],,,,
+313,Grossbeerenstrasse Ecke Daimlerstrasse,strassenbahn,['98'],"52.42636680081003, 13.37431638254586",nan,['98']+ 98,nan+ Grossbeerenstrasse Ecke Daimlerstrasse
+314,Groß-Glienick/Gutshof,bus,['A6'],,,,
+315,Große Präsidentenstrasse,strassenbahn,['49'],"52.52326345734971, 13.401134586268517",nan,"['49', '63']",nan
+316,Großer Stern,bus,['A16'],"52.514524715463295, 13.349933192922938",nan,"['A24', 'A16']+ A69+ A69,A16",nan+ nan+ nan
+317,Großgörschenstr.,s-bahn,['KBS 104'],"52.4922745,13.3678588",Q21776726,['KBS 104']+ KBS 104+ KBS 104+ KBS 100e,nan+ Yorckstraße (Großgörschenstraße) station+ Yorckstraße (Großgörschenstraße) station+ Yorckstraße (Großgörschenstraße) station
+318,Grunewald,s-bahn,['KBS 102'],"52.4892,13.2614",Q457266,['KBS 102']+ KBS 102+ KBS 102+ KBS 100h,nan+ Berlin-Grunewald station+ Berlin-Grunewald station+ Berlin-Grunewald station
+319,Grunewaldstrasse Ecke Joachimsthalerstrasse,strassenbahn,['77'],,,,
+320,Grunewaldstrasse Ecke Martin-Luther-Strasse,bus,['A16'],"52.489052179432406, 13.345015381967391",nan,['A16']+ A85,nan+ nan
+321,Grunewaldstrasse Ecke Martin-Luther-Strasse,strassenbahn,"['25', '6']","52.489114608736564, 13.344981706170403",",","['6', '25']+ 2, 3","nan+ ,"
+322,Grünau,s-bahn,"['KBS 100a', 'KBS 103']","52.4122,13.5746",Q111307258,"['KBS 100a', 'KBS 103']+ KBS 103,KBS 100a+ KBS 103,KBS 100a,KBS 106+ KBS 103",nan+ S-Bahnhof Grünau+ S-Bahnhof Grünau+ S-Bahnhof Grünau
+323,"Grünauerstrasse, Bhf. Schöneweide",strassenbahn,['91'],"52.45604414856236, 13.510449640756448",nan,"['92', '91']",nan
+324,Gustav-Adolf-Strasse Ecke Pistoriusstrasse,bus,['A45'],,,,
+325,Gustav-Adolf-Strasse Ecke Prenzlauer Promenade,strassenbahn,['72'],"52.551688022464916, 13.430349300575484",nan,['72'],nan
+326,Gustav-Adolf-Strasse Ecke Rennbahnstrasse,bus,['A42'],"52.562178269666816, 13.454275093038184",nan,['A42']+ A55+ A55,nan+ nan+ nan
+327,Görlitzer Bahnhof,u-bahn,['B II'],,,,
+328,"Görlitzer Bhf., Spreewaldplatz",strassenbahn,['26'],,,,
+329,Güterbahnhof Ruhleben,strassenbahn,['54'],,,,
+330,Habelschwerdter Allee Ecke Unter den Eichen,bus,['A11'],,,,
+331,Hackescher Markt,strassenbahn,"['69', '49', '65']","52.522700593509725, 13.401605863643521+52.5238354,13.402603+52.52386243784762, 13.402614038025424",Q65094590+nan,"['49', '69']+ ['63']+ 69+ 69",nan+ nan+ Hackescher Markt+ nan
+332,Hafenplatz,strassenbahn,"['54', '75']","52.542292547760184, 13.206201126048732",nan,"['75', '54']+ 76,53,54,75+ 53,75,54,76+ 53,54,75,76,55",nan+ Hafenplatz+ Hafenplatz+ Hafenplatz
+333,Hagenstrasse Ecke Königsallee,strassenbahn,['76E'],,,,
+334,Halensee,s-bahn,['KBS 100'],"52.4961,13.2906",Q800476,"['KBS 100', 'KBS 100a']+ KBS 100c,KBS 100+ KBS 100+ KBS 100,KBS 100k",nan+ Berlin-Halensee station+ Berlin-Halensee station+ Berlin-Halensee station
+335,Hallesches Tor,strassenbahn,['21'],"52.49761471032374, 13.38904657659308",nan,['95'],nan
+336,Hallesches Tor,u-bahn,"['B I', 'B II', 'C I']","52.497777777778,13.391111111111",Q658302,"['C I', 'B I', 'A II']+ C I,C II,B II,B I+ B I,A II,B II,C I+ A I,C I,A II",nan+ Hallesches Tor+ Hallesches Tor+ Hallesches Tor
+337,Hallesches Tor (Stresemannstrasse),strassenbahn,['1'],,,,
+338,Hamburger Platz (Weißensee),bus,['A42'],,,,
+339,Hansaplatz,bus,['A16'],"52.5179343319099, 13.342038193257153",nan,"['A25', 'A16']+ A25,A66,A16+ A25,A16+ A16,A25",nan+ Hansaplatz+ Hansaplatz+ Hansaplatz
+340,Haupstrasse Ecke Holzhauserdamm,bus,['A14'],,,,
+341,Hauptstrasse (Reinickendorf-Ost),strassenbahn,['36'],,,,
+342,Hauptstrasse Ecke Berlinerstrasse (Hohenschönhausen),bus,['A39'],,,,
+343,Hauptstrasse Ecke Dominicusstrasse,strassenbahn,"['60', '25', '6']","52.48179322469747, 13.348385662518401+52.48185447998682, 13.34839211499204",nan,['60']+ ['66']+ 2,nan+ nan+ nan
+344,Hauptstrasse Ecke Edelweißstrasse,bus,['A45'],"52.586379262142074, 13.36752938856218",nan,"['A55', 'A45']+ A55,A45+ A45,A55",nan+ nan+ nan
+345,Hauptstrasse Ecke Hermsdorferstrasse,bus,['A14'],,,,
+346,Hauptstrasse Ecke Potsdamerstrasse,strassenbahn,['96'],,,,
+347,Hauptstrasse Ecke Residenzstrasse,strassenbahn,['41'],,,,
+348,Hauptstrasse Ecke Roedernallee,bus,['A12'],,,,
+349,Hausvogteiplatz,u-bahn,['A I'],"52.513055555556,13.396666666667",Q656523,"['A I']+ A I,A II+ A+ A",nan+ Hausvogteiplatz station+ Hausvogteiplatz station+ Hausvogteiplatz station
+350,Heerstr.,s-bahn,"['KBS 101', 'KBS 103']","52.5086,13.2586",Q800502,"['KBS 101', 'KBS 103']+ KBS 103,KBS 101+ KBS 101+ KBS 100g",nan+ Berlin Heerstraße station+ Berlin Heerstraße station+ Berlin Heerstraße station
+351,Heerstrasse Ecke Pichelsdorferstrasse,bus,['A34'],"52.51303188952818, 13.196865381046361",nan,"['A35', 'A34']",nan
+352,Heerstrasse Ecke Pichelsdorferstrasse,strassenbahn,['75'],,,,
+353,Heerstrasse Ecke Wilhelmstrasse,bus,['A13'],"52.51662457723462, 13.179022303033726",nan,['A13']+ A13,nan+ nan
+354,Heidelberger Platz,u-bahn,['A II'],"52.479808333333,13.313236111111",Q21777872,"['A II']+ B II,A II+ A II,B II+ A II",nan+ Heidelberger Platz+ Heidelberger Platz+ Heidelberger Platz
+355,Heiligensee,s-bahn,['KBS 105'],"52.6247,13.2292",Q800475,['KBS 105']+ KBS 105+ KBS 105+ KBS 100c,nan+ Heiligensee station+ Heiligensee station+ Heiligensee station
+356,"Heiligensee, Dorfaue",strassenbahn,['29'],"52.606510891749345, 13.210444640210534",nan,['29'],nan
+357,Heimholtzstrasse,bus,['A1 (Obus)'],,,,
+358,"Heinersdorf, Helgestrasse",strassenbahn,['71'],,,,
+359,"Heinersdorf, Kirche",bus,['A42'],"52.56826376476754, 13.440601903603064",nan,"['A55', 'A42']+ A42,A55+ A42+ A42,A55","nan+ Heinersdorf, Kirche+ Heinersdorf, Kirche+ Heinersdorf, Kirche"
+360,Heinersdorfer Weiche,strassenbahn,['24'],,,,
+361,Hennigsdorf (Kr Oberhavel),s-bahn,['KBS 105'],,,,
+362,Hennigsdorferstrasse Ecke Heiligensee,strassenbahn,['29'],"52.610995069028775, 13.216547112858846",nan,['29'],nan
+363,Hermannplatz,strassenbahn,"['3', '95', '26', '47']","52.487085572732276, 13.424752445258537",nan,"['94', '2', '47', '95', '26']+ 95,26,2,47+ 3,95,47,27,26+ 95",nan+ Hermannplatz+ Hermannplatz+ Hermannplatz
+364,Hermannplatz,u-bahn,"['D', 'C I']","52.48629,13.42455",Q658929,"['D', 'C I']+ C I,D+ D,C I+ D,C I",nan+ Hermannplatz+ Hermannplatz+ Hermannplatz
+365,Hermannstr.,s-bahn,"['KBS 100a', 'KBS 100']","52.4675,13.431111111111",Q111263802,"['KBS 100', 'KBS 100a']+ KBS 100,KBS 100a+ KBS 100a,KBS 100+ KBS 100,KBS 100k",nan+ S-Bahnhof Hermannstraße+ S-Bahnhof Hermannstraße+ S-Bahnhof Hermannstraße
+366,Hermannstrasse Ecke Hertastrasse,strassenbahn,"['15', '6']","52.464683821768375, 13.432895770730918",nan,"['15', '26']",nan
+367,Hermsdorf,s-bahn,['KBS 104'],"52.6178,13.3069",Q263189,['KBS 104']+ KBS 104+ KBS 106+ KBS 100e,nan+ Berlin-Hermsdorf station+ Berlin-Hermsdorf station+ Berlin-Hermsdorf station
+368,Hermsdorfer Damm,bus,['A12'],"52.600011860666825, 13.281303213246002+52.62242143698805, 13.31287835380073",nan,"A12,A12S+ A15+ A12+ A15",Hermsdorfer Damm Ecke Berliner Strasse +  Hermsdorfer Damm Ecke Karolinenstrasse+ Hermsdorfer Damm Ecke Berliner Strasse+ Hermsdorfer Damm Ecke Karolinenstrasse
+369,Hildegardstrasse Ecke Blissestrasse,bus,['A1 (Obus)'],,,,
+370,Hildegardstrasse Ecke Bundesallee,strassenbahn,['44'],"52.48165880537118, 13.329435201187513",nan,['44'],nan
+371,Hindenburgdamm Ecke Schloßstrasse,strassenbahn,['77'],"52.45350181384508, 13.315623434662008",nan,"['74', '73', '78', '77']",nan
+372,Hirschgarten,s-bahn,['KBS 102'],"52.4579,13.6032",Q4892435,['KBS 102']+ KBS 102+ KBS 102+ KBS 102,nan+ Berlin Hirschgarten station+ Berlin Hirschgarten station+ Berlin Hirschgarten station
+373,Hirschgarten,strassenbahn,"['84', '87']","52.4518533,13.6006245",Q66360740,"87,84+ 84,87+ 84,87",Hirschgarten+ Hirschgarten+ Hirschgarten
+374,Hohen-Neuendorf (b Bln),s-bahn,['KBS 104'],"52.6684,13.287",Q4500489,['KBS 104']+ KBS 104+ KBS 104,nan+ Hohen Neuendorf station+ Hohen Neuendorf station
+375,"Hohenschönhausen, Falkenberger Strasse",strassenbahn,['64'],"52.5508672,13.5094994",Q65555882,"['70', '64']+ 64,70+ 70,64",nan+ nan+ nan
+376,Hohenschönhauserstrasse Ecke Lichtenbergerstrasse,strassenbahn,['3'],,,,
+377,Hohenschöpping,s-bahn,['KBS 105'],"52.67,13.1945",Q19274489,['KBS 105']+ KBS 105+ KBS 105+ KBS 104d,nan+ Bahnhof Hohenschöpping+ Bahnhof Hohenschöpping+ Bahnhof Hohenschöpping
+378,Hohenzollerndamm,s-bahn,['KBS 100'],"52.4885,13.3004",Q800503,"['KBS 100', 'KBS 100a']+ KBS 100+ KBS 100+ KBS 100,KBS 100k",nan+ Berlin Hohenzollerndamm station+ Berlin Hohenzollerndamm station+ Berlin Hohenzollerndamm station
+379,Hohenzollernplatz,u-bahn,['A II'],"52.493888888889,13.325",Q571570,"['A II']+ B II,A II+ A II,B II+ A II",nan+ Hohenzollernplatz+ Hohenzollernplatz+ Hohenzollernplatz
+380,Holteistrasse Ecke Boxhagenerstrasse,strassenbahn,"['13', '14']","52.5088235,13.465969","Q65675805, Q65675805","3, 13","nan, nan"
+381,Holzhauserstrasse Ecke Hauptstrasse,bus,['A15'],,,,
+382,Hoppegarten (Mark),s-bahn,['KBS 101'],"52.5183,13.6734",Q15197357,['KBS 101']+ KBS 101+ KBS 101+ KBS 101,nan+ Hoppegarten (Mark) station+ Hoppegarten (Mark) station+ Hoppegarten (Mark) station
+383,Hoppendorferstrasse,bus,['A27'],,,,
+384,Hubertusallee Ecke Kurfürstendamm,strassenbahn,['76E'],,,,
+385,Humboldthain,s-bahn,"['KBS 105', 'KBS 104', 'KBS 106']","52.5451,13.3796",Q481276,"['KBS 106', 'KBS 105', 'KBS 104']+ KBS 106,KBS 105,KBS 104+ KBS 104,KBS 105,KBS 106+ KBS 100d,KBS 100c,KBS 100e",nan+ Berlin Humboldthain station+ Berlin Humboldthain station+ Berlin Humboldthain station
+386,Hundekehle über Königsallee,strassenbahn,"['76', '76E']",,,,
+387,Hundekehlenstrasse Ecke Teplitzerstrasse,strassenbahn,['76E'],,,,
+388,Händelplatz,strassenbahn,"['73', '74', '77', '78']","52.450279094879285, 13.315466784727654",nan,"['77', '78']+ 73,77,78,74",nan+ nan
+389,"Hönow, Dorfstrasse (Schule)",bus,['A44'],,,,
+390,Industriebahn,strassenbahn,['55'],,,,
+391,Innsbrucker Platz,bus,['A16'],"52.478545508234895, 13.34405868604117",nan,"['A48', 'A16', 'A4']+ A65,A4,A48,A16+ A75,A65,A4,A16,A48+ A16,A75,A84,A48,A4,A65,A83",nan+ Innsbrucker Platz+ Innsbrucker Platz+ Innsbrucker Platz
+392,Innsbrucker Platz,s-bahn,"['KBS 100a', 'KBS 100']","52.4786,13.3439",Q111263876,"['KBS 100', 'KBS 100a']+ KBS 100,KBS 100a+ KBS 100a,KBS 100+ KBS 100,KBS 100k",nan+ S-Bahnhof Innsbrucker Platz+ S-Bahnhof Innsbrucker Platz+ S-Bahnhof Innsbrucker Platz
+393,Innsbrucker Platz,strassenbahn,['88'],"52.47804266204959, 13.343446877940893+52.47851767561872, 13.344017066649423",nan,"['74', '73', '88']+ ['66']+ 74,66,73,88+ 66,73,74",nan+ nan+ Innsbrucker Platz+ Innsbrucker Platz
+394,Innsbrucker Platz,u-bahn,['B I'],"52.4786,13.3439",Q10275871,B I,nan
+395,Invalidenstrasse Ecke Chausseestrasse,strassenbahn,"['1', '70']","52.5304158,13.3827302",Q65552697,"['1', '46', '11', '70']+ 70,69+ 1+ 1",nan+ U Naturkundemuseum+ U Naturkundemuseum+ U Naturkundemuseum
+396,Irenenstrasse Ecke Wilhelmstrasse,strassenbahn,['14'],,,,
+397,Jannowitzbrücke,s-bahn,"['KBS 101', 'KBS 103', 'KBS 102']","52.514822222222,13.41795","Q27955427+Q27955427, Q27955427","['KBS 102', 'KBS 101'], ['KBS 103']+ KBS 102,KBS 103,KBS 101+ KBS 101,KBS 103,KBS 102+ KBS 101,KBS 102,KBS 103,KBS 103a,KBS 104",nan+ S-Jannowitzbrücke station+ S-Jannowitzbrücke station+ S-Jannowitzbrücke station
+398,Jannowitzbrücke,u-bahn,['D'],"52.515656,13.418185",Q27955418,['D']+ D,nan+ Jannowitzbrücke metro station
+399,Jerusalemer Kirche,strassenbahn,['88'],,,,
+400,Johannisthaler Chaussee Ecke Rudowerstrasse,strassenbahn,['47'],"52.43434486015572, 13.469069460026562",nan,['47'],nan
+401,Jungfernheide,s-bahn,"['KBS 100b', 'KBS 100']","52.53035,13.299433333333",Q110977325,"['KBS 100', 'KBS 103a', 'KBS 100d']+ KBS 100c,KBS 103a,KBS 100d,KBS 100+ KBS 103a,KBS 100c,KBS 100+ KBS 100a,KBS 100,KBS 100b",nan+ S-Bahnhof Jungfernheide+ S-Bahnhof Jungfernheide+ S-Bahnhof Jungfernheide
+402,"Jüdenstrasse, Rathaus",strassenbahn,['71'],,,,
+403,Kaiser-Wilhelm-Platz,bus,['A4'],"52.486329247981715, 13.35655627172785",nan,"['A48', 'A4']+ A4,A48+ A4,A48,A75+ A75,A84,A48,A4,A83",nan+ Kaiser-Wilhelm-Platz+ Kaiser-Wilhelm-Platz+ Kaiser-Wilhelm-Platz
+404,Kaiser-Wilhelm-Platz,strassenbahn,['25'],"52.486331659025346, 13.356584679052645",nan,"['25']+ 74,73,88+ 2,73,74",nan+ Kaiser-Wilhelm-Platz+ Kaiser-Wilhelm-Platz
+405,Kaiser-Wilhelm-Strasse Ecke Leonorenstrasse,strassenbahn,['96'],,,,
+406,Kaiserdamm (Messedamm),u-bahn,['A I'],"52.51,13.2822",Q656409,"['A I']+ B I,A I+ A I,B I+ A I",nan+ Kaiserdamm+ Kaiserdamm+ Kaiserdamm
+407,Kaisereiche,bus,['A17'],"52.46896806014468, 13.332614886077709",nan,"['A48', 'A25', 'A17']+ A25,A48+ A25,A48,A75+ A84,A75,A25,A48",nan+ Kaisereiche+ Kaisereiche+ Kaisereiche
+408,Kaisereiche,strassenbahn,"['73', '74']","52.468942127334586, 13.332672961457298",nan,"['73']+ 74,73,88+ 73,74",nan+ Kaisereiche+ Kaisereiche
+409,Kaisereiche Ecke Rheinstrasse,strassenbahn,['88'],"52.468990950159686, 13.332592813586178",nan,['88'],nan
+410,Kaiserhof/Thälmannplatz,bus,['A9'],,,,
+411,Kaiserin-Augusta-Strasse Ecke Tempelhofer Damm,strassenbahn,"['98', '99']",,,,
+412,Kaiserstrass Ecke Mariendorfer Damm,strassenbahn,['98'],,,,
+413,Kaiserstrasse Ecke Mariendorfer Damm,strassenbahn,['99'],,,,
+414,Kaiserstrasse/Ringstrasse,bus,['A33 (Obus)'],"52.44449600134536, 13.372233806361567",nan,['A33 (Obus)']+ A33+ A33+ A33,nan+ Kaiserstrasse/Ringstrasse+ Kaiserstrasse/Ringstrasse+ Kaiserstrasse/Ringstrasse
+415,Kanststrasse Ecke Wilmersdorferstrasse,strassenbahn,['3'],,,,
+416,Kantstrasse Ecke Leibnizstrasse,bus,['A1 (Obus)'],,,,
+417,Kantstrasse Ecke Wilmersdorferstrasse,strassenbahn,['44'],"52.50671197701565, 13.306654872825778",nan,['44'],nan
+418,Karl-Marx-Strasse,u-bahn,['C I'],,,,
+419,Karl-Marx-Strasse Station,strassenbahn,['47'],"52.47610260014145, 13.439445058091593",nan,['47'],nan
+420,Karlplatz,bus,['A9'],,,,
+421,Karlshorst,s-bahn,['KBS 102'],"52.4808,13.5258",Q111327045,['KBS 102']+ KBS 102+ KBS 102+ KBS 102,nan+ S-Bahnhof Berlin Karlshorst+ S-Bahnhof Berlin Karlshorst+ S-Bahnhof Berlin Karlshorst
+422,Karlshorsterstrasse Ecke Nöldnerstrasse,strassenbahn,['14'],,,,
+423,Karolinenhof,strassenbahn,['86'],,,,
+424,Karow,s-bahn,['KBS 106'],"52.615,13.4692",Q111324168,['KBS 106']+ KBS 106+ KBS 106+ KBS 106,nan+ S-Bahnhof Berlin Karow+ S-Bahnhof Berlin Karow+ S-Bahnhof Berlin Karow
+425,Kastanienallee Ecke Veteranenstrasse,strassenbahn,['46'],,,,
+426,Kattunfabrik,strassenbahn,['86'],,,,
+427,Kaulsdorf,s-bahn,['KBS 101'],"52.5121,13.5904",Q800478,['KBS 101']+ KBS 101+ KBS 101+ KBS 101,nan+ Berlin-Kaulsdorf railway station+ Berlin-Kaulsdorf railway station+ Berlin-Kaulsdorf railway station
+428,"Kaulsdorf, Sadowastrasse",bus,['A8'],,,,
+429,Kirschenallee Ecke Spandauer Damm,strassenbahn,['54'],,,,
+430,Kissingenstrasse Ecke Berlinerstrasse,strassenbahn,['46'],,,,
+431,Kladow,Fähre,['Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt)'],"52.45151498638808, 13.147961938847912",nan,['Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt)']+ Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt)+ Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt),nan+ nan+ nan
+432,Kladow/Hottengrund,bus,['A6'],,,,
+433,Kleine Frankfurterstrasse,strassenbahn,['64'],"52.52316104022035, 13.427849786497696",nan,"['63', '64']",nan
+434,Klosterstr.,u-bahn,['A I'],"52.516111111111,13.412222222222",Q657893,"['A I']+ A I,A II+ A+ A",nan+ Klosterstraße station+ Klosterstraße station+ Klosterstraße station
+435,Knie,strassenbahn,"['2', '55', '25']","52.51266887977092, 13.321859924761794",nan,['55'],nan
+436,Kochstrasse,u-bahn,['C I'],,,,
+437,Kopenhagenerstrasse Ecke Flottenstrasse,bus,['A14'],,,,
+438,Kopernikusstrasse Ecke Warschauerstrasse,strassenbahn,['4'],,,,
+439,Kottbuser Tor,u-bahn,['B I'],,,,
+440,Kottbusser Tor,u-bahn,"['B II', 'D']","52.499166666667,13.418055555556",Q819768,"['D', 'B I', 'A II']+ B II,D,B I+ A II,D,B II,B I+ A I,A II,D",nan+ Kottbusser Tor station+ Kottbusser Tor station+ Kottbusser Tor station
+441,Kraftwerk Klingenberg,strassenbahn,['13'],"52.4881374,13.4958685","Q66079524+Q66079524, Q66079524","['13', '82']+ 13, 82+ 13,82","nan+ ,+ nan+ nan"
+442,Krankenhaus Neukölln,strassenbahn,['47'],"52.43977054074335, 13.459359057866306",nan,['47']+ 47,nan+ nan
+443,Krankenhaus Tegel-Süd,bus,['A13'],"52.57573397877684, 13.278749331662",nan,['A13']+ A13+ A13+ A13,nan+ Krankenhaus Tegel-Süd+ Krankenhaus Tegel-Süd+ Krankenhaus Tegel-Süd
+444,Kriminalgericht,bus,['A16'],,,,
+445,Krumme Lanke,u-bahn,['A II'],"52.443333333333,13.241388888889",Q663945,"['A II']+ B II,A II+ A II,B II+ A II",nan+ Krumme Lanke metro station+ Krumme Lanke metro station+ Krumme Lanke metro station
+446,Kupfergraben,strassenbahn,['70'],,,,
+447,Kurfürstendamm Ecke Joachimstalerstrasse,strassenbahn,['6'],,,,
+448,Kurfürstendamm Ecke Joachimsthalerstrasse,strassenbahn,['76E'],,,,
+449,Kurfürstendamm Ecke Konstanzer Strasse,bus,['A1 (Obus)'],"52.500599097108285, 13.31304940813286+52.500616418341856, 13.313034562695215",nan,"['A1']+ A1+ A74,A1+ A1",nan+ Kurfürstendamm Ecke Konstanzer Strasse + Kurfürstendamm Ecke Konstanzer Strasse+ nan
+450,Kurfürstendamm Ecke Uhlandstrasse,strassenbahn,"['76E', '51']",,,,
+451,Kurfürstendamm Ecke Wilmersdorferstrasse,strassenbahn,"['60', '44', '76E']","52.499999022801454, 13.307019457045545",nan,"['44', '60']",nan
+452,Kurfürstendamm v. Marmorhaus,strassenbahn,['55'],,,,
+453,Kurfürstenstrasse,u-bahn,"['B I', 'B II']","52.5,13.361944",Q690203,['A II']+ A II,nan+ nan
+454,Kurfürstenstrasse Ecke Potsdamerstrasse,strassenbahn,['74'],,,,
+455,Köllnische Heide,s-bahn,['KBS 100a'],"52.4694,13.4675",Q800505,['KBS 100a']+ KBS 100a+ KBS 100a+ KBS 100k,nan+ Köllnische Heide station+ Köllnische Heide station+ Köllnische Heide station
+456,Köllnischer Platz,strassenbahn,"['84', '86']","52.4447189,13.5686225",Q66363379,"['84', '86']+ 86,84+ 84,86",nan+ Köllnischer Platz+ Köllnischer Platz
+457,Königin-Elisabeth-Strasse Ecke Kaiserdamm,strassenbahn,['60'],"52.510016445572965, 13.281838957682126",nan,['60'],nan
+458,Königin-Elisabethstrasse Ecke Spandauer Damm,strassenbahn,['54'],,,,
+459,Königs Wusterhausen,s-bahn,['KBS 103'],"52.2966,13.6311",Q178002,['KBS 103']+ KBS 103+ KBS 103+ KBS 103,nan+ Königs Wusterhausen station+ Königs Wusterhausen station+ Königs Wusterhausen station
+460,Königsplatz,strassenbahn,['87'],,,,
+461,Königstor,bus,"['A19', 'A40']","52.52520269485428, 13.419834994127731",nan,"['A9', 'O40', 'O30']+ O40,A9,O30,A57+ O40,A57,A9+ A57,A9,O40,O30",nan+ Königstor+ Königstor+ Königstor
+462,Königstor,strassenbahn,"['73', '74']","52.52821600265539, 13.423869016265495",nan,"['74']+ 74,74E+ 74E,74+ 74E,74",nan+ Königstor+ Königstor+ Königstor
+463,Köpenick,s-bahn,['KBS 102'],"52.4586,13.5808",Q800479,['KBS 102']+ KBS 102+ KBS 102+ KBS 102,nan+ Berlin-Köpenick station+ Berlin-Köpenick station+ Berlin-Köpenick station
+464,"Köpenick, Krankenhaus",strassenbahn,['95'],"52.4388396,13.5920763",Q66091900,['95']+ 95,nan+ Krankenhaus Köpenick/Südseite
+465,"Köpenick, Lindenstrasse Ecke Bahnhofstrasse",strassenbahn,['84'],"52.4505094,13.572684",Q66095701,['95'],nan
+466,Köpenicker Krankenhaus,bus,['A27'],,,,
+467,Köpenicker Landstrasse Ecke Schnellerstrasse,strassenbahn,['95'],,,,
+468,Landberger Chaussee Ecke Lichtenbergerstrasse,strassenbahn,['3'],,,,
+469,Langhansstrasse Ecke Prenzlauerallee,bus,['A45'],,,,
+470,Lankwitz,s-bahn,['KBS 106'],"52.4386,13.3417",Q800481,['KBS 106']+ KBS 106+ KBS 106+ KBS 100d,nan+ Lankwitz station+ Lankwitz station+ Lankwitz station
+471,"Lankwitz, Kirche",bus,"['A32 (Obus)', 'A2']","52.43629186979271, 13.345745387354132",nan,"['A32 (Obus)', 'A2']+ A2,A32+ A32,A2+ A81,A2,A83,A32","nan+ Lankwitz, Kirche+ Lankwitz, Kirche+ Lankwitz, Kirche"
+472,"Lankwitz, Trippsteinstrasse",bus,"['A2', 'A11']","52.418980941735455, 13.34615060419153",nan,['A2'],nan
+473,Lehnitz,s-bahn,['KBS 104'],"52.7411,13.2635",Q4258498,['KBS 104']+ KBS 104+ KBS 104+ KBS 104,nan+ Lehnitz station+ Lehnitz station+ Lehnitz station
+474,Lehrter Bhf.,strassenbahn,['21'],,,,
+475,Lehrter Stadtbahnhof,s-bahn,"['KBS 101', 'KBS 103', 'KBS 102']","52.5253,13.3694",Q821299,"['KBS 102', 'KBS 101', 'KBS 103']+ KBS 102,KBS 103,KBS 101+ KBS 101,KBS 102+ KBS 100h,KBS 100g",nan+ Berlin Lehrter Stadtbahnhof+ Berlin Lehrter Stadtbahnhof+ Berlin Lehrter Stadtbahnhof
+476,Leinestr.,u-bahn,['D'],"52.472777777778,13.428333333333",Q668563,['D']+ D+ D+ D,nan+ Leinestraße+ Leinestraße+ Leinestraße
+477,Leninallee,s-bahn,['KBS 100'],"52.5295,13.4548",Q800507,"['KBS 100', 'KBS 103a', 'KBS 100c', 'KBS 100b']+ KBS 100,KBS 100c,KBS 103a,KBS 100b+ KBS 103a,KBS 106+ KBS 106a,KBS 104,KBS 106",nan+ Berlin Landsberger Allee station+ Berlin Landsberger Allee station+ Berlin Landsberger Allee station
+478,Leninallee Ecke Bersarinstrasse,strassenbahn,['4'],,,,
+479,Leninallee Ecke Dimitroffstrasse,strassenbahn,"['64', '13']","52.526376866541014, 13.447609553656962",nan,"['69', '64']",nan
+480,Leninallee Ecke Friedenstrasse,strassenbahn,['65'],,,,
+481,Lenineallee Ecke Friedenstrasse,strassenbahn,['69'],,,,
+482,Leninplatz,strassenbahn,['64'],"52.5232658,13.4326457",Q65553105,"['1', '63', '69', '64']+ 1,63,69,64+ 64,63,1+ 1,63,69,64",nan+ Platz der Vereinten Nationen+ Platz der Vereinten Nationen+ Platz der Vereinten Nationen
+483,Leopoldplatz,u-bahn,['C I'],"52.5465,13.3591",Q1960809,"['C I']+ C I,C II+ C I+ G,C I",nan+ Leopoldplatz metro station+ Leopoldplatz metro station+ Leopoldplatz metro station
+484,"Lichtefelde, Finckensteinallee",strassenbahn,['74'],"52.43248605965966, 13.29928826605782",nan,['74'],nan
+485,Lichtenberg,s-bahn,['KBS 101'],"52.5106,13.4964",Q634247,['KBS 101']+ KBS 101+ KBS 101+ KBS 101,nan+ Berlin-Lichtenberg station+ Berlin-Lichtenberg station+ Berlin-Lichtenberg station
+486,Lichtenbergerstrasse Ecke Langhans Allee,strassenbahn,['3'],,,,
+487,Lichtenrade,s-bahn,['KBS 105b'],"52.3876,13.3963",Q6543354,['KBS 105']+ KBS 105+ KBS 105+ KBS 100c,nan+ Lichtenrade station+ Lichtenrade station+ Lichtenrade station
+488,Lichterfelde Ost,s-bahn,['KBS 106'],"52.43,13.3289",Q111311299,['KBS 106']+ KBS 106+ KBS 106+ KBS 100d,nan+ S-Bahnhof Berlin Lichterfelde-Ost+ S-Bahnhof Berlin Lichterfelde-Ost+ S-Bahnhof Berlin Lichterfelde-Ost
+489,Lichterfelde Süd,s-bahn,['KBS 106'],"52.41,13.3086",Q800482,['KBS 106']+ KBS 106+ KBS 106+ KBS 100d,nan+ Lichterfelde Süd station+ Lichterfelde Süd station+ Lichterfelde Süd station
+490,Lichterfelde West,s-bahn,['KBS 104'],"52.4433,13.2947",Q111327103,['KBS 104']+ KBS 104+ KBS 104+ KBS 100e,nan+ S-Bahnhof Berlin Lichterfelde West+ S-Bahnhof Berlin Lichterfelde West+ S-Bahnhof Berlin Lichterfelde West
+491,"Lichterfelde, Goerzallee",strassenbahn,['77'],"52.421933927255864, 13.298529678385423",nan,['77'],nan
+492,"Lichterfelde, Osteweg",bus,['A3E'],"52.42100405812812, 13.281128356360531",nan,['A3E'],nan
+493,"Lichterfelde, Süd, Lindenstrasse",bus,['A1 (Obus)'],,,,
+494,"Lichterfelde-Süd, Lindenstrasse",strassenbahn,['78'],,,,
+495,"Lindenhof, Eythstrasse",strassenbahn,['60'],,,,
+496,Lindenstrasse Ecke Bahnhofstrasse,strassenbahn,"['83', '87', '95', '86']","52.4505094,13.572684",Q66095701,"['84', '82', '83', '86']+ 83,86,84+ 83,86,84",nan+ Bahnhofstraße/Lindenstraße+ nan
+497,Londonerstrasse (Rehberge),strassenbahn,"['29', '68', '25', '28']",,,,
+498,Luxemburgplatz,u-bahn,['A I'],"52.528333333333,13.410277777778",Q658790,"['A I']+ A I,A II+ A+ A",nan+ Rosa-Luxemburg-Platz station+ Rosa-Luxemburg-Platz station+ Rosa-Luxemburg-Platz station
+499,"Lübars, Dorfplatz",bus,['A35'],,,,
+500,Lückstrasse Ecke Wilhelmstrasse,strassenbahn,['14'],,,,
+501,Lütsowstrasse Ecke Potsdamerstrasse,strassenbahn,['76'],,,,
+502,Lützowplatz,bus,['A16'],"52.505029017314186, 13.351822867208506",nan,"['A24', 'A16']+ A24,A69,A16+ A69,A16,A24+ A24,A69,A16",nan+ Lützowplatz+ Lützowplatz+ Lützowplatz
+503,Lützowplatz,strassenbahn,['76'],,,,
+504,Lützowstrasse Ecke Potsdamerstrasse,strassenbahn,"['73', '74']",,,,
+505,Machnower Schleuse,strassenbahn,['96'],"52.39513316459733, 13.20831380290797",nan,['96']+ 96,nan+ Machnower Schleuse
+506,"Machnowerstrasse Ecke Andreezeile, Zehlendorf",bus,['A10'],,,,
+507,Magdalenenstrasse,u-bahn,['E'],,,,
+508,Magistratsweg Ecke Brunsbütteler Damm,bus,['A31'],"52.53308685678349, 13.157955808881047",nan,['A31']+ A80,nan+ nan
+509,Mahlow,s-bahn,['KBS 105b'],"52.3602,13.4085",Q2641431,['KBS 105']+ KBS 105+ KBS 105,nan+ Mahlow station+ Mahlow station
+510,Mahlsdorf,s-bahn,['KBS 101'],"52.5121,13.6106",Q800484,['KBS 101']+ KBS 101+ KBS 101+ KBS 101,nan+ Mahlsdorf railway station+ Mahlsdorf railway station+ Mahlsdorf railway station
+511,"Mahlsdorf, Rathaus",strassenbahn,['83'],,,,
+512,"Mahlsdorf-Süd, Hubertus",strassenbahn,"['83', '86']","52.4741663,13.5991443",Q66368466,"['83', '86']+ 82,86+ 86,82+ 86,82",nan+ Mahlsdorf-Süd+ Mahlsdorf-Süd+ Mahlsdorf-Süd
+513,"Malchow, Dorfstrasse",bus,['A39'],"52.580462270708544, 13.482797576255583",nan,"['A46', 'AL']+ A46,AL+ AL,A46+ AL,A46","nan+ Malchow, Dorfstrasse+ Malchow, Dorfstrasse+ Malchow, Dorfstrasse"
+514,Mansteinstrasse (Bhf. Großgörschenstrasse),strassenbahn,['2'],,,,
+515,Marchandstrasse/Lankwitzer Ring,bus,['A32 (Obus)'],"52.42302374778929, 13.357490310151075",nan,['A32 (Obus)'],nan
+516,Marchlewskistrasse,u-bahn,['E'],,,,
+517,Mariendorf,s-bahn,['KBS 105b'],"52.4478,13.3609",Q800497,['KBS 105']+ KBS 105+ KBS 105+ KBS 100c,nan+ Attilastraße station+ Attilastraße station+ Attilastraße station
+518,"Mariendorf, Kaiserstrasse Ecke Mariendorfer Damm",bus,['A33 (Obus)'],"52.44556685028663, 13.38579424415166",nan,['A33 (Obus)'],nan
+519,Mariendorfer Damm Ecke Alt-Mariendorf,strassenbahn,"['98', '15']","52.4401803123353, 13.38732780334823",nan,"['15', '98']+ 98",nan+ Mariendorfer Damm Ecke Alt-Mariendorf
+520,Marienfelde,s-bahn,['KBS 105b'],"52.4242,13.3747",Q800485,['KBS 105']+ KBS 105+ KBS 105+ KBS 100c,nan+ Marienfelde station+ Marienfelde station+ Marienfelde station
+521,"Marienfelde, Daimlerstrasse",strassenbahn,['15'],,,,
+522,Marienfelder Allee Ecke Lankwitzstrasse,bus,['A32 (Obus)'],"52.4137412612811, 13.362086756533897",nan,['A32 (Obus)'],nan
+523,Marienfelder Chaussee Ecke Lichtenrader Damm,strassenbahn,['99'],,,,
+524,Markgrafendamm,strassenbahn,['82'],"52.49918957829234, 13.465807953098425",nan,['82'],nan
+525,Martin-Luther-Strasse Ecke Brandenburgischestrasse,strassenbahn,['3'],,,,
+526,Martin-Luther-Strasse Ecke Hauptstrasse,bus,['A4'],"52.47919734896908, 13.344958631803124",nan,A84,nan
+527,Marx-Engels-Platz,s-bahn,"['KBS 101', 'KBS 103', 'KBS 102']","52.5226,13.4022",Q689312,"['KBS 102', 'KBS 101', 'KBS 103']+ KBS 102,KBS 103,KBS 101+ KBS 101,KBS 103,KBS 102+ KBS 102,KBS 101,KBS 103,KBS 103a",nan+ Berlin Hackescher Markt station+ Berlin Hackescher Markt station+ Berlin Hackescher Markt station
+528,Marzahn/Birknersfelde,bus,['A41'],,,,
+529,Marzahrter Chausssee/Schloßstrasse,strassenbahn,['69'],,,,
+530,Mehringdamm,strassenbahn,['95'],"52.49298792323627, 13.387950331490586",nan,"['3', '2']+ 2,3",nan+ Mehringdamm
+531,Mehringdamm,u-bahn,"['C II', 'C I']","52.493888888889,13.388333333333",Q657905,"['C I', 'C II']+ C I,C II+ C II,C I+ C I,C II",nan+ Mehringdamm+ Mehringdamm+ Mehringdamm
+532,Mehringdamm Ecke Blücherstrasse,strassenbahn,['95'],,,,
+533,Mehringdamm Ecke Gneisenaustrasse,strassenbahn,['3'],,,,
+534,Mehringplatz/Hallesches Tor,strassenbahn,['99'],,,,
+535,"Moabit, Waldstrasse Ecke Turmstrasse",bus,['A1 (Obus)'],"52.52718533455642, 13.33055251486945",nan,A1,nan
+536,"Moabit, Wiebestrasse",strassenbahn,['21'],,,,
+537,Molkenmarkt,strassenbahn,"['73', '82', '72']","52.51679321421663, 13.409330619020574",nan,"['74', '82', '72']+ 72,74E,74+ 74,72",nan+ nan+ nan
+538,Moritzplatz,u-bahn,['D'],"52.503611111111,13.410833333333",Q374225,['D']+ D+ D+ D,nan+ Moritzplatz station+ Moritzplatz station+ Moritzplatz station
+539,Märkisches Museum,u-bahn,['A I'],"52.511944444444,13.408888888889",Q657871,"['A I']+ A I,A II+ A+ A",nan+ Märkisches Museum station+ Märkisches Museum station+ Märkisches Museum station
+540,Möckernbrücke,u-bahn,"['B I', 'B II']","52.499166666667,13.382777777778",Q704716,"['B I', 'A II']+ B I,B II+ A II,B II,B I+ A II",nan+ Möckernbrücke U-Bahn station+ Möckernbrücke U-Bahn station+ Möckernbrücke U-Bahn station
+541,Möllendorferstrasse Ecke Herzbergerstrasse,strassenbahn,['14'],,,,
+542,Müggelheim (An der Großen Krampe),bus,['A27'],,,,
+543,Müllerstrasse Ecke Schulstrasse,strassenbahn,"['29', '25', '28']","52.54639788626855, 13.359150434534053",nan,"['28', '29']",nan
+544,Müllerstrasse Ecke Seestrasse,strassenbahn,"['68', '3']",,,,
+545,Nalepastrasse Ecke Wilhelminenhofstrasse,strassenbahn,['87'],,,,
+546,Neanderstr.,u-bahn,['D'],"52.510833333333,13.416388888889",Q663204,['D']+ D,nan+ Heinrich-Heine-Straße station
+547,Nettelbeckplatz,strassenbahn,"['35', '68', '23']","52.54423653105294, 13.369853072459598",nan,"['35', '23', '68']+ 35",nan+ Nettelbeckplatz
+548,Neu-Lichtenberg,s-bahn,['KBS 101'],,,,
+549,Neu-Westend,u-bahn,['A I'],"52.515555555556,13.261111111111",Q656431,['A I']+ B I+ B I,nan+ Neu-Westend+ Neu-Westend
+550,Neuenhagen (b Bln),s-bahn,['KBS 101'],"52.5208,13.7003",Q7001614,['KBS 101']+ KBS 101+ KBS 101+ KBS 101,nan+ Neuenhagen station+ Neuenhagen station+ Neuenhagen station
+551,Neues Tor,bus,['A9'],,,,
+552,Neukladowerallee Ecke Kladower Damm,bus,['A34'],"52.45988940678482, 13.153891640951477",nan,"['A35', 'A34']",nan
+553,Neukölln,s-bahn,"['KBS 100a', 'KBS 100']","52.469166666667,13.441666666667",Q111325412,"['KBS 100', 'KBS 100a']+ KBS 100,KBS 100a+ KBS 100a,KBS 100+ KBS 100,KBS 100k",nan+ S-Bahnhof Berlin Neukölln+ S-Bahnhof Berlin Neukölln+ S-Bahnhof Berlin Neukölln
+554,Neukölln (Südring),u-bahn,['C I'],"52.469166666667,13.441666666667+52.469444,13.442222",Q21272767+Q569905,['C I']+ C I+ C I+ C I,nan+ Neukölln (Südring) metro station+ Neukölln (Südring) metro station+ Neukölln (Südring) metro station
+555,"Neukölln, Hermannplatz",strassenbahn,['27'],"52.48645092944154, 13.424243030746648",nan,"['27', '3']",nan
+556,"Neukölln, Schulenburgpark",strassenbahn,['15'],"52.4666566988453, 13.470193015552026",nan,['94'],nan
+557,Nikolassee,s-bahn,"['KBS 104', 'KBS 102']","52.4317,13.1933",Q637052,"['KBS 102', 'KBS 104']+ KBS 102,KBS 104+ KBS 104,KBS 102+ KBS 100h,KBS 100e",nan+ Berlin-Nikolassee station+ Berlin-Nikolassee station+ Berlin-Nikolassee station
+558,Nollendorfplatz,bus,['A16'],"52.49968843634292, 13.353086438468269",nan,"['A19']+ A19+ A19+ A16,A19",nan+ Nollendorfplatz+ Nollendorfplatz+ Nollendorfplatz
+559,Nollendorfplatz,strassenbahn,['76E'],"52.49974136660471, 13.352878927585127",nan,"['2']+ 55,53,54+ 55",nan+ Nollendorfplatz+ Nollendorfplatz
+560,Nollendorfplatz,u-bahn,"['A I', 'B I', 'B II']","52.499166666667,13.353888888889",Q571039,"['B II', 'B I', 'A I', 'A II']+ B I,B II,A I,A II,B III+ A I,B I,A II,B II,B III+ A I,A II,B I",nan+ Nollendorfplatz metro station+ Nollendorfplatz metro station+ Nollendorfplatz metro station
+561,Nordbahnhof,s-bahn,"['KBS 105', 'KBS 104', 'KBS 105b', 'KBS 106']","52.5319,13.3878",Q673721,"['KBS 106', 'KBS 105', 'KBS 104']+ KBS 106,KBS 105,KBS 104",nan+ Berlin Nordbahnhof
+562,Nordbahnhof,strassenbahn,['46'],,,,
+563,Nordbahnhof,u-bahn,['C I'],"52.531111111111,13.3825",Q554399,"['C I']+ C I,C II",nan+ Naturkundemuseum metro station
+564,"Norden, Schillerstrasse",bus,['A7'],,,,
+565,"Nordend, Kaiser-Wilhelm-Strasse",strassenbahn,['46'],,,,
+566,Nöldnerstrasse Ecke Karlshorsterstrasse,strassenbahn,['13'],,,,
+567,Nürnberger Platz,u-bahn,['A II'],,,,
+568,Oberhofer Platz,bus,['A17'],"52.42410259117963, 13.328170432694991",nan,A17+ A17+ A17,Oberhofer Platz+ Oberhofer Platz+ Oberhofer Platz
+569,Oberspree,s-bahn,['KBS 100d'],"52.4525,13.5382",Q15192700,['KBS 103a']+ KBS 103a+ KBS 103a+ KBS 106,nan+ Oberspree station+ Oberspree station+ Oberspree station
+570,Oberspreestrasse Ecke Grünstrasse,strassenbahn,['95'],,,,
+571,Oderbruchstrasse/Steuerhaus,bus,['A41'],,,,
+572,Olympia-Stadion,u-bahn,['A I'],"52.517222222222,13.25",Q656441,['A I']+ B I+ B I,nan+ Olympia-Stadion station+ Olympia-Stadion station
+573,Onkel Toms Hütte,u-bahn,['A II'],"52.450277777778,13.253333333333",Q389214,"['A II']+ B II,A II+ A II,B II+ A II",nan+ Onkel Toms Hütte metro station+ Onkel Toms Hütte metro station+ Onkel Toms Hütte metro station
+574,Oranienburg,s-bahn,['KBS 104'],"52.7536,13.2496",Q2341669,['KBS 104']+ KBS 104+ KBS 104+ KBS 104,nan+ Oranienburg station+ Oranienburg station+ Oranienburg station
+575,Oranienburger Str.,s-bahn,"['KBS 105', 'KBS 104', 'KBS 105b', 'KBS 106']","52.525,13.3929",Q480249,"['KBS 106', 'KBS 105', 'KBS 104']+ KBS 106,KBS 105,KBS 104",nan+ Berlin Oranienburger Straße station
+576,Oranienburger Tor,bus,['A40'],"52.52716314203455, 13.38710905184874",nan,"['A9', 'O40']+ O40+ O40,A9+ A9,O40,A59","nan+ Oranienburger Tor, Hannoversche Strasse/Torstrasse+ Oranienburger Tor, Hannoversche Strasse/Torstrasse+ Oranienburger Tor, Hannoversche Strasse/Torstrasse"
+577,Oranienburger Tor,strassenbahn,"['46', '1', '70']","52.5256031,13.3872745",Q65095375,"['46', '11', '70', '69', '1']+ 70,69,46+ 46,70,11,1+ 11,1,70,46,69",nan+ U Oranienburger Tor+ U Oranienburger Tor+ U Oranienburger Tor
+578,Oranienburger Tor,u-bahn,['C I'],"52.524886111111,13.387477777778",Q571485,"['C I']+ C I,C II",nan+ Oranienburger Tor metro station
+579,Oranienburgerstrasse Ecke Hauptstrasse,bus,"['A12', 'A14']",,,,
+580,Orankestrasse,strassenbahn,['64'],"52.544048109588445, 13.492293861074563",nan,['64'],nan
+581,Oskar-Helene-Heim,u-bahn,['A II'],"52.450277777778,13.269722222222",Q681336,"['A II']+ B II,A II+ A II,B II+ A II",nan+ Oskar-Helene-Heim metro station+ Oskar-Helene-Heim metro station+ Oskar-Helene-Heim metro station
+582,Oskarplatz,strassenbahn,['3'],"52.5570174,13.3659987",Q65767112,"['3', '35']",nan
+583,Osloerstrasse Ecke Grüntalerstrasse,strassenbahn,['3'],,,,
+584,Oslowerstrasse Ecke Schwedenstrasse,strassenbahn,['41'],,,,
+585,Osnabrückerstrasse Ecke Taurroggenerstrasse,strassenbahn,['3'],,,,
+586,Ossietzkyplatz,bus,['A7'],"52.58150700684141, 13.404249587640239",nan,['A7']+ A7,nan+ Ossietzkyplatz
+587,Ostbahnhof,s-bahn,"['KBS 101', 'KBS 103', 'KBS 102']","52.51,13.4347",Q111325075,"['KBS 102', 'KBS 101', 'KBS 103']+ KBS 102,KBS 103,KBS 101+ KBS 101,KBS 103,KBS 102+ KBS 101,KBS 102,KBS 103,KBS 103a,KBS 104",nan+ S-Bahnhof Berlin Ostbahnhof+ S-Bahnhof Berlin Ostbahnhof+ S-Bahnhof Berlin Ostbahnhof
+588,Ostkreuz,s-bahn,"['KBS 102', 'KBS 101', 'KBS 103', 'KBS 100']","52.5031,13.4689",Q111251530,"['KBS 100', 'KBS 103', 'KBS 103a', 'KBS 100c', 'KBS 102', 'KBS 101', 'KBS 100b']+ KBS 103,KBS 100,KBS 102,KBS 100c,KBS 103a,KBS 100b,KBS 101+ KBS 103a,KBS 106,KBS 101,KBS 103,KBS 102+ KBS 106a,KBS 101,KBS 102,KBS 103,KBS 103a,KBS 104,KBS 106",nan+ S-Bahnhof Ostkreuz+ S-Bahnhof Ostkreuz+ S-Bahnhof Ostkreuz
+589,Ostseestrasse Ecke Prenzlauer Allee,bus,['A42'],,,,
+590,Pacellialle Ecke Im Dol,bus,['A1 (Obus)'],,,,
+591,Pacelliallee Ecke Königin-Luise-strasse,strassenbahn,['40'],,,,
+592,Pallasstrasse Ecke Potsdamerstrasse,strassenbahn,"['73', '88', '74']","52.49433490661493, 13.361066683851742+52.49434438235142, 13.361071570325102",nan,['73']+ ['88'],nan+ nan
+593,Pankow (Vinetastr.),u-bahn,['A I'],"52.559166666667,13.413333333333",Q570906,"['A I']+ A I,A II+ A+ A",nan+ Vinetastraße metro station+ Vinetastraße metro station+ Vinetastraße metro station
+594,"Pankow, Elsa-Branströmstrasse",bus,['A7'],,,,
+595,"Pankow, Kirche",bus,['A7'],"52.57124680898358, 13.410670715665145",nan,"A55,A45+ A55,A45+ A45,A55,A58","Pankow, Kirche+ Pankow, Kirche+ Pankow, Kirche"
+596,"Pankow, Kirche",strassenbahn,"['49', '24']","52.5706452,13.4103115",Q65055066,"['22', '49', '46']+ 46E,49,46,22+ 49,22+ 46,49,22",nan+ Pankow Kirche+ Pankow Kirche+ Pankow Kirche
+597,"Pankow, Rathaus",bus,['A7'],"52.56953908840178, 13.404186437171612",nan,"['A7']+ A55,A45,A7+ A55,A45,A7+ A7,A45,A55,A58,A7E","nan+ Pankow, Rathaus+ Pankow, Rathaus+ Pankow, Rathaus"
+598,"Pankow, Rathaus",strassenbahn,"['24', '23']","52.5694816,13.4038045",Q65055060,"46E,46,22+ 46",Rathaus Pankow+ Rathaus Pankow
+599,Pankow-Heinersdorf,s-bahn,['KBS 106'],"52.5780653,13.4295093",Q4892366,"['KBS 106', 'KBS 100b']+ KBS 106,KBS 100b+ KBS 106+ KBS 104,KBS 106",nan+ Berlin-Pankow-Heinersdorf station+ Berlin-Pankow-Heinersdorf station+ Berlin-Pankow-Heinersdorf station
+600,Pankow-Schönhausen,s-bahn,['KBS 106'],,,,
+601,Pankower Allee (Schäfersee),strassenbahn,"['41', '35']",,,,
+602,Pankower Allee (Schäfersee) Osloerstrasse Ecke Kolonie-Drontheim,strassenbahn,['36'],,,,
+603,Pankstrasse/Prinzenallee,strassenbahn,"['41', '29', '28']","52.55229630055077, 13.381421035926673",nan,"['41', '28', '29']",nan
+604,Papestr.,s-bahn,"['KBS 100a', 'KBS 106', 'KBS 105b', 'KBS 100']","52.4756,13.3644",Q111323139,"['KBS 106', 'KBS 100', 'KBS 100a', 'KBS 105']+ KBS 106,KBS 105,KBS 100,KBS 100a+ KBS 100,KBS 100a,KBS 105,KBS 106+ KBS 100d,KBS 100c,KBS 100,KBS 100k",nan+ S-Bahnhof Berlin Südkreuz+ S-Bahnhof Berlin Südkreuz+ S-Bahnhof Berlin Südkreuz
+605,Paradestrasse,u-bahn,['C II'],"52.478055555556,13.386111111111",Q557543,['C II'],nan
+606,Parchimerallee Ecke Rudowerstrasse,strassenbahn,['47'],"52.44546832801967, 13.455025325633102",nan,['47'],nan
+607,"Parkunstrasse, Marzahn",bus,['A43'],,,,
+608,Paulsternstrasse Ecke Gartenfelderstrasse,strassenbahn,['55'],,,,
+609,Pichelsberg,s-bahn,"['KBS 101', 'KBS 103']","52.5103,13.2271",Q800488,"['KBS 101', 'KBS 103']+ KBS 103,KBS 101+ KBS 101+ KBS 100g",nan+ Berlin-Pichelsberg railway station+ Berlin-Pichelsberg railway station+ Berlin-Pichelsberg railway station
+610,Platanenstrasse Ecke Klosterweg,strassenbahn,['23'],,,,
+611,Podbielskiallee,u-bahn,['A II'],"52.464444444444,13.296388888889",Q571324,"['A II']+ B II,A II+ A II,B II+ A II",nan+ Podbielskiallee+ Podbielskiallee+ Podbielskiallee
+612,Podbielskiallee (Botanischer Garten),strassenbahn,['40'],"52.45866344963711, 13.303795091272793",nan,['40'],nan
+613,Potsdam,s-bahn,['KBS 102'],"52.3917,13.0667",Q647973,['KBS 102']+ KBS 102+ KBS 102,nan+ Potsdam Hauptbahnhof+ Potsdam Hauptbahnhof
+614,Potsdamer Chaussee Ecke Spanische Allee,bus,['A3'],"52.42963465458752, 13.224071111730964",nan,['A3'],nan
+615,Potsdamer Platz,s-bahn,"['KBS 105', 'KBS 104', 'KBS 105b', 'KBS 106']","52.5094,13.3766",Q106086519,"['KBS 106', 'KBS 105', 'KBS 104']+ KBS 106,KBS 105,KBS 104",nan+ Potsdamer Platz S-Bahn station
+616,Potsdamer Platz,u-bahn,['A I'],"52.5092,13.3782",Q3909578,"['A I']+ A I,A II",nan+ Potsdamer Platz metro station
+617,"Potsdamer Platz, Link-Strasse",strassenbahn,['74'],,,,
+618,"Potsdamer Platz, Linkstrasse",strassenbahn,['73'],"52.50856492805897, 13.377132677663122",nan,"['74', '73']",nan
+619,"Potsdamer Platz, Voßstrasse",strassenbahn,['21'],,,,
+620,Potsdamer Platz/Leipziger Platz,bus,['A9'],,,,
+621,Potsdamerstrasse Ecke Bülowstrasse,strassenbahn,['2'],,,,
+622,Potsdamerstrasse Ecke Goebenstrasse,strassenbahn,['3'],,,,
+623,Potsdamerstrasse Ecke Lichterfelderstrasse,strassenbahn,['96'],,,,
+624,Potsdamerstrasse Ecke Lützowstrasse,strassenbahn,['88'],"52.50308960322814, 13.365693026618919",nan,['88'],nan
+625,Prenzlauer Allee,s-bahn,['KBS 100'],"52.544775,13.426116",Q32661483,"['KBS 100', 'KBS 103a', 'KBS 100c', 'KBS 100b']+ KBS 100,KBS 100c,KBS 103a,KBS 100b+ KBS 106+ KBS 106a,KBS 104,KBS 106",nan+ Berlin Prenzlauer Allee station+ Berlin Prenzlauer Allee station+ Berlin Prenzlauer Allee station
+626,Prenzlauer Allee/Prenzlauer Promenade,strassenbahn,['3'],,,,
+627,Prenzlauer Promenade Ecke Berlinerstrasse,bus,['A45'],,,,
+628,Prenzlauer Promenade Ecke Krügerstrasse,strassenbahn,['70'],,,,
+629,Prenzlauer Promenade Ecke Prenzlauer Allee,strassenbahn,['71'],,,,
+630,Prenzlauer Tor,strassenbahn,['71'],"52.52709114016772, 13.415809370320808",nan,"71,72+ 71+ 71",Prenzlauer Tor+ Prenzlauer Tor+ Prenzlauer Tor
+631,Prenzlauerstrasse Ecke Dimitroffstrasse,strassenbahn,['4'],,,,
+632,Prenzlauerstrasse Ecke Memhardtstrasse,strassenbahn,['65'],,,,
+633,Priesterweg,s-bahn,"['KBS 106', 'KBS 105b']","52.4601,13.3563",Q800508,"['KBS 106', 'KBS 105']+ KBS 106,KBS 105+ KBS 105,KBS 106+ KBS 100d,KBS 100c",nan+ Priesterweg railway station+ Priesterweg railway station+ Priesterweg railway station
+634,Prinzenallee Ecke Osloerstrasse,strassenbahn,['3'],,,,
+635,Prinzengarten,bus,['A27'],,,,
+636,Prinzenstrasse,strassenbahn,['1'],,,,
+637,Prinzenstrasse,u-bahn,"['B I', 'B II']","52.498333333333,13.406111111111",Q689797,['A II']+ A II,nan+ nan
+638,Prinzenstrasse Ecke Badstrasse,strassenbahn,['24'],,,,
+639,Putlitzstr.,s-bahn,['KBS 100'],"52.536,13.344",Q465972,"['KBS 100', 'KBS 103a']+ KBS 100c,KBS 103a,KBS 100+ KBS 100+ KBS 100a,KBS 100",nan+ Berlin Westhafen station+ Berlin Westhafen station+ Berlin Westhafen station
+640,Rahnsdorf,s-bahn,['KBS 102'],"52.4516372,13.6899776",Q800489,['KBS 102']+ KBS 102+ KBS 102+ KBS 102,nan+ Berlin-Rahnsdorf station+ Berlin-Rahnsdorf station+ Berlin-Rahnsdorf station
+641,Rahnsdorf (Mühle),strassenbahn,['87'],,,,
+642,Rangsdorf,s-bahn,['KBS 105b'],"52.294444,13.430278",Q801345,['KBS 105']+ KBS 105+ KBS 105,nan+ Rangsdorf railway station+ Rangsdorf railway station
+643,Rankeplatz,strassenbahn,['78'],,,,
+644,Rathaus Neukölln,bus,['A4'],"52.48152537358512, 13.434381079123925",nan,['A4']+ A4,nan+ Rathaus Neukölln
+645,Rathaus Neukölln,u-bahn,['C I'],"52.481666666667,13.434166666667",Q628770,['C I']+ C I+ C I+ C I,nan+ Rathaus Neukölln+ Rathaus Neukölln+ Rathaus Neukölln
+646,Rathaus Schöneberg,bus,"['A4', 'A16']","52.48515473887597, 13.345086596743203",nan,"['A16', 'A4']+ A4,A73,A74+ A4,A73,A16,A74",nan+ nan+ nan
+647,Rathaus Spandau,bus,"['A34', 'A13']","52.53480744415333, 13.199505517192808",nan,"['A31', 'A5', 'A13', 'A35', 'A34']+ A35,A5,A13,A34,A31,A63,AS1+ A35,A5,AS1,A34,A13,A31,A63+ A80,A35,A99,A31,A5,A63,A34,A13,AS1s",nan+ Rathaus Spandau+ Rathaus Spandau+ Rathaus Spandau
+648,Rathaus Steglitz,bus,"['A32 (Obus)', 'A17']","52.45683244954579, 13.320757398114617",nan,"['A48', 'A32 (Obus)', 'A17']+ A17,A48,A68,A32+ A32,A48,A17,A68+ A17,A85,A86,A84,A48,A68,A32",nan+ Rathaus Steglitz+ Rathaus Steglitz+ Rathaus Steglitz
+649,Rathaus Steglitz,strassenbahn,"['73', '74', '77']","52.45691682931275, 13.320745348424166",nan,"['73', '77', '40', '74', '78']+ 77,78,74,73,44+ 73,77,78,74",nan+ Rathaus Steglitz+ Rathaus Steglitz
+650,Rathaus Tiergarten,bus,['A16'],"52.52649085974541, 13.338358982634196",nan,A70+ A70+ A70,Rathaus Tiergarten+ Rathaus Tiergarten+ Rathaus Tiergarten
+651,Rathaus Wannsee,bus,['A3'],"52.418440129670444, 13.148872492834737",nan,"['A6', 'A18', 'A3']+ A6,A18,A3+ A3,A6,A18+ AS4,A18,A3,A6",nan+ Rathaus Wannsee+ Rathaus Wannsee+ Rathaus Wannsee
+652,Rathaus Zehlendorf,bus,['A3'],"52.433207520111885, 13.259531923613192",nan,"['A3']+ AS3,A53,A3+ A3,A66,AS3+ A66,AS3s,A1,A3,A53",nan+ Rathaus Zehlendorf+ Rathaus Zehlendorf+ Rathaus Zehlendorf
+653,Rathenowerstrasse (Kriminalgericht),strassenbahn,"['35', '21']",,,,
+654,Rathenowerstrasse Ecke Invalidenstrasse,strassenbahn,['44'],"52.5236499477288, 13.356930609567168",nan,['44'],nan
+655,"Rathenowerstrasse, Kriminalgericht",strassenbahn,['2'],,,,
+656,Regattahaus,strassenbahn,['86'],,,,
+657,Reichskanzler-Platz,strassenbahn,['75'],,,,
+658,Reichskanzlerplatz,u-bahn,['A I'],"52.509722222222,13.273055555556",Q657857,"['A I']+ B I,A I+ A I,B I",nan+ Theodor-Heuss-Platz+ Theodor-Heuss-Platz
+659,Reichssportfeld,s-bahn,"['KBS 101', 'KBS 103']","52.511,13.2416",Q800506,"['KBS 101', 'KBS 103']+ KBS 103,KBS 101",nan+ Berlin Olympiastadion station
+660,Reinickendorf,s-bahn,['KBS 105'],"52.5779,13.3506",Q800496,['KBS 105']+ KBS 105+ KBS 105+ KBS 100c,nan+ Berlin Alt-Reinickendorf station+ Berlin Alt-Reinickendorf station+ Berlin Alt-Reinickendorf station
+661,Reinickendorf Hauptstrasse Ecke Aroserallee,bus,['A14'],,,,
+662,"Reinickendorf, Hauptstrasse Ecke Residenzstrasse",bus,['A14'],,,,
+663,Reinickendorfer Strasse,u-bahn,['C I'],,,,
+664,RennbahnMariendorf,strassenbahn,['99'],,,,
+665,"Rennbahnstrasse, Weißensee",strassenbahn,"['73', '74']",,,,
+666,Residenzstrasse Ecke Hauptstrasse,strassenbahn,['35'],,,,
+667,Richard-Wagner-Platz,u-bahn,['A III'],"52.5175,13.306388888889",Q662201,['A III']+ A III+ A III+ A III,nan+ Richard-Wagner-Platz metro station+ Richard-Wagner-Platz metro station+ Richard-Wagner-Platz metro station
+668,Richtershorn,strassenbahn,['86'],"52.40105,13.6248473",Q66481215,['86']+ 86+ 86+ 86,nan+ Richtershorn+ Richtershorn+ Richtershorn
+669,Rittberg-Krankenhaus,strassenbahn,"['78', '77']","52.42987951650218, 13.288961460110901",nan,"['77', '78']+ 77,78+ 77,78",nan+ Rittberg-Krankenhaus+ Rittberg-Krankenhaus
+670,Robert-Koch-Platz,bus,['A40'],"52.527570508835595, 13.37877230286134",nan,"['O40']+ O40,A57+ O40,A57+ A57,O40",nan+ Robert-Koch-Platz+ Robert-Koch-Platz+ Robert-Koch-Platz
+671,Roderstrasse Ecke Möllendorffstrasse,strassenbahn,['69'],,,,
+672,Roederstrasse/Herzbergerstrasse,strassenbahn,['3'],,,,
+673,Roseneck,bus,['A17'],"52.47580089902253, 13.282411270445099",nan,"['A29', 'A17']+ A50,A29,AS3,A19+ A19,A50,A29,AS3+ A17,AS3s,A50,A29,A19",nan+ Roseneck+ Roseneck+ Roseneck
+674,Roseneck,strassenbahn,"['57', '51']",,,,
+675,Rosentaler Platz,bus,['A40'],,,,
+676,Rosentaler Platz,strassenbahn,['1'],,,,
+677,"Rosenthal, Quickbornerstrasse",strassenbahn,['23'],,,,
+678,Rosenthaler Platz,strassenbahn,['49'],"52.5301769,13.4016121","Q65093945+Q65093945, Q65093945","['1', '22', '49', '11']+ 1,49,11,22+ 22,11,1, 49+ 49,1,11,22","nan+ U Rosenthaler Platz+ U Rosenthaler Platz,+ U Rosenthaler Platz+ nan"
+679,Rosenthaler Platz,u-bahn,['D'],"52.53,13.401111111111",Q663231,['D']+ D,nan+ Rosenthaler Platz station
+680,Rudolf-Wilde-Platz,strassenbahn,['60'],,,,
+681,Rudolf-Wilde-Platz (Schöneberger Rathaus),strassenbahn,"['25', '6']",,,,
+682,"Rudow, Bahnhofstrasse",strassenbahn,['47'],"52.40195520982694, 13.51319617947882",nan,['47'],nan
+683,"Rudow, Stadtgrenze",strassenbahn,['47'],,,,
+684,Ruhleben,u-bahn,['A I'],"52.525555555556,13.241388888889",Q656401,['A I']+ B I+ B I+ A I,nan+ Ruhleben station+ Ruhleben station+ Ruhleben station
+685,Rummelsburg,s-bahn,['KBS 102'],"52.501244,13.478545",Q15107132,['KBS 102']+ KBS 102+ KBS 102+ KBS 102,nan+ Berlin-Rummelsburg railway station+ Berlin-Rummelsburg railway station+ Berlin-Rummelsburg railway station
+686,Röntgental,s-bahn,['KBS 106'],"52.6487,13.5136",Q801386,['KBS 106']+ KBS 106+ KBS 106+ KBS 106,nan+ Röntgental station+ Röntgental station+ Röntgental station
+687,Rüdesheimer Platz,u-bahn,['A II'],"52.473333333333,13.314444444444",Q167147,"['A II']+ B II,A II+ A II,B II+ A II",nan+ Rüdesheimer Platz+ Rüdesheimer Platz+ Rüdesheimer Platz
+688,Rügenerstrasse,strassenbahn,['24'],,,,
+689,Rügenerstrasse Ecke Brunnenstrasse,strassenbahn,"['36', '41']","52.54468383613832, 13.391054406802407",nan,"['36', '29', '24']",nan
+690,Rügenesrstrasse Ecke Brunnenstrasse,strassenbahn,"['29', '28']","52.54471634192088, 13.391012495632392",nan,['28'],nan
+691,S-Bhf. Biesdorf,bus,['A37'],"52.513432593832405, 13.555387279249894",nan,"['A37', 'O37']+ O37+ O37+ O37",nan+ S-Bhf. Biesdorf+ S-Bhf. Biesdorf+ S-Bhf. Biesdorf
+692,S-Bhf. Grünau,bus,['A36'],"52.41361515857581, 13.573796290663196",nan,"['A36', 'A38']+ A38,AD/36,AZ+ AD/36,A38,AZ,S-Bhf. Grünau <> Potsdam, Bassinplatz (VEB Potsdam-Babelsberg)+ AD,A38,A36",nan+ S-Bhf. Grünau+ S-Bhf. Grünau+ S-Bhf. Grünau
+693,S-Bhf. Köpenick,strassenbahn,['83'],"52.4582153,13.5790435",Q66370784,"['82', '83', '86']+ 82,83,86+ 83,86,82+ 83,86,82",nan+ S Köpenick+ S Köpenick+ S Köpenick
+694,S-Bhf. Leninallee,strassenbahn,['64'],"52.52851097343215, 13.455862308166953","nan, nan","['64'], ['63']",nan
+695,S-Bhf. Mahlsdorf,strassenbahn,['83'],"52.51221826761895, 13.612190748726157",nan,['83']+ 83+ 83+ 83,nan+ S-Bhf. Mahlsdorf+ S-Bhf. Mahlsdorf+ S-Bhf. Mahlsdorf
+696,"S-Bhf. Pankow, Florastrasse",strassenbahn,['49'],"52.56665022842682, 13.409775813699397",nan,"['22', '49', '46']",nan
+697,S-Bhf. Pankow-Heinersdorf,strassenbahn,['49'],"52.577507820515834, 13.427853061920917",nan,['49']+ 49+ 49+ 49,nan+ S-Bhf. Pankow-Heinersdorf+ S-Bhf. Pankow-Heinersdorf+ S-Bhf. Pankow-Heinersdorf
+698,S-Bhf. Schönhauser Allee,strassenbahn,['49'],"52.5493619,13.4135734",Q65088013,"['22', '49', '46']+ 46,49,22+ 46,49,22",nan+ nan+ nan
+699,S-Bhf. Tegel,bus,['A35'],,,,
+700,Saaleckplatz (Lichterfelde),bus,['A17'],,,,
+701,"Saarbrücker Strasse, Prenzlauer Tor",strassenbahn,['72'],"52.528602411479305, 13.417036440468811",nan,['72'],nan
+702,Sachsendamm Ecke Alboinstrasse,strassenbahn,['60'],"52.47043068842395, 13.372774905947711",nan,['60'],nan
+703,Samariterstrasse,u-bahn,['E'],,,,
+704,Sandkrug,bus,['A12'],,,,
+705,"Sandkrugbrücke, Lehrter Bahnhof",strassenbahn,['44'],"52.52767207168016, 13.37315298082495",nan,['44'],nan
+706,Savignyplatz,s-bahn,"['KBS 101', 'KBS 103', 'KBS 102']","52.5051746,13.3190659",Q554382,"['KBS 102', 'KBS 101', 'KBS 103']+ KBS 102,KBS 103,KBS 101+ KBS 101,KBS 102+ KBS 100h,KBS 100g,KBS 100k",nan+ Berlin Savignyplatz station+ Berlin Savignyplatz station+ Berlin Savignyplatz station
+707,Savignyplatz,strassenbahn,['75'],,,,
+708,Scharnhorststrasse Ecke Kielerstrasse,bus,['A19'],,,,
+709,Scharnweberstrasse Ecke Berlinerstrasse,strassenbahn,['41'],,,,
+710,Scheffelstrasse,strassenbahn,['65'],,,,
+711,Scheffelstrasse Ecke Möllendorferstrasse,strassenbahn,['14'],,,,
+712,"Schildow, Breitestrasse",bus,['A7'],,,,
+713,Schillerhof,bus,['A12'],,,,
+714,Schillingbrücke,strassenbahn,['1'],,,,
+715,Schillingstrasse,u-bahn,['E'],,,,
+716,Schlachtensee,s-bahn,['KBS 104'],"52.4401,13.2153",Q800509,['KBS 104']+ KBS 104+ KBS 104+ KBS 100e,nan+ Berlin-Schlachtensee station+ Berlin-Schlachtensee station+ Berlin-Schlachtensee station
+717,Schlesischer Bhf.,strassenbahn,['82'],,,,
+718,"Schlesischer Bhf./Ostbahnhof, Madaistrasse",bus,['A40'],,,,
+719,Schlesisches Tor,strassenbahn,"['3', '4']",,,,
+720,Schlesisches Tor,u-bahn,['B II'],"52.500833333333,13.441666666667",Q602282,"['B I']+ B I,B II+ B II,B I+ A I,A II",nan+ Schlesisches Tor+ Schlesisches Tor+ Schlesisches Tor
+721,Schloßbrücke/Luisenplatz,strassenbahn,['3'],,,,
+722,Schloßstrasse,bus,['A2'],,,,
+723,Schloßstrasse Ecke Albrechtstrasse,strassenbahn,['44'],"52.45689966776005, 13.320717501470192",nan,['44'],nan
+724,Schloßstrasse Ecke Alt-Friedrichsfelde,bus,['A43'],"52.509610401707185, 13.519032193156905",nan,['A8'],nan
+725,Schloßstrasse Ecke Bundesallee,strassenbahn,['77'],"52.464945681945046, 13.328508519102458",nan,"['73', '78', '77']",nan
+726,Schmargendorf,s-bahn,['KBS 100'],"52.479672222222,13.312441666667",Q302810,"['KBS 100', 'KBS 100a']+ KBS 100+ KBS 100+ KBS 100,KBS 100k",nan+ Berlin Heidelberger Platz station+ Berlin Heidelberger Platz station+ Berlin Heidelberger Platz station
+727,Scholzplatz,strassenbahn,['75'],"52.50686709880324, 13.22787843505697",nan,['75'],nan
+728,Schule,strassenbahn,['86'],,,,
+729,Schulstrasse Ecke Müllerstrasse,strassenbahn,['68'],"52.546390098849415, 13.359141321985554",nan,['68'],nan
+730,Schulzendorf (b Tegel),s-bahn,['KBS 105'],"52.6128,13.2462",Q800487,['KBS 105']+ KBS 105+ KBS 105+ KBS 100c,nan+ Schulzendorf railway station+ Schulzendorf railway station+ Schulzendorf railway station
+731,Schulzendorferstrasse Ecke Parchwitzerstrasse,bus,['A38'],,,,
+732,Schöneberg,s-bahn,"['KBS 100a', 'KBS 104', 'KBS 100']","52.4794,13.3517",Q543855,"['KBS 100', 'KBS 100a', 'KBS 104']+ KBS 100,KBS 104,KBS 100a+ KBS 104,KBS 100a,KBS 100+ KBS 100,KBS 100k,KBS 100e",nan+ Berlin-Schöneberg station+ Berlin-Schöneberg station+ Berlin-Schöneberg station
+733,"Schöneberg, Belzigerstrasse (Straßenbahnhof)",strassenbahn,['66'],,,,
+734,"Schöneberg, Gotenstrasse",strassenbahn,['25'],"52.48139451073493, 13.360284897059513",nan,['25'],nan
+735,"Schöneberg, Thorwaldsenstrasse (August-Viktoria-Krankenhaus",strassenbahn,['66'],,,,
+736,"Schönefeld, Dorfplatz",bus,['A36'],"52.342093062255294, 13.510465453623498",nan,['A36'],nan
+737,Schöneweide,s-bahn,"['KBS 100a', 'KBS 100d', 'KBS 103']","52.455,13.509444444444",Q111323931,"['KBS 103a', 'KBS 100a', 'KBS 103']+ KBS 103,KBS 103a,KBS 100a+ KBS 103,KBS 103a,KBS 100a,KBS 106+ KBS 106a,KBS 106,KBS 103,KBS 103a",nan+ S-Bahnhof Berlin Schöneweide+ S-Bahnhof Berlin Schöneweide+ S-Bahnhof Berlin Schöneweide
+738,Schönhauser Allee,s-bahn,['KBS 100'],"52.549329,13.413706",Q111264493,"['KBS 100', 'KBS 103a', 'KBS 100c', 'KBS 100b']+ KBS 100,KBS 100c,KBS 103a,KBS 100b+ KBS 106+ KBS 106a,KBS 104,KBS 106",nan+ S-Bahnhof Schönhauser Allee+ S-Bahnhof Schönhauser Allee+ S-Bahnhof Schönhauser Allee
+739,Schönhauser Allee,u-bahn,['A I'],"52.549328888889,13.413706111111",Q47014936,"['A I']+ A I,A II+ A+ A",nan+ Schönhauser Allee (metro station)+ Schönhauser Allee (metro station)+ Schönhauser Allee (metro station)
+740,Schönhauser Allee/Berlinerstrasse,strassenbahn,['3'],,,,
+741,Schönhauser Tor,bus,['A40'],,,,
+742,Schönholz,s-bahn,"['KBS 105', 'KBS 104']","52.5714,13.3814",Q800490,"['KBS 105', 'KBS 104']+ KBS 105,KBS 104+ KBS 105,KBS 106+ KBS 100c,KBS 100e",nan+ Berlin-Schönholz station+ Berlin-Schönholz station+ Berlin-Schönholz station
+743,Schönleinstrasse,u-bahn,['D'],,,,
+744,Seegefelderstrasse Ecke Zeppelinstrasse,bus,['A5'],,,,
+745,Seekorso,bus,['A6'],,,,
+746,Seelenbinderstrasse,strassenbahn,['87'],"52.4554632,13.5769303",Q66324934,"['84', '87']+ 84+ 83,84,86,82",nan+ Bahnhofstraße/Seelenbinderstraße+ Bahnhofstraße/Seelenbinderstraße
+747,Seestrasse,u-bahn,['C I'],,,,
+748,Seestrasse Ecke Müllerstrasse,bus,['A12'],,,,
+749,Seestrasse Ecke Müllerstrasse,strassenbahn,"['29', '25', '28']","52.55044753588031, 13.351974539230612",nan,"['68', '28', '29', '25']",nan
+750,Seestraßenbrücke,strassenbahn,['3'],,,,
+751,Senefelderplatz,u-bahn,['A I'],"52.53242,13.412743",Q32661454,"['A I']+ A I,A II+ A+ A",nan+ U-Bahnhof Senefelderplatz+ U-Bahnhof Senefelderplatz+ U-Bahnhof Senefelderplatz
+752,Siedlung Weiche,strassenbahn,['23'],,,,
+753,Siegfriedstrasse Ecke Alt-Friedrichfelde,strassenbahn,['69'],,,,
+754,Siegfriedstrasse Ecke Herzbergerstrasse,strassenbahn,['14'],,,,
+755,Siemensstadt,s-bahn,['KBS 100b'],"52.53923,13.26365",Q96080453,"['KBS 100d']+ KBS 100c,KBS 100d+ KBS 100c+ KBS 100b",nan+ Berlin-Siemensstadt railway station+ Berlin-Siemensstadt railway station+ Berlin-Siemensstadt railway station
+756,Siemensstadt (Verwaltungsgebäude),strassenbahn,['35'],,,,
+757,Siemensstrasse Ecke Leonorenstrasse,bus,"['A32 (Obus)', 'A2']","52.44438216972009, 13.338842091785603",nan,['A2'],nan
+758,Siemensstrasse Ecke Leopnorenstrasse,bus,['A17'],,,,
+759,Sonnenallee,s-bahn,['KBS 100'],"52.473,13.4558",Q481364,['KBS 100']+ KBS 100+ KBS 100+ KBS 100,nan+ Berlin Sonnenallee station+ Berlin Sonnenallee station+ Berlin Sonnenallee station
+760,Sonnenallee Ecke Teupitzerstrasse,strassenbahn,['95'],,,,
+761,Sophie-Charlotte-Platz,strassenbahn,['60'],,,,
+762,Sophie-Charlotte-Platz,u-bahn,['A I'],"52.510833333333,13.296666666667",Q657879,"['A I']+ B I,A I+ A I,B I+ A I",nan+ Sophie-Charlotte-Platz+ Sophie-Charlotte-Platz+ Sophie-Charlotte-Platz
+763,Spandau,s-bahn,"['KBS 101', 'KBS 103']","52.5347,13.1958",Q111325678,"['KBS 103a', 'KBS 101', 'KBS 103']+ KBS 103,KBS 103a,KBS 101+ KBS 101,KBS 103a+ KBS 100a,KBS 100g",nan+ S-Bahnhof Berlin Spandau+ S-Bahnhof Berlin Spandau+ S-Bahnhof Berlin Spandau
+764,Spandau Hakenfelde,strassenbahn,['75'],,,,
+765,Spandau Markt,strassenbahn,"['54', '75']",,,,
+766,Spandau Rathaus,strassenbahn,['75'],,,,
+767,Spandau Stadtpark,strassenbahn,['54'],,,,
+768,Spandau West,s-bahn,"['KBS 101', 'KBS 103']","52.5347,13.1958",Q111325678,"['KBS 103a', 'KBS 101', 'KBS 103']+ KBS 103,KBS 103a,KBS 101+ KBS 101,KBS 103a+ KBS 100a,KBS 100g",nan+ S-Bahnhof Berlin Spandau+ S-Bahnhof Berlin Spandau+ S-Bahnhof Berlin Spandau
+769,"Spandau, Askanierring",bus,['A34'],,,,
+770,"Spandau, Johannesstift",strassenbahn,['54'],"52.567653498027326, 13.191830361576441",nan,['54']+ 76,"nan+ Spandau, Johannesstift"
+771,"Spandau, Markt",bus,['A13'],"52.537581553341596, 13.203797305616401",nan,['A5'],nan
+772,"Spandau, Markt",strassenbahn,['55'],"52.53784349532438, 13.204135429364628",nan,"['75', '55', '54']+ 54,75,55,53,76+ 53,55,54,76,75+ 75,54,76,53","nan+ Spandau, Markt+ Spandau, Markt+ Spandau, Markt"
+773,"Spandau, Nauener Strasse",strassenbahn,['55'],,,,
+774,"Spandau, Rathaus",bus,['A5'],,,,
+775,"Spandau, Weinmeisterhornweg",bus,['A13'],"52.51105909016346, 13.171587026206698",nan,['A13'],nan
+776,"Spandau, rathaus",bus,['A31'],,,,
+777,Spandauer Bock,strassenbahn,['54'],,,,
+778,Spandauer Damm Ecke Königin-Elisabeth-Strasse,strassenbahn,['60'],,,,
+779,Spindlersfeld,s-bahn,['KBS 100d'],"52.4472,13.5613",Q4892371,['KBS 103a']+ KBS 103a+ KBS 103a+ KBS 106,nan+ Berlin-Spindlersfeld station+ Berlin-Spindlersfeld station+ Berlin-Spindlersfeld station
+780,Spittelmarkt,strassenbahn,"['73', '64', '72']","52.511243321361405, 13.40494539543245",nan,"['74', '82', '64']+ 74,72,64+ 64,72,74E,74+ 74E,74,72,64",nan+ Spittelmarkt+ Spittelmarkt+ Spittelmarkt
+781,Spittelmarkt,u-bahn,['A I'],"52.511111111111,13.403611111111",Q569489,"['A I']+ A I,A II+ A+ A",nan+ Spittelmarkt station+ Spittelmarkt station+ Spittelmarkt station
+782,"Spittelmarkt, Alexanderplatz, Grunerstrasse",strassenbahn,['74'],,,,
+783,Sportplatz,bus,['A38'],,,,
+784,Sportplatz (Reinickendorf-West),strassenbahn,"['29', '41', '25', '28']",,,,
+785,Spreetunnel,strassenbahn,['87'],,,,
+786,Springpfuhl,bus,['A43'],,,,
+787,Staaken,s-bahn,['KBS 101'],"52.5378,13.1414",Q477545,['KBS 101']+ KBS 101,nan+ Berlin-Staaken station
+788,"Staaken, Heidebergplan",bus,['A31'],,,,
+789,Stadtmitte,u-bahn,['C I'],"52.5122,13.3894",Q660066,A+ A,nan+ nan
+790,Stadtmitte (Mohrenstr.),u-bahn,['A I'],"52.5122,13.3894",Q660066,"['A I']+ A I,A II",nan+ Stadtmitte station
+791,Stadtpark Steglitz,bus,"['A32 (Obus)', 'A2', 'A33 (Obus)']","52.45110500206577, 13.337263231840865",nan,"['A33 (Obus)', 'A32 (Obus)', 'A2', 'A17']",nan
+792,Stalinallee,s-bahn,['KBS 100'],"52.514166666667,13.474722222222",Q111250033,"['KBS 100', 'KBS 103a', 'KBS 100c', 'KBS 100b']+ KBS 100,KBS 100c,KBS 103a,KBS 100b+ KBS 103a,KBS 106",nan+ S-Bahnhof Frankfurter Allee+ S-Bahnhof Frankfurter Allee
+793,Stalinallee,strassenbahn,['3'],"52.51808306742478, 13.432938339097822",nan,['1']+ 1,nan+ Stalinallee
+794,Stalinallee,u-bahn,['E'],"52.514166666667,13.474722222222",Q552872,['E'],nan
+795,Stalinallee Ecke Rosenfelderstrasse,strassenbahn,['14'],,,,
+796,Steglitz,s-bahn,['KBS 104'],"52.4562,13.3216",Q111264179,['KBS 104']+ KBS 104+ KBS 104+ KBS 100e,nan+ S-Bahnhof Rathaus Steglitz+ S-Bahnhof Rathaus Steglitz+ S-Bahnhof Rathaus Steglitz
+797,Steglitz Rathaus,strassenbahn,"['78', '40']",,,,
+798,"Steglitz, Birkbuschstrasse Ecke Siemensstrasse",strassenbahn,['40'],"52.44243083769542, 13.332094600927585",nan,['40'],nan
+799,"Steglitz, Stadtpark",strassenbahn,['88'],,,,
+800,Stettiner Bhf./Nordbahnhof,bus,['A9'],,,,
+801,Steuerhaus,strassenbahn,['64'],"52.530493,13.4614989",Q65553632,"['63', '69', '64']+ 63,69E,69,64+ 64,63+ 69E,63,69,64",nan+ Oderbruchstraße+ Oderbruchstraße+ Oderbruchstraße
+802,Stralauer Allee Ecke Warschauerstrasse,strassenbahn,['4'],,,,
+803,Strassenbahnhof Köpenick,strassenbahn,['83'],"52.4399134,13.5817824",Q66370900,['83']+ 83,nan+ Betriebshof Köpenick
+804,Strassenbahnhof Spandau,strassenbahn,['75'],,,,
+805,Strausberg,s-bahn,['KBS 101'],"52.531933,13.836933",Q7622326,"['KBS 101a', 'KBS 101']+ KBS 101a,KBS 101+ KBS 101,KBS 101c+ KBS 101,KBS 101c",nan+ Strausberg station+ Strausberg station+ Strausberg station
+806,Straußberger Platz,u-bahn,['E'],,,,
+807,Strelitzerstrasse Ecke Berlauerstrasse,strassenbahn,['4'],,,,
+808,Stromstrasse Ecke Alt-Moabit,strassenbahn,['44'],"52.525423127112404, 13.34283986840417",nan,['44']+ 2,nan+ nan
+809,Stromstrasse Ecke Turmstrasse,strassenbahn,"['35', '2', '25', '21']","52.52632254227867, 13.343185347872527",nan,['25'],nan
+810,Stuttgarter Platz,strassenbahn,['60'],"52.50566810519856, 13.306864497506904",nan,['60']+ 60+ 60,nan+ Stuttgarter Platz+ Stuttgarter Platz
+811,"Stölpchensee, Wilhelmplatz",bus,['A3'],"52.41240583089011, 13.141644518533106",nan,['A3']+ A3+ A3,nan+ nan+ nan
+812,Sundgauer Str.,s-bahn,['KBS 104'],"52.436291,13.273772",Q800513,['KBS 104']+ KBS 104+ KBS 104+ KBS 100e,nan+ Berlin Sundgauer Straße station+ Berlin Sundgauer Straße station+ Berlin Sundgauer Straße station
+813,Südende,s-bahn,['KBS 106'],"52.4481,13.3536",Q800511,['KBS 106']+ KBS 106+ KBS 106+ KBS 100d,nan+ Südende station+ Südende station+ Südende station
+814,Südstern,strassenbahn,['3'],"52.489200004098294, 13.407589825806399",nan,"['3', '2']+ 2",nan+ Südstern
+815,Südstern,u-bahn,['C I'],"52.489444444444,13.407777777778",Q656081,['C I']+ C I+ C I+ C I,nan+ Südstern+ Südstern+ Südstern
+816,Tatania-Palast,strassenbahn,['44'],,,,
+817,Tauroggenerstrasse Ecke Osnabrückerstrasse,strassenbahn,['55'],"52.52583942409434, 13.301930866209489",nan,['35'],nan
+818,Tegel,s-bahn,['KBS 105'],"52.5886,13.2894",Q800493,['KBS 105']+ KBS 105+ KBS 105+ KBS 100c,nan+ Berlin-Tegel railway station+ Berlin-Tegel railway station+ Berlin-Tegel railway station
+819,"Tegel, Alt-Tegel",strassenbahn,"['41', '25']","52.589904229457645, 13.283306953160388",nan,"['41', '25']",nan
+820,"Tegelort, Kurzestrasse",strassenbahn,['28'],"52.57057206458455, 13.229144292870291",nan,['28'],nan
+821,Teichstrasse,strassenbahn,['41'],,,,
+822,Teltow,s-bahn,['KBS 106'],"52.388056,13.299444",Q7697868,['KBS 106']+ KBS 106,nan+ Teltow railway station
+823,Teltower Damm Ecke Beeskowdamm,bus,['A1 (Obus)'],"52.40898247800021, 13.267419069153956",nan,['A1'],nan
+824,Tempelhof,s-bahn,"['KBS 100a', 'KBS 100']","52.4708,13.3854",Q111264368,"['KBS 100', 'KBS 100a']+ KBS 100,KBS 100a+ KBS 100a,KBS 100+ KBS 100,KBS 100k",nan+ S-Bahnhof Berlin-Tempelhof+ S-Bahnhof Berlin-Tempelhof+ S-Bahnhof Berlin-Tempelhof
+825,Tempelhof (Südring),strassenbahn,['96'],,,,
+826,Tempelhof (Südring),u-bahn,['C II'],"52.47075,13.385361111111",Q3983109,['C II']+ C II+ C II+ C II,nan+ Tempelhof (Südring) metro station+ Tempelhof (Südring) metro station+ Tempelhof (Südring) metro station
+827,Tempelhofer Damm Ecke Alt-Tempelhof,strassenbahn,['6'],"52.46597106229217, 13.385653163707664",nan,['6'],nan
+828,Thielallee Ecke Berlinerstrasse,bus,['A10'],"52.44187703328261, 13.282715632576368",nan,['A48'],nan
+829,Thielplatz,u-bahn,['A II'],"52.451111111111,13.282222222222",Q571331,"['A II']+ B II,A II+ A II,B II+ A II",nan+ Freie Universität (Thielplatz) metro station+ Freie Universität (Thielplatz) metro station+ Freie Universität (Thielplatz) metro station
+830,Thälmannplatz,u-bahn,['A I'],"52.51167,13.38472",Q658391,"['A I']+ A I,A II+ A+ A",nan+ Mohrenstraße metro station+ Mohrenstraße metro station+ Mohrenstraße metro station
+831,Tiergarten,s-bahn,"['KBS 101', 'KBS 103', 'KBS 102']","52.5144,13.3365",Q572112,"['KBS 102', 'KBS 101', 'KBS 103']+ KBS 102,KBS 103,KBS 101+ KBS 101,KBS 102+ KBS 100h,KBS 100g",nan+ Berlin-Tiergarten station+ Berlin-Tiergarten station+ Berlin-Tiergarten station
+832,Titania-Palast,bus,['A17'],,,,
+833,"Treptow, Elsenstrasse",strassenbahn,['3'],,,,
+834,"Treptow, Rathaus",strassenbahn,['91'],"52.483613037029144, 13.480317575778315",nan,['91'],nan
+835,Treptower Park,s-bahn,"['KBS 103', 'KBS 100']","52.4938,13.4618",Q559274,"['KBS 100', 'KBS 103a', 'KBS 103']+ KBS 103,KBS 103a,KBS 100+ KBS 103,KBS 103a,KBS 106+ KBS 106a,KBS 106,KBS 103,KBS 103a",nan+ Berlin Treptower Park station+ Berlin Treptower Park station+ Berlin Treptower Park station
+836,Treskow Allee Ecke Karlshorster landstrasse,strassenbahn,['69'],,,,
+837,Turmstrasse Ecke Gotzkowskystrasse,strassenbahn,['3'],"52.5272342163684, 13.330508113555048",nan,"['23', '25']",nan
+838,U-Bhf. Boddinstrasse,bus,['A4'],"52.48028651973042, 13.425279574612379",nan,['A4']+ A4+ A4,nan+ U-Bhf. Boddinstrasse+ U-Bhf. Boddinstrasse
+839,U-Bhf. Boddinstrasse,strassenbahn,['27'],"52.48027865367161, 13.4251690465859",nan,['27']+ 27+ 27,nan+ U-Bhf. Boddinstrasse+ U-Bhf. Boddinstrasse
+840,U-Bhf. Breitenbachplatz,bus,"['A1 (Obus)', 'A16']",,,,
+841,U-Bhf. Dahlem-Dorf,bus,['A11'],"52.45807069736877, 13.289706947871178",nan,A68+ A68+ A68,U-Bhf. Dahlem-Dorf+ U-Bhf. Dahlem-Dorf+ U-Bhf. Dahlem-Dorf
+842,U-Bhf. Dahlem-Dorf,strassenbahn,['40'],"52.45806630220509, 13.290310484320848",nan,['40'],nan
+843,U-Bhf. Danzigerstrasse,strassenbahn,['70'],,,,
+844,U-Bhf. Ernst-Reuter-Platz,strassenbahn,['44'],"52.511726576083134, 13.32260139821175",nan,"['54', '44', '25']+ 54,25,55,6,2,44+ 55+ 55",nan+ U-Bhf. Ernst-Reuter-Platz+ U-Bhf. Ernst-Reuter-Platz+ U-Bhf. Ernst-Reuter-Platz
+845,U-Bhf. Fehrbelliner Platz,bus,['A1 (Obus)'],"52.490390927187676, 13.31417745809863",nan,"['A1', 'A21', 'A4']+ AS3,A21,A4,A1+ A1,A4,A21,AS3+ AS3s,A1,A50,A89,A4,A21",nan+ U-Bhf. Fehrbelliner Platz+ U-Bhf. Fehrbelliner Platz+ U-Bhf. Fehrbelliner Platz
+846,U-Bhf. Flughafen,bus,['A4'],"52.48488595983176, 13.38599654703171",nan,"['A4']+ A4,A19+ A19,A4+ A4",nan+ U-Bhf. Flughafen+ U-Bhf. Flughafen+ U-Bhf. Flughafen
+847,U-Bhf. Friedrichsfelde,bus,"['A8', 'A43']","52.50624112361932, 13.512853060220209",nan,"['A8', 'A43']+ A8,A43+ A43,A8,A8E+ A43,A8,A8E",nan+ U-Bhf. Friedrichsfelde+ U-Bhf. Friedrichsfelde+ U-Bhf. Friedrichsfelde
+848,U-Bhf. Gesundbrunnen,strassenbahn,['41'],"52.54821570803947, 13.38830480823042",nan,['41'],nan
+849,U-Bhf. Grenzallee,strassenbahn,['47'],"52.46348178875844, 13.444377273631815",nan,"['47', '6']+ 6,47+ 47",nan+ U-Bhf. Grenzallee+ U-Bhf. Grenzallee
+850,U-Bhf. Görlitzer Bahnhof,strassenbahn,['88'],"52.4992556401354, 13.42774699131215",nan,['88'],nan
+851,U-Bhf. Innsbrucker Platz,strassenbahn,"['73', '66', '74']",,,,
+852,U-Bhf. Krumme Lanke,bus,['A3'],"52.44308074990891, 13.24046555211665",nan,"['A3']+ A3+ A3,A53+ A3,A53",nan+ U-Bhf. Krumme Lanke+ U-Bhf. Krumme Lanke+ U-Bhf. Krumme Lanke
+853,U-Bhf. Kurfürstenstrasse,strassenbahn,['88'],,,,
+854,U-Bhf. Moritzplatz,strassenbahn,"['1', '88']","52.503642228347914, 13.410708942561621",nan,['88']+ 88,nan+ U-Bhf. Moritzplatz
+855,U-Bhf. Neanderstrasse,strassenbahn,"['64', '92', '87']","52.511034507689814, 13.41638558442145",nan,"['11', '64']+ 64",nan+ U-Bhf. Neanderstrasse
+856,U-Bhf. Neu-Westend,bus,['A10'],,,,
+857,U-Bhf. Neukölln,strassenbahn,"['6', '26', '47']","52.46965567921364, 13.441614939772098",nan,"['15', '47', '6', '26']+ 15,47+ 15,47,26+ 15",nan+ U-Bhf. Neukölln+ U-Bhf. Neukölln+ U-Bhf. Neukölln
+858,U-Bhf. Nollendorfplatz,strassenbahn,['2'],,,,
+859,U-Bhf. Onkel-Toms-Hütte,bus,['A3'],"52.45007713385221, 13.251272593463492",nan,"['A3']+ A3,A66+ A66,A3",nan+ nan+ nan
+860,U-Bhf. Oskar-Helene-Heim,bus,"['A3E', 'A1 (Obus)', 'A3']","52.450279005868815, 13.270361987159156",nan,"['A18', 'A11', 'A3E', 'A3', 'A1']+ AS3,A18,A1,A3,A11+ A1,A11,AS3,A3,A18+ AS3s,A11,A1,A18,A3",nan+ U-Bhf. Oskar-Helene-Heim+ U-Bhf. Oskar-Helene-Heim+ U-Bhf. Oskar-Helene-Heim
+861,U-Bhf. Rathaus Neukölln,strassenbahn,['6'],"52.48155631900372, 13.434303920603828",nan,['6'],nan
+862,U-Bhf. Reichskanzlerplatz,bus,['A10'],,,,
+863,"U-Bhf. Richard-Wagner-Platz, Wintersteinstrasse",strassenbahn,['54'],,,,
+864,U-Bhf. Ruhleben,strassenbahn,['54'],"52.52595776615238, 13.241371866188729",nan,"['54']+ 53,54+ 53,54+ 54,53",nan+ U-Bhf. Ruhleben+ U-Bhf. Ruhleben+ U-Bhf. Ruhleben
+865,U-Bhf. Rüdesheimer Platz,bus,['A17'],"52.4720831087791, 13.314909778144818",nan,['A17']+ A17+ A17+ A17,"nan+ U-Bhf. Rüdesheimer Platz, Wiesbadener Strasse+ U-Bhf. Rüdesheimer Platz, Wiesbadener Strasse+ U-Bhf. Rüdesheimer Platz, Wiesbadener Strasse"
+866,U-Bhf. Schlesisches Tor,strassenbahn,"['92', '87']",,,,
+867,U-Bhf. Seestrasse,bus,['A16'],"52.550315408708514, 13.352298502985231",nan,"['A16', 'A12', 'A12S']+ A12,A16,A64,A12S+ A12,A16+ A12,A16,A12S,A89",nan+ U-Bhf. Seestrasse+ U-Bhf. Seestrasse+ U-Bhf. Seestrasse
+868,U-Bhf. Spittelmarkt,strassenbahn,"['92', '87']",,,,
+869,U-Bhf. Tempelhof,strassenbahn,['98'],"52.465913635809336, 13.385525190230428",nan,['96']+ 96,nan+ U-Bhf. Tempelhof
+870,U-Bhf. Thielplatz,bus,"['A11', 'A10']","52.45104520805668, 13.281736418792137",nan,['A10']+ A10+ A10+ A10,nan+ U-Bhf. Thielplatz+ U-Bhf. Thielplatz+ U-Bhf. Thielplatz
+871,U-Bhf. Uhlandstrasse,strassenbahn,"['76', '76E']","52.50265789390516, 13.325933098024459",nan,['51'],nan
+872,U-Bhf. Vinetastrasse,strassenbahn,['49'],"52.5596168,13.413232",Q65075426,"['22', '49', '46']+ 46E,49,46+ 46,49,22+ 46,49,22",nan+ U Vinetastraße+ U Vinetastraße+ U Vinetastraße
+873,U-Bhf. Wittenbergplatz,strassenbahn,"['25', '2', '6']",,,,
+874,Uhlandstrasse,u-bahn,['B II'],"52.5025,13.325555555556",Q568224,['B I'],nan
+875,Unter den Linden,s-bahn,"['KBS 105', 'KBS 104', 'KBS 105b', 'KBS 106']","52.516388888889,13.380833333333",Q477185,"['KBS 106', 'KBS 105', 'KBS 104']+ KBS 106,KBS 105,KBS 104",nan+ Berlin Brandenburger Tor station
+876,Unter den Linen Ecke Friedrichstrasse,strassenbahn,['46'],,,,
+877,Velten (Mark),s-bahn,['KBS 105'],"52.685,13.172222",Q19274518,['KBS 105']+ KBS 105+ KBS 105+ KBS 104d,nan+ Velten (Mark)+ Velten (Mark)+ Velten (Mark)
+878,Verwaltungsgebäude,strassenbahn,['55'],"52.53699730933042, 13.262264223562065",nan,['55'],nan
+879,Viktoria-Luise-Platz,u-bahn,['B I'],"52.496161111111,13.342702777778",Q178685,['B II']+ B III+ B III,nan+ Viktoria-Luise-Platz+ Viktoria-Luise-Platz
+880,Vollkropfgraben,strassenbahn,['86'],"52.4386665,13.5714889",Q66493847,['86']+ 86,nan+ Vollkropfgraben
+881,Voltastr.,u-bahn,['D'],"52.542093,13.393022",Q663308,['D']+ D+ D+ D,nan+ Voltastraße+ Voltastraße+ Voltastraße
+882,Voltastrasse Ecke Hultschiner Damm,strassenbahn,['83'],,,,
+883,Waidmannslust,s-bahn,['KBS 104'],"52.6064,13.321",Q800492,['KBS 104']+ KBS 104+ KBS 106+ KBS 100e,nan+ Berlin-Waidmannslust station+ Berlin-Waidmannslust station+ Berlin-Waidmannslust station
+884,Waidmannsluster Damm,bus,['A12'],,,,
+885,Waidmannslusterdamm Ecke Buddestrasse,bus,['A14'],,,,
+886,Waldstrasse Ecke Gotzkowskystrasse,strassenbahn,['2'],,,,
+887,Waldstrasse/Gotzkowskystrasse,strassenbahn,['25'],,,,
+888,Walter-Ulbricht-Stadion,u-bahn,['C I'],,,,
+889,Waltersdorfer Chaussee (Spinne),bus,['A36'],"52.392853002264665, 13.522677096747554+52.394164684841336, 13.521784916658106",nan,['A36']+ AD/36+ AD/36,nan+ Waltersdorfer Chaussee (Spinne)+ Waltersdorfer Chaussee (Spinne)
+890,Wannsee,Fähre,['Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt)'],"52.421928022812146, 13.175815964118582",nan,['Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt)']+ Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt)+ Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt),nan+ nan+ nan
+891,Wannsee,s-bahn,"['KBS 104', 'KBS 102']","52.4214,13.1792",Q111325896,"['KBS 104b', 'KBS 102', 'KBS 104']+ KBS 102,KBS 104b,KBS 104+ KBS 104,KBS 102+ KBS 100h,KBS 100e",nan+ S-Bahnhof Berlin Wannsee+ S-Bahnhof Berlin Wannsee+ S-Bahnhof Berlin Wannsee
+892,Warschaerstrasse Ecke Boxhagenerstrasse,strassenbahn,['13'],,,,
+893,Warschauer Brücke,strassenbahn,"['3', '4']","52.506746741445006, 13.449684491939852",nan,"3,4",nan
+894,Warschauer Brücke,u-bahn,['B II'],"52.5051,13.4491",Q18380174,"['B I']+ B I,B II",nan+ Warschauer Straße metro station
+895,Warschauer Str.,s-bahn,"['KBS 101', 'KBS 103', 'KBS 102']","52.506416666667,13.450955555556",Q111252298,"['KBS 100c', 'KBS 100b', 'KBS 102', 'KBS 101', 'KBS 103']+ KBS 103,KBS 102,KBS 100c,KBS 100b,KBS 101+ KBS 101,KBS 103,KBS 102+ KBS 101,KBS 102,KBS 103,KBS 103a,KBS 104",nan+ S-Bahnhof Warschauer Straße+ S-Bahnhof Warschauer Straße+ S-Bahnhof Warschauer Straße
+896,Warscherstrasse (Osthafen),strassenbahn,['82'],,,,
+897,Wartenbergerstrasse Ecke Falkenbergerstrasse,bus,['A39'],,,,
+898,Wasserwerk,bus,['A13'],"52.57559434763526, 13.265051965662359",nan,['A13'],nan
+899,Wedding,s-bahn,['KBS 100'],"52.5425,13.3661",Q638604,"['KBS 100', 'KBS 103a']+ KBS 100c,KBS 103a,KBS 100+ KBS 100+ KBS 100a,KBS 100",nan+ Berlin-Wedding station+ Berlin-Wedding station+ Berlin-Wedding station
+900,Weddingplatz,strassenbahn,"['35', '25', '23']","52.54152535588228, 13.369198549039789",nan,"['25', '23', '2']+ 25,2,35+ 2",nan+ Weddingplatz+ Weddingplatz
+901,Weg nach Saatwinkel,bus,['A13'],"52.56198891016255, 13.254628464556555",nan,['A13'],nan
+902,Weg nach Wartenberg,bus,['A39'],,,,
+903,Weidenweg Ecke Bersarinstrasse,strassenbahn,"['13', '65', '4']",,,,
+904,Weinmeisterstr.,u-bahn,['D'],"52.525833333333,13.403888888889",Q661876,['D']+ D,nan+ Weinmeisterstraße metro station
+905,Weinmeisterstrasse,strassenbahn,['65'],,,,
+906,"Weißensee, Buschallee",strassenbahn,['70'],,,,
+907,"Weißensee, Lindenallee",bus,['A45'],,,,
+908,"Weißensee, Rennbahnstrasse Ecke Parkstrasse",strassenbahn,['72'],"52.558956439159395, 13.462042583727074",nan,['72'],nan
+909,Weißenseer Weg,strassenbahn,['64'],"52.532258,13.476705",Q65942700,"['63', '64']+ 64,63+ 63,64",nan+ nan+ nan
+910,Weißenseer Weg Ecke Landsbergerstrasse,bus,['A41'],,,,
+911,Wendenschloß Ecke Ekhofstrasse,strassenbahn,['83'],"52.41633000736971, 13.589690772826726",nan,['83']+ 83+ 83+ 83,nan+ Wendenschloß Ecke Ekhofstrasse+ Wendenschloß Ecke Ekhofstrasse+ Wendenschloß Ecke Ekhofstrasse
+912,Wendenschloßstrasse Ecke Müggelheimerstrasse,strassenbahn,['95'],,,,
+913,Werftstrasse Ecke Alt-Moabit,strassenbahn,['2'],,,,
+914,Wernerwerk,s-bahn,['KBS 100b'],"52.534863,13.27599",Q96077001,"['KBS 100d']+ KBS 100c,KBS 100d+ KBS 100c+ KBS 100b",nan+ Berlin Wernerwerk station+ Berlin Wernerwerk station+ Berlin Wernerwerk station
+915,Wernerwerk,strassenbahn,['55'],"52.53552540037026, 13.275770067588141",nan,['35'],nan
+916,Westend,s-bahn,['KBS 100'],"52.5181,13.2844",Q323214,"['KBS 100', 'KBS 100a']+ KBS 100c,KBS 100+ KBS 100+ KBS 100",nan+ Berlin-Westend station+ Berlin-Westend station+ Berlin-Westend station
+917,"Westend, Königin-Elisabeth-Strasse",bus,['A10'],,,,
+918,Westkreuz,s-bahn,"['KBS 102', 'KBS 101', 'KBS 103', 'KBS 100']","52.5011,13.2839",Q678125,"['KBS 100', 'KBS 102', 'KBS 101', 'KBS 100a', 'KBS 103']+ KBS 103,KBS 100,KBS 102,KBS 100c,KBS 101+ KBS 101,KBS 102,KBS 100+ KBS 100h,KBS 100,KBS 100g",nan+ Berlin Westkreuz station+ Berlin Westkreuz station+ Berlin Westkreuz station
+919,Wiener Brücke,strassenbahn,['88'],"52.49588477409083, 13.43650068505988",nan,"['87', '88']+ 87,88+ 92,87+ 87,95",nan+ Wiener Brücke+ Wiener Brücke+ Wiener Brücke
+920,Wiesenbaude,bus,['A11'],"52.430495242672045, 13.31180861060395",nan,"['A11']+ A11+ A11+ A11,A84,A53",nan+ Wiesenbaude+ Wiesenbaude+ Wiesenbaude
+921,Wiesenbaude,strassenbahn,['74'],"52.43330952304924, 13.307272184416341",nan,"['74']+ 74,73+ 73,74",nan+ Wiesenbaude+ Wiesenbaude
+922,"Wiesenbaude, Giesendorferstrasse",strassenbahn,['73'],"52.43129460045176, 13.309610313200116",nan,['73'],nan
+923,Wildau,s-bahn,['KBS 103'],"52.32,13.634",Q8000974,['KBS 103']+ KBS 103+ KBS 103+ KBS 103,nan+ Wildau railway station+ Wildau railway station+ Wildau railway station
+924,Wilder Eber,bus,['A10'],,,,
+925,Wilhelm-Borgmann Brücke,strassenbahn,['26'],,,,
+926,Wilhelminenhofstrasse Ecke Edisonstrasse,strassenbahn,"['69', '95']","52.4619496,13.5139049",Q65951882,"['95', '87']+ 87+ 87,82",nan+ Wilhelminenhofstraße/Edisonstraße+ nan
+927,Wilhelmshagen,s-bahn,['KBS 102'],"52.4386,13.7222",Q800494,['KBS 102']+ KBS 102+ KBS 102+ KBS 102,nan+ Berlin Wilhelmshagen station+ Berlin Wilhelmshagen station+ Berlin Wilhelmshagen station
+928,Wilhelmsruh,s-bahn,['KBS 104'],"52.5814,13.3631",Q800495,['KBS 104']+ KBS 104+ KBS 106+ KBS 100e,nan+ Berlin-Wilhelmsruh station+ Berlin-Wilhelmsruh station+ Berlin-Wilhelmsruh station
+929,"Wilhelmsruh, Fontanestrasse",bus,['A45'],"52.58985938767378, 13.361193570257216",nan,"['A55', 'A45']+ A55,A45+ A55,A45+ A45,A55","nan+ Wilhelmsruh, Fontanestrasse+ Wilhelmsruh, Fontanestrasse+ Wilhelmsruh, Fontanestrasse"
+930,"Wilhelmsruh, Hauptstrasse",strassenbahn,"['36', '35']",,,,
+931,Wilhelmstrasse/Oberhoferweg,strassenbahn,['96'],,,,
+932,Wilmersdorf,s-bahn,"['KBS 100a', 'KBS 100']","52.477658333333,13.328525",Q464094,"['KBS 100', 'KBS 100a']+ KBS 100,KBS 100a+ KBS 100a,KBS 100+ KBS 100,KBS 100k",nan+ Berlin Bundesplatz station+ Berlin Bundesplatz station+ Berlin Bundesplatz station
+933,Wilmersdorfer Strasse Ecke Berlinerstrasse,strassenbahn,['44'],"52.51810404338167, 13.30449191797482",nan,['44'],nan
+934,Wilmersdorferstrasse Ecke Kurfürsten Damm,strassenbahn,"['76', '76E']",,,,
+935,Wittenau (Kremmener Bahn),s-bahn,['KBS 105'],"52.597013,13.334329",Q111264319,['KBS 105']+ KBS 105+ KBS 105+ KBS 100c,nan+ S-Bahnhof Berlin-Wittenau+ S-Bahnhof Berlin-Wittenau+ S-Bahnhof Berlin-Wittenau
+936,Wittenau (Nordbahn),s-bahn,['KBS 104'],"52.597013,13.334329",Q111264319,['KBS 104']+ KBS 104+ KBS 106+ KBS 100e,nan+ S-Bahnhof Berlin-Wittenau+ S-Bahnhof Berlin-Wittenau+ S-Bahnhof Berlin-Wittenau
+937,"Wittenau, Heilanstalt",strassenbahn,['68'],,,,
+938,"Wittenau, Nordbahn",strassenbahn,['68'],,,,
+939,Wittenbergplatz,strassenbahn,"['76', '77', '76E']","52.50185025953713, 13.343098350806866",nan,"['6', '25', '2', '77', '78']+ 77,78,54,25,55,6,2,53+ 2,55,77,78",nan+ Wittenbergplatz+ Wittenbergplatz
+940,Wittenbergplatz,u-bahn,"['A I', 'B II', 'A II']","52.501944444444,13.343055555556",Q692727,"['B I', 'A I']+ B II,A I,B I,A II+ A II,A I,B II,B I+ A I,B III,A II",nan+ Wittenbergplatz metro station+ Wittenbergplatz metro station+ Wittenbergplatz metro station
+941,Witzleben,s-bahn,['KBS 100'],"52.5078,13.2836",Q321266,"['KBS 100', 'KBS 100a']+ KBS 100c,KBS 100+ KBS 100+ KBS 100",nan+ Berlin Messe Nord/ICC station+ Berlin Messe Nord/ICC station+ Berlin Messe Nord/ICC station
+942,Wollankstr.,s-bahn,"['KBS 105', 'KBS 104']","52.5651525,13.3923627",Q800515,"['KBS 105', 'KBS 104']+ KBS 105,KBS 104+ KBS 105,KBS 106+ KBS 100c,KBS 100e",nan+ Berlin Wollankstraße station+ Berlin Wollankstraße station+ Berlin Wollankstraße station
+943,Wuhlheide,s-bahn,['KBS 102'],"52.4689,13.5533",Q800514,['KBS 102']+ KBS 102+ KBS 102+ KBS 102,nan+ Berlin Wuhlheide station+ Berlin Wuhlheide station+ Berlin Wuhlheide station
+944,Yorckstr.,s-bahn,"['KBS 106', 'KBS 105b']","52.491777777778,13.372141666667",Q21776729,"['KBS 106', 'KBS 105']+ KBS 106,KBS 105+ KBS 105,KBS 106+ KBS 100d,KBS 100c",nan+ Yorckstraße station+ Yorckstraße station+ Yorckstraße station
+945,Yorckstrasse/Gneisenaustrasse,strassenbahn,['99'],"52.492962048633196, 13.387727495303821",nan,"['98', '99']+ 98",nan+ Yorckstrasse/Gneisenaustrasse
+946,Zehlendorf,s-bahn,"['KBS 104', 'KBS 104a']","52.4309,13.2584",Q737962,"['KBS 104', 'KBS 104a']+ KBS 104a,KBS 104+ KBS 104,KBS 104a+ KBS 100f,KBS 100e",nan+ Berlin-Zehlendorf station+ Berlin-Zehlendorf station+ Berlin-Zehlendorf station
+947,Zehlendorf West,s-bahn,['KBS 104'],"52.4375,13.2325",Q315891,['KBS 104'],nan
+948,Zentralviehhof,s-bahn,['KBS 100'],"52.5238,13.4644",Q800512,"['KBS 100', 'KBS 103a', 'KBS 100c', 'KBS 100b']+ KBS 100,KBS 100c,KBS 103a,KBS 100b+ KBS 103a,KBS 106+ KBS 106a,KBS 104,KBS 106",nan+ Berlin Storkower Straße station+ Berlin Storkower Straße station+ Berlin Storkower Straße station
+949,Zepernick (Kr Niederbarnim),s-bahn,['KBS 106'],"52.6598,13.5342",Q801657,['KBS 106']+ KBS 106,nan+ Zepernick station
+950,Zeuthen,s-bahn,['KBS 103'],"52.3486,13.6274",Q8069824,['KBS 103']+ KBS 103+ KBS 103+ KBS 103,nan+ Zeuthen railway station+ Zeuthen railway station+ Zeuthen railway station
+951,Zionskirchplatz,strassenbahn,['70'],,,,
+952,Zionskirchstrasse,strassenbahn,['49'],"52.53410664596866, 13.404963978167501",nan,"['70', '22', '49', '46']",nan
+953,Zoologischer Garten,s-bahn,"['KBS 101', 'KBS 103', 'KBS 102']","52.507222222222,13.3325",Q111326238,"['KBS 102', 'KBS 101', 'KBS 103']+ KBS 102,KBS 103,KBS 101+ KBS 101,KBS 102+ KBS 100h,KBS 100g,KBS 100k",nan+ S-Bahnhof Berlin Zoologischer Garten+ S-Bahnhof Berlin Zoologischer Garten+ S-Bahnhof Berlin Zoologischer Garten
+954,Zoologischer Garten,u-bahn,['A I'],"52.5058669,13.3330236",Q4024764,"['A I']+ B I,A I+ A I,B I+ A I,G",nan+ Zoologischer Garten metro station+ Zoologischer Garten metro station+ Zoologischer Garten metro station
+955,Zossenerstrasse Ecke Gneisenaustrasse,strassenbahn,['3'],,,,
+956,Zur Haveldüne (Weinmeisterhöhe),bus,['A34'],,,,
