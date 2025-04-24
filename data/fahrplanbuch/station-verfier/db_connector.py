@@ -23,7 +23,7 @@ class StationVerifierDB:
         self.username = username
         
         # Get password from environment variable if not provided
-        self.password = password or os.environ.get("NEO4J_PASSWORD", "BerlinTransport2024")
+        self.password = password or os.environ.get("NEO4J_PASSWORD")
         
         self.driver = None
         

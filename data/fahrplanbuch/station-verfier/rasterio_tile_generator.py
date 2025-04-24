@@ -7,6 +7,7 @@ from pathlib import Path
 import mercantile
 from PIL import Image
 import numpy as np
+from pyproj import Transformer
 
 def generate_xyz_tiles_rasterio(tiff_file, output_dir, min_zoom=10, max_zoom=16):
     """Generate XYZ tiles using Rasterio for georeferenced images"""
@@ -35,7 +36,6 @@ def generate_xyz_tiles_rasterio(tiff_file, output_dir, min_zoom=10, max_zoom=16)
             print(f"Source image CRS: {src.crs}")
             
             # Convert bounds to WGS84 (EPSG:4326) for mercantile
-            from pyproj import Transformer
             if src.crs.to_epsg() != 4326:
                 transformer = Transformer.from_crs(src.crs, "EPSG:4326", always_xy=True)
                 west_lng, south_lat = transformer.transform(west, south)
