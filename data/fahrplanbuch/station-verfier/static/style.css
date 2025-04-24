@@ -1,0 +1,583 @@
+/* 
+ * Station Verifier Application Stylesheet
+ * This CSS provides modern styling for the station location verification tool
+ */
+
+/* Base Styles & Layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f7;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    height: 100vh;
+    position: relative;
+}
+
+#sidebar {
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 1.25rem;
+    overflow-y: auto;
+    z-index: 100;
+}
+
+#map {
+    height: 100%;
+}
+
+/* Typography */
+h2, h3, h4 {
+    margin-top: 0;
+    font-weight: 600;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* App Header */
+.app-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.app-header p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Control Groups */
+.control-group {
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 1.25rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Form Elements */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+select, button, input[type="text"] {
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+select:focus, input[type="text"]:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+    outline: none;
+}
+
+/* Toggle Options */
+.toggle-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.toggle-option input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+/* Opacity Slider */
+.opacity-slider {
+    margin-top: 0.75rem;
+}
+
+.opacity-slider label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opacity-slider input {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+/* Buttons */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 0.75rem;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+}
+
+button.primary-button {
+    background-color: #3498db;
+}
+
+button.primary-button:hover {
+    background-color: #2980b9;
+}
+
+button.secondary-button {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+button.secondary-button:hover {
+    background-color: #e1e1e1;
+}
+
+/* Search */
+.search-container {
+    position: relative;
+    margin-bottom: 0.75rem;
+}
+
+.search-container input {
+    padding-left: 2rem;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23aaa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>');
+    background-repeat: no-repeat;
+    background-position: 0.75rem center;
+}
+
+/* Station List */
+.station-list {
+    margin-top: 0.75rem;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.station-item {
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.15s;
+    cursor: pointer;
+}
+
+.station-item:last-child {
+    border-bottom: none;
+}
+
+.station-item:hover {
+    background-color: #f5f9ff;
+}
+
+.station-item.selected {
+    background-color: #ebf5ff;
+    border-left: 3px solid #3498db;
+}
+
+.station-item.corrected {
+    color: #27ae60;
+}
+
+.transport-type {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+    color: white;
+    font-weight: bold;
+    font-size: 0.75rem;
+    flex-shrink: 0;
+}
+
+.type-ubahn { background-color: #0000ff; }
+.type-sbahn { background-color: #009900; }
+.type-strassenbahn, .type-tram { background-color: #ff0000; }
+.type-bus { background-color: #996633; }
+.type-faehre, .type-FÃ¤hre { background-color: #0099cc; }
+
+.station-details {
+    flex: 1;
+}
+
+.station-name {
+    font-weight: 500;
+}
+
+.station-line {
+    font-size: 0.8rem;
+    color: #777;
+    margin-top: 0.2rem;
+}
+
+/* Current Station Details */
+.detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.detail-header h4 {
+    margin: 0;
+}
+
+.status-tag {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.status-original {
+    background-color: #f1f1f1;
+    color: #555;
+}
+
+.status-corrected {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+.status-modified {
+    background-color: #fff8e1;
+    color: #f57c00;
+}
+
+.detail-info {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    padding: 0.75rem;
+}
+
+.detail-row {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.detail-row:last-child {
+    margin-bottom: 0;
+}
+
+.detail-label {
+    font-weight: 600;
+    width: 30%;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.detail-value {
+    flex: 1;
+    font-size: 0.9rem;
+}
+
+.detail-value.coord {
+    font-family: monospace;
+    font-size: 0.85rem;
+}
+
+/* Status Indicators */
+.status-indicator {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    display: none;
+    animation: fadeIn 0.3s;
+}
+
+.status-processing {
+    background-color: #fff8e1;
+    border-left: 4px solid #ffc107;
+    color: #846104;
+    display: block;
+}
+
+.status-success {
+    background-color: #e8f5e9;
+    border-left: 4px solid #4caf50;
+    color: #2e7d32;
+    display: block;
+}
+
+.status-error {
+    background-color: #ffebee;
+    border-left: 4px solid #f44336;
+    color: #c62828;
+    display: block;
+}
+
+/* Map Markers */
+.station-marker {
+    width: 100%;
+    height: 100%;
+    background-color: #3498db;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.station-marker.selected {
+    background-color: #f39c12;
+    border: 3px solid white;
+}
+
+.station-marker.corrected {
+    background-color: #27ae60;
+}
+
+.station-marker.selected.corrected {
+    background-color: #16a085;
+    border: 3px solid white;
+}
+
+/* Toast Notifications */
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(100px);
+    opacity: 0;
+    transition: transform 0.3s, opacity 0.3s;
+    z-index: 1000;
+}
+
+.toast.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.toast-success {
+    background-color: #27ae60;
+}
+
+.toast-error {
+    background-color: #e74c3c;
+}
+
+.toast-info {
+    background-color: #3498db;
+}
+
+/* Mobile Responsive */
+.mobile-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 320px;
+    }
+    
+    #sidebar {
+        order: 2;
+        height: 320px;
+        overflow-y: auto;
+        transform: translateY(calc(100% - 40px));
+        transition: transform 0.3s ease;
+    }
+    
+    #sidebar.mobile-open {
+        transform: translateY(0);
+    }
+    
+    #map {
+        order: 1;
+    }
+    
+    .mobile-toggle {
+        display: block;
+        position: absolute;
+        bottom: 320px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+        background: white;
+        border-radius: 4px 4px 0 0;
+        padding: 6px 12px;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        width: 40px;
+        text-align: center;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Tabbed Layout Styles */
+
+/* Tab Navigation */
+.tab-navigation {
+    display: flex;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 1rem;
+}
+
+.tab-button {
+    flex: 1;
+    background: none;
+    border: none;
+    padding: 0.75rem 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #666;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+    transition: color 0.2s;
+}
+
+.tab-button:hover {
+    color: #3498db;
+    background-color: transparent;
+}
+
+.tab-button.active {
+    color: #3498db;
+}
+
+.tab-button.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #3498db;
+}
+
+/* Tab Content */
+.tab-content {
+    position: relative;
+    min-height: 300px;
+}
+
+.tab-pane {
+    display: none;
+    animation: fadeEffect 0.3s;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* Compact Current Station Display */
+.current-station {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+}
+
+.current-station .detail-header {
+    margin-bottom: 0.5rem;
+}
+
+.current-station .detail-info {
+    margin-bottom: 0.75rem;
+}
+
+/* Text Button for Toggle */
+.text-button {
+    background: none;
+    border: none;
+    color: #3498db;
+    padding: 0.25rem 0;
+    text-align: center;
+    font-size: 0.85rem;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.text-button:hover {
+    text-decoration: underline;
+    background: none;
+}
+
+/* More Compact Station List */
+.station-list {
+    max-height: 400px; /* Taller since it's now in its own tab */
+}
+
+.station-item {
+    padding: 0.5rem 0.6rem;
+}
+
+/* Improved Status Tag Positioning */
+.status-tag {
+    font-size: 0.7rem;
+    padding: 0.15rem 0.4rem;
+}
+
+/* Make the sidebar more compact overall */
+#sidebar {
+    padding: 1rem;
+}
+
+.control-group {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+/* Adjust for mobile */
+@media (max-width: 768px) {
+    #sidebar.mobile-open {
+        height: 450px; /* Slightly taller to accommodate tabs */
+    }
+    
+    .tab-button {
+        font-size: 0.75rem;
+        padding: 0.6rem 0.3rem;
+    }
+}

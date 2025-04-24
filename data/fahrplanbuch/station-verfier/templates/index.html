@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Station Location Verifier</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Leaflet Draw Plugin CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" />
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Tabbed Sidebar Structure -->
+        <div id="sidebar">
+            <div class="app-header">
+                <h2>Station Verifier</h2>
+                <p>Verify and correct station locations for historical Berlin transport</p>
+            </div>
+            
+            <!-- Selected Station Panel - Always visible when a station is selected -->
+            <div class="control-group current-station" id="current-station" style="display: none;">
+                <div class="detail-header">
+                    <h4 id="selected-station-name">Station Name</h4>
+                    <div class="status-tag status-original" id="selected-station-status">Original</div>
+                </div>
+                <div class="detail-info">
+                    <div class="detail-row">
+                        <span class="detail-label">Current:</span>
+                        <span class="detail-value coord" id="selected-station-coords">0.000000, 0.000000</span>
+                    </div>
+                </div>
+                <button id="save-correction" class="primary-button" style="display: none;">Save New Location</button>
+                <button id="details-toggle" class="text-button">Show Full Details</button>
+            </div>
+            
+            <!-- Tab Navigation -->
+            <div class="tab-navigation">
+                <button class="tab-button active" data-tab="dataset">Dataset</button>
+                <button class="tab-button" data-tab="map">Map Layers</button>
+                <button class="tab-button" data-tab="stations">Stations</button>
+                <button class="tab-button" data-tab="tools">Tools</button>
+            </div>
+            
+            <!-- Tab Content -->
+            <div class="tab-content">
+                <!-- Dataset Tab -->
+                <div class="tab-pane active" id="dataset-tab">
+                    <div class="control-group">
+                        <label for="year-select">Select Dataset:</label>
+                        <select id="year-select">
+                            <option value="">-- Select --</option>
+                            {% for year_side in year_sides %}
+                            <option value="{{ year_side.id }}">{{ year_side.year }} ({{ year_side.side }})</option>
+                            {% endfor %}
+                        </select>
+                        
+                        <div class="line-filter" id="line-filter-container" style="display: none;">
+                            <label for="line-select">Filter by Line:</label>
+                            <select id="line-select">
+                                <option value="all">All Lines</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Map Layers Tab -->
+                <div class="tab-pane" id="map-tab">
+                    <div class="control-group">
+                        <div class="toggle-option">
+                            <input type="checkbox" id="osm-layer" checked>
+                            <label for="osm-layer">OpenStreetMap</label>
+                        </div>
+                        <div class="toggle-option">
+                            <input type="checkbox" id="historic-layer">
+                            <label for="historic-layer">Historical Map</label>
+                        </div>
+                        <div id="historic-layer-selector" style="display: none;">
+                            <select id="historic-map-select">
+                                <option value="">Loading tile sets...</option>
+                            </select>
+                            <div class="opacity-slider">
+                                <label for="opacity-slider">Opacity: <span id="opacity-value">70%</span></label>
+                                <input type="range" id="opacity-slider" min="0.1" max="1.0" step="0.1" value="0.7">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stations Tab -->
+                <div class="tab-pane" id="stations-tab">
+                    <div class="control-group station-list-container">
+                        <div class="search-container">
+                            <input type="text" id="station-search" placeholder="Search stations...">
+                        </div>
+                        <div class="station-list" id="station-list"></div>
+                    </div>
+                </div>
+                
+                <!-- Tools Tab -->
+                <div class="tab-pane" id="tools-tab">
+                    <div class="control-group export-controls">
+                        <button id="export-btn" class="primary-button">Export Corrected Data</button>
+                        <button id="process-tif-btn" class="secondary-button">Process TIF Files</button>
+                        <div id="process-status" class="status-indicator"></div>
+                    </div>
+                    
+                    <!-- Full Station Details (moved here from always-visible area) -->
+                    <div class="control-group" id="full-station-details" style="display: none;">
+                        <h3>Station Details</h3>
+                        <div id="station-details"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="map"></div>
+        
+        <!-- Mobile Toggle -->
+        <div class="mobile-toggle" id="mobile-toggle">
+            <span class="toggle-icon">▲</span>
+        </div>
+    </div>
+    
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Leaflet Draw Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+    
+    <script>
+        // Map initialization
+        const map = L.map('map').setView([52.5200, 13.4050], 12);  // Berlin center
+        
+        // Base layers
+        const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Define custom markers
+        const defaultIcon = L.divIcon({
+            html: '<div class="station-marker"></div>',
+            className: '',
+            iconSize: [12, 12]
+        });
+
+        const selectedIcon = L.divIcon({
+            html: '<div class="station-marker selected"></div>',
+            className: '',
+            iconSize: [16, 16]
+        });
+
+        const correctedIcon = L.divIcon({
+            html: '<div class="station-marker corrected"></div>',
+            className: '',
+            iconSize: [12, 12]
+        });
+
+        const selectedCorrectedIcon = L.divIcon({
+            html: '<div class="station-marker selected corrected"></div>',
+            className: '',
+            iconSize: [16, 16]
+        });
+
+        // Historical tile layer state
+        let historicalLayer = null;
+        let availableTileSets = [];
+
+        // Variables for app state
+        let currentYearSide = null;
+        let stationsData = null;
+        let linesData = null;
+        let stationMarkers = L.layerGroup().addTo(map);
+        let selectedStation = null;
+        let selectedMarker = null;
+        let markerDraggedPosition = null;
+        let corrections = {};
+        
+        // Fetch available tile sets when page loads
+        fetch('/available_tile_sets')
+            .then(response => response.json())
+            .then(data => {
+                availableTileSets = data;
+                
+                // Update the historic map options in the dropdown
+                const historicMapSelect = document.getElementById('historic-map-select');
+                historicMapSelect.innerHTML = '';
+                
+                if (data.length === 0) {
+                    const option = document.createElement('option');
+                    option.value = '';
+                    option.textContent = 'No tile sets available - process TIF files first';
+                    historicMapSelect.appendChild(option);
+                } else {
+                    data.forEach(tileSet => {
+                        const option = document.createElement('option');
+                        option.value = tileSet.name;
+                        option.textContent = tileSet.name;
+                        option.dataset.url = tileSet.url;
+                        option.dataset.minZoom = Math.min(...tileSet.zoom_levels);
+                        option.dataset.maxZoom = Math.max(...tileSet.zoom_levels);
+                        historicMapSelect.appendChild(option);
+                    });
+                }
+            })
+            .catch(error => console.error('Error fetching tile sets:', error));
+
+        // Fetch all existing corrections
+        fetch('/get_corrections')
+            .then(response => response.json())
+            .then(data => {
+                corrections = data;
+            })
+            .catch(error => console.error('Error fetching corrections:', error));
+        
+        // Layer control toggle events
+        document.getElementById('osm-layer').addEventListener('change', function(e) {
+            if(e.target.checked) {
+                map.addLayer(osmLayer);
+            } else {
+                map.removeLayer(osmLayer);
+            }
+        });
+        
+        document.getElementById('historic-layer').addEventListener('change', function(e) {
+            const historicLayerSelector = document.getElementById('historic-layer-selector');
+            
+            if(e.target.checked) {
+                historicLayerSelector.style.display = 'block';
+                updateHistoricalLayer();
+            } else {
+                historicLayerSelector.style.display = 'none';
+                
+                // Remove historical layer if it exists
+                if (historicalLayer && map.hasLayer(historicalLayer)) {
+                    map.removeLayer(historicalLayer);
+                    historicalLayer = null;
+                }
+            }
+        });
+        
+        document.getElementById('historic-map-select').addEventListener('change', updateHistoricalLayer);
+        
+        // Year selection
+        document.getElementById('year-select').addEventListener('change', function(e) {
+            currentYearSide = e.target.value;
+            if (!currentYearSide) return;
+            
+            // Clear the map and station list
+            stationMarkers.clearLayers();
+            document.getElementById('station-list').innerHTML = '';
+            document.getElementById('current-station').style.display = 'none';
+            
+            // Fetch data for the selected year_side
+            fetch(`/data/${currentYearSide}`)
+                .then(response => response.json())
+                .then(data => {
+                    stationsData = data.geojson;
+                    linesData = data.lines;
+                    
+                    // Populate line filter
+                    const lineSelect = document.getElementById('line-select');
+                    lineSelect.innerHTML = '<option value="all">All Lines</option>';
+                    
+                    const uniqueLines = {};
+                    linesData.forEach(line => {
+                        uniqueLines[line.line_id] = {
+                            name: line.line_name,
+                            type: line.type
+                        };
+                    });
+                    
+                    Object.entries(uniqueLines).forEach(([id, line]) => {
+                        const option = document.createElement('option');
+                        option.value = id;
+                        option.textContent = `${line.name} (${line.type})`;
+                        lineSelect.appendChild(option);
+                    });
+                    
+                    document.getElementById('line-filter-container').style.display = 'block';
+                    
+                    // Add stations to map
+                    displayStations();
+                })
+                .catch(error => console.error('Error fetching data:', error));
+        });
+
+        // Process TIF files button
+        document.getElementById('process-tif-btn').addEventListener('click', function() {
+            const statusIndicator = document.getElementById('process-status');
+            
+            statusIndicator.className = 'status-indicator status-processing';
+            statusIndicator.textContent = 'Processing TIF files... This may take several minutes.';
+            
+            this.disabled = true;
+            
+            // First fetch list of TIF files
+            fetch('/list_tif_files')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        statusIndicator.className = 'status-indicator status-error';
+                        statusIndicator.textContent = 'Error: ' + data.error;
+                        this.disabled = false;
+                        return;
+                    }
+                    
+                    if (!data.tif_files || data.tif_files.length === 0) {
+                        statusIndicator.className = 'status-indicator status-error';
+                        statusIndicator.textContent = 'No TIF files found in the tiles/tif directory. Please add TIF files first.';
+                        this.disabled = false;
+                        return;
+                    }
+                    
+                    // Process all TIF files
+                    fetch('/process_all_tifs', {
+                        method: 'POST'
+                    })
+                    .then(response => response.json())
+                    .then(result => {
+                        if (result.status === 'success') {
+                            statusIndicator.className = 'status-indicator status-success';
+                            statusIndicator.textContent = result.message;
+                            showToast('TIF files processed successfully', 'success');
+                            
+                            // Refresh available tile sets
+                            fetch('/available_tile_sets')
+                                .then(response => response.json())
+                                .then(tilesData => {
+                                    availableTileSets = tilesData;
+                                    
+                                    // Update the dropdown
+                                    const historicMapSelect = document.getElementById('historic-map-select');
+                                    historicMapSelect.innerHTML = '';
+                                    
+                                    if (tilesData.length === 0) {
+                                        const option = document.createElement('option');
+                                        option.value = '';
+                                        option.textContent = 'No tile sets available';
+                                        historicMapSelect.appendChild(option);
+                                    } else {
+                                        tilesData.forEach(tileSet => {
+                                            const option = document.createElement('option');
+                                            option.value = tileSet.name;
+                                            option.textContent = tileSet.name;
+                                            option.dataset.url = tileSet.url;
+                                            option.dataset.minZoom = Math.min(...tileSet.zoom_levels);
+                                            option.dataset.maxZoom = Math.max(...tileSet.zoom_levels);
+                                            historicMapSelect.appendChild(option);
+                                        });
+                                    }
+                                })
+                                .catch(error => {
+                                    console.error('Error refreshing tile sets:', error);
+                                });
+                        } else {
+                            statusIndicator.className = 'status-indicator status-error';
+                            statusIndicator.textContent = 'Error: ' + result.message;
+                            showToast('Error processing TIF files', 'error');
+                        }
+                        
+                        this.disabled = false;
+                    })
+                    .catch(error => {
+                        console.error('Error processing TIF files:', error);
+                        statusIndicator.className = 'status-indicator status-error';
+                        statusIndicator.textContent = 'An error occurred while processing TIF files.';
+                        this.disabled = false;
+                        showToast('Error processing TIF files', 'error');
+                    });
+                })
+                .catch(error => {
+                    console.error('Error listing TIF files:', error);
+                    statusIndicator.className = 'status-indicator status-error';
+                    statusIndicator.textContent = 'An error occurred while listing TIF files.';
+                    this.disabled = false;
+                    showToast('Error listing TIF files', 'error');
+                });
+        });
+        
+        // Line filter
+        document.getElementById('line-select').addEventListener('change', function(e) {
+            displayStations();
+        });
+        
+        // Station search
+        document.getElementById('station-search').addEventListener('input', function(e) {
+            const searchText = e.target.value.toLowerCase();
+            
+            const stationItems = document.querySelectorAll('.station-item');
+            stationItems.forEach(item => {
+                const name = item.getAttribute('data-name').toLowerCase();
+                if (name.includes(searchText)) {
+                    item.style.display = 'flex';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+        
+        // Save correction button
+        document.getElementById('save-correction').addEventListener('click', function() {
+            if (!selectedStation || !markerDraggedPosition) return;
+            
+            // Save correction
+            fetch('/save_correction', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    year_side: currentYearSide,
+                    stop_id: selectedStation.properties.stop_id,
+                    lat: markerDraggedPosition.lat,
+                    lng: markerDraggedPosition.lng
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                showToast('Station location saved successfully!', 'success');
+                
+                // Update local corrections
+                if (!corrections[currentYearSide]) {
+                    corrections[currentYearSide] = {};
+                }
+                corrections[currentYearSide][selectedStation.properties.stop_id] = {
+                    lat: markerDraggedPosition.lat,
+                    lng: markerDraggedPosition.lng
+                };
+                
+                // Refresh display
+                displayStations();
+            })
+            .catch(error => {
+                console.error('Error saving correction:', error);
+                showToast('Error saving station location', 'error');
+            });
+        });
+        
+        // Export button
+        document.getElementById('export-btn').addEventListener('click', function() {
+            fetch('/export_corrections')
+                .then(response => response.json())
+                .then(data => {
+                    showToast('Data exported to "export" directory!', 'success');
+                })
+                .catch(error => {
+                    console.error('Error exporting data:', error);
+                    showToast('Error exporting data', 'error');
+                });
+        });
+
+        // Tab functionality
+        document.addEventListener('DOMContentLoaded', () => {
+            // Tab switching
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const tabPanes = document.querySelectorAll('.tab-pane');
+            
+            tabButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Deactivate all tabs
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    tabPanes.forEach(pane => pane.classList.remove('active'));
+                    
+                    // Activate the clicked tab
+                    button.classList.add('active');
+                    const tabId = button.getAttribute('data-tab');
+                    document.getElementById(`${tabId}-tab`).classList.add('active');
+                });
+            });
+            
+            // Toggle for full station details
+            const detailsToggle = document.getElementById('details-toggle');
+            if (detailsToggle) {
+                detailsToggle.addEventListener('click', () => {
+                    const fullDetails = document.getElementById('full-station-details');
+                    const isVisible = fullDetails.style.display === 'block';
+                    
+                    fullDetails.style.display = isVisible ? 'none' : 'block';
+                    detailsToggle.textContent = isVisible ? 'Show Full Details' : 'Hide Full Details';
+                    
+                    // Switch to tools tab if showing details
+                    if (!isVisible) {
+                        document.querySelector('.tab-button[data-tab="tools"]').click();
+                    }
+                });
+            }
+            
+            // Auto-switch to stations tab when selecting a station from the map
+            const originalSelectStation = selectStation;
+            selectStation = function(feature, marker) {
+                originalSelectStation(feature, marker);
+                
+                // Switch to stations tab
+                document.querySelector('.tab-button[data-tab="stations"]').click();
+                
+                // Update the compact station display
+                document.getElementById('selected-station-name').textContent = feature.properties.name;
+                
+                // Set status class
+                const statusElement = document.getElementById('selected-station-status');
+                if (markerDraggedPosition) {
+                    statusElement.className = 'status-tag status-modified';
+                    statusElement.textContent = 'Modified (Unsaved)';
+                } else if (feature.properties.corrected) {
+                    statusElement.className = 'status-tag status-corrected';
+                    statusElement.textContent = 'Corrected';
+                } else {
+                    statusElement.className = 'status-tag status-original';
+                    statusElement.textContent = 'Original';
+                }
+                
+                // Update coordinates in compact view
+                const coords = markerDraggedPosition || 
+                            {lat: feature.geometry.coordinates[1], lng: feature.geometry.coordinates[0]};
+                document.getElementById('selected-station-coords').textContent = 
+                    `${coords.lat.toFixed(6)}, ${coords.lng.toFixed(6)}`;
+            };
+        });
+        
+        // Update opacity slider value display
+        document.getElementById('opacity-slider').addEventListener('input', function(e) {
+            document.getElementById('opacity-value').textContent = `${Math.round(e.target.value * 100)}%`;
+            if (historicalLayer) {
+                historicalLayer.setOpacity(parseFloat(e.target.value));
+            }
+        });
+        
+        // Mobile toggle
+        document.getElementById('mobile-toggle').addEventListener('click', function() {
+            const sidebar = document.getElementById('sidebar');
+            const toggleIcon = this.querySelector('.toggle-icon');
+            
+            sidebar.classList.toggle('mobile-open');
+            
+            if (sidebar.classList.contains('mobile-open')) {
+                toggleIcon.textContent = '▼';
+            } else {
+                toggleIcon.textContent = '▲';
+            }
+        });
+        
+        // Function to update the historical layer
+        function updateHistoricalLayer() {
+            // Check if historical layer is enabled
+            if (!document.getElementById('historic-layer').checked) {
+                return;
+            }
+            
+            // Remove existing historical layer if it exists
+            if (historicalLayer && map.hasLayer(historicalLayer)) {
+                map.removeLayer(historicalLayer);
+                historicalLayer = null;
+            }
+            
+            // Get selected historical map
+            const historicMapSelect = document.getElementById('historic-map-select');
+            const selectedOption = historicMapSelect.options[historicMapSelect.selectedIndex];
+            
+            if (!selectedOption || !selectedOption.value) {
+                return;
+            }
+            
+            // Find the tile set data
+            const tileSetName = selectedOption.value;
+            const tileSet = availableTileSets.find(ts => ts.name === tileSetName);
+            
+            if (!tileSet) {
+                console.error('Selected tile set not found:', tileSetName);
+                return;
+            }
+            
+            console.log('Adding historical layer:', tileSet);
+            
+            // Get the opacity value
+            const opacity = parseFloat(document.getElementById('opacity-slider').value);
+            
+            // Create and add layer
+            historicalLayer = L.tileLayer(tileSet.url, {
+                attribution: 'Historical Map - ' + tileSet.name,
+                minZoom: Math.min(...tileSet.zoom_levels),
+                maxZoom: Math.max(...tileSet.zoom_levels),
+                opacity: opacity
+            }).addTo(map);
+        }
+        
+        // Toast notification function
+        function showToast(message, type = 'info') {
+            // Remove any existing toasts
+            const existingToasts = document.querySelectorAll('.toast');
+            existingToasts.forEach(toast => {
+                document.body.removeChild(toast);
+            });
+            
+            const toast = document.createElement('div');
+            toast.className = `toast toast-${type}`;
+            toast.textContent = message;
+            document.body.appendChild(toast);
+            
+            setTimeout(() => {
+                toast.classList.add('show');
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                    setTimeout(() => {
+                        if (document.body.contains(toast)) {
+                            document.body.removeChild(toast);
+                        }
+                    }, 300);
+                }, 3000);
+            }, 100);
+        }
+        
+        // Display stations on map and in list
+        function displayStations() {
+            // Clear previous markers
+            stationMarkers.clearLayers();
+            
+            // Clear station list
+            const stationList = document.getElementById('station-list');
+            stationList.innerHTML = '';
+            
+            if (!stationsData || !stationsData.features) return;
+            
+            // Get selected line filter
+            const lineFilter = document.getElementById('line-select').value;
+            
+            // Create markers and list items
+            stationsData.features.forEach(feature => {
+                const stationId = feature.properties.stop_id;
+                const stationName = feature.properties.name;
+                const stationType = feature.properties.type;
+                const stationLine = feature.properties.line;
+                const isCorrected = feature.properties.corrected;
+                
+                // Apply line filter if set
+                if (lineFilter !== 'all') {
+                    const lineItems = linesData.filter(l => l.line_id === lineFilter);
+                    if (lineItems.length > 0) {
+                        if (stationLine !== lineItems[0].line_name) {
+                            return; // Skip stations not on selected line
+                        }
+                    }
+                }
+                
+                // Choose appropriate icon
+                let markerIcon = defaultIcon;
+                if (isCorrected) {
+                    markerIcon = correctedIcon;
+                }
+                
+                // Create marker
+                const marker = L.marker([
+                    feature.geometry.coordinates[1],  // latitude
+                    feature.geometry.coordinates[0]   // longitude
+                ], {
+                    draggable: true,
+                    title: stationName,
+                    icon: markerIcon
+                });
+                
+                marker.feature = feature;
+                
+                // Handle marker click
+                marker.on('click', function(e) {
+                    selectStation(feature, marker);
+                });
+                
+                // Handle marker drag
+                marker.on('dragend', function(e) {
+                    const latlng = e.target.getLatLng();
+                    markerDraggedPosition = latlng;
+                    document.getElementById('save-correction').style.display = 'block';
+                    
+                    // Update marker icon to indicate it's been moved
+                    marker.setIcon(isCorrected ? selectedCorrectedIcon : selectedIcon);
+                    
+                    // Update station details display
+                    updateStationDetails();
+                });
+                
+                // Add marker to layer
+                stationMarkers.addLayer(marker);
+                
+                // Create list item with improved structure
+                const listItem = document.createElement('div');
+                listItem.className = `station-item${isCorrected ? ' corrected' : ''}`;
+                listItem.setAttribute('data-id', stationId);
+                listItem.setAttribute('data-name', stationName);
+                
+                // Add transport type indicator
+                const typeSpan = document.createElement('span');
+                typeSpan.className = `transport-type type-${stationType.replace(/\s+/g, '')}`;
+                typeSpan.textContent = stationType.charAt(0).toUpperCase();
+                
+                // Add station details container
+                const detailsDiv = document.createElement('div');
+                detailsDiv.className = 'station-details';
+                
+                // Add station name
+                const nameDiv = document.createElement('div');
+                nameDiv.className = 'station-name';
+                nameDiv.textContent = stationName;
+                
+                // Add line info
+                const lineDiv = document.createElement('div');
+                lineDiv.className = 'station-line';
+                lineDiv.textContent = stationLine;
+                
+                // Assemble the structure
+                detailsDiv.appendChild(nameDiv);
+                detailsDiv.appendChild(lineDiv);
+                
+                listItem.appendChild(typeSpan);
+                listItem.appendChild(detailsDiv);
+                
+                // Handle list item click
+                listItem.addEventListener('click', function() {
+                    selectStation(feature, marker);
+                    map.setView([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], 17);
+                });
+                
+                stationList.appendChild(listItem);
+            });
+        }
+        
+        // Select a station
+        function selectStation(feature, marker) {
+            // Reset previous selection
+            if (selectedMarker) {
+                const prevIsCorrected = selectedMarker.feature.properties.corrected;
+                selectedMarker.setIcon(prevIsCorrected ? correctedIcon : defaultIcon);
+            }
+            
+            // Set new selection
+            selectedStation = feature;
+            selectedMarker = marker;
+            
+            // Update marker icon
+            const isCorrected = feature.properties.corrected;
+            marker.setIcon(isCorrected ? selectedCorrectedIcon : selectedIcon);
+            
+            markerDraggedPosition = null;
+            document.getElementById('save-correction').style.display = 'none';
+            document.getElementById('current-station').style.display = 'block';
+            
+            // Highlight in list
+            const stationItems = document.querySelectorAll('.station-item');
+            stationItems.forEach(item => {
+                item.classList.remove('selected');
+                if (item.getAttribute('data-id') == feature.properties.stop_id) {
+                    item.classList.add('selected');
+                    // Scroll to the selected item
+                    item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            });
+            
+            updateStationDetails();
+        }
+        
+        // Update station details display
+        function updateStationDetails() {
+            if (!selectedStation) return;
+            
+            const stationDetails = document.getElementById('station-details');
+            
+            // Get original coordinates
+            const originalLat = selectedStation.geometry.coordinates[1];
+            const originalLng = selectedStation.geometry.coordinates[0];
+            
+            // Get corrected coordinates if available
+            let correctedPosition = null;
+            if (corrections[currentYearSide]?.[selectedStation.properties.stop_id]) {
+                correctedPosition = corrections[currentYearSide][selectedStation.properties.stop_id];
+            }
+            
+            // Use dragged position if available, otherwise use corrected or original
+            const currentPosition = markerDraggedPosition || 
+                      (correctedPosition ? {lat: correctedPosition.lat, lng: correctedPosition.lng} : 
+                      {lat: originalLat, lng: originalLng});
+            
+            // Format the status message
+            let statusMessage = '';
+            if (markerDraggedPosition) {
+                statusMessage = '<div class="status-tag status-modified">Modified (Unsaved)</div>';
+            } else if (correctedPosition) {
+                statusMessage = '<div class="status-tag status-corrected">Corrected</div>';
+            } else {
+                statusMessage = '<div class="status-tag status-original">Original</div>';
+            }
+            
+            stationDetails.innerHTML = `
+                <div class="detail-header">
+                    <h4>${selectedStation.properties.name}</h4>
+                    ${statusMessage}
+                </div>
+                <div class="detail-info">
+                    <div class="detail-row">
+                        <span class="detail-label">ID:</span>
+                        <span class="detail-value">${selectedStation.properties.stop_id}</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Type:</span>
+                        <span class="detail-value">${selectedStation.properties.type}</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Line:</span>
+                        <span class="detail-value">${selectedStation.properties.line}</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Original:</span>
+                        <span class="detail-value coord">${originalLat.toFixed(6)}, ${originalLng.toFixed(6)}</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Current:</span>
+                        <span class="detail-value coord">${currentPosition.lat.toFixed(6)}, ${currentPosition.lng.toFixed(6)}</span>
+                    </div>
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>
