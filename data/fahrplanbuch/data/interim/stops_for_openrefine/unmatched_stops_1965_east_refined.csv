@@ -1,0 +1,37 @@
+stop_name,type,line_name,stop_id,location,identifier
+Stadtmitte (Mohrenstr.),u-bahn,A,196510_east,"52.51167,13.38472",Q658391
+Frankfurter Allee (Ringbahn),u-bahn,E,196518_east,"52.513638888889,13.475694444444",Q3752007
+Adalbertstrasse Ecke Köpenickerstrasse,tram,1,196522_east,"52.50882154334809, 13.424638857582666",
+Invalidenstrasse Ecke Brunnenstrasse,tram,1,196528_east,"52.532454, 13.397424",Q65691740
+Chausseestrasse Ecke Invalidenstrasse,tram,1,196529_east,"52.5304158,13.3827302",Q65552697
+Revalerstrasse (S-Bhf. Warschauer Strasse),tram,3,196534_east,"52.506416666667,13.450955555556",Q111252298
+Boxhagenerstrasse,tram,3,196536_east,"52.5088235,13.465969",Q65675805
+Omnibus Bhf. Lichtenberger Strasse,tram,3,196540_east,"52.5442346,13.4687215",Q65939077
+Revalerstrasse (S-Bhf. Warschauer Strasse),tram,4,196546_east,"52.506416666667,13.450955555556",Q111252298
+Grünberger Strasse Ecke Warschauerstrasse,tram,4,196547_east,"52.5122359,13.452609",Q65706239
+Eberswalder Strasse,tram,4,196555_east,"52.540989, 13.406549",Q65719051
+Heinrich-Heine-Strasse Ecke Schmidstrasse,tram,11,196556_east,"52.510985527920624, 13.416475371446467",
+Clara-Zetkin-Strasse Ecke Friedrichstrasse,tram,11,196563_east,"52.51870902819208, 13.388528888621812",
+"Niederschönhausen, Idastrasse",tram,46P,1965101_east,"52.58375905127916, 13.411887738748979",
+Berlinerstrasse Ecke Hauptstrasse,tram,63,1965117_east,"52.54895095369612, 13.50323270820153",
+Berlinerstrasse Ecke Falkenbergerstrasse,tram,64,1965126_east,"52.555009897389304, 13.467613213970036",
+Brunnenstrasse Ecke Veteranenstrasse,tram,70,1965177_east,"52.532454, 13.397424",Q65691740
+Chausseestrasse Ecke Invalidenstrasse,tram,70,1965178_east,"52.5304158,13.3827302",Q65552697
+Saarbrückerstrasse Ecke Prenzlauer Allee,tram,71,1965188_east,"52.52853947773325, 13.4170781179558",
+Bernkasteler Strasse Ecke Klement-Gottwald-Allee,tram,74 E,1965204_east,"52.55694520974668, 13.469227397791636",
+Klement-Gottwald-Allee Ecke Buschallee,tram,74 E,1965205_east,"52.5537598,13.4691966",Q65546661
+Buschallee Ecke Klement-Gottwald-Strasse,tram,74,1965215_east,"52.5537598,13.4691966",Q65546661
+Lichtenberger-Strasse Ecke Klement-Gottwald-Strasse,tram,74,1965216_east,"52.552177, 13.46596",Q65548831
+Chausseestrasse Ecke Invalidenstrasse,tram,82,1965239_east,"52.5304158,13.3827302",Q65552697
+Betriebsstelle Köpenick,tram,83,1965244_east,"52.439913, 13.581782",Q66370900
+Betriebsstelle Köpenick,tram,85,1965265_east,"52.439913, 13.581782",Q66370900
+"Schöneiche, Dorfaue",tram,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",1965317_east,"52.478762, 13.700398",Q66563742
+Lutherstrasse Ecke Lindenstrasse,autobus,A22,1965375_east,"52.42779152612815, 13.730535487117827",
+Klement-Gottwald-Allee Ecke Pistoriusstrasse,autobus,A45,1965457_east,"52.55009435565474, 13.45900710843341",
+"Wilhelmsruh, Hauptstrasse",autobus,A55,1965489_east,"52.59724375258745, 13.375518833120681",
+Klement-Gottwald-Allee Ecke Pistoriusstrasse,autobus,A55,1965496_east,"52.55009435565474, 13.45900710843341",
+Klement-Gottwald-Allee Ecke Feldtmannstrasse,autobus,A55,1965499_east,"52.56399507074226, 13.469773497549905",
+"Weißensee, Piesporter Strasse",autobus,A55,1965500_east,"52.560428325050296, 13.476578086985889",
+"Prenzlauer Allee, Wichertstrasse",autobus,A56,1965507_east,"52.54598538544363, 13.42701249767893",
+Am Friedrichshain,autobus,A57,1965510_east,"52.52825435596662, 13.423842320244663",
+"Groß Ziethen, Friedrich-Ebert-Strasse",autobus,AZ,1965590_east,"52.41404104155547, 13.438879163306126"

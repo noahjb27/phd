@@ -1,0 +1,739 @@
+{
+    "1964": {
+        "Mitte": [
+            [
+                "Mitte"
+            ],
+            10.9,
+            88342
+        ],
+        "Prenzlauer_Berg": [
+            [
+                "Prenzlauer Berg"
+            ],
+            10.8,
+            204569
+        ],
+        "Friedrichshain": [
+            [
+                "Friedrichshain"
+            ],
+            9.8,
+            143034
+        ],
+        "Treptow": [
+            [
+                "Adlershof",
+                "Altglienicke",
+                "Alt-Treptow",
+                "Baumschulenweg",
+                "Bohnsdorf",
+                "Johannisthal",
+                "Niederschöneweide",
+                "Plänterwald",
+                "Oberschöneweide"
+            ],
+            40.6,
+            128126
+        ],
+        "Köpenick": [
+            [
+                "Friedrichshagen",
+                "Grünau",
+                "Köpenick",
+                "Müggelheim",
+                "Oberschönweide",
+                "Rahnsdorf",
+                "Schmöckwitz"
+            ],
+            127.3,
+            124771
+        ],
+        "Lichtenberg": [
+            [
+                "Biesdorf",
+                "Fennpfuhl",
+                "Friedrichsfelde",
+                "Hellersdorf",
+                "Karlshorst",
+                "Kaulsdorf",
+                "Lichtenberg",
+                "Mahlsdorf",
+                "Marzahn",
+                "Rummelsburg",
+                "Neu-Hohenschönhausen"
+            ],
+            78.7,
+            165317
+        ],
+        "Weißensee": [
+            [
+                "Alt-Hohenschönhausen",
+                "Falkenberg",
+                "Malchow",
+                "Stadtrandsiedlung Malchow",
+                "Wartenberg",
+                "Weißensee",
+                "Alt-Hohenschönhausen"
+            ],
+            46.6,
+            80548
+        ],
+        "Pankow": [
+            [
+                "Blankenburg",
+                "Blankenfelde",
+                "Buch",
+                "Französisch Buchholz",
+                "Heinersdorf",
+                "Karow",
+                "Niederschönhausen",
+                "Pankow",
+                "Rosenthal",
+                "Wilhelmsruh"
+            ],
+            78.5,
+            136755
+        ]
+    },
+    "1967": {
+        "Mitte": [
+            [
+                "Mitte"
+            ],
+            10.7,
+            85046,
+            7868
+        ],
+        "Prenzlauer_Berg": [
+            [
+                "Prenzlauer Berg"
+            ],
+            10.8,
+            204423,
+            18856
+        ],
+        "Friedrichshain": [
+            [
+                "Friedrichshain"
+            ],
+            9.8,
+            142349,
+            14559
+        ],
+        "Treptow": [
+            [
+                "Adlershof",
+                "Altglienicke",
+                "Alt-Treptow",
+                "Baumschulenweg",
+                "Bohnsdorf",
+                "Johannisthal",
+                "Niederschöneweide",
+                "Plänterwald",
+                "Oberschöneweide"
+            ],
+            40.6,
+            132900,
+            3280
+        ],
+        "Köpenick": [
+            [
+                "Friedrichshagen",
+                "Grünau",
+                "Köpenick",
+                "Müggelheim",
+                "Oberschönweide",
+                "Rahnsdorf",
+                "Schmöckwitz"
+            ],
+            127.3,
+            126086,
+            1023
+        ],
+        "Lichtenberg": [
+            [
+                "Biesdorf",
+                "Fennpfuhl",
+                "Friedrichsfelde",
+                "Hellersdorf",
+                "Karlshorst",
+                "Kaulsdorf",
+                "Lichtenberg",
+                "Mahlsdorf",
+                "Marzahn",
+                "Rummelsburg",
+                "Neu-Hohenschönhausen"
+            ],
+            78.7,
+            170999,
+            2190
+        ],
+        "Weißensee": [
+            [
+                "Alt-Hohenschönhausen",
+                "Falkenberg",
+                "Malchow",
+                "Stadtrandsiedlung Malchow",
+                "Wartenberg",
+                "Weißensee",
+                "Alt-Hohenschönhausen"
+            ],
+            46.6,
+            81008,
+            1738
+        ],
+        "Pankow": [
+            [
+                "Blankenburg",
+                "Blankenfelde",
+                "Buch",
+                "Französisch Buchholz",
+                "Heinersdorf",
+                "Karow",
+                "Niederschönhausen",
+                "Pankow",
+                "Rosenthal",
+                "Wilhelmsruh"
+            ],
+            78.5,
+            136266,
+            1736
+        ]
+    },
+    "1971": {
+        "Mitte": [
+            [
+                "Mitte"
+            ],
+            10.7,
+            92032,
+            8521
+        ],
+        "Prenzlauer_Berg": [
+            [
+                "Prenzlauer Berg"
+            ],
+            10.8,
+            196741,
+            18217
+        ],
+        "Friedrichshain": [
+            [
+                "Friedrichshain"
+            ],
+            9.8,
+            147123,
+            14167
+        ],
+        "Treptow": [
+            [
+                "Adlershof",
+                "Altglienicke",
+                "Alt-Treptow",
+                "Baumschulenweg",
+                "Bohnsdorf",
+                "Johannisthal",
+                "Niederschöneweide",
+                "Plänterwald",
+                "Oberschöneweide"
+            ],
+            40.6,
+            131418,
+            3237
+        ],
+        "Köpenick": [
+            [
+                "Friedrichshagen",
+                "Grünau",
+                "Köpenick",
+                "Müggelheim",
+                "Oberschönweide",
+                "Rahnsdorf",
+                "Schmöckwitz"
+            ],
+            127.3,
+            127449,
+            1001
+        ],
+        "Lichtenberg": [
+            [
+                "Biesdorf",
+                "Fennpfuhl",
+                "Friedrichsfelde",
+                "Hellersdorf",
+                "Karlshorst",
+                "Kaulsdorf",
+                "Lichtenberg",
+                "Mahlsdorf",
+                "Marzahn",
+                "Rummelsburg",
+                "Neu-Hohenschönhausen"
+            ],
+            79.2,
+            172365,
+            2190
+        ],
+        "Weißensee": [
+            [
+                "Alt-Hohenschönhausen",
+                "Falkenberg",
+                "Malchow",
+                "Stadtrandsiedlung Malchow",
+                "Wartenberg",
+                "Weißensee",
+                "Alt-Hohenschönhausen"
+            ],
+            46.2,
+            80394,
+            1725
+        ],
+        "Pankow": [
+            [
+                "Blankenburg",
+                "Blankenfelde",
+                "Buch",
+                "Französisch Buchholz",
+                "Heinersdorf",
+                "Karow",
+                "Niederschönhausen",
+                "Pankow",
+                "Rosenthal",
+                "Wilhelmsruh"
+            ],
+            78.5,
+            140460,
+            1789
+        ]
+    },
+    "1976": {
+        "Mitte": [
+            [
+                "Mitte"
+            ],
+            10.7,
+            92594,
+            8662
+        ],
+        "Prenzlauer_Berg": [
+            [
+                "Prenzlauer Berg"
+            ],
+            10.8,
+            186345,
+            17048
+        ],
+        "Friedrichshain": [
+            [
+                "Friedrichshain"
+            ],
+            9.8,
+            143527,
+            14610
+        ],
+        "Treptow": [
+            [
+                "Adlershof",
+                "Altglienicke",
+                "Alt-Treptow",
+                "Baumschulenweg",
+                "Bohnsdorf",
+                "Johannisthal",
+                "Niederschöneweide",
+                "Plänterwald",
+                "Oberschöneweide"
+            ],
+            40.6,
+            126761,
+            3134
+        ],
+        "Köpenick": [
+            [
+                "Friedrichshagen",
+                "Grünau",
+                "Köpenick",
+                "Müggelheim",
+                "Oberschönweide",
+                "Rahnsdorf",
+                "Schmöckwitz"
+            ],
+            127.3,
+            130706,
+            1024
+        ],
+        "Lichtenberg": [
+            [
+                "Biesdorf",
+                "Fennpfuhl",
+                "Friedrichsfelde",
+                "Hellersdorf",
+                "Karlshorst",
+                "Kaulsdorf",
+                "Lichtenberg",
+                "Mahlsdorf",
+                "Marzahn",
+                "Rummelsburg",
+                "Neu-Hohenschönhausen"
+            ],
+            79.2,
+            203240,
+            2698
+        ],
+        "Weißensee": [
+            [
+                "Alt-Hohenschönhausen",
+                "Falkenberg",
+                "Malchow",
+                "Stadtrandsiedlung Malchow",
+                "Wartenberg",
+                "Weißensee",
+                "Alt-Hohenschönhausen"
+            ],
+            46.2,
+            78027,
+            1724
+        ],
+        "Pankow": [
+            [
+                "Blankenburg",
+                "Blankenfelde",
+                "Buch",
+                "Französisch Buchholz",
+                "Heinersdorf",
+                "Karow",
+                "Niederschönhausen",
+                "Pankow",
+                "Rosenthal",
+                "Wilhelmsruh"
+            ],
+            78.5,
+            136974,
+            1743
+        ]
+    },
+    "1980": {
+        "Mitte": [
+            [
+                "Mitte"
+            ],
+            10.7,
+            89975,
+            8409
+        ],
+        "Prenzlauer_Berg": [
+            [
+                "Prenzlauer Berg"
+            ],
+            10.8,
+            182095,
+            16861
+        ],
+        "Friedrichshain": [
+            [
+                "Friedrichshain"
+            ],
+            9.8,
+            133636,
+            13636
+        ],
+        "Treptow": [
+            [
+                "Adlershof",
+                "Altglienicke",
+                "Alt-Treptow",
+                "Baumschulenweg",
+                "Bohnsdorf",
+                "Johannisthal",
+                "Niederschöneweide",
+                "Plänterwald",
+                "Oberschöneweide"
+            ],
+            40.6,
+            122969,
+            2029
+        ],
+        "Köpenick": [
+            [
+                "Friedrichshagen",
+                "Grünau",
+                "Köpenick",
+                "Müggelheim",
+                "Oberschönweide",
+                "Rahnsdorf",
+                "Schmöckwitz"
+            ],
+            127.3,
+            125364,
+            985
+        ],
+        "Lichtenberg": [
+            [
+                "Fennpfuhl",
+                "Friedrichsfelde",
+                "Karlshorst",
+                "Lichtenberg",
+                "Rummelsburg",
+                "Neu-Hohenschönhausen"
+            ],
+            26.2,
+            180221,
+            6879
+        ],
+        "Weißensee": [
+            [
+                "Malchow",
+                "Stadtrandsiedlung Malchow",
+                "Weißensee",
+                "Alt-Hohenschönhausen",
+                "Wartenberg"
+            ],
+            39.8,
+            96023,
+            2413
+        ],
+        "Pankow": [
+            [
+                "Blankenburg",
+                "Blankenfelde",
+                "Buch",
+                "Französisch Buchholz",
+                "Heinersdorf",
+                "Karow",
+                "Niederschönhausen",
+                "Pankow",
+                "Rosenthal",
+                "Wilhelmsruh"
+            ],
+            78.5,
+            140457,
+            1789
+        ],
+        "Marzahn": [
+            [
+                "Biesdorf",
+                "Hellersdorf",
+                "Kaulsdorf",
+                "Mahlsdorf",
+                "Marzahn"
+            ],
+            59.4,
+            81789
+        ]
+    },
+    "1982": {
+        "Mitte": [
+            [
+                "Mitte"
+            ],
+            10.7,
+            83156,
+            7772
+        ],
+        "Prenzlauer_Berg": [
+            [
+                "Prenzlauer Berg"
+            ],
+            10.8,
+            173692,
+            16083
+        ],
+        "Friedrichshain": [
+            [
+                "Friedrichshain"
+            ],
+            9.8,
+            126177,
+            13008
+        ],
+        "Treptow": [
+            [
+                "Adlershof",
+                "Altglienicke",
+                "Alt-Treptow",
+                "Baumschulenweg",
+                "Bohnsdorf",
+                "Johannisthal",
+                "Niederschöneweide",
+                "Plänterwald",
+                "Oberschöneweide"
+            ],
+            40.6,
+            118922,
+            2929
+        ],
+        "Köpenick": [
+            [
+                "Friedrichshagen",
+                "Grünau",
+                "Köpenick",
+                "Müggelheim",
+                "Oberschönweide",
+                "Rahnsdorf",
+                "Schmöckwitz"
+            ],
+            127.3,
+            123725,
+            972
+        ],
+        "Lichtenberg": [
+            [
+                "Fennpfuhl",
+                "Friedrichsfelde",
+                "Karlshorst",
+                "Lichtenberg",
+                "Rummelsburg",
+                "Neu-Hohenschönhausen"
+            ],
+            26.2,
+            186941
+        ],
+        "Weißensee": [
+            [
+                "Malchow",
+                "Stadtrandsiedlung Malchow",
+                "Weißensee",
+                "Alt-Hohenschönhausen",
+                "Wartenberg"
+            ],
+            39.8,
+            98495
+        ],
+        "Pankow": [
+            [
+                "Blankenburg",
+                "Blankenfelde",
+                "Buch",
+                "Französisch Buchholz",
+                "Heinersdorf",
+                "Karow",
+                "Niederschönhausen",
+                "Pankow",
+                "Rosenthal",
+                "Wilhelmsruh"
+            ],
+            78.5,
+            139173,
+            1773
+        ],
+        "Marzahn": [
+            [
+                "Biesdorf",
+                "Hellersdorf",
+                "Kaulsdorf",
+                "Mahlsdorf",
+                "Marzahn"
+            ],
+            59.4,
+            122747
+        ]
+    },
+    "1984": {
+        "Mitte": [
+            [
+                "Mitte"
+            ],
+            10.7,
+            81740,
+            7639
+        ],
+        "Prenzlauer_Berg": [
+            [
+                "Prenzlauer Berg"
+            ],
+            10.8,
+            169445,
+            15689
+        ],
+        "Friedrichshain": [
+            [
+                "Friedrichshain"
+            ],
+            9.8,
+            121623,
+            12411
+        ],
+        "Treptow": [
+            [
+                "Adlershof",
+                "Altglienicke",
+                "Alt-Treptow",
+                "Baumschulenweg",
+                "Bohnsdorf",
+                "Johannisthal",
+                "Niederschöneweide",
+                "Plänterwald",
+                "Oberschöneweide"
+            ],
+            40.6,
+            114749,
+            2826
+        ],
+        "Köpenick": [
+            [
+                "Friedrichshagen",
+                "Grünau",
+                "Köpenick",
+                "Müggelheim",
+                "Oberschönweide",
+                "Rahnsdorf",
+                "Schmöckwitz"
+            ],
+            127.3,
+            122536,
+            963
+        ],
+        "Lichtenberg": [
+            [
+                "Fennpfuhl",
+                "Friedrichsfelde",
+                "Karlshorst",
+                "Lichtenberg",
+                "Rummelsburg",
+                "Neu-Hohenschönhausen"
+            ],
+            26.2,
+            185791,
+            7091
+        ],
+        "Weißensee": [
+            [
+                "Malchow",
+                "Stadtrandsiedlung Malchow",
+                "Weißensee",
+                "Alt-Hohenschönhausen",
+                "Wartenberg"
+            ],
+            39.8,
+            102338,
+            2571
+        ],
+        "Pankow": [
+            [
+                "Blankenburg",
+                "Blankenfelde",
+                "Buch",
+                "Französisch Buchholz",
+                "Heinersdorf",
+                "Karow",
+                "Niederschönhausen",
+                "Pankow",
+                "Rosenthal",
+                "Wilhelmsruh"
+            ],
+            78.5,
+            135276,
+            1721
+        ],
+        "Marzahn": [
+            [
+                "Biesdorf",
+                "Hellersdorf",
+                "Kaulsdorf",
+                "Mahlsdorf",
+                "Marzahn"
+            ],
+            59.4,
+            163373
+        ]
+    }
+}

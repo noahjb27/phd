@@ -1,0 +1,744 @@
+stop_name,type,line_name,stop_id,location,identifier,neighbourhood,district,east_west,postal_code
+Pankow (Vinetastr.),u-bahn,A,19650_east,"52.55916667,13.41333333",Q570906,Pankow,Pankow,east,13189
+Schönhauser Allee,u-bahn,A,19651_east,"52.54932889,13.41370611",Q47014936,Prenzlauer Berg,Pankow,east,10439
+Dimitroffstr.,u-bahn,A,19652_east,"52.54166667,13.41222222",Q571382,Prenzlauer Berg,Pankow,east,10437
+Senefelderplatz,u-bahn,A,19653_east,"52.53242000,13.41274300",Q32661454,Prenzlauer Berg,Pankow,east,10405
+Luxemburgplatz,u-bahn,A,19654_east,"52.52833333,13.41027778",Q658790,Mitte,Mitte,east,10119
+Alexanderplatz,u-bahn,A,19655_east,"52.52140000,13.41190000",Q17173458,Mitte,Mitte,east,10179
+Klosterstr.,u-bahn,A,19656_east,"52.51611111,13.41222222",Q657893,Mitte,Mitte,east,10179
+Märkisches Museum,u-bahn,A,19657_east,"52.51194444,13.40888889",Q657871,Mitte,Mitte,east,10179
+Spittelmarkt,u-bahn,A,19658_east,"52.51111111,13.40361111",Q569489,Mitte,Mitte,east,10179
+Hausvogteiplatz,u-bahn,A,19659_east,"52.51305556,13.39666667",Q656523,Mitte,Mitte,east,10117
+Stadtmitte (Mohrenstr.),u-bahn,A,196510_east,"52.51167000,13.38472000",Q658391,Mitte,Mitte,east,10117
+Thälmannplatz,u-bahn,A,196511_east,"52.51167000,13.38472000",Q658391,Mitte,Mitte,east,10117
+Alexanderplatz,u-bahn,E,196512_east,"52.52140000,13.41190000",Q17173458,Mitte,Mitte,east,10179
+Schillingstr.,u-bahn,E,196513_east,"52.52027800,13.42166700",Q552899,Mitte,Mitte,east,10178
+Strausberger Platz,u-bahn,E,196514_east,"52.51805556,13.43083333",Q570999,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+Marchlewskistr.,u-bahn,E,196515_east,"52.51679444,13.44499167",Q551768,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+Frankfurter Tor,u-bahn,E,196516_east,"52.51583333,13.45416667",Q568627,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+Samariterstr.,u-bahn,E,196517_east,"52.51472222,13.46444444",Q552891,Friedrichshain,Friedrichshain-Kreuzberg,east,10247
+Frankfurter Allee (Ringbahn),u-bahn,E,196518_east,"52.51363889,13.47569444",Q3752007,Lichtenberg,Lichtenberg,east,10365
+Magdalenenstr.,u-bahn,E,196519_east,"52.51250000,13.48638889",Q473901,Lichtenberg,Lichtenberg,east,10365
+Bahnhof Lichtenberg (Zentralfriedhof),u-bahn,E,196520_east,"52.51055600,13.49638900",Q3831986,Rummelsburg,Lichtenberg,east,10317
+Friedrichsfelde (Tierpark),u-bahn,E,196521_east,"52.50611111,13.51277778",Q429781,Friedrichsfelde,Lichtenberg,east,10315
+Adalbertstrasse Ecke Köpenickerstrasse,tram,1,196522_east,"52.50882154,13.42463886",,Mitte,Mitte,east,10179
+Ostbahnhof,tram,1,196523_east,"52.50910764,13.43550619",,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+U-Bhf. Strausberger Platz,tram,1,196524_east,"52.51808307,13.43293834",,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+Leninplatz,tram,1,196525_east,"52.52326580,13.43264570",Q65553105,Friedrichshain,Friedrichshain-Kreuzberg,east,10249
+"Alexanderplatz, Memhardstrasse",tram,1,196526_east,"52.52334390,13.41107730","Q65227406, Q65227406",Mitte,Mitte,east,10178
+Rosenthaler Platz,tram,1,196527_east,"52.53017690,13.40161210",Q65093945,Mitte,Mitte,east,10119
+Invalidenstrasse Ecke Brunnenstrasse,tram,1,196528_east,"52.53245400,13.39742400",Q65691740,Mitte,Mitte,east,10115
+Chausseestrasse Ecke Invalidenstrasse,tram,1,196529_east,"52.53041580,13.38273020",Q65552697,Mitte,Mitte,east,10115
+Walter-Ulbricht-Stadion,tram,1,196530_east,"52.53651514,13.37777572",,Mitte,Mitte,east,10115
+Köpenickerstrasse Ecke Adalbertstrasse,autobus,A 1 P,196531_east,"52.50880201,13.42459206",,Mitte,Mitte,east,10179
+S-Bhf. Jannowitzbrücke,autobus,A 1 P,196532_east,"52.51478600,13.41805624",,Mitte,Mitte,east,10179
+"Alexanderplatz, Grunerstrasse",autobus,A 1 P,196533_east,"52.52008326,13.41408419",,Mitte,Mitte,east,10178
+Revalerstrasse (S-Bhf. Warschauer Strasse),tram,3,196534_east,"52.50641667,13.45095556",Q111252298,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Kopernikusstrasse,tram,3,196535_east,"52.51058420,13.45262580",,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Boxhagenerstrasse,tram,3,196536_east,"52.50882350,13.46596900",Q65675805,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Bhf. Frankfurter Allee,tram,3,196537_east,"52.51380370,13.47737720",Q65948557,Lichtenberg,Lichtenberg,east,10365
+Roederplatz,tram,3,196538_east,"52.52660010,13.47906800",Q65685373,Fennpfuhl,Lichtenberg,east,10367
+Omnibus Bhf. Lichtenberger Strasse,tram,3,196540_east,"52.54423460,13.46872150",Q65939077,Alt-Hohenschönhausen,Lichtenberg,east,13053
+Klement-Gottwald-Allee,tram,3,196541_east,"52.55207481,13.46563086",,Weißensee,Pankow,east,13088
+Antonplatz,tram,3,196542_east,"52.54848030,13.45174160",Q65548849,Weißensee,Pankow,east,13088
+Prenzlauer Promenade,tram,3,196543_east,"52.55155537,13.43032253",,Prenzlauer Berg,Pankow,east,10409
+Schönhauser Allee,tram,3,196544_east,"52.55377050,13.41388980",Q65076842,Prenzlauer Berg,Pankow,east,10439
+Björnsonstrasse,tram,3,196545_east,"52.55442320,13.40305850",Q65920495,Prenzlauer Berg,Pankow,east,10439
+Revalerstrasse (S-Bhf. Warschauer Strasse),tram,4,196546_east,"52.50641667,13.45095556",Q111252298,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Grünberger Strasse Ecke Warschauerstrasse,tram,4,196547_east,"52.51223590,13.45260900",Q65706239,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+Frankfurter Tor,tram,4,196548_east,"52.51539030,13.45401720",Q65706246,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+Bersarinplatz,tram,4,196549_east,"52.51921500,13.45252570",Q65706258,Friedrichshain,Friedrichshain-Kreuzberg,east,10249
+Leninallee Ecke Dimitroffstrasse,tram,4,196550_east,"52.52593430,13.44623680",Q65553230,Friedrichshain,Friedrichshain-Kreuzberg,east,10249
+Kniprodestrasse Ecke Dimitroffstrasse,tram,4,196551_east,"52.53212517,13.44148683",,Prenzlauer Berg,Pankow,east,10407
+Greifswalder Strasse Ecke Dimitroffstrasse,tram,4,196552_east,"52.53649750,13.43340450",Q65548960,Prenzlauer Berg,Pankow,east,10405
+Prenzlauer Allee Ecke Dimitroffstrasse,tram,4,196553_east,"52.53919786,13.42420107",,Prenzlauer Berg,Pankow,east,10405
+U-Bhf. Dimitroffstrasse,tram,4,196554_east,"52.54019280,13.41139790",Q65088313,Prenzlauer Berg,Pankow,east,10435
+Eberswalder Strasse,tram,4,196555_east,"52.54098900,13.40654900",Q65719051,Prenzlauer Berg,Pankow,east,10437
+Heinrich-Heine-Strasse Ecke Schmidstrasse,tram,11,196556_east,"52.51098553,13.41647537",,Mitte,Mitte,east,10179
+S-Bhf. Jannowitzbrücke,tram,11,196557_east,"52.51478600,13.41805624",,Mitte,Mitte,east,10179
+"Alexanderplatz, Memhardstrasse",tram,11,196558_east,"52.52334390,13.41107730",Q65227406,Mitte,Mitte,east,10178
+Rosenthaler Platz,tram,11,196559_east,"52.53017690,13.40161210",Q65093945,Mitte,Mitte,east,10119
+Brunnenstrasse Ecke Invalidenstrasse,tram,11,196560_east,"52.53245420,13.39742360",Q65691740,Mitte,Mitte,east,10115
+Invalidenstrasse Ecke Chausseestrasse,tram,11,196561_east,"52.53041580,13.38273020",Q65552697,Mitte,Mitte,east,10115
+Oranienburger Tor,tram,11,196562_east,"52.52560310,13.38727450",Q65095375,Mitte,Mitte,east,10117
+Clara-Zetkin-Strasse Ecke Friedrichstrasse,tram,11,196563_east,"52.51870903,13.38852889",,Mitte,Mitte,east,10117
+Am Kupfergraben,tram,11,196564_east,"52.51942080,13.39538390",Q65055027,Mitte,Mitte,east,10117
+Hönower Wiesenweg Ecke Blockdammweg,tram,13,196565_east,"52.48430451,13.50580476",,Karlshorst,Lichtenberg,east,10317
+Kraftwerk Klingenberg,tram,13,196566_east,"52.48813740,13.49586850",Q66079524,Rummelsburg,Lichtenberg,east,10317
+S-Bhf. Rummelsburg,tram,13,196567_east,"52.50105580,13.47623920",Q66069079,Rummelsburg,Lichtenberg,east,10317
+Holteistrasse Ecke Boxhagenerstrasse,tram,13,196568_east,"52.50882350,13.46596900","Q65675805, Q65675805",Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Frankfurter Tor,tram,13,196569_east,"52.51539030,13.45401720",Q65706246,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+Bersarinplatz,tram,13,196570_east,"52.51921500,13.45252570",Q65706258,Friedrichshain,Friedrichshain-Kreuzberg,east,10249
+Leninallee Ecke Dimitroffstrasse,tram,13,196571_east,"52.52593430,13.44623680",Q65553230,Friedrichshain,Friedrichshain-Kreuzberg,east,10249
+Kniprodestrasse Ecke Dimitroffstrasse,tram,13,196572_east,"52.53212517,13.44148683",,Prenzlauer Berg,Pankow,east,10407
+Greifswalder Strasse Ecke Dimitroffstrasse,tram,13,196573_east,"52.53649750,13.43340450",Q65548960,Prenzlauer Berg,Pankow,east,10405
+Prenzlauer Allee Ecke Dimitroffstrasse,tram,13,196574_east,"52.53919786,13.42420107",,Prenzlauer Berg,Pankow,east,10405
+U-Bhf. Dimitroffstrasse,tram,13,196575_east,"52.54019280,13.41139790",Q65088313,Prenzlauer Berg,Pankow,east,10435
+Oderberger Strasse Ecke Eberswalderstrasse,tram,13,196576_east,"52.54061077,13.40455993",,Prenzlauer Berg,Pankow,east,10437
+"Rosenthal, Hauptstrasse",tram,22,196577_east,"52.59700630,13.37639160",Q65364985,Rosenthal,Pankow,east,13158
+Nordendstrasse,tram,22,196578_east,"52.58853400,13.38829520",Q65428345,Niederschönhausen,Pankow,east,13156
+Kurt-Fischer-Platz,tram,22,196579_east,"52.57866800,13.39830160",Q65032974,Niederschönhausen,Pankow,east,13156
+"Pankow, Rathaus",tram,22,196580_east,"52.56948160,13.40380450",Q65055060,Pankow,Pankow,east,13187
+"Pankow, Kirche",tram,22,196581_east,"52.57064520,13.41031150",Q65055066,Pankow,Pankow,east,13187
+S-Bhf. Pankow,tram,22,196582_east,"52.56756920,13.41216410",Q65055075,Pankow,Pankow,east,13187
+U-Bhf. Pankow,tram,22,196583_east,"52.56721534,13.41219922",,Pankow,Pankow,east,13187
+S-Bhf. Schönhauser Allee,tram,22,196584_east,"52.54936190,13.41357340",Q65088013,Prenzlauer Berg,Pankow,east,10439
+U-Bhf. Dimitroffstrasse,tram,22,196585_east,"52.54019280,13.41139790",Q65088313,Prenzlauer Berg,Pankow,east,10435
+Rosenthaler Platz,tram,22,196586_east,"52.53017690,13.40161210",Q65093945,Mitte,Mitte,east,10119
+"Alexanderplatz, Memhardstrasse",tram,22,196587_east,"52.52334390,13.41107730",Q65227406,Mitte,Mitte,east,10178
+S-Bhf. Jannowitzbrücke,tram,22,196588_east,"52.51478600,13.41805624",,Mitte,Mitte,east,10179
+Nordend,tram,46,196589_east,"52.59021040,13.40275240",Q65032696,Niederschönhausen,Pankow,east,13156
+Ossietzkyplatz,tram,46,196590_east,"52.58100580,13.40401481",,Niederschönhausen,Pankow,east,13156
+Kurt-Fischer-Platz,tram,46,196591_east,"52.57866800,13.39830160",Q65032974,Niederschönhausen,Pankow,east,13156
+"Pankow, Kirche",tram,46,196592_east,"52.57064520,13.41031150",Q65055066,Pankow,Pankow,east,13187
+S-Bhf. Pankow,tram,46,196593_east,"52.56756920,13.41216410",Q65055075,Pankow,Pankow,east,13187
+U-Bhf. Pankow,tram,46,196594_east,"52.56721534,13.41219922",,Pankow,Pankow,east,13187
+S-Bhf. Schönhauser Allee,tram,46,196595_east,"52.54936190,13.41357340",Q65088013,Prenzlauer Berg,Pankow,east,10439
+U-Bhf. Dimitroffstrasse,tram,46,196596_east,"52.54019280,13.41139790",Q65088313,Prenzlauer Berg,Pankow,east,10435
+Brunnenstrasse Ecke Invalidenstrasse,tram,46,196597_east,"52.53245420,13.39742360","Q65691740, Q65691740",Mitte,Mitte,east,10115
+Oranienburger Tor,tram,46,196598_east,"52.52560310,13.38727450",Q65095375,Mitte,Mitte,east,10117
+Bhf. Friedrichstrasse,tram,46,196599_east,"52.51928050,13.38841070","Q65095382, Q65095382",Mitte,Mitte,east,10117
+Am Kupfergraben,tram,46,1965100_east,"52.51942080,13.39538390",Q65055027,Mitte,Mitte,east,10117
+"Niederschönhausen, Idastrasse",tram,46P,1965101_east,"52.58375905,13.41188774",,Niederschönhausen,Pankow,east,13156
+Ossietzkyplatz,tram,46P,1965102_east,"52.58100580,13.40401481",,Niederschönhausen,Pankow,east,13156
+"Buchholz, Hauptstrasse",tram,49,1965103_east,"52.61907206,13.39338336",,Blankenfelde,Pankow,east,13159
+Industriebahn,tram,49,1965104_east,"52.61860431,13.39039578",,Blankenfelde,Pankow,east,13159
+Galenusstrasse,tram,49,1965105_east,"52.58181830,13.42876780",Q66195410,Pankow,Pankow,east,13127
+S-Bhf. Pankow-Heinersdorf,tram,49,1965106_east,"52.57750782,13.42785306",,Pankow,Pankow,east,13187
+Klaustalerstrasse Ecke Damerowstrasse,tram,49,1965107_east,"52.57341493,13.42210298",,Pankow,Pankow,east,13187
+"Pankow, Kirche",tram,49,1965108_east,"52.57064520,13.41031150",Q65055066,Pankow,Pankow,east,13187
+S-Bhf. Pankow,tram,49,1965109_east,"52.56756920,13.41216410",Q65055075,Pankow,Pankow,east,13187
+U-Bhf. Pankow,tram,49,1965110_east,"52.56721534,13.41219922",,Pankow,Pankow,east,13187
+S-Bhf. Schönhauser Allee,tram,49,1965111_east,"52.54936190,13.41357340",Q65088013,Prenzlauer Berg,Pankow,east,10439
+U-Bhf. Dimitroffstrasse,tram,49,1965112_east,"52.54019280,13.41139790",Q65088313,Prenzlauer Berg,Pankow,east,10435
+Rosenthaler Platz,tram,49,1965113_east,"52.53017690,13.40161210",Q65093945,Mitte,Mitte,east,10119
+Hackescher Markt,tram,49,1965114_east,"52.52270059,13.40160586",Q65094590,Mitte,Mitte,east,10178
+"Hohenschönhausen, Gartenstadt",tram,63,1965115_east,"52.55086720,13.50949940",Q65555882,Alt-Hohenschönhausen,Lichtenberg,east,13053
+Falkenbergerstrasse Ecke Wartenberger Strasse,tram,63,1965116_east,"52.55036672,13.50991503",,Alt-Hohenschönhausen,Lichtenberg,east,13053
+Berlinerstrasse Ecke Hauptstrasse,tram,63,1965117_east,"52.54895095,13.50323271",,Alt-Hohenschönhausen,Lichtenberg,east,13055
+Degnerstrasse,tram,63,1965118_east,"52.54488037,13.49394995",,Alt-Hohenschönhausen,Lichtenberg,east,13055
+Weißenseer Weg,tram,63,1965119_east,"52.53225800,13.47670500",Q65942700,Fennpfuhl,Lichtenberg,east,10369
+Steuerhaus,tram,63,1965120_east,"52.53049300,13.46149890",Q65553632,Prenzlauer Berg,Pankow,east,10407
+Dimitroffstrasse Ecke Landsberger Allee,tram,63,1965121_east,"52.52643035,13.44759679",,Friedrichshain,Friedrichshain-Kreuzberg,east,10249
+Leninplatz,tram,63,1965122_east,"52.52326580,13.43264570",Q65553105,Friedrichshain,Friedrichshain-Kreuzberg,east,10249
+"Alexanderplatz, Memhardstrasse",tram,63,1965123_east,"52.52334390,13.41107730",Q65227406,Mitte,Mitte,east,10178
+Hackescher Markt,tram,63,1965124_east,"52.52270059,13.40160586",Q65094590,Mitte,Mitte,east,10178
+"Hohenschönhausen, Falkenberger Strasse",tram,64,1965125_east,"52.55086720,13.50949940",Q65555882,Alt-Hohenschönhausen,Lichtenberg,east,13053
+Berlinerstrasse Ecke Falkenbergerstrasse,tram,64,1965126_east,"52.55500990,13.46761321",,Weißensee,Pankow,east,13088
+Degnerstrasse,tram,64,1965127_east,"52.54489445,13.49398483",,Alt-Hohenschönhausen,Lichtenberg,east,13055
+Weißenseer Weg,tram,64,1965128_east,"52.53225800,13.47670500",Q65942700,Fennpfuhl,Lichtenberg,east,10369
+Steuerhaus,tram,64,1965129_east,"52.53049300,13.46149890",Q65553632,Prenzlauer Berg,Pankow,east,10407
+Dimitroffstrasse Ecke Landsberger Allee,tram,64,1965130_east,"52.52643035,13.44759679",,Friedrichshain,Friedrichshain-Kreuzberg,east,10249
+Leninplatz,tram,64,1965131_east,"52.52326580,13.43264570",Q65553105,Friedrichshain,Friedrichshain-Kreuzberg,east,10249
+"Alexanderplatz, Leninallee",tram,64,1965132_east,"52.52210316,13.41651113",,Mitte,Mitte,east,10178
+S-Bhf. Jannowitzbrücke,tram,64,1965133_east,"52.51478600,13.41805624",,Mitte,Mitte,east,10179
+Spittelmarkt,tram,64,1965134_east,"52.51124332,13.40494540",,Mitte,Mitte,east,10179
+Dönhoffplatz,tram,64,1965135_east,"52.50995057,13.39814408",,Mitte,Mitte,east,10117
+"Johannisthal, Haeckelstrasse",tram,69,1965136_east,"52.44029440,13.50526380",Q66225573,Johannisthal,Treptow-Köpenick,east,12487
+Bhf. Schöneweide,tram,69,1965137_east,"52.45534130,13.51104490",Q65950245,Niederschöneweide,Treptow-Köpenick,east,12439
+Wilhelminenhofstrasse,tram,69,1965138_east,"52.46083797,13.52105438",Q65951882,Oberschöneweide,Treptow-Köpenick,east,12459
+S-Bhf. Karlshorst,tram,69,1965139_east,"52.48133100,13.52544330",Q65952829,Karlshorst,Lichtenberg,east,10318
+Hochschule für Ökonomie,tram,69,1965140_east,"52.49276810,13.52660590",Q65952866,Karlshorst,Lichtenberg,east,10318
+Tierpark Berlin,tram,69,1965141_east,"52.50297205,13.52091647",,Friedrichsfelde,Lichtenberg,east,10319
+Alt-Friedrichsfelde Ecke Am Tierpark,tram,69,1965142_east,"52.50914094,13.51812993",,Friedrichsfelde,Lichtenberg,east,10315
+Bhf. Lichtenberg,tram,69,1965143_east,"52.51236030,13.49775470",Q66013733,Lichtenberg,Lichtenberg,east,10365
+Strab. Bhf. Siegfriedstrasse,tram,69,1965144_east,"52.52064110,13.49944540",Q66014798,Lichtenberg,Lichtenberg,east,10365
+Herzbergstrasse,tram,69,1965145_east,"52.52637000,13.49903600",Q65684891,Lichtenberg,Lichtenberg,east,10365
+Roederplatz,tram,69,1965146_east,"52.52660010,13.47906800",Q65685373,Fennpfuhl,Lichtenberg,east,10367
+Steuerhaus,tram,69,1965147_east,"52.53049300,13.46149890",Q65553632,Prenzlauer Berg,Pankow,east,10407
+Dimitroffstrasse Ecke Landsberger Allee,tram,69,1965148_east,"52.52643035,13.44759679",,Friedrichshain,Friedrichshain-Kreuzberg,east,10249
+Leninplatz,tram,69,1965149_east,"52.52326580,13.43264570",Q65553105,Friedrichshain,Friedrichshain-Kreuzberg,east,10249
+"Alexanderplatz, Memhardstrasse",tram,69,1965150_east,"52.52334390,13.41107730",Q65227406,Mitte,Mitte,east,10178
+Hackescher Markt,tram,69,1965151_east,"52.52270059,13.40160586",Q65094590,Mitte,Mitte,east,10178
+Oranienburger Tor,tram,69,1965152_east,"52.52560310,13.38727450",Q65095375,Mitte,Mitte,east,10117
+Walter-Ulbricht-Stadion,tram,69,1965153_east,"52.53651514,13.37777572",,Mitte,Mitte,east,10115
+"Johannisthal, Haeckelstrasse",tram,69 E,1965154_east,"52.44029440,13.50526380",Q66225573,Johannisthal,Treptow-Köpenick,east,12487
+Bhf. Schöneweide,tram,69 E,1965155_east,"52.45534130,13.51104490",Q65950245,Niederschöneweide,Treptow-Köpenick,east,12439
+Wilhelminenhofstrasse,tram,69 E,1965156_east,"52.46083797,13.52105438",Q65951882,Oberschöneweide,Treptow-Köpenick,east,12459
+S-Bhf. Karlshorst,tram,69 E,1965157_east,"52.48133100,13.52544330",Q65952829,Karlshorst,Lichtenberg,east,10318
+Hochschule für Ökonomie,tram,69 E,1965158_east,"52.49276810,13.52660590",Q65952866,Karlshorst,Lichtenberg,east,10318
+Tierpark Berlin,tram,69 E,1965159_east,"52.50297205,13.52091647",,Friedrichsfelde,Lichtenberg,east,10319
+Alt-Friedrichsfelde Ecke Am Tierpark,tram,69 E,1965160_east,"52.50914094,13.51812993",,Friedrichsfelde,Lichtenberg,east,10315
+Bhf. Lichtenberg,tram,69 E,1965161_east,"52.51236030,13.49775470",Q66013733,Lichtenberg,Lichtenberg,east,10365
+Strab. Bhf. Siegfriedstrasse,tram,69 E,1965162_east,"52.52064110,13.49944540",Q66014798,Lichtenberg,Lichtenberg,east,10365
+Herzbergstrasse,tram,69 E,1965163_east,"52.52637000,13.49903600",Q65684891,Lichtenberg,Lichtenberg,east,10365
+Roederplatz,tram,69 E,1965164_east,"52.52660010,13.47906800",Q65685373,Fennpfuhl,Lichtenberg,east,10367
+Steuerhaus,tram,69 E,1965165_east,"52.53049300,13.46149890",Q65553632,Prenzlauer Berg,Pankow,east,10407
+Dimitroffstrasse Ecke Landsberger Allee,tram,69 E,1965166_east,"52.52643035,13.44759679",,Friedrichshain,Friedrichshain-Kreuzberg,east,10249
+Kniprodestrasse Ecke Dimitroffstrasse,tram,69 E,1965167_east,"52.53212517,13.44148683",,Prenzlauer Berg,Pankow,east,10407
+"Hohenschönhausen, Falkenberger Strasse",tram,70,1965168_east,"52.55086720,13.50949940",Q65555882,Alt-Hohenschönhausen,Lichtenberg,east,13053
+Berliner Strasse Ecke Suermondtstrasse,tram,70,1965169_east,"52.54900402,13.50174036",,Alt-Hohenschönhausen,Lichtenberg,east,13055
+Stadion Buschallee,tram,70,1965170_east,"52.55667180,13.48698340",Q65504715,Weißensee,Pankow,east,13088
+Buschallee Ecke Klement-Gottwald-Allee,tram,70,1965171_east,"52.55375980,13.46919660",Q65546661,Weißensee,Pankow,east,13088
+Lichtenberger Strasse Ecke Klement-Gottwald-Allee,tram,70,1965172_east,"52.55200518,13.46547796",,Weißensee,Pankow,east,13088
+Antonplatz,tram,70,1965173_east,"52.54848030,13.45174160",Q65548849,Weißensee,Pankow,east,13088
+Prenzlauer Promenade Ecke Ostseestrasse,tram,70,1965174_east,"52.55135441,13.43020267",,Prenzlauer Berg,Pankow,east,10409
+Humannplatz,tram,70,1965175_east,"52.54936270,13.42136460",Q65962652,Prenzlauer Berg,Pankow,east,10439
+U-Bhf. Dimitroffstrasse,tram,70,1965176_east,"52.54019280,13.41139790",Q65088313,Prenzlauer Berg,Pankow,east,10435
+Brunnenstrasse Ecke Veteranenstrasse,tram,70,1965177_east,"52.53245400,13.39742400",Q65691740,Mitte,Mitte,east,10115
+Chausseestrasse Ecke Invalidenstrasse,tram,70,1965178_east,"52.53041580,13.38273020",Q65552697,Mitte,Mitte,east,10115
+Oranienburger Tor,tram,70,1965179_east,"52.52560310,13.38727450",Q65095375,Mitte,Mitte,east,10117
+Bhf. Friedrichstrasse,tram,70,1965180_east,"52.51928050,13.38841070","Q65095382, Q65095382",Mitte,Mitte,east,10117
+Am Kupfergraben,tram,70,1965181_east,"52.51942080,13.39538390",Q65055027,Mitte,Mitte,east,10117
+"Heinersdorf, Romain-Rolland-Strasse",tram,71,1965182_east,"52.57255110,13.43710630",Q65096052,Heinersdorf,Pankow,east,13089
+"Heinersdorf, Kirche",tram,71,1965183_east,"52.56869080,13.43890530",Q65096107,Heinersdorf,Pankow,east,13089
+Am Steinberg,tram,71,1965184_east,"52.55857960,13.43337510",Q65103320,Heinersdorf,Pankow,east,13089
+Prenzlauer Promenade Ecke Ostseestrasse,tram,71,1965185_east,"52.55135441,13.43020267",,Prenzlauer Berg,Pankow,east,10409
+S-Bhf. Prenzlauer Allee,tram,71,1965186_east,"52.54480750,13.42740800",Q65219791,Prenzlauer Berg,Pankow,east,10409
+Dimitroffstrasse Ecke Prenzlauer Allee,tram,71,1965187_east,"52.53922690,13.42420920",,Prenzlauer Berg,Pankow,east,10405
+Saarbrückerstrasse Ecke Prenzlauer Allee,tram,71,1965188_east,"52.52853948,13.41707812",,Prenzlauer Berg,Pankow,east,10405
+"Alexanderplatz, Memhardstrasse",tram,71,1965189_east,"52.52334390,13.41107730","Q65227406, Q65227406",Mitte,Mitte,east,10178
+S-Bhf. Jannowitzbrücke,tram,71,1965190_east,"52.51478600,13.41805624",,Mitte,Mitte,east,10179
+Molkenmarkt,tram,71,1965191_east,"52.51679321,13.40933062",,Mitte,Mitte,east,10178
+"Weißensee, Pasedagplatz",tram,72,1965192_east,"52.55940270,13.46095940",Q65954665,Weißensee,Pankow,east,13086
+Buschallee Ecke Klement-Gottwald-Allee,tram,72,1965193_east,"52.55375980,13.46919660",Q65546661,Weißensee,Pankow,east,13088
+Lichtenberger Strasse,tram,72,1965194_east,"52.55203261,13.46568992",,Weißensee,Pankow,east,13088
+Antonplatz,tram,72,1965195_east,"52.54848030,13.45174160",Q65548849,Weißensee,Pankow,east,13088
+Prenzlauer Promenade,tram,72,1965196_east,"52.55155537,13.43032253",,Prenzlauer Berg,Pankow,east,10409
+S-Bhf. Prenzlauer Allee,tram,72,1965197_east,"52.54480750,13.42740800",Q65219791,Prenzlauer Berg,Pankow,east,10409
+Prenzlauer Allee Ecke Dimitroffstrasse,tram,72,1965198_east,"52.53919786,13.42420107",,Prenzlauer Berg,Pankow,east,10405
+Saarbrücker Strasse Ecke Prenzlauer Allee,tram,72,1965199_east,"52.52853502,13.41711798",,Prenzlauer Berg,Pankow,east,10405
+"Alexanderplatz, Memhardstrasse",tram,72,1965200_east,"52.52334390,13.41107730",Q65227406,Mitte,Mitte,east,10178
+Spittelmarkt,tram,72,1965201_east,"52.51124332,13.40494540",,Mitte,Mitte,east,10179
+Charlottenstrasse,tram,72,1965202_east,"52.51050786,13.39183149",,Mitte,Mitte,east,10117
+Taubenstrasse Ecke Glinkastrasse,tram,72,1965203_east,"52.51282808,13.38655005",,Mitte,Mitte,east,10117
+Bernkasteler Strasse Ecke Klement-Gottwald-Allee,tram,74 E,1965204_east,"52.55694521,13.46922740",,Weißensee,Pankow,east,13088
+Klement-Gottwald-Allee Ecke Buschallee,tram,74 E,1965205_east,"52.55375980,13.46919660",Q65546661,Weißensee,Pankow,east,13088
+Lichtenberger Strasse Ecke Klement-Gottwald-Allee,tram,74 E,1965206_east,"52.55200518,13.46547796",,Weißensee,Pankow,east,13088
+Antonplatz,tram,74 E,1965207_east,"52.54848030,13.45174160",Q65548849,Weißensee,Pankow,east,13088
+S-Bhf. Greifswalder Strasse,tram,74 E,1965208_east,"52.54072340,13.43829040",Q65548932,Prenzlauer Berg,Pankow,east,10405
+Dimitroffstrasse Ecke Greifswalderstrasse,tram,74 E,1965209_east,"52.53616929,13.43302316",,Prenzlauer Berg,Pankow,east,10405
+Königstor,tram,74 E,1965210_east,"52.52821600,13.42386902",,Prenzlauer Berg,Pankow,east,10405
+"Alexanderplatz, Memhardstrasse",tram,74 E,1965211_east,"52.52334390,13.41107730","Q65227406, Q65227406",Mitte,Mitte,east,10178
+S-Bhf. Jannowitzbrücke,tram,74 E,1965212_east,"52.51478600,13.41805624",,Mitte,Mitte,east,10179
+Spittelmarkt,tram,74 E,1965213_east,"52.51124332,13.40494540",,Mitte,Mitte,east,10179
+"Weißensee, Pasedagplatz",tram,74,1965214_east,"52.55940270,13.46095940",Q65954665,Weißensee,Pankow,east,13086
+Buschallee Ecke Klement-Gottwald-Strasse,tram,74,1965215_east,"52.55375980,13.46919660",Q65546661,Weißensee,Pankow,east,13088
+Lichtenberger-Strasse Ecke Klement-Gottwald-Strasse,tram,74,1965216_east,"52.55217700,13.46596000",Q65548831,Weißensee,Pankow,east,13088
+Antonplatz,tram,74,1965217_east,"52.54848030,13.45174160",Q65548849,Weißensee,Pankow,east,13088
+S-Bhf. Greifswalder Strasse,tram,74,1965218_east,"52.54072340,13.43829040",Q65548932,Prenzlauer Berg,Pankow,east,10405
+Greifswalderstrasse Ecke Dimitroffstrasse,tram,74,1965219_east,"52.53621776,13.43301750",,Prenzlauer Berg,Pankow,east,10405
+Königstor,tram,74,1965220_east,"52.52821600,13.42386902",,Prenzlauer Berg,Pankow,east,10405
+"Alexanderplatz, Memhardstrasse",tram,74,1965221_east,"52.52334390,13.41107730",Q65227406,Mitte,Mitte,east,10178
+Molkenmarkt,tram,74,1965222_east,"52.51679321,13.40933062",,Mitte,Mitte,east,10178
+Spittelmarkt,tram,74,1965223_east,"52.51124332,13.40494540",,Mitte,Mitte,east,10179
+Leipziger Strasse Ecke Otto-Grotewohl-Strasse,tram,74,1965224_east,"52.51001825,13.38415994",,Mitte,Mitte,east,10117
+"Mahlsdorf-Süd, Hubertus",tram,82,1965225_east,"52.47416630,13.59914430",Q66368466,Köpenick,Treptow-Köpenick,east,12555
+S-Bhf. Köpenick,tram,82,1965226_east,"52.45821530,13.57904350",Q66370784,Köpenick,Treptow-Köpenick,east,12555
+Lindenstrasse/Hegelschule,tram,82,1965227_east,"52.45050940,13.57268400",Q66095701,Köpenick,Treptow-Köpenick,east,12555
+Pionierpark,tram,82,1965228_east,"52.45798013,13.54198083",,Oberschöneweide,Treptow-Köpenick,east,12459
+Wilhelminenhofstrasse Ecke Edisonstrasse,tram,82,1965229_east,"52.46194960,13.51390490",Q65951882,Oberschöneweide,Treptow-Köpenick,east,12459
+Heinrich-Duncker-Strasse Ecke Ehrlichstrasse,tram,82,1965230_east,"52.47895660,13.52343160",Q65951921,Karlshorst,Lichtenberg,east,10318
+Kraftwerk Klingenberg,tram,82,1965231_east,"52.48813740,13.49586850",Q66079524,Rummelsburg,Lichtenberg,east,10317
+S-Bhf. Ostkreuz,tram,82,1965232_east,"52.50243022,13.46902005",,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Stralauer Allee Ecke Markgrafendamm,tram,82,1965233_east,"52.49740745,13.46463651",,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Warschauer Strasse,tram,82,1965234_east,"52.50502000,13.44863000",Q63490275,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Ostbahnhof,tram,82,1965235_east,"52.50910764,13.43550619",,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+S-Bhf. Jannowitzbrücke,tram,82,1965236_east,"52.51478600,13.41805624",,Mitte,Mitte,east,10179
+"Alexanderplatz, Memhardstrasse",tram,82,1965237_east,"52.52334390,13.41107730",Q65227406,Mitte,Mitte,east,10178
+Brunnenstrasse Ecke Invalidenstrasse,tram,82,1965238_east,"52.53245420,13.39742360","Q65691740, Q65691740",Mitte,Mitte,east,10115
+Chausseestrasse Ecke Invalidenstrasse,tram,82,1965239_east,"52.53041580,13.38273020",Q65552697,Mitte,Mitte,east,10115
+Walter-Ulbricht-Stadion,tram,82,1965240_east,"52.53651514,13.37777572",,Mitte,Mitte,east,10115
+Wendenschloß,tram,83,1965241_east,"52.41696580,13.58859260",Q66363928,Köpenick,Treptow-Köpenick,east,12557
+VEB Schiffswerft,tram,83,1965242_east,"52.42547978,13.58622004",,Köpenick,Treptow-Köpenick,east,12557
+RFT-Werk,tram,83,1965243_east,"52.43633349,13.58242861",,Köpenick,Treptow-Köpenick,east,12557
+Betriebsstelle Köpenick,tram,83,1965244_east,"52.43991300,13.58178200",Q66370900,Köpenick,Treptow-Köpenick,east,12557
+Lindenstrasse Ecke Bahnhofstrasse,tram,83,1965245_east,"52.45050940,13.57268400",Q66095701,Köpenick,Treptow-Köpenick,east,12555
+S-Bhf. Köpenick,tram,83,1965246_east,"52.45821530,13.57904350",Q66370784,Köpenick,Treptow-Köpenick,east,12555
+Mahlsdorf-Süd,tram,83,1965247_east,"52.47416630,13.59914430",Q66368466,Köpenick,Treptow-Köpenick,east,12555
+Bürgerwäldchen,tram,83,1965248_east,"52.48924332,13.60636876",Q66364551,Mahlsdorf,Marzahn-Hellersdorf,east,12623
+Rahnsdorfer Strasse,tram,83,1965249_east,"52.49851730,13.61310100",Q66364532,Mahlsdorf,Marzahn-Hellersdorf,east,12623
+S-Bhf. Mahlsdorf,tram,83,1965250_east,"52.51221827,13.61219075",,Mahlsdorf,Marzahn-Hellersdorf,east,12623
+Am Falkenberg,tram,84,1965251_east,"52.41079970,13.57045293",,Bohnsdorf,Treptow-Köpenick,east,12524
+"Altglienicke, Kirche",tram,84,1965252_east,"52.42184573,13.53940770",,Altglienicke,Treptow-Köpenick,east,12524
+S-Bhf. Adlershof,tram,84,1965253_east,"52.43525100,13.54084890",Q66363728,Adlershof,Treptow-Köpenick,east,12489
+S-Bhf. Spindlersfeld,tram,84,1965254_east,"52.44573110,13.56242980",Q66363397,Köpenick,Treptow-Köpenick,east,12555
+Luisenhain,tram,84,1965255_east,"52.44496133,13.57412369",,Köpenick,Treptow-Köpenick,east,12555
+Bahnhofstrasse Ecke Lindenstrasse,tram,84,1965256_east,"52.45050940,13.57268400",Q66095701,Köpenick,Treptow-Köpenick,east,12555
+Seelenbinderstrasse Ecke Bahnhofstrasse,tram,84,1965257_east,"52.45546320,13.57693030",Q66324934,Köpenick,Treptow-Köpenick,east,12555
+Hirschgarten,tram,84,1965258_east,"52.45185330,13.60062450",Q66360740,Friedrichshagen,Treptow-Köpenick,east,12587
+S-Bhf. Friedrichshagen,tram,84,1965259_east,"52.45641260,13.62536560",Q66360784,Friedrichshagen,Treptow-Köpenick,east,12587
+"Bölschestrasse, Brauerei",tram,84,1965260_east,"52.44699266,13.62425200",,Friedrichshagen,Treptow-Köpenick,east,12587
+"Friedrichshagen, Wasserwerk",tram,84,1965261_east,"52.45605630,13.64199560",Q66362601,Friedrichshagen,Treptow-Köpenick,east,12587
+Wendenschloß,tram,85,1965262_east,"52.41696580,13.58859260",Q66363928,Köpenick,Treptow-Köpenick,east,12557
+VEB Schiffswerft,tram,85,1965263_east,"52.42547978,13.58622004",,Köpenick,Treptow-Köpenick,east,12557
+RFT-Werk,tram,85,1965264_east,"52.43633349,13.58242861",,Köpenick,Treptow-Köpenick,east,12557
+Betriebsstelle Köpenick,tram,85,1965265_east,"52.43991300,13.58178200",Q66370900,Köpenick,Treptow-Köpenick,east,12557
+Lindenstrasse/Hegelschule,tram,85,1965266_east,"52.45050940,13.57268400",Q66095701,Köpenick,Treptow-Köpenick,east,12555
+Parkstrasse,tram,85,1965267_east,"52.45876522,13.53993546",,Oberschöneweide,Treptow-Köpenick,east,12459
+Edisonstrasse,tram,85,1965268_east,"52.46194960,13.51390490",Q65951882,Oberschöneweide,Treptow-Köpenick,east,12459
+Bhf. Schöneweide,tram,85,1965269_east,"52.45640818,13.50991657",,Niederschöneweide,Treptow-Köpenick,east,12439
+"Johannisthal, Haeckelstrasse",tram,85,1965270_east,"52.44029440,13.50526380",Q66225573,Johannisthal,Treptow-Köpenick,east,12487
+Alt-Schmöckwitz,tram,86,1965271_east,"52.37527670,13.64954900",Q66459540,Schmöckwitz,Treptow-Köpenick,east,12527
+Karolinenhof Mitte,tram,86,1965272_east,"52.39176096,13.63465426",,Schmöckwitz,Treptow-Köpenick,east,12527
+Richtershorn,tram,86,1965273_east,"52.40105000,13.62484730",Q66481215,Grünau,Treptow-Köpenick,east,12527
+Freibad Grünau,tram,86,1965274_east,"52.40862240,13.60445500",Q66489598,Grünau,Treptow-Köpenick,east,12527
+S-Bhf. Grünau,tram,86,1965275_east,"52.41349300,13.57468020",Q62470512,Grünau,Treptow-Köpenick,east,12527
+Chemische Fabrik,tram,86,1965276_east,"52.42696433,13.57354047",,Grünau,Treptow-Köpenick,east,12527
+Grünstrasse,tram,86,1965277_east,"52.44496665,13.57413387",,Köpenick,Treptow-Köpenick,east,12555
+Bahnhofstrasse,tram,86,1965278_east,"52.59633000,13.43287600",Q66192394,Französisch Buchholz,Pankow,east,13127
+S-Bhf. Köpenick,tram,86,1965279_east,"52.45821530,13.57904350",Q66370784,Köpenick,Treptow-Köpenick,east,12555
+Hirtestrasse,tram,86,1965280_east,"52.45904460,13.58383020",Q66459446,Köpenick,Treptow-Köpenick,east,12555
+"Mahlsdorf-Süd, Hubertus",tram,86,1965281_east,"52.47416630,13.59914430",Q66368466,Köpenick,Treptow-Köpenick,east,12555
+Rahnsdorf,tram,87,1965282_east,"52.44353169,13.68503800",Q66361311,Rahnsdorf,Treptow-Köpenick,east,12589
+Wasserwerk,tram,87,1965283_east,"52.45605630,13.64199560",Q66362601,Friedrichshagen,Treptow-Köpenick,east,12587
+S-Bhf. Friedrichshagen,tram,87,1965284_east,"52.45641260,13.62536560",Q66360784,Friedrichshagen,Treptow-Köpenick,east,12587
+"Bölschestrasse, Brauerei",tram,87,1965285_east,"52.44699266,13.62425200",,Friedrichshagen,Treptow-Köpenick,east,12587
+Hirschgarten,tram,87,1965286_east,"52.45185330,13.60062450",Q66360740,Friedrichshagen,Treptow-Köpenick,east,12587
+Seelenbinderstrasse Ecke Bahnhofstrasse,tram,87,1965287_east,"52.45546320,13.57693030",Q66324934,Köpenick,Treptow-Köpenick,east,12555
+Bahnhofstrasse Ecke Lindenstrasse,tram,87,1965288_east,"52.45050940,13.57268400",Q66095701,Köpenick,Treptow-Köpenick,east,12555
+Parkstrasse,tram,87,1965289_east,"52.45870589,13.53986512",,Oberschöneweide,Treptow-Köpenick,east,12459
+Wilhelminenhofstrasse Ecke Edisonstrasse,tram,87,1965290_east,"52.46194960,13.51390490",Q65951882,Oberschöneweide,Treptow-Köpenick,east,12459
+Bhf. Schöneweide,tram,87,1965291_east,"52.45640818,13.50991657",,Niederschöneweide,Treptow-Köpenick,east,12439
+Kali-Chemie,tram,87,1965292_east,"52.46329855,13.49978977",,Niederschöneweide,Treptow-Köpenick,east,12439
+Köpenicker Landstrasse Ecke Baumschulenstrasse,tram,87,1965293_east,"52.46913201,13.49134005",,Baumschulenweg,Treptow-Köpenick,east,12437
+S-Bhf. Plänterwald,tram,87,1965294_east,"52.47964547,13.47567730",,Plänterwald,Treptow-Köpenick,east,12435
+Am Treptower Park Ecke Elsenstrasse,tram,87,1965295_east,"52.49176487,13.45770388",,Alt-Treptow,Treptow-Köpenick,east,12435
+Wiener Brücke,tram,87,1965296_east,"52.49588477,13.43650069",,Kreuzberg,Friedrichshain-Kreuzberg,east,10999
+"Oberspree, Bruno-Bürgel-Weg",tram,92,1965297_east,"52.45277701,13.53712484",,Niederschöneweide,Treptow-Köpenick,east,12439
+Bhf. Schöneweide,tram,92,1965298_east,"52.45534130,13.51104490",Q65950245,Niederschöneweide,Treptow-Köpenick,east,12439
+Kali-Chemie,tram,92,1965299_east,"52.46329855,13.49978977",,Niederschöneweide,Treptow-Köpenick,east,12439
+Baumschulenstrasse Ecke Köpenicker Landstrasse,tram,92,1965300_east,"52.46911905,13.49136497",,Baumschulenweg,Treptow-Köpenick,east,12437
+S-Bhf. Baumschulenweg,tram,92,1965301_east,"52.46742532,13.48930334",,Baumschulenweg,Treptow-Köpenick,east,12437
+Sonnenallee Ecke Baumschulenstrasse,tram,92,1965302_east,"52.46085257,13.48134008",,Baumschulenweg,Treptow-Köpenick,east,12437
+Krankenhaus Köpenick,tram,95,1965303_east,"52.43861201,13.59241126",,Köpenick,Treptow-Köpenick,east,12557
+Lindenstrasse Ecke Hegelschule,tram,95,1965304_east,"52.45050940,13.57268400",Q66095701,Köpenick,Treptow-Köpenick,east,12555
+Parkstrasse,tram,95,1965305_east,"52.45876522,13.53993546",,Oberschöneweide,Treptow-Köpenick,east,12459
+Edisonstrasse,tram,95,1965306_east,"52.46194960,13.51390490",Q65951882,Oberschöneweide,Treptow-Köpenick,east,12459
+Bhf. Schöneweide,tram,95,1965307_east,"52.45534130,13.51104490",Q65950245,Niederschöneweide,Treptow-Köpenick,east,12439
+Kali-Chemie,tram,95,1965308_east,"52.46329855,13.49978977",,Niederschöneweide,Treptow-Köpenick,east,12439
+Baumschulenstrasse Ecke Köpenicker Landstrasse,tram,95,1965309_east,"52.46911905,13.49136497",,Baumschulenweg,Treptow-Köpenick,east,12437
+S-Bhf. Plänterwald,tram,95,1965310_east,"52.47964547,13.47567730",,Plänterwald,Treptow-Köpenick,east,12435
+Elsenstrasse Ecke Am Treptower Park,tram,95,1965311_east,"52.49175632,13.45775787",,Alt-Treptow,Treptow-Köpenick,east,12435
+Wiener Brücke,tram,95,1965312_east,"52.49588477,13.43650069",,Kreuzberg,Friedrichshain-Kreuzberg,east,10999
+S-Bhf. Friedrichshagen (Grenze),tram,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",1965313_east,"52.45769560,13.62667120",Q66499230,Friedrichshagen,Treptow-Köpenick,east,12587
+"Schöneiche, Waldstrasse",tram,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",1965314_east,"52.46776642,13.68198322",,,,east,
+"Schöneiche, Goethepark",tram,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",1965315_east,"52.47079746,13.68834961",,,,east,
+"Schöneiche, Dorfstrasse",tram,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",1965316_east,"52.47856621,13.69495789",,,,east,
+"Schöneiche, Dorfaue",tram,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",1965317_east,"52.47876200,13.70039800",Q66563742,,,east,
+"Schöneiche, Schillerstrasse",tram,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",1965318_east,"52.47747517,13.70876210",,,,east,
+"Schöneiche, Grätzwalde",tram,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",1965319_east,"52.47410985,13.71327932",,,,east,
+"Schöneiche, Jägerstrasse",tram,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",1965320_east,"52.47278763,13.73056629",,,,east,
+"Rüdersdorf, Berghof",tram,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",1965321_east,"52.47364542,13.76110048",,,,east,
+"Rüdersdorf, Thälmannstrasse",tram,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",1965322_east,"52.47449257,13.77360376",,,,east,
+"Rüdersdorf, Heinitzstrasse",tram,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",1965323_east,"52.47300367,13.77654713",,,,east,
+"Rüdersdorf, Post",tram,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",1965324_east,"52.47029587,13.78653797",,,,east,
+"Rüdersdorf, Schulstrasse",tram,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",1965325_east,"52.46997849,13.78702428",,,,east,
+"Rüdersdorf, Karl-Marx-Platz",tram,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",1965326_east,"52.46647403,13.80512773",,,,east,
+S-Bhf. Rahnsdorf,tram,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse (VEB Woltersdorf),1965327_east,"52.45142247,13.69304560",,Rahnsdorf,Treptow-Köpenick,east,12589
+Goethestrasse,tram,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse (VEB Woltersdorf),1965328_east,"52.45554577,13.72637715",,,,east,
+Eichendamm,tram,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse (VEB Woltersdorf),1965329_east,"52.45567448,13.73097129",,,,east,
+Lerchenstrasse,tram,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse (VEB Woltersdorf),1965330_east,"52.45516415,13.73440924",,,,east,
+Fasanenstrasse,tram,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse (VEB Woltersdorf),1965331_east,"52.45303126,13.74428068",,,,east,
+Thälmannplatz,tram,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse (VEB Woltersdorf),1965332_east,"52.45059921,13.75244097",,,,east,
+Blumenstrasse,tram,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse (VEB Woltersdorf),1965333_east,"52.44907888,13.76010696",,,,east,
+"Woltersdorf, Krankenhaus",tram,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse (VEB Woltersdorf),1965334_east,"52.44726860,13.76152919",,,,east,
+Woltersdorfer Schleuse,tram,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse (VEB Woltersdorf),1965335_east,"52.44331332,13.76395552",,,,east,
+Kosterstrasse,omnibus,O30,1965336_east,"52.51798604,13.41212675",,Mitte,Mitte,east,10179
+Andreasstrasse,omnibus,O30,1965337_east,"52.51797307,13.43289548",,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+Küstriner Platz,omnibus,O30,1965338_east,"52.51324778,13.43933319",,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+Warschauer Strasse,omnibus,O30,1965339_east,"52.51243227,13.45259884",,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Boxhagenerstrasse Ecke Holteistrasse,omnibus,O30,1965340_east,"52.50861319,13.46627719",,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+S-Bhf. Rummelsburg,omnibus,O30,1965341_east,"52.50179539,13.47802858",,Rummelsburg,Lichtenberg,east,10317
+Weitlingstrasse,omnibus,O30,1965342_east,"52.50098659,13.49295187",,Rummelsburg,Lichtenberg,east,10317
+Bhf. Lichtenberg,omnibus,O30,1965343_east,"52.54423460,13.46872150",Q65939077,Alt-Hohenschönhausen,Lichtenberg,east,13053
+Obus-Bf. Siegfriedstrasse,omnibus,O30,1965344_east,"52.52055828,13.49943442",,Lichtenberg,Lichtenberg,east,10365
+Roederplatz,omnibus,O30,1965345_east,"52.52671389,13.47966235",,Fennpfuhl,Lichtenberg,east,10369
+Proskauer Ecke Dolziger Strasse,omnibus,O30,1965346_east,"52.51987408,13.46328923",,Friedrichshain,Friedrichshain-Kreuzberg,east,10247
+Ebertystrasse Ecke Leninallee,omnibus,O30,1965347_east,"52.52722237,13.45079968",,Friedrichshain,Friedrichshain-Kreuzberg,east,10249
+Greifswalderstrasse Ecke Dimitroffstrasse,omnibus,O30,1965348_east,"52.53621776,13.43301750",,Prenzlauer Berg,Pankow,east,10405
+Königstor,omnibus,O30,1965349_east,"52.52520269,13.41983499",,Mitte,Mitte,east,10178
+"Alexanderplatz, Neue Königstrasse",omnibus,O30,1965350_east,"52.52004899,13.41401856",,Mitte,Mitte,east,10178
+Klosterstrasse,omnibus,O30,1965351_east,"52.51798604,13.41212675",,Mitte,Mitte,east,10179
+Dimitroffstrasse vor Cotheniusstrasse,omnibus,O37,1965352_east,"52.52774514,13.44620525",,Prenzlauer Berg,Pankow,east,10407
+S-Bhf. Leninallee,omnibus,O37,1965353_east,"52.52851327,13.45560255",,Prenzlauer Berg,Pankow,east,10407
+Weißenseer Weg,omnibus,O37,1965354_east,"52.53305920,13.47625284",,Fennpfuhl,Lichtenberg,east,10367
+Genslerstrasse Ecke Landsberger Chaussee,omnibus,O37,1965355_east,"52.53424371,13.49714436",,Lichtenberg,Lichtenberg,east,10365
+Dingelstädterstrasse Ecke Landsberger Chaussee,omnibus,O37,1965356_east,"52.53587673,13.52191373",,Marzahn,Marzahn-Hellersdorf,east,12681
+Bürknersfelde,omnibus,O37,1965357_east,"52.53888981,13.53415938",,Marzahn,Marzahn-Hellersdorf,east,12681
+Marzahner Chaussee Ecke Berliner Chaussee,omnibus,O37,1965358_east,"52.53890763,13.53383321",,Marzahn,Marzahn-Hellersdorf,east,12681
+"Alt-Marzahn, Kirche",omnibus,O37,1965359_east,"52.54242345,13.56406175",,Marzahn,Marzahn-Hellersdorf,east,12685
+Elisabethstrasse,omnibus,O37,1965360_east,"52.53409534,13.55949916",,Marzahn,Marzahn-Hellersdorf,east,12683
+Boschpolerstrasse,omnibus,O37,1965361_east,"52.52812259,13.54886933",,Marzahn,Marzahn-Hellersdorf,east,12681
+S-Bhf. Biesdorf,omnibus,O37,1965362_east,"52.51343259,13.55538728",,Biesdorf,Marzahn-Hellersdorf,east,12683
+"Alt-Biesdorf, Oberfeldstrasse",omnibus,O37,1965363_east,"52.50918607,13.55334706",,Biesdorf,Marzahn-Hellersdorf,east,12683
+"Alt-Friedrichsfelde, Am Tierpark",omnibus,O37,1965364_east,"52.50970259,13.51883251",,Friedrichsfelde,Lichtenberg,east,10315
+Bhf. Lichtenberg,omnibus,O37,1965365_east,"52.54423460,13.46872150",Q65939077,Alt-Hohenschönhausen,Lichtenberg,east,13053
+Ostbahnhof,omnibus,O40,1965366_east,"52.50976671,13.43372198",,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+Küstriner Platz,omnibus,O40,1965367_east,"52.51324778,13.43933319",,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+Karl-Marx-Allee,omnibus,O40,1965368_east,"52.51831920,13.43000366",,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+Leninplatz,omnibus,O40,1965369_east,"52.52323900,13.43359458",,Friedrichshain,Friedrichshain-Kreuzberg,east,10249
+Königstor,omnibus,O40,1965370_east,"52.52520269,13.41983499",,Mitte,Mitte,east,10178
+Prenzlauer Tor,omnibus,O40,1965371_east,"52.52709114,13.41580937",,Mitte,Mitte,east,10178
+Rosenthaler Platz,omnibus,O40,1965372_east,"52.52967295,13.40142893",,Mitte,Mitte,east,10119
+Oranienburger Tor,omnibus,O40,1965373_east,"52.52716314,13.38710905",,Mitte,Mitte,east,10115
+Robert-Koch-Platz,omnibus,O40,1965374_east,"52.52757051,13.37877230",,Mitte,Mitte,east,10115
+Lutherstrasse Ecke Lindenstrasse,autobus,A22,1965375_east,"52.42779153,13.73053549",,Rahnsdorf,Treptow-Köpenick,east,12589
+Fahlenbergstrasse Ecke Fürstenwalder Allee,autobus,A22,1965376_east,"52.43147015,13.71870886",,Rahnsdorf,Treptow-Köpenick,east,12589
+S-Bhf. Wilhelmshagen,autobus,A22,1965377_east,"52.43886122,13.72106025",,Rahnsdorf,Treptow-Köpenick,east,12589
+Zentralschule,autobus,A22,1965378_east,"52.43465069,13.70369221",,Rahnsdorf,Treptow-Köpenick,east,12589
+Waldschänke,autobus,A22,1965379_east,"52.44331814,13.68593963",,Rahnsdorf,Treptow-Köpenick,east,12589
+S-Bhf. Rahnsdorf,autobus,A22,1965380_east,"52.45162837,13.69157910",,Rahnsdorf,Treptow-Köpenick,east,12589
+"Fichtenau, Stadtgrenze",autobus,A22,1965381_east,"52.45479242,13.70149996",,Rahnsdorf,Treptow-Köpenick,east,12589
+Falkenhöhe,autobus,A23,1965382_east,"52.40050703,13.53822948",,,,east,
+S-Bhf. Grünbergallee,autobus,A23,1965383_east,"52.39982233,13.54017097",,Altglienicke,Treptow-Köpenick,east,12524
+S-Bhf. Altglienicke,autobus,A23,1965384_east,"52.40840520,13.55881617",,Altglienicke,Treptow-Köpenick,east,12524
+Normannenstrasse,autobus,A23,1965385_east,"52.41755554,13.54149328",,Altglienicke,Treptow-Köpenick,east,12524
+Wolfmarsteig,autobus,A23,1965386_east,"52.41268952,13.53660263",,Altglienicke,Treptow-Köpenick,east,12524
+"Altglienicke, Schönefelder Chaussee",autobus,A23,1965387_east,"52.41855858,13.53727083",,Altglienicke,Treptow-Köpenick,east,12524
+"Altglienicke, Kirche",autobus,A23,1965388_east,"52.42184573,13.53940770",,Altglienicke,Treptow-Köpenick,east,12524
+VEB Bautransporte,autobus,A26,1965389_east,"52.44295542,13.51951909",,Johannisthal,Treptow-Köpenick,east,12487
+Bhf. Schöneweide,autobus,A26,1965390_east,"52.45374952,13.51020040",,Niederschöneweide,Treptow-Köpenick,east,12487
+"S-Bhf. Kaulsdorf, Planitzstrasse",autobus,A27,1965391_east,"52.51113864,13.58755467",,Kaulsdorf,Marzahn-Hellersdorf,east,12621
+Chemnitzer Strasse Ecke Alt-Kaulsdorf,autobus,A27,1965392_east,"52.50515642,13.58155740",,Kaulsdorf,Marzahn-Hellersdorf,east,12621
+Ulmenstrasse,autobus,A27,1965393_east,"52.48730878,13.57493203",,Kaulsdorf,Marzahn-Hellersdorf,east,12621
+Wongrowitzer Steig,autobus,A27,1965394_east,"52.46693770,13.58532270",,Köpenick,Treptow-Köpenick,east,12555
+S-Bhf. Köpenick,autobus,A27,1965395_east,"52.45882190,13.57956468",,Köpenick,Treptow-Köpenick,east,12555
+Bahnhofstrasse Ecke Lindenstrasse,autobus,A27,1965396_east,"52.45096281,13.57214687",,Köpenick,Treptow-Köpenick,east,12555
+Schloßplatz,autobus,A27,1965397_east,"52.44444072,13.57513262",,Köpenick,Treptow-Köpenick,east,12555
+Wendenschloßstrasse Ecke Müggelheimerstrasse,autobus,A27,1965398_east,"52.44260945,13.58225859",,Köpenick,Treptow-Köpenick,east,12555
+"Köpenick, Krankenhaus",autobus,A27,1965399_east,"52.43861201,13.59241126",,Köpenick,Treptow-Köpenick,east,12557
+Chausseehaus,autobus,A27,1965400_east,"52.43009087,13.61469429",,Köpenick,Treptow-Köpenick,east,12557
+Müggelseeperle,autobus,A27,1965401_east,"52.42170169,13.64089308",,Köpenick,Treptow-Köpenick,east,12559
+Müggelheim,autobus,A27,1965402_east,"52.41018331,13.66589753",,Müggelheim,Treptow-Köpenick,east,12559
+Zentralflughafen,autobus,A36,1965403_east,"52.39057738,13.51559457",,,,east,
+"Schönefeld, Kirche",autobus,A36,1965404_east,"52.38742508,13.50596412",,,,east,
+Bhf. Schönefeld,autobus,A36,1965405_east,"52.38192403,13.51154508",,,,east,
+Gartenstrasse,autobus,A36,1965406_east,"52.39304608,13.52501992",,,,east,
+S-Bhf. Grünbergallee,autobus,A36,1965407_east,"52.39982233,13.54017097",,Altglienicke,Treptow-Köpenick,east,12524
+"Bohnsdorf, Kirche",autobus,A36,1965408_east,"52.39948771,13.55557443",,Bohnsdorf,Treptow-Köpenick,east,12526
+Gartenstadtweg,autobus,A36,1965409_east,"52.41231391,13.56660268",,Bohnsdorf,Treptow-Köpenick,east,12524
+S-Bhf. Grünau,autobus,A36,1965410_east,"52.41361516,13.57379629",,Grünau,Treptow-Köpenick,east,12527
+Diepensee,autobus,AD/38,1965411_east,"52.30056922,13.58892002",,,,east,
+Kienberg,autobus,AD/38,1965412_east,"52.35176615,13.54930701",,,,east,
+Waltersdorf,autobus,AD/38,1965413_east,"52.36492901,13.55571241",,,,east,
+"Bohnsdorf, Waldstrasse",autobus,AD/38,1965414_east,"52.38939719,13.57066656",,Bohnsdorf,Treptow-Köpenick,east,12526
+Eichbuschplatz,autobus,AD/38,1965415_east,"52.39366126,13.58204631",,Bohnsdorf,Treptow-Köpenick,east,12526
+Joachimstrasse,autobus,AD/38,1965416_east,"52.40316590,13.57664159",,Bohnsdorf,Treptow-Köpenick,east,12526
+S-Bhf. Grünau,autobus,AD/38,1965417_east,"52.41361516,13.57379629",,Grünau,Treptow-Köpenick,east,12527
+"Wartenberg, Siedlung",autobus,A39,1965418_east,"52.58393196,13.53076034",,Wartenberg,Lichtenberg,east,13059
+"Wartenberg, Dorfstrasse",autobus,A39,1965419_east,"52.57484090,13.51802097",,Wartenberg,Lichtenberg,east,13059
+Falkenberger Chaussee Ecke Wartenbergerstrasse,autobus,A39,1965420_east,"52.56529727,13.51255507",,Neu-Hohenschönhausen,Lichtenberg,east,13053
+Arnimstrasse Ecke Wartenbergerstrasse,autobus,A39,1965421_east,"52.55810653,13.51586070",,Neu-Hohenschönhausen,Lichtenberg,east,13053
+"Kolonie ""Land in Sonne""",autobus,A39,1965422_east,"52.55462883,13.51187030",,Alt-Hohenschönhausen,Lichtenberg,east,13053
+"Hohenschönhausen, Falkenberger Strasse",autobus,A39,1965423_east,"52.55022955,13.50958504",,Alt-Hohenschönhausen,Lichtenberg,east,13053
+"Buch, Kiesgruben",autobus,A42,1965424_east,"52.64175805,13.51596463",,Buch,Pankow,east,13125
+Ludwig-Hoffmann-Krankenhaus,autobus,A42,1965425_east,"52.63316197,13.51360238",,Buch,Pankow,east,13125
+"Karower Strasse, Alt-Buch",autobus,A42,1965426_east,"52.63531074,13.49911856",,Buch,Pankow,east,13125
+Strasse 78,autobus,A42,1965427_east,"52.61464604,13.48487327",,Karow,Pankow,east,13125
+Alt-Karow,autobus,A42,1965428_east,"52.60931229,13.48126585",,Karow,Pankow,east,13125
+Güteraußenring,autobus,A42,1965429_east,"52.59988724,13.46929713",,Karow,Pankow,east,13125
+Georgenstrasse,autobus,A42,1965430_east,"52.59393881,13.46161525",,Blankenburg,Pankow,east,13129
+"Blankenburg, Bahnhofstrasse",autobus,A42,1965431_east,"52.59138047,13.45351227",,Blankenburg,Pankow,east,13129
+"Heinersdorf, Kirche",autobus,A42,1965432_east,"52.56825199,13.44048454",,Heinersdorf,Pankow,east,13089
+Am Steinberg,autobus,A42,1965433_east,"52.55648145,13.42930676",,Weißensee,Pankow,east,13086
+Prenzlauer Promenade Ecke Ostseestrasse,autobus,A42,1965434_east,"52.55135441,13.43020267",,Prenzlauer Berg,Pankow,east,10409
+"Marzahn, Berliner Chaussee",autobus,A43,1965435_east,"52.54286481,13.55012491",,Marzahn,Marzahn-Hellersdorf,east,12685
+Güterbahnhof Springpfuhl,autobus,A43,1965436_east,"52.52561232,13.53368732",,Marzahn,Marzahn-Hellersdorf,east,12681
+S-Bhf. Friedrichsfelde-Ost,autobus,A43,1965437_east,"52.51324537,13.52403058",,Friedrichsfelde,Lichtenberg,east,10315
+"Alt-Friedrichsfelde, Am Tierpark",autobus,A43,1965438_east,"52.50970259,13.51883251",,Friedrichsfelde,Lichtenberg,east,10315
+U-Bhf. Friedrichsfelde,autobus,A43,1965439_east,"52.50624112,13.51285306",,Friedrichsfelde,Lichtenberg,east,10315
+"Hans-Loch-Strasse, Schule",autobus,A43,1965440_east,"52.50035514,13.49573653",,Friedrichsfelde,Lichtenberg,east,10315
+S-Bhf. Nöldnerplatz,autobus,A43,1965441_east,"52.50326620,13.48429373",,Rummelsburg,Lichtenberg,east,10317
+"Hönow, Dorfstrasse",autobus,A44,1965442_east,"52.54884928,13.63648688",,,,east,
+Greifswalder Strasse,autobus,A44,1965443_east,"52.53002871,13.62681794",,Mahlsdorf,Marzahn-Hellersdorf,east,12623
+Am Rosenhag,autobus,A44,1965444_east,"52.52474356,13.62177583",,Mahlsdorf,Marzahn-Hellersdorf,east,12623
+S-Bhf. Mahlsdorf,autobus,A44,1965445_east,"52.51234909,13.61221794",,Mahlsdorf,Marzahn-Hellersdorf,east,12623
+Hönowerstrasse Ecke Greifswalderstrasse,autobus,A44E,1965446_east,"52.53002742,13.62682480",,Mahlsdorf,Marzahn-Hellersdorf,east,12623
+Am Rosenhag,autobus,A44E,1965447_east,"52.52474356,13.62177583",,Mahlsdorf,Marzahn-Hellersdorf,east,12623
+S-Bhf. Mahlsdorf,autobus,A44E,1965448_east,"52.51234909,13.61221794",,Mahlsdorf,Marzahn-Hellersdorf,east,12623
+"Wilhelmsruh, Schillerstrasse",autobus,A45,1965449_east,"52.58796525,13.36878165",,Wilhelmsruh,Pankow,east,13158
+Hauptstrasse Ecke Edelweißstrasse,autobus,A45,1965450_east,"52.58637926,13.36752939",,Wilhelmsruh,Pankow,east,13158
+Heinrich-Mann-Platz,autobus,A45,1965451_east,"52.57297246,13.39214613",,Niederschönhausen,Pankow,east,13156
+"Pankow, Rathaus",autobus,A45,1965452_east,"52.56953909,13.40418644",,Pankow,Pankow,east,13187
+"Pankow, Kirche",autobus,A45,1965453_east,"52.57124681,13.41067072",,Pankow,Pankow,east,13187
+Prenzlauer Promenade Ecke Kissingenstrasse,autobus,A45,1965454_east,"52.56795805,13.42773437",,Pankow,Pankow,east,13189
+Am Steinberg,autobus,A45,1965455_east,"52.55648145,13.42930676",,Weißensee,Pankow,east,13086
+Hamburger Platz,autobus,A45,1965456_east,"52.55539419,13.43897314",,Weißensee,Pankow,east,13086
+Klement-Gottwald-Allee Ecke Pistoriusstrasse,autobus,A45,1965457_east,"52.55009436,13.45900711",,Weißensee,Pankow,east,13088
+Lichtenberger Strasse Ecke Klement-Gottwald-Allee,autobus,A45,1965458_east,"52.55200518,13.46547796",,Weißensee,Pankow,east,13088
+Klement-Gottwald-Allee Ecke Rennbahnstrasse,autobus,A45,1965459_east,"52.55694653,13.46696608",",",Weißensee,Pankow,east,13088
+Feldtmannstrasse,autobus,A45,1965460_east,"52.56401588,13.46980858",,Weißensee,Pankow,east,13088
+"Weißensee, Schwarzelfenweg",autobus,A45,1965461_east,"52.56729838,13.46535453",,Stadtrandsiedlung Malchow,Pankow,east,13088
+"Ahrensfelde, Kirche",autobus,A46,1965462_east,"52.57532251,13.57645628",,,,east,
+LPG Falkenberg,autobus,A46,1965463_east,"52.57689764,13.58248385",,,,east,
+Malchower Weg,autobus,A46,1965464_east,"52.56152031,13.50048590",,Alt-Hohenschönhausen,Lichtenberg,east,13053
+Buschallee Ecke Klement-Gottwald-Allee,autobus,A46,1965465_east,"52.55387174,13.46754341",,Weißensee,Pankow,east,13088
+Klement-Gottwald-Allee Ecke Rennbahnstrasse,autobus,A46,1965466_east,"52.55694653,13.46696608",",",Weißensee,Pankow,east,13088
+Feldtmannstrasse,autobus,A46,1965467_east,"52.56401588,13.46980858",,Weißensee,Pankow,east,13088
+"Malchow, Dorfstrasse",autobus,A46,1965468_east,"52.58046227,13.48279758",,Malchow,Lichtenberg,east,13051
+Bhf. Schöneweide,autobus,A47,1965469_east,"52.45374952,13.51020040",,Niederschöneweide,Treptow-Köpenick,east,12487
+Sterndamm,autobus,A47,1965470_east,"52.44658675,13.50653487",,Johannisthal,Treptow-Köpenick,east,12487
+Johannisthaler Chaussee,autobus,A47,1965471_east,"52.45136033,13.48829962",,Baumschulenweg,Treptow-Köpenick,east,12437
+Baumschulenstrasse Ecke Südostallee,autobus,A47,1965472_east,"52.46095842,13.48119184",,Baumschulenweg,Treptow-Köpenick,east,12437
+S-Bhf. Baumschulenweg,autobus,A47,1965473_east,"52.46749675,13.48937988",,Baumschulenweg,Treptow-Köpenick,east,12437
+Eichbuschallee,autobus,A47,1965474_east,"52.47574297,13.48731257",,Plänterwald,Treptow-Köpenick,east,12437
+"Treptow, Rathaus",autobus,A47,1965475_east,"52.48358900,13.48032476",,Plänterwald,Treptow-Köpenick,east,12435
+Sowjetisches Ehrenmal,autobus,A47,1965476_east,"52.48535896,13.46705341",,Plänterwald,Treptow-Köpenick,east,12435
+S-Bhf. Treptower Park,autobus,A47,1965477_east,"52.49403641,13.46076257",,Alt-Treptow,Treptow-Köpenick,east,12435
+Bhf. Schöneweide,autobus,A48,1965478_east,"52.45374952,13.51020040",,Niederschöneweide,Treptow-Köpenick,east,12487
+Königsheideweg,autobus,A48,1965479_east,"52.44659457,13.50649293",,Johannisthal,Treptow-Köpenick,east,12487
+Lindhorstweg,autobus,A48,1965480_east,"52.44148584,13.50065006",,Johannisthal,Treptow-Köpenick,east,12487
+Stubenrauchstrasse,autobus,A48,1965481_east,"52.42413802,13.48549509",,Rudow,Neukölln,east,12357
+"Bhf. Kaulsdorf, Bausdorfstrasse",autobus,A49,1965482_east,"52.51315438,13.59093779",,Kaulsdorf,Marzahn-Hellersdorf,east,12621
+Ridbacher Strasse,autobus,A49,1965483_east,"52.52745720,13.60644776",,Kaulsdorf,Marzahn-Hellersdorf,east,12621
+Grottkauer Strasse,autobus,A49,1965484_east,"52.52747689,13.60650030",,Kaulsdorf,Marzahn-Hellersdorf,east,12621
+Uckermarkstrasse,autobus,A49,1965485_east,"52.52145144,13.59672460",,Kaulsdorf,Marzahn-Hellersdorf,east,12621
+Storkowerstrasse Ecke Greifswalderstrasse,autobus,A54,1965486_east,"52.54126983,13.43885375",,Prenzlauer Berg,Pankow,east,10409
+S-Bhf. Lenninallee,autobus,A54,1965487_east,"52.52851724,13.45572809",,Prenzlauer Berg,Pankow,east,10407
+Dimitroffstrasse Ecke Leninallee,autobus,A54,1965488_east,"52.52644399,13.44764502",,Friedrichshain,Friedrichshain-Kreuzberg,east,10249
+"Wilhelmsruh, Hauptstrasse",autobus,A55,1965489_east,"52.59724375,13.37551883",,Rosenthal,Pankow,east,13158
+Heinrich-Mann-Platz,autobus,A55,1965490_east,"52.57297246,13.39214613",,Niederschönhausen,Pankow,east,13156
+"Pankow, Rathaus",autobus,A55,1965491_east,"52.56953909,13.40418644",,Pankow,Pankow,east,13187
+"Pankow, Kirche",autobus,A55,1965492_east,"52.57124681,13.41067072",,Pankow,Pankow,east,13187
+Prenzlauer Promenade Ecke Kissingenstrasse,autobus,A55,1965493_east,"52.56795805,13.42773437",,Pankow,Pankow,east,13189
+Am Steinberg,autobus,A55,1965494_east,"52.55648145,13.42930676",,Weißensee,Pankow,east,13086
+Hamburger Platz,autobus,A55,1965495_east,"52.55539419,13.43897314",,Weißensee,Pankow,east,13086
+Klement-Gottwald-Allee Ecke Pistoriusstrasse,autobus,A55,1965496_east,"52.55009436,13.45900711",,Weißensee,Pankow,east,13088
+Lichtenberger Strasse Ecke Klement-Gottwald-Allee,autobus,A55,1965497_east,"52.55200518,13.46547796",,Weißensee,Pankow,east,13088
+Klement-Gottwald-Allee Ecke Rennbahnstrasse,autobus,A55,1965498_east,"52.55694653,13.46696608",",",Weißensee,Pankow,east,13088
+Klement-Gottwald-Allee Ecke Feldtmannstrasse,autobus,A55,1965499_east,"52.56399507,13.46977350",,Weißensee,Pankow,east,13088
+"Weißensee, Piesporter Strasse",autobus,A55,1965500_east,"52.56042833,13.47657809",,Weißensee,Pankow,east,13088
+"Weißensee, Nüßlerstrasse",autobus,A56,1965501_east,"52.56398538,13.46973377",,Weißensee,Pankow,east,13088
+Gehringstrasse Ecke Gustav-Adolf-Strasse,autobus,A56,1965502_east,"52.56275860,13.45929567",,Weißensee,Pankow,east,13088
+Rennbahnstrasse Ecke Gustav-Adolf-Strasse,autobus,A56,1965503_east,"52.56218648,13.45426704",,Weißensee,Pankow,east,13086
+Wigandstalerstrasse Ecke Gustav-Adolf-Strasse,autobus,A56,1965504_east,"52.55784135,13.44431694",,Weißensee,Pankow,east,13086
+Hamburger Platz,autobus,A56,1965505_east,"52.55539419,13.43897314",,Weißensee,Pankow,east,13086
+Prenzlauer Promenade,autobus,A56,1965506_east,"52.55167517,13.43032601",,Prenzlauer Berg,Pankow,east,13086
+"Prenzlauer Allee, Wichertstrasse",autobus,A56,1965507_east,"52.54598539,13.42701250",,Prenzlauer Berg,Pankow,east,10439
+Kniprodestrasse Ecke Ermländische Strasse,autobus,A57,1965508_east,"52.53214047,13.44149841",,Prenzlauer Berg,Pankow,east,10407
+Dimitroffstrasse,autobus,A57,1965509_east,"52.52644945,13.44757477",,Friedrichshain,Friedrichshain-Kreuzberg,east,10249
+Am Friedrichshain,autobus,A57,1965510_east,"52.52825436,13.42384232",,Prenzlauer Berg,Pankow,east,10405
+Königstor,autobus,A57,1965511_east,"52.52520269,13.41983499",,Mitte,Mitte,east,10178
+S-Bhf. Alexanderplatz,autobus,A57,1965512_east,"52.52074878,13.41214723",,Mitte,Mitte,east,10179
+Marx-Engels-Platz,autobus,A57,1965513_east,"52.51617617,13.40093741",,Mitte,Mitte,east,10178
+Friedrichstrasse Ecke Unter den Linden,autobus,A57,1965514_east,"52.51718498,13.38882143",", ",Mitte,Mitte,east,10117
+Bhf. Friedrichstrasse,autobus,A57,1965515_east,"52.52056066,13.38823192",,Mitte,Mitte,east,10117
+Schumannstrasse Ecke Reinhardtstrasse,autobus,A57,1965516_east,"52.52325899,13.38382070",,Mitte,Mitte,east,10117
+Robert-Koch-Platz,autobus,A57,1965517_east,"52.52757051,13.37877230",,Mitte,Mitte,east,10115
+Fontanestrasse,autobus,A58,1965518_east,"52.58985939,13.36119357",,Wilhelmsruh,Pankow,east,13158
+Hauptstrasse Ecke Hertzstrasse,autobus,A58,1965519_east,"52.58936172,13.36990080",,Wilhelmsruh,Pankow,east,13158
+Heinrich-Mann-Platz,autobus,A58,1965520_east,"52.57297246,13.39214613",,Niederschönhausen,Pankow,east,13156
+"Pankow, Rathaus",autobus,A58,1965521_east,"52.56953909,13.40418644",,Pankow,Pankow,east,13187
+"Pankow, Kirche",autobus,A58,1965522_east,"52.57124681,13.41067072",,Pankow,Pankow,east,13187
+S-Bhf. Pankow,autobus,A58,1965523_east,"52.56742037,13.41225013",,Pankow,Pankow,east,13189
+U-Bhf. Pankow (Vinetastrasse),autobus,A58,1965524_east,"52.55932980,13.41333319",,Pankow,Pankow,east,13189
+Walther-Ulbricht-Stadion,autobus,A59,1965525_east,"52.53664798,13.37829813",,Mitte,Mitte,east,10115
+Invalidenstrasse,autobus,A59,1965526_east,"52.53056312,13.38307277",,Mitte,Mitte,east,10115
+Oranienburger Tor,autobus,A59,1965527_east,"52.52716314,13.38710905",,Mitte,Mitte,east,10115
+Bhf. Friedrichstrasse,autobus,A59,1965528_east,"52.52056066,13.38823192",,Mitte,Mitte,east,10117
+Französische Strasse,autobus,A59,1965529_east,"52.51479531,13.38921161",,Mitte,Mitte,east,10117
+U-Bhf. Stadtmitte,autobus,A59,1965530_east,"52.51041797,13.38988130",,Mitte,Mitte,east,10117
+U-Bhf. Thälmannplatz,autobus,A59,1965531_east,"52.51144420,13.38343291",,Mitte,Mitte,east,10117
+"Glienicke, Kirche",autobus,A7,1965532_east,"52.63062737,13.31286192",,,,east,
+Elsässer Strasse,autobus,A7,1965533_east,"52.63337295,13.34510342",,,,east,
+"Schildow, Kirche",autobus,A7,1965534_east,"52.63581867,13.37771917",,,,east,
+"Blankenfelde, Hauptstrasse",autobus,A7,1965535_east,"52.63002535,13.38262328",,Blankenfelde,Pankow,east,13159
+Industriebahn,autobus,A7,1965536_east,"52.61860431,13.39039578",,Blankenfelde,Pankow,east,13159
+Nordend,autobus,A7,1965537_east,"52.59006569,13.40174057",,Rosenthal,Pankow,east,13158
+Kurt-Fischer-Platz,autobus,A7,1965538_east,"52.57973293,13.39833073",,Niederschönhausen,Pankow,east,13156
+"Pankow, Rathaus",autobus,A7,1965539_east,"52.56953909,13.40418644",,Pankow,Pankow,east,13187
+Florastrasse Ecke Mühlenstrasse,autobus,A7,1965540_east,"52.56537666,13.40654063",,Pankow,Pankow,east,13187
+U-Bhf. Vinetastrasse,autobus,A7,1965541_east,"52.55981894,13.41320863",,Pankow,Pankow,east,13189
+"Schildow, Kirche",autobus,A7E,1965542_east,"52.63581867,13.37771917",,,,east,
+"Blankenfelde, Hauptstrasse",autobus,A7E,1965543_east,"52.63002535,13.38262328",,Blankenfelde,Pankow,east,13159
+Industriebahn,autobus,A7E,1965544_east,"52.61860431,13.39039578",,Blankenfelde,Pankow,east,13159
+Nordend,autobus,A7E,1965545_east,"52.59006569,13.40174057",,Rosenthal,Pankow,east,13158
+Kurt-Fischer-Platz,autobus,A7E,1965546_east,"52.57973293,13.39833073",,Niederschönhausen,Pankow,east,13156
+"Pankow, Rathaus",autobus,A7E,1965547_east,"52.56953909,13.40418644",,Pankow,Pankow,east,13187
+Florastrasse Ecke Mühlenstrasse,autobus,A7E,1965548_east,"52.56537666,13.40654063",,Pankow,Pankow,east,13187
+U-Bhf. Vinetastrasse,autobus,A7E,1965549_east,"52.55981894,13.41320863",,Pankow,Pankow,east,13189
+"Waldesruh, Malhlsdorfer Allee",autobus,A8,1965550_east,"52.48493120,13.62906944",,,,east,
+Fichtestrasse Ecke Schopenhauerstrasse,autobus,A8,1965551_east,"52.47979925,13.61729231",,,,east,
+Hultschiner Damm,autobus,A8,1965552_east,"52.47711374,13.60059814",,Mahlsdorf,Marzahn-Hellersdorf,east,12623
+Sadowastrasse,autobus,A8,1965553_east,"52.48267547,13.58483307",,Mahlsdorf,Marzahn-Hellersdorf,east,12621
+Sadowastrasse Ecke Ulmenstrasse,autobus,A8,1965554_east,"52.48270617,13.58489909",,Mahlsdorf,Marzahn-Hellersdorf,east,12621
+Jägerstrasse,autobus,A8,1965555_east,"52.48596831,13.57416719",,Kaulsdorf,Marzahn-Hellersdorf,east,12621
+"Biesdorf, Köpenickerstrasse",autobus,A8,1965556_east,"52.48659005,13.56036458",,Biesdorf,Marzahn-Hellersdorf,east,12683
+Dohlengrund,autobus,A8,1965557_east,"52.49817919,13.56339788",,Biesdorf,Marzahn-Hellersdorf,east,12683
+"Alt-Biesdorf, Oberfeldstrasse",autobus,A8,1965558_east,"52.50918607,13.55334706",nan+ nan,Biesdorf,Marzahn-Hellersdorf,east,12683
+"Alt-Friedrichsfelde, Am Tierpark",autobus,A8,1965559_east,"52.50970259,13.51883251",,Friedrichsfelde,Lichtenberg,east,10315
+U-Bhf. Friedrichsfelde,autobus,A8,1965560_east,"52.50624112,13.51285306",,Friedrichsfelde,Lichtenberg,east,10315
+Sadowastrasse,autobus,A8E,1965561_east,"52.48267547,13.58483307",,Mahlsdorf,Marzahn-Hellersdorf,east,12621
+Sadowastrasse Ecke Ulmenstrasse,autobus,A8E,1965562_east,"52.48270617,13.58489909",,Mahlsdorf,Marzahn-Hellersdorf,east,12621
+Jägerstrasse,autobus,A8E,1965563_east,"52.48596831,13.57416719",,Kaulsdorf,Marzahn-Hellersdorf,east,12621
+"Biesdorf, Köpenickerstrasse",autobus,A8E,1965564_east,"52.48659005,13.56036458",,Biesdorf,Marzahn-Hellersdorf,east,12683
+Dohlengrund,autobus,A8E,1965565_east,"52.49817919,13.56339788",,Biesdorf,Marzahn-Hellersdorf,east,12683
+"Alt-Biesdorf, Oberfeldstrasse",autobus,A8E,1965566_east,"52.50918607,13.55334706",nan+ nan,Biesdorf,Marzahn-Hellersdorf,east,12683
+"Alt-Friedrichsfelde, Am Tierpark",autobus,A8E,1965567_east,"52.50970259,13.51883251",,Friedrichsfelde,Lichtenberg,east,10315
+U-Bhf. Friedrichsfelde,autobus,A8E,1965568_east,"52.50624112,13.51285306",,Friedrichsfelde,Lichtenberg,east,10315
+Kurische Strasse,autobus,A9,1965569_east,"52.53541469,13.43908579",,Prenzlauer Berg,Pankow,east,10407
+Arnswalder Platz,autobus,A9,1965570_east,"52.53376531,13.43812130",,Prenzlauer Berg,Pankow,east,10407
+Königstor,autobus,A9,1965571_east,"52.52520269,13.41983499",,Mitte,Mitte,east,10178
+S-Bhf. Alexanderplatz,autobus,A9,1965572_east,"52.52074878,13.41214723",,Mitte,Mitte,east,10179
+Marx-Engels-Platz,autobus,A9,1965573_east,"52.51617617,13.40093741",,Mitte,Mitte,east,10178
+Friedrichstrasse Ecke Unter den Linden,autobus,A9,1965574_east,"52.51718498,13.38882143",", ",Mitte,Mitte,east,10117
+Bhf. Friedrichstrasse,autobus,A9,1965575_east,"52.52056066,13.38823192",,Mitte,Mitte,east,10117
+Oranienburger Tor,autobus,A9,1965576_east,"52.52716314,13.38710905",,Mitte,Mitte,east,10115
+Platz vor dem Neuen Tor,autobus,A9,1965577_east,"52.52921246,13.37851356",,Mitte,Mitte,east,10115
+Scharnhorststrasse Ecke Kieler Strasse,autobus,A9,1965578_east,"52.53435872,13.37031084",,Mitte,Mitte,east,10115
+Neu-Lindenberg,autobus,AL,1965579_east,"52.60088563,13.55479409",,,,east,
+"Lindenberg, Schule",autobus,AL,1965580_east,"52.60315194,13.53344348",,,,east,
+"Lindenberg, Dorf",autobus,AL,1965581_east,"52.60155977,13.51999473",,,,east,
+"Lindenberg, Mühle",autobus,AL,1965582_east,"52.59740281,13.50726274",,,,east,
+"Malchow, Dorfstrasse",autobus,AL,1965583_east,"52.58046227,13.48279758",,Malchow,Lichtenberg,east,13051
+Zühlsdorf,autobus,AS,1965584_east,"52.71622507,13.36692567",,,,east,
+"Summt, Seegarten",autobus,AS,1965585_east,"52.69281585,13.36639406",,,,east,
+"Triftweg, LPG",autobus,AS,1965586_east,"52.67560474,13.37729050",,,,east,
+"Mühlenbeck, Schule",autobus,AS,1965587_east,"52.66607201,13.37807341",,,,east,
+Mönchmühle,autobus,AS,1965588_east,"52.64953455,13.39049276",,,,east,
+"Schildow, Kirche",autobus,AS,1965589_east,"52.63581867,13.37771917",,,,east,
+"Groß Ziethen, Friedrich-Ebert-Strasse",autobus,AZ,1965590_east,"52.41404104,13.43887916",,,,east,
+Klein Ziethen,autobus,AZ,1965591_east,"52.37958050,13.44656987",,,,east,
+Waßmannsdorf,autobus,AZ,1965592_east,"52.37269773,13.46503265",,,,east,
+"Schönefeld, Kirche",autobus,AZ,1965593_east,"52.38742508,13.50596412",,,,east,
+Bhf. Schönefeld,autobus,AZ,1965594_east,"52.38192403,13.51154508",,,,east,
+Friedrichstr.,s-bahn,KBS 101,1965595_east,"52.52027778,13.38694444",Q111219456,Mitte,Mitte,east,10117
+Marx-Engels-Platz,s-bahn,KBS 101,1965596_east,"52.52260000,13.40220000",Q689312,Mitte,Mitte,east,10178
+Alexanderplatz,s-bahn,KBS 101,1965597_east,"52.52138889,13.41194444",Q111324700,Mitte,Mitte,east,10179
+Jannowitzbrücke,s-bahn,KBS 101,1965598_east,"52.51482222,13.41795000",Q27955427,Mitte,Mitte,east,10179
+Ostbahnhof,s-bahn,KBS 101,1965599_east,"52.51000000,13.43470000",Q111325075,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+Warschauer Str.,s-bahn,KBS 101,1965600_east,"52.50641667,13.45095556",Q111252298,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Ostkreuz,s-bahn,KBS 101,1965601_east,"52.50310000,13.46890000",Q111251530,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Nöldnerplatz,s-bahn,KBS 101,1965602_east,"52.50380000,13.48530000",Q4892447,Rummelsburg,Lichtenberg,east,10317
+Lichtenberg,s-bahn,KBS 101,1965603_east,"52.51060000,13.49640000",Q634247,Rummelsburg,Lichtenberg,east,10317
+Friedrichsfelde Ost,s-bahn,KBS 101,1965604_east,"52.51410000,13.51980000",Q800473,Marzahn,Marzahn-Hellersdorf,east,12681
+Biesdorf,s-bahn,KBS 101,1965605_east,"52.51310000,13.55540000",Q4892357,Biesdorf,Marzahn-Hellersdorf,east,12683
+Kaulsdorf,s-bahn,KBS 101,1965606_east,"52.51210000,13.59040000",Q800478,Kaulsdorf,Marzahn-Hellersdorf,east,12621
+Mahlsdorf,s-bahn,KBS 101,1965607_east,"52.51210000,13.61060000",Q800484,Mahlsdorf,Marzahn-Hellersdorf,east,12623
+Hoppegarten (Mark),s-bahn,KBS 101,1965608_east,"52.51830000,13.67340000",Q15197357,,,east,
+Neuenhagen (b Bln),s-bahn,KBS 101,1965609_east,"52.52080000,13.70030000",Q7001614,,,east,
+Fredersdorf (b Bln),s-bahn,KBS 101,1965610_east,"52.52650000,13.76250000",Q15197387,,,east,
+Petershagen Nord,s-bahn,KBS 101,1965611_east,"52.52910000,13.79100000",Q7178217,,,east,
+Strausberg,s-bahn,KBS 101,1965612_east,"52.53193300,13.83693300",Q7622326,,,east,
+Strausberg,s-bahn,KBS 101c,1965613_east,"52.53193300,13.83693300",Q7622326,,,east,
+Strausberg Stadt,s-bahn,KBS 101c,1965614_east,"52.57660000,13.88780000",Q7622325,,,east,
+Strausberg Nord,s-bahn,KBS 101c,1965615_east,"52.59020000,13.90840000",Q7622324,,,east,
+Friedrichstr.,s-bahn,KBS 102,1965616_east,"52.52027778,13.38694444",Q111219456,Mitte,Mitte,east,10117
+Marx-Engels-Platz,s-bahn,KBS 102,1965617_east,"52.52260000,13.40220000",Q689312,Mitte,Mitte,east,10178
+Alexanderplatz,s-bahn,KBS 102,1965618_east,"52.52138889,13.41194444",Q111324700,Mitte,Mitte,east,10179
+Jannowitzbrücke,s-bahn,KBS 102,1965619_east,"52.51482222,13.41795000",Q27955427,Mitte,Mitte,east,10179
+Ostbahnhof,s-bahn,KBS 102,1965620_east,"52.51000000,13.43470000",Q111325075,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+Warschauer Str.,s-bahn,KBS 102,1965621_east,"52.50641667,13.45095556",Q111252298,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Ostkreuz,s-bahn,KBS 102,1965622_east,"52.50310000,13.46890000",Q111251530,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Rummelsburg,s-bahn,KBS 102,1965623_east,"52.50124400,13.47854500",Q15107132,Rummelsburg,Lichtenberg,east,10317
+Betriebsbahnhof Rummelsburg,s-bahn,KBS 102,1965624_east,"52.49390000,13.49780000",Q829009,Rummelsburg,Lichtenberg,east,10317
+Karlshorst,s-bahn,KBS 102,1965625_east,"52.48080000,13.52580000",Q111327045,Karlshorst,Lichtenberg,east,10318
+Wuhlheide,s-bahn,KBS 102,1965626_east,"52.46890000,13.55330000",Q800514,Köpenick,Treptow-Köpenick,east,12555
+Köpenick,s-bahn,KBS 102,1965627_east,"52.45860000,13.58080000",Q800479,Köpenick,Treptow-Köpenick,east,12555
+Hirschgarten,s-bahn,KBS 102,1965628_east,"52.45790000,13.60320000",Q4892435,Friedrichshagen,Treptow-Köpenick,east,12587
+Friedrichshagen,s-bahn,KBS 102,1965629_east,"52.45740000,13.62330000",Q800474,Friedrichshagen,Treptow-Köpenick,east,12587
+Rahnsdorf,s-bahn,KBS 102,1965630_east,"52.45163720,13.68997760",Q800489,Rahnsdorf,Treptow-Köpenick,east,12589
+Wilhelmshagen,s-bahn,KBS 102,1965631_east,"52.43860000,13.72220000",Q800494,Rahnsdorf,Treptow-Köpenick,east,12589
+Erkner,s-bahn,KBS 102,1965632_east,"52.42960000,13.75130000",Q14434071,,,east,
+Friedrichstr.,s-bahn,KBS 103,1965633_east,"52.52027778,13.38694444",Q111219456,Mitte,Mitte,east,10117
+Marx-Engels-Platz,s-bahn,KBS 103,1965634_east,"52.52260000,13.40220000",Q689312,Mitte,Mitte,east,10178
+Alexanderplatz,s-bahn,KBS 103,1965635_east,"52.52138889,13.41194444",Q111324700,Mitte,Mitte,east,10179
+Jannowitzbrücke,s-bahn,KBS 103,1965636_east,"52.51482222,13.41795000",Q27955427,Mitte,Mitte,east,10179
+Ostbahnhof,s-bahn,KBS 103,1965637_east,"52.51000000,13.43470000",Q111325075,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+Warschauer Str.,s-bahn,KBS 103,1965638_east,"52.50641667,13.45095556",Q111252298,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Treptower Park,s-bahn,KBS 103,1965639_east,"52.49380000,13.46180000",Q559274,Alt-Treptow,Treptow-Köpenick,east,12435
+Plänterwald,s-bahn,KBS 103,1965640_east,"52.47860000,13.47330000",Q7205917,Plänterwald,Treptow-Köpenick,east,12435
+Baumschulenweg,s-bahn,KBS 103,1965641_east,"52.46750000,13.48972200",Q324336,Baumschulenweg,Treptow-Köpenick,east,12437
+Schöneweide,s-bahn,KBS 103,1965642_east,"52.45500000,13.50944444",Q111323931,Niederschöneweide,Treptow-Köpenick,east,12487
+Betriebsbahnhof Schöneweide,s-bahn,KBS 103,1965643_east,"52.44676000,13.52391000",Q4526101,Niederschöneweide,Treptow-Köpenick,east,12487
+Adlershof,s-bahn,KBS 103,1965644_east,"52.43472222,13.54138889",Q323551,Adlershof,Treptow-Köpenick,east,12489
+Grünau,s-bahn,KBS 103,1965645_east,"52.41220000,13.57460000",Q111307258,Grünau,Treptow-Köpenick,east,12527
+Eichwalde,s-bahn,KBS 103,1965646_east,"52.37150000,13.61520000",Q19274479,,,east,
+Zeuthen,s-bahn,KBS 103,1965647_east,"52.34860000,13.62740000",Q8069824,,,east,
+Wildau,s-bahn,KBS 103,1965648_east,"52.32000000,13.63400000",Q8000974,,,east,
+Königs Wusterhausen,s-bahn,KBS 103,1965649_east,"52.29660000,13.63110000",Q178002,,,east,
+Friedrichstr.,s-bahn,KBS 103a,1965650_east,"52.52027778,13.38694444",Q111219456,Mitte,Mitte,east,10117
+Marx-Engels-Platz,s-bahn,KBS 103a,1965651_east,"52.52260000,13.40220000",Q689312,Mitte,Mitte,east,10178
+Alexanderplatz,s-bahn,KBS 103a,1965652_east,"52.52138889,13.41194444",Q111324700,Mitte,Mitte,east,10179
+Jannowitzbrücke,s-bahn,KBS 103a,1965653_east,"52.51482222,13.41795000",Q27955427,Mitte,Mitte,east,10179
+Ostbahnhof,s-bahn,KBS 103a,1965654_east,"52.51000000,13.43470000",Q111325075,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+Warschauer Str.,s-bahn,KBS 103a,1965655_east,"52.50641667,13.45095556",Q111252298,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Treptower Park,s-bahn,KBS 103a,1965656_east,"52.49380000,13.46180000",Q559274,Alt-Treptow,Treptow-Köpenick,east,12435
+Plänterwald,s-bahn,KBS 103a,1965657_east,"52.47860000,13.47330000",Q7205917,Plänterwald,Treptow-Köpenick,east,12435
+Baumschulenweg,s-bahn,KBS 103a,1965658_east,"52.46750000,13.48972200",Q324336,Baumschulenweg,Treptow-Köpenick,east,12437
+Schöneweide,s-bahn,KBS 103a,1965659_east,"52.45500000,13.50944444",Q111323931,Niederschöneweide,Treptow-Köpenick,east,12487
+Betriebsbahnhof Schöneweide,s-bahn,KBS 103a,1965660_east,"52.44676000,13.52391000",Q4526101,Niederschöneweide,Treptow-Köpenick,east,12487
+Adlershof,s-bahn,KBS 103a,1965661_east,"52.43472222,13.54138889",Q323551,Adlershof,Treptow-Köpenick,east,12489
+Altglienicke,s-bahn,KBS 103a,1965662_east,"52.40730000,13.55880000",Q4736651,Altglienicke,Treptow-Köpenick,east,12524
+Grünbergallee,s-bahn,KBS 103a,1965663_east,"52.39920000,13.54160000",Q5612896,Altglienicke,Treptow-Köpenick,east,12526
+Zentralflughafen Berlin-Schönefeld,s-bahn,KBS 103a,1965664_east,"52.39140000,13.51280000",Q661069,,,east,
+Oranienburg,s-bahn,KBS 104,1965665_east,"52.75360000,13.24960000",Q2341669,,,east,
+Lehnitz,s-bahn,KBS 104,1965666_east,"52.74110000,13.26350000",Q4258498,,,east,
+Borgsdorf,s-bahn,KBS 104,1965667_east,"52.71550000,13.27640000",Q4093486,,,east,
+Birkenwerder,s-bahn,KBS 104,1965668_east,"52.68850000,13.28880000",Q2343634,,,east,
+Hohen Neuendorf (b Bln),s-bahn,KBS 104,1965669_east,"52.66840000,13.28700000",Q4500489,,,east,
+Bergfelde (b Bln),s-bahn,KBS 104,1965670_east,"52.67020000,13.32030000",Q4891640,,,east,
+Schönfließ,s-bahn,KBS 104,1965671_east,"52.66480000,13.33970000",Q801423,,,east,
+Blankenburg,s-bahn,KBS 104,1965672_east,"52.59150000,13.44350000",Q800469,Blankenburg,Pankow,east,13129
+Pankow-Heinersdorf,s-bahn,KBS 104,1965673_east,"52.57806530,13.42950930",Q4892366,Pankow,Pankow,east,13189
+Pankow,s-bahn,KBS 104,1965674_east,"52.56670000,13.41110000",Q111273850,Pankow,Pankow,east,13187
+Schönhauser Allee,s-bahn,KBS 104,1965675_east,"52.54932900,13.41370600",Q111264493,Prenzlauer Berg,Pankow,east,10439
+Prenzlauer Allee,s-bahn,KBS 104,1965676_east,"52.54477500,13.42611600",Q32661483,Prenzlauer Berg,Pankow,east,10437
+Greifswalder Str.,s-bahn,KBS 104,1965677_east,"52.53972222,13.43944444",Q439246,Prenzlauer Berg,Pankow,east,10405
+Leninallee,s-bahn,KBS 104,1965678_east,"52.52950000,13.45480000",Q800507,Prenzlauer Berg,Pankow,east,10407
+Zentralviehhof,s-bahn,KBS 104,1965679_east,"52.52380000,13.46440000",Q800512,Prenzlauer Berg,Pankow,east,10249
+Frankfurter Allee,s-bahn,KBS 104,1965680_east,"52.51416667,13.47472222",Q111250033,Friedrichshain,Friedrichshain-Kreuzberg,east,10247
+Warschauer Str.,s-bahn,KBS 104,1965681_east,"52.50641667,13.45095556",Q111252298,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Ostbahnhof,s-bahn,KBS 104,1965682_east,"52.51000000,13.43470000",Q111325075,Friedrichshain,Friedrichshain-Kreuzberg,east,10243
+Hennigsdorf (b Bln),s-bahn,KBS 104d,1965683_east,"52.63800000,13.20570000",Q800909,,,east,
+Hennigsdorf Nord,s-bahn,KBS 104d,1965684_east,"52.66000000,13.20330000",Q685717,,,east,
+Hohenschöpping,s-bahn,KBS 104d,1965685_east,"52.67000000,13.19450000",Q19274489,,,east,
+Velten (Mark),s-bahn,KBS 104d,1965686_east,"52.68500000,13.17222200",Q19274518,,,east,
+Blankenburg,s-bahn,KBS 105,1965687_east,"52.59150000,13.44350000",Q800469,Blankenburg,Pankow,east,13129
+Pankow-Heinersdorf,s-bahn,KBS 105,1965688_east,"52.57806530,13.42950930",Q4892366,Pankow,Pankow,east,13189
+Pankow,s-bahn,KBS 105,1965689_east,"52.56670000,13.41110000",Q111273850,Pankow,Pankow,east,13187
+Schönhauser Allee,s-bahn,KBS 105,1965690_east,"52.54932900,13.41370600",Q111264493,Prenzlauer Berg,Pankow,east,10439
+Prenzlauer Allee,s-bahn,KBS 105,1965691_east,"52.54477500,13.42611600",Q32661483,Prenzlauer Berg,Pankow,east,10437
+Greifswalder Str.,s-bahn,KBS 105,1965692_east,"52.53972222,13.43944444",Q439246,Prenzlauer Berg,Pankow,east,10405
+Leninallee,s-bahn,KBS 105,1965693_east,"52.52950000,13.45480000",Q800507,Prenzlauer Berg,Pankow,east,10407
+Zentralviehhof,s-bahn,KBS 105,1965694_east,"52.52380000,13.46440000",Q800512,Prenzlauer Berg,Pankow,east,10249
+Frankfurter Allee,s-bahn,KBS 105,1965695_east,"52.51416667,13.47472222",Q111250033,Friedrichshain,Friedrichshain-Kreuzberg,east,10247
+Ostkreuz,s-bahn,KBS 105,1965696_east,"52.50310000,13.46890000",Q111251530,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Treptower Park,s-bahn,KBS 105,1965697_east,"52.49380000,13.46180000",Q559274,Alt-Treptow,Treptow-Köpenick,east,12435
+Plänterwald,s-bahn,KBS 105,1965698_east,"52.47860000,13.47330000",Q7205917,Plänterwald,Treptow-Köpenick,east,12435
+Baumschulenweg,s-bahn,KBS 105,1965699_east,"52.46750000,13.48972200",Q324336,Baumschulenweg,Treptow-Köpenick,east,12437
+Schöneweide,s-bahn,KBS 105,1965700_east,"52.45500000,13.50944444",Q111323931,Niederschöneweide,Treptow-Köpenick,east,12487
+Betriebsbahnhof Schöneweide,s-bahn,KBS 105,1965701_east,"52.44676000,13.52391000",Q4526101,Niederschöneweide,Treptow-Köpenick,east,12487
+Adlershof,s-bahn,KBS 105,1965702_east,"52.43472222,13.54138889",Q323551,Adlershof,Treptow-Köpenick,east,12489
+Grünau,s-bahn,KBS 105,1965703_east,"52.41220000,13.57460000",Q111307258,Grünau,Treptow-Köpenick,east,12527
+Eichwalde,s-bahn,KBS 105,1965704_east,"52.37150000,13.61520000",Q19274479,,,east,
+Zeuthen,s-bahn,KBS 105,1965705_east,"52.34860000,13.62740000",Q8069824,,,east,
+Bernau (b Bln),s-bahn,KBS 106,1965706_east,"52.67630000,13.59310000",Q479789,,,east,
+Zepernick (b Bernau),s-bahn,KBS 106,1965707_east,"52.65980000,13.53420000",Q801657,,,east,
+Röntgental,s-bahn,KBS 106,1965708_east,"52.64870000,13.51360000",Q801386,,,east,
+Buch,s-bahn,KBS 106,1965709_east,"52.63590000,13.49170000",Q4892359,Buch,Pankow,east,13125
+Karow,s-bahn,KBS 106,1965710_east,"52.61500000,13.46920000",Q111324168,Karow,Pankow,east,13125
+Blankenburg,s-bahn,KBS 106,1965711_east,"52.59150000,13.44350000",Q800469,Blankenburg,Pankow,east,13129
+Pankow-Heinersdorf,s-bahn,KBS 106,1965712_east,"52.57806530,13.42950930",Q4892366,Pankow,Pankow,east,13189
+Pankow,s-bahn,KBS 106,1965713_east,"52.56670000,13.41110000",Q111273850,Pankow,Pankow,east,13187
+Schönhauser Allee,s-bahn,KBS 106,1965714_east,"52.54932900,13.41370600",Q111264493,Prenzlauer Berg,Pankow,east,10439
+Prenzlauer Allee,s-bahn,KBS 106,1965715_east,"52.54477500,13.42611600",Q32661483,Prenzlauer Berg,Pankow,east,10437
+Greifswalder Str.,s-bahn,KBS 106,1965716_east,"52.53972222,13.43944444",Q439246,Prenzlauer Berg,Pankow,east,10405
+Leninallee,s-bahn,KBS 106,1965717_east,"52.52950000,13.45480000",Q800507,Prenzlauer Berg,Pankow,east,10407
+Zentralviehhof,s-bahn,KBS 106,1965718_east,"52.52380000,13.46440000",Q800512,Prenzlauer Berg,Pankow,east,10249
+Frankfurter Allee,s-bahn,KBS 106,1965719_east,"52.51416667,13.47472222",Q111250033,Friedrichshain,Friedrichshain-Kreuzberg,east,10247
+Ostkreuz,s-bahn,KBS 106,1965720_east,"52.50310000,13.46890000",Q111251530,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Treptower Park,s-bahn,KBS 106,1965721_east,"52.49380000,13.46180000",Q559274,Alt-Treptow,Treptow-Köpenick,east,12435
+Plänterwald,s-bahn,KBS 106,1965722_east,"52.47860000,13.47330000",Q7205917,Plänterwald,Treptow-Köpenick,east,12435
+Baumschulenweg,s-bahn,KBS 106,1965723_east,"52.46750000,13.48972200",Q324336,Baumschulenweg,Treptow-Köpenick,east,12437
+Schöneweide,s-bahn,KBS 106,1965724_east,"52.45500000,13.50944444",Q111323931,Niederschöneweide,Treptow-Köpenick,east,12487
+Oberspree,s-bahn,KBS 106,1965725_east,"52.45250000,13.53820000",Q15192700,Niederschöneweide,Treptow-Köpenick,east,12439
+Spindlersfeld,s-bahn,KBS 106,1965726_east,"52.44720000,13.56130000",Q4892371,Köpenick,Treptow-Köpenick,east,12555
+Schönhauser Allee,s-bahn,KBS 106a,1965727_east,"52.54932900,13.41370600",Q111264493,Prenzlauer Berg,Pankow,east,10439
+Prenzlauer Allee,s-bahn,KBS 106a,1965728_east,"52.54477500,13.42611600",Q32661483,Prenzlauer Berg,Pankow,east,10437
+Greifswalder Str.,s-bahn,KBS 106a,1965729_east,"52.53972222,13.43944444",Q439246,Prenzlauer Berg,Pankow,east,10405
+Leninallee,s-bahn,KBS 106a,1965730_east,"52.52950000,13.45480000",Q800507,Prenzlauer Berg,Pankow,east,10407
+Zentralviehhof,s-bahn,KBS 106a,1965731_east,"52.52380000,13.46440000",Q800512,Prenzlauer Berg,Pankow,east,10249
+Frankfurter Allee,s-bahn,KBS 106a,1965732_east,"52.51416667,13.47472222",Q111250033,Friedrichshain,Friedrichshain-Kreuzberg,east,10247
+Ostkreuz,s-bahn,KBS 106a,1965733_east,"52.50310000,13.46890000",Q111251530,Friedrichshain,Friedrichshain-Kreuzberg,east,10245
+Treptower Park,s-bahn,KBS 106a,1965734_east,"52.49380000,13.46180000",Q559274,Alt-Treptow,Treptow-Köpenick,east,12435
+Plänterwald,s-bahn,KBS 106a,1965735_east,"52.47860000,13.47330000",Q7205917,Plänterwald,Treptow-Köpenick,east,12435
+Baumschulenweg,s-bahn,KBS 106a,1965736_east,"52.46750000,13.48972200",Q324336,Baumschulenweg,Treptow-Köpenick,east,12437
+Schöneweide,s-bahn,KBS 106a,1965737_east,"52.45500000,13.50944444",Q111323931,Niederschöneweide,Treptow-Köpenick,east,12487
+Betriebsbahnhof Schöneweide,s-bahn,KBS 106a,1965738_east,"52.44676000,13.52391000",Q4526101,Niederschöneweide,Treptow-Köpenick,east,12487
+Adlershof,s-bahn,KBS 106a,1965739_east,"52.43472222,13.54138889",Q323551,Adlershof,Treptow-Köpenick,east,12489
+Altglienicke,s-bahn,KBS 106a,1965740_east,"52.40730000,13.55880000",Q4736651,Altglienicke,Treptow-Köpenick,east,12524
+Grünbergallee,s-bahn,KBS 106a,1965741_east,"52.39920000,13.54160000",Q5612896,Altglienicke,Treptow-Köpenick,east,12526
+Zentralflughafen Berlin-Schönefeld,s-bahn,KBS 106a,1965742_east,"52.39140000,13.51280000",Q661069,,,east,
+HohenSchönhauser Strasse,tram,3,196539_east,"52.53593290,13.47294680",Q65553684,Fennpfuhl,Lichtenberg,east,10369
