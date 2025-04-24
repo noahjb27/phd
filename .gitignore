@@ -1,0 +1,7 @@
+__pycache__/
+tiles/
+.env
+node_modules/
+.next/
+.pdf
+.venv/
