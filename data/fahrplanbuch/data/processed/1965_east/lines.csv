@@ -2,7 +2,7 @@ line_id,year,line_name,type,start_stop,length (time),length (km),east_west,frequ
 19651_east,1965,A,u-bahn,Pankow (Vinetastr.)<> Thälmannplatz,19.0,7.5,east,5.0,Kleinprofil,750
 19652_east,1965,E,u-bahn,Alexanderplatz<> Friedrichsfelde (Tierpark),16.0,7.1,east,5.0,Großprofil,1000
 19653_east,1965,1,tram,Adalbertstrasse Ecke Köpenickerstrasse<> Walter-Ulbricht-Stadion,27.0,7.3,east,20.0,,195
-19654_east,1965,A 1 P,autobus,"Köpenickerstrasse Ecke Adalbertstrasse<> Alexanderplatz, Grunerstrasse",6.0,2.0,east,10.0,,0
+19654_east,1965,A1P,autobus,"Köpenickerstrasse Ecke Adalbertstrasse<> Alexanderplatz, Grunerstrasse",6.0,2.0,east,10.0,,0
 19655_east,1965,3,tram,Revalerstrasse (S-Bhf. Warschauer Strasse)<> Björnsonstrasse,43.0,11.4,east,12.0,,195
 19656_east,1965,4,tram,Revalerstrasse (S-Bhf. Warschauer Strasse)<> Eberswalder Strasse,23.0,6.2,east,12.0,,195
 19657_east,1965,11,tram,Heinrich-Heine-Strasse Ecke Schmidstrasse<> Am Kupfergraben,27.0,6.2,east,20.0,,195

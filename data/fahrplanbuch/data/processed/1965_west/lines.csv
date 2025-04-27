@@ -34,9 +34,9 @@ line_id,year,line_name,type,start_stop,length (time),length (km),east_west,frequ
 196533_west,1965,A32,autobus,Breitenbachplatz<> Bahnstrasse Ecke Marienfelderallee,28.0,,west,6.0,,0
 196534_west,1965,A33,autobus,Berlinickestrasse Ecke Albrechtstrasse<> Kaiserstrasse Ecke Mariendorferdamm,15.0,,west,5.0,,0
 196535_west,1965,A34,autobus,"Spandau, Friedhof<> Gutshof",48.0,,west,30.0,,0
-196536_west,1965,A34 E,autobus,Alt-Gatow<> Siedlung Habichtswald,8.0,,west,50.0,,0
+196536_west,1965,A34E,autobus,Alt-Gatow<> Siedlung Habichtswald,8.0,,west,50.0,,0
 196537_west,1965,A35,autobus,"Spandau, Friedhof<> Kladow, Hottengrund",45.0,,west,30.0,,0
-196538_west,1965,A35 E,autobus,"Kladow, Dorfplatz<> Altenheim Hottengrund",7.0,,west,280.0,,0
+196538_west,1965,A35E,autobus,"Kladow, Dorfplatz<> Altenheim Hottengrund",7.0,,west,280.0,,0
 196539_west,1965,A48,autobus,"Zehlendorf, Potsdamerstrasse Ecke Fischerhüttenstrasse<> Tiergartenstrasse/Philharmonie",39.0,,west,10.0,,0
 196540_west,1965,A50,autobus,"Roseneck, Rheinbabenallee<> Pragerplatz",19.0,,west,10.0,,0
 196541_west,1965,A51,autobus,Bhf. Wannsee<> Krankenhaus Heckeshorn,10.0,,west,30.0,,0
@@ -81,7 +81,7 @@ line_id,year,line_name,type,start_stop,length (time),length (km),east_west,frequ
 196580_west,1965,AS2,autobus,Bhf. Zoo<> Blohmstrasse Ecke Wünsdorferstrasse,44.0,,west,13.0,,0
 196581_west,1965,AS3,autobus,Bhf. Zoo<> Rathaus Zehlendorf,29.0,,west,15.0,,0
 196582_west,1965,AS4,autobus,"Bhf. Zoo<> Stölpchensee, Wilhelmplatz",39.0,,west,20.0,,0
-196583_west,1965,Kladow <> Wannsee,ferry,Kladow<> Wannsee,19.0,,west,60.0,,0
+196583_west,1965,Kladow<>Wannsee,ferry,Kladow<> Wannsee,19.0,,west,60.0,,0
 196584_west,1965,KBS 100,s-bahn,Gesundbrunnen<> Sonnenallee,0.0,,west,0.0,,1100
 196585_west,1965,KBS 100a,s-bahn,Gesundbrunnen<> Staaken,0.0,,west,0.0,,1100
 196586_west,1965,KBS 100b,s-bahn,Jungfernheide<> Gartenfeld,0.0,,west,0.0,,1100
