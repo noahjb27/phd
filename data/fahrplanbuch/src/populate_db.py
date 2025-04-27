@@ -17,9 +17,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration
-DB_URI = "bolt://localhost:7687"
+DB_URI = "bolt://100.82.176.18:7687"
 DB_USER = "neo4j"
-DB_PASSWORD = os.environ.get("NEO4J_PASSWORD", "BerlinTransport2024")  # Set via environment variable
+DB_PASSWORD = os.environ.get("NEO4J_PASSWORD")  # Set via environment variable
 DATA_DIR = Path("../data/processed")
 
 # Initialize database connection
