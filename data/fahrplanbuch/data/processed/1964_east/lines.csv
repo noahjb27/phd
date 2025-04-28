@@ -1,0 +1,78 @@
+line_id,year,line_name,type,start_stop,length (time),length (km),east_west,frequency (7:30),profile,capacity
+19641_east,1964,1,tram,Ostbahnhof<> Hannoverschestr.,28.0,,east,20.0,,195
+19642_east,1964,A1P,autobus,"Adalbertstr. Ecke Köpenickerstr.<> Alexanderplatz, Grunerstr.",6.0,,east,10.0,,0
+19643_east,1964,3,tram,S-Bhf. Warschauerstr.<> Björnsonstr.,45.0,,east,12.0,,195
+19644_east,1964,4,tram,S-Bhf. Warschauerstr.<> Eberswalderstr. Ecke Oderbergerstr.,26.0,,east,12.0,,195
+19645_east,1964,11,tram,Heinrich-Heine-Str.<> Am Kupfergraben,27.0,,east,20.0,,195
+19646_east,1964,13,tram,Hönower Wiesenweg Ecke Blockdammweg<> Oderbergerstr. Ecke Eberswalderstr.,38.0,,east,14.0,,195
+19647_east,1964,22,tram,"Rosenthal, Hauptstr.<> S-Bhf. Jannowitzbrücke",46.0,,east,12.0,,195
+19648_east,1964,46,tram,"Niederschönhausen, Schillerstr.<> Am Kupfergraben",47.0,,east,5.0,,195
+19649_east,1964,46P,tram,"Niederschönhausen, Idastr.<> Ossietzkyplatz",4.0,0.7,east,12.0,,195
+196410_east,1964,49,tram,"Buchholz, Hauptstr.<> Hackescher Markt, Große Präsidentenstr.",39.0,,east,11.0,,195
+196411_east,1964,63,tram,"Hohenschönhausen, Gartenstadt<> Hackescher Markt, Große Präsidentenstr.",38.0,,east,20.0,,195
+196412_east,1964,64,tram,"Hohenschönhausen, Falkenbergerstr.<> Dönhoffplatz",40.0,,east,20.0,,195
+196413_east,1964,69,tram,"Johannisthal, Haeckelstr.<> Walter-Ulbricht-Stadion",84.0,,east,20.0,,195
+196414_east,1964,69E,tram,"Johannisthal, Haeckelstr.<> Kniprodestr.",55.0,,east,20.0,,195
+196415_east,1964,70,tram,"Hohenschönhausen, Falkenbergerstr.<> Am Kupfergraben",49.0,,east,10.0,,195
+196416_east,1964,71,tram,"Heinersdorf, Romain-Rolland-Str.<> Jüdenstr., Molkenmarkt",32.0,,east,10.0,,195
+196417_east,1964,72,tram,"Weißensee, Pasedagplatz<> Taubenstr. Ecke Glinkastr.",44.0,,east,12.0,,195
+196418_east,1964,74,tram,"Wießensee, Pasedagplatz<> Leipzigerstr. Ecke Wilhelmstr.",37.0,,east,6.0,,195
+196419_east,1964,74E,tram,Klement-Gottwald-Allee Ecke Rennbahnstr.<> Spittelmarkt,28.0,,east,6.0,,195
+196420_east,1964,82,tram,"Mahlsdorf-Süd, Hubertus<> Walter-Ulbricht-Stadion",88.0,,east,20.0,,195
+196421_east,1964,A82P,autobus,Kinderheim<> Markgrafendamm,5.0,,east,20.0,,0
+196422_east,1964,83,tram,Wendenschloß Ecke Ekhofstr.<> S-Bhf. Mahlsdorf,44.0,,east,20.0,,195
+196423_east,1964,84,tram,"Am Falkenberg<> Friedrichshagen, Wasserwerk",57.0,,east,10.0,,195
+196424_east,1964,85,tram,"Wendenschloß<> Johannisthal, Haeckelstr.",42.0,,east,20.0,,195
+196425_east,1964,86,tram,"Alt-Schmöckwitz<> Mahlsdorf-Süd, Hubertus",43.0,,east,20.0,,195
+196426_east,1964,87,tram,Rahnsdorf<> Wiener Brücke,67.0,,east,20.0,,195
+196427_east,1964,92,tram,"Oberspree, Bruno-Bürgel-Weg<> Sonnenallee Ecke Baumschulenstr.",18.0,,east,15.0,,195
+196428_east,1964,95,tram,Krankenhaus Köpenick<> Wiener Brücke,47.0,,east,20.0,,195
+196429_east,1964,A22,autobus,"Hessenwinkel, Lindenstr.<> Fichtenau, Stadtgrenze",27.0,,east,20.0,,0
+196430_east,1964,A23,autobus,"Falkenhöhe<> Altglienicke, Kirche",20.0,,east,20.0,,0
+196431_east,1964,A26,autobus,VEB Bautransporte<> Bhf. Schöneweide,5.0,,east,15.0,,0
+196432_east,1964,A27,autobus,"S-Bhf. Kaulsdorf, Planitzstr.<> Müggelheim",43.0,,east,10.0,,0
+196433_east,1964,A36,autobus,Zentralflughafen<> S-Bhf. Grünau,21.0,,east,20.0,,0
+196434_east,1964,A39,autobus,"Wartenberg, Siedlung<> Hohenschönhausen, Falkenbergerstr.",13.0,,east,15.0,,0
+196435_east,1964,A42,autobus,"Buch, Kiesgruben<> Prenzlauer Promenade (Spitze)",31.0,,east,10.0,,0
+196436_east,1964,A43,autobus,Bürknersfelde<> S-Bhf. Nöldnerplatz,23.0,,east,20.0,,0
+196437_east,1964,A44,autobus,"Hönow, Dorfstr.<> S-Bhf. Mahlsdorf",13.0,,east,13.0,,0
+196438_east,1964,A44E,autobus,Greifswalderstr.<> S-Bhf. Mahlsdorf,7.0,,east,10.0,,0
+196439_east,1964,A45,autobus,"Wilhelmsruh, Fontanestr.<> Weißensee, Schwarzelfenweg",38.0,,east,15.0,,0
+196440_east,1964,A46,autobus,"Ahrensfeld, Kirche<> Malchow, Dorfstr.",30.0,,east,15.0,,0
+196441_east,1964,A47,autobus,Bhf. Schöneweide<> S-Bhf. Treptower Park,26.0,,east,10.0,,0
+196442_east,1964,A48,autobus,Bhf. Schöneweide<> Bhf. Schöneweide,17.0,,east,5.0,,0
+196443_east,1964,A49,autobus,"Kaulsdorf, Bausdorfstr.<> Kaulsdorf, Bausdorfstr.",14.0,,east,20.0,,0
+196444_east,1964,A54,autobus,Storkowerstr. Ecke Greifswalderstr.<> Dimitroffstr. Ecke Leninallee,7.0,,east,10.0,,0
+196445_east,1964,A55,autobus,"Wilhelmsruh, Fontanestr.<> Weißensee, Liebermannstr. Ecke Piesporterstr.",39.0,,east,16.0,,0
+196446_east,1964,A56,autobus,"Weißensee, Nüßlerstr.<> Wicherstr. Ecke Prenzlauerallee",13.0,,east,15.0,,0
+196447_east,1964,A57,autobus,Kniprodestr. Ecke Ermländischestr.<> Robert-Koch-Platz,24.0,,east,7.0,,0
+196448_east,1964,A58,autobus,Fontanestr.<> U-Bhf. Pankow,18.0,,east,16.0,,0
+196449_east,1964,A59,autobus,Walther-Ulbricht-Stadion<> U-Bhf. Thälmannplatz,12.0,,east,7.0,,0
+196450_east,1964,A7,autobus,"Glienicke, Kirche<> U-Bhf. Vinetastr.",34.0,,east,12.0,,0
+196451_east,1964,A7E,autobus,"Schildow, Kirche<> U-Bhf. Vinetastr.",23.0,,east,11.0,,0
+196452_east,1964,A8,autobus,"Waldesruh, Malhlsdorferallee<> U-Bhf. Friedrichsfelde",33.0,,east,10.0,,0
+196453_east,1964,A8E,autobus,Sadowastr.<> U-Bhf. Friedrichsfelde,21.0,,east,10.0,,0
+196454_east,1964,A9,autobus,Kurischestr.<> Scharnhorststr. Ecke Kielerstr.,27.0,,east,7.0,,0
+196455_east,1964,AD,autobus,Diepensee<> S-Bhf. Grünau,24.0,,east,10.0,,0
+196456_east,1964,AS,autobus,"Zühlsdorf<> Schildow, Kirche",25.0,,east,50.0,,0
+196457_east,1964,A38,autobus,"Bohnsdorf, Waldstr.<> S-Bhf. Grünau",13.0,,east,150.0,,0
+196458_east,1964,AL,autobus,"Neu-Lindenberg<> Malchow, Dorfstr.",15.0,,east,32.0,,0
+196459_east,1964,AZ,autobus,Groß Ziethen<> Bhf. Schönefeld,24.0,,east,20.0,,0
+196460_east,1964,KBS 101,s-bahn,Friedrichstr.<> Strausberg,0.0,,east,0.0,,1100
+196461_east,1964,KBS 101c,s-bahn,Strausberg<> Strausberg Nord,0.0,,east,0.0,,1100
+196462_east,1964,KBS 102,s-bahn,Friedrichstr.<> Erkner,0.0,,east,0.0,,1100
+196463_east,1964,KBS 103,s-bahn,Falkensee<> Albrechtshof,0.0,,east,0.0,,1100
+196464_east,1964,KBS 103,s-bahn,Friedrichstr.<> Königs Wusterhausen,0.0,,east,0.0,,1100
+196465_east,1964,KBS 103a,s-bahn,Friedrichstr.<> Adlershof,0.0,,east,0.0,,1100
+196466_east,1964,KBS 104,s-bahn,Oranienburg<> Alexanderplatz,0.0,,east,0.0,,1100
+196467_east,1964,KBS 104d,s-bahn,Hennigsdorf (b Bln)<> Velten (Mark),0.0,,east,0.0,,1100
+196468_east,1964,KBS 106,s-bahn,Bernau (b Bln)<> Spindlersfeld,0.0,,east,0.0,,1100
+196469_east,1964,KBS 106a,s-bahn,Schönhauserallee<> Adlershof,0.0,,east,0.0,,1100
+196470_east,1964,O30,omnibus,Kosterstr.<> Klosterstr.,67.0,,east,15.0,,0
+196471_east,1964,O37,omnibus,Marzahnerchaussee<> Bhf. Lichtenberg,26.0,,east,15.0,,0
+196472_east,1964,O40,omnibus,Ostbahnhof<> Robert-Koch-Platz,23.0,,east,10.0,,0
+196473_east,1964,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",tram,"S-Bhf. Friedrichshagen (Grenze)<> Rüdersdorf, Karl-Marx-Platz",45.0,,east,20.0,,195
+196474_east,1964,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse (VEB Woltersdorf),tram,S-Bhf. Rahnsdorf<> Woltersdorfer Schleuse,20.0,,east,20.0,,195
+196475_east,1964,A38,autobus,"Bohnsdorf, Waldstr.<> S-Bhf. Grünau",13.0,,east,20.0,,0
+196476_east,1964,A,u-bahn,Pankow (Vinetastr.)<> Thälmannplatz,19.0,,east,2.0,Kleinprofil,750
+196477_east,1964,E,u-bahn,Alexanderplatz<> Friedrichsfelde (Tierpark),16.0,,east,5.0,Großprofil,1000
