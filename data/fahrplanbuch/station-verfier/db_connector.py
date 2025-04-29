@@ -10,7 +10,7 @@ import json
 logger = logging.getLogger(__name__)
 
 class StationVerifierDB:
-    def __init__(self, uri="bolt://localhost:7687", username="neo4j", password=None):
+    def __init__(self, uri="bolt://100.82.176.18:7687", username="neo4j", password="BerlinTransport2024"):
         """
         Initialize connection to Neo4j database
         
