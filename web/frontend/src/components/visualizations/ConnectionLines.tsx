@@ -23,11 +23,12 @@ export const ConnectionLines: React.FC<ConnectionLinesProps> = ({
 }) => {
   const getLineStyle = (type: string, hourlyCapacity: number, hourly_services: number) => {
     const baseColor = {
-      'bus': '#9333EA',
+      'omnibus': '#9333EA',
       'autobus': '#9333EA',
+      'tram': '#DC2626', // For the new 'tram' type
       'u-bahn': '#2563EB',
       's-bahn': '#16A34A',
-      'strassenbahn': '#DC2626',
+      'ferry': '#0891B2', // New color for ferry
       'default': '#6B7280'
     }[type] || '#6B7280';
 
@@ -39,11 +40,12 @@ export const ConnectionLines: React.FC<ConnectionLinesProps> = ({
 
     // Get line pattern based on type
     const dashArray = {
-      'bus': '5, 5',
+      'omnibus': '5, 5',
       'autobus': '5, 5',
-      'strassenbahn': '10, 5',
+      'tram': '10, 5', // Updated from 'strassenbahn'
       'u-bahn': '',
       's-bahn': '',
+      'ferry': '15, 10', // New pattern for ferry
       'default': '5, 5, 1, 5'
     }[type] || '5, 5, 1, 5';
 

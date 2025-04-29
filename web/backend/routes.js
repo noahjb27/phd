@@ -10,6 +10,11 @@ const cache = new NodeCache(); // Initialize cache
 // Middleware to parse JSON bodies
 router.use(express.json());
 
+// Health check endpoint
+router.get('/health', (req, res) => {
+  res.status(200).json({ status: 'healthy' });
+});
+
 router.get('/graph-data', async (req, res) => {
     const session = driver.session();
     try {
@@ -77,15 +82,15 @@ router.get('/network-snapshot/:year', async (req, res) => {
 
   const session = driver.session();
   try {
-      const query = `
-          MATCH (year:Year {year: $year})
-          MATCH (s:Station)-[in:IN_YEAR]->(year)
-          ${type ? 'WHERE s.type = $type' : ''}
-          WITH s
-          OPTIONAL MATCH (s)-[c:CONNECTS_TO]-(other:Station)-[:IN_YEAR]->(year)
-          ${type ? 'WHERE c.transport_type = $type' : ''}
-          RETURN DISTINCT s, c, other
-      `;
+    const query = `
+      MATCH (year:Year {year: $year})
+      MATCH (s:Station)-[in:IN_YEAR]->(year)
+      ${type ? 'WHERE s.type = $type' : ''}
+      WITH s
+      OPTIONAL MATCH (s)-[c:CONNECTS_TO]-(other:Station)-[:IN_YEAR]->(year)
+      ${type ? 'WHERE c.transport_type = $type' : ''}
+      RETURN DISTINCT s, c, other
+    `;
       
       const result = await session.run(query, { 
           year: neo4j.int(year),
@@ -103,7 +108,8 @@ router.get('/network-snapshot/:year', async (req, res) => {
           if (!nodes[nodeId]) {
               nodes[nodeId] = {
                   id: nodeId,
-                  ...station.properties
+                  ...station.properties,
+                  stop_id: station.properties.stop_id.toString()
               };
           }
 
@@ -114,7 +120,8 @@ router.get('/network-snapshot/:year', async (req, res) => {
               if (!nodes[otherId]) {
                   nodes[otherId] = {
                       id: otherId,
-                      ...other.properties
+                      ...other.properties,
+                      stop_id: other.properties.stop_id.toString()
                   };
               }
           }
@@ -122,6 +129,15 @@ router.get('/network-snapshot/:year', async (req, res) => {
           // Process connection if exists
           const connection = record.get('c');
           if (connection) {
+              // Transform connection properties to match frontend expectations
+              const connectionProps = {...connection.properties};
+              
+              // Ensure arrays are properly formatted
+              ['capacities', 'frequencies', 'line_ids', 'line_names'].forEach(propName => {
+                if (connectionProps[propName] && !Array.isArray(connectionProps[propName])) {
+                  connectionProps[propName] = [connectionProps[propName]];
+                }
+              });
               relationships.push({
                   id: connection.identity.toString(),
                   type: connection.type,

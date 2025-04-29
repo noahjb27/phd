@@ -93,10 +93,12 @@ const [isCollapsed, setIsCollapsed] = useState(false);
                   className="w-full p-2 border rounded-md bg-white"
                 >
                   <option value="">All Types</option>
-                  <option value="bus">Bus</option>
+                  <option value="autobus">Autobus</option>
+                  <option value="omnibus">Omnibus</option>
+                  <option value="tram">Tram</option>
                   <option value="u-bahn">U-Bahn</option>
                   <option value="s-bahn">S-Bahn</option>
-                  <option value="strassenbahn">Tram</option>
+                  <option value="ferry">Ferry</option>
                 </select>
               </div>
 

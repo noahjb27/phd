@@ -25,18 +25,47 @@ const useNetworkData = (selectedYear: number, selectedType: string,  selectedLin
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
 
-    const processData = (nodes: StationNode[], relationships: Connection[]) => {
-        const validNodes = nodes.filter((node: StationNode) => node.latitude && node.longitude);
-        
-        // Create Set to track processed connections
+    const processData = (nodes: any[], relationships: any[]) => {
+        // Ensure nodes have the right structure
+        const validNodes = nodes.filter((node: any) => node.latitude && node.longitude)
+        .map((node: any) => ({
+            ...node,
+            // Ensure stop_id is treated as a string
+            stop_id: String(node.stop_id),
+            // Ensure other required properties exist
+            id: node.id || String(node.stop_id),
+            east_west: node.east_west || 'unknown'
+        }));
+
+        // Process connections
         const processedPairs = new Set<string>();
         const uniqueConnections = relationships.filter(connection => {
+            // Filter valid connections
+            if (!connection.startNodeId || !connection.endNodeId) return false;
+            
             const pair = [connection.startNodeId, connection.endNodeId].sort().join('-');
-            if (processedPairs.has(pair)) {
-                return false;
-            }
+            if (processedPairs.has(pair)) return false;
+            
             processedPairs.add(pair);
             return true;
+        }).map(conn => {
+            // Ensure connection properties are in the right format
+            if (conn.properties) {
+                // Handle capacities, frequencies and line_ids which might have different formats
+                if (conn.properties.capacities && !Array.isArray(conn.properties.capacities)) {
+                    conn.properties.capacities = [conn.properties.capacities];
+                }
+                if (conn.properties.frequencies && !Array.isArray(conn.properties.frequencies)) {
+                    conn.properties.frequencies = [conn.properties.frequencies];
+                }
+                if (conn.properties.line_ids && !Array.isArray(conn.properties.line_ids)) {
+                    conn.properties.line_ids = [conn.properties.line_ids];
+                }
+                if (conn.properties.line_names && !Array.isArray(conn.properties.line_names)) {
+                    conn.properties.line_names = [conn.properties.line_names];
+                }
+            }
+            return conn;
         });
 
         setStations(validNodes);
@@ -46,7 +75,7 @@ const useNetworkData = (selectedYear: number, selectedType: string,  selectedLin
     const fetchData = async () => {
         try {
             setLoading(true);
-            const response = await api.get(`/api/network-snapshot/${selectedYear}`, {
+            const response = await api.get(`/network-snapshot/${selectedYear}`, {
                 params: selectedType ? { type: selectedType } : undefined
             });
             
@@ -71,7 +100,7 @@ const useNetworkData = (selectedYear: number, selectedType: string,  selectedLin
     const updateStation = async (stopId: string, latitude: number, longitude: number, token: string) => {
         try {
             await api.post(
-                `/api/stations/${stopId}/update`,
+                `/stations/${stopId}/update`,
                 { latitude, longitude },
                 {
                     headers: {
@@ -112,7 +141,7 @@ const useNetworkData = (selectedYear: number, selectedType: string,  selectedLin
             try {
                 setLoading(true);
                 await new Promise(resolve => setTimeout(resolve, 500));
-                const response = await api.get(`/api/network-snapshot/${selectedYear}`, {
+                const response = await api.get(`/network-snapshot/${selectedYear}`, {
                     params: selectedType ? { type: selectedType } : undefined
                 });
                 processData(response.data.nodes, response.data.relationships);

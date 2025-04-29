@@ -13,7 +13,7 @@ services:
     depends_on:
       - backend
       - frontend
-
+  
   backend:
     build:
       context: ./web/backend
@@ -44,3 +44,31 @@ services:
       - NEXTAUTH_URL=https://berlin-transport-history.de
       - NEXTAUTH_SECRET=${NEXTAUTH_SECRET}
       - JWT_SECRET=${JWT_SECRET}
+
+  neo4j:
+    image: neo4j:5.13.0
+    container_name: berlin-transport-db
+    ports:
+      - "7474:7474"  # HTTP
+      - "7473:7473"  # HTTPS
+      - "7687:7687"  # Bolt protocol
+    environment:
+      - NEO4J_AUTH=neo4j/BerlinTransport2024  # Match your existing password
+      - NEO4J_dbms_memory_heap_initial__size=512m
+      - NEO4J_dbms_memory_heap_max__size=2G
+      - NEO4J_dbms_memory_pagecache_size=1G
+      - NEO4J_ACCEPT_LICENSE_AGREEMENT=yes
+      # Allow remote connections
+      - NEO4J_dbms_default__listen__address=0.0.0.0
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+      - neo4j_import:/import
+      - neo4j_plugins:/plugins
+    restart: unless-stopped
+
+volumes:
+  neo4j_data:
+  neo4j_logs:
+  neo4j_import:
+  neo4j_plugins:

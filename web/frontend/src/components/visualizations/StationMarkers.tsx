@@ -95,7 +95,7 @@ export const StationMarkers: React.FC<StationMarkersProps> = ({
       if (!!session && session.user.role === 'admin') {
         marker.on('dragend', (event) => {
           const newLatLng = event.target.getLatLng();
-          const stopId = (station.stop_id as unknown as Neo4jInt).low.toString();
+          const stopId = station.stop_id.toString();
           onUpdateStation(stopId, newLatLng.lat, newLatLng.lng);
         });
       }

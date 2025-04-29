@@ -1,12 +1,13 @@
+// src/pages/api/types.ts - Update these interfaces
 export interface StationNode {
   id: string;
   east_west: string;
-  stop_id: number;
+  stop_id: string; // Change from number to string (e.g. "19650_east")
   latitude: number;
   longitude: number;
   name: string;
   description: string | null;
-  type: string;
+  type: string; // Will now contain: "autobus", "omnibus", "tram", "u-bahn", "s-bahn", "ferry"
 }
 
 export interface Connection {
@@ -15,11 +16,11 @@ export interface Connection {
   startNodeId: string;
   endNodeId: string;
   properties: {
-    transport_type: string;
-    capacities: Array<{ low: number }>;
-    frequencies: Array<{ low: number }>;
+    transport_type: string; // Will be one of the new types
+    capacities: Array<number>; // Format may differ from original
+    frequencies: Array<number>; // Format may differ from original
     distance_meters: number;
-    line_ids: Array<{ low: number }>;
+    line_ids: Array<string>; // Change to match new format (likely strings now)
     line_names: Array<string>;
     hourly_capacity: number;
     hourly_services: number;

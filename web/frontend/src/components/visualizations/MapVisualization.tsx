@@ -47,7 +47,7 @@ const MapVisualization: React.FC = () => {
   const { data: session } = useSession();
   const [features, setFeatures] = useState<Feature[]>([]);
   const [showBerlinWall, setShowBerlinWall] = useState(false);
-  const availableYears = [1946, 1951, 1956, 1960, 1961, 1963, 1964, 1967, 1971, 1976, 1980, 1982, 1984, 1989];
+  const availableYears = [1964, 1965];
   // New state for selected line and derived line names
   const [selectedLine, setSelectedLine] = useState<string>('');
   const { stations, connections, loading, error, refetch, updateStation } = useNetworkData(selectedYear, selectedType, selectedLine);

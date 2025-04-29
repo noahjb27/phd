@@ -8,9 +8,16 @@ interface LegendProps {
 
 const transportTypes = [
   {
-    name: 'bus',
+    name: 'autobus',
     color: '#9333EA', // Tailwind purple-600
-    label: 'Bus',
+    label: 'Autobus',
+    lineStyle: 'dashed',
+    capacity: '80-120 passengers'
+  },
+  {
+    name: 'omnibus',
+    color: '#9333EA', // Same color for similar types
+    label: 'Omnibus',
     lineStyle: 'dashed',
     capacity: '80-120 passengers'
   },
@@ -29,11 +36,18 @@ const transportTypes = [
     capacity: '1000+ passengers'
   },
   {
-    name: 'strassenbahn',
+    name: 'tram',
     color: '#DC2626', // Tailwind red-600
-    label: 'Straßenbahn',
+    label: 'Tram',
     lineStyle: 'dotted',
     capacity: '150-250 passengers'
+  },
+  {
+    name: 'ferry',
+    color: '#0891B2', // Tailwind cyan-600
+    label: 'Ferry',
+    lineStyle: 'dotted',
+    capacity: '100-300 passengers'
   }
 ];
 
