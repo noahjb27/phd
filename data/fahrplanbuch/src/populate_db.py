@@ -561,7 +561,7 @@ class BerlinTransportImporter:
         except Exception as e:
             logger.error(f"Error importing line-stop relationships: {e}")
             return False
-    
+        
     def create_station_connections(self):
         """Create CONNECTS_TO relationships between stations based on line sequence"""
         logger.info("Creating station connections...")
@@ -569,25 +569,58 @@ class BerlinTransportImporter:
         try:
             with self.db.driver.session() as session:
                 # This query finds adjacent stops on the same line and creates CONNECTS_TO relationships
+                # and calculates hourly_capacity and hourly_services
                 result = session.run("""
                 MATCH (l:Line)-[s1:SERVES]->(station1:Station)
                 MATCH (l)-[s2:SERVES]->(station2:Station)
                 WHERE s1.stop_order = s2.stop_order - 1
+                
+                // Calculate distance between stations if coordinates are available
+                WITH l, station1, station2,
+                    CASE 
+                    WHEN station1.latitude IS NOT NULL AND station1.longitude IS NOT NULL 
+                            AND station2.latitude IS NOT NULL AND station2.longitude IS NOT NULL
+                    THEN round(point.distance(
+                        point({latitude: station1.latitude, longitude: station1.longitude}),
+                        point({latitude: station2.latitude, longitude: station2.longitude})
+                    ))
+                    ELSE 500 // Default to 500 meters if coordinates missing
+                    END AS distance_meters
                 
                 MERGE (station1)-[c:CONNECTS_TO]->(station2)
                 ON CREATE SET 
                     c.line_ids = [l.line_id],
                     c.line_names = [l.name],
                     c.transport_type = l.type,
+                    c.distance_meters = distance_meters,
                     c.capacities = CASE WHEN l.capacity IS NOT NULL THEN [l.capacity] ELSE [] END,
-                    c.frequencies = CASE WHEN l.frequency IS NOT NULL THEN [l.frequency] ELSE [] END
+                    c.frequencies = CASE WHEN l.frequency IS NOT NULL THEN [l.frequency] ELSE [] END,
+                    // Calculate hourly values
+                    c.hourly_capacity = CASE WHEN l.capacity IS NOT NULL AND l.frequency IS NOT NULL 
+                                    THEN l.capacity * (60 / l.frequency)
+                                    ELSE 0 END,
+                    c.hourly_services = CASE WHEN l.frequency IS NOT NULL 
+                                    THEN (60 / l.frequency)
+                                    ELSE 0 END
                 ON MATCH SET
                     c.line_ids = CASE WHEN NOT l.line_id IN c.line_ids THEN c.line_ids + l.line_id ELSE c.line_ids END,
                     c.line_names = CASE WHEN NOT l.name IN c.line_names THEN c.line_names + l.name ELSE c.line_names END,
+                    c.distance_meters = distance_meters,
                     c.capacities = CASE WHEN l.capacity IS NOT NULL AND NOT l.capacity IN c.capacities 
                                     THEN c.capacities + l.capacity ELSE c.capacities END,
                     c.frequencies = CASE WHEN l.frequency IS NOT NULL AND NOT l.frequency IN c.frequencies 
-                                    THEN c.frequencies + l.frequency ELSE c.frequencies END
+                                    THEN c.frequencies + l.frequency ELSE c.frequencies END,
+                    // Update hourly calculations
+                    c.hourly_capacity = CASE 
+                                        WHEN l.capacity IS NOT NULL AND l.frequency IS NOT NULL 
+                                        THEN c.hourly_capacity + (l.capacity * (60 / l.frequency))
+                                        ELSE c.hourly_capacity 
+                                        END,
+                    c.hourly_services = CASE 
+                                    WHEN l.frequency IS NOT NULL 
+                                    THEN c.hourly_services + (60 / l.frequency)
+                                    ELSE c.hourly_services 
+                                    END
                 
                 RETURN count(c) as connections_created
                 """)

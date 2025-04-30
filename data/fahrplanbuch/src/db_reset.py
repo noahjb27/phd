@@ -88,7 +88,7 @@ def reset_database(uri, username, password, confirm=False):
 def main():
     # Parse arguments
     parser = argparse.ArgumentParser(description="Reset Neo4j database")
-    parser.add_argument("--uri", default="bolt://localhost:7687", help="Neo4j URI")
+    parser.add_argument("--uri", default="bolt://100.82.176.18:7687", help="Neo4j URI")
     parser.add_argument("--username", default="neo4j", help="Neo4j username")
     parser.add_argument("--password", default=os.environ.get("NEO4J_PASSWORD", "BerlinTransport2024"), 
                        help="Neo4j password (can also be set via NEO4J_PASSWORD environment variable)")
