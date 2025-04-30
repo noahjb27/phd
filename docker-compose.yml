@@ -29,6 +29,8 @@ services:
       - DB_PASSWORD=${DB_PASSWORD}  # Neo4j password
     volumes:
       - ./logs/backend:/usr/src/app/logs
+      - ./web/backend/public:/usr/src/app/public
+
 
   frontend:
     build:

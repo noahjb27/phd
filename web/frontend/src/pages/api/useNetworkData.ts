@@ -1,5 +1,5 @@
 // hooks/useNetworkData.ts
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import { StationNode, Connection } from './types';
 
@@ -119,7 +119,7 @@ const useNetworkData = (selectedYear: number, selectedType: string,  selectedLin
 
     useEffect(() => {
         let filtered = connections;
-
+    
         if (selectedType) {
             filtered = filtered.filter(conn => 
                 conn.properties.transport_type === selectedType
@@ -127,15 +127,53 @@ const useNetworkData = (selectedYear: number, selectedType: string,  selectedLin
         }
         
         if (selectedLine) {
-            filtered = filtered.filter(conn => 
-                conn.properties.line_names.includes(selectedLine)
-            );
+            filtered = filtered.filter(conn => {
+                // Handle different potential data structures
+                if (!conn.properties.line_names) return false;
+                
+                // Ensure line_names is treated as an array
+                const lineNames = Array.isArray(conn.properties.line_names) 
+                    ? conn.properties.line_names
+                    : [conn.properties.line_names];
+                    
+                // Convert to strings for comparison since data might contain numbers
+                return lineNames.some(name => String(name) === String(selectedLine));
+            });
         }
     
         setFilteredConnections(filtered);
     }, [connections, selectedType, selectedLine]);
 
-         // Separate effect for data fetching
+    useEffect(() => {
+        console.log('Raw connections from API:', connections);
+        console.log('Filtered connections:', filteredConnections);
+      }, [connections, filteredConnections]);
+
+      const getLineNames = useCallback(() => {
+        console.log('Raw connections for line filtering:', connections);
+        const filteredConnections = selectedType 
+          ? connections.filter((conn) => conn.properties.transport_type === selectedType)
+          : connections;
+        
+        const lineNames = Array.from(new Set(
+          filteredConnections.flatMap((conn) => {
+            console.log('Connection line_names:', conn.properties.line_names);
+            return conn.properties.line_names || [];
+          })
+        )).sort();
+        
+        console.log('Extracted line names:', lineNames);
+        return lineNames;
+      }, [connections, selectedType]);
+
+      // Example usage of getLineNames to avoid unused declaration
+      useEffect(() => {
+        const lineNames = getLineNames();
+        console.log('Available line names:', lineNames);
+      }, [getLineNames]);
+      
+
+    // Separate effect for data fetching
     useEffect(() => {
         const fetchDataWithDelay = async () => {
             try {

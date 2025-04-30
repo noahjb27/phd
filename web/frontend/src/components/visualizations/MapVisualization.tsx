@@ -102,6 +102,16 @@ const MapVisualization: React.FC = () => {
     setSelectedLine(e.target.value);
   };
 
+  useEffect(() => {
+    console.log("Current data:", {
+      stations,
+      connections,
+      selectedYear,
+      selectedType,
+      selectedLine
+    });
+  }, [stations, connections, selectedYear, selectedType, selectedLine]);
+
   // Fetch Berlin Wall data when checkbox is toggled
   useEffect(() => {
     if (showBerlinWall) {

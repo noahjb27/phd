@@ -27,7 +27,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 app.use(express.json());
 
-app.use('/api', routes);
+app.use('/', routes);
 
 const port = process.env.PORT || 5000; 
 app.listen(port, '0.0.0.0', () => { 

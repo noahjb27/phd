@@ -6,6 +6,8 @@ const neo4j = require('neo4j-driver');
 const authenticateToken = require('./authMiddleware'); // Import the middleware
 const NodeCache = require('node-cache'); // Import node-cache
 const cache = new NodeCache(); // Initialize cache
+const fs = require('fs');
+const path = require('path');
 
 // Middleware to parse JSON bodies
 router.use(express.json());
@@ -73,7 +75,8 @@ router.get('/network-snapshot/:year', async (req, res) => {
   const year = parseInt(req.params.year);
   const type = req.query.type; // Optional transport type filter
   const cacheKey = `network_${year}_${type || 'all'}`;
-  
+  console.log(`Fetching network snapshot for year: ${year}, type: ${type || 'all'}`);
+
   // Check cache first
   const cachedData = cache.get(cacheKey);
   if (cachedData) {
@@ -154,6 +157,8 @@ router.get('/network-snapshot/:year', async (req, res) => {
       };
 
       // Cache the processed data
+      console.log(`Returning ${networkData.nodes.length} nodes and ${networkData.relationships.length} relationships`);
+
       cache.set(cacheKey, networkData);
       res.json(networkData);
 
@@ -204,6 +209,38 @@ router.post('/stations/:stopId/update', authenticateToken, async (req, res) => {
     res.status(500).json({ error: error.message });
   } finally {
     await session.close();
+  }
+});
+
+
+// Add routes for PLZ visualization data
+router.get('/external/plz-areas', (req, res) => {
+  try {
+    const filePath = path.join(process.cwd(), 'public', 'berlin_postal_districts.json');
+    if (!fs.existsSync(filePath)) {
+      return res.status(404).json({ error: 'PLZ data file not found' });
+    }
+    const fileContents = fs.readFileSync(filePath, 'utf8');
+    const data = JSON.parse(fileContents);
+    res.json(data);
+  } catch (error) {
+    console.error('Error loading PLZ data:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
+router.get('/external/network-data', (req, res) => {
+  try {
+    const filePath = path.join(process.cwd(), 'public', 'network-data.json');
+    if (!fs.existsSync(filePath)) {
+      return res.status(404).json({ error: 'Network data file not found' });
+    }
+    const fileContents = fs.readFileSync(filePath, 'utf8');
+    const data = JSON.parse(fileContents);
+    res.json(data);
+  } catch (error) {
+    console.error('Error loading network data:', error);
+    res.status(500).json({ error: error.message });
   }
 });
 
