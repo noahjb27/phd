@@ -3,6 +3,7 @@ Script to populate Neo4j database with Berlin transport data.
 Enhanced with selective import and update options.
 """
 
+import json
 import pandas as pd
 from pathlib import Path
 import logging
@@ -87,7 +88,7 @@ class BerlinTransportImporter:
         
         return year_sides
     
-    def import_data(self, years=None, sides=None, update_existing=False, dry_run=False):
+    def import_data(self, years=None, sides=None, update_existing=False, dry_run=False, apply_corrections=True):
         """
         Import data for specified years and sides
         
@@ -140,9 +141,75 @@ class BerlinTransportImporter:
         if success and not self.dry_run:
             self.create_station_connections()
             self.verify_data_import()
+            
+            # Apply corrections if requested
+            if apply_corrections:
+                self.apply_station_corrections()
         
         logger.info("Data import process completed")
         return success
+    
+    def apply_station_corrections(self, corrections_file_path=None):
+        """
+        Apply station corrections from JSON file
+        
+        Args:
+            corrections_file_path: Path to corrections JSON file (optional)
+            
+        Returns:
+            Number of corrections applied
+        """
+        if corrections_file_path is None:
+            # Default path relative to script location
+            corrections_file_path = Path(__file__).parent.parent / "station-verifier" / "corrections" / "station_corrections.json"
+        if not Path(corrections_file_path).exists():
+            logger.info(f"No corrections file found at: {corrections_file_path}")
+            return 0
+        
+        logger.info(f"Applying corrections from: {corrections_file_path}")
+        
+        try:
+            # Load corrections from JSON
+            with open(corrections_file_path, 'r') as f:
+                corrections = json.load(f)
+            
+            correction_count = 0
+            
+            # Connect to database
+            self.db.connect()
+            
+            with self.db.driver.session() as session:
+                for year_side, stations in corrections.items():
+                    for stop_id, correction in stations.items():
+                        # Apply correction to database
+                        result = session.run("""
+                        MATCH (s:Station {stop_id: $stop_id})
+                        SET s.latitude = $latitude, s.longitude = $longitude
+                        RETURN count(s) as updated
+                        """, 
+                        stop_id=stop_id,
+                        latitude=correction["lat"], 
+                        longitude=correction["lng"])
+                        
+                        # Count successful updates
+                        updated = result.single()["updated"]
+                        correction_count += updated
+                        
+                        # If name correction exists, apply it
+                        if "name" in correction and correction["name"]:
+                            name_result = session.run("""
+                            MATCH (s:Station {stop_id: $stop_id})
+                            SET s.name = $name
+                            """, 
+                            stop_id=stop_id,
+                            name=correction["name"])
+            
+            logger.info(f"Applied {correction_count} station corrections from file")
+            return correction_count
+        
+        except Exception as e:
+            logger.error(f"Error applying station corrections: {e}")
+            return 0
     
     def import_year_data(self, year_side_dir, update_existing=False):
         """Import data for a specific year and side of Berlin"""
@@ -726,6 +793,8 @@ def main():
                        help="Specific sides to import (east/west)")
     
     # Import behavior options
+    parser.add_argument("--skip-corrections", action="store_true",
+                   help="Skip applying station corrections from JSON file")
     parser.add_argument("--update-existing", action="store_true", 
                        help="Update existing data instead of only adding new data")
     parser.add_argument("--dry-run", action="store_true", 
@@ -778,7 +847,8 @@ def main():
             years=args.years,
             sides=args.sides,
             update_existing=args.update_existing,
-            dry_run=args.dry_run
+            dry_run=args.dry_run,
+            apply_corrections=not args.skip_corrections
         )
         
         return 0 if success else 1

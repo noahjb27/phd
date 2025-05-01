@@ -581,3 +581,33 @@ button.secondary-button:hover {
         padding: 0.6rem 0.3rem;
     }
 }
+
+/* Station Name Editing */
+.name-edit {
+    display: flex;
+    align-items: center;
+}
+
+.station-name-input {
+    flex: 1;
+    padding: 0.2rem;
+    margin-right: 0.2rem;
+    font-size: 0.9rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.station-name-input:disabled {
+    background-color: transparent;
+    border-color: transparent;
+    color: inherit;
+    padding: 0;
+    cursor: default;
+}
+
+/* Add a "changed" state to highlight edited names */
+.station-name-input.changed {
+    border-color: #3498db;
+    background-color: #ecf0f1;
+}

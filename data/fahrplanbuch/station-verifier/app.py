@@ -113,12 +113,13 @@ def get_year_side_data(year_side):
 
 @app.route('/save_correction', methods=['POST'])
 def save_correction():
-    """Save a station location correction"""
+    """Save a station location and/or name correction"""
     data = request.json
     year_side = data['year_side']
     stop_id = str(data['stop_id'])  # Ensure stop_id is a string
     lat = data['lat']
     lng = data['lng']
+    name = data.get('name')  # Optional name update
     
     # Load existing corrections
     with open(CORRECTIONS_FILE, 'r') as f:
@@ -128,7 +129,17 @@ def save_correction():
     if year_side not in corrections:
         corrections[year_side] = {}
     
-    corrections[year_side][stop_id] = {"lat": lat, "lng": lng}
+    # Create or update the correction entry
+    if stop_id not in corrections[year_side]:
+        corrections[year_side][stop_id] = {}
+        
+    # Update coordinates
+    corrections[year_side][stop_id]["lat"] = lat
+    corrections[year_side][stop_id]["lng"] = lng
+    
+    # Update name if provided
+    if name is not None:
+        corrections[year_side][stop_id]["name"] = name
     
     # Save corrections
     with open(CORRECTIONS_FILE, 'w') as f:

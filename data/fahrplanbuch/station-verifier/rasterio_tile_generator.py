@@ -170,7 +170,6 @@ def process_tif_directory(base_dir, output_base_dir, min_zoom=10, max_zoom=16):
     print(f"Found {len(tif_files)} TIF files to process")
     
     for tif_file in tif_files:
-        print(f"\nProcessing: {tif_file}")
         # Use the TIF filename (without extension) as the output directory name
         output_name = tif_file.stem
         output_dir = output_base_dir / output_name

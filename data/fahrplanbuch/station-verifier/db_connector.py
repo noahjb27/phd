@@ -171,6 +171,32 @@ class StationVerifierDB:
             logger.error(f"Error updating station location: {e}")
             return False
     
+    def update_station_name(self, stop_id, new_name):
+        """
+        Update a station's name in the database
+        
+        Args:
+            stop_id: Station ID to update
+            new_name: New station name
+            
+        Returns:
+            True if successful, False otherwise
+        """
+        self.connect()
+        
+        try:
+            with self.driver.session() as session:
+                result = session.run("""
+                MATCH (s:Station {stop_id: $stop_id})
+                SET s.name = $new_name
+                RETURN s.stop_id as stop_id
+                """, stop_id=stop_id, new_name=new_name)
+                
+                return result.single() is not None
+        except Exception as e:
+            logger.error(f"Error updating station name: {e}")
+            return False
+
     def export_corrected_data(self, corrections_data):
         """
         Export data with corrections applied
@@ -189,15 +215,24 @@ class StationVerifierDB:
             with self.driver.session() as session:
                 for year_side, stops in corrections_data.items():
                     for stop_id, correction in stops.items():
-                        # Update station in database
-                        session.run("""
+                        # Update station location in database
+                        update_query = """
                         MATCH (s:Station {stop_id: $stop_id})
                         SET s.latitude = $latitude, s.longitude = $longitude
-                        """, 
-                        stop_id=stop_id, 
-                        latitude=correction["lat"], 
-                        longitude=correction["lng"])
+                        """
                         
+                        params = {
+                            "stop_id": stop_id, 
+                            "latitude": correction["lat"], 
+                            "longitude": correction["lng"]
+                        }
+                        
+                        # Add name update if provided
+                        if "name" in correction and correction["name"]:
+                            update_query += ", s.name = $name"
+                            params["name"] = correction["name"]
+                        
+                        session.run(update_query, params)
                         results["updated_stations"] += 1
                         
             return results

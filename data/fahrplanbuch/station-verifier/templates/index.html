@@ -117,6 +117,16 @@
                     <div class="control-group" id="full-station-details" style="display: none;">
                         <h3>Station Details</h3>
                         <div id="station-details"></div>
+                        <div class="detail-row">
+                            <span class="detail-label">Name:</span>
+                            <br>
+                            <div class="detail-value name-edit">
+                                <div class="name-input-container">
+                                    <input type="text" id="station-name-input" class="station-name-input">
+                                </div>
+                                <button id="edit-name-btn" class="text-button">Edit</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -746,6 +756,8 @@
             marker.setIcon(isCorrected ? selectedCorrectedIcon : selectedIcon);
             
             markerDraggedPosition = null;
+            nameChanged = false;
+            originalName = null;
             document.getElementById('save-correction').style.display = 'none';
             document.getElementById('current-station').style.display = 'block';
             
@@ -762,6 +774,119 @@
             
             updateStationDetails();
         }
+
+        let originalName = null;
+        let nameChanged = false;
+
+        function initNameEditing() {
+            const nameInput = document.getElementById('station-name-input');
+            const editButton = document.getElementById('edit-name-btn');
+            
+            // Toggle edit mode
+            editButton.addEventListener('click', function() {
+                if (nameInput.disabled) {
+                    // Enable editing
+                    nameInput.disabled = false;
+                    nameInput.focus();
+                    editButton.textContent = 'Cancel';
+                    originalName = nameInput.value;
+                } else {
+                    // Cancel editing
+                    nameInput.disabled = true;
+                    nameInput.value = originalName;
+                    editButton.textContent = 'Edit';
+                    nameChanged = false;
+                }
+            });
+            
+            // Track changes
+            nameInput.addEventListener('input', function() {
+                nameChanged = nameInput.value !== originalName;
+                
+                if (nameChanged) {
+                    nameInput.classList.add('changed');
+                    document.getElementById('save-correction').style.display = 'block';
+                } else {
+                    nameInput.classList.remove('changed');
+                    
+                    // Only hide save button if there are no other changes
+                    if (!markerDraggedPosition) {
+                        document.getElementById('save-correction').style.display = 'none';
+                    }
+                }
+            });
+            
+            // Apply changes when station is saved
+            const saveButton = document.getElementById('save-correction');
+            const originalSaveHandler = saveButton.onclick;
+            
+            saveButton.onclick = function() {
+                if (!selectedStation) return;
+                
+                const correction = {
+                    year_side: currentYearSide,
+                    stop_id: selectedStation.properties.stop_id,
+                    lat: markerDraggedPosition ? markerDraggedPosition.lat : selectedStation.geometry.coordinates[1],
+                    lng: markerDraggedPosition ? markerDraggedPosition.lng : selectedStation.geometry.coordinates[0]
+                };
+                
+                // Add name if changed
+                if (nameChanged) {
+                    correction.name = nameInput.value;
+                }
+                
+                // Send to server
+                fetch('/save_correction', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(correction)
+                })
+                .then(response => response.json())
+                .then(data => {
+                    showToast('Station information saved successfully!', 'success');
+                    
+                    // Update local corrections
+                    if (!corrections[currentYearSide]) {
+                        corrections[currentYearSide] = {};
+                    }
+                    
+                    if (!corrections[currentYearSide][selectedStation.properties.stop_id]) {
+                        corrections[currentYearSide][selectedStation.properties.stop_id] = {};
+                    }
+                    
+                    corrections[currentYearSide][selectedStation.properties.stop_id].lat = correction.lat;
+                    corrections[currentYearSide][selectedStation.properties.stop_id].lng = correction.lng;
+                    
+                    if (nameChanged) {
+                        corrections[currentYearSide][selectedStation.properties.stop_id].name = correction.name;
+                        // Update station name in the feature
+                        selectedStation.properties.name = correction.name;
+                        // Update station name in the marker
+                        selectedMarker.feature.properties.name = correction.name;
+                        // Reset name editing state
+                        nameInput.disabled = true;
+                        editButton.textContent = 'Edit';
+                        nameChanged = false;
+                        originalName = correction.name;
+                    }
+                    
+                    // Reset marker drag state
+                    markerDraggedPosition = null;
+                    
+                    // Refresh display
+                    displayStations();
+                    // Re-select the station to update UI
+                    selectStation(selectedStation, selectedMarker);
+                })
+                .catch(error => {
+                    console.error('Error saving correction:', error);
+                    showToast('Error saving station information', 'error');
+                });
+            };
+        }
+
+
+        document.addEventListener('DOMContentLoaded', initNameEditing);
         
         // Update station details display
         function updateStationDetails() {
@@ -775,8 +900,11 @@
             
             // Get corrected coordinates if available
             let correctedPosition = null;
+            let correctedName = null;
             if (corrections[currentYearSide]?.[selectedStation.properties.stop_id]) {
-                correctedPosition = corrections[currentYearSide][selectedStation.properties.stop_id];
+                const correction = corrections[currentYearSide][selectedStation.properties.stop_id];
+                correctedPosition = {lat: correction.lat, lng: correction.lng};
+                correctedName = correction.name;
             }
             
             // Use dragged position if available, otherwise use corrected or original
@@ -793,16 +921,25 @@
             } else {
                 statusMessage = '<div class="status-tag status-original">Original</div>';
             }
+
+            const displayName = correctedName || selectedStation.properties.name;
             
             stationDetails.innerHTML = `
                 <div class="detail-header">
-                    <h4>${selectedStation.properties.name}</h4>
+                    <h4>${displayName}</h4>
                     ${statusMessage}
                 </div>
                 <div class="detail-info">
                     <div class="detail-row">
                         <span class="detail-label">ID:</span>
                         <span class="detail-value">${selectedStation.properties.stop_id}</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Name:</span>
+                        <div class="detail-value name-edit">
+                            <input type="text" id="station-name-input" class="station-name-input" value="${displayName}" disabled>
+                            <button id="edit-name-btn" class="text-button">Edit</button>
+                        </div>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Type:</span>
@@ -822,6 +959,7 @@
                     </div>
                 </div>
             `;
+            initNameEditing();
         }
     </script>
 </body>
