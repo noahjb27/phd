@@ -32,6 +32,10 @@
                     <h4 id="selected-station-name">Station Name</h4>
                     <div class="status-tag status-original" id="selected-station-status">Original</div>
                 </div>
+                <div class="detail-row">
+                    <span class="detail-label">Dataset:</span>
+                    <span class="detail-value" id="selected-station-year-side">Year/Side</span>
+                </div>
                 <div class="detail-info">
                     <div class="detail-row">
                         <span class="detail-label">Current:</span>
@@ -39,12 +43,13 @@
                     </div>
                 </div>
                 <button id="save-correction" class="primary-button" style="display: none;">Save New Location</button>
+                <button id="delete-station" class="secondary-button danger-button" style="display: none;">Delete Station</button>
                 <button id="details-toggle" class="text-button">Show Full Details</button>
             </div>
             
             <!-- Tab Navigation -->
             <div class="tab-navigation">
-                <button class="tab-button active" data-tab="dataset">Dataset</button>
+                <button class="tab-button active" data-tab="dataset">Datasets</button>
                 <button class="tab-button" data-tab="map">Map Layers</button>
                 <button class="tab-button" data-tab="stations">Stations</button>
                 <button class="tab-button" data-tab="tools">Tools</button>
@@ -54,22 +59,67 @@
             <div class="tab-content">
                 <!-- Dataset Tab -->
                 <div class="tab-pane active" id="dataset-tab">
-                    <div class="control-group">
-                        <label for="year-select">Select Dataset:</label>
-                        <select id="year-select">
+                    <!-- First Dataset -->
+                    <div class="control-group dataset-control primary-dataset">
+                        <h3>Primary Dataset</h3>
+                        <label for="year-select-1">Select Year/Side:</label>
+                        <select id="year-select-1" class="year-select">
                             <option value="">-- Select --</option>
                             {% for year_side in year_sides %}
                             <option value="{{ year_side.id }}">{{ year_side.year }} ({{ year_side.side }})</option>
                             {% endfor %}
                         </select>
                         
-                        <div class="line-filter" id="line-filter-container" style="display: none;">
-                            <label for="line-select">Filter by Line:</label>
-                            <select id="line-select">
+                        <div class="line-filter" id="line-filter-container-1" style="display: none;">
+                            <label for="line-select-1">Filter by Line:</label>
+                            <select id="line-select-1" class="line-select">
                                 <option value="all">All Lines</option>
                             </select>
                         </div>
+                        
+                        <div class="dataset-style">
+                            <label for="color-select-1">Marker Color:</label>
+                            <select id="color-select-1" class="color-select">
+                                <option value="#3498db">Blue</option>
+                                <option value="#e74c3c">Red</option>
+                                <option value="#2ecc71">Green</option>
+                                <option value="#f39c12">Orange</option>
+                                <option value="#9b59b6">Purple</option>
+                            </select>
+                        </div>
                     </div>
+                    
+                    <!-- Second Dataset -->
+                    <div class="control-group dataset-control">
+                        <h3>Comparison Dataset</h3>
+                        <label for="year-select-2">Select Year/Side:</label>
+                        <select id="year-select-2" class="year-select">
+                            <option value="">-- None --</option>
+                            {% for year_side in year_sides %}
+                            <option value="{{ year_side.id }}">{{ year_side.year }} ({{ year_side.side }})</option>
+                            {% endfor %}
+                        </select>
+                        
+                        <div class="line-filter" id="line-filter-container-2" style="display: none;">
+                            <label for="line-select-2">Filter by Line:</label>
+                            <select id="line-select-2" class="line-select">
+                                <option value="all">All Lines</option>
+                            </select>
+                        </div>
+                        
+                        <div class="dataset-style">
+                            <label for="color-select-2">Marker Color:</label>
+                            <select id="color-select-2" class="color-select">
+                                <option value="#e74c3c">Red</option>
+                                <option value="#3498db">Blue</option>
+                                <option value="#2ecc71">Green</option>
+                                <option value="#f39c12">Orange</option>
+                                <option value="#9b59b6">Purple</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <button id="load-datasets-btn" class="primary-button">Load Datasets</button>
                 </div>
                 
                 <!-- Map Layers Tab -->
@@ -101,6 +151,12 @@
                         <div class="search-container">
                             <input type="text" id="station-search" placeholder="Search stations...">
                         </div>
+                        <div class="dataset-switcher" id="station-list-datasets">
+                            <div class="btn-group">
+                                <button class="btn btn-sm active" data-dataset="1">Dataset 1</button>
+                                <button class="btn btn-sm" data-dataset="2">Dataset 2</button>
+                            </div>
+                        </div>
                         <div class="station-list" id="station-list"></div>
                     </div>
                 </div>
@@ -109,6 +165,7 @@
                 <div class="tab-pane" id="tools-tab">
                     <div class="control-group export-controls">
                         <button id="export-btn" class="primary-button">Export Corrected Data</button>
+                        <button id="add-station-btn" class="secondary-button">Add New Station</button>
                         <button id="process-tif-btn" class="secondary-button">Process TIF Files</button>
                         <div id="process-status" class="status-indicator"></div>
                     </div>
@@ -138,6 +195,64 @@
         <div class="mobile-toggle" id="mobile-toggle">
             <span class="toggle-icon">▲</span>
         </div>
+        
+        <!-- Add Station Modal -->
+        <div id="add-station-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h3>Add New Station</h3>
+                <div class="form-group">
+                    <label for="new-station-name">Station Name:</label>
+                    <input type="text" id="new-station-name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="new-station-type">Station Type:</label>
+                    <select id="new-station-type" class="form-control">
+                        <option value="ubahn">U-Bahn</option>
+                        <option value="sbahn">S-Bahn</option>
+                        <option value="tram">Tram</option>
+                        <option value="bus">Bus</option>
+                        <option value="faehre">Fähre</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="new-station-year-side">Dataset:</label>
+                    <select id="new-station-year-side" class="form-control">
+                        <!-- Will be populated dynamically based on selected datasets -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="new-station-line">Connect to Line (Optional):</label>
+                    <select id="new-station-line" class="form-control">
+                        <option value="">-- None --</option>
+                        <!-- Will be populated dynamically based on selected dataset -->
+                    </select>
+                </div>
+                <div class="form-group" id="stop-order-container" style="display: none;">
+                    <label for="new-station-stop-order">Stop Order:</label>
+                    <input type="number" id="new-station-stop-order" class="form-control" min="1">
+                </div>
+                <div class="form-group">
+                    <label>Station Location:</label>
+                    <p class="help-text">Click on the map to set the location for the new station.</p>
+                    <div class="coords-display" id="new-station-coords">Not set</div>
+                </div>
+                <button id="create-station-btn" class="primary-button" disabled>Create Station</button>
+            </div>
+        </div>
+        
+        <!-- Confirmation Modal -->
+        <div id="confirmation-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h3 id="confirm-title">Confirm Action</h3>
+                <p id="confirm-message">Are you sure you want to perform this action?</p>
+                <div class="button-group">
+                    <button id="confirm-cancel" class="secondary-button">Cancel</button>
+                    <button id="confirm-ok" class="primary-button danger-button">Confirm</button>
+                </div>
+            </div>
+        </div>
     </div>
     
     <!-- Leaflet JS -->
@@ -155,44 +270,51 @@
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
 
-        // Define custom markers
-        const defaultIcon = L.divIcon({
-            html: '<div class="station-marker"></div>',
-            className: '',
-            iconSize: [12, 12]
-        });
-
-        const selectedIcon = L.divIcon({
-            html: '<div class="station-marker selected"></div>',
-            className: '',
-            iconSize: [16, 16]
-        });
-
-        const correctedIcon = L.divIcon({
-            html: '<div class="station-marker corrected"></div>',
-            className: '',
-            iconSize: [12, 12]
-        });
-
-        const selectedCorrectedIcon = L.divIcon({
-            html: '<div class="station-marker selected corrected"></div>',
-            className: '',
-            iconSize: [16, 16]
-        });
+        // Define custom marker factory
+        function createMarkerIcon(color, isSelected, isCorrected) {
+            // Convert hex to RGB for CSS
+            const hexToRgb = (hex) => {
+                const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+                return result ? {
+                    r: parseInt(result[1], 16),
+                    g: parseInt(result[2], 16),
+                    b: parseInt(result[3], 16)
+                } : null;
+            };
+            
+            const rgb = hexToRgb(color);
+            const colorStyle = rgb ? `background-color: rgb(${rgb.r}, ${rgb.g}, ${rgb.b})` : `background-color: ${color}`;
+            
+            const className = `${isSelected ? 'selected' : ''} ${isCorrected ? 'corrected' : ''}`.trim();
+            const sizeClass = isSelected ? 'size-large' : 'size-normal';
+            
+            return L.divIcon({
+                html: `<div class="station-marker ${className} ${sizeClass}" style="${colorStyle}"></div>`,
+                className: '',
+                iconSize: isSelected ? [16, 16] : [12, 12]
+            });
+        }
 
         // Historical tile layer state
         let historicalLayer = null;
         let availableTileSets = [];
 
         // Variables for app state
-        let currentYearSide = null;
-        let stationsData = null;
-        let linesData = null;
-        let stationMarkers = L.layerGroup().addTo(map);
+        let datasets = {
+            1: { yearSide: null, lineFilter: 'all', color: '#3498db', markers: L.layerGroup(), data: null },
+            2: { yearSide: null, lineFilter: 'all', color: '#e74c3c', markers: L.layerGroup(), data: null }
+        };
+        
         let selectedStation = null;
         let selectedMarker = null;
         let markerDraggedPosition = null;
         let corrections = {};
+        let newStationMode = false;
+        let newStationPosition = null;
+        
+        // Add marker layers to map
+        datasets[1].markers.addTo(map);
+        datasets[2].markers.addTo(map);
         
         // Fetch available tile sets when page loads
         fetch('/available_tile_sets')
@@ -259,50 +381,172 @@
         
         document.getElementById('historic-map-select').addEventListener('change', updateHistoricalLayer);
         
-        // Year selection
-        document.getElementById('year-select').addEventListener('change', function(e) {
-            currentYearSide = e.target.value;
-            if (!currentYearSide) return;
-            
-            // Clear the map and station list
-            stationMarkers.clearLayers();
-            document.getElementById('station-list').innerHTML = '';
-            document.getElementById('current-station').style.display = 'none';
-            
-            // Fetch data for the selected year_side
-            fetch(`/data/${currentYearSide}`)
-                .then(response => response.json())
-                .then(data => {
-                    stationsData = data.geojson;
-                    linesData = data.lines;
-                    
-                    // Populate line filter
-                    const lineSelect = document.getElementById('line-select');
-                    lineSelect.innerHTML = '<option value="all">All Lines</option>';
-                    
-                    const uniqueLines = {};
-                    linesData.forEach(line => {
-                        uniqueLines[line.line_id] = {
-                            name: line.line_name,
-                            type: line.type
-                        };
-                    });
-                    
-                    Object.entries(uniqueLines).forEach(([id, line]) => {
-                        const option = document.createElement('option');
-                        option.value = id;
-                        option.textContent = `${line.name} (${line.type})`;
-                        lineSelect.appendChild(option);
-                    });
-                    
-                    document.getElementById('line-filter-container').style.display = 'block';
-                    
-                    // Add stations to map
-                    displayStations();
-                })
-                .catch(error => console.error('Error fetching data:', error));
+        // Update Color Event Listeners
+        document.querySelectorAll('.color-select').forEach(select => {
+            select.addEventListener('change', function() {
+                const datasetId = this.id.split('-')[2];
+                datasets[datasetId].color = this.value;
+                
+                // If dataset is already loaded, update markers
+                if (datasets[datasetId].yearSide) {
+                    updateDatasetMarkers(datasetId);
+                }
+            });
         });
-
+        
+        // Year Selection Event Listeners
+        document.querySelectorAll('.year-select').forEach(select => {
+            select.addEventListener('change', function() {
+                const datasetId = this.id.split('-')[2];
+                const yearSide = this.value;
+                
+                // Clear related line filter
+                const lineFilterContainer = document.getElementById(`line-filter-container-${datasetId}`);
+                const lineSelect = document.getElementById(`line-select-${datasetId}`);
+                
+                lineSelect.innerHTML = '<option value="all">All Lines</option>';
+                lineFilterContainer.style.display = 'none';
+                
+                // If a year_side is selected, fetch the lines for it
+                if (yearSide) {
+                    fetch(`/data/${yearSide}`)
+                        .then(response => response.json())
+                        .then(data => {
+                            // Store line data
+                            datasets[datasetId].linesData = data.lines;
+                            
+                            // Populate line filter dropdown
+                            const uniqueLines = {};
+                            data.lines.forEach(line => {
+                                uniqueLines[line.line_id] = {
+                                    name: line.line_name,
+                                    type: line.type
+                                };
+                            });
+                            
+                            Object.entries(uniqueLines).forEach(([id, line]) => {
+                                const option = document.createElement('option');
+                                option.value = id;
+                                option.textContent = `${line.name} (${line.type})`;
+                                lineSelect.appendChild(option);
+                            });
+                            
+                            lineFilterContainer.style.display = 'block';
+                        })
+                        .catch(error => {
+                            console.error(`Error fetching lines for ${yearSide}:`, error);
+                            showToast(`Error loading lines for dataset ${datasetId}`, 'error');
+                        });
+                }
+            });
+        });
+        
+        // Line Filter Event Listeners
+        document.querySelectorAll('.line-select').forEach(select => {
+            select.addEventListener('change', function() {
+                const datasetId = this.id.split('-')[2];
+                datasets[datasetId].lineFilter = this.value;
+            });
+        });
+        
+        // Station List Dataset Switcher
+        document.querySelectorAll('#station-list-datasets .btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Update button active state
+                document.querySelectorAll('#station-list-datasets .btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Update station list
+                const datasetId = this.getAttribute('data-dataset');
+                updateStationList(datasetId);
+            });
+        });
+        
+        // Load Datasets Button
+        document.getElementById('load-datasets-btn').addEventListener('click', function() {
+            // Gather datasets to load
+            const yearSides = [];
+            const lineFilters = {};
+            
+            // First dataset
+            const yearSide1 = document.getElementById('year-select-1').value;
+            if (yearSide1) {
+                yearSides.push(yearSide1);
+                datasets[1].yearSide = yearSide1;
+                
+                const lineFilter1 = document.getElementById('line-select-1').value;
+                datasets[1].lineFilter = lineFilter1;
+                lineFilters[yearSide1] = lineFilter1;
+            } else {
+                showToast('Please select a primary dataset', 'error');
+                return;
+            }
+            
+            // Second dataset (optional)
+            const yearSide2 = document.getElementById('year-select-2').value;
+            if (yearSide2) {
+                yearSides.push(yearSide2);
+                datasets[2].yearSide = yearSide2;
+                
+                const lineFilter2 = document.getElementById('line-select-2').value;
+                datasets[2].lineFilter = lineFilter2;
+                lineFilters[yearSide2] = lineFilter2;
+            } else {
+                // Clear dataset 2 if not selected
+                datasets[2].yearSide = null;
+                datasets[2].markers.clearLayers();
+            }
+            
+            // Fetch and display data
+            fetch('/multi_data', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    year_sides: yearSides,
+                    line_filters: lineFilters
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Process each dataset
+                for (const datasetId in datasets) {
+                    const yearSide = datasets[datasetId].yearSide;
+                    if (yearSide && data[yearSide]) {
+                        datasets[datasetId].data = data[yearSide];
+                        datasets[datasetId].markers.clearLayers();
+                        
+                        // Update buttons for Add Station modal
+                        updateAddStationDatasetSelect();
+                        
+                        if (data[yearSide].error) {
+                            showToast(`Error in dataset ${datasetId}: ${data[yearSide].error}`, 'error');
+                        } else {
+                            displayDataset(datasetId);
+                        }
+                    }
+                }
+                
+                // Update station list for the active dataset tab
+                const activeDatasetBtn = document.querySelector('#station-list-datasets .btn.active');
+                if (activeDatasetBtn) {
+                    updateStationList(activeDatasetBtn.getAttribute('data-dataset'));
+                } else {
+                    // Default to dataset 1
+                    updateStationList(1);
+                }
+                
+                if (yearSides.length > 0) {
+                    showToast('Datasets loaded successfully', 'success');
+                }
+            })
+            .catch(error => {
+                console.error('Error loading datasets:', error);
+                showToast('Error loading datasets', 'error');
+            });
+        });
+        
         // Process TIF files button
         document.getElementById('process-tif-btn').addEventListener('click', function() {
             const statusIndicator = document.getElementById('process-status');
@@ -396,11 +640,6 @@
                 });
         });
         
-        // Line filter
-        document.getElementById('line-select').addEventListener('change', function(e) {
-            displayStations();
-        });
-        
         // Station search
         document.getElementById('station-search').addEventListener('input', function(e) {
             const searchText = e.target.value.toLowerCase();
@@ -420,15 +659,25 @@
         document.getElementById('save-correction').addEventListener('click', function() {
             if (!selectedStation || !markerDraggedPosition) return;
             
+            const yearSide = selectedStation.properties.year_side;
+            
+            // Get name if changed
+            const nameInput = document.getElementById('station-name-input');
+            let name = null;
+            if (nameChanged) {
+                name = nameInput.value;
+            }
+            
             // Save correction
             fetch('/save_correction', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    year_side: currentYearSide,
+                    year_side: yearSide,
                     stop_id: selectedStation.properties.stop_id,
                     lat: markerDraggedPosition.lat,
-                    lng: markerDraggedPosition.lng
+                    lng: markerDraggedPosition.lng,
+                    name: name
                 })
             })
             .then(response => response.json())
@@ -436,16 +685,38 @@
                 showToast('Station location saved successfully!', 'success');
                 
                 // Update local corrections
-                if (!corrections[currentYearSide]) {
-                    corrections[currentYearSide] = {};
+                if (!corrections[yearSide]) {
+                    corrections[yearSide] = {};
                 }
-                corrections[currentYearSide][selectedStation.properties.stop_id] = {
+                
+                if (!corrections[yearSide][selectedStation.properties.stop_id]) {
+                    corrections[yearSide][selectedStation.properties.stop_id] = {};
+                }
+                
+                corrections[yearSide][selectedStation.properties.stop_id] = {
                     lat: markerDraggedPosition.lat,
                     lng: markerDraggedPosition.lng
                 };
                 
+                if (nameChanged && name) {
+                    corrections[yearSide][selectedStation.properties.stop_id].name = name;
+                    selectedStation.properties.name = name;
+                }
+                
                 // Refresh display
-                displayStations();
+                for (const datasetId in datasets) {
+                    if (datasets[datasetId].yearSide === yearSide) {
+                        displayDataset(datasetId);
+                    }
+                }
+                
+                // Reset state
+                markerDraggedPosition = null;
+                nameChanged = false;
+                document.getElementById('save-correction').style.display = 'none';
+                
+                // Update station details
+                updateStationDetails();
             })
             .catch(error => {
                 console.error('Error saving correction:', error);
@@ -453,17 +724,225 @@
             });
         });
         
+        // Delete station button
+        document.getElementById('delete-station').addEventListener('click', function() {
+            if (!selectedStation) return;
+            
+            // Show confirmation dialog
+            const confirmationModal = document.getElementById('confirmation-modal');
+            const confirmTitle = document.getElementById('confirm-title');
+            const confirmMessage = document.getElementById('confirm-message');
+            const confirmOkBtn = document.getElementById('confirm-ok');
+            const confirmCancelBtn = document.getElementById('confirm-cancel');
+            
+            confirmTitle.textContent = 'Delete Station';
+            confirmMessage.textContent = `Are you sure you want to delete station "${selectedStation.properties.name}"? This action cannot be undone.`;
+            
+            confirmOkBtn.onclick = function() {
+                // Hide modal
+                confirmationModal.style.display = 'none';
+                
+                // Send delete request
+                fetch('/delete_station', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        year_side: selectedStation.properties.year_side,
+                        stop_id: selectedStation.properties.stop_id
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        showToast('Station deleted successfully', 'success');
+                        
+                        // Hide station details
+                        document.getElementById('current-station').style.display = 'none';
+                        document.getElementById('full-station-details').style.display = 'none';
+                        
+                        // Reset selection
+                        selectedStation = null;
+                        selectedMarker = null;
+                        
+                        // Reload datasets
+                        document.getElementById('load-datasets-btn').click();
+                    } else {
+                        showToast(`Error deleting station: ${data.message}`, 'error');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error deleting station:', error);
+                    showToast('Error deleting station', 'error');
+                });
+            };
+            
+            confirmCancelBtn.onclick = function() {
+                confirmationModal.style.display = 'none';
+            };
+            
+            // Show modal
+            confirmationModal.style.display = 'block';
+        });
+        
         // Export button
         document.getElementById('export-btn').addEventListener('click', function() {
             fetch('/export_corrections')
                 .then(response => response.json())
                 .then(data => {
-                    showToast('Data exported to "export" directory!', 'success');
+                    if (data.status === 'success') {
+                        showToast(`Exported ${data.updated_stations} station corrections to database!`, 'success');
+                    } else {
+                        showToast(`Export error: ${data.message}`, 'error');
+                    }
                 })
                 .catch(error => {
                     console.error('Error exporting data:', error);
                     showToast('Error exporting data', 'error');
                 });
+        });
+        
+        // Add Station button and modal
+        document.getElementById('add-station-btn').addEventListener('click', function() {
+            // Show add station modal
+            const modal = document.getElementById('add-station-modal');
+            modal.style.display = 'block';
+            
+            // Fill dataset options
+            updateAddStationDatasetSelect();
+            
+            // Enable new station mode for map clicking
+            newStationMode = true;
+            newStationPosition = null;
+            
+            // Update button state
+            document.getElementById('create-station-btn').disabled = true;
+            document.getElementById('new-station-coords').textContent = 'Not set';
+        });
+        
+        // Close modals
+        document.querySelectorAll('.close-modal').forEach(close => {
+            close.addEventListener('click', function() {
+                this.closest('.modal').style.display = 'none';
+                
+                // If closing add station modal, disable new station mode
+                if (this.closest('.modal').id === 'add-station-modal') {
+                    newStationMode = false;
+                    
+                    // Remove temporary marker if it exists
+                    if (newStationMarker) {
+                        map.removeLayer(newStationMarker);
+                        newStationMarker = null;
+                    }
+                }
+            });
+        });
+        
+        // Dataset selection in add station modal
+        document.getElementById('new-station-year-side').addEventListener('change', function() {
+            const yearSide = this.value;
+            const lineSelect = document.getElementById('new-station-line');
+            
+            // Clear previous options
+            lineSelect.innerHTML = '<option value="">-- None --</option>';
+            
+            // Find the dataset that matches this year_side
+            for (const datasetId in datasets) {
+                if (datasets[datasetId].yearSide === yearSide && datasets[datasetId].linesData) {
+                    // Add line options
+                    datasets[datasetId].linesData.forEach(line => {
+                        const option = document.createElement('option');
+                        option.value = line.line_id;
+                        option.textContent = `${line.line_name} (${line.type})`;
+                        lineSelect.appendChild(option);
+                    });
+                    break;
+                }
+            }
+        });
+        
+        // Line selection for new station
+        document.getElementById('new-station-line').addEventListener('change', function() {
+            const lineId = this.value;
+            const stopOrderContainer = document.getElementById('stop-order-container');
+            
+            if (lineId) {
+                stopOrderContainer.style.display = 'block';
+            } else {
+                stopOrderContainer.style.display = 'none';
+            }
+        });
+        
+        // Create station button
+        document.getElementById('create-station-btn').addEventListener('click', function() {
+            const name = document.getElementById('new-station-name').value.trim();
+            const type = document.getElementById('new-station-type').value;
+            const yearSide = document.getElementById('new-station-year-side').value;
+            const lineId = document.getElementById('new-station-line').value;
+            const stopOrder = document.getElementById('new-station-stop-order').value;
+            
+            if (!name) {
+                showToast('Station name is required', 'error');
+                return;
+            }
+            
+            if (!yearSide) {
+                showToast('Dataset selection is required', 'error');
+                return;
+            }
+            
+            if (!newStationPosition) {
+                showToast('Please click on the map to set station location', 'error');
+                return;
+            }
+            
+            // Prepare station data
+            const stationData = {
+                year_side: yearSide,
+                name: name,
+                type: type,
+                latitude: newStationPosition.lat,
+                longitude: newStationPosition.lng
+            };
+            
+            // Add line connection if specified
+            if (lineId && stopOrder) {
+                stationData.line_connections = [{
+                    line_id: lineId,
+                    stop_order: parseInt(stopOrder)
+                }];
+            }
+            
+            // Send request to server
+            fetch('/add_station', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(stationData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    showToast('Station added successfully', 'success');
+                    
+                    // Close modal and reset new station mode
+                    document.getElementById('add-station-modal').style.display = 'none';
+                    newStationMode = false;
+                    
+                    // Remove temporary marker
+                    if (newStationMarker) {
+                        map.removeLayer(newStationMarker);
+                        newStationMarker = null;
+                    }
+                    
+                    // Reload affected dataset
+                    document.getElementById('load-datasets-btn').click();
+                } else {
+                    showToast(`Error adding station: ${data.message}`, 'error');
+                }
+            })
+            .catch(error => {
+                console.error('Error adding station:', error);
+                showToast('Error adding station', 'error');
+            });
         });
 
         // Tab functionality
@@ -501,37 +980,6 @@
                     }
                 });
             }
-            
-            // Auto-switch to stations tab when selecting a station from the map
-            const originalSelectStation = selectStation;
-            selectStation = function(feature, marker) {
-                originalSelectStation(feature, marker);
-                
-                // Switch to stations tab
-                document.querySelector('.tab-button[data-tab="stations"]').click();
-                
-                // Update the compact station display
-                document.getElementById('selected-station-name').textContent = feature.properties.name;
-                
-                // Set status class
-                const statusElement = document.getElementById('selected-station-status');
-                if (markerDraggedPosition) {
-                    statusElement.className = 'status-tag status-modified';
-                    statusElement.textContent = 'Modified (Unsaved)';
-                } else if (feature.properties.corrected) {
-                    statusElement.className = 'status-tag status-corrected';
-                    statusElement.textContent = 'Corrected';
-                } else {
-                    statusElement.className = 'status-tag status-original';
-                    statusElement.textContent = 'Original';
-                }
-                
-                // Update coordinates in compact view
-                const coords = markerDraggedPosition || 
-                            {lat: feature.geometry.coordinates[1], lng: feature.geometry.coordinates[0]};
-                document.getElementById('selected-station-coords').textContent = 
-                    `${coords.lat.toFixed(6)}, ${coords.lng.toFixed(6)}`;
-            };
         });
         
         // Update opacity slider value display
@@ -553,6 +1001,36 @@
                 toggleIcon.textContent = '▼';
             } else {
                 toggleIcon.textContent = '▲';
+            }
+        });
+        
+        // Map click handler for new station
+        let newStationMarker = null;
+        
+        map.on('click', function(e) {
+            if (newStationMode) {
+                // Set new station position
+                newStationPosition = e.latlng;
+                
+                // Update coordinate display
+                document.getElementById('new-station-coords').textContent = 
+                    `${newStationPosition.lat.toFixed(6)}, ${newStationPosition.lng.toFixed(6)}`;
+                
+                // Add or update temporary marker
+                if (newStationMarker) {
+                    newStationMarker.setLatLng(newStationPosition);
+                } else {
+                    newStationMarker = L.marker(newStationPosition, {
+                        icon: L.divIcon({
+                            html: '<div class="station-marker new-station"></div>',
+                            className: '',
+                            iconSize: [16, 16]
+                        })
+                    }).addTo(map);
+                }
+                
+                // Enable create button
+                document.getElementById('create-station-btn').disabled = false;
             }
         });
         
@@ -626,55 +1104,47 @@
             }, 100);
         }
         
-        // Display stations on map and in list
-        function displayStations() {
+        // Update the add station modal dataset select
+        function updateAddStationDatasetSelect() {
+            const select = document.getElementById('new-station-year-side');
+            select.innerHTML = '';
+            
+            // Add options for active datasets
+            for (const datasetId in datasets) {
+                if (datasets[datasetId].yearSide) {
+                    const option = document.createElement('option');
+                    option.value = datasets[datasetId].yearSide;
+                    option.textContent = datasets[datasetId].yearSide;
+                    select.appendChild(option);
+                }
+            }
+        }
+        
+        // Display dataset markers on map
+        function displayDataset(datasetId) {
+            const dataset = datasets[datasetId];
+            
             // Clear previous markers
-            stationMarkers.clearLayers();
+            dataset.markers.clearLayers();
             
-            // Clear station list
-            const stationList = document.getElementById('station-list');
-            stationList.innerHTML = '';
+            if (!dataset.data || !dataset.data.geojson || !dataset.data.geojson.features) {
+                return;
+            }
             
-            if (!stationsData || !stationsData.features) return;
-            
-            // Get selected line filter
-            const lineFilter = document.getElementById('line-select').value;
-            
-            // Create markers and list items
-            stationsData.features.forEach(feature => {
-                const stationId = feature.properties.stop_id;
-                const stationName = feature.properties.name;
-                const stationType = feature.properties.type;
-                const stationLine = feature.properties.line;
-                const isCorrected = feature.properties.corrected;
-                
-                // Apply line filter if set
-                if (lineFilter !== 'all') {
-                    const lineItems = linesData.filter(l => l.line_id === lineFilter);
-                    if (lineItems.length > 0) {
-                        if (stationLine !== lineItems[0].line_name) {
-                            return; // Skip stations not on selected line
-                        }
-                    }
-                }
-                
-                // Choose appropriate icon
-                let markerIcon = defaultIcon;
-                if (isCorrected) {
-                    markerIcon = correctedIcon;
-                }
-                
+            // Create markers for each station
+            dataset.data.geojson.features.forEach(feature => {
                 // Create marker
                 const marker = L.marker([
                     feature.geometry.coordinates[1],  // latitude
                     feature.geometry.coordinates[0]   // longitude
                 ], {
                     draggable: true,
-                    title: stationName,
-                    icon: markerIcon
+                    title: feature.properties.name,
+                    icon: createMarkerIcon(dataset.color, false, feature.properties.corrected)
                 });
                 
                 marker.feature = feature;
+                marker.datasetId = datasetId;
                 
                 // Handle marker click
                 marker.on('click', function(e) {
@@ -688,20 +1158,71 @@
                     document.getElementById('save-correction').style.display = 'block';
                     
                     // Update marker icon to indicate it's been moved
-                    marker.setIcon(isCorrected ? selectedCorrectedIcon : selectedIcon);
+                    const isSelected = selectedMarker === marker;
+                    const isCorrected = feature.properties.corrected;
+                    marker.setIcon(createMarkerIcon(dataset.color, isSelected, isCorrected));
                     
                     // Update station details display
                     updateStationDetails();
                 });
                 
                 // Add marker to layer
-                stationMarkers.addLayer(marker);
+                dataset.markers.addLayer(marker);
+            });
+        }
+        
+        // Update markers for a dataset (e.g., when color changes)
+        function updateDatasetMarkers(datasetId) {
+            const dataset = datasets[datasetId];
+            
+            // Update all markers in the layer
+            dataset.markers.eachLayer(marker => {
+                const isSelected = selectedMarker === marker;
+                const isCorrected = marker.feature.properties.corrected;
+                marker.setIcon(createMarkerIcon(dataset.color, isSelected, isCorrected));
+            });
+        }
+        
+        // Update station list for a specific dataset
+        function updateStationList(datasetId) {
+            const stationList = document.getElementById('station-list');
+            stationList.innerHTML = '';
+            
+            const dataset = datasets[datasetId];
+            
+            if (!dataset.yearSide || !dataset.data || !dataset.data.geojson || !dataset.data.geojson.features) {
+                stationList.innerHTML = '<div class="no-data-message">No stations to display</div>';
+                return;
+            }
+            
+            // Create list items for each station
+            dataset.data.geojson.features.forEach(feature => {
+                const stationId = feature.properties.stop_id;
+                const stationName = feature.properties.name;
+                const stationType = feature.properties.type;
+                const stationLine = feature.properties.line;
+                const isCorrected = feature.properties.corrected;
+                
+                // Find corresponding marker
+                let marker = null;
+                dataset.markers.eachLayer(m => {
+                    if (m.feature.properties.stop_id === stationId) {
+                        marker = m;
+                    }
+                });
+                
+                if (!marker) return;
                 
                 // Create list item with improved structure
                 const listItem = document.createElement('div');
                 listItem.className = `station-item${isCorrected ? ' corrected' : ''}`;
                 listItem.setAttribute('data-id', stationId);
                 listItem.setAttribute('data-name', stationName);
+                
+                // Add color indicator based on dataset color
+                const colorIndicator = document.createElement('div');
+                colorIndicator.className = 'color-indicator';
+                colorIndicator.style.backgroundColor = dataset.color;
                 
                 // Add transport type indicator
                 const typeSpan = document.createElement('span');
@@ -720,12 +1241,13 @@
                 // Add line info
                 const lineDiv = document.createElement('div');
                 lineDiv.className = 'station-line';
-                lineDiv.textContent = stationLine;
+                lineDiv.textContent = stationLine || 'No line';
                 
                 // Assemble the structure
                 detailsDiv.appendChild(nameDiv);
                 detailsDiv.appendChild(lineDiv);
                 
+                listItem.appendChild(colorIndicator);
                 listItem.appendChild(typeSpan);
                 listItem.appendChild(detailsDiv);
                 
@@ -737,28 +1259,55 @@
                 
                 stationList.appendChild(listItem);
             });
+            
+            // Set active dataset in switcher
+            document.querySelectorAll('#station-list-datasets .btn').forEach(btn => {
+                const btnDatasetId = btn.getAttribute('data-dataset');
+                if (btnDatasetId === datasetId) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+            
+            // Update button labels to show actual dataset names
+            document.querySelectorAll('#station-list-datasets .btn').forEach(btn => {
+                const btnDatasetId = btn.getAttribute('data-dataset');
+                const yearSide = datasets[btnDatasetId].yearSide;
+                btn.textContent = yearSide || `Dataset ${btnDatasetId}`;
+            });
         }
         
         // Select a station
         function selectStation(feature, marker) {
             // Reset previous selection
             if (selectedMarker) {
+                const prevDatasetId = selectedMarker.datasetId;
+                const prevDataset = datasets[prevDatasetId];
                 const prevIsCorrected = selectedMarker.feature.properties.corrected;
-                selectedMarker.setIcon(prevIsCorrected ? correctedIcon : defaultIcon);
+                selectedMarker.setIcon(createMarkerIcon(prevDataset.color, false, prevIsCorrected));
             }
             
             // Set new selection
             selectedStation = feature;
             selectedMarker = marker;
             
+            // Find which dataset this marker belongs to
+            const datasetId = marker.datasetId;
+            const dataset = datasets[datasetId];
+            
             // Update marker icon
             const isCorrected = feature.properties.corrected;
-            marker.setIcon(isCorrected ? selectedCorrectedIcon : selectedIcon);
+            marker.setIcon(createMarkerIcon(dataset.color, true, isCorrected));
             
+            // Reset state
             markerDraggedPosition = null;
             nameChanged = false;
             originalName = null;
+            
+            // Show relevant buttons
             document.getElementById('save-correction').style.display = 'none';
+            document.getElementById('delete-station').style.display = 'block';
             document.getElementById('current-station').style.display = 'block';
             
             // Highlight in list
@@ -796,6 +1345,12 @@
                     nameInput.value = originalName;
                     editButton.textContent = 'Edit';
                     nameChanged = false;
+                    nameInput.classList.remove('changed');
+                    
+                    // Hide save button if no other changes
+                    if (!markerDraggedPosition) {
+                        document.getElementById('save-correction').style.display = 'none';
+                    }
                 }
             });
             
@@ -815,76 +1370,7 @@
                     }
                 }
             });
-            
-            // Apply changes when station is saved
-            const saveButton = document.getElementById('save-correction');
-            const originalSaveHandler = saveButton.onclick;
-            
-            saveButton.onclick = function() {
-                if (!selectedStation) return;
-                
-                const correction = {
-                    year_side: currentYearSide,
-                    stop_id: selectedStation.properties.stop_id,
-                    lat: markerDraggedPosition ? markerDraggedPosition.lat : selectedStation.geometry.coordinates[1],
-                    lng: markerDraggedPosition ? markerDraggedPosition.lng : selectedStation.geometry.coordinates[0]
-                };
-                
-                // Add name if changed
-                if (nameChanged) {
-                    correction.name = nameInput.value;
-                }
-                
-                // Send to server
-                fetch('/save_correction', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(correction)
-                })
-                .then(response => response.json())
-                .then(data => {
-                    showToast('Station information saved successfully!', 'success');
-                    
-                    // Update local corrections
-                    if (!corrections[currentYearSide]) {
-                        corrections[currentYearSide] = {};
-                    }
-                    
-                    if (!corrections[currentYearSide][selectedStation.properties.stop_id]) {
-                        corrections[currentYearSide][selectedStation.properties.stop_id] = {};
-                    }
-                    
-                    corrections[currentYearSide][selectedStation.properties.stop_id].lat = correction.lat;
-                    corrections[currentYearSide][selectedStation.properties.stop_id].lng = correction.lng;
-                    
-                    if (nameChanged) {
-                        corrections[currentYearSide][selectedStation.properties.stop_id].name = correction.name;
-                        // Update station name in the feature
-                        selectedStation.properties.name = correction.name;
-                        // Update station name in the marker
-                        selectedMarker.feature.properties.name = correction.name;
-                        // Reset name editing state
-                        nameInput.disabled = true;
-                        editButton.textContent = 'Edit';
-                        nameChanged = false;
-                        originalName = correction.name;
-                    }
-                    
-                    // Reset marker drag state
-                    markerDraggedPosition = null;
-                    
-                    // Refresh display
-                    displayStations();
-                    // Re-select the station to update UI
-                    selectStation(selectedStation, selectedMarker);
-                })
-                .catch(error => {
-                    console.error('Error saving correction:', error);
-                    showToast('Error saving station information', 'error');
-                });
-            };
         }
-
 
         document.addEventListener('DOMContentLoaded', initNameEditing);
         
@@ -894,6 +1380,13 @@
             
             const stationDetails = document.getElementById('station-details');
             
+            // Get the year_side for this station
+            const yearSide = selectedStation.properties.year_side;
+            
+            // Update info in the compact view
+            document.getElementById('selected-station-name').textContent = selectedStation.properties.name;
+            document.getElementById('selected-station-year-side').textContent = yearSide;
+            
             // Get original coordinates
             const originalLat = selectedStation.geometry.coordinates[1];
             const originalLng = selectedStation.geometry.coordinates[0];
@@ -901,8 +1394,8 @@
             // Get corrected coordinates if available
             let correctedPosition = null;
             let correctedName = null;
-            if (corrections[currentYearSide]?.[selectedStation.properties.stop_id]) {
-                const correction = corrections[currentYearSide][selectedStation.properties.stop_id];
+            if (corrections[yearSide]?.[selectedStation.properties.stop_id]) {
+                const correction = corrections[yearSide][selectedStation.properties.stop_id];
                 correctedPosition = {lat: correction.lat, lng: correction.lng};
                 correctedName = correction.name;
             }
@@ -912,14 +1405,26 @@
                       (correctedPosition ? {lat: correctedPosition.lat, lng: correctedPosition.lng} : 
                       {lat: originalLat, lng: originalLng});
             
+            // Update coordinates in compact view
+            document.getElementById('selected-station-coords').textContent = 
+                `${currentPosition.lat.toFixed(6)}, ${currentPosition.lng.toFixed(6)}`;
+            
             // Format the status message
             let statusMessage = '';
+            const statusElement = document.getElementById('selected-station-status');
+            
             if (markerDraggedPosition) {
                 statusMessage = '<div class="status-tag status-modified">Modified (Unsaved)</div>';
+                statusElement.className = 'status-tag status-modified';
+                statusElement.textContent = 'Modified (Unsaved)';
             } else if (correctedPosition) {
                 statusMessage = '<div class="status-tag status-corrected">Corrected</div>';
+                statusElement.className = 'status-tag status-corrected';
+                statusElement.textContent = 'Corrected';
             } else {
                 statusMessage = '<div class="status-tag status-original">Original</div>';
+                statusElement.className = 'status-tag status-original';
+                statusElement.textContent = 'Original';
             }
 
             const displayName = correctedName || selectedStation.properties.name;
@@ -935,11 +1440,8 @@
                         <span class="detail-value">${selectedStation.properties.stop_id}</span>
                     </div>
                     <div class="detail-row">
-                        <span class="detail-label">Name:</span>
-                        <div class="detail-value name-edit">
-                            <input type="text" id="station-name-input" class="station-name-input" value="${displayName}" disabled>
-                            <button id="edit-name-btn" class="text-button">Edit</button>
-                        </div>
+                        <span class="detail-label">Dataset:</span>
+                        <span class="detail-value">${yearSide}</span>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Type:</span>
@@ -947,7 +1449,7 @@
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Line:</span>
-                        <span class="detail-value">${selectedStation.properties.line}</span>
+                        <span class="detail-value">${selectedStation.properties.line || 'None'}</span>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Original:</span>
@@ -959,6 +1461,13 @@
                     </div>
                 </div>
             `;
+            
+            // Update name input
+            const nameInput = document.getElementById('station-name-input');
+            nameInput.value = displayName;
+            nameInput.disabled = true;
+            
+            // Call the name editing initialization
             initNameEditing();
         }
     </script>
