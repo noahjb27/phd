@@ -181,7 +181,10 @@
                                 <div class="name-input-container">
                                     <input type="text" id="station-name-input" class="station-name-input">
                                 </div>
-                                <button id="edit-name-btn" class="text-button">Edit</button>
+                                <div class="name-edit-buttons">
+                                    <button id="edit-name-btn" class="text-button">Edit</button>
+                                    <button id="save-name-btn" class="text-button" style="display: none;">Save Name</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -424,7 +427,14 @@
                                 };
                             });
                             
-                            Object.entries(uniqueLines).forEach(([id, line]) => {
+                            // Create a sorted array of entries first
+                            const sortedLines = Object.entries(uniqueLines).sort((a, b) => {
+                                // Sort by line name
+                                return a[1].name.localeCompare(b[1].name);
+                            });
+
+                            // Now use the sorted array to populate the dropdown
+                            sortedLines.forEach(([id, line]) => {
                                 const option = document.createElement('option');
                                 option.value = id;
                                 option.textContent = `${line.name} (${line.type})`;
@@ -647,7 +657,10 @@
             const stationItems = document.querySelectorAll('.station-item');
             stationItems.forEach(item => {
                 const name = item.getAttribute('data-name').toLowerCase();
-                if (name.includes(searchText)) {
+                const id = item.getAttribute('data-id').toLowerCase();
+                
+                // Check if either name or stop_id matches the search text
+                if (name.includes(searchText) || id.includes(searchText)) {
                     item.style.display = 'flex';
                 } else {
                     item.style.display = 'none';
@@ -661,13 +674,6 @@
             
             const yearSide = selectedStation.properties.year_side;
             
-            // Get name if changed
-            const nameInput = document.getElementById('station-name-input');
-            let name = null;
-            if (nameChanged) {
-                name = nameInput.value;
-            }
-            
             // Save correction
             fetch('/save_correction', {
                 method: 'POST',
@@ -677,7 +683,7 @@
                     stop_id: selectedStation.properties.stop_id,
                     lat: markerDraggedPosition.lat,
                     lng: markerDraggedPosition.lng,
-                    name: name
+                    name: null  // Not updating name here
                 })
             })
             .then(response => response.json())
@@ -693,14 +699,17 @@
                     corrections[yearSide][selectedStation.properties.stop_id] = {};
                 }
                 
+                // Preserve existing name if already set
+                const existingName = corrections[yearSide][selectedStation.properties.stop_id].name;
+                
                 corrections[yearSide][selectedStation.properties.stop_id] = {
                     lat: markerDraggedPosition.lat,
                     lng: markerDraggedPosition.lng
                 };
                 
-                if (nameChanged && name) {
-                    corrections[yearSide][selectedStation.properties.stop_id].name = name;
-                    selectedStation.properties.name = name;
+                // Keep name if it was previously set
+                if (existingName) {
+                    corrections[yearSide][selectedStation.properties.stop_id].name = existingName;
                 }
                 
                 // Refresh display
@@ -712,7 +721,6 @@
                 
                 // Reset state
                 markerDraggedPosition = null;
-                nameChanged = false;
                 document.getElementById('save-correction').style.display = 'none';
                 
                 // Update station details
@@ -1324,12 +1332,14 @@
             updateStationDetails();
         }
 
+        // Replace the existing name editing initialization function with this:
         let originalName = null;
         let nameChanged = false;
 
         function initNameEditing() {
             const nameInput = document.getElementById('station-name-input');
             const editButton = document.getElementById('edit-name-btn');
+            const saveNameButton = document.getElementById('save-name-btn');
             
             // Toggle edit mode
             editButton.addEventListener('click', function() {
@@ -1338,19 +1348,16 @@
                     nameInput.disabled = false;
                     nameInput.focus();
                     editButton.textContent = 'Cancel';
+                    saveNameButton.style.display = 'inline';
                     originalName = nameInput.value;
                 } else {
                     // Cancel editing
                     nameInput.disabled = true;
                     nameInput.value = originalName;
                     editButton.textContent = 'Edit';
+                    saveNameButton.style.display = 'none';
                     nameChanged = false;
                     nameInput.classList.remove('changed');
-                    
-                    // Hide save button if no other changes
-                    if (!markerDraggedPosition) {
-                        document.getElementById('save-correction').style.display = 'none';
-                    }
                 }
             });
             
@@ -1360,15 +1367,81 @@
                 
                 if (nameChanged) {
                     nameInput.classList.add('changed');
-                    document.getElementById('save-correction').style.display = 'block';
+                    saveNameButton.style.display = 'inline';
                 } else {
                     nameInput.classList.remove('changed');
-                    
-                    // Only hide save button if there are no other changes
-                    if (!markerDraggedPosition) {
-                        document.getElementById('save-correction').style.display = 'none';
-                    }
+                    saveNameButton.style.display = 'none';
                 }
+            });
+            
+            // Add event listener for the save name button
+            saveNameButton.addEventListener('click', function() {
+                if (!selectedStation || !nameChanged) return;
+                
+                const yearSide = selectedStation.properties.year_side;
+                const nameInput = document.getElementById('station-name-input');
+                
+                // Save name correction
+                fetch('/save_name_correction', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        year_side: yearSide,
+                        stop_id: selectedStation.properties.stop_id,
+                        name: nameInput.value
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    showToast('Station name saved successfully!', 'success');
+                    
+                    // Update local corrections
+                    if (!corrections[yearSide]) {
+                        corrections[yearSide] = {};
+                    }
+                    
+                    if (!corrections[yearSide][selectedStation.properties.stop_id]) {
+                        corrections[yearSide][selectedStation.properties.stop_id] = {};
+                    }
+                    
+                    // Get existing lat/lng if available, or use original coordinates
+                    const existingCorrection = corrections[yearSide][selectedStation.properties.stop_id];
+                    const lat = existingCorrection.lat || selectedStation.geometry.coordinates[1];
+                    const lng = existingCorrection.lng || selectedStation.geometry.coordinates[0];
+                    
+                    corrections[yearSide][selectedStation.properties.stop_id] = {
+                        lat: lat,
+                        lng: lng,
+                        name: nameInput.value
+                    };
+                    
+                    // Update station properties for display
+                    selectedStation.properties.name = nameInput.value;
+                    
+                    // Refresh display
+                    for (const datasetId in datasets) {
+                        if (datasets[datasetId].yearSide === yearSide) {
+                            displayDataset(datasetId);
+                        }
+                    }
+                    
+                    // Reset state
+                    nameChanged = false;
+                    nameInput.disabled = true;
+                    editButton.textContent = 'Edit';
+                    saveNameButton.style.display = 'none';
+                    
+                    // Update station details and list
+                    updateStationDetails();
+                    const activeDatasetBtn = document.querySelector('#station-list-datasets .btn.active');
+                    if (activeDatasetBtn) {
+                        updateStationList(activeDatasetBtn.getAttribute('data-dataset'));
+                    }
+                })
+                .catch(error => {
+                    console.error('Error saving name correction:', error);
+                    showToast('Error saving station name', 'error');
+                });
             });
         }
 

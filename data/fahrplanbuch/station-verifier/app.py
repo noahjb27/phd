@@ -414,5 +414,47 @@ def process_all_tifs():
         "details": results
     })
 
+@app.route('/save_name_correction', methods=['POST'])
+def save_name_correction():
+    """Save a station name correction"""
+    data = request.json
+    year_side = data['year_side']
+    stop_id = str(data['stop_id'])  # Ensure stop_id is a string
+    name = data['name']
+    
+    if not name or not name.strip():
+        return jsonify({"status": "error", "message": "Name cannot be empty"}), 400
+    
+    # Load existing corrections
+    with open(CORRECTIONS_FILE, 'r') as f:
+        corrections = json.load(f)
+    
+    # Add or update correction
+    if year_side not in corrections:
+        corrections[year_side] = {}
+    
+    # Create or update the correction entry
+    if stop_id not in corrections[year_side]:
+        corrections[year_side][stop_id] = {}
+        
+    # For name-only updates, preserve existing lat/lng if they exist
+    if 'lat' in corrections[year_side][stop_id] and 'lng' in corrections[year_side][stop_id]:
+        corrections[year_side][stop_id]["name"] = name
+    else:
+        # If no existing lat/lng, need to get current coordinates from the database
+        station_coords = db.get_station_coordinates(stop_id)
+        if station_coords:
+            corrections[year_side][stop_id]["lat"] = station_coords["latitude"]
+            corrections[year_side][stop_id]["lng"] = station_coords["longitude"]
+            corrections[year_side][stop_id]["name"] = name
+        else:
+            return jsonify({"status": "error", "message": "Could not find station coordinates"}), 404
+    
+    # Save corrections
+    with open(CORRECTIONS_FILE, 'w') as f:
+        json.dump(corrections, f, indent=2)
+    
+    return jsonify({"status": "success"})
+
 if __name__ == '__main__':
     app.run(debug=True)

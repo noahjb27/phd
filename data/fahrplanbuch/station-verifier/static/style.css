@@ -798,3 +798,17 @@ button.danger-button:hover {
     border-color: #3498db;
     background-color: #ecf0f1;
 }
+
+/* Name editing UI */
+.name-edit-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+#save-name-btn {
+    color: #27ae60;
+}
+
+#save-name-btn:hover {
+    color: #2ecc71;
+}

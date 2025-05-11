@@ -142,6 +142,36 @@ class StationVerifierDB:
             logger.error(f"Error retrieving data for {year_side}: {e}")
             return {"stops": pd.DataFrame(), "lines": pd.DataFrame(), "line_stops": pd.DataFrame()}
     
+    def get_station_coordinates(self, stop_id):
+        """
+        Get the coordinates for a station
+        
+        Args:
+            stop_id: Station ID to query
+            
+        Returns:
+            Dict with latitude and longitude if found, None otherwise
+        """
+        self.connect()
+        
+        try:
+            with self.driver.session() as session:
+                result = session.run("""
+                MATCH (s:Station {stop_id: $stop_id})
+                RETURN s.latitude as latitude, s.longitude as longitude
+                """, stop_id=stop_id)
+                
+                record = result.single()
+                if record and record["latitude"] is not None and record["longitude"] is not None:
+                    return {
+                        "latitude": record["latitude"],
+                        "longitude": record["longitude"]
+                    }
+                return None
+        except Exception as e:
+            logger.error(f"Error getting station coordinates: {e}")
+            return None
+    
     def update_station_location(self, stop_id, latitude, longitude):
         """
         Update a station's location in the database
