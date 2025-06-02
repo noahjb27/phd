@@ -12,6 +12,7 @@ import proj4 from 'proj4';
 import 'leaflet';
 import { WMSTileLayer } from 'react-leaflet/WMSTileLayer'
 import useNetworkData from '@/pages/api/useNetworkData';
+import useAvailableYears from '@/hooks/useAvailableYears';
 
 // Define EPSG:25833 to EPSG:4326 transformation
 proj4.defs("EPSG:25833", "+proj=utm +zone=33 +datum=WGS84 +units=m +no_defs");
@@ -47,10 +48,19 @@ const MapVisualization: React.FC = () => {
   const { data: session } = useSession();
   const [features, setFeatures] = useState<Feature[]>([]);
   const [showBerlinWall, setShowBerlinWall] = useState(false);
-  const availableYears = [1964, 1965];
+  const { availableYears, loading: yearsLoading, error: yearsError } = useAvailableYears();
+
   // New state for selected line and derived line names
   const [selectedLine, setSelectedLine] = useState<string>('');
   const { stations, connections, loading, error, refetch, updateStation } = useNetworkData(selectedYear, selectedType, selectedLine);
+
+  useEffect(() => {
+    if (availableYears.length > 0 && selectedYear === 1946) {
+      // Set to the first available year or keep 1946 if it exists
+      const initialYear = availableYears.includes(1946) ? 1946 : availableYears[0];
+      setSelectedYear(initialYear);
+    }
+  }, [availableYears, selectedYear]);
 
   const handleUpdateStation = async (stopId: string, latitude: number, longitude: number) => {
     if (!session?.accessToken) {
@@ -123,14 +133,19 @@ const MapVisualization: React.FC = () => {
 
   return (
     <div className="relative w-full h-[calc(100vh-6rem)]">
-      
-
       <div className="absolute inset-0 z-0">
         {loading ? (
           <div className="flex justify-center items-center h-full bg-gray-50">
             <div className="text-center">
               <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-4"></div>
               <p className="text-gray-600">Loading map data...</p>
+            </div>
+          </div>
+        ) : yearsLoading ? (
+          <div className="flex justify-center items-center h-full bg-gray-50">
+            <div className="text-center">
+              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-4"></div>
+              <p className="text-gray-600">Loading available years...</p>
             </div>
           </div>
         ) : (

@@ -70,6 +70,41 @@ router.get('/graph-data', async (req, res) => {
     }
   });
 
+router.get('/available-years', async (req, res) => {
+  const cacheKey = 'available_years';
+  
+  // Check cache first
+  const cachedData = cache.get(cacheKey);
+  if (cachedData) {
+    return res.json(cachedData);
+  }
+
+  const session = driver.session();
+  try {
+    const result = await session.run(`
+      MATCH (y:Year)
+      RETURN y.year as year
+      ORDER BY y.year ASC
+    `);
+
+    const years = result.records.map(record => {
+      const year = record.get('year');
+      // Handle Neo4j integer conversion
+      return neo4j.isInt(year) ? year.toNumber() : year;
+    });
+
+    // Cache for 1 hour since years don't change frequently
+    cache.set(cacheKey, years, 3600);
+    
+    res.json(years);
+  } catch (error) {
+    console.error('Error fetching available years:', error);
+    res.status(500).json({ error: error.message });
+  } finally {
+    await session.close();
+  }
+});
+
 //  dedicated route for year-specific queries
 router.get('/network-snapshot/:year', async (req, res) => {
   const year = parseInt(req.params.year);
