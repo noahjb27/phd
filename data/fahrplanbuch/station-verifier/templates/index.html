@@ -174,6 +174,8 @@
                     <div class="control-group" id="full-station-details" style="display: none;">
                         <h3>Station Details</h3>
                         <div id="station-details"></div>
+                        
+                        <!-- Station Name Editing -->
                         <div class="detail-row">
                             <span class="detail-label">Name:</span>
                             <br>
@@ -184,6 +186,21 @@
                                 <div class="name-edit-buttons">
                                     <button id="edit-name-btn" class="text-button">Edit</button>
                                     <button id="save-name-btn" class="text-button" style="display: none;">Save Name</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Station Source Editing -->
+                        <div class="detail-row">
+                            <span class="detail-label">Source:</span>
+                            <br>
+                            <div class="detail-value source-edit">
+                                <div class="source-input-container">
+                                    <input type="text" id="station-source-input" class="station-source-input" placeholder="Enter data source...">
+                                </div>
+                                <div class="source-edit-buttons">
+                                    <button id="edit-source-btn" class="text-button">Edit</button>
+                                    <button id="save-source-btn" class="text-button" style="display: none;">Save Source</button>
                                 </div>
                             </div>
                         </div>
@@ -1445,8 +1462,105 @@
             });
         }
 
-        document.addEventListener('DOMContentLoaded', initNameEditing);
+        document.addEventListener('DOMContentLoaded', () => {
+    // Existing code...
+    initNameEditing();
+    initSourceEditing(); // Add this line
+});
         
+        // Variables for source editing
+        let originalSource = null;
+        let sourceChanged = false;
+
+        function initSourceEditing() {
+            const sourceInput = document.getElementById('station-source-input');
+            const editSourceButton = document.getElementById('edit-source-btn');
+            const saveSourceButton = document.getElementById('save-source-btn');
+            
+            // Toggle edit mode for source
+            editSourceButton.addEventListener('click', function() {
+                if (sourceInput.disabled) {
+                    // Enable editing
+                    sourceInput.disabled = false;
+                    sourceInput.focus();
+                    editSourceButton.textContent = 'Cancel';
+                    saveSourceButton.style.display = 'inline';
+                    originalSource = sourceInput.value;
+                } else {
+                    // Cancel editing
+                    sourceInput.disabled = true;
+                    sourceInput.value = originalSource;
+                    editSourceButton.textContent = 'Edit';
+                    saveSourceButton.style.display = 'none';
+                    sourceChanged = false;
+                    sourceInput.classList.remove('changed');
+                }
+            });
+            
+            // Track changes
+            sourceInput.addEventListener('input', function() {
+                sourceChanged = sourceInput.value !== originalSource;
+                
+                if (sourceChanged) {
+                    sourceInput.classList.add('changed');
+                    saveSourceButton.style.display = 'inline';
+                } else {
+                    sourceInput.classList.remove('changed');
+                    saveSourceButton.style.display = 'none';
+                }
+            });
+            
+            // Save source changes
+            saveSourceButton.addEventListener('click', function() {
+                if (!selectedStation || !sourceChanged) return;
+                
+                const sourceInput = document.getElementById('station-source-input');
+                const newSource = sourceInput.value.trim();
+                
+                if (!newSource) {
+                    showToast('Source cannot be empty', 'error');
+                    return;
+                }
+                
+                // Save source correction
+                fetch('/save_source_correction', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        stop_id: selectedStation.properties.stop_id,
+                        source: newSource
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        showToast('Station source saved successfully!', 'success');
+                        
+                        // Update the station properties
+                        selectedStation.properties.source = newSource;
+                        
+                        // Reset state
+                        sourceChanged = false;
+                        sourceInput.disabled = true;
+                        editSourceButton.textContent = 'Edit';
+                        saveSourceButton.style.display = 'none';
+                        sourceInput.classList.remove('changed');
+                        
+                        // Update station details display
+                        updateStationDetails();
+                        
+                        showToast('Source updated successfully', 'success');
+                    } else {
+                        showToast(`Error saving source: ${data.message}`, 'error');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error saving source correction:', error);
+                    showToast('Error saving station source', 'error');
+                });
+            });
+        }
+
         // Update station details display
         function updateStationDetails() {
             if (!selectedStation) return;
@@ -1475,8 +1589,8 @@
             
             // Use dragged position if available, otherwise use corrected or original
             const currentPosition = markerDraggedPosition || 
-                      (correctedPosition ? {lat: correctedPosition.lat, lng: correctedPosition.lng} : 
-                      {lat: originalLat, lng: originalLng});
+                        (correctedPosition ? {lat: correctedPosition.lat, lng: correctedPosition.lng} : 
+                        {lat: originalLat, lng: originalLng});
             
             // Update coordinates in compact view
             document.getElementById('selected-station-coords').textContent = 
@@ -1501,6 +1615,7 @@
             }
 
             const displayName = correctedName || selectedStation.properties.name;
+            const stationSource = selectedStation.properties.source || 'Not specified';
             
             stationDetails.innerHTML = `
                 <div class="detail-header">
@@ -1525,6 +1640,10 @@
                         <span class="detail-value">${selectedStation.properties.line || 'None'}</span>
                     </div>
                     <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">${stationSource}</span>
+                    </div>
+                    <div class="detail-row">
                         <span class="detail-label">Original:</span>
                         <span class="detail-value coord">${originalLat.toFixed(6)}, ${originalLng.toFixed(6)}</span>
                     </div>
@@ -1540,8 +1659,16 @@
             nameInput.value = displayName;
             nameInput.disabled = true;
             
-            // Call the name editing initialization
-            initNameEditing();
+            // Update source input
+            const sourceInput = document.getElementById('station-source-input');
+            sourceInput.value = stationSource;
+            sourceInput.disabled = true;
+            
+            // Reset editing states
+            document.getElementById('edit-name-btn').textContent = 'Edit';
+            document.getElementById('save-name-btn').style.display = 'none';
+            document.getElementById('edit-source-btn').textContent = 'Edit';
+            document.getElementById('save-source-btn').style.display = 'none';
         }
     </script>
 </body>

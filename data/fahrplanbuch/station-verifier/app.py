@@ -89,6 +89,7 @@ def get_year_side_data(year_side):
                             "name": row['stop_name'],
                             "type": row['type'],
                             "line": row['line_name'],
+                            "source": row.get('source', 'Not specified'),  # Add source field
                             "corrected": str(row['stop_id']) in corrections.get(year_side, {})
                         }
                     }
@@ -178,6 +179,7 @@ def get_multiple_datasets():
                                 "name": row['stop_name'],
                                 "type": row['type'],
                                 "line": row['line_name'],
+                                "source": row.get('source', 'Not specified'),  # Add source field
                                 "year_side": year_side,  # Add year_side for identification
                                 "corrected": str(row['stop_id']) in corrections.get(year_side, {})
                             }
@@ -414,6 +416,24 @@ def process_all_tifs():
         "details": results
     })
 
+@app.route('/save_source_correction', methods=['POST'])
+def save_source_correction():
+    """Save a station source correction"""
+    data = request.json
+    stop_id = str(data['stop_id'])  # Ensure stop_id is a string
+    source = data['source']
+    
+    if not source or not source.strip():
+        return jsonify({"status": "error", "message": "Source cannot be empty"}), 400
+    
+    # Update source in database
+    result = db.update_station_source(stop_id, source.strip())
+    
+    if result:
+        return jsonify({"status": "success"})
+    else:
+        return jsonify({"status": "error", "message": "Could not update station source"}), 500
+    
 @app.route('/save_name_correction', methods=['POST'])
 def save_name_correction():
     """Save a station name correction"""

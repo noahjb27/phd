@@ -81,7 +81,7 @@ class StationVerifierDB:
             year, side = year_side.split('_')
             
             with self.driver.session() as session:
-                # Get stations
+                # Get stations - NOW INCLUDING SOURCE
                 stops_result = session.run("""
                 MATCH (s:Station)-[:IN_YEAR]->(y:Year {year: $year})
                 WHERE s.east_west = $side
@@ -90,7 +90,8 @@ class StationVerifierDB:
                     s.name as stop_name,
                     s.type as type,
                     s.latitude as latitude,
-                    s.longitude as longitude
+                    s.longitude as longitude,
+                    s.source as source
                 """, year=int(year), side=side)
                 
                 stops_df = pd.DataFrame([dict(record) for record in stops_result])
@@ -349,7 +350,60 @@ class StationVerifierDB:
         except Exception as e:
             logger.error(f"Error deleting station {stop_id}: {e}")
             return {"status": "error", "message": str(e)}
-    
+        
+    def update_station_source(self, stop_id, new_source):
+        """
+        Update a station's source in the database
+        
+        Args:
+            stop_id: Station ID to update
+            new_source: New source value
+            
+        Returns:
+            True if successful, False otherwise
+        """
+        self.connect()
+        
+        try:
+            with self.driver.session() as session:
+                result = session.run("""
+                MATCH (s:Station {stop_id: $stop_id})
+                SET s.source = $new_source
+                RETURN s.stop_id as stop_id
+                """, stop_id=stop_id, new_source=new_source)
+                
+                return result.single() is not None
+        except Exception as e:
+            logger.error(f"Error updating station source: {e}")
+            return False
+
+    def get_station_source(self, stop_id):
+        """
+        Get the source for a station
+        
+        Args:
+            stop_id: Station ID to query
+            
+        Returns:
+            Source string if found, None otherwise
+        """
+        self.connect()
+        
+        try:
+            with self.driver.session() as session:
+                result = session.run("""
+                MATCH (s:Station {stop_id: $stop_id})
+                RETURN s.source as source
+                """, stop_id=stop_id)
+                
+                record = result.single()
+                if record and record["source"] is not None:
+                    return record["source"]
+                return None
+        except Exception as e:
+            logger.error(f"Error getting station source: {e}")
+            return None
+        
     def add_station(self, year_side, station_data, line_connections=None):
         """
         Add a new station to the database

@@ -812,3 +812,66 @@ button.danger-button:hover {
 #save-name-btn:hover {
     color: #2ecc71;
 }
+
+/* Add these styles to style.css for source editing functionality */
+
+/* Source Editing */
+.source-edit {
+    display: flex;
+    align-items: center;
+}
+
+.station-source-input {
+    flex: 1;
+    padding: 0.2rem;
+    margin-right: 0.2rem;
+    font-size: 0.9rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.station-source-input:disabled {
+    background-color: transparent;
+    border-color: transparent;
+    color: inherit;
+    padding: 0;
+    cursor: default;
+}
+
+/* Add a "changed" state to highlight edited sources */
+.station-source-input.changed {
+    border-color: #3498db;
+    background-color: #ecf0f1;
+}
+
+/* Source editing UI */
+.source-edit-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+#save-source-btn {
+    color: #27ae60;
+}
+
+#save-source-btn:hover {
+    color: #2ecc71;
+}
+
+/* Update detail-row to handle multi-line inputs better */
+.detail-row:has(.source-edit), .detail-row:has(.name-edit) {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.detail-row:has(.source-edit) .detail-label, 
+.detail-row:has(.name-edit) .detail-label {
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.detail-row:has(.source-edit) .detail-value, 
+.detail-row:has(.name-edit) .detail-value {
+    width: 100%;
+}
