@@ -20,7 +20,7 @@ class TransportDataProcessor:
         """
         self.year = year
         self.side = side.lower()
-        if self.side not in ['east', 'west']:
+        if self.side not in ['east', 'west', 'unified']:
             raise ValueError("side must be either 'east' or 'west'")
     
     def process_raw_data(self, 

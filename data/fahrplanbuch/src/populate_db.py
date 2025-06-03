@@ -249,9 +249,21 @@ class BerlinTransportImporter:
         except Exception as e:
             logger.error(f"Error importing data for {year_side_dir.name}: {e}")
             return False
-    
-    def import_stations(self, file_path, year, side, update_existing=False):
-        """Import stations from CSV file"""
+
+    # Addition to data/fahrplanbuch/src/populate_db.py
+    # Update the import_stations method to include source field
+
+    def import_stations(self, file_path, year, side, update_existing=False, default_source="Fahrplanbuch"):
+        """
+        Import stations from CSV file with source tracking
+        
+        Args:
+            file_path: Path to the CSV file
+            year: Year of the data
+            side: Side of Berlin (east/west)
+            update_existing: Whether to update existing data
+            default_source: Default source value for new stations
+        """
         if not file_path.exists():
             logger.warning(f"File not found: {file_path}")
             return False
@@ -303,7 +315,21 @@ class BerlinTransportImporter:
                         except (ValueError, TypeError):
                             pass
                     
-                    # Prepare station parameters
+                    # Determine source based on data quality/origin
+                    source = default_source
+                    
+                    # You can add logic here to determine source based on data characteristics
+                    # For example, if coordinates are missing, it might be "Fahrplanbuch infered"
+                    if lat is None or lng is None:
+                        source = "Fahrplanbuch infered"
+                    
+                    # Check if station name contains indicators of inference
+                    if pd.notna(row.get('stop_name')):
+                        station_name = str(row['stop_name']).lower()
+                        if any(indicator in station_name for indicator in ['inferred', 'estimated', 'approx']):
+                            source = "Fahrplanbuch infered"
+                    
+                    # Prepare station parameters including source
                     station_param = {
                         "stop_id": str(row['stop_id']),
                         "name": row['stop_name'],
@@ -311,6 +337,7 @@ class BerlinTransportImporter:
                         "east_west": side,
                         "latitude": lat,
                         "longitude": lng,
+                        "source": source,  # Add source field
                         "year": year
                     }
                     
@@ -321,11 +348,10 @@ class BerlinTransportImporter:
                     
                     stations_params.append(station_param)
                 
-                # Execute batch import
+                # Execute batch import with updated query including source
                 with self.db.driver.session() as session:
-                    # Prepare the query based on update_existing flag
                     if update_existing:
-                        # Update all properties regardless
+                        # Update all properties including source
                         query = """
                         UNWIND $stations AS station
                         MATCH (y:Year {year: station.year})
@@ -334,7 +360,8 @@ class BerlinTransportImporter:
                         MERGE (s:Station {stop_id: station.stop_id})
                         SET s.name = station.name,
                             s.type = station.type,
-                            s.east_west = station.east_west
+                            s.east_west = station.east_west,
+                            s.source = station.source
                         
                         // Set coordinates if available
                         FOREACH (ignoreMe IN CASE WHEN station.latitude IS NOT NULL AND station.longitude IS NOT NULL 
@@ -367,7 +394,7 @@ class BerlinTransportImporter:
                         RETURN count(s) as count
                         """
                     else:
-                        # Only set properties on creation (ON CREATE)
+                        # Only set properties on creation (ON CREATE) including source
                         query = """
                         UNWIND $stations AS station
                         MATCH (y:Year {year: station.year})
@@ -377,13 +404,19 @@ class BerlinTransportImporter:
                         ON CREATE SET 
                             s.name = station.name,
                             s.type = station.type,
-                            s.east_west = station.east_west
+                            s.east_west = station.east_west,
+                            s.source = station.source
                         
                         // Set coordinates if available and only on creation
                         FOREACH (ignoreMe IN CASE WHEN station.latitude IS NOT NULL AND station.longitude IS NOT NULL 
                                 THEN [1] ELSE [] END | 
                             SET s.latitude = CASE WHEN s.latitude IS NULL THEN station.latitude ELSE s.latitude END,
                                 s.longitude = CASE WHEN s.longitude IS NULL THEN station.longitude ELSE s.longitude END
+                        )
+                        
+                        // Set source if not already set
+                        FOREACH (ignoreMe IN CASE WHEN s.source IS NULL THEN [1] ELSE [] END |
+                            SET s.source = station.source
                         )
                         
                         // Connect to Year
@@ -418,7 +451,63 @@ class BerlinTransportImporter:
         except Exception as e:
             logger.error(f"Error importing stations: {e}")
             return False
-    
+
+    # Also add this method to the BerlinTransportImporter class:
+    def set_station_source_from_conditions(self, conditions_file=None):
+        """
+        Update station sources based on data quality conditions
+        
+        Args:
+            conditions_file: Optional JSON file with source assignment rules
+        """
+        logger.info("Setting station sources based on data conditions...")
+        
+        try:
+            self.db.connect()
+            
+            with self.db.driver.session() as session:
+                # Set stations without coordinates as "Fahrplanbuch infered"
+                result = session.run("""
+                MATCH (s:Station)
+                WHERE (s.latitude IS NULL OR s.longitude IS NULL) 
+                    AND (s.source IS NULL OR s.source = 'Fahrplanbuch')
+                SET s.source = 'Fahrplanbuch infered'
+                RETURN count(s) as count
+                """)
+                
+                infered_count = result.single()["count"]
+                logger.info(f"Set {infered_count} stations to 'Fahrplanbuch infered' due to missing coordinates")
+                
+                # Set default source for stations without source
+                result = session.run("""
+                MATCH (s:Station)
+                WHERE s.source IS NULL
+                SET s.source = 'Fahrplanbuch'
+                RETURN count(s) as count
+                """)
+                
+                default_count = result.single()["count"]
+                logger.info(f"Set {default_count} stations to default 'Fahrplanbuch' source")
+                
+                # Report source distribution
+                result = session.run("""
+                MATCH (s:Station)
+                RETURN s.source as source, count(*) as count
+                ORDER BY count DESC
+                """)
+                
+                logger.info("Current source distribution:")
+                for record in result:
+                    source = record["source"] or "NULL"
+                    count = record["count"]
+                    logger.info(f"  {source}: {count}")
+                    
+            return True
+            
+        except Exception as e:
+            logger.error(f"Error setting station sources: {e}")
+            return False  
+   
     def import_lines(self, file_path, year, update_existing=False):
         """Import lines from CSV file"""
         if not file_path.exists():
