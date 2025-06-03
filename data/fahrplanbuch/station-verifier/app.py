@@ -246,7 +246,7 @@ def delete_station():
     """Delete a station and update line-station relationships"""
     data = request.json
     year_side = data['year_side']
-    stop_id = str(data['stop_id'])
+    stop_id = str(data['stop_id'])  # Ensure stop_id is a string
     
     # Delete from database
     result = db.delete_station(stop_id, year_side)
@@ -425,9 +425,23 @@ def save_name_correction():
     if not name or not name.strip():
         return jsonify({"status": "error", "message": "Name cannot be empty"}), 400
     
-    # Load existing corrections
-    with open(CORRECTIONS_FILE, 'r') as f:
-        corrections = json.load(f)
+    # Initialize corrections with an empty dict in case the file is empty or corrupted
+    corrections = {}
+    
+    # Load existing corrections with better error handling
+    try:
+        if CORRECTIONS_FILE.exists() and CORRECTIONS_FILE.stat().st_size > 0:
+            with open(CORRECTIONS_FILE, 'r') as f:
+                file_content = f.read()
+                if file_content.strip():  # Check if file is not just whitespace
+                    corrections = json.loads(file_content)
+    except json.JSONDecodeError as e:
+        # If JSON is invalid, log error and start fresh
+        print(f"Error reading corrections file: {e}")
+        corrections = {}
+    except Exception as e:
+        print(f"Unexpected error reading corrections file: {e}")
+        return jsonify({"status": "error", "message": f"Error reading corrections file: {str(e)}"}), 500
     
     # Add or update correction
     if year_side not in corrections:
@@ -450,9 +464,13 @@ def save_name_correction():
         else:
             return jsonify({"status": "error", "message": "Could not find station coordinates"}), 404
     
-    # Save corrections
-    with open(CORRECTIONS_FILE, 'w') as f:
-        json.dump(corrections, f, indent=2)
+    # Save corrections with error handling
+    try:
+        with open(CORRECTIONS_FILE, 'w') as f:
+            json.dump(corrections, f, indent=2)
+    except Exception as e:
+        print(f"Error saving corrections file: {e}")
+        return jsonify({"status": "error", "message": f"Error saving corrections: {str(e)}"}), 500
     
     return jsonify({"status": "success"})
 

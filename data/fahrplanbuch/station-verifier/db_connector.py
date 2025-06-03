@@ -244,8 +244,8 @@ class StationVerifierDB:
                 # First get all line-station relationships for the station to be deleted
                 lines_query = """
                 MATCH (y:Year {year: $year})
-                MATCH (s:Station {stop_id: $stop_id})-[:IN_YEAR]->(y)
-                WHERE s.east_west = $side
+                MATCH (s:Station {stop_id: $stop_id})
+                WHERE s.east_west = $side AND (s)-[:IN_YEAR]->(y)
                 MATCH (l:Line)-[r:SERVES]->(s)
                 RETURN l.line_id as line_id, r.stop_order as stop_order
                 """
@@ -322,14 +322,14 @@ class StationVerifierDB:
                 # Now delete the station's relationships and the station itself
                 delete_relationships_query = """
                 MATCH (s:Station {stop_id: $stop_id})
-                MATCH (s)-[r]-()
+                OPTIONAL MATCH (s)-[r]-()
                 DELETE r
                 RETURN count(r) as deleted_rel_count
                 """
-                
+
                 rel_result = session.run(delete_relationships_query, stop_id=stop_id)
                 deleted_rel_count = rel_result.single()['deleted_rel_count'] if rel_result.single() else 0
-                
+
                 delete_station_query = """
                 MATCH (s:Station {stop_id: $stop_id})
                 DELETE s
