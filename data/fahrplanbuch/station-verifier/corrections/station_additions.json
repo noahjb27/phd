@@ -1,1 +1,25 @@
-{}
+{
+  "1951_unified": {
+    "1951091_unified": {
+      "station_id": "1951091_unified",
+      "year_side": "1951_unified",
+      "station_data": {
+        "name": "Kurf\u00fcrstendamm",
+        "type": "tram",
+        "latitude": 52.50002111619167,
+        "longitude": 13.30697302154111,
+        "source": "User added"
+      },
+      "line_connections": [
+        {
+          "line_id": "19513_unified",
+          "line_name": "3",
+          "line_type": "tram",
+          "stop_order": 11
+        }
+      ],
+      "created_timestamp": "2025-06-04T20:26:24.089197",
+      "status": "active"
+    }
+  }
+}

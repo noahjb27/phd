@@ -49,273 +49,6 @@ class StationVerifierDB:
             self.driver.close()
             self.driver = None
     
-    def add_station_with_line_integration(self, year_side, station_data, line_connections=None):
-        """
-        Add a new station with proper line integration and save to additions file
-        
-        Args:
-            year_side: Year-side combination in format 'YYYY_side'
-            station_data: Dict with station properties
-            line_connections: List of dicts with line_id and stop_order
-            
-        Returns:
-            Dict with status and details
-        """
-        self.connect()
-        year, side = year_side.split('_')
-        
-        try:
-            with self.driver.session() as session:
-                # Generate new station ID
-                new_id_query = """
-                MATCH (s:Station)-[:IN_YEAR]->(y:Year {year: $year})
-                WHERE s.east_west = $side
-                WITH s.stop_id as stop_id
-                ORDER BY toInteger(substring(stop_id, 4)) DESC
-                LIMIT 1
-                RETURN stop_id
-                """
-                
-                id_result = session.run(new_id_query, year=int(year), side=side)
-                record = id_result.single()
-                
-                if record:
-                    last_id = record['stop_id']
-                    number_part = int(last_id.split('_')[0][4:])
-                    new_number = number_part + 1
-                else:
-                    new_number = 1
-                
-                new_stop_id = f"{year}{new_number:03d}_{side}"
-                
-                # Validate line connections if provided
-                validated_connections = []
-                if line_connections:
-                    for connection in line_connections:
-                        line_id = connection['line_id']
-                        stop_order = connection['stop_order']
-                        
-                        # Check if the line exists
-                        line_check = session.run("""
-                        MATCH (l:Line {line_id: $line_id})-[:IN_YEAR]->(y:Year {year: $year})
-                        WHERE l.east_west = $side
-                        RETURN l.line_id as line_id, l.name as line_name, l.type as line_type
-                        """, line_id=line_id, year=int(year), side=side)
-                        
-                        line_record = line_check.single()
-                        if not line_record:
-                            return {
-                                "status": "error",
-                                "message": f"Line {line_id} not found in {year_side}"
-                            }
-                        
-                        # Check if stop_order position is valid
-                        order_check = session.run("""
-                        MATCH (l:Line {line_id: $line_id})-[r:SERVES]->(:Station)
-                        RETURN max(r.stop_order) as max_order, count(r) as total_stops
-                        """, line_id=line_id)
-                        
-                        order_record = order_check.single()
-                        max_order = order_record['max_order'] if order_record['max_order'] else 0
-                        
-                        # Validate stop order
-                        if stop_order < 1 or stop_order > max_order + 1:
-                            return {
-                                "status": "error",
-                                "message": f"Invalid stop order {stop_order}. Must be between 1 and {max_order + 1}"
-                            }
-                        
-                        validated_connections.append({
-                            "line_id": line_id,
-                            "line_name": line_record['line_name'],
-                            "line_type": line_record['line_type'],
-                            "stop_order": stop_order
-                        })
-                
-                # Create the station
-                create_query = """
-                MATCH (y:Year {year: $year})
-                CREATE (s:Station {
-                    stop_id: $stop_id,
-                    name: $name,
-                    type: $type,
-                    latitude: $latitude,
-                    longitude: $longitude,
-                    east_west: $side,
-                    source: $source
-                })
-                CREATE (s)-[:IN_YEAR]->(y)
-                RETURN s.stop_id as new_id
-                """
-                
-                station_result = session.run(create_query,
-                                        year=int(year),
-                                        stop_id=new_stop_id,
-                                        name=station_data['name'],
-                                        type=station_data['type'],
-                                        latitude=station_data['latitude'],
-                                        longitude=station_data['longitude'],
-                                        side=side,
-                                        source=station_data.get('source', 'User added'))
-                
-                new_id = station_result.single()['new_id'] if station_result.single() else None
-                
-                if not new_id:
-                    return {"status": "error", "message": "Failed to create station"}
-                
-                # Handle line connections with proper CONNECTS_TO relationships
-                line_results = []
-                for connection in validated_connections:
-                    line_id = connection['line_id']
-                    stop_order = connection['stop_order']
-                    
-                    # Get adjacent stations for CONNECTS_TO relationships
-                    adjacent_query = """
-                    MATCH (l:Line {line_id: $line_id})-[r:SERVES]->(s:Station)
-                    WHERE r.stop_order IN [$prev_order, $next_order]
-                    RETURN s.stop_id as stop_id, r.stop_order as stop_order,
-                           s.latitude as lat, s.longitude as lng
-                    ORDER BY r.stop_order
-                    """
-                    
-                    adjacent_result = session.run(adjacent_query,
-                                                line_id=line_id,
-                                                prev_order=stop_order - 1,
-                                                next_order=stop_order)
-                    
-                    adjacent_stations = [dict(record) for record in adjacent_result]
-                    
-                    prev_station = None
-                    next_station = None
-                    
-                    for station in adjacent_stations:
-                        if station['stop_order'] == stop_order - 1:
-                            prev_station = station
-                        elif station['stop_order'] == stop_order:
-                            next_station = station
-                    
-                    # Update stop orders to make room
-                    shift_query = """
-                    MATCH (l:Line {line_id: $line_id})-[r:SERVES]->(s:Station)
-                    WHERE r.stop_order >= $stop_order
-                    SET r.stop_order = r.stop_order + 1
-                    RETURN count(r) as shifted
-                    """
-                    
-                    shift_result = session.run(shift_query,
-                                             line_id=line_id,
-                                             stop_order=stop_order)
-                    
-                    shifted = shift_result.single()['shifted'] if shift_result.single() else 0
-                    
-                    # Connect new station to line
-                    connect_query = """
-                    MATCH (l:Line {line_id: $line_id})
-                    MATCH (s:Station {stop_id: $stop_id})
-                    CREATE (l)-[r:SERVES {stop_order: $stop_order}]->(s)
-                    RETURN l.line_id as line_id, r.stop_order as stop_order
-                    """
-                    
-                    connect_result = session.run(connect_query,
-                                               line_id=line_id,
-                                               stop_id=new_id,
-                                               stop_order=stop_order)
-                    
-                    # Handle CONNECTS_TO relationships
-                    connects_to_updates = []
-                    
-                    # If there was a direct connection between prev and next, split it
-                    if prev_station and next_station:
-                        # Get existing connection properties
-                        existing_connection_query = """
-                        MATCH (prev:Station {stop_id: $prev_id})-[r:CONNECTS_TO]->(next:Station {stop_id: $next_id})
-                        RETURN properties(r) as props
-                        """
-                        
-                        existing_result = session.run(existing_connection_query,
-                                                    prev_id=prev_station['stop_id'],
-                                                    next_id=next_station['stop_id'])
-                        
-                        existing_record = existing_result.single()
-                        existing_props = existing_record['props'] if existing_record else {}
-                        
-                        # Delete existing connection
-                        session.run("""
-                        MATCH (prev:Station {stop_id: $prev_id})-[r:CONNECTS_TO]->(next:Station {stop_id: $next_id})
-                        DELETE r
-                        """, prev_id=prev_station['stop_id'], next_id=next_station['stop_id'])
-                        
-                        # Create new connections through the new station
-                        if prev_station:
-                            # Calculate distance
-                            distance_prev_new = self._calculate_distance(
-                                prev_station['lat'], prev_station['lng'],
-                                station_data['latitude'], station_data['longitude']
-                            )
-                            
-                            # Create prev -> new connection
-                            session.run("""
-                            MATCH (prev:Station {stop_id: $prev_id})
-                            MATCH (new:Station {stop_id: $new_id})
-                            CREATE (prev)-[r:CONNECTS_TO]->(new)
-                            SET r = $props
-                            SET r.distance_meters = $distance
-                            """, prev_id=prev_station['stop_id'], new_id=new_id,
-                                props=existing_props, distance=distance_prev_new)
-                        
-                        if next_station:
-                            # Calculate distance
-                            distance_new_next = self._calculate_distance(
-                                station_data['latitude'], station_data['longitude'],
-                                next_station['lat'], next_station['lng']
-                            )
-                            
-                            # Create new -> next connection
-                            session.run("""
-                            MATCH (new:Station {stop_id: $new_id})
-                            MATCH (next:Station {stop_id: $next_id})
-                            CREATE (new)-[r:CONNECTS_TO]->(next)
-                            SET r = $props
-                            SET r.distance_meters = $distance
-                            """, new_id=new_id, next_id=next_station['stop_id'],
-                                props=existing_props, distance=distance_new_next)
-                        
-                        connects_to_updates.append({
-                            'prev_station': prev_station['stop_id'] if prev_station else None,
-                            'new_station': new_id,
-                            'next_station': next_station['stop_id'] if next_station else None
-                        })
-                    
-                    line_results.append({
-                        "line_id": line_id,
-                        "line_name": connection['line_name'],
-                        "stop_order": stop_order,
-                        "shifted_stops": shifted,
-                        "connects_to_updates": connects_to_updates
-                    })
-                
-                # Save to additions file
-                addition_record = {
-                    "station_id": new_id,
-                    "year_side": year_side,
-                    "station_data": station_data,
-                    "line_connections": validated_connections,
-                    "created_timestamp": datetime.now().isoformat(),
-                    "status": "active"
-                }
-                
-                self.save_station_addition(addition_record)
-                
-                return {
-                    "status": "success",
-                    "new_station_id": new_id,
-                    "line_connections": line_results,
-                    "addition_saved": True
-                }
-                
-        except Exception as e:
-            logger.error(f"Error adding station for {year_side}: {e}")
-            return {"status": "error", "message": str(e)}
     def save_station_addition(self, addition_record):
         """Save a station addition to the additions file"""
         try:
@@ -940,25 +673,25 @@ class StationVerifierDB:
         except Exception as e:
             logger.error(f"Error getting station source: {e}")
             return None
-            
+        
     def add_station(self, year_side, station_data, line_connections=None):
         """
-        Add a new station to the database with proper CONNECTS_TO relationship handling
+        Add a new station with optional line integration and save to additions file
         
         Args:
             year_side: Year-side combination in format 'YYYY_side'
-            station_data: Dict with station properties (name, type, latitude, longitude)
-            line_connections: Optional list of dicts with line_id and stop_order for connecting to lines
+            station_data: Dict with station properties (name, type, latitude, longitude, source)
+            line_connections: Optional list of dicts with line_id and stop_order
             
         Returns:
-            Dict with new station ID and status
+            Dict with status and details
         """
         self.connect()
         year, side = year_side.split('_')
         
         try:
             with self.driver.session() as session:
-                # Generate a new station ID based on year and side
+                # Generate new station ID
                 new_id_query = """
                 MATCH (s:Station)-[:IN_YEAR]->(y:Year {year: $year})
                 WHERE s.east_west = $side
@@ -972,17 +705,62 @@ class StationVerifierDB:
                 record = id_result.single()
                 
                 if record:
-                    # Extract number from existing ID and increment
                     last_id = record['stop_id']
-                    # Assuming format like "1965123_west"
-                    number_part = int(last_id.split('_')[0][4:])  # Extract number after year
+                    number_part = int(last_id.split('_')[0][4:])
                     new_number = number_part + 1
                 else:
                     new_number = 1
                 
-                new_stop_id = f"{year}{new_number:03d}_{side}"  # e.g. "1965001_west"
+                new_stop_id = f"{year}{new_number:03d}_{side}"
+                logger.info(f"Generated new station ID: {new_stop_id}")
                 
-                # Create the new station
+                # Validate line connections if provided
+                validated_connections = []
+                if line_connections:
+                    for connection in line_connections:
+                        line_id = connection['line_id']
+                        stop_order = connection['stop_order']
+                        
+                        # Check if the line exists
+                        line_check = session.run("""
+                        MATCH (l:Line {line_id: $line_id})-[:IN_YEAR]->(y:Year {year: $year})
+                        WHERE l.east_west = $side
+                        RETURN l.line_id as line_id, l.name as line_name, l.type as line_type
+                        """, line_id=line_id, year=int(year), side=side)
+                        
+                        line_record = line_check.single()
+                        if not line_record:
+                            return {
+                                "status": "error",
+                                "message": f"Line {line_id} not found in {year_side}"
+                            }
+                        
+                        # Check if stop_order position is valid
+                        order_check = session.run("""
+                        MATCH (l:Line {line_id: $line_id})-[r:SERVES]->(:Station)
+                        RETURN max(r.stop_order) as max_order, count(r) as total_stops
+                        """, line_id=line_id)
+                        
+                        order_record = order_check.single()
+                        max_order = order_record['max_order'] if order_record['max_order'] else 0
+                        
+                        # Validate stop order
+                        if stop_order < 1 or stop_order > max_order + 1:
+                            return {
+                                "status": "error",
+                                "message": f"Invalid stop order {stop_order}. Must be between 1 and {max_order + 1}"
+                            }
+                        
+                        validated_connections.append({
+                            "line_id": line_id,
+                            "line_name": line_record['line_name'],
+                            "line_type": line_record['line_type'],
+                            "stop_order": stop_order
+                        })
+                        
+                        logger.info(f"Validated connection to line {line_id} at position {stop_order}")
+                
+                # Create the station
                 create_query = """
                 MATCH (y:Year {year: $year})
                 CREATE (s:Station {
@@ -1008,192 +786,259 @@ class StationVerifierDB:
                                         side=side,
                                         source=station_data.get('source', 'User added'))
                 
-                new_id = station_result.single()['new_id'] if station_result.single() else None
+                # Fixed: Store the result of single() in a variable first
+                station_record = station_result.single()
+                new_id = station_record['new_id'] if station_record else None
                 
-                # Connect to lines if specified
+                if not new_id:
+                    return {"status": "error", "message": "Failed to create station"}
+                
+                logger.info(f"Created station {new_id} successfully")
+                
+                # Handle line connections with proper CONNECTS_TO relationships
                 line_results = []
-                connects_to_results = []
-                
-                if line_connections and new_id:
-                    for connection in line_connections:
-                        line_id = connection['line_id']
-                        stop_order = connection['stop_order']
+                for connection in validated_connections:
+                    line_id = connection['line_id']
+                    stop_order = connection['stop_order']
+                    
+                    logger.info(f"Processing line connection {line_id} at stop order {stop_order}")
+                    
+                    # Get adjacent stations for CONNECTS_TO relationships
+                    adjacent_query = """
+                    MATCH (l:Line {line_id: $line_id})-[r:SERVES]->(s:Station)
+                    WHERE r.stop_order IN [$prev_order, $next_order]
+                    RETURN s.stop_id as stop_id, r.stop_order as stop_order,
+                        s.latitude as lat, s.longitude as lng
+                    ORDER BY r.stop_order
+                    """
+                    
+                    adjacent_result = session.run(adjacent_query,
+                                                line_id=line_id,
+                                                prev_order=stop_order - 1,
+                                                next_order=stop_order)
+                    
+                    adjacent_stations = [dict(record) for record in adjacent_result]
+                    
+                    prev_station = None
+                    next_station = None
+                    
+                    for station in adjacent_stations:
+                        if station['stop_order'] == stop_order - 1:
+                            prev_station = station
+                            logger.info(f"Found previous station: {station['stop_id']}")
+                        elif station['stop_order'] == stop_order:
+                            next_station = station
+                            logger.info(f"Found next station: {station['stop_id']}")
+                    
+                    # Update stop orders to make room (shift existing stations)
+                    shift_query = """
+                    MATCH (l:Line {line_id: $line_id})-[r:SERVES]->(s:Station)
+                    WHERE r.stop_order >= $stop_order
+                    SET r.stop_order = r.stop_order + 1
+                    RETURN count(r) as shifted
+                    """
+                    
+                    shift_result = session.run(shift_query, line_id=line_id, stop_order=stop_order)
+                    shift_record = shift_result.single()
+                    shifted = shift_record['shifted'] if shift_record else 0
+                    
+                    logger.info(f"Shifted {shifted} stations to make room")
+                    
+                    # Connect new station to line
+                    connect_query = """
+                    MATCH (l:Line {line_id: $line_id})
+                    MATCH (s:Station {stop_id: $stop_id})
+                    CREATE (l)-[r:SERVES {stop_order: $stop_order}]->(s)
+                    RETURN l.line_id as line_id, r.stop_order as stop_order
+                    """
+                    
+                    connect_result = session.run(connect_query,
+                                            line_id=line_id,
+                                            stop_id=new_id,
+                                            stop_order=stop_order)
+                    
+                    logger.info(f"Connected station {new_id} to line {line_id} at position {stop_order}")
+                    
+                    # Handle CONNECTS_TO relationships - THIS IS THE KEY PART
+                    connects_to_updates = []
+                    
+                    # Case 1: Station inserted between two existing stations
+                    if prev_station and next_station:
+                        logger.info(f"Inserting between {prev_station['stop_id']} and {next_station['stop_id']}")
                         
-                        # Step 1: Get adjacent stations at the insertion point
-                        adjacent_query = """
-                        MATCH (y:Year {year: $year})
-                        MATCH (l:Line {line_id: $line_id})-[:IN_YEAR]->(y)
-                        WHERE l.east_west = $side
-                        MATCH (l)-[r:SERVES]->(s:Station)
-                        WHERE r.stop_order IN [$prev_order, $curr_order]
-                        RETURN s.stop_id as stop_id, r.stop_order as stop_order
-                        ORDER BY r.stop_order
+                        # Check if there's an existing direct connection to remove
+                        existing_connection_query = """
+                        MATCH (prev:Station {stop_id: $prev_id})-[r:CONNECTS_TO]->(next:Station {stop_id: $next_id})
+                        RETURN properties(r) as props, id(r) as rel_id
                         """
                         
-                        adjacent_result = session.run(adjacent_query,
-                                                    year=int(year),
-                                                    side=side,
-                                                    line_id=line_id,
-                                                    prev_order=stop_order - 1,
-                                                    curr_order=stop_order)
+                        existing_result = session.run(existing_connection_query,
+                                                    prev_id=prev_station['stop_id'],
+                                                    next_id=next_station['stop_id'])
                         
-                        adjacent_stations = [dict(record) for record in adjacent_result]
+                        existing_record = existing_result.single()
                         
-                        prev_station = None
-                        next_station = None
-                        
-                        for station in adjacent_stations:
-                            if station['stop_order'] == stop_order - 1:
-                                prev_station = station['stop_id']
-                            elif station['stop_order'] == stop_order:
-                                next_station = station['stop_id']
-                        
-                        # Step 2: Handle existing CONNECTS_TO relationship if both adjacent stations exist
-                        if prev_station and next_station:
-                            # Get properties from existing connection
-                            existing_connection_query = """
-                            MATCH (prev:Station {stop_id: $prev_id})-[r:CONNECTS_TO]->(next:Station {stop_id: $next_id})
-                            RETURN properties(r) as props
-                            """
-                            
-                            existing_result = session.run(existing_connection_query,
-                                                        prev_id=prev_station,
-                                                        next_id=next_station)
-                            
-                            existing_record = existing_result.single()
-                            existing_props = existing_record['props'] if existing_record else {}
+                        if existing_record:
+                            existing_props = existing_record['props']
+                            logger.info(f"Found existing direct connection between {prev_station['stop_id']} and {next_station['stop_id']}, removing it")
                             
                             # Delete the existing direct connection
-                            delete_connection_query = """
+                            session.run("""
                             MATCH (prev:Station {stop_id: $prev_id})-[r:CONNECTS_TO]->(next:Station {stop_id: $next_id})
                             DELETE r
-                            """
+                            """, prev_id=prev_station['stop_id'], next_id=next_station['stop_id'])
                             
-                            session.run(delete_connection_query,
-                                    prev_id=prev_station,
-                                    next_id=next_station)
-                            
-                            # Calculate distances for new connections
-                            new_station_coords = (station_data['latitude'], station_data['longitude'])
-                            
-                            # Get coordinates of adjacent stations
-                            coords_query = """
-                            MATCH (s:Station {stop_id: $stop_id})
-                            RETURN s.latitude as lat, s.longitude as lng
-                            """
-                            
-                            prev_coords_result = session.run(coords_query, stop_id=prev_station)
-                            prev_coords_record = prev_coords_result.single()
-                            prev_coords = (prev_coords_record['lat'], prev_coords_record['lng']) if prev_coords_record else None
-                            
-                            next_coords_result = session.run(coords_query, stop_id=next_station)
-                            next_coords_record = next_coords_result.single()
-                            next_coords = (next_coords_record['lat'], next_coords_record['lng']) if next_coords_record else None
-                            
-                            # Create new connections
-                            if prev_coords:
-                                distance_prev_new = self._calculate_distance(
-                                    prev_coords[0], prev_coords[1],
-                                    new_station_coords[0], new_station_coords[1]
-                                )
-                                
-                                create_prev_connection_query = """
-                                MATCH (prev:Station {stop_id: $prev_id})
-                                MATCH (new:Station {stop_id: $new_id})
-                                CREATE (prev)-[r:CONNECTS_TO]->(new)
-                                SET r = $props
-                                SET r.distance_meters = $distance
-                                """
-                                
-                                session.run(create_prev_connection_query,
-                                        prev_id=prev_station,
-                                        new_id=new_id,
-                                        props=existing_props,
-                                        distance=distance_prev_new)
-                            
-                            if next_coords:
-                                distance_new_next = self._calculate_distance(
-                                    new_station_coords[0], new_station_coords[1],
-                                    next_coords[0], next_coords[1]
-                                )
-                                
-                                create_next_connection_query = """
-                                MATCH (new:Station {stop_id: $new_id})
-                                MATCH (next:Station {stop_id: $next_id})
-                                CREATE (new)-[r:CONNECTS_TO]->(next)
-                                SET r = $props
-                                SET r.distance_meters = $distance
-                                """
-                                
-                                session.run(create_next_connection_query,
-                                        new_id=new_id,
-                                        next_id=next_station,
-                                        props=existing_props,
-                                        distance=distance_new_next)
-                            
-                            connects_to_results.append({
-                                'prev_station': prev_station,
-                                'new_station': new_id,
-                                'next_station': next_station,
-                                'distance_prev_new': distance_prev_new if prev_coords else None,
-                                'distance_new_next': distance_new_next if next_coords else None
-                            })
+                            logger.info("Deleted existing direct connection")
+                        else:
+                            # No existing connection, use default properties
+                            existing_props = {}
+                            logger.info("No existing direct connection found")
                         
-                        # Step 3: Shift stop orders to make room
-                        shift_query = """
-                        MATCH (y:Year {year: $year})
-                        MATCH (l:Line {line_id: $line_id})-[:IN_YEAR]->(y)
-                        WHERE l.east_west = $side
-                        MATCH (l)-[r:SERVES]->(s:Station)
-                        WHERE r.stop_order >= $stop_order
-                        SET r.stop_order = r.stop_order + 1
-                        RETURN count(r) as shifted
-                        """
+                        # Create prev -> new connection
+                        distance_prev_new = self._calculate_distance(
+                            prev_station['lat'], prev_station['lng'],
+                            station_data['latitude'], station_data['longitude']
+                        )
                         
-                        shift_result = session.run(shift_query,
-                                                year=int(year),
-                                                side=side,
-                                                line_id=line_id,
-                                                stop_order=stop_order)
+                        session.run("""
+                        MATCH (prev:Station {stop_id: $prev_id})
+                        MATCH (new:Station {stop_id: $new_id})
+                        CREATE (prev)-[r:CONNECTS_TO]->(new)
+                        SET r = $props
+                        SET r.distance_meters = $distance
+                        """, prev_id=prev_station['stop_id'], new_id=new_id,
+                            props=existing_props, distance=distance_prev_new)
                         
-                        shifted = shift_result.single()['shifted'] if shift_result.single() else 0
+                        logger.info(f"Created connection {prev_station['stop_id']} -> {new_id} (distance: {distance_prev_new}m)")
                         
-                        # Step 4: Connect the new station to the line
-                        connect_query = """
-                        MATCH (y:Year {year: $year})
-                        MATCH (l:Line {line_id: $line_id})-[:IN_YEAR]->(y)
-                        WHERE l.east_west = $side
-                        MATCH (s:Station {stop_id: $stop_id})
-                        CREATE (l)-[r:SERVES {stop_order: $stop_order}]->(s)
-                        RETURN l.line_id as line_id, r.stop_order as stop_order
-                        """
+                        # Create new -> next connection
+                        distance_new_next = self._calculate_distance(
+                            station_data['latitude'], station_data['longitude'],
+                            next_station['lat'], next_station['lng']
+                        )
                         
-                        connect_result = session.run(connect_query,
-                                                year=int(year),
-                                                side=side,
-                                                line_id=line_id,
-                                                stop_id=new_id,
-                                                stop_order=stop_order)
+                        session.run("""
+                        MATCH (new:Station {stop_id: $new_id})
+                        MATCH (next:Station {stop_id: $next_id})
+                        CREATE (new)-[r:CONNECTS_TO]->(next)
+                        SET r = $props
+                        SET r.distance_meters = $distance
+                        """, new_id=new_id, next_id=next_station['stop_id'],
+                            props=existing_props, distance=distance_new_next)
                         
-                        line_result = connect_result.single()
-                        if line_result:
-                            line_results.append({
-                                "line_id": line_result['line_id'],
-                                "stop_order": line_result['stop_order'],
-                                "shifted_stops": shifted
-                            })
+                        logger.info(f"Created connection {new_id} -> {next_station['stop_id']} (distance: {distance_new_next}m)")
+                        
+                        connects_to_updates.append({
+                            'action': 'split_connection',
+                            'removed_connection': f"{prev_station['stop_id']} -> {next_station['stop_id']}",
+                            'added_connections': [
+                                f"{prev_station['stop_id']} -> {new_id}",
+                                f"{new_id} -> {next_station['stop_id']}"
+                            ],
+                            'distances': [distance_prev_new, distance_new_next]
+                        })
+                    
+                    # Case 2: Station added at the beginning of the line
+                    elif next_station and not prev_station:
+                        logger.info(f"Adding at beginning of line, before {next_station['stop_id']}")
+                        
+                        # Create new -> next connection
+                        distance_new_next = self._calculate_distance(
+                            station_data['latitude'], station_data['longitude'],
+                            next_station['lat'], next_station['lng']
+                        )
+                        
+                        session.run("""
+                        MATCH (new:Station {stop_id: $new_id})
+                        MATCH (next:Station {stop_id: $next_id})
+                        CREATE (new)-[r:CONNECTS_TO]->(next)
+                        SET r.distance_meters = $distance
+                        """, new_id=new_id, next_id=next_station['stop_id'], distance=distance_new_next)
+                        
+                        logger.info(f"Created connection {new_id} -> {next_station['stop_id']} (distance: {distance_new_next}m)")
+                        
+                        connects_to_updates.append({
+                            'action': 'add_at_start',
+                            'added_connections': [f"{new_id} -> {next_station['stop_id']}"],
+                            'distances': [distance_new_next]
+                        })
+                    
+                    # Case 3: Station added at the end of the line
+                    elif prev_station and not next_station:
+                        logger.info(f"Adding at end of line, after {prev_station['stop_id']}")
+                        
+                        # Create prev -> new connection
+                        distance_prev_new = self._calculate_distance(
+                            prev_station['lat'], prev_station['lng'],
+                            station_data['latitude'], station_data['longitude']
+                        )
+                        
+                        session.run("""
+                        MATCH (prev:Station {stop_id: $prev_id})
+                        MATCH (new:Station {stop_id: $new_id})
+                        CREATE (prev)-[r:CONNECTS_TO]->(new)
+                        SET r.distance_meters = $distance
+                        """, prev_id=prev_station['stop_id'], new_id=new_id, distance=distance_prev_new)
+                        
+                        logger.info(f"Created connection {prev_station['stop_id']} -> {new_id} (distance: {distance_prev_new}m)")
+                        
+                        connects_to_updates.append({
+                            'action': 'add_at_end',
+                            'added_connections': [f"{prev_station['stop_id']} -> {new_id}"],
+                            'distances': [distance_prev_new]
+                        })
+                    
+                    # Case 4: First station on the line
+                    else:
+                        logger.info("Adding as first station on line")
+                        connects_to_updates.append({
+                            'action': 'first_station',
+                            'message': 'No connections created - first station on line'
+                        })
+                    
+                    line_results.append({
+                        "line_id": line_id,
+                        "line_name": connection['line_name'],
+                        "stop_order": stop_order,
+                        "shifted_stops": shifted,
+                        "connects_to_updates": connects_to_updates
+                    })
+                
+                # Save to additions file
+                try:
+                    import datetime
+                    addition_record = {
+                        "station_id": new_id,
+                        "year_side": year_side,
+                        "station_data": station_data,
+                        "line_connections": validated_connections,
+                        "created_timestamp": datetime.datetime.now().isoformat(),
+                        "status": "active"
+                    }
+                    
+                    self.save_station_addition(addition_record)
+                    logger.info(f"Saved station addition {new_id} to additions file")
+                    addition_saved = True
+                except Exception as addition_error:
+                    # Log the error but don't fail the whole operation
+                    logger.error(f"Could not save to additions file: {addition_error}")
+                    addition_saved = False
+                
+                logger.info(f"Successfully completed station addition for {new_id}")
                 
                 return {
-                    "status": "success" if new_id else "error",
+                    "status": "success",
                     "new_station_id": new_id,
                     "line_connections": line_results,
-                    "connects_to_updates": connects_to_results
+                    "addition_saved": addition_saved
                 }
                 
         except Exception as e:
             logger.error(f"Error adding station for {year_side}: {e}")
+            import traceback
+            logger.error(f"Traceback: {traceback.format_exc()}")
             return {"status": "error", "message": str(e)}
-        
+
     def export_corrected_data(self, corrections_data):
         """
         Export data with corrections applied including location, name, and source updates

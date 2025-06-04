@@ -28,7 +28,7 @@ class AppState {
         this.newStationMode = false;
         this.newStationPosition = null;
         if (this.newStationMarker) {
-            map.removeLayer(this.newStationMarker);
+            window.mapManager.map.removeLayer(this.newStationMarker);
             this.newStationMarker = null;
         }
     }

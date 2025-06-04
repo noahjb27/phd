@@ -57,16 +57,19 @@ class StationManager:
             if len(station_name) < 2:
                 return {"status": "error", "message": "Station name must be at least 2 characters long"}
             
-            # Use the database method to add the station
-            result = self.db.add_station_with_line_integration(
+            # Prepare station data for database
+            db_station_data = {
+                'name': station_name,
+                'type': station_data['type'],
+                'latitude': lat,
+                'longitude': lng,
+                'source': station_data.get('source', 'User added')
+            }
+            
+            # Use the consolidated add_station method
+            result = self.db.add_station(
                 station_data['year_side'],
-                {
-                    'name': station_name,
-                    'type': station_data['type'],
-                    'latitude': lat,
-                    'longitude': lng,
-                    'source': station_data.get('source', 'User added')
-                },
+                db_station_data,
                 station_data.get('line_connections', [])
             )
             
@@ -78,7 +81,7 @@ class StationManager:
         except Exception as e:
             logger.error(f"Error adding station: {e}")
             return {"status": "error", "message": f"Unexpected error: {str(e)}"}
-    
+        
     def delete_station(self, stop_id, year_side):
         """Delete a station and handle corrections cleanup"""
         try:
