@@ -493,6 +493,171 @@ def save_name_correction():
         return jsonify({"status": "error", "message": f"Error saving corrections: {str(e)}"}), 500
     
     return jsonify({"status": "success"})
+@app.route('/validate_distances', methods=['POST'])
+def validate_distances():
+    """Validate distances between adjacent stations"""
+    data = request.json
+    year_side = data.get('year_side')
+    line_id = data.get('line_id')  # Optional filter for specific line
+    
+    if not year_side:
+        return jsonify({"status": "error", "message": "year_side is required"}), 400
+    
+    try:
+        # Use the database connector to validate distances
+        issues = db.validate_station_distances(year_side, line_id)
+        
+        return jsonify({
+            "status": "success",
+            "issues": issues,
+            "year_side": year_side,
+            "line_id": line_id
+        })
+        
+    except Exception as e:
+        return jsonify({
+            "status": "error", 
+            "message": str(e)
+        }), 500
+    
+@app.route('/station_network_info/<year_side>')
+def get_station_network_info(year_side):
+    """Get detailed network information for a year_side including distances"""
+    try:
+        data = db.get_year_side_data(year_side)
+        
+        if data["stops"].empty:
+            return jsonify({"error": f"No data found for {year_side}"}), 404
+        
+        # Get distance validation results
+        distance_issues = db.validate_station_distances(year_side)
+        
+        # Get network statistics
+        year, side = year_side.split('_')
+        with db.driver.session() as session:
+            # Count total stations
+            station_count_result = session.run("""
+            MATCH (s:Station)-[:IN_YEAR]->(y:Year {year: $year})
+            WHERE s.east_west = $side
+            RETURN count(s) as total_stations
+            """, year=int(year), side=side)
+            
+            total_stations = station_count_result.single()["total_stations"]
+            
+            # Count total connections
+            connection_count_result = session.run("""
+            MATCH (s1:Station)-[:IN_YEAR]->(y:Year {year: $year})
+            WHERE s1.east_west = $side
+            MATCH (s1)-[c:CONNECTS_TO]->(s2:Station)
+            MATCH (s2)-[:IN_YEAR]->(y)
+            WHERE s2.east_west = $side
+            RETURN count(c) as total_connections
+            """, year=int(year), side=side)
+            
+            total_connections = connection_count_result.single()["total_connections"]
+            
+            # Get average distance
+            avg_distance_result = session.run("""
+            MATCH (s1:Station)-[:IN_YEAR]->(y:Year {year: $year})
+            WHERE s1.east_west = $side
+            MATCH (s1)-[c:CONNECTS_TO]->(s2:Station)
+            MATCH (s2)-[:IN_YEAR]->(y)
+            WHERE s2.east_west = $side AND c.distance_meters IS NOT NULL
+            RETURN avg(c.distance_meters) as avg_distance
+            """, year=int(year), side=side)
+            
+            avg_distance_record = avg_distance_result.single()
+            avg_distance = avg_distance_record["avg_distance"] if avg_distance_record else None
+            
+            # Count stations by type
+            type_count_result = session.run("""
+            MATCH (s:Station)-[:IN_YEAR]->(y:Year {year: $year})
+            WHERE s.east_west = $side
+            RETURN s.type as type, count(s) as count
+            ORDER BY count DESC
+            """, year=int(year), side=side)
+            
+            type_counts = [dict(record) for record in type_count_result]
+        
+        return jsonify({
+            "year_side": year_side,
+            "statistics": {
+                "total_stations": total_stations,
+                "total_connections": total_connections,
+                "average_distance_meters": int(avg_distance) if avg_distance else None,
+                "station_types": type_counts
+            },
+            "distance_validation": {
+                "total_issues": len(distance_issues),
+                "issues_by_severity": {
+                    "error": len([i for i in distance_issues if i.get('severity') == 'error']),
+                    "warning": len([i for i in distance_issues if i.get('severity') == 'warning']),
+                    "info": len([i for i in distance_issues if i.get('severity') == 'info'])
+                },
+                "issues": distance_issues
+            }
+        })
+        
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
+@app.route('/check_station_position', methods=['POST'])
+def check_station_position():
+    """Check if a proposed station position would cause distance issues"""
+    data = request.json
+    year_side = data.get('year_side')
+    latitude = data.get('latitude')
+    longitude = data.get('longitude')
+    line_id = data.get('line_id')  # Optional - check only against stations on this line
+    
+    if not all([year_side, latitude, longitude]):
+        return jsonify({"status": "error", "message": "year_side, latitude, and longitude are required"}), 400
+    
+    try:
+        # Get existing stations for this year_side
+        station_data = db.get_year_side_data(year_side)
+        
+        nearby_stations = []
+        min_distance_threshold = 200  # meters
+        
+        for _, station in station_data["stops"].iterrows():
+            if pd.notna(station['latitude']) and pd.notna(station['longitude']):
+                distance = db._calculate_distance(
+                    latitude, longitude,
+                    station['latitude'], station['longitude']
+                )
+                
+                if distance < min_distance_threshold:
+                    nearby_stations.append({
+                        "stop_id": station['stop_id'],
+                        "name": station['stop_name'],
+                        "type": station['type'],
+                        "distance": distance,
+                        "coordinates": [station['latitude'], station['longitude']]
+                    })
+        
+        # Sort by distance
+        nearby_stations.sort(key=lambda x: x['distance'])
+        
+        warnings = []
+        if nearby_stations:
+            warnings.append({
+                "type": "nearby_stations",
+                "message": f"Proposed station is very close to {len(nearby_stations)} existing station(s)",
+                "stations": nearby_stations
+            })
+        
+        return jsonify({
+            "status": "success",
+            "position": {"latitude": latitude, "longitude": longitude},
+            "warnings": warnings,
+            "nearby_stations": nearby_stations
+        })
+        
+    except Exception as e:
+        return jsonify({
+            "status": "error",
+            "message": str(e)
+        }), 500
 if __name__ == '__main__':
     app.run(debug=True)

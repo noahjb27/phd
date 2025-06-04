@@ -1058,7 +1058,281 @@
                 document.getElementById('create-station-btn').disabled = false;
             }
         });
+
+        // Distance validation functionality
+        let distanceValidationResults = [];
+
+        // Add to the Tools tab in your HTML
+        function addDistanceValidationToHTML() {
+            // Add this to your tools tab
+            const toolsTab = document.getElementById('tools-tab');
+            
+            const validationSection = document.createElement('div');
+            validationSection.className = 'control-group';
+            validationSection.innerHTML = `
+                <h3>Distance Validation</h3>
+                <button id="validate-distances-btn" class="secondary-button">Check Station Distances</button>
+                <div id="validation-results" class="validation-results" style="display: none;"></div>
+                <div id="validation-status" class="status-indicator"></div>
+            `;
+            
+            toolsTab.appendChild(validationSection);
+        }
+
+        // Distance validation functionality
+        function initDistanceValidation() {
+            document.getElementById('validate-distances-btn').addEventListener('click', function() {
+                // Get the primary dataset
+                const primaryDataset = datasets[1];
+                if (!primaryDataset.yearSide) {
+                    showToast('Please load a primary dataset first', 'error');
+                    return;
+                }
+                
+                const statusElement = document.getElementById('validation-status');
+                const resultsElement = document.getElementById('validation-results');
+                
+                statusElement.className = 'status-indicator status-processing';
+                statusElement.textContent = 'Validating station distances...';
+                statusElement.style.display = 'block';
+                
+                this.disabled = true;
+                
+                // Call the backend validation endpoint
+                fetch('/validate_distances', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        year_side: primaryDataset.yearSide,
+                        line_id: primaryDataset.lineFilter !== 'all' ? primaryDataset.lineFilter : null
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        distanceValidationResults = data.issues;
+                        displayValidationResults(data.issues);
+                        
+                        statusElement.className = 'status-indicator status-success';
+                        statusElement.textContent = `Validation complete. Found ${data.issues.length} issues.`;
+                        
+                        // Highlight problematic stations on map
+                        highlightProblematicStations(data.issues);
+                    } else {
+                        statusElement.className = 'status-indicator status-error';
+                        statusElement.textContent = `Validation error: ${data.message}`;
+                    }
+                    
+                    this.disabled = false;
+                })
+                .catch(error => {
+                    console.error('Error validating distances:', error);
+                    statusElement.className = 'status-indicator status-error';
+                    statusElement.textContent = 'Error during validation';
+                    this.disabled = false;
+                });
+            });
+        }
+
+        function displayValidationResults(issues) {
+            const resultsElement = document.getElementById('validation-results');
+            
+            if (issues.length === 0) {
+                resultsElement.innerHTML = '<div class="validation-success">✓ All station distances look good!</div>';
+                resultsElement.style.display = 'block';
+                return;
+            }
+            
+            // Group issues by severity
+            const groupedIssues = {
+                error: issues.filter(issue => issue.severity === 'error'),
+                warning: issues.filter(issue => issue.severity === 'warning'),
+                info: issues.filter(issue => issue.severity === 'info')
+            };
+            
+            let html = '<div class="validation-results-content">';
+            
+            // Display errors first
+            if (groupedIssues.error.length > 0) {
+                html += '<h4 class="validation-section-header error">🚨 Critical Issues</h4>';
+                groupedIssues.error.forEach(issue => {
+                    html += formatValidationIssue(issue);
+                });
+            }
+            
+            // Then warnings
+            if (groupedIssues.warning.length > 0) {
+                html += '<h4 class="validation-section-header warning">⚠️ Warnings</h4>';
+                groupedIssues.warning.forEach(issue => {
+                    html += formatValidationIssue(issue);
+                });
+            }
+            
+            // Finally info items
+            if (groupedIssues.info.length > 0) {
+                html += '<h4 class="validation-section-header info">ℹ️ Suggestions</h4>';
+                groupedIssues.info.forEach(issue => {
+                    html += formatValidationIssue(issue);
+                });
+            }
+            
+            html += '</div>';
+            
+            resultsElement.innerHTML = html;
+            resultsElement.style.display = 'block';
+            
+            // Add click handlers for validation items
+            resultsElement.querySelectorAll('.validation-item').forEach(item => {
+                item.addEventListener('click', function() {
+                    const stationId = this.getAttribute('data-station-id');
+                    if (stationId) {
+                        focusOnStation(stationId);
+                    }
+                });
+            });
+        }
+
+        function formatValidationIssue(issue) {
+            const severityClass = `validation-item-${issue.severity}`;
+            const distanceText = issue.distance ? `(${(issue.distance / 1000).toFixed(2)}km)` : '';
+            
+            return `
+                <div class="validation-item ${severityClass}" data-station-id="${issue.station1?.id}">
+                    <div class="validation-item-header">
+                        <span class="validation-line">${issue.line_name || issue.line_id}</span>
+                        <span class="validation-distance">${distanceText}</span>
+                    </div>
+                    <div class="validation-message">${issue.message}</div>
+                    <div class="validation-stations">
+                        ${issue.station1?.name} → ${issue.station2?.name}
+                    </div>
+                </div>
+            `;
+        }
+
+        function highlightProblematicStations(issues) {
+            // Create a set of problematic station IDs
+            const problematicStations = new Set();
+            issues.forEach(issue => {
+                if (issue.station1?.id) problematicStations.add(issue.station1.id);
+                if (issue.station2?.id) problematicStations.add(issue.station2.id);
+            });
+            
+            // Update markers to highlight problematic stations
+            for (const datasetId in datasets) {
+                const dataset = datasets[datasetId];
+                if (dataset.yearSide) {
+                    dataset.markers.eachLayer(marker => {
+                        const stationId = marker.feature.properties.stop_id;
+                        const isProblematic = problematicStations.has(stationId);
+                        const isSelected = selectedMarker === marker;
+                        const isCorrected = marker.feature.properties.corrected;
+                        
+                        // Create a modified color for problematic stations
+                        let markerColor = dataset.color;
+                        if (isProblematic) {
+                            // Add a red tint to problematic stations
+                            markerColor = '#ff6b6b'; // Red color for problematic stations
+                        }
+                        
+                        marker.setIcon(createMarkerIcon(markerColor, isSelected, isCorrected));
+                        
+                        // Add a pulsing effect for problematic stations
+                        if (isProblematic) {
+                            marker.getElement()?.classList.add('problematic-station');
+                        }
+                    });
+                }
+            }
+        }
+
+        function focusOnStation(stationId) {
+            // Find and focus on a specific station
+            for (const datasetId in datasets) {
+                const dataset = datasets[datasetId];
+                if (dataset.yearSide) {
+                    dataset.markers.eachLayer(marker => {
+                        if (marker.feature.properties.stop_id === stationId) {
+                            // Pan to station and select it
+                            const coords = [
+                                marker.feature.geometry.coordinates[1],
+                                marker.feature.geometry.coordinates[0]
+                            ];
+                            map.setView(coords, 16);
+                            selectStation(marker.feature, marker);
+                            return;
+                        }
+                    });
+                }
+            }
+        }
+
+        // Enhanced station addition with distance warnings
+        function enhanceStationAddition() {
+            const createButton = document.getElementById('create-station-btn');
+            const originalCreateHandler = createButton.onclick;
+            
+            createButton.onclick = function() {
+                // Before creating, check if the new station is too close to existing ones
+                if (newStationPosition) {
+                    const nearbyStations = checkNearbyStations(newStationPosition);
+                    if (nearbyStations.length > 0) {
+                        const message = `Warning: New station is close to existing stations:\n${nearbyStations.map(s => `• ${s.name} (${s.distance}m away)`).join('\n')}\n\nContinue anyway?`;
+                        if (!confirm(message)) {
+                            return;
+                        }
+                    }
+                }
+                
+                // Proceed with original creation
+                if (originalCreateHandler) {
+                    originalCreateHandler.call(this);
+                }
+            };
+        }
+
+        function checkNearbyStations(position, maxDistance = 300) {
+            const nearbyStations = [];
+            
+            for (const datasetId in datasets) {
+                const dataset = datasets[datasetId];
+                if (dataset.data && dataset.data.geojson) {
+                    dataset.data.geojson.features.forEach(feature => {
+                        const stationLat = feature.geometry.coordinates[1];
+                        const stationLng = feature.geometry.coordinates[0];
+                        
+                        const distance = calculateDistance(
+                            position.lat, position.lng,
+                            stationLat, stationLng
+                        );
+                        
+                        if (distance <= maxDistance) {
+                            nearbyStations.push({
+                                name: feature.properties.name,
+                                distance: Math.round(distance)
+                            });
+                        }
+                    });
+                }
+            }
+            
+            return nearbyStations.sort((a, b) => a.distance - b.distance);
+        }
+
+        function calculateDistance(lat1, lon1, lat2, lon2) {
+            // Simple Haversine distance calculation
+            const R = 6371000; // Earth's radius in meters
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLon = (lon2 - lon1) * Math.PI / 180;
+            const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                    Math.sin(dLon/2) * Math.sin(dLon/2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+            return R * c;
+        }
+
         
+            
         // Function to update the historical layer
         function updateHistoricalLayer() {
             // Check if historical layer is enabled
@@ -1462,11 +1736,135 @@
             });
         }
 
-        document.addEventListener('DOMContentLoaded', () => {
-    // Existing code...
-    initNameEditing();
-    initSourceEditing(); // Add this line
-});
+        // Add CSS for validation styling
+        function addValidationCSS() {
+            const style = document.createElement('style');
+            style.textContent = `
+                .validation-results {
+                    max-height: 400px;
+                    overflow-y: auto;
+                    border: 1px solid #ddd;
+                    border-radius: 4px;
+                    margin-top: 1rem;
+                }
+                
+                .validation-results-content {
+                    padding: 1rem;
+                }
+                
+                .validation-section-header {
+                    margin: 1rem 0 0.5rem 0;
+                    font-size: 0.9rem;
+                    font-weight: 600;
+                }
+                
+                .validation-section-header.error {
+                    color: #d32f2f;
+                }
+                
+                .validation-section-header.warning {
+                    color: #f57c00;
+                }
+                
+                .validation-section-header.info {
+                    color: #1976d2;
+                }
+                
+                .validation-item {
+                    padding: 0.75rem;
+                    margin-bottom: 0.5rem;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    transition: background-color 0.2s;
+                }
+                
+                .validation-item:hover {
+                    background-color: #f5f5f5;
+                }
+                
+                .validation-item-error {
+                    border-left: 4px solid #d32f2f;
+                    background-color: #ffebee;
+                }
+                
+                .validation-item-warning {
+                    border-left: 4px solid #f57c00;
+                    background-color: #fff8e1;
+                }
+                
+                .validation-item-info {
+                    border-left: 4px solid #1976d2;
+                    background-color: #e3f2fd;
+                }
+                
+                .validation-item-header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 0.25rem;
+                }
+                
+                .validation-line {
+                    font-weight: 600;
+                    font-size: 0.9rem;
+                }
+                
+                .validation-distance {
+                    font-size: 0.8rem;
+                    color: #666;
+                    font-family: monospace;
+                }
+                
+                .validation-message {
+                    font-size: 0.85rem;
+                    margin-bottom: 0.25rem;
+                }
+                
+                .validation-stations {
+                    font-size: 0.8rem;
+                    color: #666;
+                    font-style: italic;
+                }
+                
+                .validation-success {
+                    padding: 1rem;
+                    background-color: #e8f5e9;
+                    color: #2e7d32;
+                    text-align: center;
+                    border-radius: 4px;
+                }
+                
+                .problematic-station {
+                    animation: pulse-red 2s infinite;
+                }
+                
+                @keyframes pulse-red {
+                    0% { box-shadow: 0 0 0 0 rgba(255, 107, 107, 0.7); }
+                    70% { box-shadow: 0 0 0 10px rgba(255, 107, 107, 0); }
+                    100% { box-shadow: 0 0 0 0 rgba(255, 107, 107, 0); }
+                }
+            `;
+            document.head.appendChild(style);
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+        // Add validation CSS
+        addValidationCSS();
+        
+        // Add distance validation section to tools tab
+        addDistanceValidationToHTML();
+        
+        // Initialize distance validation
+        initDistanceValidation();
+        
+        // Enhance station addition
+        enhanceStationAddition();
+        
+        // Initialize existing functionality
+        initNameEditing();
+        initSourceEditing();
+    });
+
         
         // Variables for source editing
         let originalSource = null;
