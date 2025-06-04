@@ -118,49 +118,7 @@ class MapManager {
         this.appState.datasets[1].markers.addTo(this.map);
         this.appState.datasets[2].markers.addTo(this.map);
 
-        this.setupMapEventHandlers();
-    }
-
-    setupMapEventHandlers() {
-        this.map.on('click', (e) => {
-            if (this.appState.newStationMode) {
-                this.handleNewStationClick(e);
-            }
-        });
-    }
-
-    handleNewStationClick(e) {
-        const yearSide = document.getElementById('new-station-year-side').value;
-        
-        if (!yearSide) {
-            UIUtils.showToast('Please select a dataset first', 'warning');
-            return;
-        }
-
-        // Set new station position
-        this.appState.newStationPosition = e.latlng;
-
-        // Update coordinate display
-        document.getElementById('new-station-coords').textContent = 
-            `${e.latlng.lat.toFixed(6)}, ${e.latlng.lng.toFixed(6)}`;
-
-        // Add or update temporary marker
-        if (this.appState.newStationMarker) {
-            this.appState.newStationMarker.setLatLng(e.latlng);
-        } else {
-            this.appState.newStationMarker = L.marker(e.latlng, {
-                icon: L.divIcon({
-                    html: '<div class="station-marker new-station"></div>',
-                    className: '',
-                    iconSize: [16, 16]
-                })
-            }).addTo(this.map);
-        }
-
-        // Trigger form validation
-        window.stationAdder.validateForm();
-        
-        UIUtils.showToast('Station location set', 'success');
+        // Note: Removed map click handler for station adding since we're using text input now
     }
 
     updateHistoricalLayer() {
@@ -353,6 +311,7 @@ class StationAdder {
     constructor(appState) {
         this.appState = appState;
         this.isFormValid = false;
+        this.parsedCoordinates = null;
         this.setupEventHandlers();
     }
 
@@ -374,6 +333,12 @@ class StationAdder {
         });
         document.getElementById('new-station-stop-order').addEventListener('change', () => this.validateForm());
 
+        // Coordinates input listener
+        document.getElementById('new-station-coords-input').addEventListener('input', (e) => {
+            this.parseCoordinates(e.target.value);
+            this.validateForm();
+        });
+
         // Create button
         document.getElementById('create-station-btn').addEventListener('click', () => this.createStation());
 
@@ -388,17 +353,100 @@ class StationAdder {
         });
     }
 
+    parseCoordinates(coordString) {
+        const display = document.getElementById('new-station-coords-display');
+        const parsedSpan = document.getElementById('parsed-coords');
+        
+        // Reset state
+        this.parsedCoordinates = null;
+        display.style.display = 'none';
+        
+        if (!coordString.trim()) {
+            return;
+        }
+
+        // Try to parse coordinates from various formats
+        // Support formats like: "52.42146115349324, 13.178055311099948"
+        // Also support: "52.42146115349324,13.178055311099948" (no space)
+        // Also support: "52.42146115349324 13.178055311099948" (space separated)
+        
+        const cleanString = coordString.trim();
+        let matches;
+        
+        // Try comma-separated format first
+        matches = cleanString.match(/^(-?\d+\.?\d*),\s*(-?\d+\.?\d*)$/);
+        
+        // Try space-separated format
+        if (!matches) {
+            matches = cleanString.match(/^(-?\d+\.?\d*)\s+(-?\d+\.?\d*)$/);
+        }
+        
+        if (matches) {
+            const lat = parseFloat(matches[1]);
+            const lng = parseFloat(matches[2]);
+            
+            // Validate coordinate ranges
+            if (lat >= -90 && lat <= 90 && lng >= -180 && lng <= 180) {
+                // Additional validation for Berlin area (rough bounds)
+                if (lat >= 52.3 && lat <= 52.7 && lng >= 13.0 && lng <= 13.8) {
+                    this.parsedCoordinates = { lat, lng };
+                    display.style.display = 'block';
+                    parsedSpan.textContent = `${lat.toFixed(6)}, ${lng.toFixed(6)}`;
+                    parsedSpan.style.color = '#27ae60'; // Green for valid
+                    
+                    // Update or create map marker to show location
+                    this.updateMapMarker(lat, lng);
+                } else {
+                    // Coordinates are valid but outside Berlin area
+                    display.style.display = 'block';
+                    parsedSpan.textContent = 'Warning: Coordinates outside Berlin area';
+                    parsedSpan.style.color = '#f39c12'; // Orange for warning
+                }
+            } else {
+                // Invalid coordinate ranges
+                display.style.display = 'block';
+                parsedSpan.textContent = 'Invalid coordinate ranges';
+                parsedSpan.style.color = '#e74c3c'; // Red for error
+            }
+        } else if (cleanString.length > 5) {
+            // Show error for malformed input (but only if they've typed something substantial)
+            display.style.display = 'block';
+            parsedSpan.textContent = 'Invalid format. Use: latitude, longitude';
+            parsedSpan.style.color = '#e74c3c'; // Red for error
+        }
+    }
+
+    updateMapMarker(lat, lng) {
+        // Remove existing marker if any
+        if (this.appState.newStationMarker) {
+            window.mapManager.map.removeLayer(this.appState.newStationMarker);
+        }
+
+        // Add new marker
+        this.appState.newStationMarker = L.marker([lat, lng], {
+            icon: L.divIcon({
+                html: '<div class="station-marker new-station"></div>',
+                className: '',
+                iconSize: [16, 16]
+            })
+        }).addTo(window.mapManager.map);
+
+        // Pan map to show the marker
+        window.mapManager.map.setView([lat, lng], Math.max(window.mapManager.map.getZoom(), 15));
+    }
+
     showModal() {
         this.resetForm();
         this.updateDatasetOptions();
-        this.appState.newStationMode = true;
+        // Remove the newStationMode since we're not using map clicks anymore
+        this.appState.newStationMode = false;
         document.getElementById('add-station-modal').style.display = 'block';
-        UIUtils.showToast('Click on the map to set the new station location', 'info');
     }
 
     hideModal() {
         document.getElementById('add-station-modal').style.display = 'none';
         this.appState.reset();
+        this.parsedCoordinates = null;
     }
 
     resetForm() {
@@ -406,8 +454,10 @@ class StationAdder {
         document.getElementById('new-station-type').value = 'ubahn';
         document.getElementById('new-station-year-side').value = '';
         document.getElementById('new-station-line').value = '';
-        document.getElementById('new-station-coords').textContent = 'Not set';
+        document.getElementById('new-station-coords-input').value = '';
+        document.getElementById('new-station-coords-display').style.display = 'none';
         document.getElementById('stop-order-container').style.display = 'none';
+        this.parsedCoordinates = null;
         this.validateForm();
     }
 
@@ -491,7 +541,7 @@ class StationAdder {
         const stopOrder = document.getElementById('new-station-stop-order').value;
         
         // Check required fields
-        const hasRequiredFields = name && yearSide && this.appState.newStationPosition;
+        const hasRequiredFields = name && yearSide && this.parsedCoordinates;
         
         // If line is selected, stop order is required
         const hasValidLineConnection = !lineId || (lineId && stopOrder);
@@ -515,8 +565,8 @@ class StationAdder {
             createBtn.textContent = 'Enter station name';
         } else if (!yearSide) {
             createBtn.textContent = 'Select dataset';
-        } else if (!this.appState.newStationPosition) {
-            createBtn.textContent = 'Click map to set location';
+        } else if (!this.parsedCoordinates) {
+            createBtn.textContent = 'Enter valid coordinates';
         } else if (lineId && !stopOrder) {
             createBtn.textContent = 'Select position on line';
         } else {
@@ -534,8 +584,8 @@ class StationAdder {
             year_side: document.getElementById('new-station-year-side').value,
             name: document.getElementById('new-station-name').value.trim(),
             type: document.getElementById('new-station-type').value,
-            latitude: this.appState.newStationPosition.lat,
-            longitude: this.appState.newStationPosition.lng,
+            latitude: this.parsedCoordinates.lat,
+            longitude: this.parsedCoordinates.lng,
             source: 'User added'
         };
 

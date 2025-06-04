@@ -236,7 +236,7 @@
                 </div>
                 
                 <div class="form-group">
-                    <label for="new-station-line">Connect to Line (Optional):</label>
+                    <label for="new-station-line">Connect to Line:</label>
                     <select id="new-station-line" class="form-control">
                         <option value="">-- No Line Connection --</option>
                     </select>
@@ -250,9 +250,13 @@
                 </div>
                 
                 <div class="form-group">
-                    <label>Station Location:</label>
-                    <p class="help-text">Click on the map to set the location for the new station.</p>
-                    <div class="coords-display" id="new-station-coords">Not set</div>
+                    <label for="new-station-coords-input">Station Location:</label>
+                    <input type="text" id="new-station-coords-input" class="form-control" 
+                        placeholder="Enter coordinates: latitude, longitude (e.g., 52.42146, 13.17806)">
+                    <p class="help-text">Enter coordinates in decimal format: latitude, longitude</p>
+                    <div class="coords-display" id="new-station-coords-display" style="display: none;">
+                        Parsed: <span id="parsed-coords"></span>
+                    </div>
                 </div>
                 
                 <div class="button-group">

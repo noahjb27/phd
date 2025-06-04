@@ -47,8 +47,8 @@ class StationManager:
             try:
                 year, side = station_data['year_side'].split('_')
                 int(year)  # Ensure year is numeric
-                if side not in ['east', 'west']:
-                    return {"status": "error", "message": "Invalid side (must be 'east' or 'west')"}
+                if side not in ['east', 'west', 'unified']:
+                    return {"status": "error", "message": "Invalid side (must be 'unified', 'east' or 'west')"}
             except ValueError:
                 return {"status": "error", "message": "Invalid year_side format (must be 'YYYY_side')"}
             
