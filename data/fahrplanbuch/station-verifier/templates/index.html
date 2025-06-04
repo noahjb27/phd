@@ -331,6 +331,7 @@
         let corrections = {};
         let newStationMode = false;
         let newStationPosition = null;
+        let selectedInsertionPoint = null;
         
         // Add marker layers to map
         datasets[1].markers.addTo(map);
@@ -832,32 +833,27 @@
             const modal = document.getElementById('add-station-modal');
             modal.style.display = 'block';
             
-            // Fill dataset options
+            // Reset form
+            resetNewStationMode();
+            
+            // Fill dataset options with currently loaded datasets
             updateAddStationDatasetSelect();
             
             // Enable new station mode for map clicking
             newStationMode = true;
-            newStationPosition = null;
             
-            // Update button state
-            document.getElementById('create-station-btn').disabled = true;
-            document.getElementById('new-station-coords').textContent = 'Not set';
+            showToast('Click on the map to set the new station location', 'info');
         });
         
         // Close modals
         document.querySelectorAll('.close-modal').forEach(close => {
             close.addEventListener('click', function() {
-                this.closest('.modal').style.display = 'none';
+                const modal = this.closest('.modal');
+                modal.style.display = 'none';
                 
-                // If closing add station modal, disable new station mode
-                if (this.closest('.modal').id === 'add-station-modal') {
-                    newStationMode = false;
-                    
-                    // Remove temporary marker if it exists
-                    if (newStationMarker) {
-                        map.removeLayer(newStationMarker);
-                        newStationMarker = null;
-                    }
+                // If closing add station modal, clean up
+                if (modal.id === 'add-station-modal') {
+                    resetNewStationMode();
                 }
             });
         });
@@ -866,9 +862,11 @@
         document.getElementById('new-station-year-side').addEventListener('change', function() {
             const yearSide = this.value;
             const lineSelect = document.getElementById('new-station-line');
+            const stopOrderContainer = document.getElementById('stop-order-container');
             
             // Clear previous options
-            lineSelect.innerHTML = '<option value="">-- None --</option>';
+            lineSelect.innerHTML = '<option value="">-- Select a line --</option>';
+            stopOrderContainer.style.display = 'none';
             
             // Find the dataset that matches this year_side
             for (const datasetId in datasets) {
@@ -888,14 +886,71 @@
         // Line selection for new station
         document.getElementById('new-station-line').addEventListener('change', function() {
             const lineId = this.value;
+            const yearSide = document.getElementById('new-station-year-side').value;
             const stopOrderContainer = document.getElementById('stop-order-container');
+            const stopOrderSelect = document.getElementById('new-station-stop-order');
             
-            if (lineId) {
-                stopOrderContainer.style.display = 'block';
+            if (lineId && yearSide) {
+                // Get line details and insertion points
+                fetch(`/get_line_details/${yearSide}/${lineId}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.status === 'success') {
+                            // Clear and populate stop order options
+                            stopOrderSelect.innerHTML = '';
+                            
+                            data.insertion_points.forEach(point => {
+                                const option = document.createElement('option');
+                                option.value = point.stop_order;
+                                option.textContent = `${point.stop_order}. ${point.description}`;
+                                stopOrderSelect.appendChild(option);
+                            });
+                            
+                            stopOrderContainer.style.display = 'block';
+                            
+                            // Show line information
+                            const lineInfoDiv = document.getElementById('line-info-display') || createLineInfoDisplay();
+                            lineInfoDiv.innerHTML = `
+                                <h4>Line Information</h4>
+                                <p><strong>Current stops:</strong> ${data.stops.length}</p>
+                                <div class="current-stops">
+                                    ${data.stops.map(stop => 
+                                        `<div class="stop-item">${stop.stop_order}. ${stop.name}</div>`
+                                    ).join('')}
+                                </div>
+                            `;
+                        } else {
+                            showToast(`Error loading line details: ${data.message}`, 'error');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error fetching line details:', error);
+                        showToast('Error loading line details', 'error');
+                    });
             } else {
                 stopOrderContainer.style.display = 'none';
             }
         });
+
+        // Helper function to create line info display
+        function createLineInfoDisplay() {
+            const modal = document.getElementById('add-station-modal');
+            const modalContent = modal.querySelector('.modal-content');
+            
+            let lineInfoDiv = document.getElementById('line-info-display');
+            if (!lineInfoDiv) {
+                lineInfoDiv = document.createElement('div');
+                lineInfoDiv.id = 'line-info-display';
+                lineInfoDiv.className = 'line-info-display';
+                
+                // Insert before the create button
+                const createButton = document.getElementById('create-station-btn');
+                modalContent.insertBefore(lineInfoDiv, createButton);
+            }
+            
+            return lineInfoDiv;
+        }
+
         
         // Create station button
         document.getElementById('create-station-btn').addEventListener('click', function() {
@@ -905,18 +960,8 @@
             const lineId = document.getElementById('new-station-line').value;
             const stopOrder = document.getElementById('new-station-stop-order').value;
             
-            if (!name) {
-                showToast('Station name is required', 'error');
-                return;
-            }
-            
-            if (!yearSide) {
-                showToast('Dataset selection is required', 'error');
-                return;
-            }
-            
-            if (!newStationPosition) {
-                showToast('Please click on the map to set station location', 'error');
+            if (!name || !yearSide || !newStationPosition) {
+                showToast('Please fill all required fields and set station location', 'error');
                 return;
             }
             
@@ -926,7 +971,8 @@
                 name: name,
                 type: type,
                 latitude: newStationPosition.lat,
-                longitude: newStationPosition.lng
+                longitude: newStationPosition.lng,
+                source: 'User added'
             };
             
             // Add line connection if specified
@@ -936,6 +982,10 @@
                     stop_order: parseInt(stopOrder)
                 }];
             }
+            
+            // Disable button and show loading state
+            this.disabled = true;
+            this.textContent = 'Creating station...';
             
             // Send request to server
             fetch('/add_station', {
@@ -950,13 +1000,7 @@
                     
                     // Close modal and reset new station mode
                     document.getElementById('add-station-modal').style.display = 'none';
-                    newStationMode = false;
-                    
-                    // Remove temporary marker
-                    if (newStationMarker) {
-                        map.removeLayer(newStationMarker);
-                        newStationMarker = null;
-                    }
+                    resetNewStationMode();
                     
                     // Reload affected dataset
                     document.getElementById('load-datasets-btn').click();
@@ -967,8 +1011,42 @@
             .catch(error => {
                 console.error('Error adding station:', error);
                 showToast('Error adding station', 'error');
+            })
+            .finally(() => {
+                this.disabled = false;
+                updateCreateButtonState();
             });
         });
+
+
+        // Helper function to reset new station mode
+        function resetNewStationMode() {
+            newStationMode = false;
+            newStationPosition = null;
+            selectedInsertionPoint = null;
+            
+            // Remove temporary marker
+            if (newStationMarker) {
+                map.removeLayer(newStationMarker);
+                newStationMarker = null;
+            }
+            
+            // Clear form
+            document.getElementById('new-station-name').value = '';
+            document.getElementById('new-station-type').value = 'ubahn';
+            document.getElementById('new-station-year-side').value = '';
+            document.getElementById('new-station-line').value = '';
+            document.getElementById('new-station-coords').textContent = 'Not set';
+            
+            // Hide containers
+            document.getElementById('stop-order-container').style.display = 'none';
+            const lineInfoDiv = document.getElementById('line-info-display');
+            if (lineInfoDiv) lineInfoDiv.innerHTML = '';
+            const warningDiv = document.getElementById('position-warnings');
+            if (warningDiv) warningDiv.style.display = 'none';
+            
+            updateCreateButtonState();
+        }
 
         // Tab functionality
         document.addEventListener('DOMContentLoaded', () => {
@@ -1034,30 +1112,136 @@
         
         map.on('click', function(e) {
             if (newStationMode) {
+                const yearSide = document.getElementById('new-station-year-side').value;
+                const lineId = document.getElementById('new-station-line').value;
+                
+                if (!yearSide) {
+                    showToast('Please select a dataset first', 'warning');
+                    return;
+                }
+                
                 // Set new station position
                 newStationPosition = e.latlng;
                 
-                // Update coordinate display
-                document.getElementById('new-station-coords').textContent = 
-                    `${newStationPosition.lat.toFixed(6)}, ${newStationPosition.lng.toFixed(6)}`;
+                // Validate position
+                const validationData = {
+                    year_side: yearSide,
+                    latitude: newStationPosition.lat,
+                    longitude: newStationPosition.lng
+                };
                 
-                // Add or update temporary marker
-                if (newStationMarker) {
-                    newStationMarker.setLatLng(newStationPosition);
-                } else {
-                    newStationMarker = L.marker(newStationPosition, {
-                        icon: L.divIcon({
-                            html: '<div class="station-marker new-station"></div>',
-                            className: '',
-                            iconSize: [16, 16]
-                        })
-                    }).addTo(map);
+                if (lineId) {
+                    validationData.line_id = lineId;
                 }
                 
-                // Enable create button
-                document.getElementById('create-station-btn').disabled = false;
+                fetch('/validate_station_position', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(validationData)
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        // Update coordinate display
+                        document.getElementById('new-station-coords').textContent = 
+                            `${newStationPosition.lat.toFixed(6)}, ${newStationPosition.lng.toFixed(6)}`;
+                        
+                        // Show warnings if any
+                        if (data.warnings && data.warnings.length > 0) {
+                            const warningDiv = document.getElementById('position-warnings') || createPositionWarningsDiv();
+                            warningDiv.innerHTML = `
+                                <div class="warning-header">⚠️ Position Warnings:</div>
+                                ${data.warnings.map(warning => `
+                                    <div class="warning-item">
+                                        <strong>${warning.message}</strong>
+                                        ${warning.stations ? warning.stations.map(station => 
+                                            `<div class="nearby-station">• ${station.name} (${station.distance}m away)</div>`
+                                        ).join('') : ''}
+                                    </div>
+                                `).join('')}
+                            `;
+                            warningDiv.style.display = 'block';
+                        } else {
+                            const warningDiv = document.getElementById('position-warnings');
+                            if (warningDiv) warningDiv.style.display = 'none';
+                        }
+                        
+                        // Add or update temporary marker
+                        if (newStationMarker) {
+                            newStationMarker.setLatLng(newStationPosition);
+                        } else {
+                            newStationMarker = L.marker(newStationPosition, {
+                                icon: L.divIcon({
+                                    html: '<div class="station-marker new-station"></div>',
+                                    className: '',
+                                    iconSize: [16, 16]
+                                })
+                            }).addTo(map);
+                        }
+                        
+                        // Enable create button
+                        updateCreateButtonState();
+                    }
+                })
+                .catch(error => {
+                    console.error('Error validating position:', error);
+                    showToast('Error validating station position', 'error');
+                });
             }
         });
+
+        // Enhanced create station button with proper validation
+        function updateCreateButtonState() {
+            const createBtn = document.getElementById('create-station-btn');
+            const name = document.getElementById('new-station-name').value.trim();
+            const yearSide = document.getElementById('new-station-year-side').value;
+            const lineId = document.getElementById('new-station-line').value;
+            const stopOrder = document.getElementById('new-station-stop-order').value;
+            
+            // Enable button if all required fields are filled
+            const canCreate = name && yearSide && newStationPosition && 
+                            (!lineId || (lineId && stopOrder));
+            
+            createBtn.disabled = !canCreate;
+            
+            // Update button text based on state
+            if (!name) {
+                createBtn.textContent = 'Enter station name';
+            } else if (!yearSide) {
+                createBtn.textContent = 'Select dataset';
+            } else if (!newStationPosition) {
+                createBtn.textContent = 'Click map to set location';
+            } else if (lineId && !stopOrder) {
+                createBtn.textContent = 'Select position on line';
+            } else {
+                createBtn.textContent = 'Create Station';
+            }
+        }
+
+        // Add event listeners for form validation
+        document.getElementById('new-station-name').addEventListener('input', updateCreateButtonState);
+        document.getElementById('new-station-year-side').addEventListener('change', updateCreateButtonState);
+        document.getElementById('new-station-line').addEventListener('change', updateCreateButtonState);
+        document.getElementById('new-station-stop-order').addEventListener('change', updateCreateButtonState);
+
+        // Helper function to create position warnings display
+        function createPositionWarningsDiv() {
+            const modal = document.getElementById('add-station-modal');
+            const modalContent = modal.querySelector('.modal-content');
+            
+            let warningDiv = document.getElementById('position-warnings');
+            if (!warningDiv) {
+                warningDiv = document.createElement('div');
+                warningDiv.id = 'position-warnings';
+                warningDiv.className = 'position-warnings';
+                
+                // Insert after coordinates display
+                const coordsDisplay = document.getElementById('new-station-coords');
+                coordsDisplay.parentNode.insertBefore(warningDiv, coordsDisplay.nextSibling);
+            }
+            
+            return warningDiv;
+        }
 
         // Distance validation functionality
         let distanceValidationResults = [];
@@ -1735,6 +1919,63 @@
                 });
             });
         }
+
+        // Add CSS for new elements
+        const additionalCSS = `
+        .line-info-display {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        .current-stops {
+            max-height: 200px;
+            overflow-y: auto;
+            margin-top: 0.5rem;
+        }
+
+        .stop-item {
+            padding: 0.25rem 0;
+            font-size: 0.85rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .stop-item:last-child {
+            border-bottom: none;
+        }
+
+        .position-warnings {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 4px;
+            padding: 0.75rem;
+            margin: 0.5rem 0;
+            display: none;
+        }
+
+        .warning-header {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #856404;
+        }
+
+        .warning-item {
+            margin-bottom: 0.5rem;
+        }
+
+        .nearby-station {
+            font-size: 0.85rem;
+            color: #6c757d;
+            margin-left: 1rem;
+        }
+        `;
+
+        // Add the CSS to the page
+        const style = document.createElement('style');
+        style.textContent = additionalCSS;
+        document.head.appendChild(style);
 
         // Add CSS for validation styling
         function addValidationCSS() {

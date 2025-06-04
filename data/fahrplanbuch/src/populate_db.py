@@ -36,7 +36,236 @@ class BerlinTransportImporter:
         self.data_dir = Path(data_dir)
         self.db = BerlinTransportDB(uri=uri, username=username, password=password)
         self.dry_run = False
+        self.corrections_file = Path("station-verifier/corrections/station_corrections.json")
+        self.additions_file = Path("station-verifier/corrections/station_additions.json")
+    
+        def load_corrections_and_additions(self):
+            """Load corrections and additions from JSON files"""
+            corrections = {}
+            additions = {}
+            
+            # Load corrections
+            if self.corrections_file.exists():
+                try:
+                    with open(self.corrections_file, 'r') as f:
+                        corrections = json.load(f)
+                    logger.info(f"Loaded corrections for {len(corrections)} year-sides")
+                except Exception as e:
+                    logger.warning(f"Error loading corrections: {e}")
+            
+            # Load additions
+            if self.additions_file.exists():
+                try:
+                    with open(self.additions_file, 'r') as f:
+                        additions = json.load(f)
+                    logger.info(f"Loaded additions for {len(additions)} year-sides")
+                except Exception as e:
+                    logger.warning(f"Error loading additions: {e}")
+            
+            return corrections, additions
+
+    def apply_station_corrections(self, corrections_file_path=None):
+        """
+        Apply station corrections from JSON file
+        Enhanced version that handles names, sources, and coordinates
+        """
+        if corrections_file_path is None:
+            corrections_file_path = self.corrections_file
+            
+        if not Path(corrections_file_path).exists():
+            logger.info(f"No corrections file found at: {corrections_file_path}")
+            return 0
         
+        logger.info(f"Applying corrections from: {corrections_file_path}")
+        
+        try:
+            with open(corrections_file_path, 'r') as f:
+                corrections = json.load(f)
+            
+            correction_count = 0
+            
+            self.db.connect()
+            
+            with self.db.driver.session() as session:
+                for year_side, stations in corrections.items():
+                    for stop_id, correction in stations.items():
+                        # Build update query dynamically
+                        set_clauses = []
+                        params = {"stop_id": stop_id}
+                        
+                        # Update coordinates
+                        if "lat" in correction and "lng" in correction:
+                            set_clauses.append("s.latitude = $latitude, s.longitude = $longitude")
+                            params["latitude"] = correction["lat"]
+                            params["longitude"] = correction["lng"]
+                        
+                        # Update name
+                        if "name" in correction and correction["name"]:
+                            set_clauses.append("s.name = $name")
+                            params["name"] = correction["name"]
+                        
+                        # Update source
+                        if "source" in correction and correction["source"]:
+                            set_clauses.append("s.source = $source")
+                            params["source"] = correction["source"]
+                        
+                        if set_clauses:
+                            update_query = f"""
+                            MATCH (s:Station {{stop_id: $stop_id}})
+                            SET {', '.join(set_clauses)}
+                            RETURN count(s) as updated
+                            """
+                            
+                            result = session.run(update_query, params)
+                            updated = result.single()["updated"]
+                            correction_count += updated
+                            
+                            if updated > 0:
+                                logger.debug(f"Applied corrections to station {stop_id}: {list(correction.keys())}")
+                            else:
+                                logger.warning(f"Station {stop_id} not found for correction")
+            
+            logger.info(f"Applied {correction_count} station corrections from file")
+            return correction_count
+        
+        except Exception as e:
+            logger.error(f"Error applying station corrections: {e}")
+            return 0
+    
+    def apply_station_additions(self, additions_file_path=None):
+        """
+        Apply station additions from JSON file
+        This recreates user-added stations when rebuilding the database
+        """
+        if additions_file_path is None:
+            additions_file_path = self.additions_file
+            
+        if not Path(additions_file_path).exists():
+            logger.info(f"No additions file found at: {additions_file_path}")
+            return 0
+        
+        logger.info(f"Applying station additions from: {additions_file_path}")
+        
+        try:
+            with open(additions_file_path, 'r') as f:
+                additions = json.load(f)
+            
+            addition_count = 0
+            
+            self.db.connect()
+            
+            for year_side, stations in additions.items():
+                year, side = year_side.split('_')
+                
+                for station_id, addition_record in stations.items():
+                    if addition_record.get('status') != 'active':
+                        logger.debug(f"Skipping inactive addition {station_id}")
+                        continue
+                    
+                    station_data = addition_record['station_data']
+                    line_connections = addition_record.get('line_connections', [])
+                    
+                    # Check if station already exists
+                    with self.db.driver.session() as session:
+                        check_result = session.run("""
+                        MATCH (s:Station {stop_id: $stop_id})
+                        RETURN count(s) as exists
+                        """, stop_id=station_id)
+                        
+                        if check_result.single()["exists"] > 0:
+                            logger.debug(f"Station {station_id} already exists, skipping")
+                            continue
+                    
+                    # Create the station
+                    try:
+                        result = self._create_added_station(year_side, station_id, station_data, line_connections)
+                        if result['status'] == 'success':
+                            addition_count += 1
+                            logger.info(f"Successfully recreated added station {station_id} in {year_side}")
+                        else:
+                            logger.error(f"Failed to recreate station {station_id}: {result.get('message')}")
+                    except Exception as e:
+                        logger.error(f"Error recreating station {station_id}: {e}")
+            
+            logger.info(f"Applied {addition_count} station additions from file")
+            return addition_count
+        
+        except Exception as e:
+            logger.error(f"Error applying station additions: {e}")
+            return 0
+    
+    def _create_added_station(self, year_side, station_id, station_data, line_connections):
+        """
+        Create a station from addition data during database recreation
+        """
+        year, side = year_side.split('_')
+        
+        try:
+            with self.db.driver.session() as session:
+                # Create the station
+                create_query = """
+                MATCH (y:Year {year: $year})
+                CREATE (s:Station {
+                    stop_id: $stop_id,
+                    name: $name,
+                    type: $type,
+                    latitude: $latitude,
+                    longitude: $longitude,
+                    east_west: $side,
+                    source: $source
+                })
+                CREATE (s)-[:IN_YEAR]->(y)
+                RETURN s.stop_id as created_id
+                """
+                
+                station_result = session.run(create_query,
+                                        year=int(year),
+                                        stop_id=station_id,
+                                        name=station_data['name'],
+                                        type=station_data['type'],
+                                        latitude=station_data['latitude'],
+                                        longitude=station_data['longitude'],
+                                        side=side,
+                                        source=station_data.get('source', 'User added'))
+                
+                created_id = station_result.single()['created_id'] if station_result.single() else None
+                
+                if not created_id:
+                    return {"status": "error", "message": "Failed to create station"}
+                
+                # Handle line connections
+                for connection in line_connections:
+                    line_id = connection['line_id']
+                    stop_order = connection['stop_order']
+                    
+                    # Update stop orders to make room (shift existing stations)
+                    shift_query = """
+                    MATCH (l:Line {line_id: $line_id})-[r:SERVES]->(s:Station)
+                    WHERE r.stop_order >= $stop_order
+                    SET r.stop_order = r.stop_order + 1
+                    """
+                    
+                    session.run(shift_query, line_id=line_id, stop_order=stop_order)
+                    
+                    # Connect new station to line
+                    connect_query = """
+                    MATCH (l:Line {line_id: $line_id})
+                    MATCH (s:Station {stop_id: $stop_id})
+                    CREATE (l)-[r:SERVES {stop_order: $stop_order}]->(s)
+                    """
+                    
+                    session.run(connect_query,
+                               line_id=line_id,
+                               stop_id=station_id,
+                               stop_order=stop_order)
+                
+                return {"status": "success", "station_id": created_id}
+                
+        except Exception as e:
+            logger.error(f"Error creating added station {station_id}: {e}")
+            return {"status": "error", "message": str(e)}
+
+
     def setup_schema(self):
         """Create necessary constraints and indexes in Neo4j"""
         logger.info("Setting up database schema...")
@@ -88,15 +317,10 @@ class BerlinTransportImporter:
         
         return year_sides
     
-    def import_data(self, years=None, sides=None, update_existing=False, dry_run=False, apply_corrections=True):
+    def import_data(self, years=None, sides=None, update_existing=False, dry_run=False, 
+                   apply_corrections=True, apply_additions=True):
         """
-        Import data for specified years and sides
-        
-        Args:
-            years: List of years to import, or None for all
-            sides: List of sides to import ('east'/'west'), or None for all
-            update_existing: Whether to update existing data or only add new
-            dry_run: If True, only simulate the import without making changes
+        Enhanced import_data method that includes corrections and additions
         """
         self.dry_run = dry_run
         self.db.connect()
@@ -140,11 +364,25 @@ class BerlinTransportImporter:
         # Create connections between stations
         if success and not self.dry_run:
             self.create_station_connections()
-            self.verify_data_import()
             
             # Apply corrections if requested
             if apply_corrections:
-                self.apply_station_corrections()
+                logger.info("Applying station corrections...")
+                corrections_applied = self.apply_station_corrections()
+                logger.info(f"Applied {corrections_applied} corrections")
+            
+            # Apply additions if requested
+            if apply_additions:
+                logger.info("Applying station additions...")
+                additions_applied = self.apply_station_additions()
+                logger.info(f"Applied {additions_applied} additions")
+            
+            # Recreate connections after additions (in case new stations were added)
+            if apply_additions and additions_applied > 0:
+                logger.info("Recreating station connections after additions...")
+                self.create_station_connections()
+            
+            self.verify_data_import()
         
         logger.info("Data import process completed")
         return success
@@ -883,7 +1121,13 @@ def main():
     
     # Import behavior options
     parser.add_argument("--skip-corrections", action="store_true",
-                   help="Skip applying station corrections from JSON file")
+                       help="Skip applying station corrections from JSON file")
+    parser.add_argument("--skip-additions", action="store_true",
+                       help="Skip applying station additions from JSON file")
+    parser.add_argument("--corrections-file", 
+                       help="Path to corrections JSON file (default: auto-detect)")
+    parser.add_argument("--additions-file",
+                       help="Path to additions JSON file (default: auto-detect)")
     parser.add_argument("--update-existing", action="store_true", 
                        help="Update existing data instead of only adding new data")
     parser.add_argument("--dry-run", action="store_true", 
@@ -911,6 +1155,12 @@ def main():
         password=args.password,
         data_dir=args.data_dir
     )
+
+        # Set custom file paths if provided
+    if args.corrections_file:
+        importer.corrections_file = Path(args.corrections_file)
+    if args.additions_file:
+        importer.additions_file = Path(args.additions_file)
     
     # Connect to database
     importer.db.connect()
@@ -937,7 +1187,8 @@ def main():
             sides=args.sides,
             update_existing=args.update_existing,
             dry_run=args.dry_run,
-            apply_corrections=not args.skip_corrections
+            apply_corrections=not args.skip_corrections,
+            apply_additions=not args.skip_additions
         )
         
         return 0 if success else 1

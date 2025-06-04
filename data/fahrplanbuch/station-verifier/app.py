@@ -1,4 +1,5 @@
 # station-verifier/app.py
+import datetime
 from flask import Flask, render_template, request, jsonify, send_from_directory
 import pandas as pd
 import json
@@ -271,21 +272,22 @@ def delete_station():
 
 @app.route('/add_station', methods=['POST'])
 def add_station():
-    """Add a new station with optional line connections"""
+    """Add a new station with proper line integration"""
     data = request.json
     year_side = data['year_side']
     station_data = {
         'name': data['name'],
         'type': data['type'],
         'latitude': data['latitude'],
-        'longitude': data['longitude']
+        'longitude': data['longitude'],
+        'source': data.get('source', 'User added')
     }
     
-    # Optional line connections
-    line_connections = data.get('line_connections', None)
+    # Handle line connections
+    line_connections = data.get('line_connections', [])
     
-    # Add to database
-    result = db.add_station(year_side, station_data, line_connections)
+    # Use the new method with proper line integration
+    result = db.add_station_with_line_integration(year_side, station_data, line_connections)
     
     return jsonify(result)
 
@@ -296,10 +298,176 @@ def export_corrections():
     with open(CORRECTIONS_FILE, 'r') as f:
         corrections = json.load(f)
     
-    # Update database with all corrections
     result = db.export_corrected_data(corrections)
     
     return jsonify(result)
+
+@app.route('/export_all_data')
+def export_all_data():
+    """Export all corrections and additions for backup/reapplication"""
+    try:
+        # Get corrections
+        with open(CORRECTIONS_FILE, 'r') as f:
+            corrections = json.load(f)
+        
+        # Get additions
+        additions = db.get_station_additions()
+        
+        # Get current database state for reference
+        db_export = db.export_all_corrections_and_sources()
+        
+        export_data = {
+            "export_timestamp": datetime.now().isoformat(),
+            "corrections": corrections,
+            "additions": additions,
+            "database_state": db_export,
+            "version": "1.0"
+        }
+        
+        # Save to file for backup
+        export_file = Path("corrections/full_export.json")
+        with open(export_file, 'w') as f:
+            json.dump(export_data, f, indent=2)
+        
+        return jsonify({
+            "status": "success",
+            "export_file": str(export_file),
+            "corrections_count": sum(len(stations) for stations in corrections.values()),
+            "additions_count": sum(len(stations) for stations in additions.values()),
+            "export_data": export_data
+        })
+        
+    except Exception as e:
+        return jsonify({
+            "status": "error",
+            "message": str(e)
+        }), 500
+
+@app.route('/get_line_details/<year_side>/<line_id>')
+def get_line_details(year_side, line_id):
+    """Get detailed information about a specific line for station insertion"""
+    try:
+        year, side = year_side.split('_')
+        
+        with db.driver.session() as session:
+            # Get line stops in order
+            result = session.run("""
+            MATCH (l:Line {line_id: $line_id})-[:IN_YEAR]->(y:Year {year: $year})
+            WHERE l.east_west = $side
+            MATCH (l)-[r:SERVES]->(s:Station)
+            RETURN s.stop_id as stop_id, s.name as name, r.stop_order as stop_order
+            ORDER BY r.stop_order
+            """, line_id=line_id, year=int(year), side=side)
+            
+            stops = [dict(record) for record in result]
+            
+            # Calculate possible insertion points
+            insertion_points = []
+            for i in range(len(stops) + 1):
+                if i == 0:
+                    description = f"Before {stops[0]['name']}" if stops else "First stop"
+                elif i == len(stops):
+                    description = f"After {stops[-1]['name']}"
+                else:
+                    description = f"Between {stops[i-1]['name']} and {stops[i]['name']}"
+                
+                insertion_points.append({
+                    "stop_order": i + 1,
+                    "description": description
+                })
+            
+            return jsonify({
+                "status": "success",
+                "line_id": line_id,
+                "stops": stops,
+                "insertion_points": insertion_points
+            })
+            
+    except Exception as e:
+        return jsonify({
+            "status": "error",
+            "message": str(e)
+        }), 500
+
+@app.route('/validate_station_position', methods=['POST'])
+def validate_station_position():
+    """Validate a proposed station position"""
+    data = request.json
+    year_side = data.get('year_side')
+    latitude = data.get('latitude')
+    longitude = data.get('longitude')
+    line_id = data.get('line_id')
+    
+    if not all([year_side, latitude, longitude]):
+        return jsonify({"status": "error", "message": "Missing required parameters"}), 400
+    
+    try:
+        # Check distance to nearby stations
+        nearby_stations = []
+        min_distance_threshold = 200  # meters
+        
+        year, side = year_side.split('_')
+        with db.driver.session() as session:
+            # Get all stations for this year/side
+            query = """
+            MATCH (s:Station)-[:IN_YEAR]->(y:Year {year: $year})
+            WHERE s.east_west = $side AND s.latitude IS NOT NULL AND s.longitude IS NOT NULL
+            """
+            
+            # If line_id is specified, focus on stations on that line
+            if line_id:
+                query += """
+                MATCH (l:Line {line_id: $line_id})-[:SERVES]->(s)
+                """
+                params = {"year": int(year), "side": side, "line_id": line_id}
+            else:
+                params = {"year": int(year), "side": side}
+            
+            query += """
+            RETURN s.stop_id as stop_id, s.name as name, s.type as type,
+                   s.latitude as lat, s.longitude as lng
+            """
+            
+            result = session.run(query, params)
+            
+            for record in result:
+                distance = db._calculate_distance(
+                    latitude, longitude,
+                    record['lat'], record['lng']
+                )
+                
+                if distance < min_distance_threshold:
+                    nearby_stations.append({
+                        "stop_id": record['stop_id'],
+                        "name": record['name'],
+                        "type": record['type'],
+                        "distance": distance,
+                        "coordinates": [record['lat'], record['lng']]
+                    })
+        
+        # Sort by distance
+        nearby_stations.sort(key=lambda x: x['distance'])
+        
+        warnings = []
+        if nearby_stations:
+            warnings.append({
+                "type": "nearby_stations",
+                "message": f"Proposed station is very close to {len(nearby_stations)} existing station(s)",
+                "stations": nearby_stations[:3]  # Show top 3 closest
+            })
+        
+        return jsonify({
+            "status": "success",
+            "position": {"latitude": latitude, "longitude": longitude},
+            "warnings": warnings,
+            "nearby_stations": nearby_stations
+        })
+        
+    except Exception as e:
+        return jsonify({
+            "status": "error",
+            "message": str(e)
+        }), 500
 
 @app.route('/get_corrections')
 def get_corrections():
