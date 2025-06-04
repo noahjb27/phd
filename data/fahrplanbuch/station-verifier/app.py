@@ -1,831 +1,382 @@
-# station-verifier/app.py
-import datetime
-from flask import Flask, render_template, request, jsonify, send_from_directory
-import pandas as pd
+# app.py - Refactored main application file
+from flask import Flask, render_template, request, jsonify
 import json
 import os
 from pathlib import Path
 from flask_cors import CORS
-import rasterio
-from db_connector import StationVerifierDB
+import logging
 
-app = Flask(__name__)
+# Import our modular services
+from data_handlers import DataHandler
+from station_manager import StationManager
+from validation_service import ValidationService
+from tile_service import TileService
 
-# Configuration
-DATA_DIR = Path("data")
-CORRECTIONS_DIR = Path("corrections")
-CORRECTIONS_FILE = CORRECTIONS_DIR / "station_corrections.json"
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
 
-# Create corrections directory if it doesn't exist
-CORRECTIONS_DIR.mkdir(exist_ok=True)
-
-# Initialize corrections file if it doesn't exist
-if not CORRECTIONS_FILE.exists():
-    with open(CORRECTIONS_FILE, 'w') as f:
-        json.dump({}, f)
-
-# Define tiles directory
-TILES_DIR = Path("tiles")
-TILES_DIR.mkdir(exist_ok=True)
-
-# Make sure the TIF files directory exists
-TIF_DIR = TILES_DIR / "tif"
-TIF_DIR.mkdir(parents=True, exist_ok=True)
-
-# Initialize database connection
-db = StationVerifierDB()
-
-CORS(app)
-
-@app.route('/')
-def index():
-    # Get list of all available year_side combinations from the database
-    year_sides = db.get_available_year_sides()
+def create_app():
+    """Application factory"""
+    app = Flask(__name__)
+    CORS(app)
     
-    return render_template('index.html', year_sides=year_sides)
+    # Configuration
+    app.config.update(
+        DATA_DIR=Path("data"),
+        CORRECTIONS_DIR=Path("corrections"),
+        TILES_DIR=Path("tiles"),
+        DB_URI=os.environ.get("NEO4J_URI", "bolt://100.82.176.18:7687"),
+        DB_USERNAME=os.environ.get("NEO4J_USERNAME", "neo4j"),
+        DB_PASSWORD=os.environ.get("NEO4J_PASSWORD", "BerlinTransport2024")
+    )
+    
+    # Ensure directories exist
+    for dir_path in [app.config['CORRECTIONS_DIR'], app.config['TILES_DIR']]:
+        dir_path.mkdir(exist_ok=True)
+    
+    # Initialize services
+    data_handler = DataHandler(app.config)
+    station_manager = StationManager(app.config)
+    validation_service = ValidationService(app.config)
+    tile_service = TileService(app.config)
+    
+    # Register routes
+    register_main_routes(app, data_handler)
+    register_data_routes(app, data_handler)
+    register_station_routes(app, station_manager)
+    register_validation_routes(app, validation_service)
+    register_tile_routes(app, tile_service)
+    
+    logger.info("Station Verifier application initialized successfully")
+    return app
 
-@app.route('/data/<year_side>')
-def get_year_side_data(year_side):
-    """Get all data for a specific year_side"""
-    
-    # Load corrected stations
-    corrections = {}
-    if CORRECTIONS_FILE.exists():
-        with open(CORRECTIONS_FILE, 'r') as f:
-            corrections = json.load(f)
-    
-    # Read data from database
-    try:
-        data = db.get_year_side_data(year_side)
-        stops_df = data["stops"]
-        lines_df = data["lines"]
-        
-        if stops_df.empty:
-            return jsonify({"error": f"No data found for {year_side}"}), 404
-        
-        # Apply corrections to stops dataframe (only for display, not modifying original)
-        stops_display = stops_df.copy()
-        for stop_id, correction in corrections.get(year_side, {}).items():
-            if stop_id in stops_display['stop_id'].values:
-                idx = stops_display.loc[stops_display['stop_id'] == stop_id].index[0]
-                stops_display.at[idx, 'latitude'] = correction['lat']
-                stops_display.at[idx, 'longitude'] = correction['lng']
-                if 'name' in correction:
-                    stops_display.at[idx, 'stop_name'] = correction['name']
-        
-        # Convert to GeoJSON for mapping
-        features = []
-        for _, row in stops_display.iterrows():
-            if pd.notna(row['latitude']) and pd.notna(row['longitude']):
-                try:
-                    lat, lng = float(row['latitude']), float(row['longitude'])
-                    feature = {
-                        "type": "Feature",
-                        "geometry": {
-                            "type": "Point",
-                            "coordinates": [lng, lat]  # GeoJSON uses [lng, lat] order
-                        },
-                        "properties": {
-                            "stop_id": row['stop_id'],
-                            "name": row['stop_name'],
-                            "type": row['type'],
-                            "line": row['line_name'],
-                            "source": row.get('source', 'Not specified'),  # Add source field
-                            "corrected": str(row['stop_id']) in corrections.get(year_side, {})
-                        }
-                    }
-                    features.append(feature)
-                except Exception as e:
-                    print(f"Error with stop {row['stop_id']}: {e}")
-        
-        # Get line data
-        lines = []
-        for _, row in lines_df.iterrows():
-            lines.append({
-                "line_id": row['line_id'],
-                "line_name": row['line_name'],
-                "type": row['type']
-            })
-            
-        return jsonify({
-            "geojson": {"type": "FeatureCollection", "features": features},
-            "lines": lines
-        })
-        
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-@app.route('/multi_data', methods=['POST'])
-def get_multiple_datasets():
-    """Get data for multiple year_sides with optional line filtering"""
-    # Get request data
-    data = request.json
-    year_sides = data.get('year_sides', [])
-    line_filters = data.get('line_filters', {})  # Dict mapping year_side to line_id
-    
-    if not year_sides:
-        return jsonify({"error": "No year_sides specified"}), 400
-    
-    # Load corrected stations
-    corrections = {}
-    if CORRECTIONS_FILE.exists():
-        with open(CORRECTIONS_FILE, 'r') as f:
-            corrections = json.load(f)
-    
-    # Process each year_side
-    result = {}
-    
-    for year_side in year_sides:
+# =============================================================================
+# MAIN ROUTES
+# =============================================================================
+def register_main_routes(app, data_handler):
+    @app.route('/')
+    def index():
+        """Main application page"""
         try:
-            # Get data from database
-            data = db.get_year_side_data(year_side)
-            stops_df = data["stops"]
-            lines_df = data["lines"]
-            line_stops_df = data["line_stops"]
-            
-            if stops_df.empty:
-                result[year_side] = {"error": f"No data found for {year_side}"}
-                continue
-            
-            # Apply line filter if specified
-            if year_side in line_filters and line_filters[year_side] != "all":
-                line_id = line_filters[year_side]
-                filtered_line_stops = line_stops_df[line_stops_df['line_id'] == line_id]
-                stops_df = stops_df[stops_df['stop_id'].isin(filtered_line_stops['stop_id'])]
-            
-            # Apply corrections to stops dataframe
-            stops_display = stops_df.copy()
-            for stop_id, correction in corrections.get(year_side, {}).items():
-                if stop_id in stops_display['stop_id'].values:
-                    idx = stops_display.loc[stops_display['stop_id'] == stop_id].index[0]
-                    stops_display.at[idx, 'latitude'] = correction['lat']
-                    stops_display.at[idx, 'longitude'] = correction['lng']
-                    if 'name' in correction:
-                        stops_display.at[idx, 'stop_name'] = correction['name']
-            
-            # Convert to GeoJSON for mapping
-            features = []
-            for _, row in stops_display.iterrows():
-                if pd.notna(row['latitude']) and pd.notna(row['longitude']):
-                    try:
-                        lat, lng = float(row['latitude']), float(row['longitude'])
-                        feature = {
-                            "type": "Feature",
-                            "geometry": {
-                                "type": "Point",
-                                "coordinates": [lng, lat]  # GeoJSON uses [lng, lat] order
-                            },
-                            "properties": {
-                                "stop_id": row['stop_id'],
-                                "name": row['stop_name'],
-                                "type": row['type'],
-                                "line": row['line_name'],
-                                "source": row.get('source', 'Not specified'),  # Add source field
-                                "year_side": year_side,  # Add year_side for identification
-                                "corrected": str(row['stop_id']) in corrections.get(year_side, {})
-                            }
-                        }
-                        features.append(feature)
-                    except Exception as e:
-                        print(f"Error with stop {row['stop_id']}: {e}")
-            
-            # Get line data
-            lines = []
-            for _, row in lines_df.iterrows():
-                lines.append({
-                    "line_id": row['line_id'],
-                    "line_name": row['line_name'],
-                    "type": row['type']
-                })
-                
-            result[year_side] = {
-                "geojson": {"type": "FeatureCollection", "features": features},
-                "lines": lines
-            }
-            
+            year_sides = data_handler.get_available_year_sides()
+            return render_template('index.html', year_sides=year_sides)
         except Exception as e:
-            result[year_side] = {"error": str(e)}
-    
-    return jsonify(result)
+            logger.error(f"Error loading main page: {e}")
+            return render_template('error.html', error=str(e)), 500
 
-@app.route('/save_correction', methods=['POST'])
-def save_correction():
-    """Save a station location and/or name correction"""
-    data = request.json
-    year_side = data['year_side']
-    stop_id = str(data['stop_id'])  # Ensure stop_id is a string
-    lat = data['lat']
-    lng = data['lng']
-    name = data.get('name')  # Optional name update
-    
-    # Load existing corrections
-    with open(CORRECTIONS_FILE, 'r') as f:
-        corrections = json.load(f)
-    
-    # Add or update correction
-    if year_side not in corrections:
-        corrections[year_side] = {}
-    
-    # Create or update the correction entry
-    if stop_id not in corrections[year_side]:
-        corrections[year_side][stop_id] = {}
-        
-    # Update coordinates
-    corrections[year_side][stop_id]["lat"] = lat
-    corrections[year_side][stop_id]["lng"] = lng
-    
-    # Update name if provided
-    if name is not None:
-        corrections[year_side][stop_id]["name"] = name
-    
-    # Save corrections
-    with open(CORRECTIONS_FILE, 'w') as f:
-        json.dump(corrections, f, indent=2)
-    
-    return jsonify({"status": "success"})
-
-@app.route('/delete_station', methods=['POST'])
-def delete_station():
-    """Delete a station and update line-station relationships"""
-    data = request.json
-    year_side = data['year_side']
-    stop_id = str(data['stop_id'])  # Ensure stop_id is a string
-    
-    # Delete from database
-    result = db.delete_station(stop_id, year_side)
-    
-    # If successful, also remove from corrections file if present
-    if result['status'] == 'success':
+# =============================================================================
+# DATA ROUTES
+# =============================================================================
+def register_data_routes(app, data_handler):
+    @app.route('/data/<year_side>')
+    def get_year_side_data(year_side):
+        """Get all data for a specific year_side"""
         try:
-            with open(CORRECTIONS_FILE, 'r') as f:
-                corrections = json.load(f)
-            
-            if year_side in corrections and stop_id in corrections[year_side]:
-                del corrections[year_side][stop_id]
-                
-                with open(CORRECTIONS_FILE, 'w') as f:
-                    json.dump(corrections, f, indent=2)
+            result = data_handler.get_year_side_data(year_side)
+            if "error" in result:
+                return jsonify(result), 404
+            return jsonify(result)
         except Exception as e:
-            print(f"Error removing deleted station from corrections: {e}")
-    
-    return jsonify(result)
+            logger.error(f"Error retrieving data for {year_side}: {e}")
+            return jsonify({"error": str(e)}), 500
 
-@app.route('/add_station', methods=['POST'])
-def add_station():
-    """Add a new station with proper line integration"""
-    data = request.json
-    year_side = data['year_side']
-    station_data = {
-        'name': data['name'],
-        'type': data['type'],
-        'latitude': data['latitude'],
-        'longitude': data['longitude'],
-        'source': data.get('source', 'User added')
-    }
-    
-    # Handle line connections
-    line_connections = data.get('line_connections', [])
-    
-    # Use the new method with proper line integration
-    result = db.add_station_with_line_integration(year_side, station_data, line_connections)
-    
-    return jsonify(result)
+    @app.route('/multi_data', methods=['POST'])
+    def get_multiple_datasets():
+        """Get data for multiple year_sides with optional line filtering"""
+        try:
+            data = request.json
+            if not data:
+                return jsonify({"error": "No data provided"}), 400
+            
+            year_sides = data.get('year_sides', [])
+            line_filters = data.get('line_filters', {})
+            
+            if not year_sides:
+                return jsonify({"error": "No year_sides specified"}), 400
+            
+            result = data_handler.get_multiple_datasets(year_sides, line_filters)
+            return jsonify(result)
+        except Exception as e:
+            logger.error(f"Error retrieving multiple datasets: {e}")
+            return jsonify({"error": str(e)}), 500
 
-@app.route('/export_corrections')
-def export_corrections():
-    """Export corrected data to Neo4j database"""
-    # Load corrections
-    with open(CORRECTIONS_FILE, 'r') as f:
-        corrections = json.load(f)
-    
-    result = db.export_corrected_data(corrections)
-    
-    return jsonify(result)
+    @app.route('/get_corrections')
+    def get_corrections():
+        """Get all corrections"""
+        try:
+            corrections = data_handler.get_corrections()
+            return jsonify(corrections)
+        except Exception as e:
+            logger.error(f"Error getting corrections: {e}")
+            return jsonify({}), 500
 
-@app.route('/export_all_data')
-def export_all_data():
-    """Export all corrections and additions for backup/reapplication"""
-    try:
-        # Get corrections
-        with open(CORRECTIONS_FILE, 'r') as f:
-            corrections = json.load(f)
-        
-        # Get additions
-        additions = db.get_station_additions()
-        
-        # Get current database state for reference
-        db_export = db.export_all_corrections_and_sources()
-        
-        export_data = {
-            "export_timestamp": datetime.now().isoformat(),
-            "corrections": corrections,
-            "additions": additions,
-            "database_state": db_export,
-            "version": "1.0"
-        }
-        
-        # Save to file for backup
-        export_file = Path("corrections/full_export.json")
-        with open(export_file, 'w') as f:
-            json.dump(export_data, f, indent=2)
-        
-        return jsonify({
-            "status": "success",
-            "export_file": str(export_file),
-            "corrections_count": sum(len(stations) for stations in corrections.values()),
-            "additions_count": sum(len(stations) for stations in additions.values()),
-            "export_data": export_data
-        })
-        
-    except Exception as e:
-        return jsonify({
-            "status": "error",
-            "message": str(e)
-        }), 500
+    @app.route('/export_corrections')
+    def export_corrections():
+        """Export corrected data to Neo4j database"""
+        try:
+            corrections = data_handler.get_corrections()
+            result = data_handler.export_corrections(corrections)
+            return jsonify(result)
+        except Exception as e:
+            logger.error(f"Error exporting corrections: {e}")
+            return jsonify({"status": "error", "message": str(e)}), 500
 
-@app.route('/get_line_details/<year_side>/<line_id>')
-def get_line_details(year_side, line_id):
-    """Get detailed information about a specific line for station insertion"""
-    try:
-        year, side = year_side.split('_')
-        
-        with db.driver.session() as session:
-            # Get line stops in order
-            result = session.run("""
-            MATCH (l:Line {line_id: $line_id})-[:IN_YEAR]->(y:Year {year: $year})
-            WHERE l.east_west = $side
-            MATCH (l)-[r:SERVES]->(s:Station)
-            RETURN s.stop_id as stop_id, s.name as name, r.stop_order as stop_order
-            ORDER BY r.stop_order
-            """, line_id=line_id, year=int(year), side=side)
+# =============================================================================
+# STATION MANAGEMENT ROUTES
+# =============================================================================
+def register_station_routes(app, station_manager):
+    @app.route('/add_station', methods=['POST'])
+    def add_station():
+        """Add a new station with proper line integration"""
+        try:
+            data = request.json
+            if not data:
+                return jsonify({"status": "error", "message": "No data provided"}), 400
             
-            stops = [dict(record) for record in result]
+            result = station_manager.add_station(data)
             
-            # Calculate possible insertion points
-            insertion_points = []
-            for i in range(len(stops) + 1):
-                if i == 0:
-                    description = f"Before {stops[0]['name']}" if stops else "First stop"
-                elif i == len(stops):
-                    description = f"After {stops[-1]['name']}"
-                else:
-                    description = f"Between {stops[i-1]['name']} and {stops[i]['name']}"
-                
-                insertion_points.append({
-                    "stop_order": i + 1,
-                    "description": description
-                })
-            
-            return jsonify({
-                "status": "success",
-                "line_id": line_id,
-                "stops": stops,
-                "insertion_points": insertion_points
-            })
-            
-    except Exception as e:
-        return jsonify({
-            "status": "error",
-            "message": str(e)
-        }), 500
-
-@app.route('/validate_station_position', methods=['POST'])
-def validate_station_position():
-    """Validate a proposed station position"""
-    data = request.json
-    year_side = data.get('year_side')
-    latitude = data.get('latitude')
-    longitude = data.get('longitude')
-    line_id = data.get('line_id')
-    
-    if not all([year_side, latitude, longitude]):
-        return jsonify({"status": "error", "message": "Missing required parameters"}), 400
-    
-    try:
-        # Check distance to nearby stations
-        nearby_stations = []
-        min_distance_threshold = 200  # meters
-        
-        year, side = year_side.split('_')
-        with db.driver.session() as session:
-            # Get all stations for this year/side
-            query = """
-            MATCH (s:Station)-[:IN_YEAR]->(y:Year {year: $year})
-            WHERE s.east_west = $side AND s.latitude IS NOT NULL AND s.longitude IS NOT NULL
-            """
-            
-            # If line_id is specified, focus on stations on that line
-            if line_id:
-                query += """
-                MATCH (l:Line {line_id: $line_id})-[:SERVES]->(s)
-                """
-                params = {"year": int(year), "side": side, "line_id": line_id}
+            # Return appropriate HTTP status based on result
+            if result["status"] == "success":
+                return jsonify(result), 201
             else:
-                params = {"year": int(year), "side": side}
-            
-            query += """
-            RETURN s.stop_id as stop_id, s.name as name, s.type as type,
-                   s.latitude as lat, s.longitude as lng
-            """
-            
-            result = session.run(query, params)
-            
-            for record in result:
-                distance = db._calculate_distance(
-                    latitude, longitude,
-                    record['lat'], record['lng']
-                )
+                return jsonify(result), 400
                 
-                if distance < min_distance_threshold:
-                    nearby_stations.append({
-                        "stop_id": record['stop_id'],
-                        "name": record['name'],
-                        "type": record['type'],
-                        "distance": distance,
-                        "coordinates": [record['lat'], record['lng']]
-                    })
-        
-        # Sort by distance
-        nearby_stations.sort(key=lambda x: x['distance'])
-        
-        warnings = []
-        if nearby_stations:
-            warnings.append({
-                "type": "nearby_stations",
-                "message": f"Proposed station is very close to {len(nearby_stations)} existing station(s)",
-                "stations": nearby_stations[:3]  # Show top 3 closest
-            })
-        
-        return jsonify({
-            "status": "success",
-            "position": {"latitude": latitude, "longitude": longitude},
-            "warnings": warnings,
-            "nearby_stations": nearby_stations
-        })
-        
-    except Exception as e:
-        return jsonify({
-            "status": "error",
-            "message": str(e)
-        }), 500
+        except Exception as e:
+            logger.error(f"Error adding station: {e}")
+            return jsonify({"status": "error", "message": "Internal server error"}), 500
 
-@app.route('/get_corrections')
-def get_corrections():
-    """Get all corrections"""
-    if CORRECTIONS_FILE.exists():
-        with open(CORRECTIONS_FILE, 'r') as f:
-            corrections = json.load(f)
-        return jsonify(corrections)
-    return jsonify({})
-
-# Keep the existing tile-related routes unchanged
-@app.route('/tiles/<path:filepath>')
-def serve_tile(filepath):
-    """Serve a tile from the tiles directory"""
-    return send_from_directory(str(TILES_DIR), filepath)
-
-@app.route('/available_tile_sets')
-def available_tile_sets():
-    """List all available tile sets"""
-    if not TILES_DIR.exists():
-        return jsonify([])
-    
-    tile_sets = []
-    
-    # Look for directories containing tile data (zoom level directories)
-    for item in os.listdir(TILES_DIR):
-        item_path = TILES_DIR / item
-        
-        # Skip the original TIF files or directories
-        if item.endswith(('.tif', '.tiff')) or item == "tif":
-            continue
+    @app.route('/delete_station', methods=['POST'])
+    def delete_station():
+        """Delete a station and update relationships"""
+        try:
+            data = request.json
+            if not data or 'stop_id' not in data or 'year_side' not in data:
+                return jsonify({"status": "error", "message": "Missing required fields"}), 400
             
-        if item_path.is_dir():
-            # Check if this looks like a valid tile directory (has zoom level subdirectories)
-            zoom_dirs = [d for d in os.listdir(item_path) if d.isdigit()]
+            result = station_manager.delete_station(
+                data['stop_id'], 
+                data['year_side']
+            )
             
-            if zoom_dirs:
-                tile_sets.append({
-                    "name": item,
-                    "url": f"/tiles/{item}/{{z}}/{{x}}/{{y}}.png",
-                    "zoom_levels": sorted([int(z) for z in zoom_dirs])
-                })
-    
-    return jsonify(tile_sets)
-
-@app.route('/list_tif_files')
-def list_tif_files():
-    """List all TIF files in the tiles/tif directory"""
-    tif_dir = TILES_DIR / "tif"
-    
-    if not tif_dir.exists():
-        return jsonify({"error": "Directory not found"}), 404
-    
-    tif_files = []
-    for item in os.listdir(tif_dir):
-        if item.lower().endswith(('.tif', '.tiff')):
-            tif_files.append(item)
-    
-    return jsonify({"tif_files": tif_files})
-
-@app.route('/process_tif/<filename>', methods=['POST'])
-def process_single_tif(filename):
-    """Process a single TIF file"""
-    from rasterio_tile_generator import generate_xyz_tiles_rasterio
-    
-    tif_path = TILES_DIR / "tif" / filename
-    
-    if not tif_path.exists():
-        return jsonify({"error": f"File not found: {filename}"}), 404
-    
-    output_dir = TILES_DIR / tif_path.stem
-    
-    success = generate_xyz_tiles_rasterio(
-        tiff_file=tif_path,
-        output_dir=output_dir,
-        min_zoom=10,
-        max_zoom=16
-    )
-    
-    if success:
-        return jsonify({
-            "status": "success",
-            "message": f"Tiles generated for {filename}",
-            "url": f"/tiles/{tif_path.stem}/{{z}}/{{x}}/{{y}}.png"
-        })
-    else:
-        return jsonify({"error": "Failed to generate tiles"}), 500
-
-@app.route('/process_all_tifs', methods=['POST'])
-def process_all_tifs():
-    """Process all TIF files in the tif directory"""
-    from rasterio_tile_generator import process_tif_directory
-    
-    # Make sure the directory exists
-    tif_dir = TILES_DIR / "tif"
-    if not tif_dir.exists() or not any(f.endswith(('.tif', '.tiff')) for f in os.listdir(tif_dir)):
-        return jsonify({
-            "status": "error",
-            "message": "No TIF files found in the tiles/tif directory. Please add TIF files first."
-        }), 400
-    
-    results = process_tif_directory(
-        base_dir=TILES_DIR / "tif",
-        output_base_dir=TILES_DIR,
-        min_zoom=10,
-        max_zoom=16
-    )
-    
-    success_count = sum(1 for result in results.values() if result["success"])
-    
-    return jsonify({
-        "status": "success",
-        "message": f"Processed {len(results)} files. {success_count} succeeded.",
-        "details": results
-    })
-
-@app.route('/save_source_correction', methods=['POST'])
-def save_source_correction():
-    """Save a station source correction"""
-    data = request.json
-    stop_id = str(data['stop_id'])  # Ensure stop_id is a string
-    source = data['source']
-    
-    if not source or not source.strip():
-        return jsonify({"status": "error", "message": "Source cannot be empty"}), 400
-    
-    # Update source in database
-    result = db.update_station_source(stop_id, source.strip())
-    
-    if result:
-        return jsonify({"status": "success"})
-    else:
-        return jsonify({"status": "error", "message": "Could not update station source"}), 500
-    
-@app.route('/save_name_correction', methods=['POST'])
-def save_name_correction():
-    """Save a station name correction"""
-    data = request.json
-    year_side = data['year_side']
-    stop_id = str(data['stop_id'])  # Ensure stop_id is a string
-    name = data['name']
-    
-    if not name or not name.strip():
-        return jsonify({"status": "error", "message": "Name cannot be empty"}), 400
-    
-    # Initialize corrections with an empty dict in case the file is empty or corrupted
-    corrections = {}
-    
-    # Load existing corrections with better error handling
-    try:
-        if CORRECTIONS_FILE.exists() and CORRECTIONS_FILE.stat().st_size > 0:
-            with open(CORRECTIONS_FILE, 'r') as f:
-                file_content = f.read()
-                if file_content.strip():  # Check if file is not just whitespace
-                    corrections = json.loads(file_content)
-    except json.JSONDecodeError as e:
-        # If JSON is invalid, log error and start fresh
-        print(f"Error reading corrections file: {e}")
-        corrections = {}
-    except Exception as e:
-        print(f"Unexpected error reading corrections file: {e}")
-        return jsonify({"status": "error", "message": f"Error reading corrections file: {str(e)}"}), 500
-    
-    # Add or update correction
-    if year_side not in corrections:
-        corrections[year_side] = {}
-    
-    # Create or update the correction entry
-    if stop_id not in corrections[year_side]:
-        corrections[year_side][stop_id] = {}
-        
-    # For name-only updates, preserve existing lat/lng if they exist
-    if 'lat' in corrections[year_side][stop_id] and 'lng' in corrections[year_side][stop_id]:
-        corrections[year_side][stop_id]["name"] = name
-    else:
-        # If no existing lat/lng, need to get current coordinates from the database
-        station_coords = db.get_station_coordinates(stop_id)
-        if station_coords:
-            corrections[year_side][stop_id]["lat"] = station_coords["latitude"]
-            corrections[year_side][stop_id]["lng"] = station_coords["longitude"]
-            corrections[year_side][stop_id]["name"] = name
-        else:
-            return jsonify({"status": "error", "message": "Could not find station coordinates"}), 404
-    
-    # Save corrections with error handling
-    try:
-        with open(CORRECTIONS_FILE, 'w') as f:
-            json.dump(corrections, f, indent=2)
-    except Exception as e:
-        print(f"Error saving corrections file: {e}")
-        return jsonify({"status": "error", "message": f"Error saving corrections: {str(e)}"}), 500
-    
-    return jsonify({"status": "success"})
-@app.route('/validate_distances', methods=['POST'])
-def validate_distances():
-    """Validate distances between adjacent stations"""
-    data = request.json
-    year_side = data.get('year_side')
-    line_id = data.get('line_id')  # Optional filter for specific line
-    
-    if not year_side:
-        return jsonify({"status": "error", "message": "year_side is required"}), 400
-    
-    try:
-        # Use the database connector to validate distances
-        issues = db.validate_station_distances(year_side, line_id)
-        
-        return jsonify({
-            "status": "success",
-            "issues": issues,
-            "year_side": year_side,
-            "line_id": line_id
-        })
-        
-    except Exception as e:
-        return jsonify({
-            "status": "error", 
-            "message": str(e)
-        }), 500
-    
-@app.route('/station_network_info/<year_side>')
-def get_station_network_info(year_side):
-    """Get detailed network information for a year_side including distances"""
-    try:
-        data = db.get_year_side_data(year_side)
-        
-        if data["stops"].empty:
-            return jsonify({"error": f"No data found for {year_side}"}), 404
-        
-        # Get distance validation results
-        distance_issues = db.validate_station_distances(year_side)
-        
-        # Get network statistics
-        year, side = year_side.split('_')
-        with db.driver.session() as session:
-            # Count total stations
-            station_count_result = session.run("""
-            MATCH (s:Station)-[:IN_YEAR]->(y:Year {year: $year})
-            WHERE s.east_west = $side
-            RETURN count(s) as total_stations
-            """, year=int(year), side=side)
-            
-            total_stations = station_count_result.single()["total_stations"]
-            
-            # Count total connections
-            connection_count_result = session.run("""
-            MATCH (s1:Station)-[:IN_YEAR]->(y:Year {year: $year})
-            WHERE s1.east_west = $side
-            MATCH (s1)-[c:CONNECTS_TO]->(s2:Station)
-            MATCH (s2)-[:IN_YEAR]->(y)
-            WHERE s2.east_west = $side
-            RETURN count(c) as total_connections
-            """, year=int(year), side=side)
-            
-            total_connections = connection_count_result.single()["total_connections"]
-            
-            # Get average distance
-            avg_distance_result = session.run("""
-            MATCH (s1:Station)-[:IN_YEAR]->(y:Year {year: $year})
-            WHERE s1.east_west = $side
-            MATCH (s1)-[c:CONNECTS_TO]->(s2:Station)
-            MATCH (s2)-[:IN_YEAR]->(y)
-            WHERE s2.east_west = $side AND c.distance_meters IS NOT NULL
-            RETURN avg(c.distance_meters) as avg_distance
-            """, year=int(year), side=side)
-            
-            avg_distance_record = avg_distance_result.single()
-            avg_distance = avg_distance_record["avg_distance"] if avg_distance_record else None
-            
-            # Count stations by type
-            type_count_result = session.run("""
-            MATCH (s:Station)-[:IN_YEAR]->(y:Year {year: $year})
-            WHERE s.east_west = $side
-            RETURN s.type as type, count(s) as count
-            ORDER BY count DESC
-            """, year=int(year), side=side)
-            
-            type_counts = [dict(record) for record in type_count_result]
-        
-        return jsonify({
-            "year_side": year_side,
-            "statistics": {
-                "total_stations": total_stations,
-                "total_connections": total_connections,
-                "average_distance_meters": int(avg_distance) if avg_distance else None,
-                "station_types": type_counts
-            },
-            "distance_validation": {
-                "total_issues": len(distance_issues),
-                "issues_by_severity": {
-                    "error": len([i for i in distance_issues if i.get('severity') == 'error']),
-                    "warning": len([i for i in distance_issues if i.get('severity') == 'warning']),
-                    "info": len([i for i in distance_issues if i.get('severity') == 'info'])
-                },
-                "issues": distance_issues
-            }
-        })
-        
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-@app.route('/check_station_position', methods=['POST'])
-def check_station_position():
-    """Check if a proposed station position would cause distance issues"""
-    data = request.json
-    year_side = data.get('year_side')
-    latitude = data.get('latitude')
-    longitude = data.get('longitude')
-    line_id = data.get('line_id')  # Optional - check only against stations on this line
-    
-    if not all([year_side, latitude, longitude]):
-        return jsonify({"status": "error", "message": "year_side, latitude, and longitude are required"}), 400
-    
-    try:
-        # Get existing stations for this year_side
-        station_data = db.get_year_side_data(year_side)
-        
-        nearby_stations = []
-        min_distance_threshold = 200  # meters
-        
-        for _, station in station_data["stops"].iterrows():
-            if pd.notna(station['latitude']) and pd.notna(station['longitude']):
-                distance = db._calculate_distance(
-                    latitude, longitude,
-                    station['latitude'], station['longitude']
-                )
+            if result["status"] == "success":
+                return jsonify(result)
+            else:
+                return jsonify(result), 400
                 
-                if distance < min_distance_threshold:
-                    nearby_stations.append({
-                        "stop_id": station['stop_id'],
-                        "name": station['stop_name'],
-                        "type": station['type'],
-                        "distance": distance,
-                        "coordinates": [station['latitude'], station['longitude']]
-                    })
-        
-        # Sort by distance
-        nearby_stations.sort(key=lambda x: x['distance'])
-        
-        warnings = []
-        if nearby_stations:
-            warnings.append({
-                "type": "nearby_stations",
-                "message": f"Proposed station is very close to {len(nearby_stations)} existing station(s)",
-                "stations": nearby_stations
-            })
-        
-        return jsonify({
-            "status": "success",
-            "position": {"latitude": latitude, "longitude": longitude},
-            "warnings": warnings,
-            "nearby_stations": nearby_stations
-        })
-        
-    except Exception as e:
-        return jsonify({
-            "status": "error",
-            "message": str(e)
-        }), 500
+        except Exception as e:
+            logger.error(f"Error deleting station: {e}")
+            return jsonify({"status": "error", "message": "Internal server error"}), 500
+
+    @app.route('/save_correction', methods=['POST'])
+    def save_correction():
+        """Save a station location correction"""
+        try:
+            data = request.json
+            if not data:
+                return jsonify({"status": "error", "message": "No data provided"}), 400
+            
+            required_fields = ['year_side', 'stop_id', 'lat', 'lng']
+            for field in required_fields:
+                if field not in data:
+                    return jsonify({"status": "error", "message": f"Missing field: {field}"}), 400
+            
+            result = station_manager.save_location_correction(
+                data['year_side'],
+                data['stop_id'],
+                data['lat'],
+                data['lng']
+            )
+            return jsonify(result)
+            
+        except Exception as e:
+            logger.error(f"Error saving correction: {e}")
+            return jsonify({"status": "error", "message": "Internal server error"}), 500
+
+    @app.route('/save_name_correction', methods=['POST'])
+    def save_name_correction():
+        """Save a station name correction"""
+        try:
+            data = request.json
+            if not data:
+                return jsonify({"status": "error", "message": "No data provided"}), 400
+            
+            required_fields = ['year_side', 'stop_id', 'name']
+            for field in required_fields:
+                if field not in data:
+                    return jsonify({"status": "error", "message": f"Missing field: {field}"}), 400
+            
+            result = station_manager.save_name_correction(
+                data['year_side'],
+                data['stop_id'],
+                data['name']
+            )
+            return jsonify(result)
+            
+        except Exception as e:
+            logger.error(f"Error saving name correction: {e}")
+            return jsonify({"status": "error", "message": "Internal server error"}), 500
+
+    @app.route('/save_source_correction', methods=['POST'])
+    def save_source_correction():
+        """Save a station source correction"""
+        try:
+            data = request.json
+            if not data:
+                return jsonify({"status": "error", "message": "No data provided"}), 400
+            
+            if 'stop_id' not in data or 'source' not in data:
+                return jsonify({"status": "error", "message": "Missing required fields"}), 400
+            
+            result = station_manager.save_source_correction(
+                data['stop_id'],
+                data['source']
+            )
+            return jsonify(result)
+            
+        except Exception as e:
+            logger.error(f"Error saving source correction: {e}")
+            return jsonify({"status": "error", "message": "Internal server error"}), 500
+
+    @app.route('/get_line_details/<year_side>/<line_id>')
+    def get_line_details(year_side, line_id):
+        """Get detailed information about a specific line for station insertion"""
+        try:
+            result = station_manager.get_line_details(year_side, line_id)
+            return jsonify(result)
+        except Exception as e:
+            logger.error(f"Error getting line details: {e}")
+            return jsonify({"status": "error", "message": "Internal server error"}), 500
+
+# =============================================================================
+# VALIDATION ROUTES
+# =============================================================================
+def register_validation_routes(app, validation_service):
+    @app.route('/validate_distances', methods=['POST'])
+    def validate_distances():
+        """Validate distances between adjacent stations"""
+        try:
+            data = request.json
+            if not data:
+                return jsonify({"status": "error", "message": "No data provided"}), 400
+            
+            result = validation_service.validate_station_distances(
+                data.get('year_side'),
+                data.get('line_id')
+            )
+            return jsonify(result)
+            
+        except Exception as e:
+            logger.error(f"Error validating distances: {e}")
+            return jsonify({"status": "error", "message": "Internal server error"}), 500
+
+    @app.route('/validate_station_position', methods=['POST'])
+    def validate_station_position():
+        """Validate a proposed station position"""
+        try:
+            data = request.json
+            if not data:
+                return jsonify({"status": "error", "message": "No data provided"}), 400
+            
+            result = validation_service.validate_position(
+                data.get('year_side'),
+                data.get('latitude'),
+                data.get('longitude'),
+                data.get('line_id')
+            )
+            return jsonify(result)
+            
+        except Exception as e:
+            logger.error(f"Error validating position: {e}")
+            return jsonify({"status": "error", "message": "Internal server error"}), 500
+
+# =============================================================================
+# TILE SERVICE ROUTES
+# =============================================================================
+def register_tile_routes(app, tile_service):
+    @app.route('/tiles/<path:filepath>')
+    def serve_tile(filepath):
+        """Serve a tile from the tiles directory"""
+        return tile_service.serve_tile(filepath)
+
+    @app.route('/available_tile_sets')
+    def available_tile_sets():
+        """List all available tile sets"""
+        try:
+            tile_sets = tile_service.get_available_tile_sets()
+            return jsonify(tile_sets)
+        except Exception as e:
+            logger.error(f"Error getting tile sets: {e}")
+            return jsonify([]), 500
+
+    @app.route('/list_tif_files')
+    def list_tif_files():
+        """List all TIF files in the tiles/tif directory"""
+        try:
+            result = tile_service.list_tif_files()
+            if "error" in result:
+                return jsonify(result), 404
+            return jsonify(result)
+        except Exception as e:
+            logger.error(f"Error listing TIF files: {e}")
+            return jsonify({"error": "Internal server error"}), 500
+
+    @app.route('/process_tif/<filename>', methods=['POST'])
+    def process_single_tif(filename):
+        """Process a single TIF file"""
+        try:
+            result = tile_service.process_single_tif(filename)
+            if result["status"] == "success":
+                return jsonify(result)
+            else:
+                return jsonify(result), 400
+        except Exception as e:
+            logger.error(f"Error processing TIF {filename}: {e}")
+            return jsonify({"status": "error", "message": "Internal server error"}), 500
+
+    @app.route('/process_all_tifs', methods=['POST'])
+    def process_all_tifs():
+        """Process all TIF files in the tif directory"""
+        try:
+            result = tile_service.process_all_tifs()
+            return jsonify(result)
+        except Exception as e:
+            logger.error(f"Error processing all TIFs: {e}")
+            return jsonify({"status": "error", "message": "Internal server error"}), 500
+
+    @app.route('/tile_set_info/<tile_set_name>')
+    def get_tile_set_info(tile_set_name):
+        """Get detailed information about a tile set"""
+        try:
+            result = tile_service.get_tile_set_info(tile_set_name)
+            return jsonify(result)
+        except Exception as e:
+            logger.error(f"Error getting tile set info: {e}")
+            return jsonify({"status": "error", "message": "Internal server error"}), 500
+
+# =============================================================================
+# ERROR HANDLERS
+# =============================================================================
+def register_error_handlers(app):
+    @app.errorhandler(404)
+    def not_found(error):
+        return jsonify({"error": "Not found"}), 404
+
+    @app.errorhandler(400)
+    def bad_request(error):
+        return jsonify({"error": "Bad request"}), 400
+
+    @app.errorhandler(500)
+    def internal_error(error):
+        logger.error(f"Internal server error: {error}")
+        return jsonify({"error": "Internal server error"}), 500
+
+# Create the application
+app = create_app()
+register_error_handlers(app)
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=5000)
