@@ -6,3 +6,5 @@ node_modules/
 .pdf
 .venv/
 logs/
+.env.local
+.package-lock.json
