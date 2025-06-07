@@ -1,4 +1,3 @@
-// components/common/Footer.tsx
 import React from 'react';
 import Link from 'next/link';
 import { Mail, Map } from 'lucide-react';
@@ -17,12 +16,20 @@ const Footer: React.FC = () => {
       ]
     },
     {
+      title: 'Current Work',
+      links: [
+        { label: 'Graph-RAG Project', href: '/current-work/graph-rag' },
+        { label: 'Conferences', href: '/current-work/conferences' },
+        { label: 'Presentations', href: '/current-work/presentations' },
+      ]
+    },
+    {
       title: 'Resources',
       links: [
-        { label: 'About', href: '/about' },
         { label: 'Data Sources', href: '/sources' },
         { label: 'Methodology', href: '/methodology' },
-        { label: 'API', href: '/api-docs' },
+        { label: 'API Docs', href: '/api-docs' },
+        { label: 'Citations', href: '/citations' },
       ]
     },
     {
@@ -31,33 +38,32 @@ const Footer: React.FC = () => {
         { label: 'Impressum', href: '/impressum' },
         { label: 'Privacy Policy', href: '/privacy' },
         { label: 'Terms of Use', href: '/terms' },
-        { label: 'Citations', href: '/citations' },
       ]
     },
   ];
 
   return (
-    <footer className="bg-gray-900 text-gray-300">
+    <footer className="relative z-10 bg-gray-950/50 backdrop-blur-sm text-gray-300 border-t border-gray-700/50">
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
           {/* Project Info */}
-          <div className="space-y-4">
-            <h2 className="text-xl font-bold text-white">Berlin Public Transport History</h2>
-            <p className="text-sm text-gray-400">
+          <div className="md:col-span-1 space-y-4">
+            <h2 className="text-xl font-bold text-white">Berlin Transport History</h2>
+            <p className="text-sm text-gray-400 leading-relaxed">
               A digital history project exploring Berlin's public transportation system from 1945-1989.
             </p>
             <div className="flex space-x-4">
               <a 
-                href="mailto:contact@project.com"
-                className="text-gray-400 hover:text-white transition-colors"
+                href="mailto:noah.baumann@yahoo.de"
+                className="text-gray-400 hover:text-blue-400 transition-colors"
                 aria-label="Email"
               >
                 <Mail className="h-5 w-5" />
               </a>
               <Link
-                href="/map"
-                className="text-gray-400 hover:text-white transition-colors"
+                href="/visualizations"
+                className="text-gray-400 hover:text-purple-400 transition-colors"
                 aria-label="Interactive Map"
               >
                 <Map className="h-5 w-5" />
@@ -67,7 +73,7 @@ const Footer: React.FC = () => {
 
           {/* Navigation Sections */}
           {sections.map((section) => (
-            <div key={section.title}>
+            <div key={section.title} className="md:col-span-1">
               <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
                 {section.title}
               </h3>
@@ -76,7 +82,7 @@ const Footer: React.FC = () => {
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="text-sm text-gray-400 hover:text-white transition-colors"
+                      className="text-sm text-gray-400 hover:text-white transition-colors hover:bg-gradient-to-r hover:from-blue-600/10 hover:to-purple-600/10 px-2 py-1 rounded -mx-2"
                     >
                       {link.label}
                     </Link>
@@ -96,7 +102,7 @@ const Footer: React.FC = () => {
                 href="https://www.hu-berlin.de/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-300"
+                className="text-blue-400 hover:text-blue-300 transition-colors"
               >
                 Humboldt University of Berlin
               </a>

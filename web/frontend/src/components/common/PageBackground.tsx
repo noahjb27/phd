@@ -1,50 +1,72 @@
-// components/common/PageBackground.tsx
 import React from 'react';
 
-const TransitPattern = () => (
-  <div className="absolute inset-0 w-full h-full opacity-[0.03] pointer-events-none">
-    <div className="relative w-full h-full">
-      <svg className="absolute w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+const TransportNetworkBackground: React.FC = () => {
+  return (
+    <div className="fixed inset-0 pointer-events-none z-0 opacity-5">
+      <svg 
+        className="w-full h-full" 
+        xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 100 100"
+        preserveAspectRatio="xMidYMid slice"
+      >
         <defs>
-          <pattern id="transit-grid" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+          <pattern 
+            id="transport-network" 
+            x="0" 
+            y="0" 
+            width="20" 
+            height="20" 
+            patternUnits="userSpaceOnUse"
+          >
+            {/* Station dots */}
+            <circle cx="5" cy="5" r="0.5" fill="currentColor" opacity="0.6"/>
+            <circle cx="15" cy="5" r="0.5" fill="currentColor" opacity="0.6"/>
+            <circle cx="5" cy="15" r="0.5" fill="currentColor" opacity="0.6"/>
+            <circle cx="15" cy="15" r="0.5" fill="currentColor" opacity="0.6"/>
+            <circle cx="10" cy="10" r="0.8" fill="currentColor" opacity="0.8"/>
+            
+            {/* Connection lines */}
             {/* Horizontal lines */}
-            <path d="M0 20 H100" stroke="currentColor" strokeWidth="0.5" fill="none" opacity="0.3"/>
-            <path d="M0 80 H100" stroke="currentColor" strokeWidth="0.5" fill="none" opacity="0.3"/>
+            <line x1="5" y1="5" x2="15" y2="5" stroke="currentColor" strokeWidth="0.2" opacity="0.4"/>
+            <line x1="5" y1="15" x2="15" y2="15" stroke="currentColor" strokeWidth="0.2" opacity="0.4"/>
             
             {/* Vertical lines */}
-            <path d="M20 0 V100" stroke="currentColor" strokeWidth="0.5" fill="none" opacity="0.3"/>
-            <path d="M80 0 V100" stroke="currentColor" strokeWidth="0.5" fill="none" opacity="0.3"/>
+            <line x1="5" y1="5" x2="5" y2="15" stroke="currentColor" strokeWidth="0.2" opacity="0.4"/>
+            <line x1="15" y1="5" x2="15" y2="15" stroke="currentColor" strokeWidth="0.2" opacity="0.4"/>
             
-            {/* Diagonal "routes" */}
-            <path d="M0 0 L100 100" stroke="currentColor" strokeWidth="1" fill="none" opacity="0.2"/>
-            <path d="M100 0 L0 100" stroke="currentColor" strokeWidth="1" fill="none" opacity="0.2"/>
+            {/* Diagonal connections to center */}
+            <line x1="5" y1="5" x2="10" y2="10" stroke="currentColor" strokeWidth="0.15" opacity="0.3"/>
+            <line x1="15" y1="5" x2="10" y2="10" stroke="currentColor" strokeWidth="0.15" opacity="0.3"/>
+            <line x1="5" y1="15" x2="10" y2="10" stroke="currentColor" strokeWidth="0.15" opacity="0.3"/>
+            <line x1="15" y1="15" x2="10" y2="10" stroke="currentColor" strokeWidth="0.15" opacity="0.3"/>
             
-            {/* "Stations" */}
-            <circle cx="20" cy="20" r="2" fill="currentColor" opacity="0.4"/>
-            <circle cx="80" cy="80" r="2" fill="currentColor" opacity="0.4"/>
-            <circle cx="20" cy="80" r="2" fill="currentColor" opacity="0.4"/>
-            <circle cx="80" cy="20" r="2" fill="currentColor" opacity="0.4"/>
+            {/* Some curved "metro" lines */}
+            <path 
+              d="M 0 10 Q 10 5 20 10" 
+              stroke="currentColor" 
+              strokeWidth="0.3" 
+              fill="none" 
+              opacity="0.3"
+            />
+            <path 
+              d="M 10 0 Q 15 10 10 20" 
+              stroke="currentColor" 
+              strokeWidth="0.3" 
+              fill="none" 
+              opacity="0.3"
+            />
           </pattern>
         </defs>
-        <rect width="100" height="100" fill="url(#transit-grid)"/>
+        
+        <rect 
+          width="100%" 
+          height="100%" 
+          fill="url(#transport-network)" 
+          className="text-blue-400"
+        />
       </svg>
     </div>
-  </div>
-);
-
-const PageBackground: React.FC = () => {
-  return (
-    <>
-      {/* Background Pattern */}
-      <TransitPattern />
-      
-      {/* Gradient overlay */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-5">
-        <div className="absolute -right-1/4 -top-1/4 w-1/2 h-1/2 bg-blue-200 rounded-full blur-3xl" />
-        <div className="absolute -left-1/4 -bottom-1/4 w-1/2 h-1/2 bg-purple-200 rounded-full blur-3xl" />
-      </div>
-    </>
   );
 };
 
-export default PageBackground;
+export default TransportNetworkBackground;
