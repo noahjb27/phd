@@ -367,11 +367,20 @@ class StationVerifierDB:
                                     props_record["next_lat"], props_record["next_lng"]
                                 )
                                 
-                                # Merge line information
-                                combined_line_ids = list(set((r1.get("line_ids", []) + r2.get("line_ids", []))))
-                                combined_line_names = list(set((r1.get("line_names", []) + r2.get("line_names", []))))
-                                combined_capacities = list(set((r1.get("capacities", []) + r2.get("capacities", []))))
-                                combined_frequencies = list(set((r1.get("frequencies", []) + r2.get("frequencies", []))))
+                                # Safely merge line information - handle None values
+                                r1_line_ids = r1.get("line_ids", []) if r1.get("line_ids") else []
+                                r2_line_ids = r2.get("line_ids", []) if r2.get("line_ids") else []
+                                r1_line_names = r1.get("line_names", []) if r1.get("line_names") else []
+                                r2_line_names = r2.get("line_names", []) if r2.get("line_names") else []
+                                r1_capacities = r1.get("capacities", []) if r1.get("capacities") else []
+                                r2_capacities = r2.get("capacities", []) if r2.get("capacities") else []
+                                r1_frequencies = r1.get("frequencies", []) if r1.get("frequencies") else []
+                                r2_frequencies = r2.get("frequencies", []) if r2.get("frequencies") else []
+                                
+                                combined_line_ids = list(set(r1_line_ids + r2_line_ids))
+                                combined_line_names = list(set(r1_line_names + r2_line_names))
+                                combined_capacities = list(set(r1_capacities + r2_capacities))
+                                combined_frequencies = list(set(r1_frequencies + r2_frequencies))
                                 
                                 # Create new CONNECTS_TO relationship
                                 create_connection_query = """
@@ -388,9 +397,14 @@ class StationVerifierDB:
                                     r.hourly_services = $hourly_services
                                 """
                                 
-                                # Calculate hourly values
-                                total_hourly_capacity = sum(cap * (60 / freq) for cap, freq in zip(combined_capacities, combined_frequencies) if freq > 0)
-                                total_hourly_services = sum(60 / freq for freq in combined_frequencies if freq > 0)
+                                # Calculate hourly values safely
+                                total_hourly_capacity = 0
+                                total_hourly_services = 0
+                                
+                                for cap, freq in zip(combined_capacities, combined_frequencies):
+                                    if freq and freq > 0:
+                                        total_hourly_capacity += cap * (60 / freq)
+                                        total_hourly_services += 60 / freq
                                 
                                 session.run(create_connection_query,
                                         prev_id=prev_station,
@@ -428,7 +442,9 @@ class StationVerifierDB:
                                             line_id=line_id,
                                             stop_order=stop_order)
                     
-                    updated_count = update_result.single()['updated_count'] if update_result.single() else 0
+                    # FIX: Store single() result in variable first
+                    update_record = update_result.single()
+                    updated_count = update_record['updated_count'] if update_record else 0
                     
                     updated_relationships.append({
                         'line_id': line_id,
@@ -446,7 +462,9 @@ class StationVerifierDB:
                 """
 
                 rel_result = session.run(delete_relationships_query, stop_id=stop_id)
-                deleted_rel_count = rel_result.single()['deleted_rel_count'] if rel_result.single() else 0
+                # FIX: Store single() result in variable first
+                rel_record = rel_result.single()
+                deleted_rel_count = rel_record['deleted_rel_count'] if rel_record else 0
 
                 # Step 6: Delete the station itself
                 delete_station_query = """
@@ -456,7 +474,9 @@ class StationVerifierDB:
                 """
                 
                 station_result = session.run(delete_station_query, stop_id=stop_id)
-                deleted_count = station_result.single()['deleted'] if station_result.single() else 0
+                # FIX: Store single() result in variable first
+                station_record = station_result.single()
+                deleted_count = station_record['deleted'] if station_record else 0
                 
                 return {
                     "status": "success" if deleted_count > 0 else "error",
@@ -468,7 +488,11 @@ class StationVerifierDB:
                 
         except Exception as e:
             logger.error(f"Error deleting station {stop_id}: {e}")
+            import traceback
+            logger.error(f"Traceback: {traceback.format_exc()}")
             return {"status": "error", "message": str(e)}
+
+
 
     @staticmethod
     def _calculate_distance(lat1, lon1, lat2, lon2):
