@@ -1,0 +1,145 @@
+line_id,year,line_name,type,start_stop,length (time),length (km),east_west,frequency (7:30)
+19561,1956,1,tram,Schillingbrücke (Ostbahnhof)<> Am Kupfergraben,33,7.66,unified,20.0
+19562,1956,2,tram,"Wienerstr., Spreewaldplatz<> Bernauerstr. Ecke Wollinerstr.",70,,unified,15.0
+19563,1956,3,tram,Mühlenstr.<> Björnsonstr.,45,12.09,unified,12.0
+19564,1956,3,tram,"Neukölln, Hermannplatz<> Grüntalerstr. Ecke Osloerstr.",81,,unified,10.0
+19565,1956,4,tram,Mühlenstr.<> Oderbergerstr.,27,6.32,unified,5.0
+19566,1956,6,tram,Bhf. Zoo<> Elsenstr. Ecke Heidelbergerstr.,58,,unified,10.0
+19567,1956,11,tram,Köpenickerstr. Ecke Adalbertstr.<> Hannoverschestr.,23,5.43,unified,20.0
+19568,1956,13,tram,"Klingenberg, Blockdammweg<> Oderbergerstr.",37,9.91,unified,15.0
+19569,1956,15,tram,Daimlerstr.<> Schulenburgpark,36,,unified,15.0
+195610,1956,22,tram,Bhf. Rosenthal<> Elisabethstr.,49,11.65,unified,12.0
+195611,1956,23,tram,"Bhf. Wollankstr.<> Moabit, Zwinglistr.",29,,unified,15.0
+195612,1956,24,tram,Bhf. Wollankstr.<> Bernauerstr. Ecke Wollinerstr.,14,,unified,15.0
+195613,1956,25,tram,"Tegel, Alt-Tegel<> Schöneberg, Gotenstr.",77,,unified,15.0
+195614,1956,26,tram,"Spreewaldplatz<> Tempelhof, Industriestr.",31,,unified,15.0
+195615,1956,27,tram,"Neukölln, Hermannplatz<> Buckow, Alt-Buckow",26,,unified,10.0
+195616,1956,28,tram,"Tegelort, Kurzestr.<> Rügenesrstr. Ecke Brunnenstr.",59,,unified,20.0
+195617,1956,29,tram,"Heiligensee, Dorfaue<> Rügenerstr. Ecke Brunnenstr.",57,,unified,20.0
+195618,1956,35,tram,"Siemensstradt, Nonnendammallee<> Reinickendorf, Teichstr. Ecke Humboldtstr.",48,,unified,15.0
+195619,1956,36,tram,Bhf. Wilhelmsruh<> Rügenerstr. Ecke Brunnenstr.,20,,unified,15.0
+195620,1956,40,tram,"Dahlem, Clayallee<> Steglitz, Birkbuschstr. Ecke Siemensstr.",20,,unified,15.0
+195621,1956,41,tram,"Tegel, Alt-Tegel<> Bernauerstr. Ecke Wollinerstr.",44,,unified,15.0
+195622,1956,44,tram,"Sandkrugbrücke, Lehrter Bahnhof<> Birkbuschstr. Ecke Siemensstr.",56,,unified,15.0
+195623,1956,46,tram,"Niederschönhausen, Schillerstr.<> Am Kupfergraben",49,11.75,unified,12.0
+195624,1956,47,tram,"Hermannplatz<> Rudow, Bahnhofstr.",34,,unified,10.0
+195625,1956,49,tram,Buchholz<> Große Präsidentenstr.,42,10.38,unified,16.0
+195626,1956,51,tram,"Roseneck, Grunewald<> Bhf. Zoo",23,,unified,20.0
+195627,1956,54,tram,"Spandau, Johannesstift<> Bhf. Zoo",51,,unified,15.0
+195628,1956,55,tram,"Spandau, Nauenerstr.<> Bhf. Zoo",48,,unified,12.0
+195629,1956,60,tram,Königin-Elisabethstr. Ecke Kaiserdamm<> Lindenhof Eythstr.,49,,unified,15.0
+195630,1956,63,tram,"Hohenschönhausen, Gartenstadt<> Große Präsidentenstr.",41,10.16,unified,20.0
+195631,1956,64,tram,"Hohenschönhausen, Falkenbergerstr.<> Dönhoffplatz, Krausenstr.",39,12.08,unified,20.0
+195632,1956,66,tram,Belzigerstr. Ecke Martin-Lutherstr.<> Thorwaldsenstr. Ecke Grazerdamm,12,,unified,10.0
+195633,1956,68,tram,"Bhf. Wittenau, Nordbahn, Cyclopstr.<> Nettelbeckplatz",27,,unified,15.0
+195634,1956,69,tram,"Johannisthal, Haeckelstr.<> Walter-Ulbricht-Stadion",79,21.39,unified,20.0
+195635,1956,70,tram,"Hohenschönhausen, Falkenbergerstr.<> Clara-Zetkinstr. Ecke Neue Wilhelmstr.",52,12.43,unified,12.0
+195636,1956,71,tram,"Heinersdorf, Romain-Rollandstr.<> Jüdenstr., Berliner Rathaus",31,7.56,unified,10.0
+195637,1956,72,tram,"Weißensee, Rennbahnstr. Ecke Parkstr.<> Charlottenstr. Ecke Taubenstr.",42,10.39,unified,10.0
+195638,1956,73,tram,"Bhf. Lichterfelde-Ost<> Potsdamerplatz, Linkstr.",41,,unified,20.0
+195639,1956,74,tram,"Lichtefelde, Finckensteinallee<> Potsdamerplatz, Linkstr.",38,,unified,20.0
+195640,1956,74,tram,"Wießensee, Rennbahnstr. Ecke Parkstr.<> Charlottenstr. Ecke Taubenstr.",38,9.4,unified,6.0
+195641,1956,75,tram,"Bhf. Zoo, Kantstr.<> Hakenfelde",59,,unified,10.0
+195642,1956,77,tram,"Bhf. Zoo<> Lichterfelde, Goerzallee",45,,unified,20.0
+195643,1956,78,tram,Bhf. Zoo<> Lindenstr.,44,,unified,20.0
+195644,1956,82,tram,"Dönhoffplatz, Krausenstr.<> Köpenick, Hirtestr.",73,21.53,unified,20.0
+195645,1956,83,tram,Wendenschloß Ecke Ekhofstr.<> S-Bhf. Mahlsdorf,47,12.23,unified,20.0
+195646,1956,84,tram,"Altglienicke, Am Falkenberg<> Friedrichshagen, Wasserwerk",52,13.6,unified,20.0
+195647,1956,86,tram,"Alt-Schmöckwitz<> Mahlsdorf-Süd, Hubertus",53,16.17,unified,20.0
+195648,1956,87,tram,Rahnsdorf<> Wiener Brücke,73,21.58,unified,20.0
+195649,1956,88,tram,Stadtpark<> Wiener Brücke,45,,unified,15.0
+195650,1956,91,tram,"Treptow, Spreeterrassen<> Johannisthal, Haeckelstr.",23,6.33,unified,20.0
+195651,1956,92,tram,"Treptow, Flutgraben<> Oberspree",28,8.21,unified,20.0
+195652,1956,94,tram,"Oranienplatz, Dresdenerstr.<> Neukölln, Schulenburgpark",20,,unified,15.0
+195653,1956,95,tram,Attilaplatz<> Sonnenallee Ecke Schwarzerweg,42,,unified,15.0
+195654,1956,95,tram,"Baumschulenweg, Sonnenallee<> Köpenick, Krankenhaus",37,10.95,unified,20.0
+195655,1956,96,tram,"U-Bhf. Tempelhof<> Lichterfelde-Süd, Schwelmerstr.",32,,unified,15.0
+195656,1956,96,tram,"Machnower Schleuse<> Teltow, Paul-Gerhardtstr.",24,6.96,unified,20.0
+195657,1956,98,tram,Mehringplatz (Hallesches Tor)<> Daimlerstr. Ecke Birnhornweg,35,,unified,15.0
+195658,1956,99,tram,"Lindenstr., Jerusalemer Kirche<> Bhf. Lichtenrade",49,,unified,15.0
+195659,1956,A I,u-bahn,Pankow (Vinetastr.)<> Ruhleben,50,,unified,10.0
+195660,1956,A II,u-bahn,Kottbusser Tor<> Krumme Lanke,38,,unified,10.0
+195661,1956,A III,u-bahn,Deutsches Opernhaus (Bismarckstr.)<> Richard-Wagner-Platz,1,,unified,10.0
+195662,1956,A1,autobus,"Moabit, Waldstr.<> Goerzallee Ecke Wismarerstr.",57,,unified,15.0
+195663,1956,A10,autobus,"Haselhorst, Kirche<> Zehlendorf, Andreezeile Ecke Sachtlebenstr.",58,,unified,15.0
+195664,1956,A11,autobus,Saargemünderstr.<> Hildburghauserstr. Ecke Sonderhauserstr.,26,,unified,5.0
+195665,1956,A12,autobus,"U-Bhf. Seestr.<> Frohnau, Invalidensiedlung",44,,unified,10.0
+195666,1956,A12S,autobus,U-Bhf. Seestr.<> Bhf. Frohnau,34,,unified,10.0
+195667,1956,A13,autobus,"Spandau, Weinmeisterhornweg<> Bhf. Tegel",45,,unified,15.0
+195668,1956,A14,autobus,"Osloerstr. Ecke Schwedenstr.<> Heiligensee, Hennigsdorferstr. Ecke Mattenbuder Pfad",44,,unified,20.0
+195669,1956,A15,autobus,Bhf. Wittenau<> Bhf. Frohnau,38,,unified,15.0
+195670,1956,A16,autobus,"U-Bhf. Seestr.<> Englerallee, Breitenbachplatz",39,,unified,6.0
+195671,1956,A17,autobus,"Bhf. Grunewald<> Lichterfelde, Saaleckplatz",46,,unified,10.0
+195672,1956,A18,autobus,Saargemünderstr.<> Kohlhasenbrück,30,,unified,7.0
+195673,1956,A19,autobus,"Roseneck, Grunewald<> Tempelhof, Flughafen",38,,unified,10.0
+195674,1956,A2,autobus,"Am Knie<> Lankwitz, Trippsteinstr.",40,,unified,10.0
+195675,1956,A20,autobus,"Bhf. Tegel<> Lübars, Alt-Lübars",20,,unified,15.0
+195676,1956,A21,autobus,Wentowsteig Ecke Wilhelmsruherdamm<> U-Bhf. Fehrbellinerplatz,50,,unified,10.0
+195677,1956,A22,autobus,"Hessenwinkel, Lindenstr.<> Fichtenau, Stadtgrenze",25,8.4,unified,20.0
+195678,1956,A23,autobus,"Altglienicke, Kirche<> Altglienicke, Kirche",15,3.5,unified,20.0
+195679,1956,A24,autobus,"Moabit, Wiebestr. Strassenbahnhof<> Tempelhof, Flughafen",37,,unified,7.0
+195680,1956,A25,autobus,Unionplatz<> Grünerweg Ecke Buschkrugallee,57,,unified,10.0
+195681,1956,A27,autobus,"S-Bhf. Kaulsdorf, Planitzstr.<> Alt-Müggelheim",47,16.0,unified,10.0
+195682,1956,A28,autobus,Loewenhardtdamm Ecke Boelckestr.<> Schlesischestr. Ecke Heckmannufer,27,,unified,7.0
+195683,1956,A29,autobus,Roseneck<> Anhalter Bhf.,30,,unified,10.0
+195684,1956,A3,autobus,"Rathaus Zehlendorf<> Stölpchensee, Wilhelmplatz",39,,unified,10.0
+195685,1956,A3E,autobus,"Saargemünderstr.<> Lichterfelde, Osteweg",11,,unified,30.0
+195686,1956,A31,autobus,"Gartenstadt, Staaken, Heidelbergplan<> Bhf. Spandau",20,,unified,15.0
+195687,1956,A32 (Obus),autobus,Breitenbachplatz<> Bhf. Marienfelde,28,,unified,5.0
+195688,1956,A33 (Obus),autobus,"Bhf. Steglitz<> Mariendorf, Kaiserstr. Ecke Mariendorferdamm",15,,unified,10.0
+195689,1956,A34,autobus,"Spandau, Friedhof<> Groß-Glienicke, Gutshof",45,,unified,30.0
+195690,1956,A35,autobus,"Germersheimerplatz<> Kladow, Hottengrund (Stadtgrenze)",38,,unified,30.0
+195691,1956,A36,autobus,"S-Bhf. Grünau<> Schönefeld, Dorfplatz",21,6.2,unified,40.0
+195692,1956,A37,autobus,"Bhf. Lichtenberg<> Alt-Marzahn, Kirche",26,,unified,10.0
+195693,1956,A38,autobus,Waltersdorf<> S-Bhf. Grünau,18,6.7,unified,10.0
+195694,1956,A39,autobus,"Wartenberg, Siedlung<> Hohenschönhausen, Falkenbergerstr.",13,4.2,unified,15.0
+195695,1956,A4,autobus,Brixplatz<> Finowstr. Ecke Sonnenallee,54,,unified,12.0
+195696,1956,A41,autobus,"Leninallee Ecke Dimitroffstr.<> Marzahn, Bürknersfelde",19,,unified,15.0
+195697,1956,A42,autobus,"Buch, Zepernickerstr.<> Ostseestr. Ecke Prenzlauerallee",41,12.1,unified,15.0
+195698,1956,A43,autobus,Bürknersfelde<> U-Bhf. Friedrichsfelde,19,6.2,unified,20.0
+195699,1956,A44,autobus,"Hönow, Dorfstr.<> S-Bhf. Mahlsdorf",13,4.3,unified,20.0
+1956100,1956,A44E,autobus,Greifswalderstr.<> S-Bhf. Mahlsdorf,10,,unified,20.0
+1956101,1956,A45,autobus,"Wilhelmsruh, Fontanestr.<> Weißensee, Feldmannstr.",45,,unified,7.0
+1956102,1956,A46,autobus,"Ahrensfeld, Lindenbergerstr.<> Malchow, Dorfstr.",34,,unified,15.0
+1956103,1956,A47,autobus,"Bhf. Schöneweide<> S-Bhf. Baumschulenweg, Glanzstr.",16,,unified,15.0
+1956104,1956,A48,autobus,"Potsdamerstr. Ecke Fischerhüttenstr.<> Potsdamer Brücke, Am Karlsbad",35,,unified,10.0
+1956105,1956,A49,autobus,"Kaulsdorf, Bausdorfstr.<> Kaulsdorf, Hönowerstr. Ecke Bausdorfstr.",14,,unified,20.0
+1956106,1956,A5,autobus,"Machandelweg Ecke Charlottenburgerchaussee<> Spandau, Waldkrankenhaus",26,,unified,10.0
+1956107,1956,A50,autobus,"Emserplatz, Pfalzburgerstr.<> Roseneck, Rheinbabenallee, Grunewald",12,,unified,10.0
+1956108,1956,A51,autobus,Bhf. Wannsee<> Krankenhaus Heckeshorn,10,,unified,50.0
+1956109,1956,A52,autobus,"Alt-Marienfelde Ecke Marienfelderallee<> Rudow, Kanalstr. Ecke Mimosenweg",38,,unified,30.0
+1956110,1956,A55,autobus,"Wilhelmsruh, Fontanestr.<> Weißensee, Schwarzelfenweg",41,,unified,15.0
+1956111,1956,A6,autobus,Bhf. Wannsee<> Glienicker Brücke,13,,unified,60.0
+1956112,1956,A7,autobus,"Glienicke, Kirche<> U-Bhf. Vinetastr.",43,,unified,20.0
+1956113,1956,A8,autobus,Waldesruh<> U-Bhf. Friedrichsfelde,35,12.0,unified,12.0
+1956114,1956,A82P,autobus,Kinderheim<> Markgrafendamm,5,,unified,20.0
+1956115,1956,A9,autobus,"Scharnhorststr., Volkspolizeikrankenhaus<> Arnsalderplatz, Dimitroffstr.",26,7.1,unified,12.0
+1956116,1956,AL,autobus,"Lindenberg<> Malchow, Dorfstr.",8,,unified,80.0
+1956117,1956,AN,autobus,"Bhf. Hohen Neuendorf<> Glienicke, Elsässerstr.",28,,unified,20.0
+1956118,1956,B I,u-bahn,Warschauer Brücke<> Uhlandstr.,23,,unified,10.0
+1956119,1956,B II,u-bahn,Nollendorfplatz<> Innsbruckerplatz (Hauptstr.),6,,unified,5.0
+1956120,1956,C I,u-bahn,Kurt-Schumacher-Platz<> Grenzallee,34,,unified,5.0
+1956121,1956,C II,u-bahn,Mehringdamm<> Tempelhof (Südring),5,,unified,5.0
+1956122,1956,D,u-bahn,Gesundbrunnen<> Leinestr.,23,,unified,5.0
+1956123,1956,E,u-bahn,Alexanderplatz<> Friedrichsfelde (Tierpark),17,,unified,5.0
+1956124,1956,KBS 100,s-bahn,Gesundbrunnen<> Gesundbrunnen,0,,unified,0.0
+1956125,1956,KBS 100a,s-bahn,Westend<> Grünau,0,,unified,0.0
+1956126,1956,KBS 100b,s-bahn,Blankenburg<> Warschauerstr.,0,,unified,0.0
+1956127,1956,KBS 100c,s-bahn,Gesundbrunnen<> Warschauerstr.,0,,unified,0.0
+1956128,1956,KBS 100d,s-bahn,Jungfernheide<> Gartenfeld,0,,unified,0.0
+1956129,1956,KBS 101,s-bahn,Staaken<> Strausberg,0,,unified,0.0
+1956130,1956,KBS 101a,s-bahn,Strausberg<> Strausberg Nord,0,,unified,0.0
+1956131,1956,KBS 102,s-bahn,Potsdam<> Erkner,0,,unified,0.0
+1956132,1956,KBS 103,s-bahn,Falkensee<> Königs Wusterhausen,0,,unified,0.0
+1956133,1956,KBS 103a,s-bahn,Spandau West<> Spindlersfeld,0,,unified,0.0
+1956134,1956,KBS 104,s-bahn,Oranienburg<> Wannsee,0,,unified,0.0
+1956135,1956,KBS 104a,s-bahn,Zehlendorf<> Düppel-Kleinmachnow,0,,unified,0.0
+1956136,1956,KBS 104b,s-bahn,Wannsee<> Stahnsdorf,0,,unified,0.0
+1956137,1956,KBS 105,s-bahn,Velten (Mark)<> Rangsdorf,0,,unified,0.0
+1956138,1956,KBS 106,s-bahn,Bernau (b Bln)<> Teltow,0,,unified,0.0
+1956139,1956,O30,omnibus,Klosterstr.<> Klosterstr.,72,18.9,unified,20.0
+1956140,1956,O37,omnibus,Bürknersfelde<> Bhf. Lichtenberg,0,10.0,unified,0.0
+1956141,1956,O40,omnibus,Ostbahnhof<> Robert-Koch-Platz,23,6.3,unified,12.0
+1956142,1956,O41,omnibus,Bürknersfelde<> Dimitroffstr.,18,6.2,unified,10.0
+1956143,1956,Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt),ferry,Kladow<> Wannsee,20,,unified,60.0
+1956144,1956,Wendenschloß<>Grünau,ferry,Wendenschloß<> Grünau,0,,unified,20.0

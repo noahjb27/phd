@@ -1,0 +1,72 @@
+line_id,year,line_name,type,start_stop,length (time),length (km),east_west,frequency (7:30),profile,capacity
+19611_east,1961,1,tram,Ostbahnhof<> Am Kupfergraben,39,,east,20.0,,195
+19612_east,1961,3,tram,Warschauerstr.<> Björnsonstr.,46,,east,12.0,,195
+19613_east,1961,4,tram,Warschauerstr.<> Eberswalderstr. Ecke Oderbergerstr.,25,,east,8.0,,195
+19614_east,1961,11,tram,Heinrich-Heinestr.<> Hannoverschestr.,19,,east,20.0,,195
+19615_east,1961,13,tram,"Klingenberg, Blockdammweg<> U-Bhf. Dimitroffstr.",35,,east,8.0,,195
+19616_east,1961,22,tram,Bhf. Rosenthal<> Elisabethstr.,48,,east,12.0,,195
+19617_east,1961,46,tram,"Niederschönhausen, Schillerstr.<> Am Kupfergraben",52,,east,12.0,,195
+19618_east,1961,49,tram,"Buchholz, Hauptstr.<> Hackescher Markt, Große Präsidentenstr.",41,,east,15.0,,195
+19619_east,1961,63,tram,"Hohenschönhausen, Gartenstadt<> Hackescher Markt, Große Präsidentenstr.",36,,east,20.0,,195
+196110_east,1961,64,tram,"Hohenschönhausen, Falkenbergerstr.<> Dönhoffplatz",27,,east,20.0,,195
+196111_east,1961,69,tram,"Johannisthal, Haeckelstr.<> Bhf. Siegfriedstr.",40,,east,10.0,,195
+196112_east,1961,70,tram,"Hohenschönhausen, Falkenbergerstr.<> Am Kupfergraben",49,,east,12.0,,195
+196113_east,1961,71,tram,"Heinersdorf, Romain-Rollandstr.<> Alexanderplatz, Grunerstr.",32,,east,10.0,,195
+196114_east,1961,72,tram,"Weißensee, Pasedagplatz<> Taubenstr.",44,,east,12.0,,195
+196115_east,1961,74,tram,"Weißensee, Pasedagplatz<> Leipzigerstr. Ecke Wilhelmstr.",39,,east,8.0,,195
+196116_east,1961,74E,tram,Klement-Gottwald-Allee Ecke Rennbahnstr.<> Spittelmarkt,31,,east,8.0,,195
+196117_east,1961,82,tram,"Mahlsdorf-Süd, Hubertus<> Alexanderplatz, Elisabethstr.",64,,east,20.0,,195
+196118_east,1961,83,tram,Wendenschloß Ecke Ekhofstr.<> S-Bhf. Mahlsdorf,50,,east,20.0,,195
+196119_east,1961,84,tram,"Altglienicke, Am Falkenberg<> Friedrichshagen, Wasserwerk",52,,east,20.0,,195
+196120_east,1961,86,tram,"Alt-Schmöckwitz<> Mahlsdorf-Süd, Hubertus",43,,east,20.0,,195
+196121_east,1961,87,tram,Rahnsdorf<> Wiener Brücke,69,,east,20.0,,195
+196122_east,1961,92,tram,"Oberspree, Bruno-Bürgel-Weg<> Wiener Brücke",30,,east,20.0,,195
+196123_east,1961,95,tram,Krankenhaus Köpenick<> S-Bhf. Baumschulenweg,33,,east,20.0,,195
+196124_east,1961,95P,tram,S-Bhf. Baumschulenweg<> Sonnenallee,3,,east,20.0,,195
+196125_east,1961,A22,autobus,"Hessenwinkel, Lindenstr.<> Fichtenau, Stadtgrenze",29,,east,20.0,,0
+196126_east,1961,A23,autobus,"Altglienicke, Kirche<> Altglienicke, Kirche",13,,east,20.0,,0
+196127_east,1961,A26,autobus,VEB Bautransporte<> Bhf. Schöneweide,5,,east,15.0,,0
+196128_east,1961,A27,autobus,"S-Bhf. Kaulsdorf, Planitzstr.<> Müggelheim",43,,east,10.0,,0
+196129_east,1961,A38,autobus,Waltersdorf<> S-Bhf. Grünau,18,,east,20.0,,0
+196130_east,1961,A39,autobus,"Wartenberg, Siedlung<> Hohenschönhausen, Falkenbergerstr.",13,,east,16.0,,0
+196131_east,1961,A42,autobus,"Buch, Kiesgruben<> Prenzlauer Promenade (Spitze)",31,,east,12.0,,0
+196132_east,1961,A43,autobus,Bürknersfelde<> U-Bhf. Friedrichsfelde,19,,east,20.0,,0
+196133_east,1961,A44,autobus,"Hönow, Dorfstr.<> S-Bhf. Mahlsdorf",13,,east,13.0,,0
+196134_east,1961,A44E,autobus,Greifswalderstr.<> S-Bhf. Mahlsdorf,8,,east,10.0,,0
+196135_east,1961,A45,autobus,"Wilhelmsruh, Fontanestr.<> Weißensee, Schwarzelfenweg",42,,east,23.0,,0
+196136_east,1961,A46,autobus,"Ahrensfeld, Kirche<> Malchow, Dorfstr.",30,,east,15.0,,0
+196137_east,1961,A47,autobus,Bhf. Schöneweide<> S-Bhf. Treptower Park,26,,east,15.0,,0
+196138_east,1961,A49,autobus,"Kaulsdorf, Bausdorfstr.<> Kaulsdorf, Bausdorfstr.",14,,east,20.0,,0
+196139_east,1961,A55,autobus,"Wilhelmsruh, Fontanestr.<> Weißensee, Liebermannstr. Ecke Piesporterstr.",42,,east,20.0,,0
+196140_east,1961,A56,autobus,"Weißensee, Nüßlerstr.<> Hamburgerplatz",13,,east,15.0,,0
+196141_east,1961,A57,autobus,Kniprodestr. Ecke Ermländischestr.<> Scharnhorststr.,24,,east,7.0,,0
+196142_east,1961,A7,autobus,"Glienicke, Kirche<> U-Bhf. Vinetastr.",37,,east,10.0,,0
+196143_east,1961,A8,autobus,"Waldesruh, Malhlsdorferallee<> U-Bhf. Friedrichsfelde",36,,east,8.0,,0
+196144_east,1961,A8E,autobus,Sadowastr.<> U-Bhf. Friedrichsfelde,24,,east,11.0,,0
+196145_east,1961,A82P,autobus,Kinderheim<> Markgrafendamm,5,,east,20.0,,0
+196146_east,1961,A9,autobus,Kurischestr.<> Scharnhorststr. Ecke Kielerstr.,27,,east,6.0,,0
+196147_east,1961,Flughafen Schönefeld <> Strausberger Platz,autobus,Flughafen Schönefeld<> Strausbergerplatz,45,,east,10.0,,0
+196148_east,1961,AD/36,autobus,"Diepensee, Flughafen<> S-Bhf. Grünau",27,,east,7.0,,0
+196149_east,1961,AL,autobus,"Neu-Lindenberg<> Malchow, Dorfstr.",15,,east,45.0,,0
+196150_east,1961,AZ,autobus,Groß Ziethen<> S-Bhf. Grünau,36,,east,60.0,,0
+196151_east,1961,A,u-bahn,Pankow (Vinetastr.)<> Thälmannplatz,19,,east,2.0,Kleinprofil,750
+196152_east,1961,E,u-bahn,Alexanderplatz<> Friedrichsfelde (Tierpark),16,,east,5.0,Großprofil,1000
+196153_east,1961,KBS 101,s-bahn,Friedrichstr.<> Strausberg,0,,east,0.0,,1100
+196154_east,1961,KBS 101c,s-bahn,Strausberg<> Strausberg Nord,0,,east,0.0,,1100
+196155_east,1961,KBS 102,s-bahn,Potsdam<> Griebnitzsee,0,,east,0.0,,1100
+196156_east,1961,KBS 102,s-bahn,Friedrichstr.<> Erkner,0,,east,0.0,,1100
+196157_east,1961,KBS 103,s-bahn,Falkensee<> Albrechtshof,0,,east,0.0,,1100
+196158_east,1961,KBS 103,s-bahn,Friedrichstr.<> Königs Wusterhausen,0,,east,0.0,,1100
+196159_east,1961,KBS 103a,s-bahn,Greifswalderstr.<> Spindlersfeld,0,,east,0.0,,1100
+196160_east,1961,KBS 104,s-bahn,Oranienburg<> Hohen-Neuendorf (b Bln),0,,east,0.0,,1100
+196161_east,1961,KBS 105,s-bahn,Velten (Mark)<> Hennigsdorf (b Bln),0,,east,0.0,,1100
+196162_east,1961,KBS 105,s-bahn,Mahlow<> Rangsdorf,0,,east,0.0,,1100
+196163_east,1961,KBS 106,s-bahn,Bernau (b Bln)<> Grünau,0,,east,0.0,,1100
+196164_east,1961,O30,omnibus,Kosterstr.<> Klosterstr.,72,,east,20.0,,0
+196165_east,1961,O37,omnibus,Dimitroffstr. Ecke Leninallee<> Bhf. Lichtenberg,46,,east,20.0,,0
+196166_east,1961,O40,omnibus,Ostbahnhof<> Robert-Koch-Platz,23,,east,10.0,,0
+196167_east,1961,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",autobus,"S-Bhf. Friedrichshagen<> Rüdersdorf, Karl-Marx-Platz",40,,east,20.0,,0
+196168_east,1961,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse (VEB Woltersdorf),autobus,S-Bhf. Rahnsdorf<> Woltersdorfer Schleuse,22,,east,20.0,,0
+196169_east,1961,Schmöckwitz<>Eichwalde (VEB Kraftverkehr Schöneiche-Rüdersdorf),autobus,Alt-Schmöckwitz<> Bhf. Eichwalde,14,,east,60.0,,0
+196170_east,1961,"S-Bhf. Grünau <> Potsdam, Bassinplatz (VEB Potsdam-Babelsberg)",autobus,"S-Bhf. Grünau<> Potsdam, Bassinplatz",49,,east,30.0,,0
+196171_east,1961,Schmöckwitz<>Ziegenhals (VEB Kraftverkehr Schöneiche-Rüdersdorf),autobus,"Reifenwerk<> Ziegenhals, VA Dienststelle",19,,east,56.0,,0

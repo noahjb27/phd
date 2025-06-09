@@ -1,0 +1,116 @@
+line_id,year,line_name,type,start_stop,length (time),length (km),east_west,frequency (7:30)
+19511,1951,1,tram,Hallesches Tor (Stresemannstr.)<> Charlottenstr. Ecke Unter den Linden,0,,unified,12.0
+19512,1951,2,tram,Werftstr. Ecke Alt-Moabit<> Mansteinstr. (Bhf. Großgörschenstr.),0,,unified,15.0
+19513,1951,3,tram,Osloerstr. Ecke Grüntalerstr.<> Hermannplatz,0,,unified,15.0
+19514,1951,3,tram,"Osloerstr. Ecke Grüntalerstr.<> Treptow, Elsenstr.",0,,unified,20.0
+19515,1951,4,tram,Strelitzerstr. Ecke Bernauerstr.<> Schlesisches Tor,0,,unified,12.0
+19516,1951,6,tram,Kurfürstendamm Ecke Joachimstalerstr.<> Elsenstr. Ecke Heidelbergerstr.,0,,unified,15.0
+19517,1951,13,tram,Kraftwerk Klingenberg<> Leninallee Ecke Dimitroffstr.,0,,unified,16.0
+19518,1951,14,tram,Bersarinplatz<> Scheffelstr. Ecke Möllendorferstr.,0,,unified,17.0
+19519,1951,15,tram,"Marienfelde, Daimlerstr.<> Neukölln, Schulenburgpark",0,,unified,15.0
+195110,1951,21,tram,"Moabit, Wiebestr.<> Friesenstr. Ecke Schwiebusserstr.",0,,unified,115.0
+195111,1951,23,tram,"Rosenthal, Quickbornerstr.<> Augustenburgerplatz (Virchow-Krankenhaus)",0,,unified,15.0
+195112,1951,24,tram,"Buchholz, Hauptstr.<> Bhf. Gesundbrunnen",0,,unified,15.0
+195113,1951,25,tram,"Tegel, Alt-Tegel<> Schöneberg, Gotenstr.",0,,unified,15.0
+195114,1951,26,tram,"Görlitzer Bhf., Spreewaldplatz<> Wilhelm-Borgmann Brücke",0,,unified,15.0
+195115,1951,27,tram,"Neukölln, Hermannplatz<> Buckow-West, Alt-Buckow",0,,unified,15.0
+195116,1951,28,tram,"Tegelort, Kurzestr.<> Rügenesrstr. Ecke Brunnenstr.",0,,unified,30.0
+195117,1951,29,tram,"Heiligensee, Dorfaue<> Rügenesrstr. Ecke Brunnenstr.",0,,unified,30.0
+195118,1951,35,tram,"Siemensstadt (Verwaltungsgebäude)<> Wilhelmsruh, Hauptstr.",0,,unified,15.0
+195119,1951,36,tram,"Wilhelmsruh, Hauptstr.<> Rügenerstr. Ecke Brunnenstr.",0,,unified,15.0
+195120,1951,40,tram,"Dahlem, Clayallee<> Steglitz, Birkbuschstr. Ecke Siemensstr.",0,,unified,15.0
+195121,1951,41,tram,"Tegel, Alt-Tegel<> Rügenerstr. Ecke Brunnenstr.",0,,unified,15.0
+195122,1951,44,tram,"Sandkrugbrücke, Lehrter Bahnhof<> Birkbuschstr. Ecke Siemensstr.",0,,unified,17.0
+195123,1951,46,tram,"Nordend, Kaiser-Wilhelmstr.<> Dönhoffplatz",0,,unified,15.0
+195124,1951,47,tram,"Hermannplatz<> Rudow, Stadtgrenze",0,,unified,12.0
+195125,1951,49,tram,"Buchholz, Hauptstr.<> Große Präsidentenstr.",0,,unified,15.0
+195126,1951,51,tram,Roseneck<> Bhf. Zoo,0,,unified,15.0
+195127,1951,54,tram,"Spandau, Johannesstift<> U-Bhf. Richard-Wagner-Platz, Wintersteinstr.",0,,unified,20.0
+195128,1951,55,tram,"Spandau, Nauenerstr.<> Kurfürstendamm V. Marmorhaus",0,,unified,15.0
+195129,1951,57,tram,Emserplatz<> Roseneck,0,,unified,10.0
+195130,1951,60,tram,"Königin-Elisabethstr. Ecke Kaiserdamm<> Lindenhof, Eythstr.",0,,unified,15.0
+195131,1951,64,tram,"Hohenschönhausen, Falkenbergerstr.<> Dönhoffplatz, Krausenstr.",0,,unified,15.0
+195132,1951,65,tram,"Hackescher Markt<> Loeperplatz, Scheffelstr.",0,,unified,15.0
+195133,1951,66,tram,"Schöneberg, Belzigerstr. (Straßenbahnhof)<> Schöneberg, Thorwaldsenstr. (August-Viktoria-Krankenhaus",0,,unified,15.0
+195134,1951,68,tram,"Wittenau, Nordbahn<> Nettelbeckplatz",0,,unified,15.0
+195135,1951,69,tram,Hackescher Markt<> Wilhelminenhofstr. Ecke Edisonstr.,0,,unified,16.0
+195136,1951,70,tram,"Weißensee, Buschallee<> Kupfergraben",0,,unified,12.0
+195137,1951,71,tram,"Heinersdorf, Helgestr.<> Jüdenstr., Rathaus",0,,unified,10.0
+195138,1951,72,tram,"Weißensee, Rennbahnstr. Ecke Parkstr.<> Charlottenstr. Ecke Taubenstr.",0,,unified,10.0
+195139,1951,73,tram,"Bhf. Lichterfelde-Ost<> Rennbahnstr., Weißensee",0,,unified,20.0
+195140,1951,74,tram,"Lichtefelde, Finckensteinallee<> Rennbahnstr., Weißensee",0,,unified,20.0
+195141,1951,75,tram,Spandau Hakenfelde<> Bhf. Zoo,0,,unified,10.0
+195142,1951,76,tram,Hundekehle über Königsallee<> Anhalter Bhf.,0,,unified,20.0
+195143,1951,76E,tram,Hundekehlenstr. Ecke Teplitzerstr.<> Nollendorfplatz,0,,unified,15.0
+195144,1951,77,tram,"Bhf. Zoo<> Lichterfelde, Goerzallee",0,,unified,20.0
+195145,1951,78,tram,"Lichterfelde-Süd, Lindenstr.<> Bhf. Zoo",0,,unified,15.0
+195146,1951,82,tram,Breitestr. Ecke Mühlendamm<> Alt-Stralau,0,,unified,20.0
+195147,1951,83,tram,Wendenschloß Ecke Ekhofstr.<> S-Bhf. Mahlsdorf,0,,unified,25.0
+195148,1951,84,tram,"Bhf. Friedrichshagen<> Alt-Glienicke, Am Falkenberg",0,,unified,20.0
+195149,1951,86,tram,"Mahlsdorf-Süd, Hubertus<> Alt-Schmöckwitz",0,,unified,20.0
+195150,1951,87,tram,"Dönhoffplatz, Krausenstr.<> Rahnsdorf (Mühle)",0,,unified,25.0
+195151,1951,88,tram,"Steglitz, Stadtpark<> Wiener Brücke",0,,unified,15.0
+195152,1951,91,tram,"Treptow, Rathaus<> Friedrichstr., Johannisthal",0,,unified,20.0
+195153,1951,92,tram,"Dönhoffplatz, Krausenstr.<> Bhf. Oberspree, Sedanstr.",0,,unified,20.0
+195154,1951,95,tram,"Attilaplatz<> Köpenick, Krankenhaus",0,,unified,15.0
+195155,1951,96,tram,Machnower Schleuse<> Bhf. Tempelhof,0,,unified,20.0
+195156,1951,98,tram,U-Bhf. Tempelhof<> Daimlerstr. Ecke Birnhornweg,0,,unified,15.0
+195157,1951,99,tram,Mehringplatz/Hallesches Tor<> Bhf. Lichtenrade,0,,unified,15.0
+195158,1951,76E,tram,Hundekehle über Königsallee<> Nollendorfplatz,0,,unified,10.0
+195159,1951,A I,u-bahn,Pankow (Vinetastr.)<> Ruhleben,0,,unified,10.0
+195160,1951,A II,u-bahn,Wittenbergplatz<> Krumme Lanke,0,,unified,10.0
+195161,1951,A III,u-bahn,Deutsches Opernhaus (Bismarckstr.)<> Richard-Wagner-Platz,0,,unified,10.0
+195162,1951,A1 (Obus),autobus,"Moabit, Waldstr. Ecke Turmstr.<> Goerzallee Ecke Wismarerstr.",0,,unified,15.0
+195163,1951,A10,autobus,"Westend, Königin-Elisabethstr.<> Machnowerstr. Ecke Andreezeile, Zehlendorf",0,,unified,15.0
+195164,1951,A11,autobus,"U-Bhf. Dahlem-Dorf<> Lankwitz, Trippsteinstr.",0,,unified,20.0
+195165,1951,A12,autobus,"Frohnau, Sigismundkorso<> Seestr. Ecke Müllerstr.",0,,unified,10.0
+195166,1951,A13,autobus,"Spandau, Weinmeisterhornweg<> Bhf. Tegel",0,,unified,15.0
+195167,1951,A14,autobus,Bhf. Tegel<> Reinickendorf Hauptstr. Ecke Aroserallee,0,,unified,20.0
+195168,1951,A15,autobus,Bhf. Wittenau<> Bhf. Tegel,0,,unified,30.0
+195169,1951,A16,autobus,U-Bhf. Seestr.<> U-Bhf. Breitenbachplatz,0,,unified,6.0
+195170,1951,A17,autobus,Roseneck<> Saaleckplatz (Lichterfelde),0,,unified,15.0
+195171,1951,A9,autobus,"Arnswalderplatz, Elbingerstr.<> Scharnhorststr. Ecke Kielerstr.",0,,unified,0.0
+195172,1951,A2,autobus,"Rathaus Zehlendorf<> Lankwitz, Trippsteinstr.",0,,unified,10.0
+195173,1951,A27,autobus,Müggelheim (an der Großen Krampe)<> Bhf. Kaulsdorf,0,,unified,40.0
+195174,1951,A3,autobus,"Rathaus Zehlendorf<> Stölpchensee, Wilhelmplatz",0,,unified,8.0
+195175,1951,A31,autobus,"Staaken, Heidelbergplan<> Bhf. Spandau",0,,unified,10.0
+195176,1951,A32 (Obus),autobus,Breitenbachplatz<> Bhf. Marienfelde,0,,unified,12.0
+195177,1951,A33 (Obus),autobus,"Bhf. Steglitz<> Mariendorf, Kaiserstr. Ecke Mariendorferdamm",0,,unified,8.0
+195178,1951,A34,autobus,"Spandau, Askanierring<> Alt-Kladow, Kladow",0,,unified,30.0
+195179,1951,A35,autobus,"S-Bhf. Tegel<> Lübars, Dorfplatz",0,,unified,30.0
+195180,1951,A36,autobus,"S-Bhf. Grünau<> Schönefeld, Dorfplatz",0,,unified,30.0
+195181,1951,A37,autobus,"Bhf. Lichtenberg<> Alt-Marzahn, Kirche",0,,unified,20.0
+195182,1951,A38,autobus,Bhf. Grünau<> Walterdorferstr. Ecke Waldstr.,0,,unified,20.0
+195183,1951,A39,autobus,"Wartenbergerstr. Ecke Falkenbergerstr.<> Wartenberg, Siedlung",0,,unified,20.0
+195184,1951,A3E,autobus,"U-Bhf. Oskar-Helene-Heim<> Lichterfelde, Osteweg",0,,unified,30.0
+195185,1951,A4,autobus,Rathaus Schöneberg<> Rathaus Neukölln,0,,unified,7.0
+195186,1951,A40,autobus,"Schlesischer Bhf./Ostbahnhof, Madaistr.<> Robert-Koch-Platz",0,,unified,20.0
+195187,1951,A41,autobus,"Dimitroffstr. Ecke Leninallee<> Marzahn, Bürknersfelde",0,,unified,30.0
+195188,1951,A42,autobus,"Ostseestr. Ecke Prenzlauerallee<> Buch, Zepernickerstr. (Ludwig-Hoffmann-Krankenhaus)",0,,unified,20.0
+195189,1951,A43,autobus,"U-Bhf. Friedrichsfelde<> Pekrunstr., Marzahn",0,,unified,40.0
+195190,1951,A44,autobus,"Bhf. Mahlsdorf, Wodanstr.<> Hönow, Dorfstr. (Schule)",0,,unified,20.0
+195191,1951,A45,autobus,"Wilhelmsruh, Fontanestr.<> Weißensee, Lindenallee",0,,unified,20.0
+195192,1951,A5,autobus,"Falkensee, Hansastr. Ecke Friedrich-Engelstr.<> Spandau, Rathaus",0,,unified,10.0
+195193,1951,A6,autobus,Kladow/Hottengrund<> Groß-Glienick/Gutshof,0,,unified,60.0
+195194,1951,A7,autobus,"Pankow, Elsa-Brandströmstr.<> Schildow, Breitestr.",0,,unified,20.0
+195195,1951,A8,autobus,"U-Bhf. Friedrichsfelde<> Kaulsdorf, Sadowastr.",0,,unified,20.0
+195196,1951,A19,autobus,Potsdamerplatz/Leipzigerplatz<> Stettiner Bhf./Nordbahnhof,0,,unified,15.0
+195197,1951,B I,u-bahn,Innsbruckerplatz<> Kottbusser Tor,0,,unified,12.0
+195198,1951,B II,u-bahn,Warschauer Brücke<> Uhlandstr.,0,,unified,12.0
+195199,1951,C I,u-bahn,Seestr.<> Grenzallee,0,,unified,10.0
+1951100,1951,C II,u-bahn,Mehringdamm<> Tempelhof (Südring),0,,unified,10.0
+1951101,1951,D,u-bahn,Gesundbrunnen<> Leinestr.,0,,unified,10.0
+1951102,1951,E,u-bahn,Friedrichsfelde<> Alexanderplatz,0,,unified,10.0
+1951103,1951,KBS 100,s-bahn,Gesundbrunnen<> Gesundbrunnen,0,,unified,0.0
+1951104,1951,KBS 100a,s-bahn,Wilmersdorf<> Grünau,0,,unified,0.0
+1951105,1951,KBS 100b,s-bahn,Jungfernheide<> Gartenfeld,0,,unified,0.0
+1951106,1951,KBS 100d,s-bahn,Schöneweide<> Spindlersfeld,0,,unified,0.0
+1951107,1951,KBS 101,s-bahn,Staaken<> Strausberg,0,,unified,0.0
+1951108,1951,KBS 102,s-bahn,Potsdam<> Erkner,0,,unified,0.0
+1951109,1951,KBS 103,s-bahn,Falkensee<> Königs Wusterhausen,0,,unified,0.0
+1951110,1951,KBS 104,s-bahn,Oranienburg<> Wannsee,0,,unified,0.0
+1951111,1951,KBS 104a,s-bahn,Zehlendorf<> Zehlendorf,0,,unified,0.0
+1951112,1951,KBS 105,s-bahn,Hohenschöpping<> Anhalter Bahnhof,0,,unified,0.0
+1951113,1951,KBS 105b,s-bahn,Nordbahnhof<> Rangsdorf,0,,unified,0.0
+1951114,1951,KBS 106,s-bahn,Bernau (b Bln)<> Teltow,0,,unified,0.0
+1951115,1951,Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt),ferry,Kladow<> Wannsee,20,,unified,60.0

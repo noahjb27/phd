@@ -1,0 +1,97 @@
+line_id,year,line_name,type,start_stop,length (time),length (km),east_west,frequency (7:30)
+19711,1971,A1,autobus,"Moabit, Waldstr. Ecke Turmstr.<> Lindenstr. Ecke Müllerstr.",57,,west,12.0
+19712,1971,A10,autobus,Haselhorsterdamm Ecke Gartenfelderstr.<> Lupsteinerweg,67,,west,10.0
+19713,1971,A11,autobus,"Dahlem, Waldfriedhof<> U-Bhf. Alt-Mariendorf",42,,west,10.0
+19714,1971,A12,autobus,Bernauerstr. Ecke Gartenstr.<> Hainbuchenstr. Ecke Maximilian-Korso,57,,west,15.0
+19715,1971,A13,autobus,Heiligensee<> Weinmeisterhornweg Ecke Wilhelmstr.,57,,west,15.0
+19716,1971,A14,autobus,Heiligensee Ecke Alt-Heiligensee<> Rügenerstr. Ecke Brunnenstr.,55,,west,15.0
+19717,1971,A14E,autobus,Alt-Heiligensee<> Falkenplatz,9,,west,30.0
+19718,1971,A15,autobus,"Wittenauerstr. Ecke Eichhorsterweg<> Frohnau, Invalidensiedlung",55,,west,20.0
+19719,1971,A16,autobus,Osloerstr. Ecke Koloniestr.<> Englerallee,58,,west,15.0
+197110,1971,A17,autobus,"Grunewald, Fontanestr.<> Celsiusstr.",53,,west,10.0
+197111,1971,A18,autobus,U-Bhf. Oskar-Helene-Heim<> Machnowerstr. Ecke Königsweg,33,,west,20.0
+197112,1971,A19,autobus,Roseneck<> Flughafen,39,,west,10.0
+197113,1971,A2,autobus,U-Bhf. Friedrich-Wilhelm-Platz<> Waldsassenerstr. Ecke Ahrensdorferstr.,31,,west,10.0
+197114,1971,A20,autobus,"Tegelort, Almazeile<> Lübars, Alt-Lübars",40,,west,15.0
+197115,1971,A21,autobus,"Quickbornerstr., Märkische Viertel<> Fehrbellinerplatz",56,,west,15.0
+197116,1971,A22,autobus,Kurt-Schumacher-Platz<> Wittenauerstr. Ecke Eichhorsterweg,27,,west,15.0
+197117,1971,A23,autobus,Hardenbergplatz<> Buolstr. Ecke Rohrdamm,46,,west,10.0
+197118,1971,A24,autobus,Wiebestr. Ecke Huttenstr.<> Platz der Luftbrücke,41,,west,15.0
+197119,1971,A25,autobus,U-Bhf. Friedrich-Wlhelm-Patz<> Grünerweg Ecke Buschkrugallee,36,,west,10.0
+197120,1971,A28,autobus,U-Bhf. Tempelhof<> Heckmannufer Ecke Schlesischestr.,35,,west,15.0
+197121,1971,A29,autobus,Roseneck<> Oranienplatz,40,,west,10.0
+197122,1971,A3,autobus,Düppel-Süd<> Heckeshorn,46,,west,15.0
+197123,1971,A31,autobus,U-Bhf. Ruhleben<> Heidebergplan,28,,west,20.0
+197124,1971,A32,autobus,"Breitenbachplatz<> Marienfelde, Bahnstr. Ecke Marienfelderallee",31,,west,12.0
+197125,1971,A33,autobus,Berlinickestr.<> Dirschelweg Ecke Rixdorferstr.,20,,west,10.0
+197126,1971,A34,autobus,"Spandau, Wasserwerk<> Gutshof",51,,west,20.0
+197127,1971,A35,autobus,U-Bhf. Ruhleben<> Hottengrund,35,,west,20.0
+197128,1971,A4,autobus,Brixplatz<> Teuptitzerstr. Ecke Kiehl-Ufer,56,,west,12.0
+197129,1971,A41,autobus,Gradestr.<> Rudow Stadtgrenze,27,,west,20.0
+197130,1971,A48,autobus,"Potsdamerstr. Ecke Fischerhüttenstr.<> Philharmonie, Tiergartenstr.",39,,west,12.0
+197131,1971,A5,autobus,U-Bhf. Ruhleben<> Nervenklinik,30,,west,10.0
+197132,1971,A50,autobus,Roseneck<> Mansteinstr. Ecke Yorckstr.,26,,west,10.0
+197133,1971,A52,autobus,"Marienfelde, Stadtrand-Siedlung<> Stubenrauchstr.",35,,west,10.0
+197134,1971,A53,autobus,"Nikolassee, Alemannenstr.<> Oberhoferplatz",40,,west,20.0
+197135,1971,A54,autobus,"Zoo, Hardenbergplatz<> Johannesstift",46,,west,10.0
+197136,1971,A55,autobus,"Zoo, Hardenbergplatz<> Hakenfelde",47,,west,15.0
+197137,1971,A56,autobus,U-Bhf. Ruhleben<> Hakenfelde,24,,west,20.0
+197138,1971,A57,autobus,Zwickauerdamm<> Zwickauerdamm,21,,west,20.0
+197139,1971,A6,autobus,Wannsee<> Glienicker Brücke,13,,west,30.0
+197140,1971,A60,autobus,Wittenbergplatz<> Rathaus Zehlendorf,47,,west,15.0
+197141,1971,A61,autobus,"Gartenplatz, Feldstr.<> Zobeltitzstr. Ecke Eichborndamm",33,,west,12.0
+197142,1971,A62,autobus,"Wilhemsruherdamm, Sektorengrenze<> Zoo, Hardenbergplatz",42,,west,12.0
+197143,1971,A63,autobus,Radelandstr. Ecke Niederheideweg<> Seegefelderweg,30,,west,15.0
+197144,1971,A64,autobus,Märkisches Zentrum<> Vinetaplatz,51,,west,12.0
+197145,1971,A65,autobus,U-Bhf. Seestr.<> Schulenburgpark,63,,west,12.0
+197146,1971,A66,autobus,"Zoo, Hardenbergplatz<> Stölpchensee, Glienickerstr.",40,,west,20.0
+197147,1971,A67,autobus,U-Bhf. Hallesches Tor<> Johannisthalerchaussee Ecke Rudowerstr.,41,,west,12.0
+197148,1971,A68,autobus,Clayallee Ecke Königin-Luisestr.<> Tempelhof,38,,west,15.0
+197149,1971,A69,autobus,Dauerwaldweg Ecke Eichkampstr.<> Reichstag,34,,west,20.0
+197150,1971,A70,autobus,"Wollankstr., Sektorengrenze<> Wiebestr. Ecke Huttenstr.",34,,west,10.0
+197151,1971,A71,autobus,"Wilhelmsruh, Kopenhagenerstr.<> Vinetaplatz",21,,west,15.0
+197152,1971,A72,autobus,"Alt-Reinickendorf, Klemkestr. Ecke Kopenhagenerstr.<> Paulsternstr. Ecke Nonnendammallee- Gartenfeld",51,,west,15.0
+197153,1971,A73,autobus,"Zoo, Hardenbergplatz<> Buschkrug Ecke Blaschkoallee",38,,west,15.0
+197154,1971,A74,autobus,Königin-Elisabethstr. U-Bhf. Kaiserdamm<> Lindenhof,45,,west,15.0
+197155,1971,A75,autobus,Munsterdamm Ecke Steglitzerdamm<> Hermannplatz,47,,west,10.0
+197156,1971,A76,autobus,Walter-Schreiber-Platz<> Blohmstr. Ecke Illigstr.,39,,west,7.0
+197157,1971,A77,autobus,"Britzerallee Ecke Nobelstr.<> Marienfelde, Daimlerstr.",31,,west,20.0
+197158,1971,A78,autobus,U-Bhf. Alt-Mariendorf<> Alt-Buckow Ecke Buckowerdamm,16,,west,15.0
+197159,1971,A79,autobus,Leopoldplatz<> Sommerstr. Ecke Klemkestr.,18,,west,15.0
+197160,1971,A80,autobus,U-Bhf. Ruhleben<> Nennhauserdamm Ecke Brunsbüttelerdamm,25,,west,20.0
+197161,1971,A81,autobus,U-Bhf. Friedrich-Wilhelm-Platz<> Dardanellenweg Ecke Rixdorferstr.,31,,west,10.0
+197162,1971,A82,autobus,Alt-Lichtenrade Ecke Goethestr.<> Potsdamerstr. Ecke Alt-Lichtenrade,28,,west,20.0
+197163,1971,A83,autobus,Nettelbeckplatz<> Preysingstr. Ecke Belßstr.,46,,west,10.0
+197164,1971,A84,autobus,Ringstr. Ecke Weißwasserweg<> U-Bhf. Kurfürstenstr.,36,,west,10.0
+197165,1971,A85,autobus,Holtheimerweg<> Wittenbergplatz,41,,west,10.0
+197166,1971,A86,autobus,"Invalidenstr., Sektorengrenze<> Birkbuschstr.",52,,west,15.0
+197167,1971,A87,autobus,Richard-Wagner-Platz<> Pulsstr. Ecke Sophie-Charlottestr.,10,,west,20.0
+197168,1971,A89,autobus,"Bornholmerstr., Sektorengrenze<> Fehrbellinerplatz",41,,west,12.0
+197169,1971,A90,autobus,"Bhf. Zoo, Hardenbergplatz<> Vinetaplatz",35,,west,15.0
+197170,1971,A91,autobus,Hermannplatz<> Ringslebenstr. Ecke Buckowerdamm,24,,west,10.0
+197171,1971,A92,autobus,"Zoo, Hardenbergplatz<> Konkordiastr. Ecke Adamstr.",33,,west,10.0
+197172,1971,A93,autobus,Waßmannsdorferchaussee Ecke Großziethenerstr.<> Waßmannsdorferchaussee Ecke Großziethenerstr.,11,,west,15.0
+197173,1971,A94,autobus,"Zoo, Hardenbergplatz<> Reimerweg Ecke Heerstr.",36,,west,10.0
+197174,1971,A95,autobus,Schwarzerweg Ecke Sonnenallee<> U-Bhf. Hallesches Tor,23,,west,15.0
+197175,1971,A96,autobus,Flughafen Tempelhof<> Lindenstr. Ecke Ostpreußendamm,34,,west,10.0
+197176,1971,A97,autobus,Reimerweg Ecke Heerstr.<> Aalemannufer,35,,west,10.0
+197177,1971,A98,autobus,U-Bhf. Britz-Süd<> U-Bhf. Britz-Süd,14,,west,20.0
+197178,1971,A99,autobus,Usedomerstr. Ecke Brunnenstr.<> Im Spektefeld,57,,west,15.0
+197179,1971,KBS 150,s-bahn,Gesundbrunnen<> Sonnenallee,0,,west,0.0
+197180,1971,KBS 151,s-bahn,Zoologischer Garten<> Köllnische Heide,0,,west,0.0
+197181,1971,KBS 152,s-bahn,Heiligensee<> Lichtenrade,0,,west,0.0
+197182,1971,KBS 153,s-bahn,Gesundbrunnen<> Lichterfelde Süd,0,,west,0.0
+197183,1971,KBS 154,s-bahn,Frohnau<> Wannsee,0,,west,0.0
+197184,1971,KBS 155,s-bahn,Zehlendorf<> Düppel-Kleinmachnow,0,,west,0.0
+197185,1971,KBS 156,s-bahn,Friedrichstr.<> Wannsee,0,,west,0.0
+197186,1971,KBS 157,s-bahn,Friedrichstr.<> Spandau West,0,,west,0.0
+197187,1971,KBS 158,s-bahn,Gesundbrunnen<> Staaken,0,,west,0.0
+197188,1971,KBS 159,s-bahn,Jungfernheide<> Gartenfeld,0,,west,0.0
+197189,1971,1,u-bahn,Schlesisches Tor<> Ruhleben,32,,west,5.0
+197190,1971,2,u-bahn,Gleisdreieck<> Krumme Lanke,29,,west,10.0
+197191,1971,3,u-bahn,Wittenbergplatz<> Uhlandstr.,3,,west,10.0
+197192,1971,4,u-bahn,Nollendorfplatz<> Innsbruckerplatz (Hauptstr.),6,,west,5.0
+197193,1971,6,u-bahn,Tegel<> Alt-Mariendorf,36,,west,5.0
+197194,1971,7,u-bahn,Fehrbellinerplatz<> Wutzkyallee,30,,west,5.0
+197195,1971,8,u-bahn,Gesundbrunnen<> Leinestr.,20,,west,10.0
+197196,1971,9,u-bahn,Leopoldplatz<> Bundesplatz,16,,west,3.0

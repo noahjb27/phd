@@ -1,0 +1,2089 @@
+stop_name,type,line_name,stop_id,location,identifier,latitude,longitude,match_score,matched_name,matched_stop_id,matched_historical_lines,location_from
+Schillingbrücke (Ostbahnhof),tram,1,19600_unified,"52.51050795,13.43022032",,,,,,,,1956944.0
+U-Bhf. Strausbergerplatz,tram,1,19601_unified,"52.51808307,13.43293834",,,,,,,,19601256.0
+Stalinallee,tram,1,19602_unified,"52.51808307,13.43293834",,,,,,,,19601138.0
+Leninplatz,tram,1,19603_unified,"52.52326580,13.43264570",Q65553105,,,,,,,1960704.0
+"Alexanderplats, Memhardstr.",tram,1,19604_unified,"52.52334390,13.41107730",Q65227406,,,,,,,196011.0
+Rosenthalerplatz,tram,1,19605_unified,"52.53017690,13.40161210",Q65093945,,,,,,,1960991.0
+Brunnen Ecke Invalidenstr.,tram,1,19606_unified,"52.53245420,13.39742360",Q65691740,,,,,,,1960232.0
+Invalidenstr. Ecke Chausseestr.,tram,1,19607_unified,"52.53041580,13.38273020",Q65552697,,,,,,,1960562.0
+"Weidendammbrücke, Bhf. Friedrichstr.",tram,1,19608_unified,"52.52169302,13.38797771",,,,,,,,19561179.0
+Am Kupfergraben,tram,1,19609_unified,"52.51942080,13.39538390",Q65055027,,,,,,,196041.0
+Köpenickerstr. Ecke Adalbertstr.,tram,11,196010_unified,"52.50851870,13.42536747",,,,,,,,1960684.0
+Bhf. Jannowitzbrücke,tram,11,196011_unified,"52.51476677,13.41791870",,,,,,,,1956122.0
+"Alexanderplatz, Memhardstr.",tram,11,196012_unified,"52.52334390,13.41107730",Q65227406,,,,,,,196016.0
+Rosenthalerplatz,tram,11,196013_unified,"52.53017690,13.40161210",Q65093945,,,,,,,1960991.0
+Brunnen Ecke Invalidenstr.,tram,11,196014_unified,"52.53245420,13.39742360",Q65691740,,,,,,,1960232.0
+Invalidenstr. Ecke Chausseestr.,tram,11,196015_unified,"52.53041580,13.38273020",Q65552697,,,,,,,1960562.0
+"Oranienburger Tor, Hannoverschestr.",tram,11,196016_unified,"52.52693581,13.38457082",,,,,,,,1960849.0
+"Klingenberg, Blockdammweg",tram,13,196017_unified,"52.48424620,13.51046090",Q66085182,,,,,,,1960619.0
+Karlshorsterstr.,tram,13,196018_unified,"52.50233410,13.47546688",,,,,,,,1960598.0
+Holteistr.,tram,13,196019_unified,"52.50882350,13.46596900",Q65675805,,,,,,,1960540.0
+Frankfurter Tor/Stalinallee,tram,13,196020_unified,"52.51539030,13.45401720",Q65706246,,,,,,,1960359.0
+Bersarinplatz,tram,13,196021_unified,"52.51921500,13.45252570",Q65706258,,,,,,,1960116.0
+Leninallee,tram,13,196022_unified,"52.52593430,13.44623680",Q65553230,,,,,,,1960702.0
+Kniprodestr.,tram,13,196023_unified,"52.53252860,13.44068680",Q65707391,,,,,,,1960626.0
+Greifswalderstr.,tram,13,196024_unified,"52.53649750,13.43340450",Q65548960,,,,,,,1960431.0
+Prenzlauerallee,tram,13,196025_unified,"52.53965220,13.42447890",Q65222180,,,,,,,1960916.0
+U-Bhf. Dimitroffstr.,tram,13,196026_unified,"52.54019280,13.41139790",Q65088313,,,,,,,19601220.0
+Oderbergerstr.,tram,13,196027_unified,"52.54058396,13.40461901",,,,,,,,1960836.0
+Daimlerstr.,tram,15,196028_unified,"52.42394996,13.38014505",,,,,,,,1960281.0
+Bhf. Marienfelde,tram,15,196029_unified,"52.42613308,13.37505766",,,,,,,,1960156.0
+Körtingstr.,tram,15,196030_unified,"52.43480273,13.37829568",,,,,,,,1964685.0
+Mariendorferdamm,tram,15,196031_unified,"52.44016299,13.38723462",,,,,,,,1960768.0
+Imbrosweg,tram,15,196032_unified,"52.44354186,13.39856469",,,,,,,,1960555.0
+Mariendorfer Friedhof,tram,15,196033_unified,"52.44953069,13.40475593",,,,,,,,1960770.0
+Industriestr.,tram,15,196034_unified,"52.45535023,13.40979439",,,,,,,,1960556.0
+Germaniastr.,tram,15,196035_unified,"52.46053783,13.41800905",,,,,,,,1960399.0
+Frauenklinik,tram,15,196036_unified,"52.46394991,13.42750955",,,,,,,,1960362.0
+Hermannstr.,tram,15,196037_unified,"52.46476233,13.43281811",,,,,,,,1960507.0
+U-Bhf. Neukölln,tram,15,196038_unified,"52.46965568,13.44161494",,,,,,,,19601242.0
+Richardstr.,tram,15,196039_unified,"52.47097392,13.44630104",,,,,,,,1960978.0
+Bhf. Sonnenallee,tram,15,196040_unified,"52.47414313,13.45549953",,,,,,,,1960168.0
+Dammweg,tram,15,196041_unified,"52.47070358,13.46392233",,,,,,,,1960284.0
+Schulenburgpark,tram,15,196042_unified,"52.46666061,13.47029259",,,,,,,,19601069.0
+Wollinerstr.,tram,2,196043_unified,"52.53999960,13.40205640",Q65719652,,,,,,,19601376.0
+Voltastr.,tram,2,196044_unified,"52.54147802,13.38925827",,,,,,,,19601285.0
+Weddingplatz,tram,2,196045_unified,"52.54152536,13.36919855",,,,,,,,19601314.0
+Rathenowerstr.,tram,2,196046_unified,"52.52356000,13.35779000",Q121863902,,,,,,,1960958.0
+Stromstr.,tram,2,196047_unified,"52.52539213,13.34292152",,,,,,,,19601161.0
+Gotzkowskybrücke,tram,2,196048_unified,"52.52256202,13.32897628",,,,,,,,1961419.0
+U-Bhf. Ernst-Reuter-Platz,tram,2,196049_unified,"52.51172658,13.32260140",,,,,,,,19601222.0
+Bhf. Zoo,tram,2,196050_unified,"52.50719346,13.33262988",,,,,,,,1960189.0
+Wittenbergplatz,tram,2,196051_unified,"52.50185026,13.34309835",,,,,,,,19601370.0
+Potsdamerstr.,tram,2,196052_unified,"52.49794769,13.36208745",,,,,,,,1960911.0
+Bhf. Yorckstr.,tram,2,196053_unified,"52.49299429,13.36918932",,,,,,,,1960186.0
+Mehringdamm,tram,2,196054_unified,"52.49298792,13.38795033",,,,,,,,1960788.0
+Südstern,tram,2,196055_unified,"52.48920000,13.40758983",,,,,,,,19601173.0
+Hermannplatz,tram,2,196056_unified,"52.48708557,13.42475245",,,,,,,,1960504.0
+Spreewaldplatz,tram,2,196057_unified,"52.49792228,13.43061701",,,,,,,,19601121.0
+Bhf. Rosenthal,tram,22,196058_unified,"52.59866400,13.37266520",Q65364041,,,,,,,1960162.0
+Nordendstr.,tram,22,196059_unified,"52.58853400,13.38829520",Q65428345,,,,,,,1960831.0
+Kurt-Fischer-Platz,tram,22,196060_unified,"52.57866800,13.39830160",Q65032974,,,,,,,1960662.0
+"Pankow, Rathaus",tram,22,196061_unified,"52.56948160,13.40380450",Q65055060,,,,,,,1960879.0
+"Pankow, Kirche",tram,22,196062_unified,"52.57064520,13.41031150",Q65055066,,,,,,,1960877.0
+U-Bhf. Vinestr.,tram,22,196063_unified,"52.55961680,13.41323200",Q65075426,,,,,,,19601261.0
+S-Bhf. Schönhauserallee,tram,22,196064_unified,"52.54936190,13.41357340",Q65088013,,,,,,,19611016.0
+U-Bhf. Dimitroffstr.,tram,22,196065_unified,"52.54019280,13.41139790",Q65088313,,,,,,,19601220.0
+Rosenthalerplatz,tram,22,196066_unified,"52.53017690,13.40161210",Q65093945,,,,,,,1960991.0
+"Alexanderplatz, Memhardstr.",tram,22,196067_unified,"52.52334390,13.41107730",Q65227406,,,,,,,196016.0
+Elisabethstr.,tram,22,196068_unified,"52.51764985,13.41804614",Q65364041,,,,,,,1960320.0
+Wollinerstr.,tram,25,196069_unified,"52.53999960,13.40205640",Q65719652,,,,,,,19601376.0
+Rügenerstr.,tram,25,196070_unified,"52.54476691,13.39098831",,,,,,,,19601003.0
+Bhf. Gesundbrunnen,tram,25,196071_unified,"52.54913506,13.38715173",,,,,,,,1960132.0
+Nauenerplatz,tram,25,196072_unified,"52.55153668,13.36735532",,,,,,,,1960806.0
+Weddingplatz,tram,25,196073_unified,"52.54152536,13.36919855",,,,,,,,19601314.0
+Augustenburgerplatz,tram,25,196074_unified,"52.54195473,13.34900443",,,,,,,,196067.0
+Turmstr.,tram,25,196075_unified,"52.52637000,13.34044000",Q121907140,,,,,,,19601212.0
+Gotzkowskystr.,tram,25,196076_unified,"52.52567491,13.33019833",,,,,,,,1960425.0
+U-Bhf. Ernst-Reuter-Platz,tram,25,196077_unified,"52.51172658,13.32260140",,,,,,,,19601222.0
+Bhf. Zoo,tram,25,196078_unified,"52.50719346,13.33262988",,,,,,,,1960189.0
+Wittenbergplatz,tram,25,196079_unified,"52.50185026,13.34309835",,,,,,,,19601370.0
+Wartburgplatz,tram,25,196080_unified,"52.48753778,13.34501784",,,,,,,,19601308.0
+Rathaus Schöneberg,tram,25,196081_unified,"52.48509788,13.34507201",,,,,,,,1961933.0
+Hauptstr.,tram,25,196082_unified,"52.48184786,13.34836694",,,,,,,,1960480.0
+Gotenstr.,tram,25,196083_unified,"52.48012791,13.36027467",,,,,,,,1960419.0
+Spreewaldplatz,tram,26,196084_unified,"52.49792228,13.43061701",,,,,,,,19601121.0
+Reichenbergerstr.,tram,26,196085_unified,"52.49553525,13.43036295",,,,,,,,1960961.0
+Glogauerstr.,tram,26,196086_unified,"52.49343700,13.43739125",,,,,,,,1960410.0
+Sonnenallee,tram,26,196087_unified,"52.48613360,13.43023966",,,,,,,,19601106.0
+Hermannplatz,tram,26,196088_unified,"52.48708557,13.42475245",,,,,,,,1960504.0
+Weichselstr.,tram,26,196089_unified,"52.48313753,13.43148031",,,,,,,,19601315.0
+Rathaus Neukölln,tram,26,196090_unified,"52.48159490,13.43427490",,,,,,,,1960941.0
+Saltykowstr.,tram,26,196091_unified,"52.47670469,13.43911632",,,,,,,,19601036.0
+Karl-Marx-Platz,tram,26,196092_unified,"52.47358383,13.44070604",,,,,,,,1960595.0
+Silbersteinstr.,tram,26,196093_unified,"52.46723845,13.43846714",,,,,,,,19601103.0
+Hermannstr.,tram,26,196094_unified,"52.46476233,13.43281811",,,,,,,,1960507.0
+Städtische Frauenklinik,tram,26,196095_unified,"52.46365697,13.42461676",,,,,,,,19611141.0
+Germaniastr.,tram,26,196096_unified,"52.46053783,13.41800905",,,,,,,,1960399.0
+Bhf. Teltowkanal,tram,26,196097_unified,"52.45739188,13.41243858",,,,,,,,1960174.0
+Industriestr.,tram,26,196098_unified,"52.45535023,13.40979439",,,,,,,,1960556.0
+Hobrechtstr.,tram,27,196099_unified,"52.48856145,13.42672457",,,,,,,,1960520.0
+Hasenheide,tram,27,1960100_unified,"52.48634143,13.42422212",,,,,,,,1960477.0
+U-Bhf. Boddinstr.,tram,27,1960101_unified,"52.48027865,13.42516905",,,,,,,,19601216.0
+U-Bhf. Leinestr.,tram,27,1960102_unified,"52.47359102,13.42801556",,,,,,,,19601238.0
+Bhf. Hermannstr.,tram,27,1960103_unified,"52.46768666,13.43121090",,,,,,,,1960139.0
+Mariendorferweg,tram,27,1960104_unified,"52.46469434,13.43293287",,,,,,,,1960771.0
+Germaniapromenade,tram,27,1960105_unified,"52.46089359,13.43505442",,,,,,,,1960398.0
+Gradestr.,tram,27,1960107_unified,"52.45261828,13.43855271",,,,,,,,1960426.0
+Tempelhoferweg,tram,27,1960108_unified,"52.44890080,13.43621091",,,,,,,,19601192.0
+Mariendorferallee,tram,27,1960109_unified,"52.44417699,13.43356753",,,,,,,,1960766.0
+Gutschmidstr.,tram,27,1960110_unified,"52.44038856,13.43480701",,,,,,,,1960452.0
+Kleinbahn,tram,27,1960111_unified,"52.43807132,13.43497223",,,,,,,,1960614.0
+Dacchdeckerweg,tram,27,1960112_unified,"52.43211565,13.43514870",,,,,,,,1960277.0
+Parkfriedhof Neukölln,tram,27,1960113_unified,"52.42876554,13.43498433",,,,,,,,1960887.0
+Alt-Buckow,tram,27,1960114_unified,"52.42369898,13.43651094",,,,,,,,196019.0
+Mühlenstr.,tram,3,1960115_unified,"52.50854394,13.43489758",,,,,,,,1960804.0
+Bhf. Warschauer Brücke,tram,3,1960116_unified,"52.50804290,13.45059730",Q65706190,,,,,,,1960178.0
+Boxhagenerstr.,tram,3,1960117_unified,"52.50705770,13.46830220",,,,,,,,1960219.0
+Bhf. Stalineallee,tram,3,1960118_unified,"52.51380370,13.47737720",Q65948557,,,,,,,1960170.0
+Roederplatz,tram,3,1960119_unified,"52.52660010,13.47906800",Q65685373,,,,,,,1960986.0
+Hohenschönhauserstr.,tram,3,1960120_unified,"52.53593290,13.47294680",Q65553684,,,,,,,1961525.0
+Klement-Gottwald-Allee/Lichtenbergerstr.,tram,3,1960121_unified,"52.55197852,13.46549266",,,,,,,,1960618.0
+Antonplatz,tram,3,1960122_unified,"52.54848030,13.45174160",Q65548849,,,,,,,196059.0
+Prenzlauer Promenade,tram,3,1960123_unified,"52.55155537,13.43032253",,,,,,,,1960919.0
+Schönhauserallee,tram,3,1960124_unified,"52.55377050,13.41388980",Q65076842,,,,,,,1956973.0
+Björnsonstr.,tram,3,1960125_unified,"52.55442320,13.40305850",Q65920495,,,,,,,1961185.0
+Hobrechtstr.,tram,3,1960126_unified,"52.48856145,13.42672457",,,,,,,,1960520.0
+U-Bhf. Südstern,tram,3,1960127_unified,"52.48899443,13.40800672",,,,,,,,19601257.0
+Mehringdamm,tram,3,1960128_unified,"52.49298792,13.38795033",,,,,,,,1960788.0
+Potsdamerstr.,tram,3,1960129_unified,"52.49794769,13.36208745",,,,,,,,1960911.0
+Martin-Lutherstr.,tram,3,1960130_unified,"52.48885899,13.34492197",,,,,,,,1960781.0
+Bundesallee Ecke Berlinerstr.,tram,3,1960131_unified,"52.48733630,13.33101416",,,,,,,,1960247.0
+Fehrbellinerplatz,tram,3,1960132_unified,"52.49032473,13.31431730",,,,,,,,1960345.0
+Kurfürstendamm,tram,3,1960133_unified,"52.50005317,13.30691843",,,,,,,,1960656.0
+Otto-Suhr-Allee,tram,3,1960134_unified,"52.51801028,13.30439935",,,,,,,,1960870.0
+Osnabrückerstr.,tram,3,1960135_unified,"52.52655659,13.29741445",,,,,,,,1964874.0
+Wiebestr.,tram,3,1960136_unified,"52.52581092,13.31805668",,,,,,,,19601337.0
+Bhf. Beusselstr.,tram,3,1960137_unified,"52.53430684,13.32833763",,,,,,,,1960123.0
+Schwedenstr.,tram,3,1960138_unified,"52.55669560,13.37326180",Q65767136,,,,,,,19601075.0
+Grüntalerstr.,tram,3,1960139_unified,"52.55533100,13.39099790",Q65807452,,,,,,,1960451.0
+Nonnendammallee,tram,35,1960140_unified,"52.53801207,13.24976268",,,,,,,,1960826.0
+Quellweg,tram,35,1960141_unified,"52.53666578,13.26843271",,,,,,,,1960931.0
+Bhf. Jungfernheide,tram,35,1960142_unified,"52.53103414,13.30055948",,,,,,,,1960144.0
+Tauroggenerstr.,tram,35,1960143_unified,"52.52583242,13.30192878",,,,,,,,19601178.0
+Wiebestr./Huttenstr.,tram,35,1960144_unified,"52.52837752,13.31940897",,,,,,,,19601339.0
+Stromstr.,tram,35,1960145_unified,"52.52539213,13.34292152",,,,,,,,19601161.0
+Rathenowerstr.,tram,35,1960146_unified,"52.52356000,13.35779000",Q121863902,,,,,,,1960958.0
+Weddingplatz,tram,35,1960147_unified,"52.54152536,13.36919855",,,,,,,,19601314.0
+Nettelbeckplatz,tram,35,1960148_unified,"52.54423653,13.36985307",,,,,,,,1960811.0
+Nauenerplatz,tram,35,1960149_unified,"52.55153668,13.36735532",,,,,,,,1960806.0
+Osloerstr.,tram,35,1960150_unified,"52.55701740,13.36599870",Q65767112,,,,,,,1960859.0
+Pankowerallee,tram,35,1960151_unified,"52.56381930,13.36426817",,,,,,,,1960882.0
+Kopenhagenerstr.,tram,35,1960152_unified,"52.57425958,13.35916392",,,,,,,,1960638.0
+Bhf. Wilhelmsruh,tram,35,1960153_unified,"52.58108510,13.36343879",,,,,,,,1960182.0
+Mühlenstr.,tram,4,1960154_unified,"52.50854394,13.43489758",,,,,,,,1960804.0
+Bhf. Warschauer Brücke,tram,4,1960155_unified,"52.50804290,13.45059730",Q65706190,,,,,,,1960178.0
+Grünbergerstr.,tram,4,1960156_unified,"52.51223590,13.45260900",Q65706239,,,,,,,1960448.0
+Frankfurter Tor/Stalinallee,tram,4,1960157_unified,"52.51539030,13.45401720",Q65706246,,,,,,,1960359.0
+Bersarinplatz,tram,4,1960158_unified,"52.51921500,13.45252570",Q65706258,,,,,,,1960116.0
+Leninallee,tram,4,1960159_unified,"52.52593430,13.44623680",Q65553230,,,,,,,1960702.0
+Kniprodestr.,tram,4,1960160_unified,"52.53252860,13.44068680",Q65707391,,,,,,,1960626.0
+Greifswalderstr.,tram,4,1960161_unified,"52.53649750,13.43340450",Q65548960,,,,,,,1960431.0
+Prenzlauerallee,tram,4,1960162_unified,"52.53965220,13.42447890",Q65222180,,,,,,,1960916.0
+U-Bhf. Dimitroffstr.,tram,4,1960163_unified,"52.54019280,13.41139790",Q65088313,,,,,,,19601220.0
+Oderbergerstr.,tram,4,1960164_unified,"52.54058396,13.40461901",,,,,,,,1960836.0
+Sandkrugbrücke,tram,44,1960165_unified,"52.52649690,13.36943910",Q65552616,,,,,,,19601038.0
+Stromstr.,tram,44,1960166_unified,"52.52539213,13.34292152",,,,,,,,19601161.0
+Gotzkowskystr.,tram,44,1960167_unified,"52.52567491,13.33019833",,,,,,,,1960425.0
+U-Bhf. Ernst-Reuter-Platz,tram,44,1960168_unified,"52.51172658,13.32260140",,,,,,,,19601222.0
+Wilmersdorferstr.,tram,44,1960169_unified,"52.50669200,13.30669243",,,,,,,,19601359.0
+Kantstr.,tram,44,1960170_unified,"52.50665819,13.30668847",,,,,,,,1960594.0
+Kurfürstendamm,tram,44,1960171_unified,"52.50005317,13.30691843",,,,,,,,1960656.0
+Fehrbellinerplatz,tram,44,1960172_unified,"52.49032473,13.31431730",,,,,,,,1960345.0
+Hildegardstr.,tram,44,1960173_unified,"52.48182291,13.32037935",,,,,,,,1960515.0
+Bundesplatz,tram,44,1960174_unified,"52.47777991,13.32856619",,,,,,,,1960249.0
+Schlossstr.,tram,44,1960175_unified,"52.46492793,13.32842083",,,,,,,,19601062.0
+Rathaus Steglitz,tram,44,1960176_unified,"52.45691683,13.32074535",,,,,,,,1960950.0
+Bhf. Steglitz,tram,44,1960177_unified,"52.45628485,13.32238385",,,,,,,,1960172.0
+Schützenstr.,tram,44,1960178_unified,"52.45181595,13.32082435",,,,,,,,19601084.0
+Birkbuschstr.,tram,44,1960179_unified,"52.44243576,13.33207196",,,,,,,,1960192.0
+"Niederschönhausen, Schillerstr.",tram,46,1960180_unified,"52.59230510,13.41088000",Q65032581,,,,,,,1961814.0
+Nordend,tram,46,1960181_unified,"52.59021040,13.40275240",Q65032696,,,,,,,1960830.0
+Ossietzkyplatz,tram,46,1960182_unified,"52.58100580,13.40401481",,,,,,,,1960862.0
+Kurt-Fischer-Platz,tram,46,1960183_unified,"52.57866800,13.39830160",Q65032974,,,,,,,1960662.0
+"Pankow, Rathaus",tram,46,1960184_unified,"52.56948160,13.40380450",Q65055060,,,,,,,1960879.0
+"Pankow, Kirche",tram,46,1960185_unified,"52.57064520,13.41031150",Q65055066,,,,,,,1960877.0
+U-Bhf. Vinetastr.,tram,46,1960186_unified,"52.55961680,13.41323200",Q65075426,,,,,,,19601263.0
+S-Bhf. Schönhauserallee,tram,46,1960187_unified,"52.54936190,13.41357340",Q65088013,,,,,,,19611016.0
+U-Bhf. Dimitroffstr.,tram,46,1960188_unified,"52.54019280,13.41139790",Q65088313,,,,,,,19601220.0
+Brunnenstr.,tram,46,1960189_unified,"52.53245420,13.39742360",Q65691740,,,,,,,1960233.0
+Invalidenstr. Ecke Chausseestr.,tram,46,1960190_unified,"52.53041580,13.38273020",Q65552697,,,,,,,1960562.0
+Oranienburger Tor,tram,46,1960191_unified,"52.52560310,13.38727450",Q65095375,,,,,,,1960847.0
+"Weidendammbrücke, Bhf. Friedrichstr.",tram,46,1960192_unified,"52.52169302,13.38797771",,,,,,,,19561179.0
+Clara-Zetkinstr.,tram,46,1960193_unified,"52.51942080,13.39538390",Q65055027,,,,,,,1960268.0
+Ossietzkyplatz,tram,46E,1960195_unified,"52.58100580,13.40401481",,,,,,,,1960862.0
+Kurt-Fischer-Platz,tram,46E,1960196_unified,"52.57866800,13.39830160",Q65032974,,,,,,,1960662.0
+"Pankow, Rathaus",tram,46E,1960197_unified,"52.56948160,13.40380450",Q65055060,,,,,,,1960879.0
+"Pankow, Kirche",tram,46E,1960198_unified,"52.57064520,13.41031150",Q65055066,,,,,,,1960877.0
+U-Bhf. Vinetastr.,tram,46E,1960199_unified,"52.55961680,13.41323200",Q65075426,,,,,,,19601263.0
+S-Bhf. Schönhauserallee,tram,46E,1960200_unified,"52.54936190,13.41357340",Q65088013,,,,,,,19611016.0
+U-Bhf. Dimitroffstr.,tram,46E,1960201_unified,"52.54019280,13.41139790",Q65088313,,,,,,,19601220.0
+Brunnenstr.,tram,46E,1960202_unified,"52.53245420,13.39742360",Q65691740,,,,,,,1960233.0
+Invalidenstr. Ecke Chausseestr.,tram,46E,1960203_unified,"52.53041580,13.38273020",Q65552697,,,,,,,1960562.0
+"Oranienburger Tor, Hannoverschestr.",tram,46E,1960204_unified,"52.52693581,13.38457082",,,,,,,,1960849.0
+Hermannplatz,tram,47,1960205_unified,"52.48708557,13.42475245",,,,,,,,1960504.0
+Weichselstr.,tram,47,1960206_unified,"52.48313753,13.43148031",,,,,,,,19601315.0
+Rathaus Neukölln,tram,47,1960207_unified,"52.48159490,13.43427490",,,,,,,,1960941.0
+Karl-Marx-Platz,tram,47,1960208_unified,"52.47358383,13.44070604",,,,,,,,1960595.0
+U-Bhf. Neukölln,tram,47,1960209_unified,"52.46965568,13.44161494",,,,,,,,19601242.0
+Silbersteinstr.,tram,47,1960210_unified,"52.46723845,13.43846714",,,,,,,,19601103.0
+U-Bhf. Grenzallee,tram,47,1960211_unified,"52.46348179,13.44437727",,,,,,,,19601229.0
+Buschkrug,tram,47,1960212_unified,"52.45247090,13.45074820",,,,,,,,1960251.0
+Onkel-Hersestr.,tram,47,1960213_unified,"52.44827036,13.45389378",,,,,,,,1960841.0
+Parchimerallee,tram,47,1960214_unified,"52.44544296,13.45508879",,,,,,,,1960886.0
+Krankenhause Neukölln,tram,47,1960215_unified,"52.43977054,13.45935906",,,,,,,,1960650.0
+Johannisthalerchaussee,tram,47,1960216_unified,"52.43434580,13.46902584",,,,,,,,1960576.0
+Wildmeisterdamm,tram,47,1960217_unified,"52.42612406,13.48276595",,,,,,,,19601347.0
+Stubenrauchstr.,tram,47,1960218_unified,"52.42422390,13.48546138",,,,,,,,19601162.0
+Köpenickerstr.,tram,47,1960219_unified,"52.42048348,13.53874534",,,,,,,,1960683.0
+Bahnhofstr.,tram,47,1960220_unified,"52.40244987,13.51270414",,,,,,,,196081.0
+"Buchholz, Hauptstr.",tram,49,1960221_unified,"52.61907206,13.39338336",,,,,,,,1960238.0
+Blankenburger Weiche,tram,49,1960222_unified,"52.59393771,13.43212811",,,,,,,,1960202.0
+S-Bhf. Pankow-Heinersdorf,tram,49,1960223_unified,"52.57750782,13.42785306",,,,,,,,19601020.0
+"Pankow, Kirche",tram,49,1960224_unified,"52.57064520,13.41031150",Q65055066,,,,,,,1960877.0
+U-Bhf. Vinetastr.,tram,49,1960225_unified,"52.55961680,13.41323200",Q65075426,,,,,,,19601263.0
+S-Bhf. Schönhauserallee,tram,49,1960226_unified,"52.54936190,13.41357340",Q65088013,,,,,,,19611016.0
+U-Bhf. Dimitroffstr.,tram,49,1960227_unified,"52.54019280,13.41139790",Q65088313,,,,,,,19601220.0
+Rosenthalerplatz,tram,49,1960228_unified,"52.53017690,13.40161210",Q65093945,,,,,,,1960991.0
+"Hackescher Markt, Große Präsidentenstr.",tram,49,1960229_unified,"52.52326386,13.40109452",,,,,,,,1960460.0
+Nollendorfplatz,tram,53,1960230_unified,"52.49974137,13.35287893",,,,,,,,1960824.0
+Wittenbergplatz,tram,53,1960231_unified,"52.50185026,13.34309835",,,,,,,,19601370.0
+Bhf. Zoo,tram,53,1960232_unified,"52.50719346,13.33262988",,,,,,,,1960189.0
+U-Bhf. Reuter-Platz,tram,53,1960233_unified,"52.51159849,13.32256672",,,,,,,,19601248.0
+Richard-Wagner-Platz,tram,53,1960234_unified,"52.51757062,13.30624812",,,,,,,,1960976.0
+Luisenplatz,tram,53,1960235_unified,"52.51951940,13.30002435",,,,,,,,1960736.0
+Königin-Elisabethstr.,tram,53,1960236_unified,"52.51841662,13.28018527",,,,,,,,1960669.0
+Kirschenallee,tram,53,1960237_unified,"52.52037354,13.26724155",,,,,,,,1960610.0
+Schloss Ruhwald,tram,53,1960238_unified,"52.52160139,13.26039647",,,,,,,,19601058.0
+U-Bhf. Ruhleben,tram,53,1960239_unified,"52.52595777,13.24137187",,,,,,,,19601250.0
+Teltowerstr.,tram,53,1960240_unified,"52.52691413,13.21598769",,,,,,,,19601187.0
+"Spandau, Markt",tram,53,1960241_unified,"52.53784350,13.20413543",,,,,,,,19601113.0
+Carl-Schurzstr.,tram,53,1960242_unified,"52.53759586,13.20379979",,,,,,,,1960257.0
+Hafenplatz,tram,53,1960243_unified,"52.54229255,13.20620113",,,,,,,,1960463.0
+Hohenzollernring,tram,53,1960244_unified,"52.55534807,13.19865762",,,,,,,,1960537.0
+Hakenfelde,tram,53,1960245_unified,"52.57886010,13.21005780",,,,,,,,1960466.0
+Nollendorfplatz,tram,54,1960246_unified,"52.49974137,13.35287893",,,,,,,,1960824.0
+Wittenbergplatz,tram,54,1960247_unified,"52.50185026,13.34309835",,,,,,,,19601370.0
+Bhf. Zoo,tram,54,1960248_unified,"52.50719346,13.33262988",,,,,,,,1960189.0
+U-Bhf. Ernst-Reuter-Platz,tram,54,1960249_unified,"52.51172658,13.32260140",,,,,,,,19601222.0
+Richard-Wagner-Platz,tram,54,1960250_unified,"52.51757062,13.30624812",,,,,,,,1960976.0
+Luisenplatz,tram,54,1960251_unified,"52.51951940,13.30002435",,,,,,,,1960736.0
+Königin-Elisabethstr.,tram,54,1960252_unified,"52.51841662,13.28018527",,,,,,,,1960669.0
+Kirschenallee,tram,54,1960253_unified,"52.52037354,13.26724155",,,,,,,,1960610.0
+Schloss Ruhwald,tram,54,1960254_unified,"52.52160139,13.26039647",,,,,,,,19601058.0
+U-Bhf. Ruhleben,tram,54,1960255_unified,"52.52595777,13.24137187",,,,,,,,19601250.0
+Teltowerstr.,tram,54,1960256_unified,"52.52691413,13.21598769",,,,,,,,19601187.0
+"Spandau, Markt",tram,54,1960257_unified,"52.53784350,13.20413543",,,,,,,,19601113.0
+Carl-Schurzstr.,tram,54,1960258_unified,"52.53759586,13.20379979",,,,,,,,1960257.0
+Hafenplatz,tram,54,1960259_unified,"52.54229255,13.20620113",,,,,,,,1960463.0
+Hohenzollernring,tram,54,1960260_unified,"52.55534807,13.19865762",,,,,,,,1960537.0
+Johannesstift,tram,54,1960261_unified,"52.56762417,13.19178261",,,,,,,,1960573.0
+Nollendorfplatz,tram,55,1960262_unified,"52.49974137,13.35287893",,,,,,,,1960824.0
+Wittenbergplatz,tram,55,1960263_unified,"52.50185026,13.34309835",,,,,,,,19601370.0
+Bhf. Zoo,tram,55,1960264_unified,"52.50719346,13.33262988",,,,,,,,1960189.0
+U-Bhf. Ernst-Reuter-Platz,tram,55,1960265_unified,"52.51172658,13.32260140",,,,,,,,19601222.0
+Cauerstr.,tram,55,1960266_unified,"52.51469063,13.31520088",,,,,,,,1960259.0
+Richard-Wagner-Platz,tram,55,1960267_unified,"52.51757062,13.30624812",,,,,,,,1960976.0
+Luisenplatz,tram,55,1960268_unified,"52.51951940,13.30002435",,,,,,,,1960736.0
+Osnabrückerstr.,tram,55,1960269_unified,"52.52655659,13.29741445",,,,,,,,1964874.0
+Bhf. Jungfernheide,tram,55,1960270_unified,"52.53103414,13.30055948",,,,,,,,1960144.0
+Siemensplatz,tram,55,1960271_unified,"52.53383463,13.28255266",,,,,,,,19601100.0
+Quellweg,tram,55,1960272_unified,"52.53666578,13.26843271",,,,,,,,1960931.0
+Paulsternstr.,tram,55,1960273_unified,"52.53811485,13.24843594",,,,,,,,1960890.0
+Zitadellenweg,tram,55,1960274_unified,"52.53777581,13.21720425",,,,,,,,19601392.0
+"Spandau, Markt",tram,55,1960275_unified,"52.53784350,13.20413543",,,,,,,,19601113.0
+Rathaus Spandau,tram,55,1960276_unified,"52.53488082,13.19905885",,,,,,,,1960948.0
+Nauenerstr.,tram,55,1960277_unified,"52.53842907,13.18238828",,,,,,,,1960808.0
+Wintersteinstr.,tram,6,1960278_unified,"52.51803433,13.30642871",,,,,,,,19601362.0
+U-Bhf. Ernst-Reuter-Platz,tram,6,1960279_unified,"52.51172658,13.32260140",,,,,,,,19601222.0
+Bhf. Zoo,tram,6,1960280_unified,"52.50719346,13.33262988",,,,,,,,1960189.0
+Wittenbergplatz,tram,6,1960281_unified,"52.50185026,13.34309835",,,,,,,,19601370.0
+Rathaus Schöneberg,tram,6,1960282_unified,"52.48509788,13.34507201",,,,,,,,1961933.0
+Hauptstr.,tram,6,1960283_unified,"52.48184786,13.34836694",,,,,,,,1960480.0
+Bhf. Papestr.,tram,6,1960284_unified,"52.47408874,13.36380474",,,,,,,,1960160.0
+Tempelhoferdamm,tram,6,1960285_unified,"52.46584375,13.38547019",,,,,,,,19601191.0
+Gottlieb-Dunkelstr.,tram,6,1960286_unified,"52.46039602,13.41810188",,,,,,,,1960421.0
+Britzerdamm,tram,6,1960287_unified,"52.45263650,13.43848898",,,,,,,,1960229.0
+Buschkrug,tram,6,1960288_unified,"52.45247090,13.45074820",,,,,,,,1960251.0
+U-Bhf. Grenzallee,tram,6,1960289_unified,"52.46348179,13.44437727",,,,,,,,19601229.0
+Bhf. Neukölln,tram,6,1960290_unified,"52.46942956,13.44176140",,,,,,,,1960157.0
+Rathaus Neukölln,tram,6,1960291_unified,"52.48159490,13.43427490",,,,,,,,1960941.0
+Elsenstr.,tram,6,1960292_unified,"52.48680920,13.45116253",,,,,,,,1960322.0
+Königin-Elisabethstr.,tram,60,1960293_unified,"52.51841662,13.28018527",,,,,,,,1960669.0
+Spandauerdamm,tram,60,1960294_unified,"52.51839518,13.28037531",,,,,,,,19601115.0
+Klausenerplatz,tram,60,1960295_unified,"52.51920201,13.29186737",,,,,,,,1960612.0
+Schloßstr. Ecke Spandauerdamm,tram,60,1960296_unified,"52.51945073,13.29599212",,,,,,,,19601066.0
+Kaiser-Friedrichstr.,tram,60,1960297_unified,"52.50672110,13.30226048",,,,,,,,1960580.0
+Stuttgarterplatz,tram,60,1960298_unified,"52.50566811,13.30686450",,,,,,,,19601164.0
+Kurfürstendamm,tram,60,1960299_unified,"52.50005317,13.30691843",,,,,,,,1960656.0
+Fehrbellinerplatz,tram,60,1960300_unified,"52.49032473,13.31431730",,,,,,,,1960345.0
+Bundesallee Ecke Berlinerstr.,tram,60,1960301_unified,"52.48733630,13.33101416",,,,,,,,1960247.0
+Martin-Lutherstr.,tram,60,1960302_unified,"52.48885899,13.34492197",,,,,,,,1960781.0
+Rathaus Schöneberg,tram,60,1960303_unified,"52.48509788,13.34507201",,,,,,,,1961933.0
+Hauptstr. (Schöneberg),tram,60,1960304_unified,"52.47785084,13.34322373",,,,,,,,1961476.0
+Bhf. Papestr.,tram,60,1960305_unified,"52.47408874,13.36380474",,,,,,,,1960160.0
+Bosestr.,tram,60,1960306_unified,"52.46316918,13.36997974",,,,,,,,1960216.0
+Eythstr.,tram,60,1960307_unified,"52.45988973,13.36224461",,,,,,,,1960335.0
+"Hohenschönhausen, Gartenstadt",tram,63,1960308_unified,"52.55086720,13.50949940",Q65555882,,,,,,,1961524.0
+Falkenbergerstr. Ecke Wartenbergerstr.,tram,63,1960309_unified,"52.55036672,13.50991503",,,,,,,,1960340.0
+Degnerstr.,tram,63,1960310_unified,"52.54488037,13.49394995",,,,,,,,1960287.0
+Weißenseerweg,tram,63,1960311_unified,"52.53225800,13.47670500",Q65942700,,,,,,,19601326.0
+Steuerhaus,tram,63,1960312_unified,"52.53049300,13.46149890",Q65553632,,,,,,,19601145.0
+Dimitroffstr.,tram,63,1960313_unified,"52.52643035,13.44759679",,,,,,,,1960293.0
+Leninplatz,tram,63,1960314_unified,"52.52326580,13.43264570",Q65553105,,,,,,,1960704.0
+"Alexanderplatz, Memhardstr.",tram,63,1960315_unified,"52.52334390,13.41107730",Q65227406,,,,,,,196016.0
+"Hackescher Markt, Große Präsidentenstr.",tram,63,1960316_unified,"52.52326386,13.40109452",,,,,,,,1960460.0
+"Hohenschönhausen, Falkenbergerstr.",tram,64,1960317_unified,"52.55086720,13.50949940",Q65555882,,,,,,,1961523.0
+Degnerstr.,tram,64,1960318_unified,"52.54488037,13.49394995",,,,,,,,1960287.0
+Weißenseerweg,tram,64,1960319_unified,"52.53225800,13.47670500",Q65942700,,,,,,,19601326.0
+Steuerhaus,tram,64,1960320_unified,"52.53049300,13.46149890",Q65553632,,,,,,,19601145.0
+Dimitroffstr.,tram,64,1960321_unified,"52.52643035,13.44759679",,,,,,,,1960293.0
+Leninplatz,tram,64,1960322_unified,"52.52326580,13.43264570",Q65553105,,,,,,,1960704.0
+"Alexanderplatz, Grunestr.",tram,64,1960323_unified,"52.52008326,13.41408419",,,,,,,,196015.0
+Jacobystr.,tram,64,1960324_unified,"52.52001245,13.41625260",,,,,,,,1960566.0
+U-Bhf. Neanderstr.,tram,64,1960325_unified,"52.51103451,13.41638558",,,,,,,,19601241.0
+Spittelmarkt,tram,64,1960326_unified,"52.51124332,13.40494540",,,,,,,,19601119.0
+Dönhoffplatz,tram,64,1960327_unified,"52.50995057,13.39814408",,,,,,,,1961298.0
+Belzigerstr.,tram,66,1960328_unified,"52.48469759,13.34547617",,,,,,,,196093.0
+Hauptstr. (Schöneberg),tram,66,1960329_unified,"52.47785084,13.34322373",,,,,,,,1961476.0
+Innsbruckerplatz,tram,66,1960330_unified,"52.47804266,13.34344688",,,,,,,,1960559.0
+Traegerstr.,tram,66,1960331_unified,"52.47629622,13.34118853",,,,,,,,19601202.0
+Ceciliengärten,tram,66,1960332_unified,"52.47507947,13.34306477",,,,,,,,1961251.0
+Rembrandtstr.,tram,66,1960333_unified,"52.47116467,13.34368837",,,,,,,,1960969.0
+Canovastr. (Krankenhaus),tram,66,1960334_unified,"52.46319679,13.34468869",,,,,,,,1960256.0
+Thorwaldsenstr.,tram,66,1960335_unified,"52.46136534,13.34512126",,,,,,,,19601195.0
+Bergstr.,tram,66,1960336_unified,"52.45916314,13.34768143",,,,,,,,196099.0
+"Johannisthal, Haeckelstr.",tram,69,1960337_unified,"52.44029440,13.50526380",Q66225573,,,,,,,1960574.0
+Königsweide,tram,69,1960338_unified,"52.44677990,13.50667070",Q66236157,,,,,,,1960677.0
+Bhf. Schöneweide,tram,69,1960339_unified,"52.45640818,13.50991657",,,,,,,,1960166.0
+Wilhelminenhofstr.,tram,69,1960340_unified,"52.46083797,13.52105438",,,,,,,,19601349.0
+S-Bhf. Karlshorst,tram,69,1960341_unified,"52.48133100,13.52544330",Q65952829,,,,,,,19601013.0
+Hochschule für Ökonomie,tram,69,1960342_unified,"52.49276810,13.52660590",Q65952866,,,,,,,1961520.0
+Tierpark Berlin,tram,69,1960343_unified,"52.50297205,13.52091647",,,,,,,,19601200.0
+Schlossstr. Ecke Alt-Friedrichsfelde,tram,69,1960344_unified,"52.50962903,13.51868779",,,,,,,,19601064.0
+Bhf. Lichtenberg,tram,69,1960345_unified,"52.51236030,13.49775470",Q66013733,,,,,,,1960146.0
+"BVG-Bf. Lichtenberg, Siegfriedstr.",tram,69,1960346_unified,"52.52064110,13.49944540",Q66014798,,,,,,,196070.0
+Klubhaus VEB Elektrokohle,tram,69,1960347_unified,"52.52659740,13.48976560",Q65685127,,,,,,,1960624.0
+Roederplatz,tram,69,1960348_unified,"52.52660010,13.47906800",Q65685373,,,,,,,1960986.0
+Steuerhaus,tram,69,1960349_unified,"52.53049300,13.46149890",Q65553632,,,,,,,19601145.0
+Dimitroffstr.,tram,69,1960350_unified,"52.52643035,13.44759679",,,,,,,,1960293.0
+Leninplatz,tram,69,1960351_unified,"52.52326580,13.43264570",Q65553105,,,,,,,1960704.0
+"Alexanderplatz, Memhardstr.",tram,69,1960352_unified,"52.52334390,13.41107730",Q65227406,,,,,,,196016.0
+Hackescher Markt,tram,69,1960353_unified,"52.52270059,13.40160586",,,,,,,,1960459.0
+Oranienburger Tor,tram,69,1960354_unified,"52.52560310,13.38727450",Q65095375,,,,,,,1960847.0
+Invalidenstr. Ecke Chausseestr.,tram,69,1960355_unified,"52.53041580,13.38273020",Q65552697,,,,,,,1960562.0
+Walter-Ulbricht-Stadion,tram,69,1960356_unified,"52.53596333,13.37632165",,,,,,,,19601296.0
+"Johannisthal, Haeckelstr.",tram,69E,1960357_unified,"52.44029440,13.50526380",Q66225573,,,,,,,1960574.0
+Königsweide,tram,69E,1960358_unified,"52.44677990,13.50667070",Q66236157,,,,,,,1960677.0
+Bhf. Schöneweide,tram,69E,1960359_unified,"52.45640818,13.50991657",,,,,,,,1960166.0
+Wilhelminenhofstr.,tram,69E,1960360_unified,"52.46083797,13.52105438",,,,,,,,19601349.0
+S-Bhf. Karlshorst,tram,69E,1960361_unified,"52.48133100,13.52544330",Q65952829,,,,,,,19601013.0
+Hochschule für Ökonomie,tram,69E,1960362_unified,"52.49276810,13.52660590",Q65952866,,,,,,,1961520.0
+Tierpark Berlin,tram,69E,1960363_unified,"52.50297205,13.52091647",,,,,,,,19601200.0
+Schlossstr. Ecke Alt-Friedrichsfelde,tram,69E,1960364_unified,"52.50962903,13.51868779",,,,,,,,19601064.0
+Bhf. Lichtenberg,tram,69E,1960365_unified,"52.51236030,13.49775470",Q66013733,,,,,,,1960146.0
+"BVG-Bf. Lichtenberg, Siegfriedstr.",tram,69E,1960366_unified,"52.52064110,13.49944540",Q66014798,,,,,,,196070.0
+Klubhaus VEB Elektrokohle,tram,69E,1960367_unified,"52.52659740,13.48976560",Q65685127,,,,,,,1960624.0
+Roederplatz,tram,69E,1960368_unified,"52.52660010,13.47906800",Q65685373,,,,,,,1960986.0
+Steuerhaus,tram,69E,1960369_unified,"52.53049300,13.46149890",Q65553632,,,,,,,19601145.0
+Dimitroffstr.,tram,69E,1960370_unified,"52.52643035,13.44759679",,,,,,,,1960293.0
+Kniprodestr.,tram,69E,1960371_unified,"52.53252860,13.44068680",Q65707391,,,,,,,1960626.0
+"Hohenschönhausen, Falkenbergerstr.",tram,70,1960372_unified,"52.55086720,13.50949940",Q65555882,,,,,,,1961523.0
+Stadion Buschallee,tram,70,1960373_unified,"52.55667180,13.48698340",Q65504715,,,,,,,19601127.0
+Buschallee Ecke Klement-Gottwald-Allee,tram,70,1960374_unified,"52.55375980,13.46919660",Q65546661,,,,,,,1960250.0
+Antonplatz,tram,70,1960375_unified,"52.54848030,13.45174160",Q65548849,,,,,,,196059.0
+Prenzlauer Promenade,tram,70,1960376_unified,"52.55155537,13.43032253",,,,,,,,1960919.0
+Humannplatz,tram,70,1960377_unified,"52.54936270,13.42136460",Q65962652,,,,,,,1960548.0
+U-Bhf. Dimitroffstr.,tram,70,1960378_unified,"52.54019280,13.41139790",Q65088313,,,,,,,19601220.0
+Brunnenstr.,tram,70,1960379_unified,"52.53245420,13.39742360",Q65691740,,,,,,,1960233.0
+Invalidenstr. Ecke Chausseestr.,tram,70,1960380_unified,"52.53041580,13.38273020",Q65552697,,,,,,,1960562.0
+Oranienburger Tor,tram,70,1960381_unified,"52.52560310,13.38727450",Q65095375,,,,,,,1960847.0
+"Weidendammbrücke, Bhf. Friedrichstr.",tram,70,1960382_unified,"52.52169302,13.38797771",,,,,,,,19561179.0
+Am Kupfergraben (Haus der Frau),tram,70,1960383_unified,"52.51968437,13.39624932",,,,,,,,196042.0
+"Heinersdorf, Romain-Rollandstr.",tram,71,1960384_unified,"52.57255110,13.43710630",Q65096052,,,,,,,1960499.0
+"Heinersdorf, Kirche",tram,71,1960385_unified,"52.56869080,13.43890530",Q65096107,,,,,,,1960498.0
+Am Steinberg,tram,71,1960386_unified,"52.55857960,13.43337510",Q65103320,,,,,,,196047.0
+Prenzlauerallee Ecke Wisbyerstr.,tram,71,1960387_unified,"52.55118384,13.43013562",,,,,,,,1960918.0
+S-Bhf. Prenzlauerallee,tram,71,1960388_unified,"52.54480750,13.42740800",Q65219791,,,,,,,19601021.0
+Dimitroffstr.,tram,71,1960389_unified,"52.52643035,13.44759679",,,,,,,,1960293.0
+Saarbrückerstr.,tram,71,1960390_unified,"52.52853096,13.41711369",,,,,,,,19641080.0
+Prenzlauer Tor,tram,71,1960391_unified,"52.52709114,13.41580937",,,,,,,,1960921.0
+"Alexanderplatz, Grunerstr.",tram,71,1960392_unified,"52.52008326,13.41408419",,,,,,,,196014.0
+"Jüdenstr., Molkenmarkt",tram,71,1960393_unified,"52.51614221,13.41059179",,,,,,,,1964572.0
+"Weißensee, Pasedagplatz",tram,72,1960394_unified,"52.55940270,13.46095940",Q65954665,,,,,,,19601322.0
+Klement-Gottwald-Allee Ecke Bernkastelerstr.,tram,72,1960395_unified,"52.55702058,13.46690319",,,,,,,,1960617.0
+Antonplatz,tram,72,1960396_unified,"52.54848030,13.45174160",Q65548849,,,,,,,196059.0
+Prenzlauer Promenade,tram,72,1960397_unified,"52.55155537,13.43032253",,,,,,,,1960919.0
+S-Bhf. Prenzlauerallee,tram,72,1960398_unified,"52.54480750,13.42740800",Q65219791,,,,,,,19601021.0
+Dimitroffstr.,tram,72,1960399_unified,"52.52643035,13.44759679",,,,,,,,1960293.0
+Saarbrückerstr.,tram,72,1960400_unified,"52.52853096,13.41711369",,,,,,,,19641080.0
+Prenzlauer Tor,tram,72,1960401_unified,"52.52709114,13.41580937",,,,,,,,1960921.0
+"Alexanderplatz, Grunerstr.",tram,72,1960402_unified,"52.52008326,13.41408419",,,,,,,,196014.0
+"Jüdenstr., Molkenmarkt",tram,72,1960403_unified,"52.51614221,13.41059179",,,,,,,,1964572.0
+Spittelmarkt,tram,72,1960404_unified,"52.51124332,13.40494540",,,,,,,,19601119.0
+Taubenstr.,tram,72,1960405_unified,"52.51306494,13.39139874",,,,,,,,19601176.0
+Bhf. Lichterfelde-Ost,tram,73,1960406_unified,"52.42891494,13.32900292",,,,,,,,1960149.0
+Wiesenbaude,tram,73,1960407_unified,"52.43330952,13.30727218",,,,,,,,19601343.0
+Moltkestr.,tram,73,1960408_unified,"52.44040704,13.31630980",,,,,,,,1960796.0
+Schlossstr.,tram,73,1960409_unified,"52.46492793,13.32842083",,,,,,,,19601062.0
+Rathaus Steglitz,tram,73,1960410_unified,"52.45691683,13.32074535",,,,,,,,1960950.0
+Bundesallee,tram,73,1960411_unified,"52.46492120,13.32837407",,,,,,,,1960245.0
+Kaisereiche,tram,73,1960412_unified,"52.46894213,13.33267296",,,,,,,,1960586.0
+Lauterplatz,tram,73,1960413_unified,"52.47552895,13.34016015",,,,,,,,1960695.0
+Innsbruckerplatz,tram,73,1960414_unified,"52.47804266,13.34344688",,,,,,,,1960559.0
+Dominicusstr.,tram,73,1960415_unified,"52.48182812,13.34836902",,,,,,,,1960298.0
+Albertstr.,tram,73,1960416_unified,"52.48441765,13.35284259",,,,,,,,19608.0
+Kaiser-Wilhelm-Platz,tram,73,1960417_unified,"52.48633166,13.35658468",,,,,,,,1960582.0
+U-Bhf. Bülowstr.,tram,73,1960418_unified,"52.49779471,13.36204149",,,,,,,,19601218.0
+Lützowstr.,tram,73,1960419_unified,"52.50307144,13.36572068",,,,,,,,1960747.0
+Potsdamerplatz,tram,73,1960420_unified,"52.50948236,13.37598816",,,,,,,,1960906.0
+Finckensteinallee,tram,74,1960421_unified,"52.43264816,13.29462683",,,,,,,,1960351.0
+Wiesenbaude,tram,74,1960422_unified,"52.43330952,13.30727218",,,,,,,,19601343.0
+Moltkestr.,tram,74,1960423_unified,"52.44040704,13.31630980",,,,,,,,1960796.0
+Schlossstr.,tram,74,1960424_unified,"52.46492793,13.32842083",,,,,,,,19601062.0
+Rathaus Steglitz,tram,74,1960425_unified,"52.45691683,13.32074535",,,,,,,,1960950.0
+Bundesallee,tram,74,1960426_unified,"52.46492120,13.32837407",,,,,,,,1960245.0
+Kaisereiche,tram,74,1960427_unified,"52.46894213,13.33267296",,,,,,,,1960586.0
+Lauterplatz,tram,74,1960428_unified,"52.47552895,13.34016015",,,,,,,,1960695.0
+Innsbruckerplatz,tram,74,1960429_unified,"52.47804266,13.34344688",,,,,,,,1960559.0
+Dominicusstr.,tram,74,1960430_unified,"52.48182812,13.34836902",,,,,,,,1960298.0
+Albertstr.,tram,74,1960431_unified,"52.48441765,13.35284259",,,,,,,,19608.0
+Kaiser-Wilhelm-Platz,tram,74,1960432_unified,"52.48633166,13.35658468",,,,,,,,1960582.0
+U-Bhf. Bülowstr.,tram,74,1960433_unified,"52.49779471,13.36204149",,,,,,,,19601218.0
+Lützowstr.,tram,74,1960434_unified,"52.50307144,13.36572068",,,,,,,,1960747.0
+Potsdamerplatz,tram,74,1960435_unified,"52.50948236,13.37598816",,,,,,,,1960906.0
+"Weißensee, Pasedagplatz",tram,74,1960436_unified,"52.55940270,13.46095940",Q65954665,,,,,,,19601322.0
+BVG-Bf. Weißensee,tram,74,1960437_unified,"52.55701999,13.46766891",,,,,,,,196072.0
+Klement-Gottwald-Allee Ecke Bernkastelerstr.,tram,74,1960438_unified,"52.55702058,13.46690319",,,,,,,,1960617.0
+Antonplatz,tram,74,1960439_unified,"52.54848030,13.45174160",Q65548849,,,,,,,196059.0
+S-Bhf. Greifswalderstr.,tram,74,1960440_unified,"52.54072340,13.43829040",Q65548932,,,,,,,19601010.0
+Dimitroffstr.,tram,74,1960441_unified,"52.52643035,13.44759679",,,,,,,,1960293.0
+Königstor,tram,74,1960442_unified,"52.52821600,13.42386902",,,,,,,,1960674.0
+"Alexanderplatz, Grunerstr.",tram,74,1960443_unified,"52.52008326,13.41408419",,,,,,,,196014.0
+"Jüdenstr., Molkenmarkt",tram,74,1960444_unified,"52.51614221,13.41059179",,,,,,,,1964572.0
+Spittelmarkt,tram,74,1960445_unified,"52.51124332,13.40494540",,,,,,,,19601119.0
+Leipzigerplatz,tram,74,1960446_unified,"52.50970229,13.37945987",,,,,,,,1960700.0
+Klement-Gottwald-Allee,tram,74E,1960447_unified,"52.55692922,13.46698658",,,,,,,,1960615.0
+Antonplatz,tram,74E,1960448_unified,"52.54848030,13.45174160",Q65548849,,,,,,,196059.0
+S-Bhf. Greifswalderstr.,tram,74E,1960449_unified,"52.54072340,13.43829040",Q65548932,,,,,,,19601010.0
+Dimitroffstr.,tram,74E,1960450_unified,"52.52643035,13.44759679",,,,,,,,1960293.0
+Königstor,tram,74E,1960451_unified,"52.52821600,13.42386902",,,,,,,,1960674.0
+"Alexanderplatz, Grunerstr.",tram,74E,1960452_unified,"52.52008326,13.41408419",,,,,,,,196014.0
+"Jüdenstr., Molkenmarkt",tram,74E,1960453_unified,"52.51614221,13.41059179",,,,,,,,1964572.0
+"Bhf. Zoo, Kantstr.",tram,75,1960454_unified,"52.50540350,13.33036756",,,,,,,,1960190.0
+Wilmersdorferstr.,tram,75,1960455_unified,"52.50669200,13.30669243",,,,,,,,19601359.0
+Amtsgericht,tram,75,1960456_unified,"52.50682618,13.29739145",,,,,,,,196052.0
+Messedamm,tram,75,1960457_unified,"52.50641939,13.28039244",,,,,,,,1960793.0
+Reichskanzlerplatz,tram,75,1960458_unified,"52.50891408,13.27225141",,,,,,,,1960963.0
+Bhf. Heerstr.,tram,75,1960459_unified,"52.50857976,13.25835390",,,,,,,,1960137.0
+Reichssportfeldstr.,tram,75,1960460_unified,"52.50751473,13.24208670",,,,,,,,1960966.0
+Stößenseebrücke,tram,75,1960461_unified,"52.50889437,13.21747597",,,,,,,,19561048.0
+Pichelsdorferstr.,tram,75,1960462_unified,"52.51307047,13.19687115",,,,,,,,1960896.0
+"Weverstr., Strassenbahnhof",tram,75,1960463_unified,"52.51946975,13.19781896",,,,,,,,19601332.0
+Seeburgerstr.,tram,75,1960464_unified,"52.52919075,13.19561328",,,,,,,,19601089.0
+Rathaus Spandau,tram,75,1960465_unified,"52.53488082,13.19905885",,,,,,,,1960948.0
+"Spandau, Markt",tram,75,1960466_unified,"52.53784350,13.20413543",,,,,,,,19601113.0
+Hafenplatz,tram,75,1960467_unified,"52.54229255,13.20620113",,,,,,,,1960463.0
+Hohenzollernring,tram,75,1960468_unified,"52.55534807,13.19865762",,,,,,,,1960537.0
+Hakenfelde,tram,75,1960469_unified,"52.57886010,13.21005780",,,,,,,,1960466.0
+"Spandau, Johannesstift",tram,76,1960470_unified,"52.56765350,13.19183036",,,,,,,,19601112.0
+Hohenzollernring,tram,76,1960471_unified,"52.55534807,13.19865762",,,,,,,,1960537.0
+Hafenplatz,tram,76,1960472_unified,"52.54229255,13.20620113",,,,,,,,1960463.0
+"Spandau, Markt",tram,76,1960473_unified,"52.53784350,13.20413543",,,,,,,,19601113.0
+Rathaus Spandau,tram,76,1960474_unified,"52.53488082,13.19905885",,,,,,,,1960948.0
+Seeburgerstr.,tram,76,1960475_unified,"52.52919075,13.19561328",,,,,,,,19601089.0
+"Weverstr., Strassenbahnhof",tram,76,1960476_unified,"52.51946975,13.19781896",,,,,,,,19601332.0
+Pichelsdorferstr.,tram,76,1960477_unified,"52.51307047,13.19687115",,,,,,,,1960896.0
+Stössenseebrücke,tram,76,1960478_unified,"52.50889437,13.21747597",,,,,,,,19601166.0
+Reichssportfeldstr.,tram,76,1960479_unified,"52.50751473,13.24208670",,,,,,,,1960966.0
+Bhf. Heerstr.,tram,76,1960480_unified,"52.50857976,13.25835390",,,,,,,,1960137.0
+Reichskanzlerplatz,tram,76,1960481_unified,"52.50891408,13.27225141",,,,,,,,1960963.0
+Messedamm,tram,76,1960482_unified,"52.50641939,13.28039244",,,,,,,,1960793.0
+Amtsgericht,tram,76,1960483_unified,"52.50682618,13.29739145",,,,,,,,196052.0
+Wilmersdorferstr.,tram,76,1960484_unified,"52.50669200,13.30669243",,,,,,,,19601359.0
+Kanststr. Ecke Joachimsthalerstr.,tram,76,1960485_unified,"52.50532615,13.33154201",,,,,,,,1960592.0
+Bhf. Zoo,tram,77,1960486_unified,"52.50719346,13.33262988",,,,,,,,1960189.0
+Wittenbergplatz,tram,77,1960487_unified,"52.50185026,13.34309835",,,,,,,,19601370.0
+Grunewaldstr.,tram,77,1960488_unified,"52.48909957,13.34492852",,,,,,,,1960446.0
+Bundesallee Ecke Berlinerstr.,tram,77,1960489_unified,"52.48733630,13.33101416",,,,,,,,1960247.0
+Bundesplatz,tram,77,1960490_unified,"52.47777991,13.32856619",,,,,,,,1960249.0
+Friedrich-Wilhelm-Platz,tram,77,1960491_unified,"52.47132416,13.32841722",,,,,,,,1960372.0
+Schlossstr.,tram,77,1960492_unified,"52.46492793,13.32842083",,,,,,,,19601062.0
+Rathaus Steglitz,tram,77,1960493_unified,"52.45691683,13.32074535",,,,,,,,1960950.0
+Hindenburgdamm,tram,77,1960494_unified,"52.44956204,13.31524424",,,,,,,,1960517.0
+Bhf. Botanischer Garten,tram,77,1960495_unified,"52.44730099,13.30830066",,,,,,,,1960124.0
+Bhf. Lichterfelde-West,tram,77,1960496_unified,"52.44269517,13.29704649",,,,,,,,1960151.0
+Rittberg-Krankenhaus,tram,77,1960497_unified,"52.42987952,13.28896146",,,,,,,,1960982.0
+Wismarerstr.,tram,77,1960498_unified,"52.41789657,13.30519810",,,,,,,,19601364.0
+Goerzallee,tram,77,1960499_unified,"52.42194394,13.29850665",,,,,,,,1960416.0
+Bhf. Zoo,tram,78,1960500_unified,"52.50719346,13.33262988",,,,,,,,1960189.0
+Wittenbergplatz,tram,78,1960501_unified,"52.50185026,13.34309835",,,,,,,,19601370.0
+Grunewaldstr.,tram,78,1960502_unified,"52.48909957,13.34492852",,,,,,,,1960446.0
+Bundesallee Ecke Berlinerstr.,tram,78,1960503_unified,"52.48733630,13.33101416",,,,,,,,1960247.0
+Bundesplatz,tram,78,1960504_unified,"52.47777991,13.32856619",,,,,,,,1960249.0
+Friedrich-Wilhelm-Platz,tram,78,1960505_unified,"52.47132416,13.32841722",,,,,,,,1960372.0
+Schlossstr.,tram,78,1960506_unified,"52.46492793,13.32842083",,,,,,,,19601062.0
+Rathaus Steglitz,tram,78,1960507_unified,"52.45691683,13.32074535",,,,,,,,1960950.0
+Hindenburgdamm,tram,78,1960508_unified,"52.44956204,13.31524424",,,,,,,,1960517.0
+Bhf. Botanischer Garten,tram,78,1960509_unified,"52.44730099,13.30830066",,,,,,,,1960124.0
+Bhf. Lichterfelde-West,tram,78,1960510_unified,"52.44269517,13.29704649",,,,,,,,1960151.0
+Rittberg-Krankenhaus,tram,78,1960511_unified,"52.42987952,13.28896146",,,,,,,,1960982.0
+Goerzallee,tram,78,1960512_unified,"52.42194394,13.29850665",,,,,,,,1960416.0
+Lichterfelde Süd Lindenstr.,tram,78,1960513_unified,"52.41370384,13.30156890",,,,,,,,1960720.0
+"Mahlsdorf-Süd, Hubertus",tram,82,1960514_unified,"52.47416630,13.59914430",Q66368466,,,,,,,1960756.0
+S-Bhf. Köpenick,tram,82,1960515_unified,"52.45821530,13.57904350",Q66370784,,,,,,,19601016.0
+Bahnhofstr. Ecke Lindenstr.,tram,82,1960516_unified,"52.45050940,13.57268400",Q66095701,,,,,,,196083.0
+Parkstr.,tram,82,1960517_unified,"52.45876522,13.53993546",,,,,,,,1960888.0
+Wilhelminenhof- Ecke Edisonstr.,tram,82,1960518_unified,"52.46194960,13.51390490",Q65951882,,,,,,,19601348.0
+Treskowallee Ecke Ehrlichstr.,tram,82,1960519_unified,"52.47895660,13.52343160",Q65951921,,,,,,,19601206.0
+Blockdammweg Ecke Köpenickerchaussee,tram,82,1960520_unified,"52.48329020,13.50167480",Q66085176,,,,,,,1960206.0
+Hauptstr. Ecke Karlshorsterstr.,tram,82,1960521_unified,"52.50151144,13.47523351",,,,,,,,1960483.0
+S-Bhf. Ostkreuz,tram,82,1960522_unified,"52.50243022,13.46902005",,,,,,,,19601019.0
+Stralauerallee Ecke Markgrafendamm,tram,82,1960523_unified,"52.49740745,13.46463651",,,,,,,,19601148.0
+Warschauerstr.,tram,82,1960524_unified,"52.50502000,13.44863000",Q63490275,,,,,,,19601307.0
+Ostbahnhof,tram,82,1960525_unified,"52.50910764,13.43550619",,,,,,,,1960865.0
+Andreasstr.,tram,82,1960526_unified,"52.51085824,13.43040217",,,,,,,,196055.0
+Blumenstr./Schicklerstr.,tram,82,1960527_unified,"52.51657582,13.41821187",,,,,,,,1960207.0
+"Alexanderplatz, Grunerstr.",tram,82,1960528_unified,"52.52008326,13.41408419",,,,,,,,196014.0
+Elisabethstr.,tram,82,1960529_unified,"52.51764985,13.41804614",Q65364041,,,,,,,1960320.0
+Wendenschloß Ecke Ekhofstr.,tram,83,1960530_unified,"52.41633001,13.58969077",,,,,,,,19601327.0
+Strassenbahnhof Köpenick,tram,83,1960531_unified,"52.43991340,13.58178240",Q66370900,,,,,,,19601153.0
+Schüßlerplatz,tram,83,1960532_unified,"52.44553304,13.57693508",,,,,,,,19601085.0
+Lindenstr. Ecke Bahnhofstr.,tram,83,1960533_unified,"52.45050940,13.57268400",Q66095701,,,,,,,1960728.0
+S-Bhf. Köpenick,tram,83,1960534_unified,"52.45821530,13.57904350",Q66370784,,,,,,,19601016.0
+Uhlenhorst,tram,83,1960535_unified,"52.46827685,13.58675426",,,,,,,,19601267.0
+Mahlsdorf-Süd,tram,83,1960536_unified,"52.47416630,13.59914430",Q66368466,,,,,,,1960755.0
+Hubertus,tram,83,1960537_unified,"52.47416630,13.59914430",Q66368466,,,,,,,1960546.0
+Bütowerstr.,tram,83,1960538_unified,"52.48610260,13.60398330",Q66364552,,,,,,,1960254.0
+S-Bhf. Mahlsdorf,tram,83,1960539_unified,"52.51221827,13.61219075",,,,,,,,19601018.0
+"Altglienicke, Am Falkenberg",tram,84,1960540_unified,"52.41079970,13.57045293",,,,,,,,196035.0
+Köpenickerstr.,tram,84,1960541_unified,"52.42048348,13.53874534",,,,,,,,1960683.0
+Benzolwerk,tram,84,1960542_unified,"52.42641469,13.54644441",,,,,,,,196095.0
+S-Bhf. Adlershof,tram,84,1960543_unified,"52.43525100,13.54084890",Q66363728,,,,,,,19601004.0
+Marktplatz,tram,84,1960544_unified,"52.43777454,13.54773333",,,,,,,,1960779.0
+S-Bhf. Spindlersfeld,tram,84,1960545_unified,"52.44573110,13.56242980",Q66363397,,,,,,,19601026.0
+Köllnischerplatz,tram,84,1960546_unified,"52.44471890,13.56862250",Q66363379,,,,,,,1960667.0
+Schüßlerplatz,tram,84,1960547_unified,"52.44553304,13.57693508",,,,,,,,19601085.0
+Lindenstr. Ecke Bahnhofstr.,tram,84,1960548_unified,"52.45050940,13.57268400",Q66095701,,,,,,,1960728.0
+Seelenbinderstr.,tram,84,1960549_unified,"52.45546320,13.57693030",Q66324934,,,,,,,19601092.0
+Hirschgarten,tram,84,1960550_unified,"52.45185330,13.60062450",Q66360740,,,,,,,1960519.0
+Fürstenwalderdamm,tram,84,1960551_unified,"52.44986380,13.66153400",Q66361484,,,,,,,1960385.0
+S-Bhf. Friedrichshagen,tram,84,1960552_unified,"52.45641260,13.62536560",Q66360784,,,,,,,19601009.0
+Brauerei,tram,84,1960553_unified,"52.44699266,13.62425200",,,,,,,,1960222.0
+"Friedrichshagen, Wasserwerk",tram,84,1960554_unified,"52.45605630,13.64199560",Q66362601,,,,,,,1960377.0
+Alt-Schmöckwitz,tram,86,1960555_unified,"52.37527670,13.64954900",Q66459540,,,,,,,196030.0
+Vetschauerallee,tram,86,1960556_unified,"52.38641240,13.63378600",Q66459670,,,,,,,19601277.0
+Richtershorn,tram,86,1960557_unified,"52.40105000,13.62484730",Q66481215,,,,,,,1960979.0
+Regattahäuser,tram,86,1960558_unified,"52.41142870,13.58808810",Q66490561,,,,,,,1960959.0
+Bhf. Grünau,tram,86,1960559_unified,"52.41349300,13.57468020",Q62470512,,,,,,,1960135.0
+Chemische Fabrik,tram,86,1960560_unified,"52.42696433,13.57354047",,,,,,,,1960265.0
+Vollkropfgraben,tram,86,1960561_unified,"52.43866650,13.57148890",Q66493847,,,,,,,19601283.0
+Köllnischerplatz,tram,86,1960562_unified,"52.44471890,13.56862250",Q66363379,,,,,,,1960667.0
+Schüßlerplatz,tram,86,1960563_unified,"52.44553304,13.57693508",,,,,,,,19601085.0
+Lindenstr. Ecke Bahnhofstr.,tram,86,1960564_unified,"52.45050940,13.57268400",Q66095701,,,,,,,1960728.0
+S-Bhf. Köpenick,tram,86,1960565_unified,"52.45821530,13.57904350",Q66370784,,,,,,,19601016.0
+Uhlenhorst,tram,86,1960566_unified,"52.46827685,13.58675426",,,,,,,,19601267.0
+"Mahlsdorf-Süd, Hubertus",tram,86,1960567_unified,"52.47416630,13.59914430",Q66368466,,,,,,,1960756.0
+Rahnsdorf,tram,87,1960568_unified,"52.44353169,13.68503800",Q66361311,,,,,,,1960934.0
+S-Bhf. Friedrichshagen,tram,87,1960569_unified,"52.45641260,13.62536560",Q66360784,,,,,,,19601009.0
+Hirschgarten,tram,87,1960570_unified,"52.45185330,13.60062450",Q66360740,,,,,,,1960519.0
+Bahnhofstr. Ecke Lindenstr.,tram,87,1960571_unified,"52.45050940,13.57268400",Q66095701,,,,,,,196083.0
+Parkstr.,tram,87,1960572_unified,"52.45876522,13.53993546",,,,,,,,1960888.0
+Wilhelminenhofstr. Ecke Edisonstr.,tram,87,1960573_unified,"52.46194960,13.51390490",Q65951882,,,,,,,19601350.0
+Bhf. Schöneweide,tram,87,1960574_unified,"52.45640818,13.50991657",,,,,,,,1960166.0
+Köpenicker Landstr. Ecke Baumschulenstr.,tram,87,1960575_unified,"52.46913201,13.49134005",,,,,,,,1960681.0
+Am Treptower Park Ecke Bulgarischestr.,tram,87,1960576_unified,"52.48147563,13.47281120",,,,,,,,196048.0
+Elsenstr.,tram,87,1960577_unified,"52.48680920,13.45116253",,,,,,,,1960322.0
+Wiener Brücke,tram,87,1960578_unified,"52.49588477,13.43650069",,,,,,,,19601340.0
+Stadtpark,tram,88,1960579_unified,"52.45106715,13.33796792",,,,,,,,19601132.0
+Lauenburgerplatz,tram,88,1960580_unified,"52.46143499,13.33935959",,,,,,,,1960694.0
+Kaisereiche,tram,88,1960581_unified,"52.46894213,13.33267296",,,,,,,,1960586.0
+Innsbruckerplatz,tram,88,1960582_unified,"52.47804266,13.34344688",,,,,,,,1960559.0
+Dominicusstr.,tram,88,1960583_unified,"52.48182812,13.34836902",,,,,,,,1960298.0
+Eisenacherstr.,tram,88,1960584_unified,"52.48461647,13.35310239",,,,,,,,1960318.0
+Kaiser-Wilhelm-Platz,tram,88,1960585_unified,"52.48633166,13.35658468",,,,,,,,1960582.0
+U-Bhf. Bülowstr.,tram,88,1960586_unified,"52.49779471,13.36204149",,,,,,,,19601218.0
+Lützowstr.,tram,88,1960587_unified,"52.50307144,13.36572068",,,,,,,,1960747.0
+Anhalter Bahnhof,tram,88,1960588_unified,"52.50453275,13.38232653",,,,,,,,196057.0
+U-Bhf. Kochstr.,tram,88,1960589_unified,"52.50671105,13.39050917",,,,,,,,19601234.0
+Oranienstr.,tram,88,1960590_unified,"52.50708049,13.39828192",,,,,,,,1960853.0
+U-Bhf. Moritzplatz,tram,88,1960591_unified,"52.50364223,13.41070894",,,,,,,,19601240.0
+Skalitzerstr.,tram,88,1960592_unified,"52.49926655,13.42768379",,,,,,,,19601104.0
+Spreewaldplatz,tram,88,1960593_unified,"52.49792228,13.43061701",,,,,,,,19601121.0
+Wiener Brücke,tram,88,1960594_unified,"52.49588477,13.43650069",,,,,,,,19601340.0
+"Treptow, Flutgraben",tram,92,1960595_unified,"52.49652090,13.45021185",,,,,,,,19601203.0
+S-Bhf. Treptow,tram,92,1960596_unified,"52.49288893,13.45922977",,,,,,,,19601027.0
+Bulgarischestr.,tram,92,1960597_unified,"52.48142359,13.47306736",,,,,,,,1960243.0
+Baumschulenstr.,tram,92,1960598_unified,"52.46908185,13.49132991",,,,,,,,196085.0
+Bhf. Schöneweide,tram,92,1960599_unified,"52.45640818,13.50991657",,,,,,,,1960166.0
+Britzerstr.,tram,92,1960600_unified,"52.45407075,13.51932687",,,,,,,,1960230.0
+Bhf. Oberspree,tram,92,1960601_unified,"52.45283947,13.53737517",,,,,,,,1960159.0
+Attilaplatz,tram,95,1960602_unified,"52.45549834,13.37561964",,,,,,,,196065.0
+Berlinickeplatz,tram,95,1960603_unified,"52.46632968,13.37814469",,,,,,,,1960108.0
+Hoeppnerstr.,tram,95,1960604_unified,"52.47245794,13.37790735",,,,,,,,1960524.0
+Adolf-Scheidt-Platz,tram,95,1960605_unified,"52.47819486,13.37836902",,,,,,,,19603.0
+U-Bhf. Flughafen,tram,95,1960606_unified,"52.48477998,13.38596223",,,,,,,,19601225.0
+Gneisenaustr.,tram,95,1960607_unified,"52.49294826,13.38771907",,,,,,,,1960413.0
+Blöcherplatz,tram,95,1960608_unified,"52.49594433,13.39077281",,,,,,,,1960208.0
+Baerwaldstr.,tram,95,1960609_unified,"52.49390938,13.40318238",,,,,,,,196076.0
+Urban-Krankenhaus,tram,95,1960610_unified,"52.49317001,13.40795886",,,,,,,,19601272.0
+Hermannplatz,tram,95,1960611_unified,"52.48708557,13.42475245",,,,,,,,1960504.0
+Erkstr.,tram,95,1960612_unified,"52.48169218,13.44015007",,,,,,,,1960332.0
+Hertzbergplatz,tram,95,1960613_unified,"52.47737355,13.44884381",,,,,,,,1960512.0
+Bhf. Sonnenallee,tram,95,1960614_unified,"52.47414313,13.45549953",,,,,,,,1960168.0
+Schulenburgpark,tram,95,1960615_unified,"52.46666061,13.47029259",,,,,,,,19601069.0
+Schwarzerweg,tram,95,1960616_unified,"52.47404160,13.45554045",,,,,,,,19601074.0
+"Baumschulenweg, Sonnenallee",tram,95,1960617_unified,"52.46729434,13.48909403",,,,,,,,196088.0
+Köpenicker Landstr.,tram,95,1960618_unified,"52.47976607,13.47552390",,,,,,,,1946298.0
+S-Bhf. Schöneweide,tram,95,1960619_unified,"52.45534130,13.51104490",Q65950245,,,,,,,19601025.0
+"Wilhelminenhofstr., Edisonstr.",tram,95,1960620_unified,"52.46194960,13.51390490",Q65951882,,,,,,,19601351.0
+Pionierrepublik,tram,95,1960621_unified,"52.45757790,13.54360310",Q66104117,,,,,,,1960897.0
+"Lindenstr., Bahnhofstr.",tram,95,1960622_unified,"52.45050940,13.57268400",Q66095701,,,,,,,1960729.0
+Grünstr.,tram,95,1960623_unified,"52.44496766,13.57415711",,,,,,,,1960450.0
+"Köpenick, Krankenhaus",tram,95,1960624_unified,"52.43883960,13.59207630",Q66091900,,,,,,,1960680.0
+Machnower Schleuse,tram,96,1960625_unified,"52.39513316,13.20831380",,,,,,,,1960750.0
+Alte Wagenhalle,tram,96,1960626_unified,"52.39228324,13.22481446",,,,,,,,196034.0
+Neue Wagenhalle,tram,96,1960627_unified,"52.39221410,13.23115560",,,,,,,,1960814.0
+Hamburgerplatz,tram,96,1960628_unified,"52.39831680,13.24654186",,,,,,,,1960471.0
+Ruhlsdorferplatz,tram,96,1960629_unified,"52.40085342,13.26885357",,,,,,,,1960995.0
+Fritz-Reuterstr.,tram,96,1960630_unified,"52.40692572,13.28520827",,,,,,,,1960381.0
+"Teltow, Paul-Gerhardtstr.",tram,96,1960631_unified,"52.41175172,13.29789335",,,,,,,,19601184.0
+U-Bhf. Tempelhof,tram,96,1960632_unified,"52.46591364,13.38552519",,,,,,,,19601259.0
+Alt-Tempelhof,tram,96,1960633_unified,"52.46607741,13.38563164",,,,,,,,196031.0
+Kaiserin-Augustastr.,tram,96,1960634_unified,"52.45936586,13.38448942",,,,,,,,1960587.0
+Friedrich-Karlstr.,tram,96,1960635_unified,"52.45579726,13.38393428",,,,,,,,1960370.0
+Attilaplatz,tram,96,1960636_unified,"52.45549834,13.37561964",,,,,,,,196065.0
+Röblingstr.,tram,96,1960637_unified,"52.44966812,13.36685245",,,,,,,,1960999.0
+Bhf. Mariendorf,tram,96,1960638_unified,"52.44707831,13.36143980",,,,,,,,1960154.0
+Friedrichstr.,tram,96,1960639_unified,"52.44419606,13.35424030",,,,,,,,1960379.0
+"Lankwitz, Kirche",tram,96,1960640_unified,"52.43629411,13.34577794",,,,,,,,1960693.0
+Seydlitzstr.,tram,96,1960641_unified,"52.43194337,13.33814571",,,,,,,,19601098.0
+Bhf. Lichterfelde-Ost,tram,96,1960642_unified,"52.42891494,13.32900292",,,,,,,,1960149.0
+Berlinerstr.,tram,96,1960643_unified,"52.42581132,13.31676003",,,,,,,,1960106.0
+Glesendorferstr.,tram,96,1960644_unified,"52.42400541,13.31440666",,,,,,,,1960406.0
+Osdorferstr.,tram,96,1960645_unified,"52.42121990,13.31068197",,,,,,,,1960855.0
+Wismarerstr.,tram,96,1960646_unified,"52.41789657,13.30519810",,,,,,,,19601364.0
+Schwelmerstr.,tram,96,1960647_unified,"52.41218490,13.29905281",,,,,,,,19601076.0
+Mehringplatz (Hallesches Tor),tram,98,1960648_unified,"52.49792491,13.39108107",,,,,,,,1960791.0
+Yorckstr./Gneisenaustr.,tram,98,1960649_unified,"52.49296205,13.38772750",,,,,,,,19601382.0
+U-Bhf. Flughafen,tram,98,1960650_unified,"52.48477998,13.38596223",,,,,,,,19601225.0
+U-Bhf. Paradestr.,tram,98,1960651_unified,"52.47820975,13.38579797",,,,,,,,19601246.0
+Bahnhof Tempelhof,tram,98,1960652_unified,"52.46588000,13.38561354",,,,,,,,196079.0
+Alt-Tempelhof,tram,98,1960653_unified,"52.46607741,13.38563164",,,,,,,,196031.0
+Kaiserin-Augustastr.,tram,98,1960654_unified,"52.45936586,13.38448942",,,,,,,,1960587.0
+Friedrich-Karlstr.,tram,98,1960655_unified,"52.45579726,13.38393428",,,,,,,,1960370.0
+Kaiserstr.,tram,98,1960656_unified,"52.44556345,13.38580842",,,,,,,,1960589.0
+Prühßstr.,tram,98,1960657_unified,"52.44327481,13.38622116",,,,,,,,1960927.0
+Mariendorferdamm Ecke Alt-Mariendorf,tram,98,1960658_unified,"52.44018031,13.38732780",,,,,,,,1960769.0
+Grossbeerenstr. Ecke Daimlerstr.,tram,98,1960659_unified,"52.42636680,13.37431638",,,,,,,,1960438.0
+Daimlerstr. Ecke Birnhornweg,tram,98,1960660_unified,"52.42214077,13.38461615",,,,,,,,1960282.0
+Lindenstr.,tram,99,1960661_unified,"52.50703629,13.39824519",,,,,,,,1960727.0
+Mehringplatz,tram,99,1960662_unified,"52.49792491,13.39108107",,,,,,,,1960790.0
+Yorckstr.,tram,99,1960663_unified,"52.49290121,13.38776683",,,,,,,,19601381.0
+U-Bhf. Flughafen,tram,99,1960664_unified,"52.48477998,13.38596223",,,,,,,,19601225.0
+Flughafen Tempelhof,tram,99,1960665_unified,"52.47095120,13.38564725",,,,,,,,1960357.0
+Alt-Tempelhof,tram,99,1960666_unified,"52.46607741,13.38563164",,,,,,,,196031.0
+Rathaus Tempelhof,tram,99,1960667_unified,"52.46249412,13.38523088",,,,,,,,1960951.0
+Kaiserin-Augustastr.,tram,99,1960668_unified,"52.45936586,13.38448942",,,,,,,,1960587.0
+Friedrich-Karlstr.,tram,99,1960669_unified,"52.45579726,13.38393428",,,,,,,,1960370.0
+Kaiserstr.,tram,99,1960670_unified,"52.44556345,13.38580842",,,,,,,,1960589.0
+Alt-Mariendorf,tram,99,1960671_unified,"52.44015322,13.38726501",,,,,,,,196023.0
+Rennbahn,tram,99,1960672_unified,"52.43006059,13.39244351",,,,,,,,1960970.0
+Marienfelderchaussee,tram,99,1960673_unified,"52.41460414,13.40113673",,,,,,,,1960774.0
+Marienfelderstr.,tram,99,1960674_unified,"52.39246328,13.40666202",,,,,,,,1960776.0
+Bhf. Lichtenrade,tram,99,1960675_unified,"52.38669306,13.39694577",,,,,,,,1960147.0
+Waldstr.,autobus,A1,1960676_unified,"52.52890585,13.33085326",,,,,,,,19601293.0
+Otto-Surh-Allee,autobus,A1,1960677_unified,"52.51469791,13.31513693",,,,,,,,1960871.0
+Kurfürstendamm Ecke Konstanzerstr.,autobus,A1,1960678_unified,"52.50059910,13.31304941",,,,,,,,1960657.0
+U-Bhf. Fehrbellinerplatz,autobus,A1,1960679_unified,"52.49039093,13.31417746",,,,,,,,19601223.0
+Detmolderstr.,autobus,A1,1960680_unified,"52.47886473,13.32033030",,,,,,,,1960288.0
+Breitenbachplatz,autobus,A1,1960681_unified,"52.46721972,13.30947349",,,,,,,,1960225.0
+Botanischer Garten,autobus,A1,1960682_unified,"52.45859880,13.30343606",,,,,,,,1960217.0
+Pacelli-/Thielallee,autobus,A1,1960683_unified,"52.45819384,13.28709695",,,,,,,,1960873.0
+Clayallee,autobus,A1,1960684_unified,"52.46042334,13.27494615",,,,,,,,1960269.0
+U-Bhf. Oskar-Helene-Heim,autobus,A1,1960685_unified,"52.45027901,13.27036199",,,,,,,,19601244.0
+Potsdamerstr. Ecke Clayallee,autobus,A1,1960686_unified,"52.43504800,13.26042558",,,,,,,,1960912.0
+Bhf. Zehlendorf,autobus,A1,1960687_unified,"52.43121178,13.25916441",,,,,,,,1960187.0
+Beeskowdamm,autobus,A1,1960688_unified,"52.40965850,13.26730874",,,,,,,,196090.0
+Wismarerstr.,autobus,A1,1960689_unified,"52.42195192,13.29850539",,,,,,,,19601363.0
+Lindenstr.,autobus,A1,1960690_unified,"52.41754704,13.30663751",,,,,,,,1960726.0
+"Haselhorst, Kirche",autobus,A10,1960691_unified,"52.54682818,13.23706589",,,,,,,,1960476.0
+Paulsternstr.,autobus,A10,1960692_unified,"52.54415774,13.24712613",,,,,,,,1960889.0
+Verwaltungs-Gebäude,autobus,A10,1960693_unified,"52.53706333,13.26228517",,,,,,,,19601276.0
+Spandauerdamm,autobus,A10,1960694_unified,"52.51838421,13.28007696",,,,,,,,19601114.0
+U-Bhf. Kaiserdamm,autobus,A10,1960695_unified,"52.50999451,13.28180313",,,,,,,,19601233.0
+Amtsgerichsplatz,autobus,A10,1960696_unified,"52.50685666,13.29505748",,,,,,,,196051.0
+Kurfürstendamm,autobus,A10,1960697_unified,"52.49802331,13.29621757",,,,,,,,1960655.0
+Bhf. Halensee,autobus,A10,1960698_unified,"52.49686559,13.28955734",,,,,,,,1960136.0
+Elsterplatz,autobus,A10,1960699_unified,"52.47977983,13.28550761",,,,,,,,1960323.0
+Hundekehlestr.,autobus,A10,1960700_unified,"52.47548162,13.29030877",,,,,,,,1960551.0
+Königin-Luisestr.,autobus,A10,1960701_unified,"52.45831795,13.28702748",,,,,,,,1960670.0
+U-Bhf. Thielplatz,autobus,A10,1960702_unified,"52.45104521,13.28173642",,,,,,,,19601260.0
+Dahlemerweg,autobus,A10,1960703_unified,"52.44179805,13.28269937",,,,,,,,1960279.0
+Teltowerdamm,autobus,A10,1960704_unified,"52.43504475,13.26044253",,,,,,,,19601185.0
+Behring-Krankenhaus,autobus,A10,1960705_unified,"52.42410895,13.25176454",,,,,,,,196091.0
+Lupsteinerweg,autobus,A10,1960706_unified,"52.40950895,13.25164774",,,,,,,,1960737.0
+Saargemünderstr.,autobus,A11,1960707_unified,"52.45091808,13.27092249",,,,,,,,19611023.0
+U-Bhf. Oskar-Helene-Heim,autobus,A11,1960708_unified,"52.45027901,13.27036199",,,,,,,,19601244.0
+Ihnestr.,autobus,A11,1960709_unified,"52.44831039,13.27635507",,,,,,,,1960553.0
+Corrensplatz,autobus,A11,1960710_unified,"52.44601401,13.28426468",,,,,,,,1960273.0
+Under den Eichen,autobus,A11,1960711_unified,"52.44564070,13.29380246",,,,,,,,19601269.0
+Bhf. Lichterfelde-West,autobus,A11,1960712_unified,"52.44397676,13.29562870",,,,,,,,1960150.0
+Ringstr.,autobus,A11,1960713_unified,"52.43977281,13.30017508",,,,,,,,1960981.0
+Wiesenbaude,autobus,A11,1960714_unified,"52.43049524,13.31180861",,,,,,,,19601342.0
+Berlinerstr.,autobus,A11,1960715_unified,"52.43081276,13.31750495",,,,,,,,1960102.0
+Marienstr.,autobus,A11,1960716_unified,"52.42960010,13.32130354",,,,,,,,1960777.0
+Bismarckstr.,autobus,A11,1960717_unified,"52.42807193,13.32550981",,,,,,,,1960196.0
+Bhf. Lichterfelde-Ost,autobus,A11,1960718_unified,"52.42911681,13.32984727",,,,,,,,1960148.0
+Langestr.,autobus,A11,1960719_unified,"52.42401189,13.33313116",,,,,,,,1960689.0
+Hildburghauserstr.,autobus,A11,1960720_unified,"52.41665075,13.33814404",,,,,,,,1960514.0
+Trippsteinstr.,autobus,A11,1960721_unified,"52.41893959,13.34614966",,,,,,,,19601209.0
+Weddingplatz,autobus,A12,1960722_unified,"52.54113612,13.36850103",,,,,,,,19601313.0
+Schulstr.,autobus,A12,1960723_unified,"52.54642643,13.35923286",,,,,,,,19601070.0
+U-Bhf. Seestr.,autobus,A12,1960724_unified,"52.55031541,13.35229850",,,,,,,,19601254.0
+Barfusstr.,autobus,A12,1960725_unified,"52.55430720,13.34515394",,,,,,,,196084.0
+Bristolstr.,autobus,A12,1960726_unified,"52.55831154,13.35118936",,,,,,,,1960228.0
+Emmentalerstr.,autobus,A12,1960727_unified,"52.56753547,13.35124017",,,,,,,,1960324.0
+Lindauerstr. Ecke Aroserallee,autobus,A12,1960728_unified,"52.57371993,13.35191269",,,,,,,,1960723.0
+Lindenweg,autobus,A12,1960729_unified,"52.58320839,13.34367758",,,,,,,,1960731.0
+Holzhauserstr.,autobus,A12,1960730_unified,"52.58197328,13.30540938",,,,,,,,1960542.0
+Cyclopstr.,autobus,A12,1960731_unified,"52.60208377,13.32483858",,,,,,,,1960275.0
+Zabel-Krüger-Damm,autobus,A12,1960732_unified,"52.60786611,13.32384580",,,,,,,,19601383.0
+Kirchstr.,autobus,A12,1960733_unified,"52.61485248,13.31703442",,,,,,,,1960609.0
+Hermsdorferdamm,autobus,A12,1960734_unified,"52.60001186,13.28130321",,,,,,,,1960509.0
+Bhf. Frohnau,autobus,A12,1960735_unified,"52.63311783,13.28947656",,,,,,,,1960130.0
+Donnersmarckplatz,autobus,A12,1960736_unified,"52.62982465,13.28047497",,,,,,,,1960300.0
+Hainbuchenstr.,autobus,A12,1960737_unified,"52.63427133,13.27482402",,,,,,,,1960465.0
+Weddingplatz,autobus,A12S,1960738_unified,"52.54113612,13.36850103",,,,,,,,19601313.0
+Schulstr.,autobus,A12S,1960739_unified,"52.54642643,13.35923286",,,,,,,,19601070.0
+U-Bhf. Seestr.,autobus,A12S,1960740_unified,"52.55031541,13.35229850",,,,,,,,19601254.0
+Barfusstr.,autobus,A12S,1960741_unified,"52.55430720,13.34515394",,,,,,,,196084.0
+Emmentalerstr.,autobus,A12S,1960742_unified,"52.56753547,13.35124017",,,,,,,,1960324.0
+Lindauerstr. Ecke Aroserallee,autobus,A12S,1960743_unified,"52.57371993,13.35191269",,,,,,,,1960723.0
+Oranienburgerstr.,autobus,A12S,1960744_unified,"52.59544416,13.33303737",,,,,,,,1960844.0
+Rathaus Reinickendorf,autobus,A12S,1960745_unified,"52.59165784,13.32633528",,,,,,,,1960943.0
+Cyclopstr.,autobus,A12S,1960746_unified,"52.60208377,13.32483858",,,,,,,,1960275.0
+Zabel-Krüger-Damm,autobus,A12S,1960747_unified,"52.60786611,13.32384580",,,,,,,,19601383.0
+Schildowerstr.,autobus,A12S,1960748_unified,"52.61769236,13.31581409",,,,,,,,19601050.0
+Hermsdorferdamm,autobus,A12S,1960749_unified,"52.60001186,13.28130321",,,,,,,,1960509.0
+Oswinsteig,autobus,A12S,1960750_unified,"52.62499224,13.30083402",,,,,,,,1960869.0
+Hohefeldstr.,autobus,A12S,1960751_unified,"52.62626195,13.29937346",,,,,,,,1960525.0
+Im Fischgrund,autobus,A12S,1960752_unified,"52.62965844,13.29433591",,,,,,,,1960554.0
+Bhf. Frohnau,autobus,A12S,1960753_unified,"52.63311783,13.28947656",,,,,,,,1960130.0
+Alt-Heiligensee,autobus,A13,1960754_unified,"52.60616921,13.21064686",,,,,,,,196020.0
+Am Dachsbau,autobus,A13,1960755_unified,"52.60655284,13.22984371",,,,,,,,196038.0
+Gabelung,autobus,A13,1960756_unified,"52.59988613,13.25204129",,,,,,,,1960389.0
+Ruppinerchaussee,autobus,A13,1960757_unified,"52.59792202,13.27507520",,,,,,,,1960998.0
+U-Bhf. Tegel,autobus,A13,1960758_unified,"52.58950313,13.28363072",,,,,,,,19601258.0
+Bernauerstr.,autobus,A13,1960759_unified,"52.53341404,13.38760321",,,,,,,,1960111.0
+Krankenhaus Tegel-Süd,autobus,A13,1960760_unified,"52.57573398,13.27874933",,,,,,,,1960648.0
+Strasse nach Staatwinkel,autobus,A13,1960761_unified,"52.56196483,13.25458804",,,,,,,,19601151.0
+Paulsternstr.,autobus,A13,1960762_unified,"52.54415774,13.24712613",,,,,,,,1960889.0
+Daumstr.,autobus,A13,1960763_unified,"52.54060997,13.23226473",,,,,,,,1960286.0
+Havelstr.,autobus,A13,1960764_unified,"52.53941568,13.20594071",,,,,,,,1960485.0
+Rathaus Spandau,autobus,A13,1960765_unified,"52.53480744,13.19950552",,,,,,,,1960947.0
+Pichelsdorferstr.,autobus,A13,1960766_unified,"52.52914294,13.19563880",,,,,,,,1960895.0
+Päwesinerweg,autobus,A13,1960767_unified,"52.52633954,13.18187750",,,,,,,,1960929.0
+Heerstr.,autobus,A13,1960768_unified,"52.51550448,13.18456806",,,,,,,,1960490.0
+Weinmeisterhornweg,autobus,A13,1960769_unified,"52.50924682,13.18031485",,,,,,,,19601317.0
+Alt-Heiligensee,autobus,A14,1960770_unified,"52.60616921,13.21064686",,,,,,,,196020.0
+Mattenbuder Pfad,autobus,A14,1960771_unified,"52.61696068,13.22055043",,,,,,,,1960786.0
+Bhf. Heiligensee,autobus,A14,1960772_unified,"52.62515124,13.22965907",,,,,,,,1960138.0
+Bhf. Schulzendorf,autobus,A14,1960773_unified,"52.61386002,13.24587966",,,,,,,,1960164.0
+Heiligenseestr.,autobus,A14,1960774_unified,"52.59796194,13.27509889",,,,,,,,1960495.0
+U-Bhf. Tegel,autobus,A14,1960775_unified,"52.58950313,13.28363072",,,,,,,,19601258.0
+Ziekowstr.,autobus,A14,1960776_unified,"52.59059426,13.29201115",,,,,,,,19601391.0
+Nordgraben,autobus,A14,1960777_unified,"52.58800293,13.33978757",,,,,,,,1960832.0
+Holzhauserstr.,autobus,A14,1960778_unified,"52.58197328,13.30540938",,,,,,,,1960542.0
+Lindenweg,autobus,A14,1960779_unified,"52.58320839,13.34367758",,,,,,,,1960731.0
+Aroserallee,autobus,A14,1960780_unified,"52.57376245,13.35197071",,,,,,,,196061.0
+Kopenhagenerstr.,autobus,A14,1960781_unified,"52.57426046,13.35915474",,,,,,,,1960637.0
+Pankowerallee,autobus,A14,1960782_unified,"52.56466791,13.37808764",,,,,,,,1960881.0
+Pankstr.,autobus,A14,1960783_unified,"52.55229408,13.38145935",,,,,,,,1960883.0
+U-Bhf. Gesundbrunnen,autobus,A14,1960784_unified,"52.54866076,13.38787363",,,,,,,,19601227.0
+Rügenerstr.,autobus,A14,1960785_unified,"52.54479128,13.39106762",,,,,,,,19601002.0
+Lübarserstr.,autobus,A15,1960786_unified,"52.60279220,13.33572935",,,,,,,,1960743.0
+Bhf. Wittenau,autobus,A15,1960787_unified,"52.59721247,13.33263147",,,,,,,,1960183.0
+Alt-Wittenau,autobus,A15,1960788_unified,"52.58972877,13.33416922",,,,,,,,196032.0
+Tor 5,autobus,A15,1960789_unified,"52.58357682,13.32052258",,,,,,,,19601201.0
+Bhf. Eichbornstr.,autobus,A15,1960790_unified,"52.57760144,13.31554155",,,,,,,,1960126.0
+Holzhauserstr.,autobus,A15,1960791_unified,"52.58197328,13.30540938",,,,,,,,1960542.0
+Borsigwalderweg,autobus,A15,1960792_unified,"52.58482848,13.29793543",,,,,,,,1960214.0
+Gorkistr.,autobus,A15,1960793_unified,"52.59059426,13.29201115",,,,,,,,1961414.0
+U-Bhf. Tegel,autobus,A15,1960794_unified,"52.58950313,13.28363072",,,,,,,,19601258.0
+Hermsdorferdamm,autobus,A15,1960795_unified,"52.60001186,13.28130321",,,,,,,,1960509.0
+Am Flie,autobus,A15,1960796_unified,"52.60345757,13.28961365",,,,,,,,196039.0
+Schulzendorferstr.,autobus,A15,1960797_unified,"52.61057476,13.29548065",,,,,,,,19601072.0
+Bhf. Hermsdorf,autobus,A15,1960798_unified,"52.61953939,13.30416069",,,,,,,,1960140.0
+Dominikus-Krankenhaus,autobus,A15,1960799_unified,"52.62619652,13.29449567",,,,,,,,1960299.0
+Donnersmarckplatz,autobus,A15,1960800_unified,"52.62982465,13.28047497",,,,,,,,1960300.0
+Bhf. Frohnau,autobus,A15,1960801_unified,"52.63311783,13.28947656",,,,,,,,1960130.0
+Louise-Schroeder-Platz,autobus,A16,1960802_unified,"52.55713317,13.36551369",,,,,,,,1960733.0
+U-Bhf. Seestr.,autobus,A16,1960803_unified,"52.55031541,13.35229850",,,,,,,,19601254.0
+Afrikanischestr.,autobus,A16,1960804_unified,"52.54630154,13.34385525",,,,,,,,19605.0
+Virchow-Krankenhaus,autobus,A16,1960805_unified,"52.54371513,13.33931792",,,,,,,,19601281.0
+Turmstr.,autobus,A16,1960807_unified,"52.52639995,13.35171730",,,,,,,,19601211.0
+Hansaplatz,autobus,A16,1960808_unified,"52.51793433,13.34203819",,,,,,,,1960473.0
+Tiergartenstr.,autobus,A16,1960809_unified,"52.50960312,13.35132089",,,,,,,,19601199.0
+Lützowplatz,autobus,A16,1960810_unified,"52.50502902,13.35182287",,,,,,,,1960744.0
+Rathaus Schöneberg,autobus,A16,1960812_unified,"52.48515474,13.34508660",,,,,,,,1961932.0
+Innsbruckerplatz,autobus,A16,1960813_unified,"52.47854551,13.34405869",,,,,,,,1960557.0
+Bundesplatz,autobus,A16,1960814_unified,"52.47867899,13.32860278",,,,,,,,1960248.0
+Wiesbadenerstr.,autobus,A16,1960815_unified,"52.47164544,13.31951680",,,,,,,,19601341.0
+Breitenbachplatz,autobus,A16,1960816_unified,"52.46721972,13.30947349",,,,,,,,1960225.0
+Englerallee,autobus,A16,1960817_unified,"52.46177803,13.30447330",,,,,,,,1960328.0
+Bhf. Grunewald,autobus,A17,1960818_unified,"52.48801015,13.26315525",,,,,,,,1960134.0
+Hagenplatz,autobus,A17,1960819_unified,"52.48338297,13.26581870",,,,,,,,1960464.0
+Rosenecke,autobus,A17,1960820_unified,"52.47578489,13.28230652",,,,,,,,1960989.0
+Warnemünderstr.,autobus,A17,1960821_unified,"52.47539404,13.29031330",,,,,,,,19641358.0
+U-Bhf. Rüdesheimerplatz,autobus,A17,1960822_unified,"52.47208311,13.31490978",,,,,,,,19601251.0
+Friedriche-Wilhelm-Platz,autobus,A17,1960823_unified,"52.47140871,13.32795265",,,,,,,,1960373.0
+Bundesallee,autobus,A17,1960824_unified,"52.46493053,13.32853185",,,,,,,,1960244.0
+Rathaus Steglitz,autobus,A17,1960825_unified,"52.45683245,13.32075740",,,,,,,,1960949.0
+Stadtpark,autobus,A17,1960826_unified,"52.44890556,13.33882767",,,,,,,,19601131.0
+Leonorenstr.,autobus,A17,1960827_unified,"52.44436716,13.33887986",,,,,,,,1960707.0
+Stadion Lichterfelde,autobus,A17,1960828_unified,"52.43867923,13.32505044",,,,,,,,19601128.0
+Wilhelmstr.,autobus,A17,1960829_unified,"52.43057880,13.31859290",,,,,,,,19601355.0
+Bismarckstr.,autobus,A17,1960830_unified,"52.42807193,13.32550981",,,,,,,,1960196.0
+Oberhoferplatz,autobus,A17,1960831_unified,"52.42410259,13.32817043",,,,,,,,1960834.0
+Saaleckplatz,autobus,A17,1960832_unified,"52.41629158,13.32394196",,,,,,,,19601031.0
+Saargemünderstr.,autobus,A18,1960833_unified,"52.45091808,13.27092249",,,,,,,,19611023.0
+U-Bhf. Oskar-Helene-Heim,autobus,A18,1960834_unified,"52.45027901,13.27036199",,,,,,,,19601244.0
+Sophie-Charlottenstr.,autobus,A18,1960835_unified,"52.44594955,13.26778841",,,,,,,,19601108.0
+Scharfestr.,autobus,A18,1960836_unified,"52.43828829,13.26221335",,,,,,,,19601045.0
+Potsdamerstr. Ecke Clayallee,autobus,A18,1960837_unified,"52.43504800,13.26042558",,,,,,,,1960912.0
+Mittelstr.,autobus,A18,1960838_unified,"52.43475141,13.24926210",,,,,,,,1960795.0
+Wolzogenstr.,autobus,A18,1960839_unified,"52.43229986,13.23571921",,,,,,,,19601377.0
+Benschallee,autobus,A18,1960840_unified,"52.42959262,13.22400013",,,,,,,,196094.0
+Waldfriedhof,autobus,A18,1960841_unified,"52.42599573,13.20924605",,,,,,,,19601290.0
+Quantzstr.,autobus,A18,1960842_unified,"52.42313567,13.20225354",,,,,,,,1960930.0
+Kronprinzessinenweg,autobus,A18,1960843_unified,"52.41994047,13.17530095",,,,,,,,1960652.0
+Am Grossen Wannsee,autobus,A18,1960844_unified,"52.42049658,13.16719297",,,,,,,,196040.0
+Pfaueninsel-Chaussee,autobus,A18,1960845_unified,"52.41883762,13.15303919",,,,,,,,1960893.0
+Rathaus Wannsee,autobus,A18,1960846_unified,"52.41844013,13.14887249",,,,,,,,1960953.0
+Stölpchensee,autobus,A18,1960847_unified,"52.41228329,13.14180067",,,,,,,,19601165.0
+Kohlhasenbrück,autobus,A18,1960848_unified,"52.39938685,13.14140115",,,,,,,,1956556.0
+Roseneck,autobus,A19,1960849_unified,"52.47580090,13.28241127",,,,,,,,1960987.0
+Hagenplatz,autobus,A19,1960850_unified,"52.48338297,13.26581870",,,,,,,,1960464.0
+Erdenerstr.,autobus,A19,1960851_unified,"52.49055831,13.27636003",,,,,,,,1960329.0
+Bhf. Halensee,autobus,A19,1960852_unified,"52.49686559,13.28955734",,,,,,,,1960136.0
+Wilmersdorferstr.,autobus,A19,1960853_unified,"52.49996766,13.30698784",,,,,,,,19601358.0
+Olivaerplatz,autobus,A19,1960854_unified,"52.50060276,13.31311062",,,,,,,,1960838.0
+Joachimstalerstr.,autobus,A19,1960855_unified,"52.50444349,13.33562827",,,,,,,,1960571.0
+Breitscheidplatz,autobus,A19,1960856_unified,"52.50443806,13.33564616",,,,,,,,1960227.0
+Wittenbergplatz,autobus,A19,1960857_unified,"52.50188939,13.34269788",,,,,,,,19601369.0
+Nollendorfplatz,autobus,A19,1960858_unified,"52.49968844,13.35308644",,,,,,,,1960823.0
+Potsdamerstr.,autobus,A19,1960859_unified,"52.43581243,13.25609887",,,,,,,,1960908.0
+Bhf. Yorckstr.,autobus,A19,1960860_unified,"52.49297748,13.36953091",,,,,,,,1960185.0
+Katzbachstr.,autobus,A19,1960861_unified,"52.49158428,13.37672546",,,,,,,,1960604.0
+Mehringdamm,autobus,A19,1960862_unified,"52.49293918,13.38772030",,,,,,,,1960787.0
+U-Bhf. Flughafen,autobus,A19,1960863_unified,"52.48488596,13.38599655",,,,,,,,19601224.0
+Flughafen,autobus,A19,1960864_unified,"52.47096514,13.38564146",,,,,,,,1960354.0
+Strasse des 17. Juni,autobus,A2,1960865_unified,"52.51271131,13.32300340",,,,,,,,19601150.0
+U-Bhf. Ernst-Reuter-Platz,autobus,A2,1960866_unified,"52.51164603,13.32229086",,,,,,,,19601221.0
+Bhf. Zoo,autobus,A2,1960867_unified,"52.50623278,13.33236208",,,,,,,,1960188.0
+U-Bhf. Spichernstr.,autobus,A2,1960868_unified,"52.49661912,13.33071297",,,,,,,,19601255.0
+Berlinerstr.,autobus,A2,1960869_unified,"52.43081276,13.31750495",,,,,,,,1960102.0
+Bundesplatz,autobus,A2,1960870_unified,"52.47867899,13.32860278",,,,,,,,1960248.0
+Friedrich-Wilhelm-Platz,autobus,A2,1960871_unified,"52.47128806,13.32836213",,,,,,,,1960371.0
+Schlossstr.,autobus,A2,1960872_unified,"52.46502319,13.32851264",,,,,,,,19601061.0
+Bhf. Feuerbachstr.,autobus,A2,1960873_unified,"52.46385037,13.33225535",,,,,,,,1960128.0
+Bergstr.,autobus,A2,1960874_unified,"52.45818373,13.32975385",,,,,,,,196097.0
+Steglitzerdamm,autobus,A2,1960875_unified,"52.45105450,13.33797450",,,,,,,,19601142.0
+Leonorenstr.,autobus,A2,1960876_unified,"52.44436716,13.33887986",,,,,,,,1960707.0
+"Lankwitz, Kirche",autobus,A2,1960877_unified,"52.43629187,13.34574539",,,,,,,,1960692.0
+Havensteinstr.,autobus,A2,1960878_unified,"52.43193914,13.34632696",,,,,,,,1960486.0
+Lerbacherweg,autobus,A2,1960879_unified,"52.42568078,13.34761443",,,,,,,,1960710.0
+Trippsteinstr.,autobus,A2,1960880_unified,"52.41893959,13.34614966",,,,,,,,19601209.0
+Tegelort,autobus,A20,1960881_unified,"52.57053901,13.23122086",,,,,,,,19601181.0
+Walderseestr.,autobus,A20,1960882_unified,"52.57565593,13.22896583",,,,,,,,19601288.0
+Falkenplatz,autobus,A20,1960883_unified,"52.58490938,13.22761993",,,,,,,,1960341.0
+Mühlenstr.,autobus,A20,1960884_unified,"52.59350029,13.24886269",,,,,,,,1960803.0
+Heiligenseestr.,autobus,A20,1960885_unified,"52.59796194,13.27509889",,,,,,,,1960495.0
+Karolinenstr.,autobus,A20,1960886_unified,"52.59678679,13.27666137",,,,,,,,1960599.0
+U-Bhf. Tegel,autobus,A20,1960887_unified,"52.58950313,13.28363072",,,,,,,,19601258.0
+Hatzfeldallee,autobus,A20,1960888_unified,"52.59207275,13.28604590",,,,,,,,1960478.0
+Martin-Luther-Friedhof,autobus,A20,1960889_unified,"52.59840054,13.29835050",,,,,,,,1960780.0
+Freie Scholle,autobus,A20,1960890_unified,"52.59985154,13.30173616",,,,,,,,1960364.0
+Waldstr. Ecke Waidmannslust,autobus,A20,1960891_unified,"52.60193428,13.30604751",,,,,,,,19601294.0
+Bhf. Waidmannslust,autobus,A20,1960892_unified,"52.60711751,13.32022371",,,,,,,,1960176.0
+Oraniendamm,autobus,A20,1960893_unified,"52.60783561,13.32383448",,,,,,,,1960850.0
+Am Vierrutenbert,autobus,A20,1960894_unified,"52.61369862,13.34423182",,,,,,,,196049.0
+"Lübars, Dorfaue",autobus,A20,1960895_unified,"52.62095733,13.35893448",,,,,,,,1960742.0
+Wentowsteig,autobus,A21,1960896_unified,"52.59694372,13.36046295",,,,,,,,19601328.0
+Oranienburgerstr.,autobus,A21,1960897_unified,"52.59544416,13.33303737",,,,,,,,1960844.0
+Alt-Wittenau,autobus,A21,1960898_unified,"52.58972877,13.33416922",,,,,,,,196032.0
+Bhf. Eichbornstr.,autobus,A21,1960899_unified,"52.57760144,13.31554155",,,,,,,,1960126.0
+Scharnweberstr.,autobus,A21,1960900_unified,"52.56789124,13.31193030",,,,,,,,19601048.0
+Kurt-Schumacher-Platz,autobus,A21,1960901_unified,"52.56343825,13.32713029",,,,,,,,1960664.0
+Kaserne Südtor,autobus,A21,1960902_unified,"52.55685970,13.30843424",,,,,,,,1960602.0
+Heckerdamm,autobus,A21,1960903_unified,"52.53962817,13.29504845",,,,,,,,1960487.0
+Bhf. Jungfernheide,autobus,A21,1960904_unified,"52.53013879,13.29601882",,,,,,,,1960143.0
+Luisenplatz,autobus,A21,1960905_unified,"52.52005409,13.29951339",,,,,,,,1960735.0
+Kantstr.,autobus,A21,1960906_unified,"52.50678795,13.30232027",,,,,,,,1960593.0
+Stuttgarterplatz,autobus,A21,1960907_unified,"52.50551611,13.30292330",,,,,,,,19601163.0
+Amtsgericht Charlottenburg,autobus,A21,1960908_unified,"52.50571854,13.29534740",,,,,,,,196053.0
+Kurfürstendamm,autobus,A21,1960909_unified,"52.49802331,13.29621757",,,,,,,,1960655.0
+Bhf. Hohenzollerndamm,autobus,A21,1960910_unified,"52.48832717,13.30143693",,,,,,,,1960141.0
+U-Bhf. Fehrbellinerplatz,autobus,A21,1960911_unified,"52.49039093,13.31417746",,,,,,,,19601223.0
+"Hessenwinkel, Lindenstr.",autobus,A22,1960912_unified,"52.42653519,13.72845897",,,,,,,,1960513.0
+Fahlenbergstr. Ecke Fürstenwalderallee,autobus,A22,1960913_unified,"52.43147015,13.71870886",,,,,,,,1960336.0
+S-Bhf. Wilhelmshagen,autobus,A22,1960914_unified,"52.43886122,13.72106025",,,,,,,,19601029.0
+Zentralschule,autobus,A22,1960915_unified,"52.43465069,13.70369221",,,,,,,,19601386.0
+Waldschänke,autobus,A22,1960916_unified,"52.44331814,13.68593963",,,,,,,,19601292.0
+S-Bhf. Rahnsdorf,autobus,A22,1960917_unified,"52.45162837,13.69157910",,,,,,,,19601022.0
+"Fichtenau, Stadtgrenze",autobus,A22,1960918_unified,"52.45479242,13.70149996",,,,,,,,1960349.0
+"Altglienicke, Kirche",autobus,A23,1960919_unified,"52.42184573,13.53940770",,,,,,,,196036.0
+Gerosteig,autobus,A23,1960920_unified,"52.40977095,13.52694351",,,,,,,,1960401.0
+Dankmarsteig,autobus,A23,1960921_unified,"52.41246045,13.52870523",,,,,,,,1960285.0
+Wiebestr.,autobus,A24,1960922_unified,"52.53119513,13.31906377",,,,,,,,19601336.0
+Gotzkowskystr.,autobus,A24,1960923_unified,"52.52718721,13.33055093",,,,,,,,1964397.0
+Stromstr.,autobus,A24,1960924_unified,"52.52631690,13.34314632",,,,,,,,19601160.0
+Rathenowerstr.,autobus,A24,1960925_unified,"52.52673251,13.35527561",,,,,,,,1960956.0
+Alt-Moabit,autobus,A24,1960926_unified,"52.52407846,13.35706914",,,,,,,,196026.0
+John-Foster-Dulles-Allee,autobus,A24,1960927_unified,"52.51708521,13.35460920",,,,,,,,1960577.0
+Tiergartenstr.,autobus,A24,1960928_unified,"52.50960312,13.35132089",,,,,,,,19601199.0
+Lützowplatz,autobus,A24,1960929_unified,"52.50502902,13.35182287",,,,,,,,1960744.0
+Potsdamerstr.,autobus,A24,1960930_unified,"52.43581243,13.25609887",,,,,,,,1960908.0
+Hafenplatz,autobus,A24,1960931_unified,"52.50392084,13.37547988",,,,,,,,1960461.0
+Anhalter Bhf.,autobus,A24,1960932_unified,"52.50469390,13.38196950",,,,,,,,196058.0
+U-Bhf. Hallesches Tor,autobus,A24,1960933_unified,"52.49791002,13.39130767",,,,,,,,19601230.0
+Gneisenaustr.,autobus,A24,1960934_unified,"52.49157326,13.39433162",,,,,,,,1960412.0
+Columbiadamm,autobus,A24,1960935_unified,"52.48398172,13.39441875",,,,,,,,1960272.0
+Tempelhoferdamm,autobus,A24,1960936_unified,"52.48422431,13.38589141",,,,,,,,19601190.0
+Flughafen,autobus,A24,1960937_unified,"52.47096514,13.38564146",,,,,,,,1960354.0
+Unionplatz,autobus,A25,1960938_unified,"52.53305940,13.33727881",,,,,,,,19601270.0
+Gotzkowskybrücke,autobus,A25,1960939_unified,"52.52381238,13.32972912",,,,,,,,1960424.0
+Hansaplatz,autobus,A25,1960940_unified,"52.51793433,13.34203819",,,,,,,,1960473.0
+U-Bhf. Ernst-Reuter-Platz,autobus,A25,1960941_unified,"52.51164603,13.32229086",,,,,,,,19601221.0
+Bhf. Zoo,autobus,A25,1960942_unified,"52.50623278,13.33236208",,,,,,,,1960188.0
+U-Bhf. Spichernstr.,autobus,A25,1960943_unified,"52.49661912,13.33071297",,,,,,,,19601255.0
+Bundesplatz,autobus,A25,1960944_unified,"52.47867899,13.32860278",,,,,,,,1960248.0
+Kaisereiche,autobus,A25,1960945_unified,"52.46896806,13.33261489",,,,,,,,1960585.0
+Grazerplatz,autobus,A25,1960946_unified,"52.46763699,13.34756581",,,,,,,,1960428.0
+Attilaplatz,autobus,A25,1960947_unified,"52.45590180,13.37651250",,,,,,,,196064.0
+Tempelhoferdamm,autobus,A25,1960948_unified,"52.48422431,13.38589141",,,,,,,,19601190.0
+Gottlieb-Dunkelstr.,autobus,A25,1960949_unified,"52.46047501,13.41797906",,,,,,,,1960420.0
+Grünerweg,autobus,A25,1960950_unified,"52.42955864,13.45359073",,,,,,,,1960449.0
+Gutschmidtstr.,autobus,A25,1960951_unified,"52.43707683,13.44412943",,,,,,,,1960453.0
+"S-Bhf. Kaulsdorf, Planitzstr.",autobus,A27,1960952_unified,"52.51113864,13.58755467",,,,,,,,19601014.0
+Chemnitzerstr.,autobus,A27,1960953_unified,"52.50512886,13.58158505",,,,,,,,1960267.0
+Ulmenstr.,autobus,A27,1960954_unified,"52.48730878,13.57493203",,,,,,,,19601268.0
+Gehsenerstr.,autobus,A27,1960955_unified,"52.46321578,13.58365869",,,,,,,,1960396.0
+S-Bhf. Köpenick,autobus,A27,1960956_unified,"52.45882190,13.57956468",,,,,,,,19601015.0
+Bahnhofstr. Ecke Lindenstr.,autobus,A27,1960957_unified,"52.45096281,13.57214687",,,,,,,,196082.0
+"Köpenick, Krankenhaus",autobus,A27,1960958_unified,"52.43861201,13.59241126",,,,,,,,1960679.0
+Chausseehaus,autobus,A27,1960959_unified,"52.43009087,13.61469429",,,,,,,,1960263.0
+Alt-Müggelheim,autobus,A27,1960960_unified,"52.41018331,13.66589753",,,,,,,,196028.0
+Loewenhardtdamm,autobus,A28,1960961_unified,"52.48165790,13.37445329",,,,,,,,1960732.0
+Dudenstr.,autobus,A28,1960962_unified,"52.48507841,13.37656755",,,,,,,,1960303.0
+Kreuzbergstr.,autobus,A28,1960963_unified,"52.48940664,13.37668996",,,,,,,,1960651.0
+Yorckstr.,autobus,A28,1960964_unified,"52.49358813,13.38496756",,,,,,,,19601380.0
+Mehringdamm,autobus,A28,1960965_unified,"52.49293918,13.38772030",,,,,,,,1960787.0
+Zossenerstr.,autobus,A28,1960966_unified,"52.49160677,13.39444390",,,,,,,,19601396.0
+Südstern,autobus,A28,1960967_unified,"52.48895865,13.40781380",,,,,,,,19601172.0
+Urban-Krankenhause,autobus,A28,1960968_unified,"52.49346936,13.40624512",,,,,,,,19601273.0
+U-Bhf. Prinzenstr.,autobus,A28,1960969_unified,"52.49844154,13.40664384",,,,,,,,19601247.0
+U-Bhf Kottbusser Tor,autobus,A28,1960970_unified,"52.49905126,13.41835901",,,,,,,,19601214.0
+Oranienstr.,autobus,A28,1960971_unified,"52.50131071,13.41922461",,,,,,,,1960852.0
+Waldemarstr.,autobus,A28,1960972_unified,"52.50326280,13.42063142",,,,,,,,19601287.0
+Mariannenplatz,autobus,A28,1960973_unified,"52.50228674,13.42408623",,,,,,,,1960764.0
+Köpenickerstr. Ecke Manteuffelstr.,autobus,A28,1960974_unified,"52.50575224,13.43192761",,,,,,,,1960685.0
+U-Bhf. Schlesisches Tor,autobus,A28,1960975_unified,"52.50108420,13.44197126",,,,,,,,19601253.0
+Heckmannufer,autobus,A28,1960976_unified,"52.49706082,13.44923942",,,,,,,,1960488.0
+Roseneck,autobus,A29,1960977_unified,"52.47580090,13.28241127",,,,,,,,1960987.0
+Berkaerstr.,autobus,A29,1960978_unified,"52.48209271,13.28118295",,,,,,,,1960100.0
+BSC-Sportplatz,autobus,A29,1960979_unified,"52.48590336,13.28436673",,,,,,,,196069.0
+Bismarckplatz,autobus,A29,1960980_unified,"52.49206454,13.28493897",,,,,,,,1960195.0
+Bhf. Halensee,autobus,A29,1960981_unified,"52.49686559,13.28955734",,,,,,,,1960136.0
+Joachim-Friedrichstr.,autobus,A29,1960982_unified,"52.49796466,13.29627094",,,,,,,,1960570.0
+Wilmersdorferstr.,autobus,A29,1960983_unified,"52.49996766,13.30698784",,,,,,,,19601358.0
+Olivaerplatz,autobus,A29,1960984_unified,"52.50060276,13.31311062",,,,,,,,1960838.0
+Uhlandstr.,autobus,A29,1960985_unified,"52.49368292,13.32361138",,,,,,,,19601265.0
+Joachimstalerstr.,autobus,A29,1960986_unified,"52.50444349,13.33562827",,,,,,,,1960571.0
+Breitscheidplatz,autobus,A29,1960987_unified,"52.50443806,13.33564616",,,,,,,,1960227.0
+Wittenbergplatz,autobus,A29,1960988_unified,"52.50188939,13.34269788",,,,,,,,19601369.0
+Lutherstr.,autobus,A29,1960989_unified,"52.50104544,13.34692194",,,,,,,,1960738.0
+Lützowstr.,autobus,A29,1960990_unified,"52.50307891,13.36561127",,,,,,,,1960745.0
+Potsdamerstr.,autobus,A29,1960991_unified,"52.43581243,13.25609887",,,,,,,,1960908.0
+Anhalter Bhf.,autobus,A29,1960992_unified,"52.50469390,13.38196950",,,,,,,,196058.0
+Rathaus Zehlendorf,autobus,A3,1960993_unified,"52.43320752,13.25953192",,,,,,,,1960954.0
+Winifriedstr.,autobus,A3,1960994_unified,"52.43922811,13.26291187",,,,,,,,19601361.0
+Sundgauerstr.,autobus,A3,1960995_unified,"52.43838201,13.27144796",,,,,,,,19601168.0
+U-Bhf. Oskar-Helene-Heim,autobus,A3,1960996_unified,"52.45027901,13.27036199",,,,,,,,19601244.0
+U-Bhf. Onkel-Toms-Hütte,autobus,A3,1960997_unified,"52.45007713,13.25127259",,,,,,,,19611218.0
+U-Bhf. Krumme Lanke,autobus,A3,1960998_unified,"52.44308075,13.24046555",,,,,,,,19601236.0
+Bhf. Lindenthalerallee,autobus,A3,1960999_unified,"52.43102571,13.22988168",,,,,,,,1960152.0
+Benschallee,autobus,A3,19601000_unified,"52.42959262,13.22400013",,,,,,,,196094.0
+Schopenhauerstr.,autobus,A3,19601001_unified,"52.43398061,13.21202532",,,,,,,,19601068.0
+Bhf. Nikolassee,autobus,A3,19601002_unified,"52.43378197,13.19315206",,,,,,,,1960158.0
+Am Beelitzhof,autobus,A3,19601003_unified,"52.43220209,13.18666156",,,,,,,,196037.0
+Bhf. Wannsee,autobus,A3,19601004_unified,"52.42151302,13.17810257",,,,,,,,1960177.0
+Am Grossen Wannsee,autobus,A3,19601005_unified,"52.42049658,13.16719297",,,,,,,,196040.0
+Pfaueninsel-Chaussee,autobus,A3,19601006_unified,"52.41883762,13.15303919",,,,,,,,1960893.0
+Rathaus Wannsee,autobus,A3,19601007_unified,"52.41844013,13.14887249",,,,,,,,1960953.0
+Stölpchensee,autobus,A3,19601008_unified,"52.41228329,13.14180067",,,,,,,,19601165.0
+Machandelweg,autobus,A31,19601009_unified,"52.52483520,13.24567178",,,,,,,,1960749.0
+U-Bhf. Ruhleben,autobus,A31,19601010_unified,"52.52596833,13.24147858",,,,,,,,19601249.0
+Friedhof Ruhleben,autobus,A31,19601011_unified,"52.52773587,13.23178832",,,,,,,,1960368.0
+Kinderheim Ruhleben,autobus,A31,19601012_unified,"52.52796709,13.23071328",,,,,,,,1960608.0
+Teltowerstr.,autobus,A31,19601013_unified,"52.52691808,13.21580707",,,,,,,,19601186.0
+Grenadierstr.,autobus,A31,19601014_unified,"52.53098193,13.20537176",,,,,,,,1960433.0
+Stresowplatz,autobus,A31,19601015_unified,"52.53362878,13.20678183",,,,,,,,19601158.0
+Breitestr.,autobus,A31,19601016_unified,"52.45435057,13.32830751",,,,,,,,1960223.0
+Rathaus Spandau,autobus,A31,19601017_unified,"52.53480744,13.19950552",,,,,,,,1960947.0
+Brunsbüttelerdamm,autobus,A31,19601018_unified,"52.53292762,13.19842956",,,,,,,,1980226.0
+Nauenerstr.,autobus,A31,19601019_unified,"52.53404430,13.18167584",,,,,,,,1960807.0
+Egelpfuhlstr.,autobus,A31,19601020_unified,"52.53353984,13.16941693",,,,,,,,1960308.0
+Magistratsweg,autobus,A31,19601021_unified,"52.53312014,13.15806721",,,,,,,,1960752.0
+Spandauerstr.,autobus,A31,19601022_unified,"52.53594092,13.15679343",,,,,,,,19601116.0
+Hackbuschstr.,autobus,A31,19601023_unified,"52.53959957,13.15024453",,,,,,,,1960458.0
+Heidebergplan,autobus,A31,19601024_unified,"52.54107413,13.14733873",,,,,,,,1960492.0
+Breitenbachplatz,autobus,A32,19601025_unified,"52.46721972,13.30947349",,,,,,,,1960225.0
+Gritznerstr.,autobus,A32,19601026_unified,"52.46438146,13.31648334",,,,,,,,1964407.0
+Schlossstr.,autobus,A32,19601027_unified,"52.46502319,13.32851264",,,,,,,,19601061.0
+Rathaus Steglitz,autobus,A32,19601028_unified,"52.45683245,13.32075740",,,,,,,,1960949.0
+Sedanstr.,autobus,A32,19601029_unified,"52.45143022,13.33528925",,,,,,,,19601088.0
+Stindestr.,autobus,A32,19601030_unified,"52.44813903,13.34011937",,,,,,,,19641199.0
+Leonorenstr.,autobus,A32,19601031_unified,"52.44436716,13.33887986",,,,,,,,1960707.0
+"Lankwitz, Kirche",autobus,A32,19601032_unified,"52.43629187,13.34574539",,,,,,,,1960692.0
+Marienfelderstr.,autobus,A32,19601033_unified,"52.43338754,13.35302355",,,,,,,,1960775.0
+Marchandstr.,autobus,A32,19601034_unified,"52.42304933,13.35735455",,,,,,,,1960761.0
+Marienfelderallee,autobus,A32,19601035_unified,"52.41379043,13.36209890",,,,,,,,1960773.0
+Stegerwaldstr.,autobus,A32,19601036_unified,"52.42073935,13.36926534",,,,,,,,19601140.0
+Bhf. Marienfelde,autobus,A32,19601037_unified,"52.42342247,13.37466418",,,,,,,,1960155.0
+Bhf. Steglitz,autobus,A33,19601038_unified,"52.45673896,13.32114702",,,,,,,,1960171.0
+Breitestr.,autobus,A33,19601039_unified,"52.45435057,13.32830751",,,,,,,,1960223.0
+Klingsorstr.,autobus,A33,19601040_unified,"52.45309022,13.33121104",,,,,,,,1960620.0
+Sedanstr.,autobus,A33,19601041_unified,"52.45143022,13.33528925",,,,,,,,19601088.0
+Bismarckstr.,autobus,A33,19601042_unified,"52.42807193,13.32550981",,,,,,,,1960196.0
+Halskestr.,autobus,A33,19601043_unified,"52.44997591,13.34671541",,,,,,,,1960469.0
+Bhf. Südende,autobus,A33,19601044_unified,"52.44906893,13.35409783",,,,,,,,1960173.0
+Bhf. Mariendorf,autobus,A33,19601045_unified,"52.44675774,13.36055021",,,,,,,,1960153.0
+Kurfürstenstr.,autobus,A33,19601046_unified,"52.44564303,13.36805210",,,,,,,,1960659.0
+Kaiserstr./Ringstr.,autobus,A33,19601047_unified,"52.44449600,13.37223381",,,,,,,,1960590.0
+Rathaus Mariendorf,autobus,A33,19601048_unified,"52.44527454,13.37949238",,,,,,,,1960939.0
+Kaiserstr.,autobus,A33,19601049_unified,"52.44556964,13.38573673",,,,,,,,1960588.0
+"Spandau, Friedhof",autobus,A34,19601050_unified,"52.55313629,13.17967445",,,,,,,,19601111.0
+Askanierring,autobus,A34,19601051_unified,"52.54567997,13.19426733",,,,,,,,196062.0
+Hafenplatz,autobus,A34,19601052_unified,"52.50392084,13.37547988",,,,,,,,1960461.0
+Rathaus Spandau,autobus,A34,19601053_unified,"52.53480744,13.19950552",,,,,,,,1960947.0
+Wilhelmstr. Ecke Pichelsdorferstr.,autobus,A34,19601054_unified,"52.52799171,13.19527001",,,,,,,,19601356.0
+Adamstr.,autobus,A34,19601055_unified,"52.52102912,13.19780699",,,,,,,,19601.0
+Heerstr.,autobus,A34,19601056_unified,"52.51550448,13.18456806",,,,,,,,1960490.0
+Weinmeisterhornweg,autobus,A34,19601057_unified,"52.50924682,13.18031485",,,,,,,,19601317.0
+Ortsgrenze Gatow,autobus,A34,19601058_unified,"52.49816017,13.18001442",,,,,,,,1960854.0
+"Gatow, Kirche",autobus,A34,19601059_unified,"52.48684681,13.18215148",,,,,,,,1960394.0
+Großglienickerweg,autobus,A34,19601060_unified,"52.48314881,13.18263056",,,,,,,,1960443.0
+Krankenhaus Hohengatow,autobus,A34,19601061_unified,"52.47044988,13.16939160",,,,,,,,1960646.0
+Alt-Kladow,autobus,A34,19601062_unified,"52.45459141,13.14448804",,,,,,,,196021.0
+Schwiezerhaus,autobus,A34,19601063_unified,"52.46177835,13.13349263",,,,,,,,19601077.0
+Gutshof,autobus,A34,19601064_unified,"52.47510904,13.12071054",,,,,,,,1960454.0
+Germersheimerplatz,autobus,A35,19601065_unified,"52.54433254,13.18733636",,,,,,,,1960400.0
+Askanierring,autobus,A35,19601066_unified,"52.54567997,13.19426733",,,,,,,,196062.0
+Rathaus Spandau,autobus,A35,19601067_unified,"52.53480744,13.19950552",,,,,,,,1960947.0
+Wilhelmstr. Ecke Pichelsdorferstr.,autobus,A35,19601068_unified,"52.52799171,13.19527001",,,,,,,,19601356.0
+Adamstr.,autobus,A35,19601069_unified,"52.52102912,13.19780699",,,,,,,,19601.0
+Heerstr.,autobus,A35,19601070_unified,"52.51550448,13.18456806",,,,,,,,1960490.0
+Gatowerstr.,autobus,A35,19601071_unified,"52.48943626,13.18038759",,,,,,,,1960395.0
+Weinmeisterhornweg,autobus,A35,19601072_unified,"52.50924682,13.18031485",,,,,,,,19601317.0
+Ortsgrenze Gatow,autobus,A35,19601073_unified,"52.49816017,13.18001442",,,,,,,,1960854.0
+"Gatow, Kirche",autobus,A35,19601074_unified,"52.48684681,13.18215148",,,,,,,,1960394.0
+Großglienickerweg,autobus,A35,19601075_unified,"52.48314881,13.18263056",,,,,,,,1960443.0
+Krankenhaus Hohengatow,autobus,A35,19601076_unified,"52.47044988,13.16939160",,,,,,,,1960646.0
+Alt-Kladow,autobus,A35,19601077_unified,"52.45459141,13.14448804",,,,,,,,196021.0
+Krampnitzerweg,autobus,A35,19601078_unified,"52.45227343,13.13842230",,,,,,,,1960643.0
+Hottengrund,autobus,A35,19601079_unified,"52.44597765,13.12625139",,,,,,,,1960545.0
+Waltersdorf,autobus,A38,19601080_unified,"52.36492901,13.55571241",,,,,,,,19601297.0
+"Bohnsdorf, Waldstr.",autobus,A38,19601081_unified,"52.38939719,13.57066656",,,,,,,,1960211.0
+Eichbuschplatz,autobus,A38,19601082_unified,"52.39366126,13.58204631",,,,,,,,1960312.0
+Joachimstr.,autobus,A38,19601083_unified,"52.40316590,13.57664159",,,,,,,,1960572.0
+S-Bhf. Grünau,autobus,A38,19601084_unified,"52.41361516,13.57379629",,,,,,,,19601011.0
+"Wartenberg, Siedlung",autobus,A39,19601085_unified,"52.58393196,13.53076034",,,,,,,,19601310.0
+"Wartenberg, Dorfstr.",autobus,A39,19601086_unified,"52.57484090,13.51802097",,,,,,,,19601309.0
+Falkenbergerchaussee,autobus,A39,19601087_unified,"52.56581686,13.51191371",,,,,,,,1960338.0
+"Hohenschönhausen, Falkenbergerstr.",autobus,A39,19601089_unified,"52.55022955,13.50958504",,,,,,,,1961522.0
+Brixplatz,autobus,A4,19601090_unified,"52.51907944,13.25699371",,,,,,,,1960231.0
+Reichskanzlerplatz,autobus,A4,19601091_unified,"52.50929184,13.27265694",,,,,,,,1960962.0
+Messedamm,autobus,A4,19601092_unified,"52.50446815,13.27941210",,,,,,,,1960792.0
+Bhf. Halensee,autobus,A4,19601093_unified,"52.49686559,13.28955734",,,,,,,,1960136.0
+Hochmeisterplatz,autobus,A4,19601094_unified,"52.49468638,13.30125468",,,,,,,,1960522.0
+U-Bhf. Fehrbellinerplatz,autobus,A4,19601095_unified,"52.49039093,13.31417746",,,,,,,,19601223.0
+Bundesallee Ecke Badenschestr.,autobus,A4,19601096_unified,"52.48613795,13.33110030",,,,,,,,1960246.0
+Rathaus Schöneberg,autobus,A4,19601097_unified,"52.48515474,13.34508660",,,,,,,,1961932.0
+Innsbruckerplatz,autobus,A4,19601098_unified,"52.47854551,13.34405869",,,,,,,,1960557.0
+Dominicusstr.,autobus,A4,19601099_unified,"52.48184559,13.34829598",,,,,,,,1960297.0
+Kaiser-Wilhelm-Platz,autobus,A4,19601100_unified,"52.48632925,13.35655627",,,,,,,,1960581.0
+U-Bhf. Flughafen,autobus,A4,19601101_unified,"52.48488596,13.38599655",,,,,,,,19601224.0
+Friesenstr.,autobus,A4,19601102_unified,"52.48395060,13.39435975",,,,,,,,1960380.0
+U-Bhf. Boddinstr.,autobus,A4,19601103_unified,"52.48028652,13.42527957",,,,,,,,19601215.0
+Rathaus Neukölln,autobus,A4,19601104_unified,"52.48152537,13.43438108",,,,,,,,1960940.0
+Finowstr.,autobus,A4,19601105_unified,"52.48111599,13.44144771",,,,,,,,1960352.0
+"Buch, Zepernickerstr.",autobus,A42,19601106_unified,"52.64161725,13.51557571",,,,,,,,1960237.0
+Alt-Buch,autobus,A42,19601107_unified,"52.63585516,13.50090380",,,,,,,,196018.0
+Lindenbergerweg,autobus,A42,19601108_unified,"52.63267168,13.50029910",,,,,,,,1960725.0
+"Karow, Bahnhofstr.",autobus,A42,19601109_unified,"52.60931229,13.48126585",,,,,,,,1960601.0
+Güteraußenring,autobus,A42,19601110_unified,"52.59988724,13.46929713",,,,,,,,1961453.0
+"Blankenburg, Bahnhofstr.",autobus,A42,19601111_unified,"52.59138047,13.45351227",,,,,,,,1960201.0
+"Heinersdorf, Kirche",autobus,A42,19601112_unified,"52.56826376,13.44060190",,,,,,,,1960497.0
+Am Steinberg,autobus,A42,19601113_unified,"52.55648145,13.42930676",,,,,,,,196046.0
+Ostseestr. (Spitze),autobus,A42,19601114_unified,"52.55105111,13.43030377",,,,,,,,1960868.0
+Bürknersfelde,autobus,A43,19601115_unified,"52.54954049,13.58668971",,,,,,,,1960253.0
+"Marzahn, Berlinerchaussee",autobus,A43,19601116_unified,"52.54469782,13.56456033",,,,,,,,1960784.0
+Güterbahnhof Springpfuhl,autobus,A43,19601117_unified,"52.52561232,13.53368732",,,,,,,,1961454.0
+S-Bhf. Friedrichsfelde-Ost,autobus,A43,19601118_unified,"52.51324537,13.52403058",,,,,,,,19601008.0
+Schlossstr. Ecke Alt-Friedrichsfelde,autobus,A43,19601119_unified,"52.50943477,13.51881394",,,,,,,,19601063.0
+U-Bhf. Friedrichsfelde,autobus,A43,19601120_unified,"52.50624112,13.51285306",,,,,,,,19601226.0
+"Hönow, Dorfstr.",autobus,A44,19601121_unified,"52.54884928,13.63648688",,,,,,,,1960552.0
+Greifswalderstr.,autobus,A44,19601122_unified,"52.53002871,13.62681794",,,,,,,,1960430.0
+Am Rosenhag,autobus,A44,19601123_unified,"52.52474356,13.62177583",,,,,,,,196045.0
+S-Bhf. Mahlsdorf,autobus,A44,19601124_unified,"52.51234909,13.61221794",,,,,,,,19601017.0
+Greifswalderstr.,autobus,A44E,19601125_unified,"52.53002871,13.62681794",,,,,,,,1960430.0
+Am Rosenhag,autobus,A44E,19601126_unified,"52.52474356,13.62177583",,,,,,,,196045.0
+S-Bhf. Mahlsdorf,autobus,A44E,19601127_unified,"52.51234909,13.61221794",,,,,,,,19601017.0
+"Wilhelmsruh, Fontanestr.",autobus,A45,19601128_unified,"52.58985939,13.36119357",,,,,,,,19601354.0
+Hauptstr. Ecke Edelweißstr.,autobus,A45,19601129_unified,"52.58637926,13.36752939",,,,,,,,1961480.0
+Ehrenmal,autobus,A45,19601130_unified,"52.57958420,13.37597472",,,,,,,,1960309.0
+Heinrich-Mann-Platz,autobus,A45,19601131_unified,"52.57297246,13.39214613",,,,,,,,1960500.0
+"Pankow, Rathaus",autobus,A45,19601132_unified,"52.56953909,13.40418644",,,,,,,,1960878.0
+"Pankow, Kirche",autobus,A45,19601133_unified,"52.57124681,13.41067072",,,,,,,,1960876.0
+Prenzlauer Promenade Ecke Kissingenstr.,autobus,A45,19601134_unified,"52.56795805,13.42773437",,,,,,,,1960920.0
+Am Steinberg,autobus,A45,19601135_unified,"52.55648145,13.42930676",,,,,,,,196046.0
+Langhansstr. Ecke Gustav-Adolfstr.,autobus,A45,19601136_unified,"52.55362786,13.43471640",,,,,,,,1960690.0
+Hamburgerplatz,autobus,A45,19601137_unified,"52.55539419,13.43897314",,,,,,,,1960470.0
+Pistoriusstr. Ecke Klement-Gottwald-Allee,autobus,A45,19601138_unified,"52.55009436,13.45900711",,,,,,,,1960899.0
+Klement-Gottwald-Allee Ecke Bernkastelerstr.,autobus,A45,19601139_unified,"52.55689019,13.46699741",,,,,,,,1960616.0
+"Weißensee, Schwarzelfenweg",autobus,A45,19601140_unified,"52.56662014,13.46414043",,,,,,,,19601324.0
+"Ahrensfeld, Kirche",autobus,A46,19601141_unified,"52.57532170,13.57651561",,,,,,,,19607.0
+Stadtrandsiedlung,autobus,A46,19601142_unified,"52.57336966,13.56744979",,,,,,,,19601133.0
+"Falkenberg, Schule",autobus,A46,19601143_unified,"52.56880574,13.54952831",,,,,,,,1960337.0
+Strasse nach Wartenberg,autobus,A46,19601144_unified,"52.56866269,13.52058210",,,,,,,,19601152.0
+Malchowerweg,autobus,A46,19601145_unified,"52.56152031,13.50048590",,,,,,,,1960758.0
+Falkenbergerstr.,autobus,A46,19601146_unified,"52.55648662,13.48662123",,,,,,,,1960339.0
+Klement-Gottwald-Allee Ecke Bernkastelerstr.,autobus,A46,19601147_unified,"52.55689019,13.46699741",,,,,,,,1960616.0
+Feldtmannstr.,autobus,A46,19601148_unified,"52.56401588,13.46980858",,,,,,,,1960347.0
+"Malchow, Dorfstr.",autobus,A46,19601149_unified,"52.58046227,13.48279758",,,,,,,,1960757.0
+Bhf. Schöneweide,autobus,A47,19601150_unified,"52.45374952,13.51020040",,,,,,,,1960165.0
+Sterndamm,autobus,A47,19601151_unified,"52.44658675,13.50653487",,,,,,,,19601144.0
+Johannisthalerchaussee,autobus,A47,19601152_unified,"52.45136033,13.48829962",,,,,,,,1960575.0
+Baumschulenstr. Ecke Südostallee,autobus,A47,19601153_unified,"52.46095842,13.48119184",,,,,,,,196086.0
+S-Bhf. Baumschulenweg,autobus,A47,19601154_unified,"52.46749675,13.48937988",,,,,,,,19601006.0
+Eichbuschallee,autobus,A47,19601155_unified,"52.47574297,13.48731257",,,,,,,,1960311.0
+"Treptow, Rathaus",autobus,A47,19601156_unified,"52.48358900,13.48032476",,,,,,,,19601204.0
+S-Bhf. Treptower Park,autobus,A47,19601157_unified,"52.49403641,13.46076257",,,,,,,,19601028.0
+Potsdamerstr. Ecke Fischerhüttenstr.,autobus,A48,19601158_unified,"52.43577515,13.25602800",,,,,,,,1961892.0
+Teltowerdamm,autobus,A48,19601159_unified,"52.43504475,13.26044253",,,,,,,,19601185.0
+Sundgauerstr.,autobus,A48,19601160_unified,"52.43838201,13.27144796",,,,,,,,19601168.0
+Dahlemerweg,autobus,A48,19601161_unified,"52.44179805,13.28269937",,,,,,,,1960279.0
+Drakestr.,autobus,A48,19601162_unified,"52.44573369,13.29372237",,,,,,,,1960301.0
+Hindenburgdamm,autobus,A48,19601163_unified,"52.45352508,13.31567149",,,,,,,,1960516.0
+Rathaus Steglitz,autobus,A48,19601164_unified,"52.45683245,13.32075740",,,,,,,,1960949.0
+Bundesallee,autobus,A48,19601165_unified,"52.46493053,13.32853185",,,,,,,,1960244.0
+Kaisereiche,autobus,A48,19601166_unified,"52.46896806,13.33261489",,,,,,,,1960585.0
+Innsbruckerplatz,autobus,A48,19601167_unified,"52.47854551,13.34405869",,,,,,,,1960557.0
+Dominicusstr.,autobus,A48,19601168_unified,"52.48184559,13.34829598",,,,,,,,1960297.0
+Kaiser-Wilhelm-Platz,autobus,A48,19601169_unified,"52.48632925,13.35655627",,,,,,,,1960581.0
+Goeben-/Pallasstr.,autobus,A48,19601170_unified,"52.49428616,13.36105437",,,,,,,,1960415.0
+U-Bhf. Bülowstr.,autobus,A48,19601171_unified,"52.49787470,13.36212460",,,,,,,,19601217.0
+Lützowstr.,autobus,A48,19601172_unified,"52.50307891,13.36561127",,,,,,,,1960745.0
+Margaretenstr.,autobus,A48,19601173_unified,"52.50894074,13.36866960",,,,,,,,1960763.0
+"Kaulsdorf, Bausdorfstr.",autobus,A49,19601174_unified,"52.51256368,13.60190682",,,,,,,,1960606.0
+Ridbacherstr.,autobus,A49,19601175_unified,"52.52745720,13.60644776",,,,,,,,1960980.0
+Grottkauerstr.,autobus,A49,19601176_unified,"52.52796238,13.60080528",,,,,,,,1960439.0
+Uckermarkstr.,autobus,A49,19601177_unified,"52.52145144,13.59672460",,,,,,,,19601264.0
+Machandelweg,autobus,A5,19601178_unified,"52.52483520,13.24567178",,,,,,,,1960749.0
+U-Bhf. Ruhleben,autobus,A5,19601179_unified,"52.52596833,13.24147858",,,,,,,,19601249.0
+Friedhof Ruhleben,autobus,A5,19601180_unified,"52.52773587,13.23178832",,,,,,,,1960368.0
+Hauptkinderheim,autobus,A5,19601181_unified,"52.52819347,13.22864927",,,,,,,,1960479.0
+Teltowerstr.,autobus,A5,19601182_unified,"52.52691808,13.21580707",,,,,,,,19601186.0
+Grenadierstr.,autobus,A5,19601183_unified,"52.53098193,13.20537176",,,,,,,,1960433.0
+Stresowplatz,autobus,A5,19601184_unified,"52.53362878,13.20678183",,,,,,,,19601158.0
+Breitestr.,autobus,A5,19601185_unified,"52.45435057,13.32830751",,,,,,,,1960223.0
+Rathaus Spandau,autobus,A5,19601186_unified,"52.53480744,13.19950552",,,,,,,,1960947.0
+Bhf. Spandau-West,autobus,A5,19601187_unified,"52.53497194,13.19846033",,,,,,,,1960169.0
+Hochgerichtstr.,autobus,A5,19601188_unified,"52.53838037,13.18300920",,,,,,,,1960521.0
+Falkenseerchaussee,autobus,A5,19601189_unified,"52.54750355,13.18466806",,,,,,,,1960343.0
+Viersenerstr.,autobus,A5,19601190_unified,"52.54020418,13.17462661",,,,,,,,19601278.0
+Wolburgsweg,autobus,A5,19601191_unified,"52.55061601,13.16810722",,,,,,,,19601373.0
+Stadtrandstr.,autobus,A5,19601192_unified,"52.55342700,13.15358543",,,,,,,,19601134.0
+Waldkrankenhaus,autobus,A5,19601193_unified,"52.56214543,13.15834009",,,,,,,,19601291.0
+Roseneck,autobus,A50,19601194_unified,"52.47580090,13.28241127",,,,,,,,1960987.0
+Hohenzollerndamm,autobus,A50,19601195_unified,"52.47683521,13.28097753",,,,,,,,1960533.0
+Elsterplatz,autobus,A50,19601196_unified,"52.47977983,13.28550761",,,,,,,,1960323.0
+Forckenbeckstr.,autobus,A50,19601197_unified,"52.48222139,13.29004408",,,,,,,,1960358.0
+Flinsbergerplatz,autobus,A50,19601198_unified,"52.48368994,13.29268112",,,,,,,,1960353.0
+Cunostr.,autobus,A50,19601199_unified,"52.48563214,13.29629837",,,,,,,,1960274.0
+Bhf. Hohenzollerndamm,autobus,A50,19601200_unified,"52.48832717,13.30143693",,,,,,,,1960141.0
+Konstanzerstr.,autobus,A50,19601201_unified,"52.48857877,13.30807708",,,,,,,,1960634.0
+Ruhrstr.,autobus,A50,19601202_unified,"52.48988278,13.31245646",,,,,,,,1960996.0
+Fehrbellinerplatz,autobus,A50,19601203_unified,"52.49040639,13.31420422",,,,,,,,1960344.0
+Emserplatz,autobus,A50,19601204_unified,"52.49207289,13.31925139",,,,,,,,1960326.0
+Uhlandstr.,autobus,A50,19601205_unified,"52.49368292,13.32361138",,,,,,,,19601265.0
+Nassauischestr.,autobus,A50,19601206_unified,"52.49116188,13.32652882",,,,,,,,1960805.0
+Pragerplatz,autobus,A50,19601207_unified,"52.49294695,13.33296422",,,,,,,,1960914.0
+Bhf. Wannsee,autobus,A51,19601208_unified,"52.42151302,13.17810257",,,,,,,,1960177.0
+Königstr./Kronprinzessinnenweg,autobus,A51,19601209_unified,"52.41989533,13.17532169",,,,,,,,1960676.0
+Am Grossen Wannsee,autobus,A51,19601210_unified,"52.42049658,13.16719297",,,,,,,,196040.0
+Koblanckstr.,autobus,A51,19601211_unified,"52.42616031,13.16143704",,,,,,,,1956554.0
+Colomierstr.,autobus,A51,19601212_unified,"52.42928676,13.16409030",,,,,,,,1960271.0
+Krankenhaus Wannsee,autobus,A51,19601213_unified,"52.43102765,13.16496452",,,,,,,,1960649.0
+Zum Heckeshorn,autobus,A51,19601214_unified,"52.43307505,13.16400874",,,,,,,,19601397.0
+Krankenhaus Heckeshorn,autobus,A51,19601215_unified,"52.43498873,13.16171669",,,,,,,,1960645.0
+Alt-Marienfelde,autobus,A52,19601216_unified,"52.41338508,13.36338063",,,,,,,,196024.0
+Gutshof Marienfelde,autobus,A52,19601217_unified,"52.41088451,13.37319265",,,,,,,,1960455.0
+Bhf. Buckowerchaussee,autobus,A52,19601218_unified,"52.41109590,13.38246650",,,,,,,,1960125.0
+Lichtenraderdamm,autobus,A52,19601219_unified,"52.41457408,13.40110048",,,,,,,,1960717.0
+Bühlerweg,autobus,A52,19601220_unified,"52.41724643,13.41263805",,,,,,,,1961241.0
+Buckower Friedhof,autobus,A52,19601221_unified,"52.42151537,13.43036951",,,,,,,,1960242.0
+Buckowerdamm,autobus,A52,19601222_unified,"52.42368330,13.43663873",,,,,,,,1960241.0
+Grünerweg,autobus,A52,19601223_unified,"52.42955864,13.45359073",,,,,,,,1960449.0
+Triftweg,autobus,A52,19601224_unified,"52.43102462,13.45739671",,,,,,,,19601208.0
+Rudowerstr.,autobus,A52,19601225_unified,"52.43428237,13.46912421",,,,,,,,1960993.0
+Efeuweg,autobus,A52,19601226_unified,"52.42961976,13.47788676",,,,,,,,1960307.0
+Wildmeisterdamm,autobus,A52,19601227_unified,"52.42583984,13.48325608",,,,,,,,19601346.0
+Köpenickerstr.,autobus,A52,19601228_unified,"52.41718886,13.49383588",,,,,,,,1960682.0
+Friedhof Rudow,autobus,A52,19601229_unified,"52.42113122,13.50319915",,,,,,,,1960367.0
+Kanalstr.,autobus,A52,19601230_unified,"52.42383870,13.51446643",,,,,,,,1960591.0
+Mimosenweg,autobus,A52,19601231_unified,"52.42675929,13.50617981",,,,,,,,1960794.0
+Krumme Lanke,autobus,A53,19601232_unified,"52.44306722,13.24053434",,,,,,,,1960653.0
+Sven-Hedinstr.,autobus,A53,19601233_unified,"52.44044492,13.24475096",,,,,,,,19601170.0
+Hartmannsweilerweg,autobus,A53,19601234_unified,"52.43871188,13.24883384",,,,,,,,1960475.0
+Potsdamerstr.,autobus,A53,19601235_unified,"52.43581243,13.25609887",,,,,,,,1960908.0
+Berlinerstr.,autobus,A53,19601236_unified,"52.43081276,13.31750495",,,,,,,,1960102.0
+Teltowerdamm,autobus,A53,19601237_unified,"52.43504475,13.26044253",,,,,,,,19601185.0
+Rathaus Zehlendorf,autobus,A53,19601238_unified,"52.43320752,13.25953192",,,,,,,,1960954.0
+Bhf. Zehlendorf,autobus,A53,19601239_unified,"52.43121178,13.25916441",,,,,,,,1960187.0
+Seehofstr.,autobus,A53,19601240_unified,"52.43283191,13.26499454",,,,,,,,19601091.0
+Knesebeckstr.,autobus,A53,19601241_unified,"52.42891209,13.26766497",,,,,,,,1960625.0
+Jänickestr.,autobus,A53,19601242_unified,"52.42721394,13.27165945",,,,,,,,1961570.0
+Dahlemerweg,autobus,A53,19601243_unified,"52.44179805,13.28269937",,,,,,,,1960279.0
+Osteweg,autobus,A53,19601244_unified,"52.42102198,13.28113580",,,,,,,,1960866.0
+4. Ring,autobus,A53,19601245_unified,"52.42250631,13.28694906",,,,,,,,19600.0
+Luzernerstr.,autobus,A53,19601246_unified,"52.42399461,13.29333357",,,,,,,,1960740.0
+Thunerplatz,autobus,A53,19601247_unified,"52.42375897,13.29618487",,,,,,,,19601196.0
+"Wilhelmsruh, Fontanestr.",autobus,A55,19601248_unified,"52.58985939,13.36119357",,,,,,,,19601354.0
+Hauptstr. Ecke Edelweißstr.,autobus,A55,19601249_unified,"52.58637926,13.36752939",,,,,,,,1961480.0
+Ehrenmal,autobus,A55,19601250_unified,"52.57958420,13.37597472",,,,,,,,1960309.0
+S-Bhf. Wollkanstr.,autobus,A55,19601251_unified,"52.56476138,13.39377998",,,,,,,,19601030.0
+"Pankow, Rathaus",autobus,A55,19601252_unified,"52.56953909,13.40418644",,,,,,,,1960878.0
+"Pankow, Kirche",autobus,A55,19601253_unified,"52.57124681,13.41067072",,,,,,,,1960876.0
+Retzbacherweg,autobus,A55,19601254_unified,"52.57094254,13.42290790",,,,,,,,1960972.0
+"Heinersdorf, Kirche",autobus,A55,19601255_unified,"52.56826376,13.44060190",,,,,,,,1960497.0
+"Weißensee, Rennbahnstr. Ecke Gustav-Adolfstr.",autobus,A55,19601256_unified,"52.56218648,13.45426704",,,,,,,,19601323.0
+Große Seestr. Ecke Klement-Gottwald-Allee,autobus,A55,19601257_unified,"52.55697857,13.46694788",,,,,,,,1960441.0
+"Weißensee, Liebermannstr. Ecke Piesporterstr.",autobus,A55,19601258_unified,"52.56102400,13.47745998",,,,,,,,19601321.0
+"Weißensee, Feldtmannstr.",autobus,A56,19601259_unified,"52.56400938,13.46981981",,,,,,,,19601320.0
+Rennbahnstr. Ecke Gustav-Adolfstr.,autobus,A56,19601260_unified,"52.56218648,13.45426704",,,,,,,,1960971.0
+Hamburgerplatz,autobus,A56,19601261_unified,"52.55539419,13.43897314",,,,,,,,1960470.0
+Prenzlauerallee (Spitze),autobus,A56,19601262_unified,"52.54467053,13.42745528",,,,,,,,1960917.0
+Wicherstr.,autobus,A56,19601263_unified,"52.54871619,13.42071502",,,,,,,,19601333.0
+Kniprodestr. Ecke Ermländischestr.,autobus,A57,19601264_unified,"52.53214047,13.44149841",,,,,,,,1961620.0
+Königstor,autobus,A57,19601265_unified,"52.52520269,13.41983499",,,,,,,,1960673.0
+S-Bhf. Alexanderplatz,autobus,A57,19601266_unified,"52.52074878,13.41214723",,,,,,,,19601005.0
+Marx-Engels-Platz,autobus,A57,19601267_unified,"52.51617617,13.40093741",,,,,,,,1960782.0
+Bhf. Friedrichstr.,autobus,A57,19601268_unified,"52.52056066,13.38823192",,,,,,,,1960129.0
+Albrechtstr.,autobus,A57,19601269_unified,"52.52325415,13.38381913",,,,,,,,196010.0
+Robert-Koch-Platz,autobus,A57,19601270_unified,"52.52757051,13.37877230",,,,,,,,1960984.0
+Bhf. Wannsee,autobus,A6,19601271_unified,"52.42151302,13.17810257",,,,,,,,1960177.0
+Königstr.,autobus,A6,19601272_unified,"52.41987226,13.17533294",,,,,,,,1960675.0
+Am Grossen Wannsee,autobus,A6,19601273_unified,"52.42049658,13.16719297",,,,,,,,196040.0
+Endestr.,autobus,A6,19601274_unified,"52.41965962,13.16039699",,,,,,,,1960327.0
+Pfaueninsel-Chaussee,autobus,A6,19601275_unified,"52.41883762,13.15303919",,,,,,,,1960893.0
+Rathaus Wannsee,autobus,A6,19601276_unified,"52.41844013,13.14887249",,,,,,,,1960953.0
+Friedenstr.,autobus,A6,19601277_unified,"52.41722378,13.13895017",,,,,,,,1960366.0
+Schäferberg,autobus,A6,19601278_unified,"52.41562662,13.12630868",,,,,,,,19611061.0
+Nikolskoerweg,autobus,A6,19601279_unified,"52.41405939,13.10927075",,,,,,,,1960822.0
+Schloss Glienicke,autobus,A6,19601280_unified,"52.41321315,13.09621414",,,,,,,,19601056.0
+Glienicker Brücke,autobus,A6,19601281_unified,"52.41347409,13.09123588",,,,,,,,1960409.0
+"Roseneck, Hundekehl",autobus,A60,19601282_unified,"52.47640251,13.28161127",,,,,,,,1960988.0
+Warnemünder/Berkaerstr.,autobus,A60,19601283_unified,"52.47543626,13.29028844",,,,,,,,19611271.0
+Zappoter/Oeynhauserstr.,autobus,A60,19601284_unified,"52.47331133,13.29866929",,,,,,,,19601384.0
+"Hamburgerstr., Rudolf-Mosse-Platz",autobus,A60,19601285_unified,"52.47537517,13.30356645",,,,,,,,1960472.0
+U-Bhf. Heidelbergerplatz,autobus,A60,19601286_unified,"52.48006162,13.31215992",,,,,,,,19601232.0
+Brabanterplatz,autobus,A60,19601287_unified,"52.48200661,13.31621918",,,,,,,,1960220.0
+Am Volkspark,autobus,A60,19601288_unified,"52.48322207,13.32036834",,,,,,,,196050.0
+Berlinerstr.,autobus,A60,19601289_unified,"52.43081276,13.31750495",,,,,,,,1960102.0
+Postamt,autobus,A60,19601290_unified,"52.48905066,13.32277037",,,,,,,,1960902.0
+Güntzelstr.,autobus,A60,19601291_unified,"52.49154575,13.32320659",,,,,,,,1961452.0
+Ludwigkirchstr./Pariserstr.,autobus,A60,19601292_unified,"52.49753547,13.32432807",,,,,,,,1960734.0
+Kurfürstendamm,autobus,A60,19601293_unified,"52.49802331,13.29621757",,,,,,,,1960655.0
+Joachimstalerstr.,autobus,A60,19601294_unified,"52.50444349,13.33562827",,,,,,,,1960571.0
+Breitscheidplatz,autobus,A60,19601295_unified,"52.50443806,13.33564616",,,,,,,,1960227.0
+Wittenbergplatz,autobus,A60,19601296_unified,"52.50188939,13.34269788",,,,,,,,19601369.0
+Zobeltitzstr.,autobus,A61,19601297_unified,"52.56899057,13.31720550",,,,,,,,19641448.0
+"U-Bhf. Scharnweberstr., Sportplatz",autobus,A61,19601298_unified,"52.56792223,13.31194981",,,,,,,,19601252.0
+Schillingstr.,autobus,A61,19601299_unified,"52.56595360,13.32025505",,,,,,,,19601053.0
+U-Bhf. Kurt-Schumacher-Platz,autobus,A61,19601300_unified,"52.56338157,13.32719916",,,,,,,,19601237.0
+Humboldtstr.,autobus,A61,19601301_unified,"52.56929444,13.32995611",,,,,,,,1960550.0
+Sebastianfriedhof,autobus,A61,19601302_unified,"52.57100250,13.33636094",,,,,,,,19601086.0
+Teichstr.,autobus,A61,19601303_unified,"52.57435884,13.34777331",,,,,,,,19601182.0
+Aroserallee,autobus,A61,19601304_unified,"52.57376245,13.35197071",,,,,,,,196061.0
+Osloerstr.,autobus,A61,19601305_unified,"52.55587670,13.38424421",,,,,,,,1960857.0
+Exerzierstr.,autobus,A61,19601306_unified,"52.55375665,13.37716620",,,,,,,,1960334.0
+Pankstr.,autobus,A61,19601307_unified,"52.55229408,13.38145935",,,,,,,,1960883.0
+Bhf. Gesundbrunnen,autobus,A61,19601308_unified,"52.54873860,13.38774585",,,,,,,,1960131.0
+Rügenerstr.,autobus,A61,19601309_unified,"52.54479128,13.39106762",,,,,,,,19601002.0
+Bernauerstr.,autobus,A61,19601310_unified,"52.53341404,13.38760321",,,,,,,,1960111.0
+"Gartenplatz, Feldstr.",autobus,A61,19601311_unified,"52.53856590,13.38400528",,,,,,,,1960392.0
+Wittenau,autobus,A62,19601312_unified,"52.59608414,13.33285768",,,,,,,,19601366.0
+Alt-Wittenau,autobus,A62,19601313_unified,"52.58972877,13.33416922",,,,,,,,196032.0
+Auguste-Viktoria-Allee,autobus,A62,19601315_unified,"52.56926850,13.32980135",,,,,,,,196066.0
+U-Bhf. Kurt-Schumacher-Platz,autobus,A62,19601316_unified,"52.56338157,13.32719916",,,,,,,,19601237.0
+"Kaserne, Südtor",autobus,A62,19601317_unified,"52.55688434,13.30847469",,,,,,,,1960603.0
+Saatwinklerdamm,autobus,A62,19601318_unified,"52.54802939,13.30056946",,,,,,,,19601034.0
+Heckerdamm,autobus,A62,19601319_unified,"52.53962817,13.29504845",,,,,,,,1960487.0
+Bhf. Jungfernheide,autobus,A62,19601320_unified,"52.53013879,13.29601882",,,,,,,,1960143.0
+Luisenplatz,autobus,A62,19601321_unified,"52.52005409,13.29951339",,,,,,,,1960735.0
+Richard-Wagner-Platz,autobus,A62,19601322_unified,"52.51749099,13.30639710",,,,,,,,1960975.0
+U-Bhf. Ernst-Reuter-Platz,autobus,A62,19601323_unified,"52.51164603,13.32229086",,,,,,,,19601221.0
+Bhf. Zoo,autobus,A62,19601324_unified,"52.50623278,13.33236208",,,,,,,,1960188.0
+Marburgerstr.,autobus,A62,19601325_unified,"52.50371965,13.33772834",,,,,,,,1960760.0
+Wittenbergplatz,autobus,A62,19601326_unified,"52.50188939,13.34269788",,,,,,,,19601369.0
+Radelandstr.,autobus,A63,19601327_unified,"52.55650975,13.18869176",,,,,,,,1960932.0
+Pionierstr.,autobus,A63,19601328_unified,"52.55152960,13.18550699",,,,,,,,1960898.0
+Falkenseerchaussee,autobus,A63,19601329_unified,"52.54750355,13.18466806",,,,,,,,1960343.0
+Zweibrückerstr.,autobus,A63,19601330_unified,"52.54677409,13.18876402",,,,,,,,19641454.0
+Askanierring,autobus,A63,19601331_unified,"52.54567997,13.19426733",,,,,,,,196062.0
+Bezirksamt,autobus,A63,19601332_unified,"52.54146443,13.20085016",,,,,,,,1960121.0
+Moritzstr.,autobus,A63,19601333_unified,"52.53861625,13.20068788",,,,,,,,1960799.0
+Rathaus Spandau,autobus,A63,19601334_unified,"52.53480744,13.19950552",,,,,,,,1960947.0
+Bhf. Spandau-West,autobus,A63,19601335_unified,"52.53497194,13.19846033",,,,,,,,1960169.0
+Staakenerstr.,autobus,A63,19601336_unified,"52.53648708,13.19082357",,,,,,,,19601126.0
+Hochgerichtstr.,autobus,A63,19601337_unified,"52.53838037,13.18300920",,,,,,,,1960521.0
+Viersenerstr.,autobus,A63,19601338_unified,"52.54020418,13.17462661",,,,,,,,19601278.0
+Dyotzerstr.,autobus,A63,19601339_unified,"52.54151357,13.16880676",,,,,,,,1960304.0
+Leuthingerweg,autobus,A63,19601340_unified,"52.54180681,13.16372710",,,,,,,,1960712.0
+Strasse 393,autobus,A63,19601341_unified,"52.54346134,13.15633311",,,,,,,,19601149.0
+Seegefelderweg,autobus,A63,19601342_unified,"52.54981320,13.12867982",,,,,,,,19601090.0
+U-Bhf. Kurt-Schumacher-Platz,autobus,A64,19601343_unified,"52.56338157,13.32719916",,,,,,,,19601237.0
+Afrikanischestr.,autobus,A64,19601344_unified,"52.54630154,13.34385525",,,,,,,,19605.0
+Petersallee (Freilichtbühne Rehberge),autobus,A64,19601345_unified,"52.55871831,13.33745842",,,,,,,,1960892.0
+Sansibarstr.,autobus,A64,19601346_unified,"52.55519162,13.34350843",,,,,,,,19601039.0
+Türkenstr.,autobus,A64,19601347_unified,"52.55323093,13.34712382",,,,,,,,19801475.0
+Seestr.,autobus,A64,19601348_unified,"52.55049581,13.35189090",,,,,,,,19601094.0
+U-Bhf. Seestr.,autobus,A64,19601349_unified,"52.55031541,13.35229850",,,,,,,,19601254.0
+U-Bhf. Leopoldplatz,autobus,A64,19601350_unified,"52.54638728,13.35918263",,,,,,,,19601239.0
+Triftstr.,autobus,A64,19601351_unified,"52.54479385,13.36191117",,,,,,,,19601207.0
+Nettelbeckplatz,autobus,A64,19601352_unified,"52.54467607,13.37013836",,,,,,,,1960810.0
+Gerichstr.,autobus,A64,19601353_unified,"52.54382977,13.37337413",,,,,,,,1960397.0
+Lenzenerplatz,autobus,A64,19601354_unified,"52.54313288,13.37637516",,,,,,,,1960705.0
+Grenzstr.,autobus,A64,19601355_unified,"52.54182280,13.37814765",,,,,,,,1960435.0
+Gartenplatz,autobus,A64,19601356_unified,"52.53887149,13.38341133",,,,,,,,1960391.0
+Bernauerstr.,autobus,A64,19601357_unified,"52.53341404,13.38760321",,,,,,,,1960111.0
+Bernauerstr. Ecke Gartenstr.,autobus,A64,19601358_unified,"52.53339472,13.38746045",,,,,,,,1960114.0
+Goebelplatz,autobus,A65,19601359_unified,"52.53812718,13.27991415",,,,,,,,1960414.0
+Bhf. Jungfernheide,autobus,A65,19601361_unified,"52.53013879,13.29601882",,,,,,,,1960143.0
+Landgericht,autobus,A65,19601362_unified,"52.52698926,13.29716765",,,,,,,,1960688.0
+Luisenplatz,autobus,A65,19601364_unified,"52.52005409,13.29951339",,,,,,,,1960735.0
+Bhf. Westend,autobus,A65,19601365_unified,"52.51866045,13.28427670",,,,,,,,1960180.0
+Königin-Elisabethstr.,autobus,A65,19601366_unified,"52.51841061,13.28021631",,,,,,,,1960668.0
+U-Bhf. Kaiserdamm,autobus,A65,19601367_unified,"52.50999451,13.28180313",,,,,,,,19601233.0
+Masurenallee,autobus,A65,19601368_unified,"52.50642939,13.28040521",,,,,,,,1960785.0
+Rathenauplatz,autobus,A65,19601369_unified,"52.49561135,13.28657375",,,,,,,,1960955.0
+Bhf. Hohenzollerndamm,autobus,A65,19601370_unified,"52.48832717,13.30143693",,,,,,,,1960141.0
+U-Bhf. Heidelbergplatz,autobus,A65,19601371_unified,"52.48042874,13.31278633",,,,,,,,19601231.0
+Bundesplatz,autobus,A65,19601372_unified,"52.47867899,13.32860278",,,,,,,,1960248.0
+Innsbruckerplatz,autobus,A65,19601373_unified,"52.47854551,13.34405869",,,,,,,,1960557.0
+Bhf. Schöneberg,autobus,A65,19601374_unified,"52.47997404,13.35257676",,,,,,,,1961153.0
+Berlinickeplatz,autobus,A65,19601375_unified,"52.46607292,13.37851641",,,,,,,,1960107.0
+Bhf. Tempelhof,autobus,A65,19601376_unified,"52.47084694,13.38563812",,,,,,,,1960175.0
+U-Bhf. Paradesstr.,autobus,A65,19601377_unified,"52.47819164,13.38583120",,,,,,,,19601245.0
+Flughafen Tempelhof,autobus,A65,19601378_unified,"52.48504444,13.38601442",,,,,,,,1960356.0
+Bismarckplatz,autobus,A66,19601379_unified,"52.49206454,13.28493897",,,,,,,,1960195.0
+Bhf. Halensee,autobus,A66,19601380_unified,"52.49686559,13.28955734",,,,,,,,1960136.0
+Joachim-Friedrichstr.,autobus,A66,19601381_unified,"52.49796466,13.29627094",,,,,,,,1960570.0
+Wilmersdorferstr.,autobus,A66,19601382_unified,"52.49996766,13.30698784",,,,,,,,19601358.0
+Olivaerplatz,autobus,A66,19601383_unified,"52.50060276,13.31311062",,,,,,,,1960838.0
+Uhlandstr.,autobus,A66,19601384_unified,"52.49368292,13.32361138",,,,,,,,19601265.0
+Joachimstalerstr.,autobus,A66,19601385_unified,"52.50444349,13.33562827",,,,,,,,1960571.0
+Breitscheidplatz,autobus,A66,19601386_unified,"52.50443806,13.33564616",,,,,,,,1960227.0
+Wichmannstr.,autobus,A66,19601387_unified,"52.50662888,13.34569389",,,,,,,,19601334.0
+Großer Stern,autobus,A66,19601388_unified,"52.51452472,13.34993319",,,,,,,,1960442.0
+Hansaplatz,autobus,A66,19601389_unified,"52.51793433,13.34203819",,,,,,,,1960473.0
+Bhf. Bellevue,autobus,A66,19601390_unified,"52.52009881,13.34717428",,,,,,,,1960122.0
+Alt-Moabit,autobus,A66,19601391_unified,"52.52407846,13.35706914",,,,,,,,196026.0
+Turmstr.,autobus,A66,19601392_unified,"52.52639995,13.35171730",,,,,,,,19601211.0
+Perlebergerstr.,autobus,A66,19601393_unified,"52.53077397,13.34717782",,,,,,,,1960891.0
+Stephanplatz,autobus,A66,19601394_unified,"52.53370023,13.34712216",,,,,,,,19601143.0
+"Jerusalems-Kirche, Lindenstr.",autobus,A67,19601395_unified,"52.50708066,13.39834914",,,,,,,,1960569.0
+Moritzplatz,autobus,A67,19601396_unified,"52.50387355,13.40998333",,,,,,,,1960797.0
+Oranienplatz,autobus,A67,19601397_unified,"52.50232371,13.41551013",,,,,,,,1960851.0
+U-Bhf. Kottbusser Tor,autobus,A67,19601398_unified,"52.49912276,13.41824117",,,,,,,,19601235.0
+Kottbusser Brücke,autobus,A67,19601399_unified,"52.49603084,13.42007040",,,,,,,,1960640.0
+Hohenstaufenplatz,autobus,A67,19601400_unified,"52.49085481,13.42342000",,,,,,,,1960532.0
+Hermannplatz,autobus,A67,19601401_unified,"52.48778873,13.42539348",,,,,,,,1960503.0
+Reuterstr.,autobus,A67,19601402_unified,"52.48654241,13.42897774",,,,,,,,1960974.0
+Fuldastr.,autobus,A67,19601403_unified,"52.48380251,13.43588439",,,,,,,,1960383.0
+Erkstr.,autobus,A67,19601404_unified,"52.48167228,13.44005205",,,,,,,,1960331.0
+Hertzbergplatz,autobus,A67,19601405_unified,"52.47748711,13.44859816",,,,,,,,1960511.0
+Bhf. Sonnenallee,autobus,A67,19601406_unified,"52.47386161,13.45587412",,,,,,,,1960167.0
+Dammweg,autobus,A67,19601407_unified,"52.47029083,13.46468826",,,,,,,,1960283.0
+Neuköllnischeallee,autobus,A67,19601408_unified,"52.46815207,13.46062059",,,,,,,,1960818.0
+Am Oberhafen,autobus,A67,19601409_unified,"52.46501730,13.45059418",,,,,,,,196044.0
+U-Bhf. Grenzallee,autobus,A67,19601410_unified,"52.46369510,13.44423173",,,,,,,,19601228.0
+Clayallee,autobus,A68,19601411_unified,"52.46042334,13.27494615",,,,,,,,1960269.0
+Vogelsang,autobus,A68,19601412_unified,"52.45939482,13.28029698",,,,,,,,19601282.0
+Thielallee/Pacelliallee,autobus,A68,19601413_unified,"52.45816150,13.28707255",,,,,,,,19601193.0
+U-Bhf. Dahlem-Dorf,autobus,A68,19601414_unified,"52.45807070,13.28970695",,,,,,,,19601219.0
+"Postamt, Museum Dahlem",autobus,A68,19601415_unified,"52.45804692,13.29177153",,,,,,,,1960903.0
+Arnimallee,autobus,A68,19601416_unified,"52.45789379,13.29957020",,,,,,,,196060.0
+Botanischer Garten,autobus,A68,19601417_unified,"52.45859880,13.30343606",,,,,,,,1960217.0
+Kaiser-Wilhelmstr.,autobus,A68,19601418_unified,"52.45976946,13.30824665",,,,,,,,1960583.0
+Lepsiusstr.,autobus,A68,19601419_unified,"52.45883024,13.31559907",,,,,,,,1960709.0
+Rathaus Steglitz,autobus,A68,19601420_unified,"52.45683245,13.32075740",,,,,,,,1960949.0
+Bhf. Steglitz,autobus,A68,19601421_unified,"52.45673896,13.32114702",,,,,,,,1960171.0
+Breitestr.,autobus,A68,19601422_unified,"52.45435057,13.32830751",,,,,,,,1960223.0
+Bergstr.,autobus,A68,19601423_unified,"52.45818373,13.32975385",,,,,,,,196097.0
+Bismarckstr.,autobus,A68,19601424_unified,"52.42807193,13.32550981",,,,,,,,1960196.0
+Munsterdamm,autobus,A68,19601425_unified,"52.45912869,13.34868363",,,,,,,,1960800.0
+"Grazerdamm, Overbeckstr.",autobus,A68,19601426_unified,"52.46099593,13.34843678",,,,,,,,1960427.0
+Bismarckplatz,autobus,A69,19601427_unified,"52.49206454,13.28493897",,,,,,,,1960195.0
+Rathenauplatz,autobus,A69,19601428_unified,"52.49561135,13.28657375",,,,,,,,1960955.0
+Bhf. Halensee,autobus,A69,19601429_unified,"52.49686559,13.28955734",,,,,,,,1960136.0
+Joachim-Friedrichstr.,autobus,A69,19601430_unified,"52.49796466,13.29627094",,,,,,,,1960570.0
+Wilmersdorferstr.,autobus,A69,19601431_unified,"52.49996766,13.30698784",,,,,,,,19601358.0
+Leibnizstr.,autobus,A69,19601432_unified,"52.50062750,13.31305521",,,,,,,,1960698.0
+Bleibtreustr.,autobus,A69,19601433_unified,"52.50162717,13.31946635",,,,,,,,1960205.0
+Uhlandstr.,autobus,A69,19601434_unified,"52.49368292,13.32361138",,,,,,,,19601265.0
+Joachimstalerstr.,autobus,A69,19601435_unified,"52.50444349,13.33562827",,,,,,,,1960571.0
+Breitscheidplatz,autobus,A69,19601436_unified,"52.50443806,13.33564616",,,,,,,,1960227.0
+Wittenbergplatz,autobus,A69,19601437_unified,"52.50188939,13.34269788",,,,,,,,19601369.0
+Lutherstr.,autobus,A69,19601438_unified,"52.50104544,13.34692194",,,,,,,,1960738.0
+Lützowplatz,autobus,A69,19601439_unified,"52.50502902,13.35182287",,,,,,,,1960744.0
+Tiergartenstr.,autobus,A69,19601440_unified,"52.50960312,13.35132089",,,,,,,,19601199.0
+Kongreßhalle,autobus,A69,19601441_unified,"52.51763253,13.36319698",,,,,,,,1961625.0
+Brandenburger Tor,autobus,A69,19601442_unified,"52.51776765,13.37028142",,,,,,,,1960221.0
+"Glienicke, Kirche",autobus,A7,19601443_unified,"52.63062737,13.31286192",,,,,,,,1960408.0
+Elsässerstr.,autobus,A7,19601444_unified,"52.63337295,13.34510342",,,,,,,,1961319.0
+"Schildow, Kirche",autobus,A7,19601445_unified,"52.63581867,13.37771917",,,,,,,,19601049.0
+"Blankenfelde, Hauptstr.",autobus,A7,19601446_unified,"52.63002535,13.38262328",,,,,,,,1960204.0
+"Kolonie ""Daheim""",autobus,A7,19601447_unified,"52.59913792,13.40282138",,,,,,,,1960631.0
+Nordend,autobus,A7,19601448_unified,"52.59006569,13.40174057",,,,,,,,1960829.0
+Ossietzkyplatz,autobus,A7,19601449_unified,"52.58150701,13.40424959",,,,,,,,1960861.0
+Kurt-Fischer-Platz,autobus,A7,19601450_unified,"52.57973293,13.39833073",,,,,,,,1960661.0
+"Pankow, Rathaus",autobus,A7,19601451_unified,"52.56953909,13.40418644",,,,,,,,1960878.0
+U-Bhf. Vinetastr.,autobus,A7,19601452_unified,"52.55981894,13.41320863",,,,,,,,19601262.0
+Bhf. Wollankstr.,autobus,A70,19601453_unified,"52.56453849,13.39342027",,,,,,,,1960184.0
+Osloerstr.,autobus,A70,19601454_unified,"52.55587670,13.38424421",,,,,,,,1960857.0
+Badstr.,autobus,A70,19601455_unified,"52.55228041,13.38139428",,,,,,,,196074.0
+Brunneplatz,autobus,A70,19601456_unified,"52.54954122,13.37697101",,,,,,,,1960234.0
+Wiesenstr.,autobus,A70,19601457_unified,"52.54763571,13.37387107",,,,,,,,19601344.0
+Bhf. Wedding,autobus,A70,19601458_unified,"52.54429660,13.36991308",,,,,,,,1960179.0
+Weddingplatz,autobus,A70,19601459_unified,"52.54113612,13.36850103",,,,,,,,19601313.0
+Am Nordhafen,autobus,A70,19601460_unified,"52.53868316,13.36324841",,,,,,,,196043.0
+Rathenowerstr.,autobus,A70,19601461_unified,"52.52673251,13.35527561",,,,,,,,1960956.0
+Turmstr./Rathenowerstr.,autobus,A70,19601462_unified,"52.52677998,13.35518347",,,,,,,,19601213.0
+Krankenhaus Moabit,autobus,A70,19601463_unified,"52.52631364,13.34776241",,,,,,,,1960647.0
+Stromstr.,autobus,A70,19601464_unified,"52.52631690,13.34314632",,,,,,,,19601160.0
+Rathaus Tiergarten,autobus,A70,19601465_unified,"52.52649086,13.33835898",,,,,,,,1960952.0
+Waldstr./Gotzkowskystr.,autobus,A70,19601466_unified,"52.52721622,13.33052451",,,,,,,,19601295.0
+Reuchlinstr.,autobus,A70,19601467_unified,"52.52780798,13.32484278",,,,,,,,1960973.0
+"Wiebestr., Strassenbahnhof",autobus,A70,19601468_unified,"52.53066666,13.31931479",,,,,,,,19601338.0
+Bhf. Wilhelmsruh,autobus,A71,19601469_unified,"52.58102922,13.36363507",,,,,,,,1960181.0
+Lindauerstr.,autobus,A71,19601470_unified,"52.57337851,13.35902628",,,,,,,,1960722.0
+Emmentalerstr.,autobus,A71,19601471_unified,"52.56753547,13.35124017",,,,,,,,1960324.0
+"Schäfersee, Pankowerallee",autobus,A71,19601472_unified,"52.56403099,13.36417150",,,,,,,,19611029.0
+"Letteplatz, Strassenbahnhof",autobus,A71,19601473_unified,"52.56410522,13.37110748",,,,,,,,1960711.0
+Provinzstr./Pankowerallee,autobus,A71,19601474_unified,"52.56468777,13.37806310",,,,,,,,1960926.0
+Ritterlandweg,autobus,A71,19601475_unified,"52.56036400,13.36907950",,,,,,,,1960983.0
+Prinzenallee/Soldinerstr.,autobus,A71,19601476_unified,"52.55871759,13.38624851",,,,,,,,1960923.0
+Osloerstr.,autobus,A71,19601477_unified,"52.55587670,13.38424421",,,,,,,,1960857.0
+Badstr./Prinzenallee,autobus,A71,19601478_unified,"52.55231378,13.38141317",,,,,,,,196075.0
+Bhf. Gesundbrunnen,autobus,A71,19601479_unified,"52.54873860,13.38774585",,,,,,,,1960131.0
+Ramlerstr.,autobus,A71,19601480_unified,"52.54712576,13.38917450",,,,,,,,1960935.0
+Rügenerstr.,autobus,A71,19601481_unified,"52.54479128,13.39106762",,,,,,,,19601002.0
+Usedomerstr.,autobus,A71,19601482_unified,"52.54112050,13.39376957",,,,,,,,19601274.0
+Bernauerstr./Brunnenstr.,autobus,A71,19601483_unified,"52.53829557,13.39602377",,,,,,,,1960115.0
+Wollinerstr.,autobus,A71,19601484_unified,"52.53982923,13.40157780",,,,,,,,19601375.0
+Waldesruh,autobus,A8,19601485_unified,"52.48487247,13.62894222",,,,,,,,19601289.0
+Malhlsdorferallee,autobus,A8,19601486_unified,"52.48487247,13.62894222",,,,,,,,1960759.0
+Fichtestr. Ecke Schopenhauerstr.,autobus,A8,19601487_unified,"52.47979925,13.61729231",,,,,,,,1960350.0
+Hultschinerdamm,autobus,A8,19601488_unified,"52.47711374,13.60059814",,,,,,,,1961539.0
+Sadowastr.,autobus,A8,19601489_unified,"52.48267547,13.58483307",,,,,,,,19601035.0
+Chemnitzer Ecke Ulmenstr.,autobus,A8,19601490_unified,"52.48730505,13.57494604",,,,,,,,1960266.0
+Eichenallee,autobus,A8,19601491_unified,"52.48983794,13.56063262",,,,,,,,1960313.0
+"Alt-Biesdorf, Oberfeldstr.",autobus,A8,19601492_unified,"52.50918607,13.55334706",,,,,,,,196017.0
+Schlossstr. Ecke Alt-Friedrichsfelde,autobus,A8,19601493_unified,"52.50943477,13.51881394",,,,,,,,19601063.0
+U-Bhf. Friedrichsfelde,autobus,A8,19601494_unified,"52.50624112,13.51285306",,,,,,,,19601226.0
+Kinderheim,autobus,A82P,19601495_unified,"52.48981531,13.48140423",,,,,,,,1960607.0
+Friedrich-Jungestr.,autobus,A82P,19601496_unified,"52.49382897,13.47157287",,,,,,,,1960369.0
+Markgrafendamm,autobus,A82P,19601497_unified,"52.49919969,13.46574229",,,,,,,,1960778.0
+Kurischestr.,autobus,A9,19601498_unified,"52.53541469,13.43908579",,,,,,,,1960660.0
+Königstor,autobus,A9,19601499_unified,"52.52520269,13.41983499",,,,,,,,1960673.0
+S-Bhf. Alexanderplatz,autobus,A9,19601500_unified,"52.52074878,13.41214723",,,,,,,,19601005.0
+Marx-Engels-Platz,autobus,A9,19601501_unified,"52.51617617,13.40093741",,,,,,,,1960782.0
+Bhf. Friedrichstr.,autobus,A9,19601502_unified,"52.52056066,13.38823192",,,,,,,,1960129.0
+Chausseestr. Ecke Invalidenstr.,autobus,A9,19601503_unified,"52.53058680,13.38309848",,,,,,,,1960264.0
+Scharnhorst- Ecke Kielerstr.,autobus,A9,19601504_unified,"52.53435269,13.37030252",,,,,,,,19601046.0
+"Diepensee, Flughafen",autobus,AD/36,19601505_unified,"52.36211031,13.54858589",,,,,,,,1960290.0
+Waltersdorferchaussee (Spinne),autobus,AD/36,19601506_unified,"52.39416468,13.52178492",,,,,,,,19601298.0
+"Schönefeld, Siedlung",autobus,AD/36,19601507_unified,"52.38835098,13.56420502",,,,,,,,19611063.0
+"Bohnsdorf, Kirche",autobus,AD/36,19601508_unified,"52.39948771,13.55557443",,,,,,,,1960210.0
+Gartenstadtweg,autobus,AD/36,19601509_unified,"52.41231391,13.56660268",,,,,,,,1960393.0
+S-Bhf. Grünau,autobus,AD/36,19601510_unified,"52.41361516,13.57379629",,,,,,,,19601011.0
+Neu-Lindenberg,autobus,AL,19601511_unified,"52.60088563,13.55479409",,,,,,,,1960812.0
+Lindenberg,autobus,AL,19601512_unified,"52.60259771,13.52503064",,,,,,,,1960724.0
+"Malchow, Dorfstr.",autobus,AL,19601513_unified,"52.58046227,13.48279758",,,,,,,,1960757.0
+S-Bhf. Hohen Neuendorf,autobus,AN,19601514_unified,"52.66955117,13.28696742",,,,,,,,19601012.0
+"Bergfelde, Karl-Marxstr.",autobus,AN,19601515_unified,"52.66511141,13.30744601",,,,,,,,196096.0
+"Schönfließ, Kirche",autobus,AN,19601516_unified,"52.65542825,13.33925241",,,,,,,,19601080.0
+"Glienicke, Breitscheidstr.",autobus,AN,19601517_unified,"52.63978444,13.31769724",,,,,,,,1960407.0
+"Glienicke, Kirche",autobus,AN,19601518_unified,"52.63062737,13.31286192",,,,,,,,1960408.0
+Bhf. Zoo,autobus,AS1,19601519_unified,"52.50623278,13.33236208",,,,,,,,1960188.0
+U-Bhf. Ernst-Reuter-Platz,autobus,AS1,19601520_unified,"52.51164603,13.32229086",,,,,,,,19601221.0
+Cauerstr.,autobus,AS1,19601521_unified,"52.51470520,13.31522271",,,,,,,,1960258.0
+Luisenplatz,autobus,AS1,19601522_unified,"52.52005409,13.29951339",,,,,,,,1960735.0
+Fürstenbrunnerweg,autobus,AS1,19601523_unified,"52.51837885,13.28018475",,,,,,,,1960384.0
+Schloss Ruhwald,autobus,AS1,19601524_unified,"52.52156784,13.26056964",,,,,,,,19601057.0
+U-Bhf. Ruhleben,autobus,AS1,19601525_unified,"52.52596833,13.24147858",,,,,,,,19601249.0
+Teltowerstr.,autobus,AS1,19601526_unified,"52.52691808,13.21580707",,,,,,,,19601186.0
+Rathaus Spandau,autobus,AS1,19601527_unified,"52.53480744,13.19950552",,,,,,,,1960947.0
+Hafenplatz,autobus,AS1,19601528_unified,"52.50392084,13.37547988",,,,,,,,1960461.0
+Lynastr.,autobus,AS1,19601529_unified,"52.54898936,13.21022580",,,,,,,,1960741.0
+Klinkeplatz,autobus,AS1,19601530_unified,"52.55555146,13.19854978",,,,,,,,1960621.0
+Hohenzollernring,autobus,AS1,19601531_unified,"52.55569430,13.20758967",,,,,,,,1960536.0
+Bhf. Zoo,autobus,AS2,19601532_unified,"52.50623278,13.33236208",,,,,,,,1960188.0
+Hardenbergstr.,autobus,AS2,19601533_unified,"52.50615406,13.33242747",,,,,,,,1964454.0
+Kurfürstendamm,autobus,AS2,19601534_unified,"52.49802331,13.29621757",,,,,,,,1960655.0
+"Rankeplatz, Bundeshaus",autobus,AS2,19601535_unified,"52.49778813,13.33073179",,,,,,,,1960937.0
+Berlinerstr.,autobus,AS2,19601536_unified,"52.43081276,13.31750495",,,,,,,,1960102.0
+Bundesplatz,autobus,AS2,19601537_unified,"52.47867899,13.32860278",,,,,,,,1960248.0
+"Schlossstr., Wilhelm-Schreiber-Platz",autobus,AS2,19601538_unified,"52.46497175,13.32853499",,,,,,,,19601065.0
+Canovastr.,autobus,AS2,19601539_unified,"52.46306324,13.34285273",,,,,,,,1960255.0
+Attilaplatz,autobus,AS2,19601540_unified,"52.45590180,13.37651250",,,,,,,,196064.0
+Mariendorferdamm,autobus,AS2,19601541_unified,"52.44560447,13.38581655",,,,,,,,1960767.0
+Alt-Mariendorf,autobus,AS2,19601542_unified,"52.44015553,13.38732825",,,,,,,,196022.0
+"Tauernallee, Adlermühle",autobus,AS2,19601543_unified,"52.42337465,13.39618539",,,,,,,,19611151.0
+Buckowerchaussee,autobus,AS2,19601544_unified,"52.41455804,13.40116104",,,,,,,,1960240.0
+"Lichtenrade, Goethestr.",autobus,AS2,19601545_unified,"52.40437994,13.40619839",,,,,,,,1960716.0
+Goltzstr.,autobus,AS2,19601546_unified,"52.38667572,13.40793450",,,,,,,,1960417.0
+"Lichtenrade, Blohmstr. Ecke Wünsdorferstr.",autobus,AS2,19601547_unified,"52.38867705,13.39434416",,,,,,,,1961711.0
+Bhf. Zoo,autobus,AS3,19601548_unified,"52.50623278,13.33236208",,,,,,,,1960188.0
+Hardenbergstr.,autobus,AS3,19601549_unified,"52.50615406,13.33242747",,,,,,,,1964454.0
+Kurfürstendamm,autobus,AS3,19601550_unified,"52.49802331,13.29621757",,,,,,,,1960655.0
+Rankeplatz/Bundeshaus,autobus,AS3,19601551_unified,"52.49782619,13.33071098",,,,,,,,1960938.0
+U-Bhf. Fehrbellinerplatz,autobus,AS3,19601552_unified,"52.49039093,13.31417746",,,,,,,,19601223.0
+Bhf. Hohenzollerndamm,autobus,AS3,19601553_unified,"52.48832717,13.30143693",,,,,,,,1960141.0
+"Berkaerstr., Elsterplatz",autobus,AS3,19601554_unified,"52.47959214,13.28529694",,,,,,,,1960101.0
+Roseneck,autobus,AS3,19601555_unified,"52.47580090,13.28241127",,,,,,,,1960987.0
+Pücklerstr.,autobus,AS3,19601556_unified,"52.46856664,13.27835663",,,,,,,,1961854.0
+Königin-Luisestr.,autobus,AS3,19601557_unified,"52.45831795,13.28702748",,,,,,,,1960670.0
+U-Bhf. Oskar-Helene-Heim,autobus,AS3,19601558_unified,"52.45027901,13.27036199",,,,,,,,19601244.0
+Sundgauerstr.,autobus,AS3,19601559_unified,"52.43838201,13.27144796",,,,,,,,19601168.0
+Winfriedstr.,autobus,AS3,19601560_unified,"52.43756201,13.26945017",,,,,,,,19601360.0
+Clayallee/Teltowerdamm,autobus,AS3,19601561_unified,"52.43505474,13.26036176",,,,,,,,1960270.0
+Rathaus Zehlendorf,autobus,AS3,19601562_unified,"52.43320752,13.25953192",,,,,,,,1960954.0
+Groß Ziethen,autobus,AZ,19601563_unified,"52.41404104,13.43887916",,,,,,,,1960440.0
+Bhf. Groß Ziethen,autobus,AZ,19601564_unified,"52.39427200,13.44266739",,,,,,,,1960133.0
+Klein Ziethen,autobus,AZ,19601565_unified,"52.37958050,13.44656987",,,,,,,,1960613.0
+"Waßmannsdorf, Warteh.",autobus,AZ,19601566_unified,"52.37269773,13.46503265",,,,,,,,19601311.0
+Selchow,autobus,AZ,19601567_unified,"52.35758122,13.47195588",,,,,,,,19601096.0
+Waltersforderchaussee (Spinne),autobus,AZ,19601568_unified,"52.39285300,13.52267710",,,,,,,,19601299.0
+"Schönefeld, Siedlung",autobus,AZ,19601569_unified,"52.38835098,13.56420502",,,,,,,,19611063.0
+S-Bhf. Grünau,autobus,AZ,19601570_unified,"52.41361516,13.57379629",,,,,,,,19601011.0
+Kosterstr.,omnibus,O30,19601571_unified,"52.51798604,13.41212675",,,,,,,,1960639.0
+Andreasstr.,omnibus,O30,19601572_unified,"52.51797307,13.43289548",,,,,,,,196054.0
+Küstrinerplatz,omnibus,O30,19601573_unified,"52.51324778,13.43933319",,,,,,,,1960687.0
+Warschauerstr.,omnibus,O30,19601574_unified,"52.51243227,13.45259884",,,,,,,,19601306.0
+Holteistr.,omnibus,O30,19601575_unified,"52.50859354,13.46628815",,,,,,,,1960539.0
+S-Bhf. Rummelsburg,omnibus,O30,19601576_unified,"52.50179539,13.47802858",,,,,,,,19601023.0
+Münsterlandstr.,omnibus,O30,19601577_unified,"52.50386179,13.49463099",,,,,,,,1956715.0
+Bhf. Lichtenberg,omnibus,O30,19601578_unified,"52.51128756,13.49959112",,,,,,,,1960145.0
+"BVG-Bf. Lichtenberg, Siegfriedstr.",omnibus,O30,19601579_unified,"52.52004640,13.49937363",,,,,,,,196071.0
+Roederplatz,omnibus,O30,19601580_unified,"52.52671389,13.47966235",,,,,,,,1960985.0
+Ebertystr. Ecke Leninallee,omnibus,O30,19601582_unified,"52.52722237,13.45079968",,,,,,,,1960306.0
+Greifswalderstr. Ecke Dimitroffstr.,omnibus,O30,19601583_unified,"52.53621776,13.43301750",,,,,,,,1960432.0
+Königstor,omnibus,O30,19601584_unified,"52.52520269,13.41983499",,,,,,,,1960673.0
+S-Bhf. Alexanderplatz,omnibus,O30,19601585_unified,"52.52074878,13.41214723",,,,,,,,19601005.0
+Klosterstr.,omnibus,O30,19601586_unified,"52.51798604,13.41212675",,,,,,,,1960623.0
+Bürknersfelde,omnibus,O37,19601587_unified,"52.54954049,13.58668971",,,,,,,,1960253.0
+"Alt-Marzahn, Kirche",omnibus,O37,19601588_unified,"52.54242345,13.56406175",,,,,,,,196025.0
+Elisabethstr.,omnibus,O37,19601589_unified,"52.53409534,13.55949916",,,,,,,,1960319.0
+Cecilienstr. Ecke Oberfeldstr.,omnibus,O37,19601590_unified,"52.52969034,13.55800158",,,,,,,,1960261.0
+S-Bhf. Biesdorf,omnibus,O37,19601591_unified,"52.51343259,13.55538728",,,,,,,,19601007.0
+Schlossstr. Ecke Alt-Friedrichsfelde,omnibus,O37,19601592_unified,"52.50943477,13.51881394",,,,,,,,19601063.0
+Bhf. Lichtenberg,omnibus,O37,19601593_unified,"52.51128756,13.49959112",,,,,,,,1960145.0
+Ostbahnhof,omnibus,O40,19601594_unified,"52.50976671,13.43372198",,,,,,,,1960863.0
+Küstrinerplatz,omnibus,O40,19601595_unified,"52.51324778,13.43933319",,,,,,,,1960687.0
+Stalinallee,omnibus,O40,19601596_unified,"52.51715129,13.44064077",,,,,,,,19601136.0
+Leninplatz,omnibus,O40,19601597_unified,"52.52323900,13.43359458",,,,,,,,1960703.0
+Königstor,omnibus,O40,19601598_unified,"52.52520269,13.41983499",,,,,,,,1960673.0
+Rosenthalerplatz,omnibus,O40,19601599_unified,"52.52967295,13.40142893",,,,,,,,1960990.0
+Oranienburger Tor,omnibus,O40,19601600_unified,"52.52716314,13.38710905",,,,,,,,1960846.0
+Robert-Koch-Platz,omnibus,O40,19601601_unified,"52.52757051,13.37877230",,,,,,,,1960984.0
+Bürknersfelde,omnibus,O41,19601602_unified,"52.54954049,13.58668971",,,,,,,,1960253.0
+Dingelstädterstr.,omnibus,O41,19601603_unified,"52.53587676,13.52205863",,,,,,,,1961287.0
+Siegfriedstr.,omnibus,O41,19601604_unified,"52.53435088,13.49969780",,,,,,,,19601099.0
+Weißenseerweg,omnibus,O41,19601605_unified,"52.53305920,13.47625284",,,,,,,,19611290.0
+Oderbruchstr.,omnibus,O41,19601606_unified,"52.52965617,13.46102289",,,,,,,,1960837.0
+Dimitroffstr.,omnibus,O41,19601607_unified,"52.52644945,13.44757477",,,,,,,,1960292.0
+Alt-Schmöckwitz,autobus,Schmöckwitz<>Eichwalde (VEB Kraftverkehr Schöneiche-Rüdersdorf),19601608_unified,"52.37536709,13.64939989",,,,,,,,196131.0
+"Eichwalde, Uhlandstr.",autobus,Schmöckwitz<>Eichwalde (VEB Kraftverkehr Schöneiche-Rüdersdorf),19601609_unified,"52.37263459,13.62680243",,,,,,,,1961313.0
+Bhf. Eichwalde,autobus,Schmöckwitz<>Eichwalde (VEB Kraftverkehr Schöneiche-Rüdersdorf),19601610_unified,"52.37195056,13.61444714",,,,,,,,1961117.0
+Alt-Schmöckwitz,autobus,Schmöckwitz<>Ziegenhals (VEB Kraftverkehr Schöneiche-Rüdersdorf),19601611_unified,"52.37536709,13.64939989",,,,,,,,196131.0
+Konsum Wernsdorf,autobus,Schmöckwitz<>Ziegenhals (VEB Kraftverkehr Schöneiche-Rüdersdorf),19601612_unified,"52.36448396,13.69844113",,,,,,,,1961627.0
+Konsum Ziegenhals,autobus,Schmöckwitz<>Ziegenhals (VEB Kraftverkehr Schöneiche-Rüdersdorf),19601613_unified,"52.35301417,13.67167267",,,,,,,,1961628.0
+"Ziegenhals, VA Dienststelle",autobus,Schmöckwitz<>Ziegenhals (VEB Kraftverkehr Schöneiche-Rüdersdorf),19601614_unified,"52.34709163,13.66419600",,,,,,,,19611354.0
+Kladow,ferry,Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt),19601615_unified,"52.45151499,13.14796194",,,,,,,,1961604.0
+Wannsee,ferry,Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt),19601616_unified,"52.42192802,13.17581596",,,,,,,,19611268.0
+Wendenschloß,ferry,Wendenschloß<>Grünau,19601617_unified,"52.41849554,13.58711706",,,,,,,,19561189.0
+Grünau,ferry,Wendenschloß<>Grünau,19601618_unified,"52.41748995,13.58245363",,,,,,,,1956398.0
+Pankow (Vinetastr.),u-bahn,A I,19601619_unified,"52.55916667,13.41333333",Q570906,,,,,,,1960875.0
+Schönhauserallee,u-bahn,A I,19601620_unified,"52.54932889,13.41370611",Q47014936,,,,,,,19601082.0
+Dimitroffstr.,u-bahn,A I,19601621_unified,"52.54166667,13.41222222",Q571382,,,,,,,1960291.0
+Senefelderplatz,u-bahn,A I,19601622_unified,"52.53242000,13.41274300",Q32661454,,,,,,,19601097.0
+Luxemburgplatz,u-bahn,A I,19601623_unified,"52.52833333,13.41027778",Q658790,,,,,,,1960739.0
+Alexanderplatz,u-bahn,A I,19601624_unified,"52.52140000,13.41190000",Q17173458,,,,,,,196013.0
+Klosterstr.,u-bahn,A I,19601625_unified,"52.51611111,13.41222222",Q657893,,,,,,,1960622.0
+Märkisches Museum,u-bahn,A I,19601626_unified,"52.51194444,13.40888889",Q657871,,,,,,,1960801.0
+Spittelmarkt,u-bahn,A I,19601627_unified,"52.51111111,13.40361111",Q569489,,,,,,,19601120.0
+Hausvogteiplatz,u-bahn,A I,19601628_unified,"52.51305556,13.39666667",Q656523,,,,,,,1960484.0
+Stadtmitte (Mohrenstr.),u-bahn,A I,19601629_unified,"52.51220000,13.38940000",Q660066,,,,,,,19601130.0
+Thälmannplatz,u-bahn,A I,19601630_unified,"52.51167000,13.38472000",Q658391,,,,,,,19601197.0
+Potsdamerplatz,u-bahn,A I,19601631_unified,"52.50920000,13.37820000",Q3909578,,,,,,,1960907.0
+Gleisdreieck,u-bahn,A I,19601632_unified,"52.49952000,13.37409000",Q678372,,,,,,,1960405.0
+Bülowstr.,u-bahn,A I,19601633_unified,"52.49755278,13.36341944",Q374881,,,,,,,1960252.0
+Nollendorfplatz,u-bahn,A I,19601634_unified,"52.49916667,13.35388889",Q571039,,,,,,,1960825.0
+Wittenbergplatz,u-bahn,A I,19601635_unified,"52.50194444,13.34305556",Q692727,,,,,,,19601371.0
+Zoologischer Garten,u-bahn,A I,19601636_unified,"52.50586690,13.33302360",Q4024764,,,,,,,19601395.0
+Ernst-Reuter-Platz,u-bahn,A I,19601637_unified,"52.51194444,13.32222222",Q658361,,,,,,,1960333.0
+Deutsches Opernhaus (Bismarckstr.),u-bahn,A I,19601638_unified,"52.51194444,13.31055556",Q869501,,,,,,,1960289.0
+Sophie-Charlotte-Platz,u-bahn,A I,19601639_unified,"52.51083333,13.29666667",Q657879,,,,,,,19601107.0
+Kaiserdamm (Messedamm),u-bahn,A I,19601640_unified,"52.51000000,13.28220000",Q656409,,,,,,,1960584.0
+Reichskanzlerplatz,u-bahn,A I,19601641_unified,"52.50972222,13.27305556",Q657857,,,,,,,1960964.0
+Pankow (Vinetastr.),u-bahn,A II,19601642_unified,"52.55916667,13.41333333",Q570906,,,,,,,1960875.0
+Schönhauserallee,u-bahn,A II,19601643_unified,"52.54932889,13.41370611",Q47014936,,,,,,,19601082.0
+Dimitroffstr.,u-bahn,A II,19601644_unified,"52.54166667,13.41222222",Q571382,,,,,,,1960291.0
+Senefelderplatz,u-bahn,A II,19601645_unified,"52.53242000,13.41274300",Q32661454,,,,,,,19601097.0
+Luxemburgplatz,u-bahn,A II,19601646_unified,"52.52833333,13.41027778",Q658790,,,,,,,1960739.0
+Alexanderplatz,u-bahn,A II,19601647_unified,"52.52140000,13.41190000",Q17173458,,,,,,,196013.0
+Klosterstr.,u-bahn,A II,19601648_unified,"52.51611111,13.41222222",Q657893,,,,,,,1960622.0
+Märkisches Museum,u-bahn,A II,19601649_unified,"52.51194444,13.40888889",Q657871,,,,,,,1960801.0
+Spittelmarkt,u-bahn,A II,19601650_unified,"52.51111111,13.40361111",Q569489,,,,,,,19601120.0
+Hausvogteiplatz,u-bahn,A II,19601651_unified,"52.51305556,13.39666667",Q656523,,,,,,,1960484.0
+Stadtmitte (Mohrenstr.),u-bahn,A II,19601652_unified,"52.51220000,13.38940000",Q660066,,,,,,,19601130.0
+Thälmannplatz,u-bahn,A II,19601653_unified,"52.51167000,13.38472000",Q658391,,,,,,,19601197.0
+Potsdamerplatz,u-bahn,A II,19601654_unified,"52.50920000,13.37820000",Q3909578,,,,,,,1960907.0
+Gleisdreieck,u-bahn,A II,19601655_unified,"52.49952000,13.37409000",Q678372,,,,,,,1960405.0
+Bülowstr.,u-bahn,A II,19601656_unified,"52.49755278,13.36341944",Q374881,,,,,,,1960252.0
+Nollendorfplatz,u-bahn,A II,19601657_unified,"52.49916667,13.35388889",Q571039,,,,,,,1960825.0
+Wittenbergplatz,u-bahn,A II,19601658_unified,"52.50194444,13.34305556",Q692727,,,,,,,19601371.0
+Spichernstr. (Bundesallee),u-bahn,A II,19601659_unified,"52.49638889,13.33055556",Q667046,,,,,,,19601117.0
+Hohenzollernplatz,u-bahn,A II,19601660_unified,"52.49388889,13.32500000",Q571570,,,,,,,1960535.0
+Fehrbellinerplatz,u-bahn,A II,19601661_unified,"52.49027778,13.31444444",Q663245,,,,,,,1960346.0
+Heidelbergerplatz,u-bahn,A II,19601662_unified,"52.47980833,13.31323611",Q21777872,,,,,,,1960493.0
+Rüdesheimerplatz,u-bahn,A II,19601663_unified,"52.47333333,13.31444444",Q167147,,,,,,,19601001.0
+Breitenbachplatz,u-bahn,A II,19601664_unified,"52.46638889,13.30805556",Q571339,,,,,,,1960226.0
+Podbielskiallee,u-bahn,A II,19601665_unified,"52.46444444,13.29638889",Q571324,,,,,,,1960901.0
+Dahlem-Dorf,u-bahn,A II,19601666_unified,"52.45694444,13.28944444",Q668585,,,,,,,1960278.0
+Thielplatz,u-bahn,A II,19601667_unified,"52.45111111,13.28222222",Q571331,,,,,,,19601194.0
+Oskar-Helene-Heim,u-bahn,A II,19601668_unified,"52.45027778,13.26972222",Q681336,,,,,,,1960856.0
+Onkel Toms Hütte,u-bahn,A II,19601669_unified,"52.45027778,13.25333333",Q389214,,,,,,,1960840.0
+Krumme Lanke,u-bahn,A II,19601670_unified,"52.44333333,13.24138889",Q663945,,,,,,,1960654.0
+Deutsches Opernhaus (Bismarckstr.),u-bahn,A III,19601671_unified,"52.51194444,13.31055556",Q869501,,,,,,,1960289.0
+Richard-Wagner-Platz,u-bahn,A III,19601672_unified,"52.51750000,13.30638889",Q662201,,,,,,,1960977.0
+Warschauer Brücke,u-bahn,B I,19601673_unified,"52.50510000,13.44910000",Q18380174,,,,,,,19601304.0
+Schlesisches Tor,u-bahn,B I,19601674_unified,"52.50083333,13.44166667",Q602282,,,,,,,19601055.0
+Görlitzer Bahnhof (Oranienstr.),u-bahn,B I,19601675_unified,"52.49920000,13.42800000",Q597759,,,,,,,1960456.0
+Kottbusser Tor,u-bahn,B I,19601676_unified,"52.49916667,13.41805556",Q819768,,,,,,,1960642.0
+Prinzenstr.,u-bahn,B I,19601677_unified,"52.49833333,13.40611111",Q689797,,,,,,,1960924.0
+Hallesches Tor,u-bahn,B I,19601678_unified,"52.49777778,13.39111111",Q658302,,,,,,,1960468.0
+Möckernbrücke,u-bahn,B I,19601679_unified,"52.49916667,13.38277778",Q704716,,,,,,,1960802.0
+Gleisdreieck,u-bahn,B I,19601680_unified,"52.49952000,13.37409000",Q678372,,,,,,,1960405.0
+Kurfürstenstr.,u-bahn,B I,19601681_unified,"52.50000000,13.36194444",Q690203,,,,,,,1960658.0
+Nollendorfplatz,u-bahn,B I,19601682_unified,"52.49916667,13.35388889",Q571039,,,,,,,1960825.0
+Wittenbergplatz,u-bahn,B I,19601683_unified,"52.50194444,13.34305556",Q692727,,,,,,,19601371.0
+Zoologischer Garten,u-bahn,B I,19601684_unified,"52.50586690,13.33302360",Q4024764,,,,,,,19601395.0
+Ernst-Reuter-Platz,u-bahn,B I,19601685_unified,"52.51194444,13.32222222",Q658361,,,,,,,1960333.0
+Deutsches Opernhaus (Bismarckstr.),u-bahn,B I,19601686_unified,"52.51194444,13.31055556",Q869501,,,,,,,1960289.0
+Sophie-Charlotte-Platz,u-bahn,B I,19601687_unified,"52.51083333,13.29666667",Q657879,,,,,,,19601107.0
+Kaiserdamm (Messedamm),u-bahn,B I,19601688_unified,"52.51000000,13.28220000",Q656409,,,,,,,1960584.0
+Reichskanzlerplatz,u-bahn,B I,19601689_unified,"52.50972222,13.27305556",Q657857,,,,,,,1960964.0
+Neu-Westend,u-bahn,B I,19601690_unified,"52.51555556,13.26111111",Q656431,,,,,,,1960813.0
+Olympia-Stadion,u-bahn,B I,19601691_unified,"52.51722222,13.25000000",Q656441,,,,,,,1960839.0
+Ruhleben,u-bahn,B I,19601692_unified,"52.52555556,13.24138889",Q656401,,,,,,,1960994.0
+Warschauer Brücke,u-bahn,B II,19601693_unified,"52.50510000,13.44910000",Q18380174,,,,,,,19601304.0
+Schlesisches Tor,u-bahn,B II,19601694_unified,"52.50083333,13.44166667",Q602282,,,,,,,19601055.0
+Görlitzer Bahnhof (Oranienstr.),u-bahn,B II,19601695_unified,"52.49920000,13.42800000",Q597759,,,,,,,1960456.0
+Kottbusser Tor,u-bahn,B II,19601696_unified,"52.49916667,13.41805556",Q819768,,,,,,,1960642.0
+Prinzenstr.,u-bahn,B II,19601697_unified,"52.49833333,13.40611111",Q689797,,,,,,,1960924.0
+Hallesches Tor,u-bahn,B II,19601698_unified,"52.49777778,13.39111111",Q658302,,,,,,,1960468.0
+Möckernbrücke,u-bahn,B II,19601699_unified,"52.49916667,13.38277778",Q704716,,,,,,,1960802.0
+Gleisdreieck,u-bahn,B II,19601700_unified,"52.49952000,13.37409000",Q678372,,,,,,,1960405.0
+Kurfürstenstr.,u-bahn,B II,19601701_unified,"52.50000000,13.36194444",Q690203,,,,,,,1960658.0
+Nollendorfplatz,u-bahn,B II,19601702_unified,"52.49916667,13.35388889",Q571039,,,,,,,1960825.0
+Wittenbergplatz,u-bahn,B II,19601703_unified,"52.50194444,13.34305556",Q692727,,,,,,,19601371.0
+Spichernstr. (Bundesallee),u-bahn,B II,19601704_unified,"52.49638889,13.33055556",Q667046,,,,,,,19601117.0
+Hohenzollernplatz,u-bahn,B II,19601705_unified,"52.49388889,13.32500000",Q571570,,,,,,,1960535.0
+Fehrbellinerplatz,u-bahn,B II,19601706_unified,"52.49027778,13.31444444",Q663245,,,,,,,1960346.0
+Heidelbergerplatz,u-bahn,B II,19601707_unified,"52.47980833,13.31323611",Q21777872,,,,,,,1960493.0
+Rüdesheimerplatz,u-bahn,B II,19601708_unified,"52.47333333,13.31444444",Q167147,,,,,,,19601001.0
+Breitenbachplatz,u-bahn,B II,19601709_unified,"52.46638889,13.30805556",Q571339,,,,,,,1960226.0
+Podbielskiallee,u-bahn,B II,19601710_unified,"52.46444444,13.29638889",Q571324,,,,,,,1960901.0
+Dahlem-Dorf,u-bahn,B II,19601711_unified,"52.45694444,13.28944444",Q668585,,,,,,,1960278.0
+Thielplatz,u-bahn,B II,19601712_unified,"52.45111111,13.28222222",Q571331,,,,,,,19601194.0
+Oskar-Helene-Heim,u-bahn,B II,19601713_unified,"52.45027778,13.26972222",Q681336,,,,,,,1960856.0
+Onkel Toms Hütte,u-bahn,B II,19601714_unified,"52.45027778,13.25333333",Q389214,,,,,,,1960840.0
+Krumme Lanke,u-bahn,B II,19601715_unified,"52.44333333,13.24138889",Q663945,,,,,,,1960654.0
+Nollendorfplatz,u-bahn,B III,19601716_unified,"52.49916667,13.35388889",Q571039,,,,,,,1960825.0
+Viktoria-Luise-Platz,u-bahn,B III,19601717_unified,"52.49616111,13.34270278",Q178685,,,,,,,19601280.0
+Bayerischerplatz,u-bahn,B III,19601718_unified,"52.48833333,13.34027778",Q668574,,,,,,,196089.0
+Rathaus Schöneberg,u-bahn,B III,19601719_unified,"52.48311667,13.34193056",Q570926,,,,,,,1960946.0
+Innsbruckerplatz (Hauptstr.),u-bahn,B III,19601720_unified,"52.47860000,13.34390000",Q10275871,,,,,,,1960560.0
+Tegel,u-bahn,C I,19601721_unified,"52.58944000,13.28389000",Q656090,,,,,,,19601180.0
+Borsigwerke,u-bahn,C I,19601722_unified,"52.58190000,13.29070000",Q525185,,,,,,,1960215.0
+Holzhauserstr.,u-bahn,C I,19601723_unified,"52.57583333,13.29611111",Q557566,,,,,,,1960541.0
+Seidelstr. (Flugplatz Tegel),u-bahn,C I,19601724_unified,"52.57111111,13.30277778",Q557582,,,,,,,19601095.0
+Scharnweberstr. (Eichborndamm),u-bahn,C I,19601725_unified,"52.56694444,13.31277778",Q557586,,,,,,,19601047.0
+Kurt-Schumacher-Platz,u-bahn,C I,19601726_unified,"52.56355556,13.32657222",Q555916,,,,,,,1960665.0
+Afrikanischestr.,u-bahn,C I,19601727_unified,"52.56002778,13.33463333",Q559239,,,,,,,19604.0
+Rehberge,u-bahn,C I,19601728_unified,"52.55670000,13.34120000",Q253850,,,,,,,1960960.0
+Seestr.,u-bahn,C I,19601729_unified,"52.55056000,13.35194000",Q554391,,,,,,,19601093.0
+Leopoldplatz,u-bahn,C I,19601730_unified,"52.54650000,13.35910000",Q1960809,,,,,,,1960708.0
+Bahnhof Wedding,u-bahn,C I,19601731_unified,"52.54250000,13.36611100",Q4018733,,,,,,,196080.0
+Reinickendorferstr.,u-bahn,C I,19601732_unified,"52.53991111,13.37037778",Q559249,,,,,,,1960968.0
+Schwartzkopffstr.,u-bahn,C I,19601733_unified,"52.53527778,13.37722222",Q554360,,,,,,,19601073.0
+Nordbahnhof,u-bahn,C I,19601734_unified,"52.53111111,13.38250000",Q554399,,,,,,,1960828.0
+Oranienburger Tor,u-bahn,C I,19601735_unified,"52.52488611,13.38747778",Q571485,,,,,,,1960848.0
+Bahnhof Friedrichstr. (Stadtbahn),u-bahn,C I,19601736_unified,"52.52011111,13.38830556",Q3753274,,,,,,,196077.0
+Französischestr.,u-bahn,C I,19601737_unified,"52.51472222,13.38916667",Q571479,,,,,,,1960361.0
+Stadtmitte (Leipzigerstr.),u-bahn,C I,19601738_unified,"52.51220000,13.38940000",Q660066,,,,,,,19601129.0
+Kochstr.,u-bahn,C I,19601739_unified,"52.50589722,13.39061111",Q201849,,,,,,,1960629.0
+Hallesches Tor,u-bahn,C I,19601740_unified,"52.49777778,13.39111111",Q658302,,,,,,,1960468.0
+Mehringdamm,u-bahn,C I,19601741_unified,"52.49388889,13.38833333",Q657905,,,,,,,1960789.0
+Gneisenaustr.,u-bahn,C I,19601742_unified,"52.49138889,13.39555556",Q668618,,,,,,,1960411.0
+Südstern,u-bahn,C I,19601743_unified,"52.48944444,13.40777778",Q656081,,,,,,,19601174.0
+Hermannplatz,u-bahn,C I,19601744_unified,"52.48629000,13.42455000",Q658929,,,,,,,1960505.0
+Rathaus Neukölln,u-bahn,C I,19601745_unified,"52.48166667,13.43416667",Q628770,,,,,,,1960942.0
+Karl-Marxstr.,u-bahn,C I,19601746_unified,"52.47611111,13.43916667",Q519494,,,,,,,1960596.0
+Neukölln (Südring),u-bahn,C I,19601747_unified,"52.46944400,13.44222200",Q21272767,,,,,,,1960817.0
+Grenzallee,u-bahn,C I,19601748_unified,"52.46333333,13.44388889",Q571836,,,,,,,1960434.0
+Tegel,u-bahn,C II,19601749_unified,"52.58944000,13.28389000",Q656090,,,,,,,19601180.0
+Borsigwerke,u-bahn,C II,19601750_unified,"52.58190000,13.29070000",Q525185,,,,,,,1960215.0
+Holzhauserstr.,u-bahn,C II,19601751_unified,"52.57583333,13.29611111",Q557566,,,,,,,1960541.0
+Seidelstr. (Flugplatz Tegel),u-bahn,C II,19601752_unified,"52.57111111,13.30277778",Q557582,,,,,,,19601095.0
+Scharnweberstr. (Eichborndamm),u-bahn,C II,19601753_unified,"52.56694444,13.31277778",Q557586,,,,,,,19601047.0
+Kurt-Schumacher-Platz,u-bahn,C II,19601754_unified,"52.56355556,13.32657222",Q555916,,,,,,,1960665.0
+Afrikanischestr.,u-bahn,C II,19601755_unified,"52.56002778,13.33463333",Q559239,,,,,,,19604.0
+Rehberge,u-bahn,C II,19601756_unified,"52.55670000,13.34120000",Q253850,,,,,,,1960960.0
+Seestr.,u-bahn,C II,19601757_unified,"52.55056000,13.35194000",Q554391,,,,,,,19601093.0
+Leopoldplatz,u-bahn,C II,19601758_unified,"52.54650000,13.35910000",Q1960809,,,,,,,1960708.0
+Bahnhof Wedding,u-bahn,C II,19601759_unified,"52.54250000,13.36611100",Q4018733,,,,,,,196080.0
+Reinickendorferstr.,u-bahn,C II,19601760_unified,"52.53991111,13.37037778",Q559249,,,,,,,1960968.0
+Schwartzkopffstr.,u-bahn,C II,19601761_unified,"52.53527778,13.37722222",Q554360,,,,,,,19601073.0
+Nordbahnhof,u-bahn,C II,19601762_unified,"52.53111111,13.38250000",Q554399,,,,,,,1960828.0
+Oranienburger Tor,u-bahn,C II,19601763_unified,"52.52488611,13.38747778",Q571485,,,,,,,1960848.0
+Bahnhof Friedrichstr. (Stadtbahn),u-bahn,C II,19601764_unified,"52.52011111,13.38830556",Q3753274,,,,,,,196077.0
+Französischestr.,u-bahn,C II,19601765_unified,"52.51472222,13.38916667",Q571479,,,,,,,1960361.0
+Stadtmitte (Leipzigerstr.),u-bahn,C II,19601766_unified,"52.51220000,13.38940000",Q660066,,,,,,,19601129.0
+Kochstr.,u-bahn,C II,19601767_unified,"52.50589722,13.39061111",Q201849,,,,,,,1960629.0
+Hallesches Tor,u-bahn,C II,19601768_unified,"52.49777778,13.39111111",Q658302,,,,,,,1960468.0
+Mehringdamm,u-bahn,C II,19601769_unified,"52.49388889,13.38833333",Q657905,,,,,,,1960789.0
+Flughafen,u-bahn,C II,19601770_unified,"52.48555600,13.38583300",Q557582,,,,,,,1960355.0
+Paradestr.,u-bahn,C II,19601771_unified,"52.47805556,13.38611111",Q557543,,,,,,,1960885.0
+Tempelhof (Südring),u-bahn,C II,19601772_unified,"52.47075000,13.38536111",Q3983109,,,,,,,19601189.0
+Gesundbrunnen,u-bahn,D,19601773_unified,"52.54861100,13.38944400",Q3761416,,,,,,,1960403.0
+Voltastr.,u-bahn,D,19601774_unified,"52.54209300,13.39302200",Q663308,,,,,,,19601284.0
+Bernauerstr.,u-bahn,D,19601775_unified,"52.53750000,13.39666667",Q689293,,,,,,,1960110.0
+Rosenthalerplatz,u-bahn,D,19601776_unified,"52.53000000,13.40111111",Q663231,,,,,,,1960992.0
+Weinmeisterstr.,u-bahn,D,19601777_unified,"52.52583333,13.40388889",Q661876,,,,,,,19601319.0
+Alexanderplatz,u-bahn,D,19601778_unified,"52.52140000,13.41190000",Q17173458,,,,,,,196013.0
+Jannowitzbrücke,u-bahn,D,19601779_unified,"52.51565600,13.41818500",Q27955418,,,,,,,1960568.0
+Neanderstr.,u-bahn,D,19601780_unified,"52.51083333,13.41638889",Q663204,,,,,,,1960809.0
+Moritzplatz,u-bahn,D,19601781_unified,"52.50361111,13.41083333",Q374225,,,,,,,1960798.0
+Kottbusser Tor,u-bahn,D,19601782_unified,"52.49916667,13.41805556",Q819768,,,,,,,1960642.0
+Kottbusserdamm (Schönleinstr.),u-bahn,D,19601783_unified,"52.49305556,13.42194444",Q666868,,,,,,,1960641.0
+Hermannplatz,u-bahn,D,19601784_unified,"52.48629000,13.42455000",Q658929,,,,,,,1960505.0
+Boddinstr.,u-bahn,D,19601785_unified,"52.48000000,13.42527778",Q819495,,,,,,,1960209.0
+Leinestr.,u-bahn,D,19601786_unified,"52.47277778,13.42833333",Q668563,,,,,,,1960699.0
+Alexanderplatz,u-bahn,E,19601787_unified,"52.52140000,13.41190000",Q17173458,,,,,,,196013.0
+Schillingstr.,u-bahn,E,19601788_unified,"52.52032813,13.42191867",Q552899,,,,,,,19601052.0
+Strausbergerplatz,u-bahn,E,19601789_unified,"52.51805556,13.43083333",Q570999,,,,,,,19601157.0
+Marchlewskistr.,u-bahn,E,19601790_unified,"52.51679444,13.44499167",Q551768,,,,,,,1960762.0
+Bersarinstr. (Frankfurter Tor),u-bahn,E,19601791_unified,"52.51583333,13.45416667",Q568627,,,,,,,1960117.0
+Samariterstr.,u-bahn,E,19601792_unified,"52.51472222,13.46444444",Q552891,,,,,,,19601037.0
+Stalinallee (Ringbahn),u-bahn,E,19601793_unified,"52.51416667,13.47472222",Q552872,,,,,,,19601139.0
+Magdalenenstr.,u-bahn,E,19601794_unified,"52.51250000,13.48638889",Q473901,,,,,,,1960751.0
+Bahnhof Lichtenberg (Zentralfriedhof),u-bahn,E,19601795_unified,"52.51055600,13.49638900",Q3831986,,,,,,,196078.0
+Friedrichsfelde (Tierpark),u-bahn,E,19601796_unified,"52.50611111,13.51277778",Q429781,,,,,,,1960374.0
+Gesundbrunnen,s-bahn,KBS 100,19601797_unified,"52.54861111,13.38944444",Q111239092,,,,,,,1960402.0
+Schönhauserallee,s-bahn,KBS 100,19601798_unified,"52.54932900,13.41370600",Q111264493,,,,,,,19601081.0
+Prenzlauerallee,s-bahn,KBS 100,19601799_unified,"52.54477500,13.42611600",Q32661483,,,,,,,1960915.0
+Greifswalderstr.,s-bahn,KBS 100,19601800_unified,"52.53972222,13.43944444",Q439246,,,,,,,1960429.0
+Leninallee,s-bahn,KBS 100,19601801_unified,"52.52950000,13.45480000",Q800507,,,,,,,1960701.0
+Zentralviehhof,s-bahn,KBS 100,19601802_unified,"52.52380000,13.46440000",Q800512,,,,,,,19601387.0
+Stalinallee,s-bahn,KBS 100,19601803_unified,"52.51416667,13.47472222",Q111250033,,,,,,,19601137.0
+Ostkreuz,s-bahn,KBS 100,19601804_unified,"52.50310000,13.46890000",Q111251530,,,,,,,1960867.0
+Treptower Park,s-bahn,KBS 100,19601805_unified,"52.49380000,13.46180000",Q559274,,,,,,,19601205.0
+Sonnenallee,s-bahn,KBS 100,19601806_unified,"52.47300000,13.45580000",Q481364,,,,,,,19601105.0
+Neukölln,s-bahn,KBS 100,19601807_unified,"52.46916667,13.44166667",Q111325412,,,,,,,1960816.0
+Hermannstr.,s-bahn,KBS 100,19601808_unified,"52.46750000,13.43111111",Q111263802,,,,,,,1960506.0
+Tempelhof,s-bahn,KBS 100,19601809_unified,"52.47080000,13.38540000",Q111264368,,,,,,,19601188.0
+Papestr.,s-bahn,KBS 100,19601810_unified,"52.47560000,13.36440000",Q111323139,,,,,,,1960884.0
+Schöneberg,s-bahn,KBS 100,19601811_unified,"52.47940000,13.35170000",Q543855,,,,,,,19601078.0
+Innsbruckerplatz,s-bahn,KBS 100,19601812_unified,"52.47860000,13.34390000",Q111263876,,,,,,,1960558.0
+Wilmersdorf,s-bahn,KBS 100,19601813_unified,"52.47765833,13.32852500",Q464094,,,,,,,19601357.0
+Schmargendorf,s-bahn,KBS 100,19601814_unified,"52.47967222,13.31244167",Q302810,,,,,,,19601067.0
+Hohenzollerndamm,s-bahn,KBS 100,19601815_unified,"52.48850000,13.30040000",Q800503,,,,,,,1960534.0
+Halensee,s-bahn,KBS 100,19601816_unified,"52.49610000,13.29060000",Q800476,,,,,,,1960467.0
+Westkreuz,s-bahn,KBS 100,19601817_unified,"52.50110000,13.28390000",Q678125,,,,,,,19601331.0
+Witzleben,s-bahn,KBS 100,19601818_unified,"52.50780000,13.28360000",Q321266,,,,,,,19601372.0
+Westend,s-bahn,KBS 100,19601819_unified,"52.51810000,13.28440000",Q323214,,,,,,,19601330.0
+Jungfernheide,s-bahn,KBS 100,19601820_unified,"52.53035000,13.29943333",Q110977325,,,,,,,1960578.0
+Beusselstr.,s-bahn,KBS 100,19601821_unified,"52.53444444,13.32916667",Q323219,,,,,,,1960120.0
+Putlitzstr.,s-bahn,KBS 100,19601822_unified,"52.53600000,13.34400000",Q465972,,,,,,,1960928.0
+Wedding,s-bahn,KBS 100,19601823_unified,"52.54250000,13.36610000",Q638604,,,,,,,19601312.0
+Wilmersdorf,s-bahn,KBS 100a,19601824_unified,"52.47765833,13.32852500",Q464094,,,,,,,19601357.0
+Innsbruckerplatz,s-bahn,KBS 100a,19601825_unified,"52.47860000,13.34390000",Q111263876,,,,,,,1960558.0
+Schöneberg,s-bahn,KBS 100a,19601826_unified,"52.47940000,13.35170000",Q543855,,,,,,,19601078.0
+Papestr.,s-bahn,KBS 100a,19601827_unified,"52.47560000,13.36440000",Q111323139,,,,,,,1960884.0
+Tempelhof,s-bahn,KBS 100a,19601828_unified,"52.47080000,13.38540000",Q111264368,,,,,,,19601188.0
+Hermannstr.,s-bahn,KBS 100a,19601829_unified,"52.46750000,13.43111111",Q111263802,,,,,,,1960506.0
+Neukölln,s-bahn,KBS 100a,19601830_unified,"52.46916667,13.44166667",Q111325412,,,,,,,1960816.0
+Köllnische Heide,s-bahn,KBS 100a,19601831_unified,"52.46940000,13.46750000",Q800505,,,,,,,1960666.0
+Baumschulenweg,s-bahn,KBS 100a,19601832_unified,"52.46750000,13.48972200",Q324336,,,,,,,196087.0
+Schöneweide,s-bahn,KBS 100a,19601833_unified,"52.45500000,13.50944444",Q111323931,,,,,,,19601079.0
+Betriebsbahnhof Schöneweide,s-bahn,KBS 100a,19601834_unified,"52.44676000,13.52391000",Q4526101,,,,,,,1960119.0
+Adlershof,s-bahn,KBS 100a,19601835_unified,"52.43472222,13.54138889",Q323551,,,,,,,19602.0
+Grünau,s-bahn,KBS 100a,19601836_unified,"52.41220000,13.57460000",Q111307258,,,,,,,1960447.0
+Blankenburg,s-bahn,KBS 100b,19601837_unified,"52.59150000,13.44350000",Q800469,,,,,,,1960200.0
+Pankow-Heinersdorf,s-bahn,KBS 100b,19601838_unified,"52.57806530,13.42950930",Q4892366,,,,,,,1960880.0
+Pankow,s-bahn,KBS 100b,19601839_unified,"52.56670000,13.41110000",Q111273850,,,,,,,1960874.0
+Schönhauserallee,s-bahn,KBS 100b,19601840_unified,"52.54932900,13.41370600",Q111264493,,,,,,,19601081.0
+Prenzlauerallee,s-bahn,KBS 100b,19601841_unified,"52.54477500,13.42611600",Q32661483,,,,,,,1960915.0
+Greifswalderstr.,s-bahn,KBS 100b,19601842_unified,"52.53972222,13.43944444",Q439246,,,,,,,1960429.0
+Leninallee,s-bahn,KBS 100b,19601843_unified,"52.52950000,13.45480000",Q800507,,,,,,,1960701.0
+Zentralviehhof,s-bahn,KBS 100b,19601844_unified,"52.52380000,13.46440000",Q800512,,,,,,,19601387.0
+Stalinallee,s-bahn,KBS 100b,19601845_unified,"52.51416667,13.47472222",Q111250033,,,,,,,19601137.0
+Ostkreuz,s-bahn,KBS 100b,19601846_unified,"52.50310000,13.46890000",Q111251530,,,,,,,1960867.0
+Warschauerstr.,s-bahn,KBS 100b,19601847_unified,"52.50641667,13.45095556",Q111252298,,,,,,,19601305.0
+Gartenfeld,s-bahn,KBS 100c,19601848_unified,"52.54695000,13.24882000",Q96080469,,,,,,,1960390.0
+Siemensstadt,s-bahn,KBS 100c,19601849_unified,"52.53923000,13.26365000",Q96080453,,,,,,,19601101.0
+Wernerwerk,s-bahn,KBS 100c,19601850_unified,"52.53486300,13.27599000",Q96077001,,,,,,,19601329.0
+Jungfernheide,s-bahn,KBS 100c,19601851_unified,"52.53035000,13.29943333",Q110977325,,,,,,,1960578.0
+Beusselstr.,s-bahn,KBS 100c,19601852_unified,"52.53444444,13.32916667",Q323219,,,,,,,1960120.0
+Putlitzstr.,s-bahn,KBS 100c,19601853_unified,"52.53600000,13.34400000",Q465972,,,,,,,1960928.0
+Wedding,s-bahn,KBS 100c,19601854_unified,"52.54250000,13.36610000",Q638604,,,,,,,19601312.0
+Gesundbrunnen,s-bahn,KBS 100c,19601855_unified,"52.54861111,13.38944444",Q111239092,,,,,,,1960402.0
+Schönhauserallee,s-bahn,KBS 100c,19601856_unified,"52.54932900,13.41370600",Q111264493,,,,,,,19601081.0
+Prenzlauerallee,s-bahn,KBS 100c,19601857_unified,"52.54477500,13.42611600",Q32661483,,,,,,,1960915.0
+Greifswalderstr.,s-bahn,KBS 100c,19601858_unified,"52.53972222,13.43944444",Q439246,,,,,,,1960429.0
+Leninallee,s-bahn,KBS 100c,19601859_unified,"52.52950000,13.45480000",Q800507,,,,,,,1960701.0
+Zentralviehhof,s-bahn,KBS 100c,19601860_unified,"52.52380000,13.46440000",Q800512,,,,,,,19601387.0
+Stalinallee,s-bahn,KBS 100c,19601861_unified,"52.51416667,13.47472222",Q111250033,,,,,,,19601137.0
+Ostkreuz,s-bahn,KBS 100c,19601862_unified,"52.50310000,13.46890000",Q111251530,,,,,,,1960867.0
+Warschauerstr.,s-bahn,KBS 100c,19601863_unified,"52.50641667,13.45095556",Q111252298,,,,,,,19601305.0
+Halensee,s-bahn,KBS 100c,19601864_unified,"52.49610000,13.29060000",Q800476,,,,,,,1960467.0
+Westkreuz,s-bahn,KBS 100c,19601865_unified,"52.50110000,13.28390000",Q678125,,,,,,,19601331.0
+Witzleben,s-bahn,KBS 100c,19601866_unified,"52.50780000,13.28360000",Q321266,,,,,,,19601372.0
+Westend,s-bahn,KBS 100c,19601867_unified,"52.51810000,13.28440000",Q323214,,,,,,,19601330.0
+Jungfernheide,s-bahn,KBS 100d,19601868_unified,"52.53035000,13.29943333",Q110977325,,,,,,,1960578.0
+Wernerwerk,s-bahn,KBS 100d,19601869_unified,"52.53486300,13.27599000",Q96077001,,,,,,,19601329.0
+Siemensstadt,s-bahn,KBS 100d,19601870_unified,"52.53923000,13.26365000",Q96080453,,,,,,,19601101.0
+Gartenfeld,s-bahn,KBS 100d,19601871_unified,"52.54695000,13.24882000",Q96080469,,,,,,,1960390.0
+Staaken,s-bahn,KBS 101,19601872_unified,"52.53780000,13.14140000",Q477545,,,,,,,19601125.0
+Spandau West,s-bahn,KBS 101,19601873_unified,"52.53470000,13.19580000",Q111325678,,,,,,,19601110.0
+Spandau,s-bahn,KBS 101,19601874_unified,"52.53200000,13.20890000",Q800491,,,,,,,19601109.0
+Pichelsberg,s-bahn,KBS 101,19601875_unified,"52.51030000,13.22710000",Q800488,,,,,,,1960894.0
+Reichssportfeld,s-bahn,KBS 101,19601876_unified,"52.51100000,13.24160000",Q800506,,,,,,,1960965.0
+Heerstr.,s-bahn,KBS 101,19601877_unified,"52.50860000,13.25860000",Q800502,,,,,,,1960489.0
+Eichkamp,s-bahn,KBS 101,19601878_unified,"52.49870000,13.27020000",Q800504,,,,,,,1960314.0
+Westkreuz,s-bahn,KBS 101,19601879_unified,"52.50110000,13.28390000",Q678125,,,,,,,19601331.0
+Charlottenburg,s-bahn,KBS 101,19601880_unified,"52.50472222,13.30333333",Q111326217,,,,,,,1960262.0
+Savignyplatz,s-bahn,KBS 101,19601881_unified,"52.50517460,13.31906590",Q554382,,,,,,,19601040.0
+Zoologischer Garten,s-bahn,KBS 101,19601882_unified,"52.50722222,13.33250000",Q111326238,,,,,,,19601394.0
+Tiergarten,s-bahn,KBS 101,19601883_unified,"52.51440000,13.33650000",Q572112,,,,,,,19601198.0
+Bellevue,s-bahn,KBS 101,19601884_unified,"52.52000000,13.34805556",Q374018,,,,,,,196092.0
+Lehrter Stadtbahnhof,s-bahn,KBS 101,19601885_unified,"52.52530000,13.36940000",Q821299,,,,,,,1960697.0
+Friedrichstr.,s-bahn,KBS 101,19601886_unified,"52.52027778,13.38694444",Q111219456,,,,,,,1960378.0
+Marx-Engels-Platz,s-bahn,KBS 101,19601887_unified,"52.52260000,13.40220000",Q689312,,,,,,,1960783.0
+Alexanderplatz,s-bahn,KBS 101,19601888_unified,"52.52138889,13.41194444",Q111324700,,,,,,,196012.0
+Jannowitzbrücke,s-bahn,KBS 101,19601889_unified,"52.51482222,13.41795000",Q27955427,,,,,,,1960567.0
+Ostbahnhof,s-bahn,KBS 101,19601890_unified,"52.51000000,13.43470000",Q111325075,,,,,,,1960864.0
+Warschauerstr.,s-bahn,KBS 101,19601891_unified,"52.50641667,13.45095556",Q111252298,,,,,,,19601305.0
+Ostkreuz,s-bahn,KBS 101,19601892_unified,"52.50310000,13.46890000",Q111251530,,,,,,,1960867.0
+Nöldnerplatz,s-bahn,KBS 101,19601893_unified,"52.50380000,13.48530000",Q4892447,,,,,,,1960833.0
+Lichtenberg,s-bahn,KBS 101,19601894_unified,"52.51060000,13.49640000",Q634247,,,,,,,1960713.0
+Friedrichsfelde Ost,s-bahn,KBS 101,19601895_unified,"52.51410000,13.51980000",Q800473,,,,,,,1960375.0
+Biesdorf,s-bahn,KBS 101,19601896_unified,"52.51310000,13.55540000",Q4892357,,,,,,,1960191.0
+Kaulsdorf,s-bahn,KBS 101,19601897_unified,"52.51210000,13.59040000",Q800478,,,,,,,1960605.0
+Mahlsdorf,s-bahn,KBS 101,19601898_unified,"52.51210000,13.61060000",Q800484,,,,,,,1960754.0
+Hoppegarten (Mark),s-bahn,KBS 101,19601899_unified,"52.51830000,13.67340000",Q15197357,,,,,,,1960544.0
+Neuenhagen (b Bln),s-bahn,KBS 101,19601900_unified,"52.52080000,13.70030000",Q7001614,,,,,,,1960815.0
+Fredersdorf (b Bln),s-bahn,KBS 101,19601901_unified,"52.52650000,13.76250000",Q15197387,,,,,,,1960363.0
+Giebelsee,s-bahn,KBS 101,19601902_unified,"52.52910000,13.79100000",Q7178217,,,,,,,1960404.0
+Strausberg,s-bahn,KBS 101,19601903_unified,"52.53193300,13.83693300",Q7622326,,,,,,,19601154.0
+Strausberg,s-bahn,KBS 101a,19601904_unified,"52.53193300,13.83693300",Q7622326,,,,,,,19601154.0
+Strausberg Stadt,s-bahn,KBS 101a,19601905_unified,"52.57660000,13.88780000",Q7622325,,,,,,,19601156.0
+Strausberg Nord,s-bahn,KBS 101a,19601906_unified,"52.59020000,13.90840000",Q7622324,,,,,,,19601155.0
+Potsdam,s-bahn,KBS 102,19601907_unified,"52.39170000,13.06670000",Q647973,,,,,,,1960904.0
+Babelsberg,s-bahn,KBS 102,19601908_unified,"52.39140000,13.09280000",Q801326,,,,,,,196073.0
+Griebnitzsee,s-bahn,KBS 102,19601909_unified,"52.39440000,13.12720000",Q315133,,,,,,,1960436.0
+Wannsee,s-bahn,KBS 102,19601910_unified,"52.42140000,13.17920000",Q111325896,,,,,,,19601301.0
+Nikolassee,s-bahn,KBS 102,19601911_unified,"52.43170000,13.19330000",Q637052,,,,,,,1960821.0
+Grunewald,s-bahn,KBS 102,19601912_unified,"52.48920000,13.26140000",Q457266,,,,,,,1960445.0
+Westkreuz,s-bahn,KBS 102,19601913_unified,"52.50110000,13.28390000",Q678125,,,,,,,19601331.0
+Charlottenburg,s-bahn,KBS 102,19601914_unified,"52.50472222,13.30333333",Q111326217,,,,,,,1960262.0
+Savignyplatz,s-bahn,KBS 102,19601915_unified,"52.50517460,13.31906590",Q554382,,,,,,,19601040.0
+Zoologischer Garten,s-bahn,KBS 102,19601916_unified,"52.50722222,13.33250000",Q111326238,,,,,,,19601394.0
+Tiergarten,s-bahn,KBS 102,19601917_unified,"52.51440000,13.33650000",Q572112,,,,,,,19601198.0
+Bellevue,s-bahn,KBS 102,19601918_unified,"52.52000000,13.34805556",Q374018,,,,,,,196092.0
+Lehrter Stadtbahnhof,s-bahn,KBS 102,19601919_unified,"52.52530000,13.36940000",Q821299,,,,,,,1960697.0
+Friedrichstr.,s-bahn,KBS 102,19601920_unified,"52.52027778,13.38694444",Q111219456,,,,,,,1960378.0
+Marx-Engels-Platz,s-bahn,KBS 102,19601921_unified,"52.52260000,13.40220000",Q689312,,,,,,,1960783.0
+Alexanderplatz,s-bahn,KBS 102,19601922_unified,"52.52138889,13.41194444",Q111324700,,,,,,,196012.0
+Jannowitzbrücke,s-bahn,KBS 102,19601923_unified,"52.51482222,13.41795000",Q27955427,,,,,,,1960567.0
+Ostbahnhof,s-bahn,KBS 102,19601924_unified,"52.51000000,13.43470000",Q111325075,,,,,,,1960864.0
+Warschauerstr.,s-bahn,KBS 102,19601925_unified,"52.50641667,13.45095556",Q111252298,,,,,,,19601305.0
+Ostkreuz,s-bahn,KBS 102,19601926_unified,"52.50310000,13.46890000",Q111251530,,,,,,,1960867.0
+Rummelsburg,s-bahn,KBS 102,19601927_unified,"52.50124400,13.47854500",Q15107132,,,,,,,1960997.0
+Betriebsbahnhof Rummelsburg,s-bahn,KBS 102,19601928_unified,"52.49390000,13.49780000",Q829009,,,,,,,1960118.0
+Karlshorst,s-bahn,KBS 102,19601929_unified,"52.48080000,13.52580000",Q111327045,,,,,,,1960597.0
+Wuhlheide,s-bahn,KBS 102,19601930_unified,"52.46890000,13.55330000",Q800514,,,,,,,19601378.0
+Köpenick,s-bahn,KBS 102,19601931_unified,"52.45860000,13.58080000",Q800479,,,,,,,1960678.0
+Hirschgarten,s-bahn,KBS 102,19601932_unified,"52.45790000,13.60320000",Q4892435,,,,,,,1960518.0
+Friedrichshagen,s-bahn,KBS 102,19601933_unified,"52.45740000,13.62330000",Q800474,,,,,,,1960376.0
+Rahnsdorf,s-bahn,KBS 102,19601934_unified,"52.45163720,13.68997760",Q800489,,,,,,,1960933.0
+Wilhelmshagen,s-bahn,KBS 102,19601935_unified,"52.43860000,13.72220000",Q800494,,,,,,,19601352.0
+Erkner,s-bahn,KBS 102,19601936_unified,"52.42960000,13.75130000",Q14434071,,,,,,,1960330.0
+Falkensee,s-bahn,KBS 103,19601937_unified,"52.55972200,13.08888900",Q5431918,,,,,,,1960342.0
+Albrechtshof,s-bahn,KBS 103,19601938_unified,"52.54940000,13.12830000",Q800470,,,,,,,19609.0
+Spandau West,s-bahn,KBS 103,19601939_unified,"52.53470000,13.19580000",Q111325678,,,,,,,19601110.0
+Spandau,s-bahn,KBS 103,19601940_unified,"52.53200000,13.20890000",Q800491,,,,,,,19601109.0
+Pichelsberg,s-bahn,KBS 103,19601941_unified,"52.51030000,13.22710000",Q800488,,,,,,,1960894.0
+Reichssportfeld,s-bahn,KBS 103,19601942_unified,"52.51100000,13.24160000",Q800506,,,,,,,1960965.0
+Heerstr.,s-bahn,KBS 103,19601943_unified,"52.50860000,13.25860000",Q800502,,,,,,,1960489.0
+Eichkamp,s-bahn,KBS 103,19601944_unified,"52.49870000,13.27020000",Q800504,,,,,,,1960314.0
+Westkreuz,s-bahn,KBS 103,19601945_unified,"52.50110000,13.28390000",Q678125,,,,,,,19601331.0
+Charlottenburg,s-bahn,KBS 103,19601946_unified,"52.50472222,13.30333333",Q111326217,,,,,,,1960262.0
+Savignyplatz,s-bahn,KBS 103,19601947_unified,"52.50517460,13.31906590",Q554382,,,,,,,19601040.0
+Zoologischer Garten,s-bahn,KBS 103,19601948_unified,"52.50722222,13.33250000",Q111326238,,,,,,,19601394.0
+Tiergarten,s-bahn,KBS 103,19601949_unified,"52.51440000,13.33650000",Q572112,,,,,,,19601198.0
+Bellevue,s-bahn,KBS 103,19601950_unified,"52.52000000,13.34805556",Q374018,,,,,,,196092.0
+Lehrter Stadtbahnhof,s-bahn,KBS 103,19601951_unified,"52.52530000,13.36940000",Q821299,,,,,,,1960697.0
+Friedrichstr.,s-bahn,KBS 103,19601952_unified,"52.52027778,13.38694444",Q111219456,,,,,,,1960378.0
+Marx-Engels-Platz,s-bahn,KBS 103,19601953_unified,"52.52260000,13.40220000",Q689312,,,,,,,1960783.0
+Alexanderplatz,s-bahn,KBS 103,19601954_unified,"52.52138889,13.41194444",Q111324700,,,,,,,196012.0
+Jannowitzbrücke,s-bahn,KBS 103,19601955_unified,"52.51482222,13.41795000",Q27955427,,,,,,,1960567.0
+Ostbahnhof,s-bahn,KBS 103,19601956_unified,"52.51000000,13.43470000",Q111325075,,,,,,,1960864.0
+Warschauerstr.,s-bahn,KBS 103,19601957_unified,"52.50641667,13.45095556",Q111252298,,,,,,,19601305.0
+Ostkreuz,s-bahn,KBS 103,19601958_unified,"52.50310000,13.46890000",Q111251530,,,,,,,1960867.0
+Treptower Park,s-bahn,KBS 103,19601959_unified,"52.49380000,13.46180000",Q559274,,,,,,,19601205.0
+Plänterwald,s-bahn,KBS 103,19601960_unified,"52.47860000,13.47330000",Q7205917,,,,,,,1960900.0
+Baumschulenweg,s-bahn,KBS 103,19601961_unified,"52.46750000,13.48972200",Q324336,,,,,,,196087.0
+Schöneweide,s-bahn,KBS 103,19601962_unified,"52.45500000,13.50944444",Q111323931,,,,,,,19601079.0
+Betriebsbahnhof Schöneweide,s-bahn,KBS 103,19601963_unified,"52.44676000,13.52391000",Q4526101,,,,,,,1960119.0
+Adlershof,s-bahn,KBS 103,19601964_unified,"52.43472222,13.54138889",Q323551,,,,,,,19602.0
+Grünau,s-bahn,KBS 103,19601965_unified,"52.41220000,13.57460000",Q111307258,,,,,,,1960447.0
+Eichwalde,s-bahn,KBS 103,19601966_unified,"52.37150000,13.61520000",Q19274479,,,,,,,1960315.0
+Zeuthen,s-bahn,KBS 103,19601967_unified,"52.34860000,13.62740000",Q8069824,,,,,,,19601389.0
+Wildau,s-bahn,KBS 103,19601968_unified,"52.32000000,13.63400000",Q8000974,,,,,,,19601345.0
+Königs Wusterhausen,s-bahn,KBS 103,19601969_unified,"52.29660000,13.63110000",Q178002,,,,,,,1960672.0
+Spandau West,s-bahn,KBS 103a,19601970_unified,"52.53470000,13.19580000",Q111325678,,,,,,,19601110.0
+Spandau,s-bahn,KBS 103a,19601971_unified,"52.53200000,13.20890000",Q800491,,,,,,,19601109.0
+Siemensstadt-Fürstenbrunn,s-bahn,KBS 103a,19601972_unified,"52.52800000,13.26950000",Q18747940,,,,,,,19601102.0
+Jungfernheide,s-bahn,KBS 103a,19601973_unified,"52.53035000,13.29943333",Q110977325,,,,,,,1960578.0
+Beusselstr.,s-bahn,KBS 103a,19601974_unified,"52.53444444,13.32916667",Q323219,,,,,,,1960120.0
+Putlitzstr.,s-bahn,KBS 103a,19601975_unified,"52.53600000,13.34400000",Q465972,,,,,,,1960928.0
+Wedding,s-bahn,KBS 103a,19601976_unified,"52.54250000,13.36610000",Q638604,,,,,,,19601312.0
+Gesundbrunnen,s-bahn,KBS 103a,19601977_unified,"52.54861111,13.38944444",Q111239092,,,,,,,1960402.0
+Schönhauserallee,s-bahn,KBS 103a,19601978_unified,"52.54932900,13.41370600",Q111264493,,,,,,,19601081.0
+Prenzlauerallee,s-bahn,KBS 103a,19601979_unified,"52.54477500,13.42611600",Q32661483,,,,,,,1960915.0
+Greifswalderstr.,s-bahn,KBS 103a,19601980_unified,"52.53972222,13.43944444",Q439246,,,,,,,1960429.0
+Leninallee,s-bahn,KBS 103a,19601981_unified,"52.52950000,13.45480000",Q800507,,,,,,,1960701.0
+Zentralviehhof,s-bahn,KBS 103a,19601982_unified,"52.52380000,13.46440000",Q800512,,,,,,,19601387.0
+Stalinallee,s-bahn,KBS 103a,19601983_unified,"52.51416667,13.47472222",Q111250033,,,,,,,19601137.0
+Ostkreuz,s-bahn,KBS 103a,19601984_unified,"52.50310000,13.46890000",Q111251530,,,,,,,1960867.0
+Treptower Park,s-bahn,KBS 103a,19601985_unified,"52.49380000,13.46180000",Q559274,,,,,,,19601205.0
+Plänterwald,s-bahn,KBS 103a,19601986_unified,"52.47860000,13.47330000",Q7205917,,,,,,,1960900.0
+Baumschulenweg,s-bahn,KBS 103a,19601987_unified,"52.46750000,13.48972200",Q324336,,,,,,,196087.0
+Schöneweide,s-bahn,KBS 103a,19601988_unified,"52.45500000,13.50944444",Q111323931,,,,,,,19601079.0
+Oberspree,s-bahn,KBS 103a,19601989_unified,"52.45250000,13.53820000",Q15192700,,,,,,,1960835.0
+Spindlersfeld,s-bahn,KBS 103a,19601990_unified,"52.44720000,13.56130000",Q4892371,,,,,,,19601118.0
+Oranienburg,s-bahn,KBS 104,19601991_unified,"52.75360000,13.24960000",Q2341669,,,,,,,1960842.0
+Lehnitz,s-bahn,KBS 104,19601992_unified,"52.74110000,13.26350000",Q4258498,,,,,,,1960696.0
+Borgsdorf,s-bahn,KBS 104,19601993_unified,"52.71550000,13.27640000",Q4093486,,,,,,,1960212.0
+Birkenwerder,s-bahn,KBS 104,19601994_unified,"52.68850000,13.28880000",Q2343634,,,,,,,1960193.0
+Hohen-Neuendorf (b Bln),s-bahn,KBS 104,19601995_unified,"52.66840000,13.28700000",Q4500489,,,,,,,1960526.0
+Frohnau,s-bahn,KBS 104,19601996_unified,"52.63250000,13.29020000",Q800472,,,,,,,1960382.0
+Hermsdorf,s-bahn,KBS 104,19601997_unified,"52.61780000,13.30690000",Q263189,,,,,,,1960508.0
+Waidmannslust,s-bahn,KBS 104,19601998_unified,"52.60640000,13.32100000",Q800492,,,,,,,19601286.0
+Wittenau (Nordbahn),s-bahn,KBS 104,19601999_unified,"52.59701300,13.33432900",Q111264319,,,,,,,19601368.0
+Wilhelmsruh,s-bahn,KBS 104,19602000_unified,"52.58140000,13.36310000",Q800495,,,,,,,19601353.0
+Schönholz,s-bahn,KBS 104,19602001_unified,"52.57140000,13.38140000",Q800490,,,,,,,19601083.0
+Wollankstr.,s-bahn,KBS 104,19602002_unified,"52.56515250,13.39236270",Q800515,,,,,,,19601374.0
+Bornholmerstr.,s-bahn,KBS 104,19602003_unified,"52.55428700,13.39798500",Q32662318,,,,,,,1960213.0
+Gesundbrunnen,s-bahn,KBS 104,19602004_unified,"52.54861111,13.38944444",Q111239092,,,,,,,1960402.0
+Humboldthain,s-bahn,KBS 104,19602005_unified,"52.54510000,13.37960000",Q481276,,,,,,,1960549.0
+Nordbahnhof,s-bahn,KBS 104,19602006_unified,"52.53190000,13.38780000",Q673721,,,,,,,1960827.0
+Oranienburgerstr.,s-bahn,KBS 104,19602007_unified,"52.52500000,13.39290000",Q480249,,,,,,,1960843.0
+Friedrichstr.,s-bahn,KBS 104,19602008_unified,"52.52027778,13.38694444",Q111219456,,,,,,,1960378.0
+Unter den Linden,s-bahn,KBS 104,19602009_unified,"52.51638889,13.38083333",Q477185,,,,,,,19601271.0
+Potsdamerplatz,s-bahn,KBS 104,19602010_unified,"52.50940000,13.37660000",Q106086519,,,,,,,1960905.0
+Anhalter Bahnhof,s-bahn,KBS 104,19602011_unified,"52.50305556,13.38194444",Q111324573,,,,,,,196056.0
+Großgörschenstr.,s-bahn,KBS 104,19602012_unified,"52.49227450,13.36785880",Q21776726,,,,,,,1960444.0
+Schöneberg,s-bahn,KBS 104,19602013_unified,"52.47940000,13.35170000",Q543855,,,,,,,19601078.0
+Friedenau,s-bahn,KBS 104,19602014_unified,"52.47000000,13.34100000",Q800471,,,,,,,1960365.0
+Feuerbachstr.,s-bahn,KBS 104,19602015_unified,"52.46361111,13.33277778",Q800501,,,,,,,1960348.0
+Steglitz,s-bahn,KBS 104,19602016_unified,"52.45620000,13.32160000",Q111264179,,,,,,,19601141.0
+Botanischer Garten,s-bahn,KBS 104,19602017_unified,"52.44806000,13.30722000",Q800498,,,,,,,1960218.0
+Lichterfelde West,s-bahn,KBS 104,19602018_unified,"52.44330000,13.29470000",Q111327103,,,,,,,1960721.0
+Sundgauerstr.,s-bahn,KBS 104,19602019_unified,"52.43629100,13.27377200",Q800513,,,,,,,19601167.0
+Zehlendorf,s-bahn,KBS 104,19602020_unified,"52.43090000,13.25840000",Q737962,,,,,,,19601385.0
+Lindenthalerallee,s-bahn,KBS 104,19602021_unified,"52.43750000,13.23250000",Q315891,,,,,,,1960730.0
+Schlachtensee,s-bahn,KBS 104,19602022_unified,"52.44010000,13.21530000",Q800509,,,,,,,19601054.0
+Nikolassee,s-bahn,KBS 104,19602023_unified,"52.43170000,13.19330000",Q637052,,,,,,,1960821.0
+Wannsee,s-bahn,KBS 104,19602024_unified,"52.42140000,13.17920000",Q111325896,,,,,,,19601301.0
+Zehlendorf,s-bahn,KBS 104a,19602025_unified,"52.43090000,13.25840000",Q737962,,,,,,,19601385.0
+Düppel-Kleinmachnow,s-bahn,KBS 104a,19602026_unified,"52.42138889,13.22666667",Q44763529,,,,,,,1960305.0
+Wannsee,s-bahn,KBS 104b,19602027_unified,"52.42140000,13.17920000",Q111325896,,,,,,,19601301.0
+Dreilinden,s-bahn,KBS 104b,19602028_unified,"52.40334211,13.17596363",Q96473908,,,,,,,1960302.0
+Stahnsdorf,s-bahn,KBS 104b,19602029_unified,"52.38972222,13.19000000",Q23787450,,,,,,,19601135.0
+Velten (Mark),s-bahn,KBS 105,19602030_unified,"52.68500000,13.17222200",Q19274518,,,,,,,19601275.0
+Hohenschöpping,s-bahn,KBS 105,19602031_unified,"52.67000000,13.19450000",Q19274489,,,,,,,1960531.0
+Hennigsdorf,s-bahn,KBS 105,19602032_unified,"52.63800000,13.20570000",Q800909,,,,,,,1960501.0
+Hennigsdorf (b Bln),s-bahn,KBS 105,19602033_unified,"52.63800000,13.20570000",Q800909,,,,,,,1960502.0
+Stolpe Süd,s-bahn,KBS 105,19602034_unified,"52.63018000,13.22333000",Q19274514,,,,,,,19601147.0
+Heiligensee,s-bahn,KBS 105,19602035_unified,"52.62470000,13.22920000",Q800475,,,,,,,1960494.0
+Schulzendorf (b Tegel),s-bahn,KBS 105,19602036_unified,"52.61280000,13.24620000",Q800487,,,,,,,19601071.0
+Tegel,s-bahn,KBS 105,19602037_unified,"52.58860000,13.28940000",Q800493,,,,,,,19601179.0
+Eichbornstr.,s-bahn,KBS 105,19602038_unified,"52.57760000,13.31690000",Q800500,,,,,,,1960310.0
+Wittenau (Kremmener Bahn),s-bahn,KBS 105,19602039_unified,"52.59701300,13.33432900",Q111264319,,,,,,,19601367.0
+Reinickendorf,s-bahn,KBS 105,19602040_unified,"52.57790000,13.35060000",Q800496,,,,,,,1960967.0
+Schönholz,s-bahn,KBS 105,19602041_unified,"52.57140000,13.38140000",Q800490,,,,,,,19601083.0
+Wollankstr.,s-bahn,KBS 105,19602042_unified,"52.56515250,13.39236270",Q800515,,,,,,,19601374.0
+Bornholmerstr.,s-bahn,KBS 105,19602043_unified,"52.55428700,13.39798500",Q32662318,,,,,,,1960213.0
+Gesundbrunnen,s-bahn,KBS 105,19602044_unified,"52.54861111,13.38944444",Q111239092,,,,,,,1960402.0
+Humboldthain,s-bahn,KBS 105,19602045_unified,"52.54510000,13.37960000",Q481276,,,,,,,1960549.0
+Nordbahnhof,s-bahn,KBS 105,19602046_unified,"52.53190000,13.38780000",Q673721,,,,,,,1960827.0
+Oranienburgerstr.,s-bahn,KBS 105,19602047_unified,"52.52500000,13.39290000",Q480249,,,,,,,1960843.0
+Friedrichstr.,s-bahn,KBS 105,19602048_unified,"52.52027778,13.38694444",Q111219456,,,,,,,1960378.0
+Unter den Linden,s-bahn,KBS 105,19602049_unified,"52.51638889,13.38083333",Q477185,,,,,,,19601271.0
+Potsdamerplatz,s-bahn,KBS 105,19602050_unified,"52.50940000,13.37660000",Q106086519,,,,,,,1960905.0
+Anhalter Bahnhof,s-bahn,KBS 105,19602051_unified,"52.50305556,13.38194444",Q111324573,,,,,,,196056.0
+Yorckstr.,s-bahn,KBS 105,19602052_unified,"52.49177778,13.37214167",Q21776729,,,,,,,19601379.0
+Papestr.,s-bahn,KBS 105,19602053_unified,"52.47560000,13.36440000",Q111323139,,,,,,,1960884.0
+Priesterweg,s-bahn,KBS 105,19602054_unified,"52.46010000,13.35630000",Q800508,,,,,,,1960922.0
+Mariendorf,s-bahn,KBS 105,19602055_unified,"52.44780000,13.36090000",Q800497,,,,,,,1960765.0
+Marienfelde,s-bahn,KBS 105,19602056_unified,"52.42420000,13.37470000",Q800485,,,,,,,1960772.0
+Buckower Ch.,s-bahn,KBS 105,19602057_unified,"52.41030000,13.38290000",Q800499,,,,,,,1960239.0
+Lichtenrade,s-bahn,KBS 105,19602058_unified,"52.38760000,13.39630000",Q6543354,,,,,,,1960714.0
+Mahlow,s-bahn,KBS 105,19602059_unified,"52.36020000,13.40850000",Q2641431,,,,,,,1960753.0
+Blankenfelde,s-bahn,KBS 105,19602060_unified,"52.33760000,13.41580000",Q111311372,,,,,,,1960203.0
+Dahlewitz,s-bahn,KBS 105,19602061_unified,"52.32638900,13.41972200",Q5208886,,,,,,,1960280.0
+Rangsdorf,s-bahn,KBS 105,19602062_unified,"52.29444400,13.43027800",Q801345,,,,,,,1960936.0
+Bernau (b Bln),s-bahn,KBS 106,19602063_unified,"52.67630000,13.59310000",Q479789,,,,,,,1960109.0
+Zepernick (Kr Niederbarnim),s-bahn,KBS 106,19602064_unified,"52.65980000,13.53420000",Q801657,,,,,,,19601388.0
+Röntgental,s-bahn,KBS 106,19602065_unified,"52.64870000,13.51360000",Q801386,,,,,,,19601000.0
+Buch,s-bahn,KBS 106,19602066_unified,"52.63590000,13.49170000",Q4892359,,,,,,,1960236.0
+Karow,s-bahn,KBS 106,19602067_unified,"52.61500000,13.46920000",Q111324168,,,,,,,1960600.0
+Blankenburg,s-bahn,KBS 106,19602068_unified,"52.59150000,13.44350000",Q800469,,,,,,,1960200.0
+Pankow-Heinersdorf,s-bahn,KBS 106,19602069_unified,"52.57806530,13.42950930",Q4892366,,,,,,,1960880.0
+Pankow,s-bahn,KBS 106,19602070_unified,"52.56670000,13.41110000",Q111273850,,,,,,,1960874.0
+Bornholmerstr.,s-bahn,KBS 106,19602071_unified,"52.55428700,13.39798500",Q32662318,,,,,,,1960213.0
+Gesundbrunnen,s-bahn,KBS 106,19602072_unified,"52.54861111,13.38944444",Q111239092,,,,,,,1960402.0
+Humboldthain,s-bahn,KBS 106,19602073_unified,"52.54510000,13.37960000",Q481276,,,,,,,1960549.0
+Nordbahnhof,s-bahn,KBS 106,19602074_unified,"52.53190000,13.38780000",Q673721,,,,,,,1960827.0
+Oranienburgerstr.,s-bahn,KBS 106,19602075_unified,"52.52500000,13.39290000",Q480249,,,,,,,1960843.0
+Friedrichstr.,s-bahn,KBS 106,19602076_unified,"52.52027778,13.38694444",Q111219456,,,,,,,1960378.0
+Unter den Linden,s-bahn,KBS 106,19602077_unified,"52.51638889,13.38083333",Q477185,,,,,,,19601271.0
+Potsdamerplatz,s-bahn,KBS 106,19602078_unified,"52.50940000,13.37660000",Q106086519,,,,,,,1960905.0
+Anhalter Bahnhof,s-bahn,KBS 106,19602079_unified,"52.50305556,13.38194444",Q111324573,,,,,,,196056.0
+Yorckstr.,s-bahn,KBS 106,19602080_unified,"52.49177778,13.37214167",Q21776729,,,,,,,19601379.0
+Papestr.,s-bahn,KBS 106,19602081_unified,"52.47560000,13.36440000",Q111323139,,,,,,,1960884.0
+Priesterweg,s-bahn,KBS 106,19602082_unified,"52.46010000,13.35630000",Q800508,,,,,,,1960922.0
+Südende,s-bahn,KBS 106,19602083_unified,"52.44810000,13.35360000",Q800511,,,,,,,19601171.0
+Lankwitz,s-bahn,KBS 106,19602084_unified,"52.43860000,13.34170000",Q800481,,,,,,,1960691.0
+Lichterfelde Ost,s-bahn,KBS 106,19602085_unified,"52.43000000,13.32890000",Q111311299,,,,,,,1960718.0
+Lichterfelde Süd,s-bahn,KBS 106,19602086_unified,"52.41000000,13.30860000",Q800482,,,,,,,1960719.0
+Teltow,s-bahn,KBS 106,19602087_unified,"52.38805600,13.29944400",Q7697868,,,,,,,19601183.0
+Franz-Körnerstr.,tram,27,1960106_unified,"52.45588400,13.43730161",,,,,,,,
+"Niederschönhausen, Idastr. Bzw. Nordend",tram,46E,1960194_unified,"52.58264562,13.41276432",,,,,,,,
+Bhf. Putlitzstr.,autobus,A16,1960806_unified,"52.53444794,13.34337848",,,,,,,,
+Einemstr.,autobus,A16,1960811_unified,"52.49984404,13.35411029",,,,,,,,
+"Kolonie ""land In Sonne""",autobus,A39,19601088_unified,"52.55462883,13.51187030",,,,,,,,
+"Heilstätten, Wittenau",autobus,A62,19601314_unified,"52.58153387,13.33385005",,,,,,,,
+Kurt-Schumacherdamm,autobus,A65,19601360_unified,"52.53691363,13.29370182",,,,,,,,
+Schlossbrücke,autobus,A65,19601363_unified,"52.52277865,13.30009342",,,,,,,,
+Proskauerstr. Ecke Dolzigerstr.,omnibus,O30,19601581_unified,"52.51987408,13.46328923",,,,,,,,

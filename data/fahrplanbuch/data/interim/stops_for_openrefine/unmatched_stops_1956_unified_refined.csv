@@ -1,0 +1,8 @@
+stop_name,type,line_name,stop_id,location,identifier,latitude,longitude,match_score,matched_name,matched_stop_id,matched_historical_lines,location_from
+Hohenzollernring Ecke Streitstr.,tram,75,1956530_unified,"52.55569292602298, 13.20744492422738",,,,,,,,
+"Bahnhofstr., Bhf. Wannsee",autobus,A18,1956928_unified,"52.42169058071068, 13.17890239355643",,,,,,,,
+Zepernick (Kr. Niederbarnim),s-bahn,KBS 106,19561644_unified,"52.6598,13.5342",Q801657,,,,,,,
+"BVG-Bf. Lichtenberg, Siegfriedstr.",omnibus,O30,19561677_unified,"52.5206411,13.4994454",Q66014798,,,,,,,
+Siegfriedstr.,omnibus,O41,19561703_unified,"52.53435088055727, 13.499697796899122",,,,,,,,
+Oderbruchstr.,omnibus,O41,19561705_unified,"52.52965617389457, 13.461022889581898",,,,,,,,
+Dimitroffstr.,omnibus,O41,19561706_unified,"52.52644944679887, 13.447574773361476",,,,,,,,

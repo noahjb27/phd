@@ -1,0 +1,11 @@
+stop_name,type,line_name,stop_id,location,identifier,latitude,longitude,match_score,matched_name,matched_stop_id,matched_historical_lines,location_from
+Invalidenstr. Ecke Chausseestr.,tram,1,19518_unified,"52.53058679882093, 13.38309848189674",,,,,,,,
+Bersarinstr. Station,tram,13,195181_unified,"52.51581114083106, 13.45391663572392",,,,,,,,
+Gradestr. Ecke Chausseestr.,tram,27,1951162_unified,"52.45266074657511, 13.438676098231857",,,,,,,,
+Pacelliallee Ecke Königin-Luisestr.,tram,40,1951207_unified,"52.458241504510376, 13.287119612652985",,,,,,,,
+Kurfürstendamm V. Marmorhaus,tram,55,1951309_unified,"52.50442108387008, 13.334082651570826",,,,,,,,
+Invalidenstr. Ecke Chausseestr.,tram,70,1951375_unified,"52.53058679882093, 13.38309848189674",,,,,,,,
+"Potsdamerplatz, Link-Strasse",tram,74,1951423_unified,"52.50857621565561, 13.377066568372287",,,,,,,,
+Müggelheim (an der Großen Krampe),autobus,A27,1951763_unified,"52.410435329490035, 13.665397117470532",,,,,,,,
+Hennigsdorf (Kr. Oberhavel),s-bahn,KBS 105,19511164_unified,"52.638,13.2057",Q800909,,,,,,,
+Zepernick (Kr. Niederbarnim),s-bahn,KBS 106,19511200_unified,"52.6598,13.5342",Q801657,,,,,,,

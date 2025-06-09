@@ -1,0 +1,73 @@
+line_id,year,line_name,type,start_stop,length (time),length (km),east_west,frequency (7:30)
+19461,1946,D,omnibus,"U-Bhf. Friedrichsfelde<> Dahlwitz, Kol. Waldesruh",0.0,,unified,12.0
+19462,1946,Wannsee-Pichelsberg,ferry,"Pichelsberg, Stössenseebrücke<> Wannsee",0.0,,unified,120.0
+19463,1946,1,omnibus,Flughafen<> Alt-Friedrichsfelde,0.0,,unified,25.0
+19464,1946,8,omnibus,"Waldstr. Ecke Thälmannstr.<> Seestr., Friedhöfe",0.0,,unified,10.0
+19465,1946,17,omnibus,"Zehlendorf, Rathaus<> Stölpchensee",0.0,,unified,30.0
+19466,1946,5,omnibus,"Steglitz, Rathaus<> Zehlendorf, Rathaus",0.0,,unified,60.0
+19467,1946,9,omnibus,"Alexanderplatz<> Charlottenburg, Knie",0.0,,unified,10.0
+19468,1946,H,omnibus,U-Bhf. Lichtenberg<> Hönow,0.0,,unified,15.0
+19469,1946,27,omnibus,"Müggelheim<> Köpenick, Krankenhaus",0.0,,unified,20.0
+194610,1946,KBS 100,s-bahn,Gesundbrunnen<> Gesundbrunnen,0.0,,unified,10.0
+194611,1946,KBS 100a,s-bahn,Hermannstr.<> Grünau,0.0,,unified,30.0
+194612,1946,KBS 100b,s-bahn,Jungfernheide<> Gartenfeld,0.0,,unified,30.0
+194613,1946,KBS 100c,s-bahn,Spandau<> Grünau,0.0,,unified,30.0
+194614,1946,KBS 100d,s-bahn,Schöneweide<> Spindlersfeld,0.0,,unified,30.0
+194615,1946,KBS 103,s-bahn,Bernau<> Stettiner Bahnhof,0.0,,unified,30.0
+194616,1946,KBS 103,s-bahn,Potsdamerplatz<> Lichterfelde Süd,0.0,,unified,30.0
+194617,1946,KBS 104,s-bahn,Oranienburg<> Stettiner Bahnhof,0.0,,unified,30.0
+194618,1946,KBS 104a,s-bahn,Friedrichstr.<> Dreilinden,0.0,,unified,30.0
+194619,1946,KBS 105,s-bahn,Velten<> Stettiner Bahnhof,0.0,,unified,30.0
+194620,1946,KBS 105a,s-bahn,Potsdamerplatz<> Rangsdorf,0.0,,unified,40.0
+194621,1946,KBS 101,s-bahn,Potsdam<> Kaulsdorf,0.0,,unified,15.0
+194622,1946,1,tram,Hackescher Markt<> Anhalter Bahnhof,0.0,,unified,10.0
+194623,1946,21,tram,Wiebestr.<> Anhalter Bhf.,0.0,,unified,6.0
+194624,1946,23,tram,Rosenthal<> Fennstr.,0.0,,unified,10.0
+194625,1946,4,tram,Warschauerbrücke<> Strelitzerstr.,0.0,,unified,7.0
+194626,1946,6,tram,"Schönberg, Wartburgplatz<> Treptow, Elsenstr.",0.0,,unified,12.0
+194627,1946,8,tram,"Seestr., Friedhöfe<> Gürtelstr. Ecke Frankfurterallee",0.0,,unified,15.0
+194628,1946,13,tram,Türschmidtstr. Ecke Karlshorsterstr.<> Kraftwerk Klingenberg,0.0,,unified,15.0
+194629,1946,3,tram,Gotzkowskystr.<> Gardepionierplatz,0.0,,unified,10.0
+194630,1946,24,tram,Buchholz<> Ramlerstr.,0.0,,unified,15.0
+194631,1946,25,tram,"Tegel, Alt-Tegel<> Togostr.",0.0,,unified,15.0
+194632,1946,27,tram,"Buckow<> Neukölln, Steinmetzstr.",0.0,,unified,10.0
+194633,1946,28,tram,Tegelort<> Ramlerstr.,0.0,,unified,30.0
+194634,1946,128,tram,Heiligensee<> Ramlerstr.,0.0,,unified,30.0
+194635,1946,41,tram,"Tegel, Alt-Tegel<> Ramlerstr.",0.0,,unified,15.0
+194636,1946,141,tram,"Wilhelmsruh, Hauptstr.<> Ramlerstr.",0.0,,unified,15.0
+194637,1946,47,tram,Nordend<> U-Bahnhof Danzigerstr.,0.0,,unified,10.0
+194638,1946,147,tram,"Britz, Rudowerstr.<> Schönefeld",0.0,,unified,15.0
+194639,1946,49,tram,Buchholz<> U-Bahnhof Danzigerstr.,0.0,,unified,15.0
+194640,1946,54,tram,"Spandau, Johannesstrift<> Richard-Wagner-Platz",0.0,,unified,15.0
+194641,1946,55,tram,Spandau markt<> Gotzkowskystr.,0.0,,unified,6.0
+194642,1946,60,tram,"Weißensee, Rennbahnstr.<> Rathaus",0.0,,unified,5.0
+194643,1946,62,tram,"Charlottenburg, Königin-Elisabehtstr.<> Wilmersdorf, Emserplatz",0.0,,unified,15.0
+194644,1946,64,tram,"Hohenschönhausen, Degenerstr.<> Rathaus",0.0,,unified,10.0
+194645,1946,65,tram,"Lichtenberg, Scheffelstr.<> Rathaus",0.0,,unified,10.0
+194646,1946,68,tram,"Wittenau, Nordbahnhof<> Togostr.",0.0,,unified,7.5
+194647,1946,69,tram,"Landsbergerallee Ecke Elbingerstr.<> Oberschöneweide, Edisonstrass Ecke Wilhelminenhofstr.",0.0,,unified,7.5
+194648,1946,72,tram,"Weißensee, Rennbahnstr.<> Rathaus",0.0,,unified,7.0
+194649,1946,73,tram,Heinersdorf<> Rathaus,0.0,,unified,15.0
+194650,1946,74,tram,"Lichterfelde, Händelplatz<> Spittelmarkt",0.0,,unified,5.0
+194651,1946,75,tram,Hakenfelde<> Alt-Pichelsdorf,0.0,,unified,5.0
+194652,1946,75,tram,"Freybrücke<> Grunewald, Hubertusallee",0.0,,unified,15.0
+194653,1946,76,tram,Joachimstalerstr.<> Roseneck,0.0,,unified,15.0
+194654,1946,77,tram,"Lichterfelde-Süde, Goerzallee Ecke Appenzellerstr.<> Kantstr.",0.0,,unified,10.0
+194655,1946,82,tram,Molkenmarkt<> Markgrafendamm,0.0,,unified,15.0
+194656,1946,83,tram,"Köpenick, Marienhain über Wendenschloßstr.<> Bhf. Mahlsdorf",0.0,,unified,20.0
+194657,1946,86,tram,Bhf. Grünau<> Schmöckwitz,0.0,,unified,20.0
+194658,1946,87_b,tram,"Oberschöneweide, Nalepastr. Ecke Karlshorsterstr.<> Rahnsdorf",0.0,,unified,30.0
+194659,1946,87_a,tram,Dönhoffplatz<> Bhf. Baumschulenweg,0.0,,unified,10.0
+194660,1946,91,tram,"Treptow, Rathaus<> Johannisthal",0.0,,unified,15.0
+194661,1946,95_b,tram,"Oberschöneweide, Nalepastr. Ecke Karlshorsterstr.<> Köpenick, Krankenhaus",0.0,,unified,15.0
+194662,1946,95_a,tram,Hermannplatz<> Bhf. Schöneweide,0.0,,unified,7.0
+194663,1946,96,tram,Machnower Schleuse<> Attilaplatz,0.0,,unified,15.0
+194664,1946,99,tram,Baerwaldstr. Ecke Gneisenaustr.<> Bhf. Lichtenrade,0.0,,unified,5.0
+194665,1946,199,tram,Nordend<> Ramlerstr.,0.0,,unified,10.0
+194666,1946,A,u-bahn,"Pankow, Vinetastr.<> Wittenbergplatz",0.0,,unified,7.5
+194667,1946,B,u-bahn,Hallesches Tor<> Warschauerbrücke,0.0,,unified,12.0
+194668,1946,B1,u-bahn,Innsbruckerplatz<> Nollendorfplatz,0.0,,unified,10.0
+194669,1946,B2,u-bahn,Wittenbergplatz<> Uhlandstr.,0.0,,unified,10.0
+194670,1946,C,u-bahn,Seestr.<> Grenzallee,0.0,,unified,6.0
+194671,1946,D,u-bahn,Gesundbrunnen<> Leinestr.,0.0,,unified,6.0
+194672,1946,E,u-bahn,Alexanderplatz<> Friedrichsfelde,0.0,,unified,10.0

@@ -1,0 +1,10 @@
+stop_name,type,line_name,stop_id,location,identifier,latitude,longitude,match_score,matched_name,matched_stop_id,matched_historical_lines,location_from
+Franz-Körnerstr.,tram,27,1960106_unified,"52.45588399633974, 13.437301610724912",,,,,,,,
+"Niederschönhausen, Idastr. Bzw. Nordend",tram,46E,1960194_unified,"52.5826456245908, 13.412764320279857",,,,,,,,
+Bhf. Putlitzstr.,autobus,A16,1960806_unified,"52.53444793545329, 13.343378477824439",,,,,,,,
+Einemstr.,autobus,A16,1960811_unified,"52.499844039844604, 13.354110288647837",,,,,,,,
+"Kolonie ""land In Sonne""",autobus,A39,19601088_unified,"52.55462883361286, 13.511870302373488",,,,,,,,
+"Heilstätten, Wittenau",autobus,A62,19601314_unified,"52.58153387498222, 13.333850049151073",,,,,,,,
+Kurt-Schumacherdamm,autobus,A65,19601360_unified,"52.53691363313431, 13.29370181789795",,,,,,,,
+Schlossbrücke,autobus,A65,19601363_unified,"52.52277864874118, 13.300093422040403",,,,,,,,
+Proskauerstr. Ecke Dolzigerstr.,omnibus,O30,19601581_unified,"52.519874079766325, 13.463289228834057",,,,,,,,

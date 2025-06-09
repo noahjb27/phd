@@ -1,0 +1,93 @@
+line_id,year,line_name,type,start_stop,length (time),length (km),east_west,frequency (7:30),profile,capacity
+19611_west,1961,2,tram,Bernauerstr. Ecke Wollinerstr.<> Gotenstr.,60,,west,15.0,,195
+19612_west,1961,3,tram,Grüntalerstr. Ecke Osloerstr.<> Elsenstr. Ecke Heidelbergerstr.,87,,west,10.0,,195
+19613_west,1961,15,tram,Daimlerstr.<> Schulenburgpark,36,,west,15.0,,195
+19614_west,1961,26,tram,Spreewaldplatz<> Industriestr.,30,,west,15.0,,195
+19615_west,1961,27,tram,Spreewaldplatz<> Alt-Buckow Ecke Buckowerdamm,30,,west,15.0,,195
+19616_west,1961,47,tram,Hermannplatz<> Bahnhofstr.,34,,west,10.0,,195
+19617_west,1961,53,tram,Richard-Wagner-Platz<> Hakenfelde,42,,west,20.0,,195
+19618_west,1961,54,tram,Richard-Wagner-Platz<> Johannesstift,43,,west,20.0,,195
+19619_west,1961,55,tram,Nollendorfplatz<> Nauenerstr.,54,,west,12.0,,195
+196110_west,1961,60,tram,Königin-Elisabethstr.<> Eythstr.,49,,west,15.0,,195
+196111_west,1961,66,tram,Belzigerstr.<> Bergstr.,12,,west,10.0,,195
+196112_west,1961,73,tram,Bhf. Lichterfelde-Ost<> Potsdamerplatz,42,,west,20.0,,195
+196113_west,1961,74,tram,Finckensteinallee<> Potsdamerplatz,39,,west,20.0,,195
+196114_west,1961,75,tram,"Bhf. Zoo, Kantstr.<> Hakenfelde",59,,west,20.0,,195
+196115_west,1961,76,tram,"Bhf. Zoo, Kantstr.<> Johannesstift",60,,west,20.0,,195
+196116_west,1961,77,tram,Bhf. Zoo<> Goerzallee,49,,west,20.0,,195
+196117_west,1961,78,tram,Bhf. Zoo<> Lichterfelde-West Lindenstr.,48,,west,20.0,,195
+196118_west,1961,95,tram,Mehringplatz<> Schwarzerweg Ecke Sonnenallee,26,,west,15.0,,195
+196119_west,1961,96,tram,Lindenstr.<> Schwelmerstr. Ecke Ostpreußendamm,45,,west,15.0,,195
+196120_west,1961,A1,autobus,Waldstr. Ecke Turmstr.<> Wismarerstr.,58,,west,15.0,,0
+196121_west,1961,A2,autobus,"Ernst-Reuter-Platz, Straße Des 17. Juni<> Trippsteinstr.",40,,west,15.0,,0
+196122_west,1961,A3,autobus,"Rathaus Zehlendorf<> Stölpchensee, Wilhelmplatz",39,,west,10.0,,0
+196123_west,1961,A10,autobus,"Haselhorst, Kirche<> Lupsteinerweg",62,,west,10.0,,0
+196124_west,1961,A11,autobus,Saargemünderstr.<> Trippsteinstr.,30,,west,7.0,,0
+196125_west,1961,A12,autobus,Gartenstr. Ecke Bernauerstr.<> Hainbuchenstr.,54,,west,20.0,,0
+196126_west,1961,A13,autobus,Alt-Heiligensee<> Weinmeisterhornweg,59,,west,15.0,,0
+196127_west,1961,A14,autobus,Alt-Heiligensee<> Rügenerstr.,53,,west,15.0,,0
+196128_west,1961,A15,autobus,Lübarserstr.<> Bhf. Frohnau,41,,west,15.0,,0
+196129_west,1961,A16,autobus,Louise-Schroeder-Platz<> Englerallee,44,,west,10.0,,0
+196130_west,1961,A17,autobus,Bhf. Grunewald<> Saaleckplatz,46,,west,10.0,,0
+196131_west,1961,A18,autobus,Saargemünderstr.<> Kohlhasenbrück,32,,west,20.0,,0
+196132_west,1961,A19,autobus,Roseneck<> Flughafen,40,,west,10.0,,0
+196133_west,1961,A20,autobus,"Tegelort<> Lübars, Dorfaue",36,,west,15.0,,0
+196134_west,1961,A21,autobus,Wentowsteig<> U-Bhf. Fehrbellinerplatz,49,,west,15.0,,0
+196135_west,1961,A24,autobus,Wiebestr.<> Flughafen,43,,west,5.0,,0
+196136_west,1961,A25,autobus,Unionplatz<> Gutschmidtstr.,63,,west,10.0,,0
+196137_west,1961,A28,autobus,Loewenhardtdamm<> Heckmannufer,29,,west,7.0,,0
+196138_west,1961,A29,autobus,Roseneck<> Askanischerplatz,32,,west,10.0,,0
+196139_west,1961,A31,autobus,Machandelweg<> Heidebergplan,27,,west,12.0,,0
+196140_west,1961,A32,autobus,Breitenbachplatz<> Bhf. Marienfelde,28,,west,5.0,,0
+196141_west,1961,A33,autobus,Bhf. Steglitz<> Kaiserstr.,15,,west,10.0,,0
+196142_west,1961,A34,autobus,"Spandau, Friedhof<> Gutshof",45,,west,30.0,,0
+196143_west,1961,A35,autobus,Germersheimerplatz<> Hottengrund,38,,west,30.0,,0
+196144_west,1961,A4,autobus,Brixplatz<> Harzerstr.,56,,west,10.0,,0
+196145_west,1961,A48,autobus,Potsdamerstr. Ecke Fischerhüttenstr.<> Margaretenstr.,38,,west,10.0,,0
+196146_west,1961,A5,autobus,Machandelweg<> Waldkrankenhaus,24,,west,10.0,,0
+196147_west,1961,A50,autobus,Roseneck<> Pragerplatz,15,,west,10.0,,0
+196148_west,1961,A51,autobus,Bhf. Wannsee<> Krankenhaus Heckeshorn,10,,west,30.0,,0
+196149_west,1961,A52,autobus,Alt-Marienfelde<> Mimosenweg,37,,west,30.0,,0
+196150_west,1961,A53,autobus,Schlachtensee<> Thunerplatz,26,,west,20.0,,0
+196151_west,1961,A6,autobus,Bhf. Wannsee<> Glienicker Brücke,13,,west,60.0,,0
+196152_west,1961,A60,autobus,"Roseneck, Hundekehl<> Wittenbergplatz",25,,west,10.0,,0
+196153_west,1961,A61,autobus,"Zobeltitzstr.<> Gartenplatz, Feldstr.",32,,west,10.0,,0
+196154_west,1961,A62,autobus,Wittenau<> Wittenbergplatz,38,,west,10.0,,0
+196155_west,1961,A63,autobus,Radelandstr.<> Seegefelderweg,30,,west,30.0,,0
+196156_west,1961,A64,autobus,Bernauerstr. Ecke Wollinerstr.<> Nachtigalplatz,22,,west,10.0,,0
+196157_west,1961,A65,autobus,Goebelplatz<> Bhf. Sonnenallee,56,,west,10.0,,0
+196158_west,1961,A66,autobus,"Doppel-Süd, Berlepschstr.<> U-Bhf. Onkel-Toms-Hütte",13,,west,20.0,,0
+196159_west,1961,A67,autobus,"Jerusalems-Kirche, Lindenstr.<> U-Bhf. Grenzallee",25,,west,10.0,,0
+196160_west,1961,A68,autobus,Clayallee Ecke Königin-Luisestr.<> Bhf. Tempelhof,36,,west,15.0,,0
+196161_west,1961,A69,autobus,Eichkamp<> Kongreßhalle,29,,west,20.0,,0
+196162_west,1961,A70,autobus,"Bhf. Wollankstr.<> Wiebestr., Strassenbahnhof",28,,west,10.0,,0
+196163_west,1961,A71,autobus,Bhf. Wilhelmsruh<> Bernauerstr. Ecke Wollinerstr.,22,,west,15.0,,0
+196164_west,1961,A72,autobus,"Alt-Reinickendorf Ecke Rödernallee<> Nonnendammallee, Siemensstadt",41,,west,15.0,,0
+196165_west,1961,A73,autobus,Bhf. Zoo<> Buschkrug Alle Ecke Blaschko-Allee,36,,west,12.0,,0
+196166_west,1961,A74,autobus,Königin-Elisabethstr.<> Eythstr.,40,,west,15.0,,0
+196167_west,1961,A75,autobus,Munsterdamm Ecke Steglitzerdamm<> Wiener Brücke,42,,west,10.0,,0
+196168_west,1961,A76,autobus,Blohmstr. Ecke Wünsdorferstr.<> Platz der Luftbrücke,36,,west,10.0,,0
+196169_west,1961,A77,autobus,Daimlerstr.<> Platz der Luftbrücke,25,,west,10.0,,0
+196170_west,1961,AS1,autobus,Bhf. Zoo<> Hohenzollernring,28,,west,15.0,,0
+196171_west,1961,AS2,autobus,"Bhf. Zoo<> Lichtenrade, Blohmstr. Ecke Wünsdorferstr.",40,,west,20.0,,0
+196172_west,1961,AS3,autobus,Bhf. Zoo<> Rathaus Zehlendorf,24,,west,15.0,,0
+196173_west,1961,A I,u-bahn,Gleisdreieck<> Reichskanzlerplatz,18,,west,10.0,Kleinprofil,750
+196174_west,1961,A II,u-bahn,Kottbusser Tor<> Krumme Lanke,36,,west,10.0,Kleinprofil,750
+196175_west,1961,A III,u-bahn,Deutsche Oper (Bismarckstr.)<> Richard-Wagner-Platz,1,,west,10.0,Kleinprofil,750
+196176_west,1961,B I,u-bahn,Schlesisches Tor<> Ruhleben,35,,west,10.0,Kleinprofil,750
+196177_west,1961,B II,u-bahn,Schlesisches Tor<> Krumme Lanke,40,,west,10.0,Kleinprofil,750
+196178_west,1961,B III,u-bahn,Nollendorfplatz<> Innsbruckerplatz (Hauptstr.),6,,west,5.0,Kleinprofil,750
+196179_west,1961,C I,u-bahn,Tegel<> Grenzallee,40,,west,5.0,Großprofil,1000
+196180_west,1961,C II,u-bahn,Mehringdamm<> Tempelhof (Südring),5,,west,5.0,Großprofil,1000
+196181_west,1961,D,u-bahn,Gesundbrunnen<> Leinestr.,19,,west,10.0,Großprofil,1000
+196182_west,1961,KBS 100,s-bahn,Gesundbrunnen<> Sonnenallee,0,,west,0.0,,1100
+196183_west,1961,KBS 100a,s-bahn,Wilmersdorf<> Grünau,0,,west,0.0,,1100
+196184_west,1961,KBS 100c,s-bahn,Gartenfeld<> Jungfernheide,0,,west,0.0,,1100
+196185_west,1961,KBS 101,s-bahn,Spandau West<> Friedrichstr.,0,,west,0.0,,1100
+196186_west,1961,KBS 102,s-bahn,Wannsee<> Friedrichstr.,0,,west,0.0,,1100
+196187_west,1961,KBS 103a,s-bahn,Spandau West<> Jungfernheide,0,,west,0.0,,1100
+196188_west,1961,KBS 104a,s-bahn,Zehlendorf<> Düppel-Kleinmachnow,0,,west,0.0,,1100
+196189_west,1961,KBS 104,s-bahn,Gesundbrunnen<> Wannsee,0,,west,0.0,,1100
+196190_west,1961,KBS 105,s-bahn,Heiligensee<> Lichtenrade,0,,west,0.0,,1100
+196191_west,1961,KBS 106,s-bahn,Frohnau<> Lichterfelde Süd,0,,west,0.0,,1100
+196192_west,1961,Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt),ferry,Kladow<> Wannsee,20,,west,60.0,,0

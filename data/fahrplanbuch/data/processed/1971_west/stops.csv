@@ -1,0 +1,1075 @@
+stop_name,type,line_name,stop_id,location,identifier,latitude,longitude,match_score,matched_name,matched_stop_id,matched_historical_lines,location_from,neighbourhood,district,east_west,postal_code
+"Moabit, Waldstr. Ecke Turmstr.",autobus,A1,19710_west,"52.52718533,13.33055251",,,,,,,,1971697.0,Moabit,Mitte,west,10551
+Otto-Suhr-Allee Ecke Cauerstr.,autobus,A1,19711_west,"52.51468031,13.31523344",,,,,,,,1971770.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10585
+Kurfürstendamm Ecke Leibnizstr.,autobus,A1,19712_west,"52.50062732,13.31305032",,,,,,,,1971574.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10707
+Fehrbellinerplatz,autobus,A1,19713_west,"52.49040639,13.31420422",,,,,,,,1971270.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10707
+Detmolderstr. Ecke Blissestr.,autobus,A1,19714_west,"52.47876003,13.32030364",,,,,,,,1971213.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10713
+Breitenbachplatz,autobus,A1,19715_west,"52.46721972,13.30947349",,,,,,,,1971154.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Botanischer Garten,autobus,A1,19716_west,"52.45859880,13.30343606",,,,,,,,1971151.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Pacelli/Thielallee,autobus,A1,19717_west,"52.45821788,13.28711214",,,,,,,,1971771.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Clayallee Ecke Königin-Luisestr.,autobus,A1,19718_west,"52.46044681,13.27489827",,,,,,,,1971199.0,Dahlem,Steglitz-Zehlendorf,west,14195
+U-Bhf. Oskar-Helene-Heim,autobus,A1,19719_west,"52.45027901,13.27036199",,,,,,,,19711139.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Potsdamerstr. Ecke Clayallee,autobus,A1,197110_west,"52.43504800,13.26042558",,,,,,,,1971812.0,Zehlendorf,Steglitz-Zehlendorf,west,14169
+Rathaus Zehlendorf,autobus,A1,197111_west,"52.43320752,13.25953192",,,,,,,,1971856.0,Zehlendorf,Steglitz-Zehlendorf,west,14169
+Beeskowdamm Ecke Teltowerdamm,autobus,A1,197112_west,"52.40897630,13.26737852",,,,,,,,197183.0,Zehlendorf,Steglitz-Zehlendorf,west,14167
+Wismarerstr. Ecke Goerzallee,autobus,A1,197113_west,"52.42194411,13.29850123",,,,,,,,19711251.0,Lichterfelde,Steglitz-Zehlendorf,west,12207
+Lindenstr. Ecke Müllerstr.,autobus,A1,197114_west,"52.41754714,13.30666072",,,,,,,,1971638.0,Lichterfelde,Steglitz-Zehlendorf,west,12207
+Haselhorsterdamm Ecke Gartenfelderstr.,autobus,A10,197115_west,"52.54294024,13.23988194",,,,,,,,1971392.0,Haselhorst,Spandau,west,13599
+Paulsternstr. Ecke Nonnendammallee,autobus,A10,197116_west,"52.53818291,13.24773288",,,,,,,,1971790.0,Haselhorst,Spandau,west,13599
+Verwaltungs-Gebäude,autobus,A10,197117_west,"52.53706333,13.26228517",,,,,,,,19711174.0,Siemensstadt,Spandau,west,13629
+Spandauerdamm Ecke Fürstenbrunnerweg,autobus,A10,197118_west,"52.51841553,13.28016690",,,,,,,,19711033.0,Westend,Charlottenburg-Wilmersdorf,west,14050
+Kaiserdamm Ecke Königin-Elisabethstr.,autobus,A10,197119_west,"52.51000557,13.28176907",,,,,,,,1971511.0,Westend,Charlottenburg-Wilmersdorf,west,14057
+Amtsgericht,autobus,A10,197120_west,"52.50682618,13.29739145",,,,,,,,197157.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10627
+Kurfürstendamm Ecke Joachim-Friedrichstr.,autobus,A10,197121_west,"52.49800512,13.29619975",,,,,,,,1971573.0,Halensee,Charlottenburg-Wilmersdorf,west,10711
+Henriettenplatz,autobus,A10,197122_west,"52.49701780,13.29033951",,,,,,,,1971427.0,Halensee,Charlottenburg-Wilmersdorf,west,10711
+Elsterplatz,autobus,A10,197123_west,"52.47977983,13.28550761",,,,,,,,1971249.0,Schmargendorf,Charlottenburg-Wilmersdorf,west,14199
+Königin-Luisestr. Ecke Pacelliallee,autobus,A10,197124_west,"52.45831131,13.28712680",,,,,,,,1971585.0,Dahlem,Steglitz-Zehlendorf,west,14195
+U-Bhf. Thielplatz,autobus,A10,197125_west,"52.45104521,13.28173642",,,,,,,,19711151.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Berlinerstr. Ecke Unter den Eichen,autobus,A10,197126_west,"52.44190336,13.28274515",,,,,,,,197194.0,Zehlendorf,Steglitz-Zehlendorf,west,14169
+Teltowerdamm Ecke Potsdamerstr.,autobus,A10,197127_west,"52.43505952,13.26038410",,,,,,,,19711080.0,Zehlendorf,Steglitz-Zehlendorf,west,14169
+Behring-Krankenhaus,autobus,A10,197128_west,"52.42410895,13.25176454",,,,,,,,197184.0,Zehlendorf,Steglitz-Zehlendorf,west,14165
+Lupsteinerweg,autobus,A10,197129_west,"52.40950895,13.25164774",,,,,,,,1971650.0,Zehlendorf,Steglitz-Zehlendorf,west,14165
+"Dahlem, Waldfriedhof",autobus,A11,197130_west,"52.45502545,13.26600200",,,,,,,,1971205.0,Dahlem,Steglitz-Zehlendorf,west,14195
+U-Bhf. Oskar-Helene-Heim,autobus,A11,197131_west,"52.45027901,13.27036199",,,,,,,,19711139.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Saargemünderstr. Ecke Kehlerweg,autobus,A11,197132_west,"52.45038486,13.27876447",,,,,,,,1971955.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Corrensplatz,autobus,A11,197133_west,"52.44601401,13.28426468",,,,,,,,1971202.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Unter den Eichen Ecke Habelschwerdterallee,autobus,A11,197134_west,"52.44571624,13.29368933",,,,,,,,19711164.0,Lichterfelde,Steglitz-Zehlendorf,west,12205
+Ringstr. Ecke Drakestr.,autobus,A11,197135_west,"52.43979421,13.30020166",,,,,,,,1971879.0,Lichterfelde,Steglitz-Zehlendorf,west,12205
+Wiesenbaude,autobus,A11,197136_west,"52.43049524,13.31180861",,,,,,,,19711227.0,Lichterfelde,Steglitz-Zehlendorf,west,12207
+Marienstr. Ecke Königsbergerstr.,autobus,A11,197137_west,"52.42958863,13.32131980",,,,,,,,1971679.0,Lichterfelde,Steglitz-Zehlendorf,west,12207
+Kranoldplatz,autobus,A11,197138_west,"52.42777476,13.32647358",,,,,,,,1971565.0,Lichterfelde,Steglitz-Zehlendorf,west,12209
+Geraerstr. Ecke Mariannenstr.,autobus,A11,197139_west,"52.42100711,13.33493677",,,,,,,,1971323.0,Lichterfelde,Steglitz-Zehlendorf,west,12209
+Sondershausenerstr. Ecke Hildburghauserstr.,autobus,A11,197140_west,"52.41593913,13.34172682",,,,,,,,19711021.0,Lichterfelde,Steglitz-Zehlendorf,west,12249
+Alt-Marienfelde Ecke Marienfelderallee,autobus,A11,197141_west,"52.41360215,13.36329882",,,,,,,,197130.0,Marienfelde,Tempelhof-Schöneberg,west,12279
+Daimlerstr. Ecke Großbeerenstr.,autobus,A11,197142_west,"52.42629030,13.37438847",,,,,,,,1971208.0,Marienfelde,Tempelhof-Schöneberg,west,12277
+Körtingstr. Ecke Großbeerenstr.,autobus,A11,197143_west,"52.43481353,13.37831564",,,,,,,,1971596.0,Mariendorf,Tempelhof-Schöneberg,west,12107
+U-Bhf. Alt-Mariendorf,autobus,A11,197144_west,"52.44020263,13.38729700",,,,,,,,19711110.0,Mariendorf,Tempelhof-Schöneberg,west,12107
+Bernauerstr. Ecke Gartenstr.,autobus,A12,197145_west,"52.53343780,13.38750472",,,,,,,,197199.0,Gesundbrunnen,Mitte,west,13355
+Gartenplatz,autobus,A12,197146_west,"52.53887149,13.38341133",,,,,,,,1971312.0,Gesundbrunnen,Mitte,west,13355
+U-Bhf. Leopold-Platz,autobus,A12,197147_west,"52.54640033,13.35909680",,,,,,,,19711130.0,Wedding,Mitte,west,13353
+U-Bhf. Seestr.,autobus,A12,197148_west,"52.55031541,13.35229850",,,,,,,,19711147.0,Wedding,Mitte,west,13347
+Bristolstr. Ecke Barfusstr.,autobus,A12,197149_west,"52.55830889,13.35117448",,,,,,,,1971158.0,Wedding,Mitte,west,13349
+Emmentalerstr. Ecke Aroserallee,autobus,A12,197150_west,"52.56751501,13.35118144",,,,,,,,1971252.0,Reinickendorf,Reinickendorf,west,13407
+Lindauerallee Ecke Aroserallee,autobus,A12,197151_west,"52.57375629,13.35204857",,,,,,,,1971632.0,Reinickendorf,Reinickendorf,west,13407
+Tessenowstr. Ecke Roedernallee,autobus,A12,197152_west,"52.58312468,13.34369398",,,,,,,,19711089.0,Wittenau,Reinickendorf,west,13437
+Rathaus Reinickendorf,autobus,A12,197153_west,"52.59165784,13.32633528",,,,,,,,1971849.0,Wittenau,Reinickendorf,west,13437
+Zabel-Krüger-Damm Ecke Oraniendamm,autobus,A12,197154_west,"52.60785227,13.32381409",,,,,,,,19711273.0,Waidmannslust,Reinickendorf,west,13469
+Almutstr. Ecke Berlinerstr.,autobus,A12,197155_west,"52.61484859,13.31709016",,,,,,,,197117.0,Hermsdorf,Reinickendorf,west,13467
+Hermsdorferdamm Ecke Burgfrauenstr.,autobus,A12,197156_west,"52.62760370,13.31135797",,,,,,,,1971435.0,Hermsdorf,Reinickendorf,west,13467
+Zeltingerplatz,autobus,A12,197157_west,"52.63350167,13.29044705",,,,,,,,19711275.0,Frohnau,Reinickendorf,west,13465
+Donnersmarckplatz,autobus,A12,197158_west,"52.62982465,13.28047497",,,,,,,,1971227.0,Frohnau,Reinickendorf,west,13465
+Hainbuchenstr. Ecke Maximilian-Korso,autobus,A12,197159_west,"52.63435450,13.27493056",,,,,,,,1971381.0,Frohnau,Reinickendorf,west,13465
+Heiligensee,autobus,A13,197160_west,"52.60630641,13.21031667",,,,,,,,1971414.0,Heiligensee,Reinickendorf,west,13503
+Gabelung,autobus,A13,197161_west,"52.59988613,13.25204129",,,,,,,,1971308.0,Tegel,Reinickendorf,west,13505
+Karolinenstr. Ecke Heiligenseestr.,autobus,A13,197162_west,"52.59793848,13.27504424",,,,,,,,1971525.0,Tegel,Reinickendorf,west,13507
+U-Bhf. Tegel,autobus,A13,197163_west,"52.58950313,13.28363072",,,,,,,,19711149.0,Tegel,Reinickendorf,west,13507
+Bernauerstr. Ecke Berlinerstr.,autobus,A13,197164_west,"52.57630801,13.29472771",,,,,,,,197198.0,Tegel,Reinickendorf,west,13509
+Krankenhaus Tegel-Süd,autobus,A13,197165_west,"52.57573398,13.27874933",,,,,,,,1971563.0,Tegel,Reinickendorf,west,13507
+Strasse nach Saatwinkel,autobus,A13,197166_west,"52.56194264,13.25460701",,,,,,,,19711056.0,Tegel,Reinickendorf,west,13507
+Paulsternstr. Ecke Gartenfelderstr.,autobus,A13,197167_west,"52.54412196,13.24701046",,,,,,,,1971789.0,Haselhorst,Spandau,west,13599
+Daumstr. Ecke Am Juliusturm,autobus,A13,197168_west,"52.53922501,13.23190422",,,,,,,,1971212.0,Haselhorst,Spandau,west,13599
+Carl-Schurzstr. Ecke Am Juliusturm,autobus,A13,197169_west,"52.53956438,13.20558614",,,,,,,,1971190.0,Spandau,Spandau,west,13597
+Rathaus Spandau,autobus,A13,197170_west,"52.53480744,13.19950552",,,,,,,,1971852.0,Spandau,Spandau,west,13597
+Seebugerstr. Ecke Klosterstr.,autobus,A13,197171_west,"52.52915229,13.19561952",,,,,,,,19711009.0,Wilhelmstadt,Spandau,west,13595
+Päwesinerweg Ecke Seeburgerstr.,autobus,A13,197172_west,"52.52634764,13.18185125",,,,,,,,1971835.0,Wilhelmstadt,Spandau,west,13581
+Heerstr. Ecke Wilhelmstr.,autobus,A13,197173_west,"52.51662458,13.17902230",,,,,,,,1971410.0,Wilhelmstadt,Spandau,west,13593
+Weinmeisterhornweg Ecke Wilhelmstr.,autobus,A13,197174_west,"52.51102168,13.17159889",,,,,,,,19711209.0,Wilhelmstadt,Spandau,west,13593
+Heiligensee Ecke Alt-Heiligensee,autobus,A14,197175_west,"52.61124280,13.21744162",,,,,,,,1971416.0,Heiligensee,Reinickendorf,west,13503
+Mattenbuder Pfad,autobus,A14,197176_west,"52.61707523,13.22059246",,,,,,,,1971686.0,Heiligensee,Reinickendorf,west,13503
+Ruppinerchaussee Ecke Hennigsdorferstr.,autobus,A14,197177_west,"52.62649653,13.22755278",,,,,,,,1971900.0,Heiligensee,Reinickendorf,west,13503
+Dambockstr. Ecke Ruppinerchaussee,autobus,A14,197178_west,"52.61142669,13.25165147",,,,,,,,1971209.0,Heiligensee,Reinickendorf,west,13503
+Heiligenseestr. Ecke Karolinenstr.,autobus,A14,197179_west,"52.59794705,13.27503667",,,,,,,,1971417.0,Tegel,Reinickendorf,west,13507
+U-Bhf. Tegel,autobus,A14,197180_west,"52.58950313,13.28363072",,,,,,,,19711149.0,Tegel,Reinickendorf,west,13507
+Ziekowstr. Ecke Gorkistr.,autobus,A14,197181_west,"52.59058636,13.29210637",,,,,,,,19711282.0,Tegel,Reinickendorf,west,13509
+Rathaus Reinickendorf,autobus,A14,197182_west,"52.59165784,13.32633528",,,,,,,,1971849.0,Wittenau,Reinickendorf,west,13437
+Bonhoeffer Klinik,autobus,A14,197183_west,"52.57804915,13.33285893",,,,,,,,1971145.0,Reinickendorf,Reinickendorf,west,13403
+Aroserallee Ecke Lindauerallee,autobus,A14,197184_west,"52.57375413,13.35199911",,,,,,,,197164.0,Reinickendorf,Reinickendorf,west,13407
+Raschdorffstr. Ecke Residenzstr.,autobus,A14,197185_west,"52.56791515,13.36219375",,,,,,,,1971847.0,Reinickendorf,Reinickendorf,west,13409
+Pankowerallee Ecke Provinzstr.,autobus,A14,197186_west,"52.56468783,13.37806315",,,,,,,,1971780.0,Reinickendorf,Reinickendorf,west,13409
+Pankstr. Ecke Badstr.,autobus,A14,197187_west,"52.55227404,13.38138720",,,,,,,,1971783.0,Gesundbrunnen,Mitte,west,13357
+U-Bhf. Gesundbrunnen,autobus,A14,197188_west,"52.54866076,13.38787363",,,,,,,,19711121.0,Gesundbrunnen,Mitte,west,13357
+Rügenerstr. Ecke Brunnenstr.,autobus,A14,197189_west,"52.54465670,13.39103867",,,,,,,,1971909.0,Gesundbrunnen,Mitte,west,13355
+Alt-Heiligensee,autobus,A14E,197190_west,"52.60616921,13.21064686",,,,,,,,197121.0,Heiligensee,Reinickendorf,west,13503
+Havelblick,autobus,A14E,197191_west,"52.60198868,13.21011531",,,,,,,,1971402.0,Heiligensee,Reinickendorf,west,13503
+Strandbad,autobus,A14E,197192_west,"52.59976011,13.21313316",,,,,,,,19711055.0,Heiligensee,Reinickendorf,west,13503
+Gemeindefriedhof,autobus,A14E,197193_west,"52.59820072,13.21568776",,,,,,,,1971322.0,Heiligensee,Reinickendorf,west,13505
+Sperberstr.,autobus,A14E,197194_west,"52.58732574,13.22604244",,,,,,,,19711037.0,Konradshöhe,Reinickendorf,west,13505
+Falkenplatz,autobus,A14E,197195_west,"52.58490938,13.22761993",,,,,,,,1971266.0,Konradshöhe,Reinickendorf,west,13505
+Wittenauerstr. Ecke Eichhorsterweg,autobus,A15,197196_west,"52.60356744,13.33450079",,,,,,,,19711254.0,Wittenau,Reinickendorf,west,13435
+Cyclopstr. Ecke Oranienburgerstr.,autobus,A15,197197_west,"52.59748924,13.33256009",,,,,,,,1971203.0,Wittenau,Reinickendorf,west,13437
+Alt-Wittenau Ecke Eichborndamm,autobus,A15,197198_west,"52.59187978,13.32645958",,,,,,,,197139.0,Wittenau,Reinickendorf,west,13437
+Breitenbachstr. Ecke Eichborndamm,autobus,A15,197199_west,"52.57783790,13.31483743",,,,,,,,1971156.0,Borsigwalde,Reinickendorf,west,13509
+Holzhauserstr. Ecke Breitenbachstr.,autobus,A15,1971100_west,"52.58200787,13.30545271",,,,,,,,1971465.0,Borsigwalde,Reinickendorf,west,13509
+Ernststr. Ecke Conradstr.,autobus,A15,1971101_west,"52.58313229,13.30001411",,,,,,,,1971258.0,Borsigwalde,Reinickendorf,west,13509
+Gorkistr. Ecke Ziekowstr.,autobus,A15,1971102_west,"52.59056318,13.29198781",,,,,,,,1971336.0,Tegel,Reinickendorf,west,13509
+U-Bhf. Tegel,autobus,A15,1971103_west,"52.58950313,13.28363072",,,,,,,,19711149.0,Tegel,Reinickendorf,west,13507
+Hermsdorferdamm Ecke Karolinenstr.,autobus,A15,1971104_west,"52.59678278,13.27662690",,,,,,,,1971436.0,Tegel,Reinickendorf,west,13507
+Schulzendorferstr. Ecke Hermsdorferdamm,autobus,A15,1971105_west,"52.61057651,13.29548954",,,,,,,,1971982.0,Hermsdorf,Reinickendorf,west,13467
+Dominikus-Krankenhaus,autobus,A15,1971106_west,"52.62619652,13.29449567",,,,,,,,1971226.0,Hermsdorf,Reinickendorf,west,13465
+Donnersmarckplatz,autobus,A15,1971107_west,"52.62982465,13.28047497",,,,,,,,1971227.0,Frohnau,Reinickendorf,west,13465
+Zeltingerplatz,autobus,A15,1971108_west,"52.63350167,13.29044705",,,,,,,,19711275.0,Frohnau,Reinickendorf,west,13465
+Am Pilz,autobus,A15,1971109_west,"52.64251497,13.30090805",,,,,,,,197150.0,Frohnau,Reinickendorf,west,13465
+"Frohnau, Invalidensiedlung",autobus,A15,1971110_west,"52.65584642,13.29035793",,,,,,,,1971304.0,Frohnau,Reinickendorf,west,13465
+Osloerstr. Ecke Koloniestr.,autobus,A16,1971111_west,"52.55640961,13.37745507",,,,,,,,1971758.0,Gesundbrunnen,Mitte,west,13359
+Louise-Schroeder-Platz,autobus,A16,1971112_west,"52.55713317,13.36551369",,,,,,,,1971646.0,Wedding,Mitte,west,13359
+U-Bhf. Seestr.,autobus,A16,1971113_west,"52.55031541,13.35229850",,,,,,,,19711147.0,Wedding,Mitte,west,13347
+Virchow-Krankenhaus,autobus,A16,1971114_west,"52.54371513,13.33931792",,,,,,,,19711178.0,Wedding,Mitte,west,13353
+Fennstr. Ecke Tegelerstr.,autobus,A16,1971115_west,"52.53791937,13.36161815",,,,,,,,1971273.0,Wedding,Mitte,west,13353
+Birkenstr. Ecke Perlebergerstr.,autobus,A16,1971116_west,"52.53079515,13.34723652",,,,,,,,1971123.0,Moabit,Mitte,west,10559
+Hansaplatz,autobus,A16,1971117_west,"52.51793433,13.34203819",,,,,,,,1971389.0,Hansaviertel,Mitte,west,10557
+Großer Stern,autobus,A16,1971118_west,"52.51452472,13.34993319",,,,,,,,1971357.0,Tiergarten,Mitte,west,10557
+Lützowplatz,autobus,A16,1971119_west,"52.50502902,13.35182287",,,,,,,,1971655.0,Tiergarten,Mitte,west,10785
+Nollendorfplatz,autobus,A16,1971120_west,"52.49968844,13.35308644",,,,,,,,1971729.0,Schöneberg,Tempelhof-Schöneberg,west,10777
+Rathaus Schöneberg,autobus,A16,1971121_west,"52.48515474,13.34508660",,,,,,,,1971850.0,Schöneberg,Tempelhof-Schöneberg,west,10825
+Prinzregentenstr.,autobus,A16,1971122_west,"52.47867494,13.33280092",,,,,,,,1971830.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10715
+Bundesplatz,autobus,A16,1971123_west,"52.47867899,13.32860278",,,,,,,,1971177.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10715
+Breitenbachplatz,autobus,A16,1971124_west,"52.46721972,13.30947349",,,,,,,,1971154.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Englerallee,autobus,A16,1971125_west,"52.46177803,13.30447330",,,,,,,,1971253.0,Dahlem,Steglitz-Zehlendorf,west,14195
+"Grunewald, Fontanestr.",autobus,A17,1971126_west,"52.48728923,13.26380017",,,,,,,,1971362.0,Grunewald,Charlottenburg-Wilmersdorf,west,14193
+Roseneck,autobus,A17,1971127_west,"52.47580090,13.28241127",,,,,,,,1971889.0,Schmargendorf,Charlottenburg-Wilmersdorf,west,14199
+Warnemünderstr. Ecke Breitestr.,autobus,A17,1971128_west,"52.47538777,13.29047642",,,,,,,,19711195.0,Schmargendorf,Charlottenburg-Wilmersdorf,west,14199
+U-Bhf. Rüdesheimerplatz,autobus,A17,1971129_west,"52.47208311,13.31490978",,,,,,,,19711145.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,14197
+Friedrich-Wilhelm-Platz,autobus,A17,1971130_west,"52.47128806,13.32836213",,,,,,,,1971294.0,Friedenau,Tempelhof-Schöneberg,west,12161
+Walter-Schreiber-Platz,autobus,A17,1971131_west,"52.46503826,13.32846580",,,,,,,,19711187.0,Friedenau,Tempelhof-Schöneberg,west,12161
+Rathaus Steglitz,autobus,A17,1971132_west,"52.45683245,13.32075740",,,,,,,,1971853.0,Steglitz,Steglitz-Zehlendorf,west,12165
+Bismarckstr. Ecke Albrechtstr.,autobus,A17,1971133_west,"52.45104168,13.33795160",,,,,,,,1971127.0,Steglitz,Steglitz-Zehlendorf,west,12169
+Leonorenstr. Ecke Siemensstr.,autobus,A17,1971134_west,"52.44436756,13.33883976",,,,,,,,1971616.0,Lankwitz,Steglitz-Zehlendorf,west,12247
+Königsbergerstr. Ecke Ostpreußendamm,autobus,A17,1971135_west,"52.43079422,13.31749924",,,,,,,,1971587.0,Lichterfelde,Steglitz-Zehlendorf,west,12207
+Morgensternstr. Ecke Königsbergerstr.,autobus,A17,1971136_west,"52.42817590,13.32515347",,,,,,,,1971702.0,Lichterfelde,Steglitz-Zehlendorf,west,12207
+Oberhoferplatz,autobus,A17,1971137_west,"52.42410259,13.32817043",,,,,,,,1971736.0,Lichterfelde,Steglitz-Zehlendorf,west,12209
+Saaleckplatz,autobus,A17,1971138_west,"52.41629158,13.32394196",,,,,,,,1971953.0,Lichterfelde,Steglitz-Zehlendorf,west,12209
+Scheelestr.,autobus,A17,1971139_west,"52.41194946,13.32040542",,,,,,,,1971964.0,Lichterfelde,Steglitz-Zehlendorf,west,12209
+Celsiusstr.,autobus,A17,1971140_west,"52.41657733,13.31559234",,,,,,,,1971192.0,Lichterfelde,Steglitz-Zehlendorf,west,12207
+U-Bhf. Oskar-Helene-Heim,autobus,A18,1971141_west,"52.45027901,13.27036199",,,,,,,,19711139.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Potsdamerstr. Ecke Clayallee,autobus,A18,1971142_west,"52.43504800,13.26042558",,,,,,,,1971812.0,Zehlendorf,Steglitz-Zehlendorf,west,14169
+Spanischeallee Ecke Potsdamerchaussee,autobus,A18,1971143_west,"52.42961566,13.22409178",,,,,,,,19711036.0,Nikolassee,Steglitz-Zehlendorf,west,14129
+Kronprinzessinenweg Ecke Potsdamerchaussee,autobus,A18,1971144_west,"52.41992896,13.17532611",,,,,,,,1971566.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Stölpchensee,autobus,A18,1971145_west,"52.40945106,13.14379303",,,,,,,,19711067.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Machnowerstr. Ecke Königsweg,autobus,A18,1971146_west,"52.39761381,13.14365940",,,,,,,,1971657.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Roseneck,autobus,A19,1971147_west,"52.47580090,13.28241127",,,,,,,,1971889.0,Schmargendorf,Charlottenburg-Wilmersdorf,west,14199
+Hagenplatz,autobus,A19,1971148_west,"52.48338297,13.26581870",,,,,,,,1971380.0,Grunewald,Charlottenburg-Wilmersdorf,west,14193
+Erdenerstr. Ecke Königsallee,autobus,A19,1971149_west,"52.49054640,13.27635731",,,,,,,,1971254.0,Grunewald,Charlottenburg-Wilmersdorf,west,14193
+Henriettenplatz,autobus,A19,1971150_west,"52.49701780,13.29033951",,,,,,,,1971427.0,Halensee,Charlottenburg-Wilmersdorf,west,10711
+Wilmersdorferstr. Ecke Kurfürstendamm,autobus,A19,1971151_west,"52.50002845,13.30712512",,,,,,,,19711247.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10629
+Olivaerplatz,autobus,A19,1971152_west,"52.50060276,13.31311062",,,,,,,,1971743.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10707
+Joachimstalerstr. Ecke Kurfürstendamm,autobus,A19,1971153_west,"52.50384853,13.33128219",,,,,,,,1971496.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10719
+Breitscheidplatz,autobus,A19,1971154_west,"52.50443806,13.33564616",,,,,,,,1971157.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10789
+Wittenbergplatz,autobus,A19,1971155_west,"52.50188939,13.34269788",,,,,,,,19711256.0,Schöneberg,Tempelhof-Schöneberg,west,10789
+Nollendorfplatz,autobus,A19,1971156_west,"52.49968844,13.35308644",,,,,,,,1971729.0,Schöneberg,Tempelhof-Schöneberg,west,10777
+Potsdamerstr. Ecke Bülowstr.,autobus,A19,1971157_west,"52.49790083,13.36200447",,,,,,,,1971811.0,Schöneberg,Tempelhof-Schöneberg,west,10783
+Bautzenerstr. Ecke Yorckstr.,autobus,A19,1971158_west,"52.49265331,13.37095494",,,,,,,,197180.0,Schöneberg,Tempelhof-Schöneberg,west,10965
+Katzbachstr. Ecke Yorckstr.,autobus,A19,1971159_west,"52.49160279,13.37664279",,,,,,,,1971531.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10965
+Mehringdamm Ecke Gneisenaustr.,autobus,A19,1971160_west,"52.49294263,13.38769751",,,,,,,,1971688.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10961
+Flughafen,autobus,A19,1971161_west,"52.47096514,13.38564146",,,,,,,,1971276.0,Tempelhof,Tempelhof-Schöneberg,west,12099
+U-Bhf. Friedrich-Wilhelm-Platz,autobus,A2,1971162_west,"52.47196472,13.32845005",,,,,,,,19711117.0,Friedenau,Tempelhof-Schöneberg,west,12161
+Walter-Schreiber-Platz,autobus,A2,1971163_west,"52.46503826,13.32846580",,,,,,,,19711187.0,Friedenau,Tempelhof-Schöneberg,west,12161
+Bismarcktrasse Ecke Feuerbachstr.,autobus,A2,1971164_west,"52.46451842,13.33895140",,,,,,,,1971131.0,Steglitz,Steglitz-Zehlendorf,west,12163
+Steglitzerdamm Ecke Bismarckstr.,autobus,A2,1971165_west,"52.45103854,13.33797238",,,,,,,,19711050.0,Steglitz,Steglitz-Zehlendorf,west,12169
+Leonorenstr. Ecke Siemensstr.,autobus,A2,1971166_west,"52.44436756,13.33883976",,,,,,,,1971616.0,Lankwitz,Steglitz-Zehlendorf,west,12247
+"Lankwitz, Kirche",autobus,A2,1971167_west,"52.43629187,13.34574539",,,,,,,,1971603.0,Lankwitz,Steglitz-Zehlendorf,west,12247
+Lerbacherweg,autobus,A2,1971168_west,"52.42568078,13.34761443",,,,,,,,1971619.0,Lankwitz,Steglitz-Zehlendorf,west,12249
+Sonderhauserstr. Ecke Hildburghauserstr.,autobus,A2,1971169_west,"52.41595618,13.34171177",,,,,,,,19711020.0,Lichterfelde,Steglitz-Zehlendorf,west,12209
+Waldsassenerstr. Ecke Ahrensdorferstr.,autobus,A2,1971170_west,"52.40822536,13.35065953",,,,,,,,19711184.0,Marienfelde,Tempelhof-Schöneberg,west,12279
+"Tegelort, Almazeile",autobus,A20,1971171_west,"52.57056767,13.22920632",,,,,,,,19711079.0,Konradshöhe,Reinickendorf,west,13505
+Gerlindeweg,autobus,A20,1971172_west,"52.57586888,13.22888109",,,,,,,,1971324.0,Tegel,Reinickendorf,west,13505
+Falkenplatz,autobus,A20,1971173_west,"52.58490938,13.22761993",,,,,,,,1971266.0,Konradshöhe,Reinickendorf,west,13505
+Freiheitsweg,autobus,A20,1971174_west,"52.58923448,13.24114056",,,,,,,,1971288.0,Tegel,Reinickendorf,west,13505
+Heiligenseestr. Ecke Konradshöherstr.,autobus,A20,1971175_west,"52.59988429,13.25202758",,,,,,,,1971418.0,Tegel,Reinickendorf,west,13505
+Karolinenstr. Ecke Heiligenseestr.,autobus,A20,1971176_west,"52.59793848,13.27504424",,,,,,,,1971525.0,Tegel,Reinickendorf,west,13507
+U-Bhf. Tegel,autobus,A20,1971177_west,"52.58950313,13.28363072",,,,,,,,19711149.0,Tegel,Reinickendorf,west,13507
+Hatzfeldtallee Ecke Waidmannslusterdamm,autobus,A20,1971178_west,"52.59599131,13.29156540",,,,,,,,1971393.0,Tegel,Reinickendorf,west,13509
+Martin-Luther-Friedhof,autobus,A20,1971179_west,"52.59840054,13.29835050",,,,,,,,1971680.0,Tegel,Reinickendorf,west,13509
+Freie Scholle,autobus,A20,1971180_west,"52.59985154,13.30173616",,,,,,,,1971287.0,Tegel,Reinickendorf,west,13509
+Waldhornstr. Ecke Waidmannsluster,autobus,A20,1971181_west,"52.60284801,13.30812285",,,,,,,,19711182.0,Waidmannslust,Reinickendorf,west,13469
+Cyclopstr. Ecke Waidmannsluster,autobus,A20,1971182_west,"52.60703374,13.31973105",,,,,,,,1971204.0,Waidmannslust,Reinickendorf,west,13469
+Oraniendamm Ecke Waidmannsluster,autobus,A20,1971183_west,"52.60786033,13.32379915",,,,,,,,1971755.0,Waidmannslust,Reinickendorf,west,13469
+Am Vierrutenberg,autobus,A20,1971184_west,"52.61353554,13.34382721",,,,,,,,197155.0,Lübars,Reinickendorf,west,13469
+"Lübars, Alt-Lübars",autobus,A20,1971185_west,"52.61810884,13.35462587",,,,,,,,1971654.0,Lübars,Reinickendorf,west,13469
+"Quickbornerstr., Märkische Viertel",autobus,A21,1971186_west,"52.60613533,13.36422545",,,,,,,,1971839.0,Märkisches Viertel,Reinickendorf,west,13439
+Wilhelmsruherdamm Ecke Dannenwalderweg,autobus,A21,1971187_west,"52.59583457,13.33932660",,,,,,,,19711240.0,Märkisches Viertel,Reinickendorf,west,13435
+Oranienburgerstr. Ecke Eichborndamm,autobus,A21,1971188_west,"52.59549417,13.33297744",,,,,,,,1971750.0,Wittenau,Reinickendorf,west,13437
+Alt-Wittenau Ecke Eichborndamm,autobus,A21,1971189_west,"52.59187978,13.32645958",,,,,,,,197139.0,Wittenau,Reinickendorf,west,13437
+Breitenbachstr. Ecke Eichborndamm,autobus,A21,1971190_west,"52.57783790,13.31483743",,,,,,,,1971156.0,Borsigwalde,Reinickendorf,west,13509
+Scharnweberstr. Ecke Eichborndamm,autobus,A21,1971191_west,"52.56791757,13.31193735",,,,,,,,1971963.0,Reinickendorf,Reinickendorf,west,13405
+Kurt-Schumacher-Platz,autobus,A21,1971192_west,"52.56343825,13.32713029",,,,,,,,1971581.0,Reinickendorf,Reinickendorf,west,13405
+Heckerdamm Ecke Kurt-Schumacherdamm,autobus,A21,1971193_west,"52.53964827,13.29489588",,,,,,,,1971403.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Jakob-Kaiser-Platz,autobus,A21,1971194_west,"52.53673970,13.29360488",,,,,,,,1971492.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Luisenplatz,autobus,A21,1971195_west,"52.52005409,13.29951339",,,,,,,,1971649.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10585
+Kantstr. Ecke Kaiser-Friedrichstr.,autobus,A21,1971196_west,"52.50678033,13.30234182",,,,,,,,1971516.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10627
+Amtsgericht,autobus,A21,1971197_west,"52.50682618,13.29739145",,,,,,,,197157.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10627
+Kurfürstendamm Ecke Joachim-Friedrichstr.,autobus,A21,1971198_west,"52.49800512,13.29619975",,,,,,,,1971573.0,Halensee,Charlottenburg-Wilmersdorf,west,10711
+Hohenzollerndamm Ecke Seesenerstr.,autobus,A21,1971199_west,"52.48842853,13.30208704",,,,,,,,1971455.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10713
+Fehrbellinerplatz,autobus,A21,1971200_west,"52.49040639,13.31420422",,,,,,,,1971270.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10707
+Kurt-Schumacher-Platz,autobus,A22,1971201_west,"52.56343825,13.32713029",,,,,,,,1971581.0,Reinickendorf,Reinickendorf,west,13405
+Lindauerallee Ecke Ollenhauerstr.,autobus,A22,1971202_west,"52.57548424,13.33210909",,,,,,,,1971633.0,Reinickendorf,Reinickendorf,west,13403
+Roedernallee Ecke Nordgraben,autobus,A22,1971203_west,"52.58810168,13.33983289",,,,,,,,1971884.0,Wittenau,Reinickendorf,west,13437
+Märkisches Zentrum,autobus,A22,1971204_west,"52.59979022,13.35569734",,,,,,,,1971708.0,Märkisches Viertel,Reinickendorf,west,13439
+Calauerstr. Ecke Finsterwalderstr.,autobus,A22,1971205_west,"52.60388796,13.34931635",,,,,,,,1971189.0,Märkisches Viertel,Reinickendorf,west,13435
+Wittenauerstr. Ecke Eichhorsterweg,autobus,A22,1971206_west,"52.60356744,13.33450079",,,,,,,,19711254.0,Wittenau,Reinickendorf,west,13435
+Hardenbergplatz,autobus,A23,1971207_west,"52.50706778,13.33317302",,,,,,,,1971391.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10623
+Ernst-Reuter-Platz,autobus,A23,1971208_west,"52.51159182,13.32257153",,,,,,,,1971256.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10587
+Hansaplatz,autobus,A23,1971209_west,"52.51793433,13.34203819",,,,,,,,1971389.0,Hansaviertel,Mitte,west,10557
+Gotzkowskystr. Ecke Alt-Moabit,autobus,A23,1971210_west,"52.52378716,13.32980639",,,,,,,,1971340.0,Moabit,Mitte,west,10555
+Turmstr. Ecke Beusselstr.,autobus,A23,1971211_west,"52.52737827,13.32870236",,,,,,,,19711107.0,Moabit,Mitte,west,10553
+Seestr. Ecke Beusselstr.,autobus,A23,1971212_west,"52.53818549,13.32616362",,,,,,,,19711013.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Plötzensee,autobus,A23,1971213_west,"52.54273203,13.32354105",,,,,,,,1971808.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Reichweindamm,autobus,A23,1971214_west,"52.53566875,13.30053168",,,,,,,,1971866.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Jakob-Kaiser-Platz,autobus,A23,1971215_west,"52.53673970,13.29360488",,,,,,,,1971492.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Heckerdamm Ecke Kurt-Schumacherdamm,autobus,A23,1971216_west,"52.53964827,13.29489588",,,,,,,,1971403.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Halemweg Ecke Toeplerstr.,autobus,A23,1971217_west,"52.53821272,13.28671350",,,,,,,,1971383.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Goebelplatz,autobus,A23,1971218_west,"52.53812718,13.27991415",,,,,,,,1971333.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Rohrdamm Ecke Nonnendammallee,autobus,A23,1971219_west,"52.53678504,13.26486265",,,,,,,,1971887.0,Siemensstadt,Spandau,west,13629
+Buolstr. Ecke Rohrdamm,autobus,A23,1971220_west,"52.54528355,13.26039538",,,,,,,,1971179.0,Siemensstadt,Spandau,west,13629
+Wiebestr. Ecke Huttenstr.,autobus,A24,1971221_west,"52.52837374,13.31943035",,,,,,,,19711225.0,Moabit,Mitte,west,10553
+Gotzkowskystr. Ecke Turmstr.,autobus,A24,1971222_west,"52.52721970,13.33057000",,,,,,,,1971341.0,Moabit,Mitte,west,10551
+Stromstr. Ecke Turmstr.,autobus,A24,1971223_west,"52.52634184,13.34312496",,,,,,,,19711064.0,Moabit,Mitte,west,10551
+Rathenowerstr. Ecke Turmstr.,autobus,A24,1971224_west,"52.52672669,13.35538257",,,,,,,,1971860.0,Moabit,Mitte,west,10559
+Alt-Moabit Ecke Paulstr.,autobus,A24,1971225_west,"52.52365312,13.35694717",,,,,,,,197134.0,Moabit,Mitte,west,10559
+John-Foster-Dulles-Allee Ecke Spreeweg,autobus,A24,1971226_west,"52.51710164,13.35460447",,,,,,,,1971503.0,Tiergarten,Mitte,west,10557
+Tiergartenstr. Ecke Hofjägerstr.,autobus,A24,1971227_west,"52.50959872,13.35136396",,,,,,,,19711099.0,Tiergarten,Mitte,west,10785
+Lützowplatz,autobus,A24,1971228_west,"52.50502902,13.35182287",,,,,,,,1971655.0,Tiergarten,Mitte,west,10785
+Potsdamerstr. Ecke Lützowstr.,autobus,A24,1971229_west,"52.50306013,13.36571053",,,,,,,,1971814.0,Tiergarten,Mitte,west,10785
+Askanischerplatz,autobus,A24,1971230_west,"52.50447796,13.38228227",,,,,,,,197166.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10963
+U-Bhf. Hallesches Tor,autobus,A24,1971231_west,"52.49791002,13.39130767",,,,,,,,19711122.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10969
+Gneisenaustr. Ecke Zossenstr.,autobus,A24,1971232_west,"52.49156566,13.39445436",,,,,,,,1971332.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10961
+Columbiadamm Ecke Friesenstr.,autobus,A24,1971233_west,"52.48397478,13.39437575",,,,,,,,1971200.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10965
+Platz der Luftbrücke,autobus,A24,1971234_west,"52.48492348,13.38636362",,,,,,,,1971805.0,Tempelhof,Tempelhof-Schöneberg,west,12101
+U-Bhf. Friedrich-Wlhelm-Patz,autobus,A25,1971235_west,"52.47135294,13.32867756",,,,,,,,19711118.0,Friedenau,Tempelhof-Schöneberg,west,12161
+Kaisereiche,autobus,A25,1971236_west,"52.46896806,13.33261489",,,,,,,,1971512.0,Friedenau,Tempelhof-Schöneberg,west,12161
+Grazerplatz,autobus,A25,1971237_west,"52.46714787,13.34417931",,,,,,,,1971345.0,Schöneberg,Tempelhof-Schöneberg,west,12157
+Attilaplatz,autobus,A25,1971238_west,"52.45590180,13.37651250",,,,,,,,197168.0,Tempelhof,Tempelhof-Schöneberg,west,12105
+Tempelhoferdamm Ecke Ordensmeisterstr.,autobus,A25,1971239_west,"52.45582322,13.38396971",,,,,,,,19711086.0,Tempelhof,Tempelhof-Schöneberg,west,12099
+Gottlieb-Dunkelstr. Ecke Tempelhoferweg,autobus,A25,1971240_west,"52.46048678,13.41798392",,,,,,,,1971339.0,Tempelhof,Tempelhof-Schöneberg,west,12099
+Britzerdamm,autobus,A25,1971241_west,"52.45270582,13.43860057",,,,,,,,1971161.0,Britz,Neukölln,west,12347
+U-Bhf. Parchimerallee,autobus,A25,1971242_west,"52.44566870,13.44991915",,,,,,,,19711143.0,Britz,Neukölln,west,12359
+Grünerweg Ecke Buschkrugallee,autobus,A25,1971243_west,"52.44277699,13.45626759",,,,,,,,1971370.0,Britz,Neukölln,west,12359
+U-Bhf. Tempelhof,autobus,A28,1971244_west,"52.46987510,13.38558706",,,,,,,,19711150.0,Tempelhof,Tempelhof-Schöneberg,west,12099
+Dudenstr. Ecke Katzbachstr.,autobus,A28,1971245_west,"52.48507658,13.37657607",,,,,,,,1971231.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10965
+Mehringdamm Ecke Yorckstr.,autobus,A28,1971246_west,"52.49283395,13.38751719",,,,,,,,1971689.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10961
+Urban-Krankenhaus,autobus,A28,1971247_west,"52.49346936,13.40624512",,,,,,,,19711166.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10961
+Mariannenplatz,autobus,A28,1971248_west,"52.50228674,13.42408623",,,,,,,,1971670.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10997
+U-Bhf. Schlesisches Tor,autobus,A28,1971249_west,"52.50108420,13.44197126",,,,,,,,19711146.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10997
+Heckmannufer Ecke Schlesischestr.,autobus,A28,1971250_west,"52.49754893,13.44840547",,,,,,,,1971406.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10997
+Roseneck,autobus,A29,1971251_west,"52.47580090,13.28241127",,,,,,,,1971889.0,Schmargendorf,Charlottenburg-Wilmersdorf,west,14199
+Berkaerstr. Ecke Teplitzerstr.,autobus,A29,1971252_west,"52.48211583,13.28117556",,,,,,,,197190.0,Grunewald,Charlottenburg-Wilmersdorf,west,14193
+Bismarckplatz,autobus,A29,1971253_west,"52.49206454,13.28493897",,,,,,,,1971125.0,Grunewald,Charlottenburg-Wilmersdorf,west,14193
+Henriettenplatz,autobus,A29,1971254_west,"52.49701780,13.29033951",,,,,,,,1971427.0,Halensee,Charlottenburg-Wilmersdorf,west,10711
+Joachim-Friedrichstr. Ecke Kurfürstendamm,autobus,A29,1971255_west,"52.49797143,13.29622564",,,,,,,,1971494.0,Halensee,Charlottenburg-Wilmersdorf,west,10711
+Wilmersdorferstr. Ecke Kurfürstendamm,autobus,A29,1971256_west,"52.50002845,13.30712512",,,,,,,,19711247.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10629
+Olivaerplatz,autobus,A29,1971257_west,"52.50060276,13.31311062",,,,,,,,1971743.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10707
+Uhlandstr. Ecke Kurfürstendamm,autobus,A29,1971258_west,"52.50253243,13.32528045",,,,,,,,19711160.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10719
+Joachimstalerstr. Ecke Kurfürstendamm,autobus,A29,1971259_west,"52.50384853,13.33128219",,,,,,,,1971496.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10719
+Wittenbergplatz,autobus,A29,1971260_west,"52.50188939,13.34269788",,,,,,,,19711256.0,Schöneberg,Tempelhof-Schöneberg,west,10789
+Lützowplatz,autobus,A29,1971261_west,"52.50502902,13.35182287",,,,,,,,1971655.0,Tiergarten,Mitte,west,10785
+Potsdamerstr. Ecke Schöneberger Ufer,autobus,A29,1971262_west,"52.50581656,13.36825234",,,,,,,,1971815.0,Tiergarten,Mitte,west,10785
+Askanischerplatz,autobus,A29,1971263_west,"52.50447796,13.38228227",,,,,,,,197166.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10963
+U-Bhf. Kochstr.,autobus,A29,1971264_west,"52.50669824,13.39050322",,,,,,,,19711124.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10969
+Oranienplatz,autobus,A29,1971265_west,"52.50232371,13.41551013",,,,,,,,1971756.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10999
+Düppel-Süd,autobus,A3,1971266_west,"52.42309121,13.23304390",,,,,,,,1971233.0,Zehlendorf,Steglitz-Zehlendorf,west,14165
+Ludwigsfelderstr. Ecke Berlepschstr.,autobus,A3,1971267_west,"52.42452746,13.24022912",,,,,,,,1971647.0,Zehlendorf,Steglitz-Zehlendorf,west,14163
+Machnowerstr. Ecke Berlepschstr.,autobus,A3,1971268_west,"52.42977220,13.25704134",,,,,,,,1971656.0,Zehlendorf,Steglitz-Zehlendorf,west,14165
+Rathaus Zehlendorf,autobus,A3,1971269_west,"52.43320752,13.25953192",,,,,,,,1971856.0,Zehlendorf,Steglitz-Zehlendorf,west,14169
+Schützallee Ecke Riemeisterstr.,autobus,A3,1971270_west,"52.44172192,13.26167410",,,,,,,,19711008.0,Zehlendorf,Steglitz-Zehlendorf,west,14169
+U-Bhf. Krumme Lanke,autobus,A3,1971271_west,"52.44308075,13.24046555",,,,,,,,19711126.0,Zehlendorf,Steglitz-Zehlendorf,west,14163
+Lindenthalerallee Ecke Potsdamerchaussee,autobus,A3,1971272_west,"52.43097472,13.22990376",,,,,,,,1971642.0,Zehlendorf,Steglitz-Zehlendorf,west,14163
+Spanischeallee Ecke Potsdamerchaussee,autobus,A3,1971273_west,"52.42961566,13.22409178",,,,,,,,19711036.0,Nikolassee,Steglitz-Zehlendorf,west,14129
+Schopenhauerstr. Ecke Spanischeallee,autobus,A3,1971274_west,"52.43397260,13.21202649",,,,,,,,1971979.0,Nikolassee,Steglitz-Zehlendorf,west,14129
+Borussenstr. Ecke Spanischeallee,autobus,A3,1971275_west,"52.43380562,13.19326657",,,,,,,,1971149.0,Nikolassee,Steglitz-Zehlendorf,west,14129
+Wannsee,autobus,A3,1971276_west,"52.42192224,13.17584116",,,,,,,,19711193.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Am Großen Wannsee Ecke Königstr.,autobus,A3,1971277_west,"52.42049658,13.16719297",,,,,,,,197147.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Koblanckstr. Ecke Am Großen Wannsee,autobus,A3,1971278_west,"52.42616121,13.16145691",,,,,,,,1971549.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Krankenhaus Wannsee,autobus,A3,1971279_west,"52.43102765,13.16496452",,,,,,,,1971564.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Heckeshorn,autobus,A3,1971280_west,"52.43061257,13.16126549",,,,,,,,1971405.0,Wannsee,Steglitz-Zehlendorf,west,14109
+U-Bhf. Ruhleben,autobus,A31,1971281_west,"52.52596833,13.24147858",,,,,,,,19711144.0,Spandau,Spandau,west,13597
+Stresowplatz,autobus,A31,1971282_west,"52.53362878,13.20678183",,,,,,,,19711061.0,Spandau,Spandau,west,13597
+Rathaus Spandau,autobus,A31,1971283_west,"52.53480744,13.19950552",,,,,,,,1971852.0,Spandau,Spandau,west,13597
+Nauenerstr. Ecke Brunsbüttelerdamm,autobus,A31,1971284_west,"52.53407400,13.18166331",,,,,,,,1971717.0,Spandau,Spandau,west,13581
+Magistratsweg Ecke Brunsbüttelerdamm,autobus,A31,1971285_west,"52.53308686,13.15795581",,,,,,,,1971659.0,Staaken,Spandau,west,13591
+Heidebergplan,autobus,A31,1971286_west,"52.54107413,13.14733873",,,,,,,,1971412.0,Staaken,Spandau,west,13591
+Breitenbachplatz,autobus,A32,1971287_west,"52.46721972,13.30947349",,,,,,,,1971154.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Gritznerstr. Ecke Schildhornstr.,autobus,A32,1971288_west,"52.46433356,13.31649378",,,,,,,,1971353.0,Steglitz,Steglitz-Zehlendorf,west,12163
+Schloßstr. Ecke Albrechtstr.,autobus,A32,1971289_west,"52.45688691,13.32070839",,,,,,,,1971975.0,Steglitz,Steglitz-Zehlendorf,west,12165
+Rathaus Steglitz,autobus,A32,1971290_west,"52.45683245,13.32075740",,,,,,,,1971853.0,Steglitz,Steglitz-Zehlendorf,west,12165
+Bismarckstr. Ecke Albrechtstr.,autobus,A32,1971291_west,"52.45104168,13.33795160",,,,,,,,1971127.0,Steglitz,Steglitz-Zehlendorf,west,12169
+"Lankwitz, Kirche",autobus,A32,1971292_west,"52.43629187,13.34574539",,,,,,,,1971603.0,Lankwitz,Steglitz-Zehlendorf,west,12247
+Belßstr. Ecke Malteserstr.,autobus,A32,1971293_west,"52.42913176,13.35464322",,,,,,,,197186.0,Lankwitz,Steglitz-Zehlendorf,west,12249
+Alt-Marienfelde Ecke Marienfelderallee,autobus,A32,1971294_west,"52.41360215,13.36329882",,,,,,,,197130.0,Marienfelde,Tempelhof-Schöneberg,west,12279
+Stegerwaldstr. Ecke Marienfelderallee,autobus,A32,1971295_west,"52.42073132,13.36926580",,,,,,,,19711048.0,Marienfelde,Tempelhof-Schöneberg,west,12277
+"Marienfelde, Bahnstr. Ecke Marienfelderallee",autobus,A32,1971296_west,"52.42488749,13.37306864",,,,,,,,1971675.0,Marienfelde,Tempelhof-Schöneberg,west,12277
+Berlinickestr.,autobus,A33,1971297_west,"52.45611229,13.32390936",,,,,,,,197196.0,Steglitz,Steglitz-Zehlendorf,west,12165
+Bismarckstr. Ecke Steglitzerdamm,autobus,A33,1971298_west,"52.45103871,13.33794952","nan, nan",,,,,,,1971130.0,Steglitz,Steglitz-Zehlendorf,west,12169
+Heinrich-Seidelstr. Ecke Steglitzerdamm,autobus,A33,1971299_west,"52.45021776,13.34508901",,,,,,,,1971424.0,Steglitz,Steglitz-Zehlendorf,west,12169
+Gersdorfstr. Ecke Kaiserstr.,autobus,A33,1971300_west,"52.44509615,13.37402627",,,,,,,,1971325.0,Mariendorf,Tempelhof-Schöneberg,west,12105
+Mariendorferdamm Ecke Kaiserstr.,autobus,A33,1971301_west,"52.44555364,13.38578300",,,,,,,,1971672.0,Mariendorf,Tempelhof-Schöneberg,west,12109
+Dirschelweg Ecke Rixdorferstr.,autobus,A33,1971302_west,"52.44490302,13.40006212",,,,,,,,1971224.0,Mariendorf,Tempelhof-Schöneberg,west,12109
+"Spandau, Wasserwerk",autobus,A34,1971303_west,"52.55592684,13.16783601",,,,,,,,19711032.0,Falkenhagener Feld,Spandau,west,13589
+Friedhof,autobus,A34,1971304_west,"52.55307467,13.17996454",,,,,,,,1971292.0,Falkenhagener Feld,Spandau,west,13589
+Askanierring,autobus,A34,1971305_west,"52.54583446,13.19375616",,,,,,,,197165.0,Spandau,Spandau,west,13583
+Wröhmännerpark,autobus,A34,1971306_west,"52.54211749,13.20592436",,,,,,,,19711266.0,Spandau,Spandau,west,13585
+Rathaus Spandau,autobus,A34,1971307_west,"52.53480744,13.19950552",,,,,,,,1971852.0,Spandau,Spandau,west,13597
+Wilhelmstr.,autobus,A34,1971308_west,"52.52797851,13.19530185",,,,,,,,19711242.0,Wilhelmstadt,Spandau,west,13595
+Adamstr.,autobus,A34,1971309_west,"52.52102912,13.19780699",,,,,,,,19713.0,Wilhelmstadt,Spandau,west,13595
+Heerstr.,autobus,A34,1971310_west,"52.51550448,13.18456806",,,,,,,,1971408.0,Wilhelmstadt,Spandau,west,13595
+Gatowerstr.,autobus,A34,1971311_west,"52.48943626,13.18038759",,,,,,,,1971317.0,Gatow,Spandau,west,14089
+"Gatow, Kirche",autobus,A34,1971312_west,"52.48684681,13.18215148",,,,,,,,1971316.0,Gatow,Spandau,west,14089
+Großglienickerweg,autobus,A34,1971313_west,"52.48314881,13.18263056",,,,,,,,1971358.0,Gatow,Spandau,west,14089
+Krankenhaus Hohengatow,autobus,A34,1971314_west,"52.47044988,13.16939160",,,,,,,,1971560.0,Gatow,Spandau,west,14089
+Krankenhaus Havelhöhe,autobus,A34,1971315_west,"52.46291933,13.15899083",,,,,,,,1971559.0,Kladow,Spandau,west,14089
+Alt-Kladow,autobus,A34,1971316_west,"52.45459141,13.14448804",,,,,,,,197123.0,Kladow,Spandau,west,14089
+Schwiezerhaus,autobus,A34,1971317_west,"52.46177835,13.13349263",,,,,,,,1971987.0,Kladow,Spandau,west,14089
+Gutshof,autobus,A34,1971318_west,"52.47510904,13.12071054",,,,,,,,1971372.0,Kladow,Spandau,west,14089
+U-Bhf. Ruhleben,autobus,A35,1971319_west,"52.52596833,13.24147858",,,,,,,,19711144.0,Spandau,Spandau,west,13597
+Teltowerstr. Ecke Charlottenburgerchaussee,autobus,A35,1971320_west,"52.52693840,13.21600363",,,,,,,,19711081.0,Wilhelmstadt,Spandau,west,13597
+Krowelstr.,autobus,A35,1971321_west,"52.52367052,13.20288752",,,,,,,,1971569.0,Wilhelmstadt,Spandau,west,13595
+Pichelsdorferstr. Ecke Weißenburgerstr.,autobus,A35,1971322_west,"52.52295813,13.19769347",,,,,,,,1971798.0,Wilhelmstadt,Spandau,west,13595
+Adamstr. Ecke Földerichstr.,autobus,A35,1971323_west,"52.52102086,13.19403227",,,,,,,,19714.0,Wilhelmstadt,Spandau,west,13595
+Wilhelmstr. Ecke Adamstr.,autobus,A35,1971324_west,"52.52107003,13.18797339",,,,,,,,19711243.0,Wilhelmstadt,Spandau,west,13595
+Heerstr. Ecke Gatowerstr.,autobus,A35,1971325_west,"52.51550760,13.18462116",,,,,,,,1971409.0,Wilhelmstadt,Spandau,west,13595
+Weinmeisterhornweg Ecke Gatowerstr.,autobus,A35,1971326_west,"52.50926294,13.18033740",,,,,,,,19711208.0,Wilhelmstadt,Spandau,west,13595
+"Gatow, Kirche",autobus,A35,1971327_west,"52.48684681,13.18215148",,,,,,,,1971316.0,Gatow,Spandau,west,14089
+Krankenhaus Hohengatow,autobus,A35,1971328_west,"52.47044988,13.16939160",,,,,,,,1971560.0,Gatow,Spandau,west,14089
+Krankenhaus Havelhöhe,autobus,A35,1971329_west,"52.46291933,13.15899083",,,,,,,,1971559.0,Kladow,Spandau,west,14089
+Alt-Kladow Ecke Kladowerdamm,autobus,A35,1971330_west,"52.45345078,13.14394024",,,,,,,,197124.0,Kladow,Spandau,west,14089
+Krampnitzerweg,autobus,A35,1971331_west,"52.45227343,13.13842230",,,,,,,,1971558.0,Kladow,Spandau,west,14089
+Hottengrund,autobus,A35,1971332_west,"52.44597765,13.12625139",,,,,,,,1971468.0,Kladow,Spandau,west,14089
+Brixplatz,autobus,A4,1971333_west,"52.51907944,13.25699371",,,,,,,,1971164.0,Westend,Charlottenburg-Wilmersdorf,west,14052
+Theodor-Heuss-Platz,autobus,A4,1971334_west,"52.50937134,13.27256472",,,,,,,,19711091.0,Westend,Charlottenburg-Wilmersdorf,west,14052
+Messedamm Ecke Masurenallee,autobus,A4,1971335_west,"52.50644250,13.28029448",,,,,,,,1971693.0,Westend,Charlottenburg-Wilmersdorf,west,14055
+Henriettenplatz,autobus,A4,1971336_west,"52.49701780,13.29033951",,,,,,,,1971427.0,Halensee,Charlottenburg-Wilmersdorf,west,10711
+Hochmeisterplatz,autobus,A4,1971337_west,"52.49468638,13.30125468",,,,,,,,1971445.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10709
+Fehrbellinerplatz,autobus,A4,1971338_west,"52.49040639,13.31420422",,,,,,,,1971270.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10707
+Bundesallee Ecke Badenschestr.,autobus,A4,1971339_west,"52.48612586,13.33106199",,,,,,,,1971174.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10715
+Rathaus Schöneberg,autobus,A4,1971340_west,"52.48515474,13.34508660",,,,,,,,1971850.0,Schöneberg,Tempelhof-Schöneberg,west,10825
+Hauptstr. Ecke Dominicusstr.,autobus,A4,1971341_west,"52.48178378,13.34841821",",+nan",,,,,,,1971399.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+Kaiser-Wilhelm-Platz,autobus,A4,1971342_west,"52.48632925,13.35655627",,,,,,,,1971509.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+U-Bhf. Flughafen,autobus,A4,1971343_west,"52.48488596,13.38599655",,,,,,,,19711116.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10965
+Friesenstr. Ecke Columbiadamm,autobus,A4,1971344_west,"52.48395584,13.39438227",,,,,,,,1971302.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10965
+Kienitzerstr. Ecke Hermannstr.,autobus,A4,1971345_west,"52.47611120,13.42676445",,,,,,,,1971534.0,Neukölln,Neukölln,west,12049
+Sonnenallee Ecke Erkstr.,autobus,A4,1971346_west,"52.48167462,13.44010366",,,,,,,,19711023.0,Neukölln,Neukölln,west,12045
+Teuptitzerstr. Ecke Kiehl-Ufer,autobus,A4,1971347_west,"52.47953359,13.45556500",,,,,,,,19711090.0,Neukölln,Neukölln,west,12059
+Gradestr.,autobus,A41,1971348_west,"52.45253783,13.43302776",,,,,,,,1971342.0,Britz,Neukölln,west,12347
+U-Bhf. Blaschko-Allee,autobus,A41,1971349_west,"52.45247827,13.44899996",,,,,,,,19711111.0,Britz,Neukölln,west,12359
+Krankenhaus Neukölln,autobus,A41,1971350_west,"52.43991972,13.45939664",,,,,,,,1971562.0,Buckow,Neukölln,west,12351
+Zwickauerdamm Ecke Neuköllnerstr.,autobus,A41,1971351_west,"52.42412191,13.48543108",,,,,,,,19711291.0,Rudow,Neukölln,west,12357
+Schönefelderstr. Ecke Waltersdorferstr.,autobus,A41,1971352_west,"52.41517717,13.49786826",,,,,,,,1971992.0,Rudow,Neukölln,west,12355
+Rudow Stadtgrenze,autobus,A41,1971353_west,"52.40139625,13.51375270",,,,,,,,1971895.0,Rudow,Neukölln,west,12355
+Potsdamerstr. Ecke Fischerhüttenstr.,autobus,A48,1971354_west,"52.43579470,13.25608163",,,,,,,,1971813.0,Zehlendorf,Steglitz-Zehlendorf,west,14163
+Sundgauerstr. Ecke Berlinerstr.,autobus,A48,1971355_west,"52.43833637,13.27143837",,,,,,,,19711071.0,Zehlendorf,Steglitz-Zehlendorf,west,14169
+Drakestr. Ecke Unter den Eichen,autobus,A48,1971356_west,"52.44573233,13.29369722",,,,,,,,1971230.0,Lichterfelde,Steglitz-Zehlendorf,west,12203
+Rathaus Steglitz,autobus,A48,1971357_west,"52.45683245,13.32075740",,,,,,,,1971853.0,Steglitz,Steglitz-Zehlendorf,west,12165
+Walter-Schreiber-Platz,autobus,A48,1971358_west,"52.46503826,13.32846580",,,,,,,,19711187.0,Friedenau,Tempelhof-Schöneberg,west,12161
+Innsbruckerplatz,autobus,A48,1971359_west,"52.47854551,13.34405869",,,,,,,,1971487.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+Kaiser-Wilhelm-Platz,autobus,A48,1971360_west,"52.48632925,13.35655627",,,,,,,,1971509.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+U-Bhf. Kurfürstenstr.,autobus,A48,1971361_west,"52.49972762,13.36274916",,,,,,,,19711127.0,Tiergarten,Mitte,west,10785
+"Philharmonie, Tiergartenstr.",autobus,A48,1971362_west,"52.51089623,13.36956537",,,,,,,,1971795.0,Tiergarten,Mitte,west,10785
+U-Bhf. Ruhleben,autobus,A5,1971363_west,"52.52596833,13.24147858",,,,,,,,19711144.0,Spandau,Spandau,west,13597
+Stresowplatz,autobus,A5,1971364_west,"52.53362878,13.20678183",,,,,,,,19711061.0,Spandau,Spandau,west,13597
+Rathaus Spandau,autobus,A5,1971365_west,"52.53480744,13.19950552",,,,,,,,1971852.0,Spandau,Spandau,west,13597
+Falkenseerchaussee Ecke Zeppelinstr.,autobus,A5,1971366_west,"52.54751397,13.18465355",,,,,,,,1971267.0,Falkenhagener Feld,Spandau,west,13583
+Waldkrankenhaus,autobus,A5,1971367_west,"52.56214543,13.15834009",,,,,,,,19711183.0,Falkenhagener Feld,Spandau,west,13589
+Nervenklinik,autobus,A5,1971368_west,"52.56234285,13.15848961",,,,,,,,1971719.0,Falkenhagener Feld,Spandau,west,13589
+Roseneck,autobus,A50,1971369_west,"52.47580090,13.28241127",,,,,,,,1971889.0,Schmargendorf,Charlottenburg-Wilmersdorf,west,14199
+Forckenbeckstr. Ecke Hohenzollerndamm,autobus,A50,1971370_west,"52.48218861,13.29004416",,,,,,,,1971280.0,Schmargendorf,Charlottenburg-Wilmersdorf,west,14199
+Rudolstädterstr. Ecke Hohenzollerndamm,autobus,A50,1971371_west,"52.48840192,13.30212240",,,,,,,,1971894.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10713
+Fehrbellinerplatz,autobus,A50,1971372_west,"52.49040639,13.31420422",,,,,,,,1971270.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10707
+Martin-Lutherstr. Ecke Hohenstaufenstr.,autobus,A50,1971373_west,"52.49447316,13.34585881",,,,,,,,1971681.0,Schöneberg,Tempelhof-Schöneberg,west,10777
+Potsdamerstr. Ecke Pallastr.,autobus,A50,1971374_west,"52.49433997,13.36104760",,,,,,,,1971817.0,Schöneberg,Tempelhof-Schöneberg,west,10781
+Mansteinstr. Ecke Yorckstr.,autobus,A50,1971375_west,"52.49334263,13.36714771",,,,,,,,1971668.0,Schöneberg,Tempelhof-Schöneberg,west,10783
+"Marienfelde, Stadtrand-Siedlung",autobus,A52,1971376_west,"52.40243996,13.35280954",,,,,,,,1971677.0,Marienfelde,Tempelhof-Schöneberg,west,12279
+Alt-Marienfelde Ecke Marienfelderallee,autobus,A52,1971377_west,"52.41360215,13.36329882",,,,,,,,197130.0,Marienfelde,Tempelhof-Schöneberg,west,12279
+Lichtenraderdamm Ecke Buckowerchaussee,autobus,A52,1971378_west,"52.41458110,13.40117040",,,,,,,,1971625.0,Lichtenrade,Tempelhof-Schöneberg,west,12107
+Buckowerdamm Ecke Alt-Buckow,autobus,A52,1971379_west,"52.42364383,13.43666051",,,,,,,,1971172.0,Buckow,Neukölln,west,12349
+U-Bhf. Johannisthalerchaussee,autobus,A52,1971380_west,"52.42939879,13.45322919",,,,,,,,19711123.0,Gropiusstadt,Neukölln,west,12351
+Rudowerstr. Ecke Johannisthalerchaussee,autobus,A52,1971381_west,"52.43432389,13.46903435",,,,,,,,1971896.0,Buckow,Neukölln,west,12351
+Wutzkyallee,autobus,A52,1971382_west,"52.42577358,13.47397323",,,,,,,,19711268.0,Gropiusstadt,Neukölln,west,12357
+Efeuweg,autobus,A52,1971383_west,"52.42961976,13.47788676",,,,,,,,1971238.0,Rudow,Neukölln,west,12357
+Stubenrauchstr.,autobus,A52,1971384_west,"52.42413109,13.48548111",,,,,,,,19711065.0,Rudow,Neukölln,west,12357
+"Nikolassee, Alemannenstr.",autobus,A53,1971385_west,"52.42669871,13.19137081",,,,,,,,1971727.0,Nikolassee,Steglitz-Zehlendorf,west,14129
+Krottnaurerstr.,autobus,A53,1971386_west,"52.43404820,13.20664274",,,,,,,,1971568.0,Nikolassee,Steglitz-Zehlendorf,west,14129
+Waldemarplatz,autobus,A53,1971387_west,"52.43775537,13.22018978",,,,,,,,19711181.0,Zehlendorf,Steglitz-Zehlendorf,west,14129
+Argentinischeallee Ecke Matterhornstr.,autobus,A53,1971388_west,"52.43687625,13.23143232",,,,,,,,197161.0,Zehlendorf,Steglitz-Zehlendorf,west,14163
+U-Bhf. Krumme Lanke,autobus,A53,1971389_west,"52.44308075,13.24046555",,,,,,,,19711126.0,Zehlendorf,Steglitz-Zehlendorf,west,14163
+Teltowerdamm Ecke Potsdamerstr.,autobus,A53,1971390_west,"52.43505952,13.26038410",,,,,,,,19711080.0,Zehlendorf,Steglitz-Zehlendorf,west,14169
+Rathaus Zehlendorf,autobus,A53,1971391_west,"52.43320752,13.25953192",,,,,,,,1971856.0,Zehlendorf,Steglitz-Zehlendorf,west,14169
+Knesebeckstr. Ecke Seehofstr.,autobus,A53,1971392_west,"52.42892135,13.26769723",,,,,,,,1971545.0,Zehlendorf,Steglitz-Zehlendorf,west,14167
+Dahlemerweg Ecke Seehofstr.,autobus,A53,1971393_west,"52.42635120,13.27683596",,,,,,,,1971207.0,Zehlendorf,Steglitz-Zehlendorf,west,14167
+4. Ring,autobus,A53,1971394_west,"52.42250631,13.28694906",,,,,,,,19710.0,Lichterfelde,Steglitz-Zehlendorf,west,14167
+Luzernerstr. Ecke Appzellerstr.,autobus,A53,1971395_west,"52.42377074,13.29623079",,,,,,,,1971652.0,Lichterfelde,Steglitz-Zehlendorf,west,12205
+Thunerplatz,autobus,A53,1971396_west,"52.42375897,13.29618487",,,,,,,,19711094.0,Lichterfelde,Steglitz-Zehlendorf,west,12205
+Wiesenbaude,autobus,A53,1971397_west,"52.43049524,13.31180861",,,,,,,,19711227.0,Lichterfelde,Steglitz-Zehlendorf,west,12207
+Ostpreußendamm Ecke Königsberstr.,autobus,A53,1971398_west,"52.43082350,13.31748698",,,,,,,,1971765.0,Lichterfelde,Steglitz-Zehlendorf,west,12207
+Oberhoferplatz,autobus,A53,1971399_west,"52.42410259,13.32817043",,,,,,,,1971736.0,Lichterfelde,Steglitz-Zehlendorf,west,12209
+"Zoo, Hardenbergplatz",autobus,A54,1971400_west,"52.50712139,13.33326399",,,,,,,,19711285.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10623
+Ernst-Reuter-Platz,autobus,A54,1971401_west,"52.51159182,13.32257153",,,,,,,,1971256.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10587
+Cauerstr. Ecke Otto-Suhr-Allee,autobus,A54,1971402_west,"52.51469847,13.31523032",,,,,,,,1971191.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10585
+Richard-Wagner-Platz,autobus,A54,1971403_west,"52.51749099,13.30639710",,,,,,,,1971876.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10585
+Luisenplatz,autobus,A54,1971404_west,"52.52005409,13.29951339",,,,,,,,1971649.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10585
+Fürstenbbrunnerweg Ecke Spandauerdamm,autobus,A54,1971405_west,"52.51838547,13.28014804",,,,,,,,1971307.0,Westend,Charlottenburg-Wilmersdorf,west,14050
+Schloß Ruhwald,autobus,A54,1971406_west,"52.52160458,13.26039687",,,,,,,,1971972.0,Westend,Charlottenburg-Wilmersdorf,west,14050
+U-Bhf. Ruhleben,autobus,A54,1971407_west,"52.52596833,13.24147858",,,,,,,,19711144.0,Spandau,Spandau,west,13597
+Teltowerstr. Ecke Charlottenburgerstr.,autobus,A54,1971408_west,"52.52694633,13.21601948",,,,,,,,19711082.0,Wilhelmstadt,Spandau,west,13597
+Rathaus Spandau,autobus,A54,1971409_west,"52.53480744,13.19950552",,,,,,,,1971852.0,Spandau,Spandau,west,13597
+Moritzstr. Ecke Altstädter Ring,autobus,A54,1971410_west,"52.53860732,13.20075777",,,,,,,,1971705.0,Spandau,Spandau,west,13597
+Wröhmännerpark,autobus,A54,1971411_west,"52.54211749,13.20592436",,,,,,,,19711266.0,Spandau,Spandau,west,13585
+Lynarstr. Ecke Schönwälderstr.,autobus,A54,1971412_west,"52.54847336,13.20079840",,,,,,,,1971653.0,Spandau,Spandau,west,13585
+Hohenzollernring,autobus,A54,1971413_west,"52.55569430,13.20758967",,,,,,,,1971459.0,Hakenfelde,Spandau,west,13587
+Johannesstift,autobus,A54,1971414_west,"52.56762013,13.19185616",,,,,,,,1971498.0,Hakenfelde,Spandau,west,13587
+"Zoo, Hardenbergplatz",autobus,A55,1971415_west,"52.50712139,13.33326399",,,,,,,,19711285.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10623
+Ernst-Reuter-Platz,autobus,A55,1971416_west,"52.51159182,13.32257153",,,,,,,,1971256.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10587
+Cauerstr. Ecke Otto-Suhr-Allee,autobus,A55,1971417_west,"52.51469847,13.31523032",,,,,,,,1971191.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10585
+Richard-Wagner-Platz,autobus,A55,1971418_west,"52.51749099,13.30639710",,,,,,,,1971876.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10585
+Luisenplatz,autobus,A55,1971419_west,"52.52005409,13.29951339",,,,,,,,1971649.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10585
+Osnabrückerstr. Ecke Tauroggenerstr.,autobus,A55,1971420_west,"52.52583432,13.30195116",,,,,,,,1971761.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10589
+Landgericht,autobus,A55,1971421_west,"52.52698926,13.29716765",,,,,,,,1971599.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10589
+Jakob-Kaiser-Platz,autobus,A55,1971422_west,"52.53673970,13.29360488",,,,,,,,1971492.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Quellweg Ecke Nonnendammallee,autobus,A55,1971423_west,"52.53666858,13.26843643",,,,,,,,1971837.0,Siemensstadt,Spandau,west,13629
+Paulsternstr. Ecke Gartenfelderstr.,autobus,A55,1971424_west,"52.54412196,13.24701046",,,,,,,,1971789.0,Haselhorst,Spandau,west,13599
+Zitadellenweg Ecke Am Juliusturm,autobus,A55,1971425_west,"52.53777974,13.21728515",,,,,,,,19711283.0,Haselhorst,Spandau,west,13599
+Carl-Schurzstr. Ecke Am Juliusturm,autobus,A55,1971426_west,"52.53956438,13.20558614",,,,,,,,1971190.0,Spandau,Spandau,west,13597
+Wröhmannerpark,autobus,A55,1971427_west,"52.54211044,13.20592860",,,,,,,,19711265.0,Spandau,Spandau,west,13585
+Hohenzollernring,autobus,A55,1971428_west,"52.55569430,13.20758967",,,,,,,,1971459.0,Hakenfelde,Spandau,west,13587
+Hakenfelde,autobus,A55,1971429_west,"52.56835274,13.21113134",,,,,,,,1971382.0,Hakenfelde,Spandau,west,13587
+U-Bhf. Ruhleben,autobus,A56,1971430_west,"52.52596833,13.24147858",,,,,,,,19711144.0,Spandau,Spandau,west,13597
+Stresowplatz,autobus,A56,1971431_west,"52.53362878,13.20678183",,,,,,,,19711061.0,Spandau,Spandau,west,13597
+"Spandau, Markt",autobus,A56,1971432_west,"52.53758155,13.20379731",,,,,,,,19711031.0,Spandau,Spandau,west,13597
+Wröhmännerpark,autobus,A56,1971433_west,"52.54211749,13.20592436",,,,,,,,19711266.0,Spandau,Spandau,west,13585
+Hohenzollernring,autobus,A56,1971434_west,"52.55569430,13.20758967",,,,,,,,1971459.0,Hakenfelde,Spandau,west,13587
+Hakenfelde,autobus,A56,1971435_west,"52.56835274,13.21113134",,,,,,,,1971382.0,Hakenfelde,Spandau,west,13587
+Zwickauerdamm,autobus,A57,1971436_west,"52.42412841,13.48547693",,,,,,,,19711289.0,Rudow,Neukölln,west,12357
+U-Bhf. Zwickauerdamm,autobus,A57,1971437_west,"52.42316772,13.48417674",,,,,,,,19711154.0,Rudow,Neukölln,west,12353
+Köpenickerstr. Ecke Neuköllnerstr.,autobus,A57,1971438_west,"52.41702876,13.49399001",,,,,,,,1971595.0,Rudow,Neukölln,west,12357
+Kanalstr. Ecke Köpenickerstr.,autobus,A57,1971439_west,"52.42382998,13.51449780",,,,,,,,1971515.0,Rudow,Neukölln,west,12355
+Stubenrauchstr. Ecke Kanalstr.,autobus,A57,1971440_west,"52.43167138,13.49527169",,,,,,,,19711066.0,Rudow,Neukölln,west,12357
+Wannsee,autobus,A6,1971441_west,"52.42192224,13.17584116",,,,,,,,19711193.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Königstr. Ecke Kronprinzessinnenweg,autobus,A6,1971442_west,"52.41992236,13.17534613",,,,,,,,1971589.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Pfaueninselchaussee Ecke Königstr.,autobus,A6,1971443_west,"52.41883990,13.15300828",,,,,,,,1971794.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Rathaus Wannsee,autobus,A6,1971444_west,"52.41844013,13.14887249",,,,,,,,1971855.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Friedenstr. Ecke Königstr.,autobus,A6,1971445_west,"52.41723544,13.13897410",,,,,,,,1971291.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Schäferberg,autobus,A6,1971446_west,"52.41562662,13.12630868",,,,,,,,1971988.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Nikolskoerweg Ecke Königstr.,autobus,A6,1971447_west,"52.41402322,13.10923934",,,,,,,,1971728.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Glienicker Brücke,autobus,A6,1971448_west,"52.41347409,13.09123588",,,,,,,,1971330.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Wittenbergplatz,autobus,A60,1971449_west,"52.50188939,13.34269788",,,,,,,,19711256.0,Schöneberg,Tempelhof-Schöneberg,west,10789
+Breitscheidplatz,autobus,A60,1971450_west,"52.50443806,13.33564616",,,,,,,,1971157.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10789
+Joachimstalerstr. Ecke Kantstr.,autobus,A60,1971451_west,"52.50528819,13.33157531",,,,,,,,1971495.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10623
+Kurfürstendamm Ecke Uhlandstr.,autobus,A60,1971452_west,"52.50251711,13.32521539",,,,,,,,1971575.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10719
+Hohenzollerndamm Ecke Uhlandstr.,autobus,A60,1971453_west,"52.49360507,13.32356754",,,,,,,,1971457.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10717
+Berlinerstr. Ecke Uhlandstr.,autobus,A60,1971454_west,"52.48646943,13.32251323",,,,,,,,197193.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10715
+Rudolf-Mossestr. Ecke Mecklenburgischestr.,autobus,A60,1971455_west,"52.47520639,13.30331398",,,,,,,,1971893.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,14197
+Berkaerstr. Ecke Breitestr.,autobus,A60,1971456_west,"52.47542199,13.29028402",,,,,,,,197189.0,Schmargendorf,Charlottenburg-Wilmersdorf,west,14199
+Roseneck,autobus,A60,1971457_west,"52.47580090,13.28241127",,,,,,,,1971889.0,Schmargendorf,Charlottenburg-Wilmersdorf,west,14199
+Im Dol,autobus,A60,1971458_west,"52.46092680,13.27509201",,,,,,,,1971484.0,Dahlem,Steglitz-Zehlendorf,west,14195
+U-Bhf. Oskar-Helene-Heim,autobus,A60,1971459_west,"52.45027901,13.27036199",,,,,,,,19711139.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Schützallee Ecke Clayallee,autobus,A60,1971460_west,"52.44218525,13.26541814",,,,,,,,19711007.0,Zehlendorf,Steglitz-Zehlendorf,west,14169
+Potsdamerstr. Ecke Clayallee,autobus,A60,1971461_west,"52.43504800,13.26042558",,,,,,,,1971812.0,Zehlendorf,Steglitz-Zehlendorf,west,14169
+Rathaus Zehlendorf,autobus,A60,1971462_west,"52.43320752,13.25953192",,,,,,,,1971856.0,Zehlendorf,Steglitz-Zehlendorf,west,14169
+"Gartenplatz, Feldstr.",autobus,A61,1971463_west,"52.53856590,13.38400528",,,,,,,,1971313.0,Gesundbrunnen,Mitte,west,13355
+U-Bhf. Gesundbrunnen,autobus,A61,1971464_west,"52.54866076,13.38787363",,,,,,,,19711121.0,Gesundbrunnen,Mitte,west,13357
+Pankstr. Ecke Badstr.,autobus,A61,1971465_west,"52.55227404,13.38138720",,,,,,,,1971783.0,Gesundbrunnen,Mitte,west,13357
+Schwedenstr. Ecke Osloerstr.,autobus,A61,1971466_west,"52.55669597,13.37383037",,,,,,,,1971986.0,Gesundbrunnen,Mitte,west,13359
+Pankowerallee Ecke Residenzstr.,autobus,A61,1971467_west,"52.56382050,13.36427069",,,,,,,,1971781.0,Reinickendorf,Reinickendorf,west,13409
+Aroserallee Ecke Lindauerallee,autobus,A61,1971468_west,"52.57375413,13.35199911",,,,,,,,197164.0,Reinickendorf,Reinickendorf,west,13407
+Kurt-Schumacher-Platz,autobus,A61,1971469_west,"52.56343825,13.32713029",,,,,,,,1971581.0,Reinickendorf,Reinickendorf,west,13405
+Zobeltitzstr. Ecke Eichborndamm,autobus,A61,1971470_west,"52.56961382,13.31256034",,,,,,,,19711284.0,Reinickendorf,Reinickendorf,west,13403
+"Wilhemsruherdamm, Sektorengrenze",autobus,A62,1971471_west,"52.59733391,13.36784933",,,,,,,,19711244.0,Märkisches Viertel,Reinickendorf,west,13439
+Treuenbrietzenerstr. Ecke Wilhelmsruherdamm,autobus,A62,1971472_west,"52.59691780,13.36050382",,,,,,,,19711105.0,Märkisches Viertel,Reinickendorf,west,13439
+Eichhorsterweg Ecke Wilhelmsruherdamm,autobus,A62,1971473_west,"52.59622082,13.34761850",,,,,,,,1971243.0,Märkisches Viertel,Reinickendorf,west,13439
+Oranienburgerstr. Ecke Eichborndamm,autobus,A62,1971474_west,"52.59549417,13.33297744",,,,,,,,1971750.0,Wittenau,Reinickendorf,west,13437
+Alt-Wittenau Ecke Oranienburgerstr.,autobus,A62,1971475_west,"52.58969313,13.33418093",,,,,,,,197140.0,Wittenau,Reinickendorf,west,13437
+Bonhoeffer Klinik,autobus,A62,1971476_west,"52.57804915,13.33285893",,,,,,,,1971145.0,Reinickendorf,Reinickendorf,west,13403
+Waldstr. Ecke Ollenhauerstr.,autobus,A62,1971477_west,"52.57547481,13.33213901",,,,,,,,19711186.0,Reinickendorf,Reinickendorf,west,13403
+U-Bhf. Kurt-Schumacher-Platz,autobus,A62,1971478_west,"52.56338157,13.32719916",,,,,,,,19711128.0,Reinickendorf,Reinickendorf,west,13405
+Kaserne Südtor,autobus,A62,1971479_west,"52.55685970,13.30843424",,,,,,,,1971530.0,Tegel,Reinickendorf,west,13405
+Heckerdamm Ecke Schumacherdamm,autobus,A62,1971480_west,"52.53964256,13.29512829",,,,,,,,1971404.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Jakob-Kaiser-Platz,autobus,A62,1971481_west,"52.53673970,13.29360488",,,,,,,,1971492.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Luisenplatz,autobus,A62,1971482_west,"52.52005409,13.29951339",,,,,,,,1971649.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10585
+Ernst-Reuter-Platz,autobus,A62,1971483_west,"52.51159182,13.32257153",,,,,,,,1971256.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10587
+"Zoo, Hardenbergplatz",autobus,A62,1971484_west,"52.50712139,13.33326399",,,,,,,,19711285.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10623
+Radelandstr. Ecke Niederheideweg,autobus,A63,1971485_west,"52.56622419,13.15711670",,,,,,,,1971840.0,Hakenfelde,Spandau,west,13589
+Kisselnallee Ecke Pionierstr.,autobus,A63,1971486_west,"52.55650106,13.18867087",,,,,,,,1971536.0,Hakenfelde,Spandau,west,13589
+Zweibrückerstr. Ecke Falkenseerchaussee,autobus,A63,1971487_west,"52.54675554,13.18877704",,,,,,,,19711288.0,Falkenhagener Feld,Spandau,west,13583
+Rathaus Spandau,autobus,A63,1971488_west,"52.53480744,13.19950552",,,,,,,,1971852.0,Spandau,Spandau,west,13597
+Hochgerichtstr. Ecke Seegefelderstr.,autobus,A63,1971489_west,"52.53829982,13.18341341",,,,,,,,1971444.0,Spandau,Spandau,west,13583
+Seegefelderweg,autobus,A63,1971490_west,"52.54981320,13.12867982",,,,,,,,19711010.0,Staaken,Spandau,west,13591
+Märkisches Zentrum,autobus,A64,1971491_west,"52.59979022,13.35569734",,,,,,,,1971708.0,Märkisches Viertel,Reinickendorf,west,13439
+Eichhorsterweg,autobus,A64,1971492_west,"52.60003603,13.34119460",,,,,,,,1971242.0,Märkisches Viertel,Reinickendorf,west,13435
+Wilhelmsruherdamm Ecke Eichhorsterweg,autobus,A64,1971493_west,"52.59622750,13.34760087",,,,,,,,19711239.0,Märkisches Viertel,Reinickendorf,west,13439
+Roedernallee Ecke Am Nordgraben,autobus,A64,1971494_west,"52.58808451,13.33988440",,,,,,,,1971883.0,Wittenau,Reinickendorf,west,13437
+Tessenowstr. Ecke Roadernallee,autobus,A64,1971495_west,"52.58316973,13.34371490",,,,,,,,19711088.0,Wittenau,Reinickendorf,west,13437
+Humboldt-Krankenhaus,autobus,A64,1971496_west,"52.57241176,13.34743852",,,,,,,,1971472.0,Reinickendorf,Reinickendorf,west,13407
+Holländerstr. Ecke Londonerstr.,autobus,A64,1971497_west,"52.56338729,13.34291859",,,,,,,,1971460.0,Reinickendorf,Reinickendorf,west,13407
+Müllerstr. Ecke Petersallee,autobus,A64,1971498_west,"52.55870654,13.33741189",,,,,,,,1971716.0,Wedding,Mitte,west,13349
+Transvaalstr. Ecke Afrikanischestr.,autobus,A64,1971499_west,"52.55037720,13.33908832",,,,,,,,19711101.0,Wedding,Mitte,west,13351
+Seestr. Ecke Afrikanischestr.,autobus,A64,1971500_west,"52.54624597,13.34402165",,,,,,,,19711012.0,Wedding,Mitte,west,13353
+U-Bhf. Leopoldplatz,autobus,A64,1971501_west,"52.54638728,13.35918263",,,,,,,,19711131.0,Wedding,Mitte,west,13353
+Uferstr. Ecke Badstr.,autobus,A64,1971502_west,"52.55367027,13.37735137",,,,,,,,19711158.0,Gesundbrunnen,Mitte,west,13357
+U-Bhf. Gesundbrunnen,autobus,A64,1971503_west,"52.54866076,13.38787363",,,,,,,,19711121.0,Gesundbrunnen,Mitte,west,13357
+Usedomerstr. Ecke Brunnenstr.,autobus,A64,1971504_west,"52.54111445,13.39377149",,,,,,,,19711167.0,Gesundbrunnen,Mitte,west,13355
+Vinetaplatz,autobus,A64,1971505_west,"52.54113780,13.39842130",,,,,,,,19711176.0,Gesundbrunnen,Mitte,west,13355
+U-Bhf. Seestr.,autobus,A65,1971506_west,"52.55031541,13.35229850",,,,,,,,19711147.0,Wedding,Mitte,west,13347
+Saatwinklerdamm Ecke Seestr.,autobus,A65,1971507_west,"52.53818364,13.32610753",,,,,,,,1971957.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Jakob-Kaiser-Platz,autobus,A65,1971508_west,"52.53673970,13.29360488",,,,,,,,1971492.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Spandauerdamm Ecke Stadtautobahn,autobus,A65,1971509_west,"52.51857413,13.28316049",,,,,,,,19711035.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,14059
+Messedamm Ecke Halenseestr.,autobus,A65,1971510_west,"52.50360101,13.27898255",,,,,,,,1971692.0,Westend,Charlottenburg-Wilmersdorf,west,14055
+Rathenauplatz,autobus,A65,1971511_west,"52.49476692,13.28558323",,,,,,,,1971857.0,Grunewald,Charlottenburg-Wilmersdorf,west,10711
+Hohenzollerndamm Ecke Stadtautobahn,autobus,A65,1971512_west,"52.48792296,13.30056111",,,,,,,,1971456.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10713
+Bundesallee Ecke Stadtautobahn,autobus,A65,1971513_west,"52.47789623,13.32853097",,,,,,,,1971176.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10715
+Innsbruckerplatz,autobus,A65,1971514_west,"52.47854551,13.34405869",,,,,,,,1971487.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+Hauptstr. Ecke Dominicusstr.,autobus,A65,1971515_west,"52.48178378,13.34841821",",+nan",,,,,,,1971399.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+Tempelhoferdamm Ecke Tempelhof,autobus,A65,1971516_west,"52.46600280,13.38560156",,,,,,,,19711087.0,Tempelhof,Tempelhof-Schöneberg,west,12099
+Oberlandstr. Ecke Germaniastr.,autobus,A65,1971517_west,"52.46346249,13.40208263",,,,,,,,1971737.0,Tempelhof,Tempelhof-Schöneberg,west,12099
+Hermannstr. Ecke Silbersteinstr.,autobus,A65,1971518_west,"52.46644333,13.43195485",,,,,,,,1971433.0,Neukölln,Neukölln,west,12051
+Karl-Marxstr. Ecke Silbersteinstr.,autobus,A65,1971519_west,"52.46761009,13.44203181",,,,,,,,1971521.0,Neukölln,Neukölln,west,12057
+Schulenburgpark,autobus,A65,1971520_west,"52.46654457,13.47034123",,,,,,,,1971980.0,Neukölln,Neukölln,west,12057
+"Zoo, Hardenbergplatz",autobus,A66,1971521_west,"52.50712139,13.33326399",,,,,,,,19711285.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10623
+Leibnizstr. Ecke Kantstr.,autobus,A66,1971522_west,"52.50628812,13.31395372",,,,,,,,1971607.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10625
+Wilmersdorferstr. Ecke Kantstr.,autobus,A66,1971523_west,"52.50670416,13.30667455",,,,,,,,19711246.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10627
+Amtsgericht,autobus,A66,1971524_west,"52.50682618,13.29739145",,,,,,,,197157.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10627
+Omnibusbahnhof,autobus,A66,1971525_west,"52.50639049,13.28104633",,,,,,,,1971747.0,Westend,Charlottenburg-Wilmersdorf,west,14057
+Kronprinzessinenweg Ecke Spanischeallee,autobus,A66,1971526_west,"52.43380567,13.18940519",,,,,,,,1971567.0,Nikolassee,Steglitz-Zehlendorf,west,14129
+Wannsee,autobus,A66,1971527_west,"52.42192224,13.17584116",,,,,,,,19711193.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Am Großen Wannsee Ecke Königsstr.,autobus,A66,1971528_west,"52.42050111,13.16719995",,,,,,,,197146.0,Wannsee,Steglitz-Zehlendorf,west,14109
+"Stölpchensee, Glienickerstr.",autobus,A66,1971529_west,"52.41159251,13.13610395",,,,,,,,19711068.0,Wannsee,Steglitz-Zehlendorf,west,14109
+U-Bhf. Hallesches Tor,autobus,A67,1971530_west,"52.49791002,13.39130767",,,,,,,,19711122.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10969
+Moritzplatz,autobus,A67,1971531_west,"52.50387355,13.40998333",,,,,,,,1971703.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10969
+U-Bhf. Kottbusser Tor,autobus,A67,1971532_west,"52.49912276,13.41824117",,,,,,,,19711125.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10999
+Hermannplatz,autobus,A67,1971533_west,"52.48778873,13.42539348",,,,,,,,1971429.0,Neukölln,Neukölln,west,10967
+Hertzbergplatz,autobus,A67,1971534_west,"52.47748711,13.44859816",,,,,,,,1971437.0,Neukölln,Neukölln,west,12059
+Grenzallee Ecke Naumbürgerstr.,autobus,A67,1971535_west,"52.46455229,13.44831811",,,,,,,,1971352.0,Neukölln,Neukölln,west,12057
+Karl-Marxstr. Ecke Grenzallee,autobus,A67,1971536_west,"52.46300527,13.44491970",,,,,,,,1971520.0,Britz,Neukölln,west,12359
+Blaschkoallee Ecke Buschkrugallee,autobus,A67,1971537_west,"52.45253618,13.45218571",,,,,,,,1971138.0,Britz,Neukölln,west,12359
+Johannisthalerchaussee Ecke Rudowerstr.,autobus,A67,1971538_west,"52.43434764,13.46903877",,,,,,,,1971502.0,Buckow,Neukölln,west,12351
+Clayallee Ecke Königin-Luisestr.,autobus,A68,1971539_west,"52.46044681,13.27489827",,,,,,,,1971199.0,Dahlem,Steglitz-Zehlendorf,west,14195
+U-Bhf. Dahlem-Dorf,autobus,A68,1971540_west,"52.45807070,13.28970695",,,,,,,,19711114.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Hermann-Ehlers-Platz,autobus,A68,1971541_west,"52.45669169,13.32159784",,,,,,,,1971428.0,Steglitz,Steglitz-Zehlendorf,west,12165
+Bismarckstr. Ecke Bergstr.,autobus,A68,1971542_west,"52.45863794,13.33929802",,,,,,,,1971128.0,Steglitz,Steglitz-Zehlendorf,west,12169
+Attilaplatz,autobus,A68,1971543_west,"52.45590180,13.37651250",,,,,,,,197168.0,Tempelhof,Tempelhof-Schöneberg,west,12105
+Tempelhof,autobus,A68,1971544_west,"52.47100866,13.38566958",,,,,,,,19711083.0,Tempelhof,Tempelhof-Schöneberg,west,12099
+Dauerwaldweg Ecke Eichkampstr.,autobus,A69,1971545_west,"52.48944919,13.26049210",,,,,,,,1971211.0,Grunewald,Charlottenburg-Wilmersdorf,west,14055
+Deutschlandhalle,autobus,A69,1971546_west,"52.49962818,13.26898769",,,,,,,,1971216.0,Westend,Charlottenburg-Wilmersdorf,west,14055
+Henriettenplatz,autobus,A69,1971547_west,"52.49701780,13.29033951",,,,,,,,1971427.0,Halensee,Charlottenburg-Wilmersdorf,west,10711
+Joachim-Friedrichstr. Ecke Kurfürstendamm,autobus,A69,1971548_west,"52.49797143,13.29622564",,,,,,,,1971494.0,Halensee,Charlottenburg-Wilmersdorf,west,10711
+Wilmersdorferstr. Ecke Kurfürstendamm,autobus,A69,1971549_west,"52.50002845,13.30712512",,,,,,,,19711247.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10629
+Olivaerplatz,autobus,A69,1971550_west,"52.50060276,13.31311062",,,,,,,,1971743.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10707
+Uhlandstr. Ecke Lietzenburgerstr.,autobus,A69,1971551_west,"52.50002088,13.32488932",,,,,,,,19711161.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10719
+Joachimstalerstr. Ecke Lietzenburgerstr.,autobus,A69,1971552_west,"52.50048420,13.33087186",,,,,,,,1971497.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10789
+Breitscheidplatz,autobus,A69,1971553_west,"52.50443806,13.33564616",,,,,,,,1971157.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10789
+Bayreutherstr. Ecke Kurfürstenstr.,autobus,A69,1971554_west,"52.50431823,13.34435721",,,,,,,,197182.0,Tiergarten,Mitte,west,10787
+Lützowplatz,autobus,A69,1971555_west,"52.50502902,13.35182287",,,,,,,,1971655.0,Tiergarten,Mitte,west,10785
+Tiergartenstr. Ecke Hofjägerallee,autobus,A69,1971556_west,"52.50957038,13.35136780",,,,,,,,19711098.0,Tiergarten,Mitte,west,10785
+Großer Stern,autobus,A69,1971557_west,"52.51452472,13.34993319",,,,,,,,1971357.0,Tiergarten,Mitte,west,10557
+Kongreßhalle,autobus,A69,1971558_west,"52.51763253,13.36319698",,,,,,,,1971552.0,Tiergarten,Mitte,west,10557
+Reichstag,autobus,A69,1971559_west,"52.51779919,13.37599641",,,,,,,,1971865.0,Tiergarten,Mitte,west,10557
+"Wollankstr., Sektorengrenze",autobus,A70,1971560_west,"52.56430360,13.39296545",,,,,,,,19711261.0,Gesundbrunnen,Mitte,west,13359
+Pankstr. Ecke Badstr.,autobus,A70,1971561_west,"52.55227404,13.38138720",,,,,,,,1971783.0,Gesundbrunnen,Mitte,west,13357
+Weddingplatz,autobus,A70,1971562_west,"52.54113612,13.36850103",,,,,,,,19711207.0,Wedding,Mitte,west,13347
+U-Bhf. Turmstr.,autobus,A70,1971563_west,"52.52632424,13.34145545",,,,,,,,19711153.0,Moabit,Mitte,west,10551
+Rathaus Tiergarten,autobus,A70,1971564_west,"52.52649086,13.33835898",,,,,,,,1971854.0,Moabit,Mitte,west,10551
+Wiebestr. Ecke Huttenstr.,autobus,A70,1971565_west,"52.52837374,13.31943035",,,,,,,,19711225.0,Moabit,Mitte,west,10553
+"Wilhelmsruh, Kopenhagenerstr.",autobus,A71,1971566_west,"52.58107902,13.36368651",,,,,,,,19711236.0,Reinickendorf,Reinickendorf,west,13407
+Schäfersee,autobus,A71,1971567_west,"52.56436017,13.36396169",,,,,,,,1971989.0,Reinickendorf,Reinickendorf,west,13409
+Osloerstr. Ecke Prinzenstr.,autobus,A71,1971568_west,"52.55588361,13.38424294",,,,,,,,1971759.0,Gesundbrunnen,Mitte,west,13359
+U-Bhf. Gesundbrunnen,autobus,A71,1971569_west,"52.54866076,13.38787363",,,,,,,,19711121.0,Gesundbrunnen,Mitte,west,13357
+Ramlerstr. Ecke Swinemünderstr.,autobus,A71,1971570_west,"52.54740372,13.39425138",,,,,,,,1971845.0,Gesundbrunnen,Mitte,west,13355
+Vinetaplatz,autobus,A71,1971571_west,"52.54113780,13.39842130",,,,,,,,19711176.0,Gesundbrunnen,Mitte,west,13355
+"Alt-Reinickendorf, Klemkestr. Ecke Kopenhagenerstr.",autobus,A72,1971572_west,"52.57425638,13.35917002",,,,,,,,197135.0,Reinickendorf,Reinickendorf,west,13407
+Pankowerallee Ecke Residenzstr.,autobus,A72,1971573_west,"52.56382050,13.36427069",,,,,,,,1971781.0,Reinickendorf,Reinickendorf,west,13409
+Luise-Schröder-Platz,autobus,A72,1971574_west,"52.55757020,13.36547078",,,,,,,,1971648.0,Wedding,Mitte,west,13359
+Weddingplatz,autobus,A72,1971575_west,"52.54113612,13.36850103",,,,,,,,19711207.0,Wedding,Mitte,west,13347
+Rathenowerstr. Ecke Perlebergerstr.,autobus,A72,1971576_west,"52.53249887,13.35056676",,,,,,,,1971858.0,Moabit,Mitte,west,10559
+U-Bhf. Turmstr.,autobus,A72,1971577_west,"52.52632424,13.34145545",,,,,,,,19711153.0,Moabit,Mitte,west,10551
+Wiebestr. Ecke Huttenstr.,autobus,A72,1971578_west,"52.52837374,13.31943035",,,,,,,,19711225.0,Moabit,Mitte,west,10553
+Tauroggenerstr. Ecke Osnabrückerstr.,autobus,A72,1971579_west,"52.52584887,13.30191558",,,,,,,,19711075.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10589
+Landgericht,autobus,A72,1971580_west,"52.52698926,13.29716765",,,,,,,,1971599.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10589
+Jakob-Kaiser-Platz,autobus,A72,1971581_west,"52.53673970,13.29360488",,,,,,,,1971492.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Quellweg Ecke Nonnendammallee,autobus,A72,1971582_west,"52.53666858,13.26843643",,,,,,,,1971837.0,Siemensstadt,Spandau,west,13629
+Paulsternstr. Ecke Nonnendammallee- Gartenfeld,autobus,A72,1971583_west,"52.54414288,13.24709892",,,,,,,,1971791.0,Haselhorst,Spandau,west,13599
+"Zoo, Hardenbergplatz",autobus,A73,1971584_west,"52.50712139,13.33326399",,,,,,,,19711285.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10623
+Wittenbergplatz,autobus,A73,1971585_west,"52.50188939,13.34269788",,,,,,,,19711256.0,Schöneberg,Tempelhof-Schöneberg,west,10789
+Grunewaldstr. Ecke Martin-Lutherstr.,autobus,A73,1971586_west,"52.48905218,13.34501538",,,,,,,,1971363.0,Schöneberg,Tempelhof-Schöneberg,west,10825
+Hauptstr. Ecke Dominicusstr.,autobus,A73,1971587_west,"52.48178378,13.34841821",",+nan",,,,,,,1971399.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+Berlinickeplatz,autobus,A73,1971588_west,"52.46607292,13.37851641",,,,,,,,197195.0,Tempelhof,Tempelhof-Schöneberg,west,12103
+Tempelhoferdamm Ecke Tempelhof,autobus,A73,1971589_west,"52.46600280,13.38560156",,,,,,,,19711087.0,Tempelhof,Tempelhof-Schöneberg,west,12099
+Gottlieb-Dunkelstr. Ecke Germaniastr.,autobus,A73,1971590_west,"52.46056888,13.41797540",,,,,,,,1971338.0,Tempelhof,Tempelhof-Schöneberg,west,12099
+Britzerdamm Ecke Blaschkoallee,autobus,A73,1971591_west,"52.45261809,13.43858749",,,,,,,,1971162.0,Britz,Neukölln,west,12347
+Buschkrug Ecke Blaschkoallee,autobus,A73,1971592_west,"52.45251151,13.45221785",,,,,,,,1971183.0,Britz,Neukölln,west,12359
+Königin-Elisabethstr. U-Bhf. Kaiserdamm,autobus,A74,1971593_west,"52.51002325,13.28179511",,,,,,,,1971584.0,Westend,Charlottenburg-Wilmersdorf,west,14057
+Spandauerdamm Ecke Königin-Elisabethstr.,autobus,A74,1971594_west,"52.51837003,13.28016802",,,,,,,,19711034.0,Westend,Charlottenburg-Wilmersdorf,west,14050
+Schlossstr. Ecke Spandauerdamm,autobus,A74,1971595_west,"52.51944984,13.29604055",,,,,,,,1971971.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,14059
+Sophie-Charlotten-Platz,autobus,A74,1971596_west,"52.51094811,13.29649994",,,,,,,,19711026.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,14059
+Kaiser-Friedrichstr. Ecke Kantstr.,autobus,A74,1971597_west,"52.50678051,13.30233444",,,,,,,,1971508.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10627
+Wilmersdorferstr. Ecke Stuttgarterplatz,autobus,A74,1971598_west,"52.50565911,13.30697514",,,,,,,,19711248.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10627
+Kurfürstendamm Ecke Wilmersdorferstr.,autobus,A74,1971599_west,"52.50000560,13.30703748",,,,,,,,1971576.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10629
+Fehrbellinerplatz,autobus,A74,1971600_west,"52.49040639,13.31420422",,,,,,,,1971270.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10707
+Bundesallee Ecke Berlinerstr.,autobus,A74,1971601_west,"52.48734072,13.33096201",,,,,,,,1971175.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10715
+Hauptstr. Ecke Dominicusstr.,autobus,A74,1971602_west,"52.48178378,13.34841821",",+nan",,,,,,,1971399.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+Gotenstr. Ecke Sachsenstr.,autobus,A74,1971603_west,"52.47544249,13.35987943",,,,,,,,1971337.0,Schöneberg,Tempelhof-Schöneberg,west,10829
+Alboinstr. Ecke Sachsenstr.,autobus,A74,1971604_west,"52.46985637,13.37221719",,,,,,,,197111.0,Tempelhof,Tempelhof-Schöneberg,west,12103
+Alboinplatz,autobus,A74,1971605_west,"52.46105996,13.36978715",,,,,,,,197110.0,Schöneberg,Tempelhof-Schöneberg,west,12103
+Lindenhof,autobus,A74,1971606_west,"52.45993054,13.36155390",,,,,,,,1971634.0,Schöneberg,Tempelhof-Schöneberg,west,12105
+Munsterdamm Ecke Steglitzerdamm,autobus,A75,1971607_west,"52.45003045,13.34670287",,,,,,,,1971706.0,Steglitz,Steglitz-Zehlendorf,west,12169
+Bismarckstr. Ecke Steglitzerdamm,autobus,A75,1971608_west,"52.45103871,13.33794952","nan, nan",,,,,,,1971130.0,Steglitz,Steglitz-Zehlendorf,west,12169
+Lauenburgerplatz,autobus,A75,1971609_west,"52.46198584,13.33927388",,,,,,,,1971604.0,Steglitz,Steglitz-Zehlendorf,west,12157
+Kaisereiche,autobus,A75,1971610_west,"52.46896806,13.33261489",,,,,,,,1971512.0,Friedenau,Tempelhof-Schöneberg,west,12161
+Innsbruckerplatz,autobus,A75,1971611_west,"52.47854551,13.34405869",,,,,,,,1971487.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+Kaiser-Wilhelm-Platz,autobus,A75,1971612_west,"52.48632925,13.35655627",,,,,,,,1971509.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+U-Bhf. Bülowstr.,autobus,A75,1971613_west,"52.49787470,13.36212460",,,,,,,,19711113.0,Schöneberg,Tempelhof-Schöneberg,west,10783
+Schöneberger Ufer Ecke Potsdamerstr.,autobus,A75,1971614_west,"52.50582686,13.36826385",,,,,,,,1971991.0,Tiergarten,Mitte,west,10785
+Askanischerplatz,autobus,A75,1971615_west,"52.50447796,13.38228227",,,,,,,,197166.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10963
+U-Bhf. Kochstr.,autobus,A75,1971616_west,"52.50669824,13.39050322",,,,,,,,19711124.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10969
+Lindenstr. Ecke Oranienstr.,autobus,A75,1971617_west,"52.50708473,13.39830086",,,,,,,,1971639.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10969
+U-Bhf. Moritzplatz,autobus,A75,1971618_west,"52.50366900,13.41055755",,,,,,,,19711136.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10969
+Spreewaldplatz,autobus,A75,1971619_west,"52.49746663,13.43173833",,,,,,,,19711042.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10999
+Sonnenallee Ecke Pannierstr.,autobus,A75,1971620_west,"52.48609620,13.43021786",,,,,,,,19711024.0,Neukölln,Neukölln,west,12047
+Hermannplatz,autobus,A75,1971621_west,"52.48778873,13.42539348",,,,,,,,1971429.0,Neukölln,Neukölln,west,10967
+Walter-Schreiber-Platz,autobus,A76,1971622_west,"52.46503826,13.32846580",,,,,,,,19711187.0,Friedenau,Tempelhof-Schöneberg,west,12161
+Bismarckstr. Ecke Feuerbachstr.,autobus,A76,1971623_west,"52.46451202,13.33893343",,,,,,,,1971129.0,Steglitz,Steglitz-Zehlendorf,west,12163
+Göttingerstr.,autobus,A76,1971624_west,"52.46138678,13.34502109",,,,,,,,1971374.0,Steglitz,Steglitz-Zehlendorf,west,12157
+Priesterweg,autobus,A76,1971625_west,"52.45843974,13.35495481",,,,,,,,1971826.0,Schöneberg,Tempelhof-Schöneberg,west,12169
+Attilastr. Ecke Gersdorferstr.,autobus,A76,1971626_west,"52.44968868,13.36681824",,,,,,,,197169.0,Tempelhof,Tempelhof-Schöneberg,west,12105
+Prühßstr. Ecke Ringstr.,autobus,A76,1971627_west,"52.44249987,13.37782102",,,,,,,,1971831.0,Mariendorf,Tempelhof-Schöneberg,west,12105
+Großbeerenstr. Ecke Rathausstr.,autobus,A76,1971628_west,"52.43922302,13.38163558",,,,,,,,1971355.0,Mariendorf,Tempelhof-Schöneberg,west,12107
+U-Bhf. Alt-Mariendorf,autobus,A76,1971629_west,"52.44020263,13.38729700",,,,,,,,19711110.0,Mariendorf,Tempelhof-Schöneberg,west,12107
+Rennbahn,autobus,A76,1971630_west,"52.43151989,13.39150823",,,,,,,,1971871.0,Mariendorf,Tempelhof-Schöneberg,west,12107
+Säntisstr.,autobus,A76,1971631_west,"52.41320162,13.37845743",,,,,,,,19711072.0,Marienfelde,Tempelhof-Schöneberg,west,12277
+Buckowerchaussee Ecke Mariendorferdamm,autobus,A76,1971632_west,"52.41454962,13.40118244",,,,,,,,1971171.0,Lichtenrade,Tempelhof-Schöneberg,west,12349
+Goethestr.,autobus,A76,1971633_west,"52.40437395,13.40619479",,,,,,,,1971334.0,Lichtenrade,Tempelhof-Schöneberg,west,12305
+Rehagenerstr. Ecke Bahnhofstr.,autobus,A76,1971634_west,"52.38668952,13.40326067",,,,,,,,1971862.0,Lichtenrade,Tempelhof-Schöneberg,west,12305
+Blohmstr. Ecke Illigstr.,autobus,A76,1971635_west,"52.38900643,13.38562457",,,,,,,,1971140.0,Lichtenrade,Tempelhof-Schöneberg,west,12307
+Britzerallee Ecke Nobelstr.,autobus,A77,1971636_west,"52.46042696,13.47210181",,,,,,,,1971160.0,Neukölln,Neukölln,west,12057
+U-Bhf. Neukölln,autobus,A77,1971637_west,"52.46951740,13.44165343",,,,,,,,19711138.0,Neukölln,Neukölln,west,12055
+Hermannstr. Ecke Mariendorferweg,autobus,A77,1971638_west,"52.46468685,13.43290688",,,,,,,,1971432.0,Neukölln,Neukölln,west,12051
+Eisenacherstr. Ecke Rixdorferstr.,autobus,A77,1971639_west,"52.44672796,13.40200540",,,,,,,,1971247.0,Mariendorf,Tempelhof-Schöneberg,west,12109
+U-Bhf. Alt-Mariendorf,autobus,A77,1971640_west,"52.44020263,13.38729700",,,,,,,,19711110.0,Mariendorf,Tempelhof-Schöneberg,west,12107
+"Marienfelde, Daimlerstr.",autobus,A77,1971641_west,"52.42310029,13.38271915",,,,,,,,1971676.0,Marienfelde,Tempelhof-Schöneberg,west,12277
+U-Bhf. Alt-Mariendorf,autobus,A78,1971642_west,"52.44020263,13.38729700",,,,,,,,19711110.0,Mariendorf,Tempelhof-Schöneberg,west,12107
+Rennbahn,autobus,A78,1971643_west,"52.43151989,13.39150823",,,,,,,,1971871.0,Mariendorf,Tempelhof-Schöneberg,west,12107
+Säntisstr.,autobus,A78,1971644_west,"52.41320162,13.37845743",,,,,,,,19711072.0,Marienfelde,Tempelhof-Schöneberg,west,12277
+Quarzweg Ecke Tauernallee,autobus,A78,1971645_west,"52.42783434,13.40499357",,,,,,,,1971836.0,Mariendorf,Tempelhof-Schöneberg,west,12107
+Marienfelderchaussee Ecke Quarzweg,autobus,A78,1971646_west,"52.41826123,13.41687624",,,,,,,,1971678.0,Buckow,Neukölln,west,12349
+Alt-Buckow Ecke Buckowerdamm,autobus,A78,1971647_west,"52.42365120,13.43663595",,,,,,,,197118.0,Buckow,Neukölln,west,12349
+Leopoldplatz,autobus,A79,1971648_west,"52.54647397,13.35923348",,,,,,,,1971617.0,Wedding,Mitte,west,13353
+Reinickdorferstr. Ecke Schulstr.,autobus,A79,1971649_west,"52.55156248,13.36735626",,,,,,,,1971868.0,Wedding,Mitte,west,13347
+Osloerstr. Ecke Schwedenstr.,autobus,A79,1971650_west,"52.55665602,13.37386300",,,,,,,,1971760.0,Gesundbrunnen,Mitte,west,13359
+Pankowerallee Ecke Residenzstr.,autobus,A79,1971651_west,"52.56382050,13.36427069",,,,,,,,1971781.0,Reinickendorf,Reinickendorf,west,13409
+Mittelbruchzeile,autobus,A79,1971652_west,"52.56732845,13.37281394",,,,,,,,1971696.0,Reinickendorf,Reinickendorf,west,13409
+Raschdorffstr.,autobus,A79,1971653_west,"52.57030596,13.36998249",,,,,,,,1971846.0,Reinickendorf,Reinickendorf,west,13409
+Sommerstr. Ecke Klemkestr.,autobus,A79,1971654_west,"52.57476543,13.37351184",,,,,,,,19711019.0,Reinickendorf,Reinickendorf,west,13409
+U-Bhf. Ruhleben,autobus,A80,1971655_west,"52.52596833,13.24147858",,,,,,,,19711144.0,Spandau,Spandau,west,13597
+Stresowplatz,autobus,A80,1971656_west,"52.53362878,13.20678183",,,,,,,,19711061.0,Spandau,Spandau,west,13597
+Rathaus Spandau,autobus,A80,1971657_west,"52.53480744,13.19950552",,,,,,,,1971852.0,Spandau,Spandau,west,13597
+Nauenerstr. Ecke Brunsbüttelerdamm,autobus,A80,1971658_west,"52.53407400,13.18166331",,,,,,,,1971717.0,Spandau,Spandau,west,13581
+Magistratsweg Ecke Brunsbüttelerdamm,autobus,A80,1971659_west,"52.53308686,13.15795581",,,,,,,,1971659.0,Staaken,Spandau,west,13591
+Nennhauserdamm Ecke Brunsbüttelerdamm,autobus,A80,1971660_west,"52.53247953,13.14157171",,,,,,,,1971718.0,Staaken,Spandau,west,13591
+U-Bhf. Friedrich-Wilhelm-Platz,autobus,A81,1971661_west,"52.47196472,13.32845005",,,,,,,,19711117.0,Friedenau,Tempelhof-Schöneberg,west,12161
+Walter-Schreiber-Platz,autobus,A81,1971662_west,"52.46503826,13.32846580",,,,,,,,19711187.0,Friedenau,Tempelhof-Schöneberg,west,12161
+Bismarckstr. Ecke Bergstr.,autobus,A81,1971663_west,"52.45863794,13.33929802",,,,,,,,1971128.0,Steglitz,Steglitz-Zehlendorf,west,12169
+Steglitzerdamm Ecke Halskestr.,autobus,A81,1971664_west,"52.45001256,13.34671724",,,,,,,,19711051.0,Steglitz,Steglitz-Zehlendorf,west,12169
+Leonorenstr. Ecke Kaiser-Wilhelmstr.,autobus,A81,1971665_west,"52.43624039,13.34578808",,,,,,,,1971614.0,Lankwitz,Steglitz-Zehlendorf,west,12247
+"Lankwitz, Kirche",autobus,A81,1971666_west,"52.43629187,13.34574539",,,,,,,,1971603.0,Lankwitz,Steglitz-Zehlendorf,west,12247
+"Alt-Lankwitz, Dorfaue",autobus,A81,1971667_west,"52.43908383,13.35441775",,,,,,,,197125.0,Lankwitz,Steglitz-Zehlendorf,west,12247
+Alt-Mariendorf Ecke Am Heidefriedhof,autobus,A81,1971668_west,"52.44081073,13.39178001",,,,,,,,197129.0,Mariendorf,Tempelhof-Schöneberg,west,12107
+Alt-Lichtenrade Ecke Goethestr.,autobus,A82,1971670_west,"52.40439004,13.40615246",,,,,,,,197126.0,Lichtenrade,Tempelhof-Schöneberg,west,12305
+Barnetstr. Ecke Halker Zeile,autobus,A82,1971671_west,"52.39446331,13.40155292",,,,,,,,197176.0,Lichtenrade,Tempelhof-Schöneberg,west,12305
+Illigstr. Ecke Schichauweg,autobus,A82,1971672_west,"52.39766182,13.38515348",,,,,,,,1971482.0,Lichtenrade,Tempelhof-Schöneberg,west,12307
+Blohmstr. Ecke Illigstr.,autobus,A82,1971673_west,"52.38900643,13.38562457",,,,,,,,1971140.0,Lichtenrade,Tempelhof-Schöneberg,west,12307
+Kirchhainerdamm Ecke Wittelsbacherstr.,autobus,A82,1971674_west,"52.38290971,13.41316349",,,,,,,,1971535.0,Lichtenrade,Tempelhof-Schöneberg,west,12309
+Pechsteinstr. Ecke Wittelsbacherstr.,autobus,A82,1971675_west,"52.38560036,13.42509529",,,,,,,,1971792.0,Lichtenrade,Tempelhof-Schöneberg,west,12309
+Würzburgerstr. Ecke Bambergerstr.,autobus,A82,1971676_west,"52.38811864,13.41925468",,,,,,,,19711270.0,Lichtenrade,Tempelhof-Schöneberg,west,12309
+Potsdamerstr. Ecke Alt-Lichtenrade,autobus,A82,1971677_west,"52.40451718,13.40686349",,,,,,,,1971816.0,Lichtenrade,Tempelhof-Schöneberg,west,12305
+Nettelbeckplatz,autobus,A83,1971678_west,"52.54464512,13.37015454",,,,,,,,1971720.0,Wedding,Mitte,west,13347
+Weddingplatz,autobus,A83,1971679_west,"52.54113612,13.36850103",,,,,,,,19711207.0,Wedding,Mitte,west,13347
+Tegelerstr. Ecke Fennstr.,autobus,A83,1971680_west,"52.53790384,13.36162124",,,,,,,,19711078.0,Wedding,Mitte,west,10557
+Washingtonplatz,autobus,A83,1971681_west,"52.52421576,13.37059958",,,,,,,,19711203.0,Moabit,Mitte,west,10557
+Schöneberger Ufer Ecke Potsdamerstr.,autobus,A83,1971682_west,"52.50582686,13.36826385",,,,,,,,1971991.0,Tiergarten,Mitte,west,10785
+U-Bhf. Bülowstr.,autobus,A83,1971683_west,"52.49787470,13.36212460",,,,,,,,19711113.0,Schöneberg,Tempelhof-Schöneberg,west,10783
+Kaiser-Wilhelm-Platz,autobus,A83,1971684_west,"52.48632925,13.35655627",,,,,,,,1971509.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+Innsbruckerplatz,autobus,A83,1971685_west,"52.47854551,13.34405869",,,,,,,,1971487.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+Grazerplatz,autobus,A83,1971686_west,"52.46714787,13.34417931",,,,,,,,1971345.0,Schöneberg,Tempelhof-Schöneberg,west,12157
+Bergstr. Ecke Torwaldsenstr.,autobus,A83,1971687_west,"52.45912569,13.34773409",,,,,,,,197188.0,Schöneberg,Tempelhof-Schöneberg,west,12157
+Steglitzerdamm Ecke Halskestr.,autobus,A83,1971688_west,"52.45001256,13.34671724",,,,,,,,19711051.0,Steglitz,Steglitz-Zehlendorf,west,12169
+"Lankwitz, Kirche",autobus,A83,1971689_west,"52.43629187,13.34574539",,,,,,,,1971603.0,Lankwitz,Steglitz-Zehlendorf,west,12247
+Malteserstr. Ecke Schneiderstr.,autobus,A83,1971690_west,"52.43336406,13.35303665",,,,,,,,1971667.0,Lankwitz,Steglitz-Zehlendorf,west,12249
+Belßstr. Ecke Malteserstr.,autobus,A83,1971691_west,"52.42913176,13.35464322",,,,,,,,197186.0,Lankwitz,Steglitz-Zehlendorf,west,12249
+Preysingstr. Ecke Belßstr.,autobus,A83,1971692_west,"52.42719108,13.36585487",,,,,,,,1971825.0,Lankwitz,Steglitz-Zehlendorf,west,12249
+Ringstr. Ecke Weißwasserweg,autobus,A84,1971693_west,"52.43427707,13.28748246",,,,,,,,1971880.0,Lichterfelde,Steglitz-Zehlendorf,west,12205
+"Lichterfelde, Klinikum",autobus,A84,1971694_west,"52.44065072,13.31616654",,,,,,,,1971629.0,Lichterfelde,Steglitz-Zehlendorf,west,12203
+Händelplatz,autobus,A84,1971695_west,"52.44999254,13.31541931",,,,,,,,1971476.0,Lichterfelde,Steglitz-Zehlendorf,west,12203
+Friedenauer Brücke,autobus,A84,1971696_west,"52.46713687,13.33767978",,,,,,,,1971290.0,Schöneberg,Tempelhof-Schöneberg,west,12157
+Kaiser-Wilhelm-Platz,autobus,A84,1971697_west,"52.48632925,13.35655627",,,,,,,,1971509.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+U-Bhf. Kurfürstenstr.,autobus,A84,1971698_west,"52.49972762,13.36274916",,,,,,,,19711127.0,Tiergarten,Mitte,west,10785
+Holtheimerweg,autobus,A85,1971699_west,"52.40993443,13.30339072",,,,,,,,1971463.0,Lichterfelde,Steglitz-Zehlendorf,west,12207
+Ostpreußendamm Ecke Wismarerstr.,autobus,A85,1971700_west,"52.41788160,13.30522122",,,,,,,,1971766.0,Lichterfelde,Steglitz-Zehlendorf,west,12207
+Thunerplatz,autobus,A85,1971701_west,"52.42375897,13.29618487",,,,,,,,19711094.0,Lichterfelde,Steglitz-Zehlendorf,west,12205
+Rittberg-Krankenhaus,autobus,A85,1971702_west,"52.42987952,13.28896146",,,,,,,,1971881.0,Lichterfelde,Steglitz-Zehlendorf,west,12205
+Drakestr.,autobus,A85,1971703_west,"52.44573369,13.29372237",,,,,,,,1971229.0,Lichterfelde,Steglitz-Zehlendorf,west,12203
+Moltkestr.,autobus,A85,1971704_west,"52.44041562,13.31628979",,,,,,,,1971701.0,Lichterfelde,Steglitz-Zehlendorf,west,12203
+Händelplatz,autobus,A85,1971705_west,"52.44999254,13.31541931",,,,,,,,1971476.0,Lichterfelde,Steglitz-Zehlendorf,west,12203
+Rathaus Steglitz,autobus,A85,1971706_west,"52.45683245,13.32075740",,,,,,,,1971853.0,Steglitz,Steglitz-Zehlendorf,west,12165
+Walter-Schreiber-Platz,autobus,A85,1971707_west,"52.46503826,13.32846580",,,,,,,,19711187.0,Friedenau,Tempelhof-Schöneberg,west,12161
+Kaisereiche,autobus,A85,1971708_west,"52.46896806,13.33261489",,,,,,,,1971512.0,Friedenau,Tempelhof-Schöneberg,west,12161
+Innsbruckerplatz,autobus,A85,1971709_west,"52.47854551,13.34405869",,,,,,,,1971487.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+Rathaus Schöneberg,autobus,A85,1971710_west,"52.48515474,13.34508660",,,,,,,,1971850.0,Schöneberg,Tempelhof-Schöneberg,west,10825
+Grunewaldstr. Ecke Martin-Lutherstr.,autobus,A85,1971711_west,"52.48905218,13.34501538",,,,,,,,1971363.0,Schöneberg,Tempelhof-Schöneberg,west,10825
+Wittenbergplatz,autobus,A85,1971712_west,"52.50188939,13.34269788",,,,,,,,19711256.0,Schöneberg,Tempelhof-Schöneberg,west,10789
+"Invalidenstr., Sektorengrenze",autobus,A86,1971713_west,"52.52762303,13.37314896",,,,,,,,1971490.0,Moabit,Mitte,west,10557
+Stromstr. Ecke Alt-Moabit,autobus,A86,1971714_west,"52.52539702,13.34278622",,,,,,,,19711063.0,Moabit,Mitte,west,10551
+Gotzkowskystr. Ecke Alt-Moabit,autobus,A86,1971715_west,"52.52378716,13.32980639",,,,,,,,1971340.0,Moabit,Mitte,west,10555
+Ernst-Reuter-Platz,autobus,A86,1971716_west,"52.51159182,13.32257153",,,,,,,,1971256.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10587
+Richard-Wagner-Platz,autobus,A86,1971717_west,"52.51749099,13.30639710",,,,,,,,1971876.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10585
+Kantstr. Ecke Wilmersdorferstr.,autobus,A86,1971718_west,"52.50670639,13.30668035",,,,,,,,1971517.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10627
+Kurfürstendamm Ecke Wilmersdorferstr.,autobus,A86,1971719_west,"52.50000560,13.30703748",,,,,,,,1971576.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10629
+Fehrbellinerplatz,autobus,A86,1971720_west,"52.49040639,13.31420422",,,,,,,,1971270.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10707
+Hildegardstr. Ecke Blissestr.,autobus,A86,1971721_west,"52.48181973,13.32037335",,,,,,,,1971440.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10713
+Bundesplatz,autobus,A86,1971722_west,"52.47867899,13.32860278",,,,,,,,1971177.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10715
+Friedrich-Wilhelm-Platz,autobus,A86,1971723_west,"52.47128806,13.32836213",,,,,,,,1971294.0,Friedenau,Tempelhof-Schöneberg,west,12161
+Walter-Schreiber-Platz,autobus,A86,1971724_west,"52.46503826,13.32846580",,,,,,,,19711187.0,Friedenau,Tempelhof-Schöneberg,west,12161
+Rathaus Steglitz,autobus,A86,1971725_west,"52.45683245,13.32075740",,,,,,,,1971853.0,Steglitz,Steglitz-Zehlendorf,west,12165
+Klingsorstr. Ecke Birkbuschstr.,autobus,A86,1971726_west,"52.44753794,13.32635249",,,,,,,,1971542.0,Steglitz,Steglitz-Zehlendorf,west,12167
+Birkbuschstr.,autobus,A86,1971727_west,"52.44932408,13.32407323",,,,,,,,1971121.0,Steglitz,Steglitz-Zehlendorf,west,12167
+Richard-Wagner-Platz,autobus,A87,1971728_west,"52.51749099,13.30639710",,,,,,,,1971876.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10585
+Wilmersdorferstr. Ecke Otto-Suhr-Allee,autobus,A87,1971729_west,"52.51811241,13.30443482",,,,,,,,19711250.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10585
+Luisenplatz,autobus,A87,1971730_west,"52.52005409,13.29951339",,,,,,,,1971649.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10585
+Klausenerplatz,autobus,A87,1971731_west,"52.51924427,13.29194874",,,,,,,,1971538.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,14059
+Sophie-Charlottenstr. Ecke Spandauerdamm,autobus,A87,1971732_west,"52.51880858,13.28666423",,,,,,,,19711027.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,14059
+Pulsstr. Ecke Sophie-Charlottestr.,autobus,A87,1971733_west,"52.52423065,13.28510053",,,,,,,,1971832.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,14059
+"Bornholmerstr., Sektorengrenze",autobus,A89,1971734_west,"52.55494264,13.39536380",,,,,,,,1971147.0,Gesundbrunnen,Mitte,west,13359
+Prinzenallee Ecke Osloerstr.,autobus,A89,1971735_west,"52.55595531,13.38435069",,,,,,,,1971828.0,Gesundbrunnen,Mitte,west,13359
+Schwedenstr. Ecke Osloerstr.,autobus,A89,1971736_west,"52.55669597,13.37383037",,,,,,,,1971986.0,Gesundbrunnen,Mitte,west,13359
+Louise-Schroeder-Platz,autobus,A89,1971737_west,"52.55713317,13.36551369",,,,,,,,1971646.0,Wedding,Mitte,west,13359
+U-Bhf. Seestr.,autobus,A89,1971738_west,"52.55031541,13.35229850",,,,,,,,19711147.0,Wedding,Mitte,west,13347
+Afrikanischestr. Ecke Seestr.,autobus,A89,1971739_west,"52.54623694,13.34393083",,,,,,,,19717.0,Wedding,Mitte,west,13353
+Beusselstr. Ecke Seestr.,autobus,A89,1971740_west,"52.53817990,13.32609276",,,,,,,,1971105.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Huttenstr. Ecke Beusselstr.,autobus,A89,1971741_west,"52.52740013,13.32867332",,,,,,,,1971475.0,Moabit,Mitte,west,10553
+Ilsenburgerstr. Ecke Kaiserin-Augusta-Allee,autobus,A89,1971742_west,"52.52574923,13.30988310",,,,,,,,1971483.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10589
+Luisenplatz,autobus,A89,1971743_west,"52.52005409,13.29951339",,,,,,,,1971649.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10585
+Bismarckstr.,autobus,A89,1971744_west,"52.51151303,13.30521897",,,,,,,,1971126.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10627
+Kantstr. Ecke Wilmersdorferstr.,autobus,A89,1971745_west,"52.50670639,13.30668035",,,,,,,,1971517.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10627
+Kurfürstendamm Ecke Wilmersdorferstr.,autobus,A89,1971746_west,"52.50000560,13.30703748",,,,,,,,1971576.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10629
+Fehrbellinerplatz,autobus,A89,1971747_west,"52.49040639,13.31420422",,,,,,,,1971270.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10707
+"Bhf. Zoo, Hardenbergplatz",autobus,A90,1971748_west,"52.50696177,13.33308096",,,,,,,,1971117.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10623
+Ernst-Reuter-Platz,autobus,A90,1971749_west,"52.51159182,13.32257153",,,,,,,,1971256.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10587
+Dovebrücke,autobus,A90,1971750_west,"52.51867985,13.31990943",,,,,,,,1971228.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10587
+Alt-Moabit Ecke Gotzkowskystr.,autobus,A90,1971751_west,"52.52377876,13.32973510","nan, nan",,,,,,,197133.0,Moabit,Mitte,west,10555
+U-Bhf. Turmstr.,autobus,A90,1971752_west,"52.52632424,13.34145545",,,,,,,,19711153.0,Moabit,Mitte,west,10551
+Rathenowerstr. Ecke Alt-Moabit,autobus,A90,1971753_west,"52.52363005,13.35684871",,,,,,,,1971861.0,Moabit,Mitte,west,10559
+Seydlitzstr. Ecke Lehrterstr.,autobus,A90,1971754_west,"52.52795924,13.36420666",,,,,,,,19711016.0,Moabit,Mitte,west,10557
+Poststadion,autobus,A90,1971755_west,"52.52995230,13.36250142",,,,,,,,1971810.0,Moabit,Mitte,west,10557
+Am Nordhafen,autobus,A90,1971756_west,"52.53868316,13.36324841",,,,,,,,197149.0,Wedding,Mitte,west,13353
+Weddingplatz,autobus,A90,1971757_west,"52.54113612,13.36850103",,,,,,,,19711207.0,Wedding,Mitte,west,13347
+Gartenstr. Ecke Gerichtstr.,autobus,A90,1971758_west,"52.54185541,13.37808742",,,,,,,,1971315.0,Gesundbrunnen,Mitte,west,13355
+Hussitenstr. Ecke Grenzstr.,autobus,A90,1971759_west,"52.54353134,13.38063103",,,,,,,,1971474.0,Gesundbrunnen,Mitte,west,13355
+Wattstr. Ecke Usedomerstr.,autobus,A90,1971760_west,"52.54025184,13.39064471",,,,,,,,19711204.0,Gesundbrunnen,Mitte,west,13355
+Vinetaplatz,autobus,A90,1971761_west,"52.54113780,13.39842130",,,,,,,,19711176.0,Gesundbrunnen,Mitte,west,13355
+Hermannplatz,autobus,A91,1971762_west,"52.48778873,13.42539348",,,,,,,,1971429.0,Neukölln,Neukölln,west,10967
+U-Bhf. Leinestr.,autobus,A91,1971763_west,"52.47263483,13.42855206",,,,,,,,19711129.0,Neukölln,Neukölln,west,12049
+Mariendorferweg Ecke Britzerdamm,autobus,A91,1971764_west,"52.46468308,13.43291544",,,,,,,,1971673.0,Neukölln,Neukölln,west,12051
+Gradestr. Ecke Britzerdamm,autobus,A91,1971765_west,"52.45263962,13.43859113",,,,,,,,1971343.0,Britz,Neukölln,west,12347
+Gutschmidtstr. Ecke Buckowerdamm,autobus,A91,1971766_west,"52.44037970,13.43482452",,,,,,,,1971371.0,Britz,Neukölln,west,12349
+Ringslebenstr. Ecke Buckowerdamm,autobus,A91,1971767_west,"52.41749201,13.43815725",,,,,,,,1971878.0,Buckow,Neukölln,west,12349
+"Zoo, Hardenbergplatz",autobus,A92,1971768_west,"52.50712139,13.33326399",,,,,,,,19711285.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10623
+Wilmersdorferstr. Ecke Kantstr.,autobus,A92,1971769_west,"52.50670416,13.30667455",,,,,,,,19711246.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10627
+Amtsgericht,autobus,A92,1971770_west,"52.50682618,13.29739145",,,,,,,,197157.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10627
+Messedamm Ecke Masurenallee,autobus,A92,1971771_west,"52.50644250,13.28029448",,,,,,,,1971693.0,Westend,Charlottenburg-Wilmersdorf,west,14055
+Theodor-Heuss-Platz,autobus,A92,1971772_west,"52.50937134,13.27256472",,,,,,,,19711091.0,Westend,Charlottenburg-Wilmersdorf,west,14052
+Reichssportfeldstr. Ecke Heerstr.,autobus,A92,1971773_west,"52.50754949,13.24213946",,,,,,,,1971864.0,Westend,Charlottenburg-Wilmersdorf,west,14055
+Scholzplatz,autobus,A92,1971774_west,"52.50678816,13.22840316",,,,,,,,1971978.0,Westend,Charlottenburg-Wilmersdorf,west,14055
+Pichelsdorferstr. Ecke Heerstr.,autobus,A92,1971775_west,"52.51304434,13.19688209",,,,,,,,1971797.0,Wilhelmstadt,Spandau,west,13595
+Konkordiastr. Ecke Adamstr.,autobus,A92,1971776_west,"52.52098068,13.19123458",,,,,,,,1971553.0,Wilhelmstadt,Spandau,west,13595
+Waßmannsdorferchaussee Ecke Großziethenerstr.,autobus,A93,1971777_west,"52.41562947,13.49680082",,,,,,,,19711205.0,Rudow,Neukölln,west,12355
+Eichenauerweg Ecke Waßmannsdorferchaussee,autobus,A93,1971778_west,"52.41260921,13.49510452",,,,,,,,1971240.0,Rudow,Neukölln,west,12355
+Lockenhuhnweg Ecke Waßmannsdorferchaussee,autobus,A93,1971779_west,"52.40834716,13.49244876",,,,,,,,1971645.0,Rudow,Neukölln,west,12355
+Geflügelsteig,autobus,A93,1971780_west,"52.40510235,13.49065822",,,,,,,,1971319.0,Rudow,Neukölln,west,12355
+Rhodeländerweg Ecke Geflügelsteig,autobus,A93,1971781_west,"52.40712038,13.48482583",,,,,,,,1971875.0,Rudow,Neukölln,west,12355
+Lakenfelderweg Ecke Geflügelsteig,autobus,A93,1971782_west,"52.40827677,13.48212683",,,,,,,,1971598.0,Rudow,Neukölln,west,12355
+Großziethenerchaussee Ecke Geflügelsteig,autobus,A93,1971783_west,"52.41045580,13.47943478",,,,,,,,1971360.0,Rudow,Neukölln,west,12355
+Pirnaerstr. Ecke Großziethenerchaussee,autobus,A93,1971784_west,"52.41188977,13.48369722",,,,,,,,1971803.0,Rudow,Neukölln,west,12355
+Kolonie Ewige Heimat,autobus,A93,1971785_west,"52.41345967,13.49024502",,,,,,,,1971551.0,Rudow,Neukölln,west,12355
+"Zoo, Hardenbergplatz",autobus,A94,1971786_west,"52.50712139,13.33326399",,,,,,,,19711285.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10623
+Wilmersdorferstr. Ecke Kantstr.,autobus,A94,1971787_west,"52.50670416,13.30667455",,,,,,,,19711246.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10627
+Amtsgericht,autobus,A94,1971788_west,"52.50682618,13.29739145",,,,,,,,197157.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10627
+Messedamm Ecke Masurenallee,autobus,A94,1971789_west,"52.50644250,13.28029448",,,,,,,,1971693.0,Westend,Charlottenburg-Wilmersdorf,west,14055
+Theodor-Heuss-Platz,autobus,A94,1971790_west,"52.50937134,13.27256472",,,,,,,,19711091.0,Westend,Charlottenburg-Wilmersdorf,west,14052
+Reichssportfeldstr. Ecke Heerstr.,autobus,A94,1971791_west,"52.50754949,13.24213946",,,,,,,,1971864.0,Westend,Charlottenburg-Wilmersdorf,west,14055
+Pichelsdorferstr. Ecke Heerstr.,autobus,A94,1971792_west,"52.51304434,13.19688209",,,,,,,,1971797.0,Wilhelmstadt,Spandau,west,13595
+Gatowerstr. Ecke Heerstr.,autobus,A94,1971793_west,"52.51550734,13.18472453",,,,,,,,1971318.0,Wilhelmstadt,Spandau,west,13595
+Reimerweg Ecke Heerstr.,autobus,A94,1971794_west,"52.52184204,13.15430702",,,,,,,,1971867.0,Staaken,Spandau,west,13593
+Schwarzerweg Ecke Sonnenallee,autobus,A95,1971795_west,"52.46241684,13.47666100",,,,,,,,1971985.0,Neukölln,Neukölln,west,12057
+Saalestr. Ecke Sonnenallee,autobus,A95,1971796_west,"52.47386410,13.45587793",,,,,,,,1971954.0,Neukölln,Neukölln,west,12059
+Wildenbruchstr. Ecke Sonnenallee,autobus,A95,1971797_west,"52.48169673,13.44014222",,,,,,,,19711230.0,Neukölln,Neukölln,west,12045
+Hermannplatz,autobus,A95,1971798_west,"52.48778873,13.42539348",,,,,,,,1971429.0,Neukölln,Neukölln,west,10967
+Urban-Krankenhaus,autobus,A95,1971799_west,"52.49346936,13.40624512",,,,,,,,19711166.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10961
+U-Bhf. Hallesches Tor,autobus,A95,1971800_west,"52.49791002,13.39130767",,,,,,,,19711122.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10969
+Flughafen Tempelhof,autobus,A96,1971801_west,"52.48504444,13.38601442",,,,,,,,1971278.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10965
+Berlinickeplatz,autobus,A96,1971802_west,"52.46607292,13.37851641",,,,,,,,197195.0,Tempelhof,Tempelhof-Schöneberg,west,12103
+Attilaplatz,autobus,A96,1971803_west,"52.45590180,13.37651250",,,,,,,,197168.0,Tempelhof,Tempelhof-Schöneberg,west,12105
+Leonorenstr. Ecke Kaiser-Wilhelmstr.,autobus,A96,1971804_west,"52.43624039,13.34578808",,,,,,,,1971614.0,Lankwitz,Steglitz-Zehlendorf,west,12247
+Kranoldplatz,autobus,A96,1971805_west,"52.42777476,13.32647358",,,,,,,,1971565.0,Lichterfelde,Steglitz-Zehlendorf,west,12209
+Lindenstr. Ecke Ostpreußendamm,autobus,A96,1971806_west,"52.41788577,13.30524076",,,,,,,,1971640.0,Lichterfelde,Steglitz-Zehlendorf,west,12207
+Reimerweg Ecke Heerstr.,autobus,A97,1971807_west,"52.52184204,13.15430702",,,,,,,,1971867.0,Staaken,Spandau,west,13593
+Gatowerstr. Ecke Heerstr.,autobus,A97,1971808_west,"52.51550734,13.18472453",,,,,,,,1971318.0,Wilhelmstadt,Spandau,west,13595
+Pichelsdorferstr. Ecke Heerstr.,autobus,A97,1971809_west,"52.51304434,13.19688209",,,,,,,,1971797.0,Wilhelmstadt,Spandau,west,13595
+Metzerstr. Ecke Pichelsdorferstr.,autobus,A97,1971810_west,"52.52505314,13.19717819",,,,,,,,1971694.0,Wilhelmstadt,Spandau,west,13595
+Rathaus Spandau,autobus,A97,1971811_west,"52.53480744,13.19950552",,,,,,,,1971852.0,Spandau,Spandau,west,13597
+Wröhmännerpark,autobus,A97,1971812_west,"52.54211749,13.20592436",,,,,,,,19711266.0,Spandau,Spandau,west,13585
+Hohenzollernring,autobus,A97,1971813_west,"52.55569430,13.20758967",,,,,,,,1971459.0,Hakenfelde,Spandau,west,13587
+Mertensstr.,autobus,A97,1971814_west,"52.56533253,13.20936546",,,,,,,,1971691.0,Hakenfelde,Spandau,west,13587
+Aalemannufer,autobus,A97,1971815_west,"52.57330156,13.21256902",,,,,,,,19711.0,Hakenfelde,Spandau,west,13587
+U-Bhf. Britz-Süd,autobus,A98,1971816_west,"52.43696137,13.44754126",,,,,,,,19711112.0,Britz,Neukölln,west,12359
+Buckowerdamm Ecke Gutschmidtstr.,autobus,A98,1971817_west,"52.44038770,13.43481731",,,,,,,,1971173.0,Britz,Neukölln,west,12349
+Fulhamerallee Ecke Britzerdamm,autobus,A98,1971818_west,"52.44887846,13.43618326",,,,,,,,1971305.0,Britz,Neukölln,west,12347
+U-Bhf Parchimerallee,autobus,A98,1971819_west,"52.44566826,13.44994205",,,,,,,,19711108.0,Britz,Neukölln,west,12359
+Grünerweg Ecke Buschkrugallee,autobus,A98,1971820_west,"52.44277699,13.45626759",,,,,,,,1971370.0,Britz,Neukölln,west,12359
+Usedomerstr. Ecke Brunnenstr.,autobus,A99,1971821_west,"52.54111445,13.39377149",,,,,,,,19711167.0,Gesundbrunnen,Mitte,west,13355
+U-Bhf. Gesundbrunnen,autobus,A99,1971822_west,"52.54866076,13.38787363",,,,,,,,19711121.0,Gesundbrunnen,Mitte,west,13357
+Brunnenplatz,autobus,A99,1971823_west,"52.54967232,13.37720599",,,,,,,,1971165.0,Gesundbrunnen,Mitte,west,13357
+Nettelbeckplatz,autobus,A99,1971824_west,"52.54464512,13.37015454",,,,,,,,1971720.0,Wedding,Mitte,west,13347
+Rathenowerstr. Ecke Quitzowstr.,autobus,A99,1971825_west,"52.53510907,13.34969516",,,,,,,,1971859.0,Moabit,Mitte,west,10559
+Emdenerstr. Ecke Siemensstr.,autobus,A99,1971826_west,"52.53301516,13.33471148",,,,,,,,1971251.0,Moabit,Mitte,west,10551
+Saatwinklerdamm Ecke Beusselstr.,autobus,A99,1971827_west,"52.53822720,13.32611400",,,,,,,,1971956.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Jakob-Kaiser-Platz,autobus,A99,1971828_west,"52.53673970,13.29360488",,,,,,,,1971492.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,13627
+Wernerwerk,autobus,A99,1971829_west,"52.53562700,13.27537088",,,,,,,,19711220.0,Siemensstadt,Spandau,west,13629
+Quellweg Ecke Nonnendammallee,autobus,A99,1971830_west,"52.53666858,13.26843643",,,,,,,,1971837.0,Siemensstadt,Spandau,west,13629
+Paulsternstr. Ecke Nonnendammallee,autobus,A99,1971831_west,"52.53818291,13.24773288",,,,,,,,1971790.0,Haselhorst,Spandau,west,13599
+Carl-Schurzstr. Ecke Am Juliusturm,autobus,A99,1971832_west,"52.53956438,13.20558614",,,,,,,,1971190.0,Spandau,Spandau,west,13597
+Rathaus Spandau,autobus,A99,1971833_west,"52.53480744,13.19950552",,,,,,,,1971852.0,Spandau,Spandau,west,13597
+Hochgerichtstr. Ecke Seegefelderstr.,autobus,A99,1971834_west,"52.53829982,13.18341341",,,,,,,,1971444.0,Spandau,Spandau,west,13583
+Falkenseerchaussee Ecke Zeppelinstr.,autobus,A99,1971835_west,"52.54751397,13.18465355",,,,,,,,1971267.0,Falkenhagener Feld,Spandau,west,13583
+Im Spektefeld,autobus,A99,1971836_west,"52.54910907,13.15575331",,,,,,,,1971485.0,Falkenhagener Feld,Spandau,west,13589
+Gesundbrunnen,s-bahn,KBS 150,1971837_west,"52.54861111,13.38944444",Q111239092,,,,,,,1971326.0,Gesundbrunnen,Mitte,west,13357
+Wedding,s-bahn,KBS 150,1971838_west,"52.54250000,13.36610000",Q638604,,,,,,,19711206.0,Wedding,Mitte,west,13353
+Putlitzstr.,s-bahn,KBS 150,1971839_west,"52.53600000,13.34400000",Q465972,,,,,,,1971833.0,Moabit,Mitte,west,10559
+Beusselstr.,s-bahn,KBS 150,1971840_west,"52.53444444,13.32916667",Q323219,,,,,,,1971104.0,Moabit,Mitte,west,10553
+Jungfernheide,s-bahn,KBS 150,1971841_west,"52.53035000,13.29943333",Q110977325,,,,,,,1971505.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,10589
+Westend,s-bahn,KBS 150,1971842_west,"52.51810000,13.28440000",Q323214,,,,,,,19711222.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,14059
+Witzleben,s-bahn,KBS 150,1971843_west,"52.50780000,13.28360000",Q321266,,,,,,,19711258.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,14057
+Westkreuz,s-bahn,KBS 150,1971844_west,"52.50110000,13.28390000",Q678125,,,,,,,19711223.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,14055
+Halensee,s-bahn,KBS 150,1971845_west,"52.49610000,13.29060000",Q800476,,,,,,,1971384.0,Halensee,Charlottenburg-Wilmersdorf,west,10711
+Hohenzollerndamm,s-bahn,KBS 150,1971846_west,"52.48850000,13.30040000",Q800503,,,,,,,1971454.0,Halensee,Charlottenburg-Wilmersdorf,west,10709
+Schmargendorf,s-bahn,KBS 150,1971847_west,"52.47967222,13.31244167",Q302810,,,,,,,1971976.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,14197
+Wilmersdorf,s-bahn,KBS 150,1971848_west,"52.47765833,13.32852500",Q464094,,,,,,,19711245.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10715
+Innsbruckerplatz,s-bahn,KBS 150,1971849_west,"52.47860000,13.34390000",Q111263876,,,,,,,1971488.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+Schöneberg,s-bahn,KBS 150,1971850_west,"52.47940000,13.35170000",Q543855,,,,,,,1971990.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+Papestr.,s-bahn,KBS 150,1971851_west,"52.47560000,13.36440000",Q111323139,,,,,,,1971784.0,Schöneberg,Tempelhof-Schöneberg,west,10829
+Tempelhof,s-bahn,KBS 150,1971852_west,"52.47080000,13.38540000",Q111264368,,,,,,,19711084.0,Tempelhof,Tempelhof-Schöneberg,west,12099
+Hermannstr.,s-bahn,KBS 150,1971853_west,"52.46750000,13.43111111",Q111263802,,,,,,,1971431.0,Neukölln,Neukölln,west,12051
+Neukölln,s-bahn,KBS 150,1971854_west,"52.46916667,13.44166667",Q111325412,,,,,,,1971723.0,Neukölln,Neukölln,west,12055
+Sonnenallee,s-bahn,KBS 150,1971855_west,"52.47300000,13.45580000",Q481364,,,,,,,19711022.0,Neukölln,Neukölln,west,12055
+Zoologischer Garten,s-bahn,KBS 151,1971856_west,"52.50722222,13.33250000",Q111326238,,,,,,,19711286.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10623
+Savignyplatz,s-bahn,KBS 151,1971857_west,"52.50517460,13.31906590",Q554382,,,,,,,1971960.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10629
+Charlottenburg,s-bahn,KBS 151,1971858_west,"52.50472222,13.30333333",Q111326217,,,,,,,1971193.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10627
+Halensee,s-bahn,KBS 151,1971859_west,"52.49610000,13.29060000",Q800476,,,,,,,1971384.0,Halensee,Charlottenburg-Wilmersdorf,west,10711
+Hohenzollerndamm,s-bahn,KBS 151,1971860_west,"52.48850000,13.30040000",Q800503,,,,,,,1971454.0,Halensee,Charlottenburg-Wilmersdorf,west,10709
+Schmargendorf,s-bahn,KBS 151,1971861_west,"52.47967222,13.31244167",Q302810,,,,,,,1971976.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,14197
+Wilmersdorf,s-bahn,KBS 151,1971862_west,"52.47765833,13.32852500",Q464094,,,,,,,19711245.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10715
+Innsbruckerplatz,s-bahn,KBS 151,1971863_west,"52.47860000,13.34390000",Q111263876,,,,,,,1971488.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+Schöneberg,s-bahn,KBS 151,1971864_west,"52.47940000,13.35170000",Q543855,,,,,,,1971990.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+Papestr.,s-bahn,KBS 151,1971865_west,"52.47560000,13.36440000",Q111323139,,,,,,,1971784.0,Schöneberg,Tempelhof-Schöneberg,west,10829
+Tempelhof,s-bahn,KBS 151,1971866_west,"52.47080000,13.38540000",Q111264368,,,,,,,19711084.0,Tempelhof,Tempelhof-Schöneberg,west,12099
+Hermannstr.,s-bahn,KBS 151,1971867_west,"52.46750000,13.43111111",Q111263802,,,,,,,1971431.0,Neukölln,Neukölln,west,12051
+Neukölln,s-bahn,KBS 151,1971868_west,"52.46916667,13.44166667",Q111325412,,,,,,,1971723.0,Neukölln,Neukölln,west,12055
+Köllnische Heide,s-bahn,KBS 151,1971869_west,"52.46940000,13.46750000",Q800505,,,,,,,1971583.0,Neukölln,Neukölln,west,12057
+Heiligensee,s-bahn,KBS 152,1971870_west,"52.62470000,13.22920000",Q800475,,,,,,,1971415.0,Heiligensee,Reinickendorf,west,13503
+Schulzendorf (b Tegel),s-bahn,KBS 152,1971871_west,"52.61280000,13.24620000",Q800487,,,,,,,1971981.0,Heiligensee,Reinickendorf,west,13503
+Tegel,s-bahn,KBS 152,1971872_west,"52.58860000,13.28940000",Q800493,,,,,,,19711076.0,Tegel,Reinickendorf,west,13507
+Eichbornstr.,s-bahn,KBS 152,1971873_west,"52.57760000,13.31690000",Q800500,,,,,,,1971239.0,Reinickendorf,Reinickendorf,west,13403
+Wittenau (Kremmener Bahn),s-bahn,KBS 152,1971874_west,"52.59701300,13.33432900",Q111264319,,,,,,,19711252.0,Wittenau,Reinickendorf,west,13437
+Reinickendorf,s-bahn,KBS 152,1971875_west,"52.57790000,13.35060000",Q800496,,,,,,,1971869.0,Reinickendorf,Reinickendorf,west,13407
+Schönholz,s-bahn,KBS 152,1971876_west,"52.57140000,13.38140000",Q800490,,,,,,,19711006.0,Reinickendorf,Reinickendorf,west,13409
+Wollankstr.,s-bahn,KBS 152,1971877_west,"52.56515250,13.39236270",Q800515,,,,,,,19711260.0,Pankow,Pankow,west,13187
+Gesundbrunnen,s-bahn,KBS 152,1971878_west,"52.54861111,13.38944444",Q111239092,,,,,,,1971326.0,Gesundbrunnen,Mitte,west,13357
+Humboldthain,s-bahn,KBS 152,1971879_west,"52.54510000,13.37960000",Q481276,,,,,,,1971473.0,Gesundbrunnen,Mitte,west,13357
+Friedrichstr.,s-bahn,KBS 152,1971880_west,"52.52027778,13.38694444",Q111219456,,,,,,,1971300.0,Mitte,Mitte,west,10117
+Anhalter Bahnhof,s-bahn,KBS 152,1971881_west,"52.50305556,13.38194444",Q111324573,,,,,,,197158.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10963
+Yorckstr.,s-bahn,KBS 152,1971882_west,"52.49177778,13.37214167",Q21776729,,,,,,,19711271.0,Schöneberg,Tempelhof-Schöneberg,west,10965
+Papestr.,s-bahn,KBS 152,1971883_west,"52.47560000,13.36440000",Q111323139,,,,,,,1971784.0,Schöneberg,Tempelhof-Schöneberg,west,10829
+Priesterweg,s-bahn,KBS 152,1971884_west,"52.46010000,13.35630000",Q800508,,,,,,,1971827.0,Schöneberg,Tempelhof-Schöneberg,west,12157
+Mariendorf,s-bahn,KBS 152,1971885_west,"52.44780000,13.36090000",Q800497,,,,,,,1971671.0,Tempelhof,Tempelhof-Schöneberg,west,12105
+Marienfelde,s-bahn,KBS 152,1971886_west,"52.42420000,13.37470000",Q800485,,,,,,,1971674.0,Marienfelde,Tempelhof-Schöneberg,west,12277
+Buckower Ch.,s-bahn,KBS 152,1971887_west,"52.41030000,13.38290000",Q800499,,,,,,,1971170.0,Marienfelde,Tempelhof-Schöneberg,west,12277
+Lichtenrade,s-bahn,KBS 152,1971888_west,"52.38760000,13.39630000",Q6543354,,,,,,,1971624.0,Lichtenrade,Tempelhof-Schöneberg,west,12307
+Gesundbrunnen,s-bahn,KBS 153,1971889_west,"52.54861111,13.38944444",Q111239092,,,,,,,1971326.0,Gesundbrunnen,Mitte,west,13357
+Humboldthain,s-bahn,KBS 153,1971890_west,"52.54510000,13.37960000",Q481276,,,,,,,1971473.0,Gesundbrunnen,Mitte,west,13357
+Friedrichstr.,s-bahn,KBS 153,1971891_west,"52.52027778,13.38694444",Q111219456,,,,,,,1971300.0,Mitte,Mitte,west,10117
+Anhalter Bahnhof,s-bahn,KBS 153,1971892_west,"52.50305556,13.38194444",Q111324573,,,,,,,197158.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10963
+Yorckstr.,s-bahn,KBS 153,1971893_west,"52.49177778,13.37214167",Q21776729,,,,,,,19711271.0,Schöneberg,Tempelhof-Schöneberg,west,10965
+Papestr.,s-bahn,KBS 153,1971894_west,"52.47560000,13.36440000",Q111323139,,,,,,,1971784.0,Schöneberg,Tempelhof-Schöneberg,west,10829
+Priesterweg,s-bahn,KBS 153,1971895_west,"52.46010000,13.35630000",Q800508,,,,,,,1971827.0,Schöneberg,Tempelhof-Schöneberg,west,12157
+Südende,s-bahn,KBS 153,1971896_west,"52.44810000,13.35360000",Q800511,,,,,,,19711073.0,Steglitz,Steglitz-Zehlendorf,west,12247
+Lankwitz,s-bahn,KBS 153,1971897_west,"52.43860000,13.34170000",Q800481,,,,,,,1971602.0,Lankwitz,Steglitz-Zehlendorf,west,12247
+Lichterfelde Ost,s-bahn,KBS 153,1971898_west,"52.43000000,13.32890000",Q111311299,,,,,,,1971626.0,Lichterfelde,Steglitz-Zehlendorf,west,12209
+Lichterfelde Süd,s-bahn,KBS 153,1971899_west,"52.41000000,13.30860000",Q800482,,,,,,,1971627.0,Lichterfelde,Steglitz-Zehlendorf,west,12207
+Frohnau,s-bahn,KBS 154,1971900_west,"52.63250000,13.29020000",Q800472,,,,,,,1971303.0,Frohnau,Reinickendorf,west,13465
+Hermsdorf,s-bahn,KBS 154,1971901_west,"52.61780000,13.30690000",Q263189,,,,,,,1971434.0,Hermsdorf,Reinickendorf,west,13467
+Waidmannslust,s-bahn,KBS 154,1971902_west,"52.60640000,13.32100000",Q800492,,,,,,,19711180.0,Waidmannslust,Reinickendorf,west,13469
+Wittenau (Nordbahn),s-bahn,KBS 154,1971903_west,"52.59701300,13.33432900",Q111264319,,,,,,,19711253.0,Wittenau,Reinickendorf,west,13437
+Wilhelmsruh,s-bahn,KBS 154,1971904_west,"52.58140000,13.36310000",Q800495,,,,,,,19711235.0,Reinickendorf,Reinickendorf,west,13407
+Schönholz,s-bahn,KBS 154,1971905_west,"52.57140000,13.38140000",Q800490,,,,,,,19711006.0,Reinickendorf,Reinickendorf,west,13409
+Wollankstr.,s-bahn,KBS 154,1971906_west,"52.56515250,13.39236270",Q800515,,,,,,,19711260.0,Pankow,Pankow,west,13187
+Gesundbrunnen,s-bahn,KBS 154,1971907_west,"52.54861111,13.38944444",Q111239092,,,,,,,1971326.0,Gesundbrunnen,Mitte,west,13357
+Humboldthain,s-bahn,KBS 154,1971908_west,"52.54510000,13.37960000",Q481276,,,,,,,1971473.0,Gesundbrunnen,Mitte,west,13357
+Friedrichstr.,s-bahn,KBS 154,1971909_west,"52.52027778,13.38694444",Q111219456,,,,,,,1971300.0,Mitte,Mitte,west,10117
+Anhalter Bahnhof,s-bahn,KBS 154,1971910_west,"52.50305556,13.38194444",Q111324573,,,,,,,197158.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10963
+Großgörschenstr.,s-bahn,KBS 154,1971911_west,"52.49227450,13.36785880",Q21776726,,,,,,,1971359.0,Schöneberg,Tempelhof-Schöneberg,west,10783
+Schöneberg,s-bahn,KBS 154,1971912_west,"52.47940000,13.35170000",Q543855,,,,,,,1971990.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+Friedenau,s-bahn,KBS 154,1971913_west,"52.47000000,13.34100000",Q800471,,,,,,,1971289.0,Schöneberg,Tempelhof-Schöneberg,west,12159
+Feuerbachstr.,s-bahn,KBS 154,1971914_west,"52.46361111,13.33277778",Q800501,,,,,,,1971274.0,Steglitz,Steglitz-Zehlendorf,west,12157
+Steglitz,s-bahn,KBS 154,1971915_west,"52.45620000,13.32160000",Q111264179,,,,,,,19711049.0,Steglitz,Steglitz-Zehlendorf,west,12165
+Botanischer Garten,s-bahn,KBS 154,1971916_west,"52.44806000,13.30722000",Q800498,,,,,,,1971152.0,Lichterfelde,Steglitz-Zehlendorf,west,12203
+Lichterfelde West,s-bahn,KBS 154,1971917_west,"52.44330000,13.29470000",Q111327103,,,,,,,1971628.0,Lichterfelde,Steglitz-Zehlendorf,west,12205
+Sundgauerstr.,s-bahn,KBS 154,1971918_west,"52.43629100,13.27377200",Q800513,,,,,,,19711070.0,Zehlendorf,Steglitz-Zehlendorf,west,14169
+Zehlendorf,s-bahn,KBS 154,1971919_west,"52.43090000,13.25840000",Q737962,,,,,,,19711274.0,Zehlendorf,Steglitz-Zehlendorf,west,14163
+Lindenthalerallee,s-bahn,KBS 154,1971920_west,"52.43750000,13.23250000",Q315891,,,,,,,1971641.0,Zehlendorf,Steglitz-Zehlendorf,west,14163
+Schlachtensee,s-bahn,KBS 154,1971921_west,"52.44010000,13.21530000",Q800509,,,,,,,1971967.0,Zehlendorf,Steglitz-Zehlendorf,west,14129
+Nikolassee,s-bahn,KBS 154,1971922_west,"52.43170000,13.19330000",Q637052,,,,,,,1971726.0,Nikolassee,Steglitz-Zehlendorf,west,14129
+Wannsee,s-bahn,KBS 154,1971923_west,"52.42140000,13.17920000",Q111325896,,,,,,,19711194.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Zehlendorf,s-bahn,KBS 155,1971924_west,"52.43090000,13.25840000",Q737962,,,,,,,19711274.0,Zehlendorf,Steglitz-Zehlendorf,west,14163
+Düppel-Kleinmachnow,s-bahn,KBS 155,1971925_west,"52.42138889,13.22666667",Q44763529,,,,,,,1971232.0,Nikolassee,Steglitz-Zehlendorf,west,14163
+Friedrichstr.,s-bahn,KBS 156,1971926_west,"52.52027778,13.38694444",Q111219456,,,,,,,1971300.0,Mitte,Mitte,west,10117
+Lehrter Stadtbahnhof,s-bahn,KBS 156,1971927_west,"52.52530000,13.36940000",Q821299,,,,,,,1971606.0,Moabit,Mitte,west,10557
+Bellevue,s-bahn,KBS 156,1971928_west,"52.52000000,13.34805556",Q374018,,,,,,,197185.0,Hansaviertel,Mitte,west,10557
+Tiergarten,s-bahn,KBS 156,1971929_west,"52.51440000,13.33650000",Q572112,,,,,,,19711097.0,Hansaviertel,Mitte,west,10555
+Zoologischer Garten,s-bahn,KBS 156,1971930_west,"52.50722222,13.33250000",Q111326238,,,,,,,19711286.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10623
+Savignyplatz,s-bahn,KBS 156,1971931_west,"52.50517460,13.31906590",Q554382,,,,,,,1971960.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10629
+Charlottenburg,s-bahn,KBS 156,1971932_west,"52.50472222,13.30333333",Q111326217,,,,,,,1971193.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10627
+Westkreuz,s-bahn,KBS 156,1971933_west,"52.50110000,13.28390000",Q678125,,,,,,,19711223.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,14055
+Grunewald,s-bahn,KBS 156,1971934_west,"52.48920000,13.26140000",Q457266,,,,,,,1971361.0,Westend,Charlottenburg-Wilmersdorf,west,14055
+Nikolassee,s-bahn,KBS 156,1971935_west,"52.43170000,13.19330000",Q637052,,,,,,,1971726.0,Nikolassee,Steglitz-Zehlendorf,west,14129
+Wannsee,s-bahn,KBS 156,1971936_west,"52.42140000,13.17920000",Q111325896,,,,,,,19711194.0,Wannsee,Steglitz-Zehlendorf,west,14109
+Friedrichstr.,s-bahn,KBS 157,1971937_west,"52.52027778,13.38694444",Q111219456,,,,,,,1971300.0,Mitte,Mitte,west,10117
+Lehrter Stadtbahnhof,s-bahn,KBS 157,1971938_west,"52.52530000,13.36940000",Q821299,,,,,,,1971606.0,Moabit,Mitte,west,10557
+Bellevue,s-bahn,KBS 157,1971939_west,"52.52000000,13.34805556",Q374018,,,,,,,197185.0,Hansaviertel,Mitte,west,10557
+Tiergarten,s-bahn,KBS 157,1971940_west,"52.51440000,13.33650000",Q572112,,,,,,,19711097.0,Hansaviertel,Mitte,west,10555
+Zoologischer Garten,s-bahn,KBS 157,1971941_west,"52.50722222,13.33250000",Q111326238,,,,,,,19711286.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10623
+Savignyplatz,s-bahn,KBS 157,1971942_west,"52.50517460,13.31906590",Q554382,,,,,,,1971960.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10629
+Charlottenburg,s-bahn,KBS 157,1971943_west,"52.50472222,13.30333333",Q111326217,,,,,,,1971193.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10627
+Westkreuz,s-bahn,KBS 157,1971944_west,"52.50110000,13.28390000",Q678125,,,,,,,19711223.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,14055
+Eichkamp,s-bahn,KBS 157,1971945_west,"52.49870000,13.27020000",Q800504,,,,,,,1971244.0,Westend,Charlottenburg-Wilmersdorf,west,14055
+Heerstr.,s-bahn,KBS 157,1971946_west,"52.50860000,13.25860000",Q800502,,,,,,,1971407.0,Westend,Charlottenburg-Wilmersdorf,west,14052
+Olympiastadion,s-bahn,KBS 157,1971947_west,"52.51100000,13.24160000",Q800506,,,,,,,1971745.0,Westend,Charlottenburg-Wilmersdorf,west,14055
+Pichelsberg,s-bahn,KBS 157,1971948_west,"52.51030000,13.22710000",Q800488,,,,,,,1971796.0,Westend,Charlottenburg-Wilmersdorf,west,14055
+Spandau,s-bahn,KBS 157,1971949_west,"52.53200000,13.20890000",Q800491,,,,,,,19711029.0,Spandau,Spandau,west,13597
+Spandau West,s-bahn,KBS 157,1971950_west,"52.53470000,13.19580000",Q111325678,,,,,,,19711030.0,Spandau,Spandau,west,13597
+Gesundbrunnen,s-bahn,KBS 158,1971951_west,"52.54861111,13.38944444",Q111239092,,,,,,,1971326.0,Gesundbrunnen,Mitte,west,13357
+Wedding,s-bahn,KBS 158,1971952_west,"52.54250000,13.36610000",Q638604,,,,,,,19711206.0,Wedding,Mitte,west,13353
+Putlitzstr.,s-bahn,KBS 158,1971953_west,"52.53600000,13.34400000",Q465972,,,,,,,1971833.0,Moabit,Mitte,west,10559
+Beusselstr.,s-bahn,KBS 158,1971954_west,"52.53444444,13.32916667",Q323219,,,,,,,1971104.0,Moabit,Mitte,west,10553
+Jungfernheide,s-bahn,KBS 158,1971955_west,"52.53035000,13.29943333",Q110977325,,,,,,,1971505.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,10589
+Siemensstadt-Fürstenbrunn,s-bahn,KBS 158,1971956_west,"52.52800000,13.26950000",Q18747940,,,,,,,19711018.0,Westend,Charlottenburg-Wilmersdorf,west,14050
+Spandau,s-bahn,KBS 158,1971957_west,"52.53200000,13.20890000",Q800491,,,,,,,19711029.0,Spandau,Spandau,west,13597
+Spandau West,s-bahn,KBS 158,1971958_west,"52.53470000,13.19580000",Q111325678,,,,,,,19711030.0,Spandau,Spandau,west,13597
+Staaken,s-bahn,KBS 158,1971959_west,"52.53780000,13.14140000",Q477545,,,,,,,19711043.0,Staaken,Spandau,west,13591
+Jungfernheide,s-bahn,KBS 159,1971960_west,"52.53035000,13.29943333",Q110977325,,,,,,,1971505.0,Charlottenburg-Nord,Charlottenburg-Wilmersdorf,west,10589
+Wernerwerk,s-bahn,KBS 159,1971961_west,"52.53486300,13.27599000",Q96077001,,,,,,,19711221.0,Siemensstadt,Spandau,west,13629
+Siemensstadt,s-bahn,KBS 159,1971962_west,"52.53923000,13.26365000",Q96080453,,,,,,,19711017.0,Siemensstadt,Spandau,west,13629
+Gartenfeld,s-bahn,KBS 159,1971963_west,"52.54695000,13.24882000",Q96080469,,,,,,,1971311.0,Siemensstadt,Spandau,west,13629
+Schlesisches Tor,u-bahn,1,1971964_west,"52.50083333,13.44166667",Q602282,,,,,,,1971968.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10997
+Görlitzer Bahnhof (Oranienstr.),u-bahn,1,1971965_west,"52.49920000,13.42800000",Q597759,,,,,,,1971373.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10997
+Kottbusser Tor,u-bahn,1,1971966_west,"52.49916667,13.41805556",Q819768,,,,,,,1971555.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10999
+Prinzenstr.,u-bahn,1,1971967_west,"52.49833333,13.40611111",Q689797,,,,,,,1971829.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10969
+Hallesches Tor,u-bahn,1,1971968_west,"52.49777778,13.39111111",Q658302,,,,,,,1971385.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10969
+Möckernbrücke,u-bahn,1,1971969_west,"52.49916667,13.38277778",Q704716,,,,,,,1971709.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10963
+Gleisdreieck,u-bahn,1,1971970_west,"52.49952000,13.37409000",Q678372,,,,,,,1971328.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10963
+Kurfürstenstr.,u-bahn,1,1971971_west,"52.50000000,13.36194444",Q690203,,,,,,,1971577.0,Tiergarten,Mitte,west,10785
+Nollendorfplatz,u-bahn,1,1971972_west,"52.49916667,13.35388889",Q571039,,,,,,,1971730.0,Schöneberg,Tempelhof-Schöneberg,west,10777
+Wittenbergplatz,u-bahn,1,1971973_west,"52.50194444,13.34305556",Q692727,,,,,,,19711257.0,Schöneberg,Tempelhof-Schöneberg,west,10789
+Zoologischer Garten,u-bahn,1,1971974_west,"52.50586690,13.33302360",Q4024764,,,,,,,19711287.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10623
+Ernst-Reuter-Platz,u-bahn,1,1971975_west,"52.51194444,13.32222222",Q658361,,,,,,,1971257.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10587
+Deutsche Oper (Bismarckstr.),u-bahn,1,1971976_west,"52.51194444,13.31055556",Q869501,,,,,,,1971214.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10625
+Sophie-Charlotte-Platz,u-bahn,1,1971977_west,"52.51083333,13.29666667",Q657879,,,,,,,19711025.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,14057
+Kaiserdamm,u-bahn,1,1971978_west,"52.51000000,13.28220000",Q656409,,,,,,,1971510.0,Westend,Charlottenburg-Wilmersdorf,west,14057
+Theodor-Heuss-Platz,u-bahn,1,1971979_west,"52.50972222,13.27305556",Q657857,,,,,,,19711092.0,Westend,Charlottenburg-Wilmersdorf,west,14052
+Neu-Westend,u-bahn,1,1971980_west,"52.51555556,13.26111111",Q656431,,,,,,,1971721.0,Westend,Charlottenburg-Wilmersdorf,west,14052
+Olympia-Stadion,u-bahn,1,1971981_west,"52.51722222,13.25000000",Q656441,,,,,,,1971744.0,Westend,Charlottenburg-Wilmersdorf,west,14053
+Ruhleben,u-bahn,1,1971982_west,"52.52555556,13.24138889",Q656401,,,,,,,1971897.0,Westend,Charlottenburg-Wilmersdorf,west,13597
+Gleisdreieck,u-bahn,2,1971983_west,"52.49952000,13.37409000",Q678372,,,,,,,1971328.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10963
+Bülowstr.,u-bahn,2,1971984_west,"52.49755278,13.36341944",Q374881,,,,,,,1971185.0,Schöneberg,Tempelhof-Schöneberg,west,10783
+Nollendorfplatz,u-bahn,2,1971985_west,"52.49916667,13.35388889",Q571039,,,,,,,1971730.0,Schöneberg,Tempelhof-Schöneberg,west,10777
+Wittenbergplatz,u-bahn,2,1971986_west,"52.50194444,13.34305556",Q692727,,,,,,,19711257.0,Schöneberg,Tempelhof-Schöneberg,west,10789
+Augsburgerstr.,u-bahn,2,1971987_west,"52.50055600,13.33638900",Q667035,,,,,,,197170.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10789
+Spichernstr. (Bundesallee),u-bahn,2,1971988_west,"52.49638889,13.33055556",Q667046,,,,,,,19711038.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10719
+Hohenzollernplatz,u-bahn,2,1971989_west,"52.49388889,13.32500000",Q571570,,,,,,,1971458.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10717
+Fehrbellinerplatz,u-bahn,2,1971990_west,"52.49027778,13.31444444",Q663245,,,,,,,1971271.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10707
+Heidelbergerplatz,u-bahn,2,1971991_west,"52.47980833,13.31323611",Q21777872,,,,,,,1971413.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10713
+Rüdesheimerplatz,u-bahn,2,1971992_west,"52.47333333,13.31444444",Q167147,,,,,,,1971908.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,14197
+Breitenbachplatz,u-bahn,2,1971993_west,"52.46638889,13.30805556",Q571339,,,,,,,1971155.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Podbielskiallee,u-bahn,2,1971994_west,"52.46444444,13.29638889",Q571324,,,,,,,1971809.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Dahlem-Dorf,u-bahn,2,1971995_west,"52.45694444,13.28944444",Q668585,,,,,,,1971206.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Thielplatz,u-bahn,2,1971996_west,"52.45111111,13.28222222",Q571331,,,,,,,19711093.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Oskar-Helene-Heim,u-bahn,2,1971997_west,"52.45027778,13.26972222",Q681336,,,,,,,1971757.0,Dahlem,Steglitz-Zehlendorf,west,14195
+Onkel Toms Hütte,u-bahn,2,1971998_west,"52.45027778,13.25333333",Q389214,,,,,,,1971748.0,Zehlendorf,Steglitz-Zehlendorf,west,14169
+Krumme Lanke,u-bahn,2,1971999_west,"52.44333333,13.24138889",Q663945,,,,,,,1971570.0,Zehlendorf,Steglitz-Zehlendorf,west,14163
+Wittenbergplatz,u-bahn,3,19711000_west,"52.50194444,13.34305556",Q692727,,,,,,,19711257.0,Schöneberg,Tempelhof-Schöneberg,west,10789
+Kurfürstendamm (Joachimstalerstr.),u-bahn,3,19711001_west,"52.50416667,13.33277778",Q663933,,,,,,,1971571.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10719
+Uhlandstr.,u-bahn,3,19711002_west,"52.50250000,13.32555556",Q568224,,,,,,,19711159.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10719
+Nollendorfplatz,u-bahn,4,19711003_west,"52.49916667,13.35388889",Q571039,,,,,,,1971730.0,Schöneberg,Tempelhof-Schöneberg,west,10777
+Viktoria-Luise-Platz,u-bahn,4,19711004_west,"52.49616111,13.34270278",Q178685,,,,,,,19711175.0,Schöneberg,Tempelhof-Schöneberg,west,10777
+Bayerischerplatz,u-bahn,4,19711005_west,"52.48833333,13.34027778",Q668574,,,,,,,197181.0,Schöneberg,Tempelhof-Schöneberg,west,10779
+Rathaus Schöneberg,u-bahn,4,19711006_west,"52.48311667,13.34193056",Q570926,,,,,,,1971851.0,Schöneberg,Tempelhof-Schöneberg,west,10825
+Innsbruckerplatz (Hauptstr.),u-bahn,4,19711007_west,"52.47860000,13.34390000",Q10275871,,,,,,,1971489.0,Schöneberg,Tempelhof-Schöneberg,west,10827
+Tegel,u-bahn,6,19711008_west,"52.58944000,13.28389000",Q656090,,,,,,,19711077.0,Tegel,Reinickendorf,west,13507
+Borsigwerke,u-bahn,6,19711009_west,"52.58190000,13.29070000",Q525185,,,,,,,1971148.0,Tegel,Reinickendorf,west,13507
+Holzhauserstr.,u-bahn,6,19711010_west,"52.57583333,13.29611111",Q557566,,,,,,,1971464.0,Tegel,Reinickendorf,west,13509
+Seidelstr. (Flughafen Tegel),u-bahn,6,19711011_west,"52.57111100,13.30277800",Q557582,,,,,,,19711014.0,Reinickendorf,Reinickendorf,west,13403
+Scharnweberstr. (Eichborndamm),u-bahn,6,19711012_west,"52.56694444,13.31277778",Q557586,,,,,,,1971962.0,Reinickendorf,Reinickendorf,west,13405
+Kurt-Schumacher-Platz,u-bahn,6,19711013_west,"52.56355556,13.32657222",Q555916,,,,,,,1971582.0,Reinickendorf,Reinickendorf,west,13405
+Afrikanischestr. (Friedrich-Ebert-Siedlung),u-bahn,6,19711014_west,"52.56002778,13.33463333",Q559239,,,,,,,19716.0,Wedding,Mitte,west,13349
+Rehberge,u-bahn,6,19711015_west,"52.55670000,13.34120000",Q253850,,,,,,,1971863.0,Wedding,Mitte,west,13349
+Seestr.,u-bahn,6,19711016_west,"52.55056000,13.35194000",Q554391,,,,,,,19711011.0,Wedding,Mitte,west,13347
+Leopoldplatz,u-bahn,6,19711017_west,"52.54650000,13.35910000",Q1960809,,,,,,,1971618.0,Wedding,Mitte,west,13353
+Bahnhof Wedding,u-bahn,6,19711018_west,"52.54250000,13.36611100",Q4018733,,,,,,,197173.0,Wedding,Mitte,west,13353
+Reinickendorferstr.,u-bahn,6,19711019_west,"52.53991111,13.37037778",Q559249,,,,,,,1971870.0,Wedding,Mitte,west,13353
+Bahnhof Friedrichstr. (Stadtbahn),u-bahn,6,19711020_west,"52.52011111,13.38830556",Q3753274,,,,,,,197171.0,Mitte,Mitte,west,10117
+Kochstr.,u-bahn,6,19711021_west,"52.50589722,13.39061111",Q201849,,,,,,,1971550.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10969
+Hallesches Tor,u-bahn,6,19711022_west,"52.49777778,13.39111111",Q658302,,,,,,,1971385.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10969
+Mehringdamm,u-bahn,6,19711023_west,"52.49388889,13.38833333",Q657905,,,,,,,1971687.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10961
+Flughafen,u-bahn,6,19711024_west,"52.48555600,13.38583300",Q557582,,,,,,,1971277.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10965
+Paradestr.,u-bahn,6,19711025_west,"52.47805556,13.38611111",Q557543,,,,,,,1971785.0,Tempelhof,Tempelhof-Schöneberg,west,12101
+Tempelhof,u-bahn,6,19711026_west,"52.47075000,13.38536111",Q3983109,,,,,,,19711085.0,Tempelhof,Tempelhof-Schöneberg,west,12099
+Alt-Tempelhof,u-bahn,6,19711027_west,"52.46595278,13.38589722",Q559212,,,,,,,197138.0,Tempelhof,Tempelhof-Schöneberg,west,12099
+Kaiserin-Augustastr.,u-bahn,6,19711028_west,"52.46015278,13.38457778",Q559226,,,,,,,1971513.0,Tempelhof,Tempelhof-Schöneberg,west,12099
+Ullsteinstr.,u-bahn,6,19711029_west,"52.45377500,13.38430278",Q637870,,,,,,,19711163.0,Tempelhof,Tempelhof-Schöneberg,west,12099
+Westpfahlweg,u-bahn,6,19711030_west,"52.44600000,13.38600000",Q554481,,,,,,,19711224.0,Mariendorf,Tempelhof-Schöneberg,west,12109
+Alt-Mariendorf,u-bahn,6,19711031_west,"52.43910000,13.38770000",Q262168,,,,,,,197128.0,Mariendorf,Tempelhof-Schöneberg,west,12107
+Fehrbellinerplatz,u-bahn,7,19711032_west,"52.49027778,13.31444444",Q663245,,,,,,,1971271.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10707
+Blissestr.,u-bahn,7,19711033_west,"52.48666667,13.32194444",Q571397,,,,,,,1971139.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10715
+Berlinerstr.,u-bahn,7,19711034_west,"52.48722222,13.33083333",Q637739,,,,,,,197191.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10715
+Bayerischerplatz,u-bahn,7,19711035_west,"52.48833333,13.34027778",Q668574,,,,,,,197181.0,Schöneberg,Tempelhof-Schöneberg,west,10779
+Eisenacherstr.,u-bahn,7,19711036_west,"52.48944444,13.35027778",Q571170,,,,,,,1971246.0,Schöneberg,Tempelhof-Schöneberg,west,10823
+Kleistpark,u-bahn,7,19711037_west,"52.49055556,13.36027778",Q571161,,,,,,,1971539.0,Schöneberg,Tempelhof-Schöneberg,west,10823
+Yorckstr.,u-bahn,7,19711038_west,"52.49305600,13.37083300",Q12011022,,,,,,,19711272.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10965
+Möckernbrücke,u-bahn,7,19711039_west,"52.49916667,13.38277778",Q704716,,,,,,,1971709.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10963
+Mehringdamm,u-bahn,7,19711040_west,"52.49388889,13.38833333",Q657905,,,,,,,1971687.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10961
+Gneisenaustr.,u-bahn,7,19711041_west,"52.49138889,13.39555556",Q668618,,,,,,,1971331.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10961
+Südstern,u-bahn,7,19711042_west,"52.48944444,13.40777778",Q656081,,,,,,,19711074.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10961
+Hermannplatz,u-bahn,7,19711043_west,"52.48629000,13.42455000",Q658929,,,,,,,1971430.0,Neukölln,Neukölln,west,10967
+Rathaus Neukölln,u-bahn,7,19711044_west,"52.48166667,13.43416667",Q628770,,,,,,,1971848.0,Neukölln,Neukölln,west,12043
+Karl-Marxstr.,u-bahn,7,19711045_west,"52.47611111,13.43916667",Q519494,,,,,,,1971519.0,Neukölln,Neukölln,west,12043
+Neukölln,u-bahn,7,19711046_west,"52.46944400,13.44222200",Q21272767,,,,,,,1971724.0,Neukölln,Neukölln,west,12055
+Grenzallee,u-bahn,7,19711047_west,"52.46333333,13.44388889",Q571836,,,,,,,1971351.0,Britz,Neukölln,west,12359
+Blaschkoallee,u-bahn,7,19711048_west,"52.45194444,13.44944444",Q666911,,,,,,,1971137.0,Britz,Neukölln,west,12359
+Parchimerallee,u-bahn,7,19711049_west,"52.44472222,13.44944444",Q571855,,,,,,,1971786.0,Britz,Neukölln,west,12359
+Britz-Süd,u-bahn,7,19711050_west,"52.43777778,13.44805556",Q571845,,,,,,,1971159.0,Britz,Neukölln,west,12359
+Johannisthalerchaussee,u-bahn,7,19711051_west,"52.42916667,13.45333333",Q638553,,,,,,,1971501.0,Gropiusstadt,Neukölln,west,12351
+Lipschitzallee,u-bahn,7,19711052_west,"52.42472222,13.46277778",Q571467,,,,,,,1971644.0,Gropiusstadt,Neukölln,west,12353
+Wutzkyallee,u-bahn,7,19711053_west,"52.42333333,13.47500000",Q571841,,,,,,,19711269.0,Gropiusstadt,Neukölln,west,12353
+Gesundbrunnen,u-bahn,8,19711054_west,"52.54861100,13.38944400",Q3761416,,,,,,,1971327.0,Gesundbrunnen,Mitte,west,13357
+Voltastr.,u-bahn,8,19711055_west,"52.54209300,13.39302200",Q663308,,,,,,,19711179.0,Gesundbrunnen,Mitte,west,13355
+Moritzplatz,u-bahn,8,19711056_west,"52.50361111,13.41083333",Q374225,,,,,,,1971704.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10969
+Kottbusser Tor,u-bahn,8,19711057_west,"52.49916667,13.41805556",Q819768,,,,,,,1971555.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10999
+Kottbusserdamm (Schönleinstr.),u-bahn,8,19711058_west,"52.49305556,13.42194444",Q666868,,,,,,,1971554.0,Kreuzberg,Friedrichshain-Kreuzberg,west,10967
+Hermannplatz,u-bahn,8,19711059_west,"52.48629000,13.42455000",Q658929,,,,,,,1971430.0,Neukölln,Neukölln,west,10967
+Boddinstr.,u-bahn,8,19711060_west,"52.48000000,13.42527778",Q819495,,,,,,,1971142.0,Neukölln,Neukölln,west,12049
+Leinestr.,u-bahn,8,19711061_west,"52.47277778,13.42833333",Q668563,,,,,,,1971608.0,Neukölln,Neukölln,west,12049
+Leopoldplatz,u-bahn,9,19711062_west,"52.54650000,13.35910000",Q1960809,,,,,,,1971618.0,Wedding,Mitte,west,13353
+Amrumerstr. (Rudolf-Virchow-Krankenhaus),u-bahn,9,19711063_west,"52.54250000,13.35027778",Q557577,,,,,,,197156.0,Wedding,Mitte,west,13353
+Putlitzstr. (Westhafen),u-bahn,9,19711064_west,"52.53600000,13.34400000",Q465972,,,,,,,1971834.0,Moabit,Mitte,west,10559
+Birkenstr.,u-bahn,9,19711065_west,"52.53222222,13.34138889",Q555998,,,,,,,1971122.0,Moabit,Mitte,west,10551
+Turmstr.,u-bahn,9,19711066_west,"52.52585000,13.34135278",Q571400,,,,,,,19711106.0,Moabit,Mitte,west,10551
+Hansaplatz,u-bahn,9,19711067_west,"52.51777778,13.34222222",Q287552,,,,,,,1971390.0,Hansaviertel,Mitte,west,10557
+Zoologischer Garten,u-bahn,9,19711068_west,"52.50586690,13.33302360",Q4024764,,,,,,,19711287.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10623
+Kurfürstendamm (Joachmistalerstr.),u-bahn,9,19711069_west,"52.50416667,13.33277778",Q663933,,,,,,,1971572.0,Charlottenburg,Charlottenburg-Wilmersdorf,west,10719
+Spichernstr. (Bundesallee),u-bahn,9,19711070_west,"52.49638889,13.33055556",Q667046,,,,,,,19711038.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10719
+Güntzelstr.,u-bahn,9,19711071_west,"52.49194000,13.33083000",Q571563,,,,,,,1971375.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10717
+Berlinerstr.,u-bahn,9,19711072_west,"52.48722222,13.33083333",Q637739,,,,,,,197191.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10715
+Bundesplatz,u-bahn,9,19711073_west,"52.47808056,13.32851944",Q3647008,,,,,,,1971178.0,Wilmersdorf,Charlottenburg-Wilmersdorf,west,10715
+Dardanellenweg Ecke Rixdorferstr.,autobus,A81,1971669_west,"52.44494582,13.40009730",,,,,,,,,Mariendorf,Tempelhof-Schöneberg,west,12109

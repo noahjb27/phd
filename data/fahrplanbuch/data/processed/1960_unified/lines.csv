@@ -1,0 +1,159 @@
+line_id,year,line_name,type,start_stop,length (time),length (km),east_west,frequency (7:30),profile,capacity
+19601_unified,1960,1,tram,Schillingbrücke (Ostbahnhof)<> Am Kupfergraben,33,7.7,unified,20.0,,195
+19602_unified,1960,11,tram,"Köpenickerstr. Ecke Adalbertstr.<> Oranienburger Tor, Hannoverschestr.",23,5.4,unified,20.0,,195
+19603_unified,1960,13,tram,"Klingenberg, Blockdammweg<> Oderbergerstr.",37,9.9,unified,7.0,,195
+19604_unified,1960,15,tram,Daimlerstr.<> Schulenburgpark,36,,unified,15.0,,195
+19605_unified,1960,2,tram,Wollinerstr.<> Spreewaldplatz,70,,unified,15.0,,195
+19606_unified,1960,22,tram,Bhf. Rosenthal<> Elisabethstr.,49,11.7,unified,13.0,,195
+19607_unified,1960,25,tram,Wollinerstr.<> Gotenstr.,68,,unified,15.0,,195
+19608_unified,1960,26,tram,Spreewaldplatz<> Industriestr.,31,,unified,15.0,,195
+19609_unified,1960,27,tram,Hobrechtstr.<> Alt-Buckow,26,,unified,10.0,,195
+196010_unified,1960,3,tram,Mühlenstr.<> Björnsonstr.,45,12.1,unified,10.0,,195
+196011_unified,1960,3,tram,Hobrechtstr.<> Grüntalerstr.,79,,unified,10.0,,195
+196012_unified,1960,35,tram,Nonnendammallee<> Bhf. Wilhelmsruh,48,,unified,15.0,,195
+196013_unified,1960,4,tram,Mühlenstr.<> Oderbergerstr.,27,6.3,unified,8.0,,195
+196014_unified,1960,44,tram,Sandkrugbrücke<> Birkbuschstr.,58,,unified,15.0,,195
+196015_unified,1960,46,tram,"Niederschönhausen, Schillerstr.<> Clara-Zetkinstr.",51,12.1,unified,15.0,,195
+196016_unified,1960,46E,tram,"Niederschönhausen, Idastr. Bzw. Nordend<> Oranienburger Tor, Hannoverschestr.",41,9.8,unified,15.0,,195
+196017_unified,1960,47,tram,Hermannplatz<> Bahnhofstr.,34,,unified,10.0,,195
+196018_unified,1960,49,tram,"Buchholz, Hauptstr.<> Hackescher Markt, Große Präsidentenstr.",41,10.6,unified,8.0,,195
+196019_unified,1960,53,tram,Nollendorfplatz<> Hakenfelde,59,,unified,20.0,,195
+196020_unified,1960,54,tram,Nollendorfplatz<> Johannesstift,60,,unified,20.0,,195
+196021_unified,1960,55,tram,Nollendorfplatz<> Nauenerstr.,54,,unified,12.0,,195
+196022_unified,1960,6,tram,Wintersteinstr.<> Elsenstr.,57,,unified,10.0,,195
+196023_unified,1960,60,tram,Königin-Elisabethstr.<> Eythstr.,49,,unified,15.0,,195
+196024_unified,1960,63,tram,"Hohenschönhausen, Gartenstadt<> Hackescher Markt, Große Präsidentenstr.",38,10.2,unified,20.0,,195
+196025_unified,1960,64,tram,"Hohenschönhausen, Falkenbergerstr.<> Dönhoffplatz",39,10.2,unified,20.0,,195
+196026_unified,1960,66,tram,Belzigerstr.<> Bergstr.,12,,unified,10.0,,195
+196027_unified,1960,69,tram,"Johannisthal, Haeckelstr.<> Walter-Ulbricht-Stadion",82,21.4,unified,20.0,,195
+196028_unified,1960,69E,tram,"Johannisthal, Haeckelstr.<> Kniprodestr.",59,16.3,unified,20.0,,195
+196029_unified,1960,70,tram,"Hohenschönhausen, Falkenbergerstr.<> Am Kupfergraben (Haus der Frau)",49,11.9,unified,12.0,,195
+196030_unified,1960,71,tram,"Heinersdorf, Romain-Rollandstr.<> Jüdenstr., Molkenmarkt",32,7.6,unified,10.0,,195
+196031_unified,1960,72,tram,"Weißensee, Pasedagplatz<> Taubenstr.",46,10.5,unified,13.0,,195
+196032_unified,1960,73,tram,Bhf. Lichterfelde-Ost<> Potsdamerplatz,42,,unified,20.0,,195
+196033_unified,1960,74,tram,Finckensteinallee<> Potsdamerplatz,39,,unified,20.0,,195
+196034_unified,1960,74,tram,"Weißensee, Pasedagplatz<> Leipzigerplatz",39,10.2,unified,8.0,,195
+196035_unified,1960,74E,tram,"Klement-Gottwald-Allee<> Jüdenstr., Molkenmarkt",26,7.5,unified,8.0,,195
+196036_unified,1960,75,tram,"Bhf. Zoo, Kantstr.<> Hakenfelde",57,,unified,20.0,,195
+196037_unified,1960,76,tram,"Spandau, Johannesstift<> Kanststr. Ecke Joachimsthalerstr.",60,,unified,20.0,,195
+196038_unified,1960,77,tram,Bhf. Zoo<> Goerzallee,49,,unified,20.0,,195
+196039_unified,1960,78,tram,Bhf. Zoo<> Lichterfelde Süd Lindenstr.,48,,unified,20.0,,195
+196040_unified,1960,82,tram,"Mahlsdorf-Süd, Hubertus<> Elisabethstr.",75,20.9,unified,20.0,,195
+196041_unified,1960,83,tram,Wendenschloß Ecke Ekhofstr.<> S-Bhf. Mahlsdorf,47,,unified,20.0,,195
+196042_unified,1960,84,tram,"Altglienicke, Am Falkenberg<> Friedrichshagen, Wasserwerk",52,,unified,20.0,,195
+196043_unified,1960,86,tram,"Alt-Schmöckwitz<> Mahlsdorf-Süd, Hubertus",53,,unified,20.0,,195
+196044_unified,1960,87,tram,Rahnsdorf<> Wiener Brücke,73,21.6,unified,20.0,,195
+196045_unified,1960,88,tram,Stadtpark<> Wiener Brücke,45,,unified,15.0,,195
+196046_unified,1960,92,tram,"Treptow, Flutgraben<> Bhf. Oberspree",38,,unified,20.0,,195
+196047_unified,1960,95,tram,Attilaplatz<> Schwarzerweg,42,,unified,15.0,,195
+196048_unified,1960,95,tram,"Baumschulenweg, Sonnenallee<> Köpenick, Krankenhaus",0,,unified,20.0,,195
+196049_unified,1960,96,tram,"Machnower Schleuse<> Teltow, Paul-Gerhardtstr.",24,7.0,unified,20.0,,195
+196050_unified,1960,96,tram,U-Bhf. Tempelhof<> Schwelmerstr.,33,,unified,15.0,,195
+196051_unified,1960,98,tram,Mehringplatz (Hallesches Tor)<> Daimlerstr. Ecke Birnhornweg,35,,unified,15.0,,195
+196052_unified,1960,99,tram,Lindenstr.<> Bhf. Lichtenrade,49,,unified,15.0,,195
+196053_unified,1960,A1,autobus,Waldstr.<> Lindenstr.,58,,unified,15.0,,0
+196054_unified,1960,A10,autobus,"Haselhorst, Kirche<> Lupsteinerweg",62,,unified,15.0,,0
+196055_unified,1960,A11,autobus,Saargemünderstr.<> Trippsteinstr.,26,,unified,10.0,,0
+196056_unified,1960,A12,autobus,Weddingplatz<> Hainbuchenstr.,47,,unified,20.0,,0
+196057_unified,1960,A12S,autobus,Weddingplatz<> Bhf. Frohnau,34,,unified,10.0,,0
+196058_unified,1960,A13,autobus,Alt-Heiligensee<> Weinmeisterhornweg,59,,unified,15.0,,0
+196059_unified,1960,A14,autobus,Alt-Heiligensee<> Rügenerstr.,53,,unified,15.0,,0
+196060_unified,1960,A15,autobus,Lübarserstr.<> Bhf. Frohnau,41,,unified,15.0,,0
+196061_unified,1960,A16,autobus,Louise-Schroeder-Platz<> Englerallee,44,,unified,10.0,,0
+196062_unified,1960,A17,autobus,Bhf. Grunewald<> Saaleckplatz,46,,unified,10.0,,0
+196063_unified,1960,A18,autobus,Saargemünderstr.<> Kohlhasenbrück,32,,unified,20.0,,0
+196064_unified,1960,A19,autobus,Roseneck<> Flughafen,40,,unified,10.0,,0
+196065_unified,1960,A2,autobus,Strasse des 17. Juni<> Trippsteinstr.,40,,unified,10.0,,0
+196066_unified,1960,A20,autobus,"Tegelort<> Lübars, Dorfaue",36,,unified,15.0,,0
+196067_unified,1960,A21,autobus,Wentowsteig<> U-Bhf. Fehrbellinerplatz,49,,unified,10.0,,0
+196068_unified,1960,A22,autobus,"Hessenwinkel, Lindenstr.<> Fichtenau, Stadtgrenze",27,8.5,unified,20.0,,0
+196069_unified,1960,A23,autobus,"Altglienicke, Kirche<> Altglienicke, Kirche",13,3.5,unified,20.0,,0
+196070_unified,1960,A24,autobus,Wiebestr.<> Flughafen,38,,unified,5.0,,0
+196071_unified,1960,A25,autobus,Unionplatz<> Gutschmidtstr.,63,,unified,10.0,,0
+196072_unified,1960,A27,autobus,"S-Bhf. Kaulsdorf, Planitzstr.<> Alt-Müggelheim",42,,unified,10.0,,0
+196073_unified,1960,A28,autobus,Loewenhardtdamm<> Heckmannufer,29,,unified,7.0,,0
+196074_unified,1960,A29,autobus,Roseneck<> Anhalter Bhf.,32,,unified,10.0,,0
+196075_unified,1960,A3,autobus,Rathaus Zehlendorf<> Stölpchensee,39,,unified,10.0,,0
+196076_unified,1960,A31,autobus,Machandelweg<> Heidebergplan,24,,unified,15.0,,0
+196077_unified,1960,A32,autobus,Breitenbachplatz<> Bhf. Marienfelde,28,,unified,5.0,,0
+196078_unified,1960,A33,autobus,Bhf. Steglitz<> Kaiserstr.,15,,unified,10.0,,0
+196079_unified,1960,A34,autobus,"Spandau, Friedhof<> Gutshof",45,,unified,30.0,,0
+196080_unified,1960,A35,autobus,Germersheimerplatz<> Hottengrund,38,,unified,30.0,,0
+196081_unified,1960,A38,autobus,Waltersdorf<> S-Bhf. Grünau,18,6.7,unified,20.0,,0
+196082_unified,1960,A39,autobus,"Wartenberg, Siedlung<> Hohenschönhausen, Falkenbergerstr.",13,4.2,unified,18.0,,0
+196083_unified,1960,A4,autobus,Brixplatz<> Finowstr.,54,,unified,10.0,,0
+196084_unified,1960,A42,autobus,"Buch, Zepernickerstr.<> Ostseestr. (Spitze)",34,12.1,unified,12.0,,0
+196085_unified,1960,A43,autobus,Bürknersfelde<> U-Bhf. Friedrichsfelde,19,6.2,unified,20.0,,0
+196086_unified,1960,A44,autobus,"Hönow, Dorfstr.<> S-Bhf. Mahlsdorf",13,4.3,unified,15.0,,0
+196087_unified,1960,A44E,autobus,Greifswalderstr.<> S-Bhf. Mahlsdorf,10,2.8,unified,10.0,,0
+196088_unified,1960,A45,autobus,"Wilhelmsruh, Fontanestr.<> Weißensee, Schwarzelfenweg",42,13.3,unified,15.0,,0
+196089_unified,1960,A46,autobus,"Ahrensfeld, Kirche<> Malchow, Dorfstr.",30,10.8,unified,15.0,,0
+196090_unified,1960,A47,autobus,Bhf. Schöneweide<> S-Bhf. Treptower Park,26,9.3,unified,20.0,,0
+196091_unified,1960,A48,autobus,Potsdamerstr. Ecke Fischerhüttenstr.<> Margaretenstr.,38,,unified,5.0,,0
+196092_unified,1960,A49,autobus,"Kaulsdorf, Bausdorfstr.<> Kaulsdorf, Bausdorfstr.",14,5.4,unified,20.0,,0
+196093_unified,1960,A5,autobus,Machandelweg<> Waldkrankenhaus,24,,unified,10.0,,0
+196094_unified,1960,A50,autobus,Roseneck<> Pragerplatz,15,,unified,10.0,,0
+196095_unified,1960,A51,autobus,Bhf. Wannsee<> Krankenhaus Heckeshorn,10,,unified,30.0,,0
+196096_unified,1960,A52,autobus,Alt-Marienfelde<> Mimosenweg,38,,unified,30.0,,0
+196097_unified,1960,A53,autobus,Krumme Lanke<> Thunerplatz,19,,unified,30.0,,0
+196098_unified,1960,A55,autobus,"Wilhelmsruh, Fontanestr.<> Weißensee, Liebermannstr. Ecke Piesporterstr.",38,11.4,unified,15.0,,0
+196099_unified,1960,A56,autobus,"Weißensee, Feldtmannstr.<> Wicherstr.",12,4.2,unified,15.0,,0
+1960100_unified,1960,A57,autobus,Kniprodestr. Ecke Ermländischestr.<> Robert-Koch-Platz,24,6.5,unified,7.0,,0
+1960101_unified,1960,A6,autobus,Bhf. Wannsee<> Glienicker Brücke,13,,unified,60.0,,0
+1960102_unified,1960,A60,autobus,"Roseneck, Hundekehl<> Wittenbergplatz",25,,unified,10.0,,0
+1960103_unified,1960,A61,autobus,"Zobeltitzstr.<> Gartenplatz, Feldstr.",32,,unified,10.0,,0
+1960104_unified,1960,A62,autobus,Wittenau<> Wittenbergplatz,38,,unified,10.0,,0
+1960105_unified,1960,A63,autobus,Radelandstr.<> Seegefelderweg,23,,unified,30.0,,0
+1960106_unified,1960,A64,autobus,U-Bhf. Kurt-Schumacher-Platz<> Bernauerstr. Ecke Gartenstr.,21,,unified,10.0,,0
+1960107_unified,1960,A65,autobus,Goebelplatz<> Flughafen Tempelhof,49,,unified,15.0,,0
+1960108_unified,1960,A66,autobus,Bismarckplatz<> Stephanplatz,31,,unified,10.0,,0
+1960109_unified,1960,A67,autobus,"Jerusalems-Kirche, Lindenstr.<> U-Bhf. Grenzallee",25,,unified,10.0,,0
+1960110_unified,1960,A68,autobus,"Clayallee<> Grazerdamm, Overbeckstr.",19,,unified,15.0,,0
+1960111_unified,1960,A69,autobus,Bismarckplatz<> Brandenburger Tor,28,,unified,20.0,,0
+1960112_unified,1960,A7,autobus,"Glienicke, Kirche<> U-Bhf. Vinetastr.",40,14.7,unified,17.0,,0
+1960113_unified,1960,A70,autobus,"Bhf. Wollankstr.<> Wiebestr., Strassenbahnhof",26,,unified,10.0,,0
+1960114_unified,1960,A71,autobus,Bhf. Wilhelmsruh<> Wollinerstr.,21,,unified,15.0,,0
+1960115_unified,1960,A8,autobus,Waldesruh<> U-Bhf. Friedrichsfelde,36,13.2,unified,7.0,,0
+1960116_unified,1960,A82P,autobus,Kinderheim<> Markgrafendamm,5,1.2,unified,20.0,,0
+1960117_unified,1960,A9,autobus,Kurischestr.<> Scharnhorst- Ecke Kielerstr.,27,7.3,unified,10.0,,0
+1960118_unified,1960,AD/36,autobus,"Diepensee, Flughafen<> S-Bhf. Grünau",0,,unified,7.0,,0
+1960119_unified,1960,AL,autobus,"Neu-Lindenberg<> Malchow, Dorfstr.",0,,unified,45.0,,0
+1960120_unified,1960,AN,autobus,"S-Bhf. Hohen Neuendorf<> Glienicke, Kirche",20,8.3,unified,20.0,,0
+1960121_unified,1960,AS1,autobus,Bhf. Zoo<> Hohenzollernring,28,,unified,15.0,,0
+1960122_unified,1960,AS2,autobus,"Bhf. Zoo<> Lichtenrade, Blohmstr. Ecke Wünsdorferstr.",40,,unified,20.0,,0
+1960123_unified,1960,AS3,autobus,Bhf. Zoo<> Rathaus Zehlendorf,24,,unified,15.0,,0
+1960124_unified,1960,AZ,autobus,Groß Ziethen<> S-Bhf. Grünau,36,17.2,unified,60.0,,0
+1960125_unified,1960,O30,omnibus,Kosterstr.<> Klosterstr.,72,18.9,unified,20.0,,0
+1960126_unified,1960,O37,omnibus,Bürknersfelde<> Bhf. Lichtenberg,0,,unified,0.0,,0
+1960127_unified,1960,O40,omnibus,Ostbahnhof<> Robert-Koch-Platz,23,6.3,unified,10.0,,0
+1960128_unified,1960,O41,omnibus,Bürknersfelde<> Dimitroffstr.,18,6.2,unified,10.0,,0
+1960129_unified,1960,Schmöckwitz<>Eichwalde (VEB Kraftverkehr Schöneiche-Rüdersdorf),autobus,Alt-Schmöckwitz<> Bhf. Eichwalde,14,3.5,unified,60.0,,0
+1960130_unified,1960,Schmöckwitz<>Ziegenhals (VEB Kraftverkehr Schöneiche-Rüdersdorf),autobus,"Alt-Schmöckwitz<> Ziegenhals, VA Dienststelle",19,9.0,unified,90.0,,0
+1960131_unified,1960,Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt),ferry,Kladow<> Wannsee,20,,unified,60.0,,0
+1960132_unified,1960,Wendenschloß<>Grünau,ferry,Wendenschloß<> Grünau,0,,unified,20.0,,0
+1960133_unified,1960,A I,u-bahn,Pankow (Vinetastr.)<> Reichskanzlerplatz,0,,unified,0.0,Kleinprofil,750
+1960134_unified,1960,A II,u-bahn,Pankow (Vinetastr.)<> Krumme Lanke,0,,unified,0.0,Kleinprofil,750
+1960135_unified,1960,A III,u-bahn,Deutsches Opernhaus (Bismarckstr.)<> Richard-Wagner-Platz,0,,unified,0.0,Kleinprofil,750
+1960136_unified,1960,B I,u-bahn,Warschauer Brücke<> Ruhleben,0,,unified,0.0,Kleinprofil,750
+1960137_unified,1960,B II,u-bahn,Warschauer Brücke<> Krumme Lanke,0,,unified,0.0,Kleinprofil,750
+1960138_unified,1960,B III,u-bahn,Nollendorfplatz<> Innsbruckerplatz (Hauptstr.),0,,unified,0.0,Kleinprofil,750
+1960139_unified,1960,C I,u-bahn,Tegel<> Grenzallee,0,,unified,0.0,Großprofil,1000
+1960140_unified,1960,C II,u-bahn,Tegel<> Tempelhof (Südring),0,,unified,0.0,Großprofil,1000
+1960141_unified,1960,D,u-bahn,Gesundbrunnen<> Leinestr.,0,,unified,0.0,Großprofil,1000
+1960142_unified,1960,E,u-bahn,Alexanderplatz<> Friedrichsfelde (Tierpark),0,,unified,0.0,Großprofil,1000
+1960143_unified,1960,KBS 100,s-bahn,Gesundbrunnen<> Gesundbrunnen,0,,unified,0.0,,1100
+1960144_unified,1960,KBS 100a,s-bahn,Wilmersdorf<> Grünau,0,,unified,0.0,,1100
+1960145_unified,1960,KBS 100b,s-bahn,Blankenburg<> Warschauerstr.,0,,unified,0.0,,1100
+1960146_unified,1960,KBS 100c,s-bahn,Gartenfeld<> Warschauerstr.,0,,unified,0.0,,1100
+1960147_unified,1960,KBS 100c,s-bahn,Halensee<> Warschauerstr.,0,,unified,0.0,,1100
+1960148_unified,1960,KBS 100d,s-bahn,Jungfernheide<> Gartenfeld,0,,unified,0.0,,1100
+1960149_unified,1960,KBS 101,s-bahn,Staaken<> Strausberg,0,,unified,0.0,,1100
+1960150_unified,1960,KBS 101a,s-bahn,Strausberg<> Strausberg Nord,0,,unified,0.0,,1100
+1960151_unified,1960,KBS 102,s-bahn,Potsdam<> Erkner,0,,unified,0.0,,1100
+1960152_unified,1960,KBS 103,s-bahn,Falkensee<> Königs Wusterhausen,0,,unified,0.0,,1100
+1960153_unified,1960,KBS 103a,s-bahn,Spandau West<> Spindlersfeld,0,,unified,0.0,,1100
+1960154_unified,1960,KBS 104,s-bahn,Oranienburg<> Wannsee,0,,unified,0.0,,1100
+1960155_unified,1960,KBS 104a,s-bahn,Zehlendorf<> Düppel-Kleinmachnow,0,,unified,0.0,,1100
+1960156_unified,1960,KBS 104b,s-bahn,Wannsee<> Stahnsdorf,0,,unified,0.0,,1100
+1960157_unified,1960,KBS 105,s-bahn,Velten (Mark)<> Rangsdorf,0,,unified,0.0,,1100
+1960158_unified,1960,KBS 106,s-bahn,Bernau (b Bln)<> Teltow,0,,unified,0.0,,1100

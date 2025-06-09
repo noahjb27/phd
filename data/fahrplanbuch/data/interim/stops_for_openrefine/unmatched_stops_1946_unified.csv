@@ -1,0 +1,9 @@
+stop_name,type,line_name,stop_id,location,identifier,latitude,longitude,match_score,matched_name,matched_stop_id,matched_historical_lines,location_from
+Waldstr. Ecke Thälmannstr.,omnibus,8,194631_unified,"52.52721009570157, 13.33057857169393",,,,,,,,
+"Seestr., Friedhöfe",omnibus,8,194632_unified,"52.552703555448296, 13.356287088477963",,,,,,,,
+Warschauerbrücke,tram,4,1946271_unified,"52.506746741445006, 13.449684491939852",,,,,,,,
+Mariendorferweg Ecke Chausseestr.,tram,6,1946290_unified,"52.46469681872952, 13.432973252862677",,,,,,,,
+Berlinerallee Ecke Lichtenbergerstr.,tram,8,1946309_unified,"52.552032612200605, 13.465689924366766",,,,,,,,
+Spandauerstr. Ecke Schloßtrasse,tram,62,1946491_unified,"52.519428412966874, 13.295919143611133",,,,,,,,
+Hönowerstr. Ecke Treskowstr.,tram,83,1946632_unified,"52.511301518111516, 13.61233569205835",,,,,,,,
+Warschauerbrücke,u-bahn,B,1946731_unified,"52.5051,13.4491",Q18380174,,,,,,,

@@ -1,0 +1,6 @@
+stop_name,type,line_name,stop_id,location,identifier,latitude,longitude,match_score,matched_name,matched_stop_id,matched_historical_lines,location_from
+Obus-Betriebshof,autobus,30,197179_east,"52.52032432696463, 13.499405664504195",,,,,,,,
+Leninallee,autobus,30,197182_east,"52.526371492426854, 13.447633336298283",,,,,,,,
+Dimitroffstr.,autobus,30,197183_east,"52.53619211198829, 13.433031675070007",,,,,,,,
+Dimitroffstr. (Cotheniusstr.),autobus,37,1971131_east,"52.52774513816488, 13.446205246642096",,,,,,,,
+Funk- W.fernmeld,autobus,56,1971217_east,"52.53373620475704, 13.45293949300804",,,,,,,,

@@ -1,0 +1,6 @@
+stop_name,type,line_name,stop_id,location,identifier,latitude,longitude,match_score,matched_name,matched_stop_id,matched_historical_lines,location_from
+"Ernst-Reuter-Platz, Straße Des 17. Juni",autobus,A2,1961288_west,"52.51415248820911, 13.349264931257151",,,,,,,,
+Klosterstr. Ecke Seeburgerstr.,autobus,A13,1961377_west,"52.52912529066992, 13.195598561644342",,,,,,,,
+Bhf. Putlitzstr.,autobus,A16,1961416_west,"52.53444793545329, 13.343378477824439",,,,,,,,
+Einemstr.,autobus,A16,1961421_west,52.499844039844604, 13.354110288647837",,,,,,,,
+Schlossbrücke,autobus,A65,1961823_west,"52.52277864874118, 13.300093422040403",,,,,,,,

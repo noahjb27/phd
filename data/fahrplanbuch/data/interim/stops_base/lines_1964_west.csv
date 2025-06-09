@@ -1,0 +1,101 @@
+line_id,year,line_name,type,start_stop,length (time),length (km),east_west,frequency (7:30)
+19641,1964,15,tram,Daimlerstr.<> Schulenburgpark,36.0,,west,10.0
+19642,1964,47,tram,Gradestr. Ecke Tempelhoferweg<> Große-Ziethenchaussee Ecke Waltersdorferchaussee,21.0,,west,10.0
+19643,1964,53,tram,Richard-Wagner-Platz<> Hakenfelde,40.0,,west,20.0
+19644,1964,54,tram,Richard-Wagner-Platz<> Johannesstift,41.0,,west,20.0
+19645,1964,55,tram,Bhf. Zoo<> Hakenfelde,51.0,,west,15.0
+19646,1964,75,tram,"Bhf. Zoo, Kantstr.<> Hakenfelde",58.0,,west,20.0
+19647,1964,76,tram,"Bhf. Zoo, Kantstr.<> Johannesstift",59.0,,west,20.0
+19648,1964,95,tram,Mehringplatz<> Schwarzerweg Ecke Sonnenallee,25.0,,west,15.0
+19649,1964,96,tram,Lindenstr.<> Goerzallee,49.0,,west,15.0
+196410,1964,A1,autobus,"Moabit, Waldstr. Ecke Turmstr.<> Lindenstr. Ecke Müllerstr.",58.0,,west,15.0
+196411,1964,A2,autobus,Bhf. Zoo<> Trippsteinstr.,39.0,,west,10.0
+196412,1964,A3,autobus,"Rathaus Zehlendorf<> Stölpchensee, Wilhelmplatz",39.0,,west,10.0
+196413,1964,A10,autobus,"Haselhorst, Kirche<> Lupsteinerweg",62.0,,west,10.0
+196414,1964,A11,autobus,"Saargemünderstr.<> Marienfelde, Alt-Marienfelde",34.0,,west,7.0
+196415,1964,A12,autobus,Gartenstr. Ecke Bernauerstr.<> Hainbuchenstr. Ecke Kastanienallee,54.0,,west,20.0
+196416,1964,A12S,autobus,Leopoldplatz<> Zeltingerplatz,31.0,,west,10.0
+196417,1964,A13,autobus,Alt-Heiligensee<> Weinmeisterhornweg,57.0,,west,15.0
+196418,1964,A14,autobus,Alt-Heiligensee<> Rügenerstr.,53.0,,west,20.0
+196419,1964,A15,autobus,"Lübarserstr. Ecke Eichhorsterweg<> Frohnau, Invalidensiedlung",55.0,,west,20.0
+196420,1964,A16,autobus,Osloerstr.<> Englerallee,50.0,,west,15.0
+196421,1964,A17,autobus,"Grunewald, Fontanestr.<> Saaleckplatz",46.0,,west,10.0
+196422,1964,A18,autobus,Saargemünderstr.<> Kohlhasenbrück,32.0,,west,20.0
+196423,1964,A19,autobus,Roseneck<> Flughafen,39.0,,west,10.0
+196424,1964,A20,autobus,"Tegelort<> Lübars, Dorfaue",36.0,,west,15.0
+196425,1964,A21,autobus,Wentowsteig<> U-Bhf. Fehrbellinerplatz,50.0,,west,15.0
+196426,1964,A24,autobus,Wiebestr.<> Flughafen,39.0,,west,15.0
+196427,1964,A25,autobus,Unionplatz<> Grünerweg Ecke Buschkrugallee,59.0,,west,10.0
+196428,1964,A28,autobus,Loewenhardtdamm<> Heckmannufer,30.0,,west,7.0
+196429,1964,A29,autobus,Roseneck<> Oranienplatz,40.0,,west,10.0
+196430,1964,A31,autobus,Machandelweg<> Heidebergplan,30.0,,west,20.0
+196431,1964,A32,autobus,Breitenbachplatz<> Bhf. Marienfelde,28.0,,west,6.0
+196432,1964,A33,autobus,"Berlinickestr. Ecke Albrechtstr.<> Mariendorf, Kaiserstr.",15.0,,west,5.0
+196433,1964,A34,autobus,"Spandau, Friedhof<> Gutshof",48.0,,west,30.0
+196434,1964,A35,autobus,"Spandau, Friedhof<> Hottengrund",45.0,,west,30.0
+196435,1964,A35E,autobus,Altenheim Hottengrund<> Alt-Kladow Ecke Kladowerdamm,7.0,,west,274.0
+196436,1964,A4,autobus,Brixplatz<> Harzerstr.,56.0,,west,10.0
+196437,1964,A48,autobus,"Potsdamerstr. Ecke Fischerhüttenstr.<> Philharmonie, Tiergartenstr.",39.0,,west,10.0
+196438,1964,A5,autobus,Machandelweg<> Nervenklinik,32.0,,west,10.0
+196439,1964,A50,autobus,Roseneck<> Pragerplatz,19.0,,west,10.0
+196440,1964,A51,autobus,Bhf. Wannsee<> Krankenhaus Heckeshorn,10.0,,west,28.0
+196441,1964,A52,autobus,"Marienfelde, Stadtrandsiedlung<> Stubenrauchstr. Ecke Kanalstr.",46.0,,west,20.0
+196442,1964,A53,autobus,Dreilindenstr.<> Jungfernstieg,47.0,,west,20.0
+196443,1964,A6,autobus,Bhf. Wannsee<> Glienicker Brücke,13.0,,west,30.0
+196444,1964,A60,autobus,"Roseneck, Hundekehl<> Wittenbergplatz",26.0,,west,10.0
+196445,1964,A61,autobus,"Zobeltitzstr.<> Gartenplatz, Feldstr.",32.0,,west,10.0
+196446,1964,A62,autobus,Wittenau<> Wittenbergplatz,38.0,,west,15.0
+196447,1964,A63,autobus,Radelandstr. Ecke Niederheideweg<> Seegefelderweg,31.0,,west,20.0
+196448,1964,A64,autobus,Bernauerstr. Ecke Wollinerstr.<> Höllenderstr. Ecke Septimerstr.,26.0,,west,7.0
+196449,1964,A65,autobus,Goebelplatz<> Schulenburgpark,56.0,,west,10.0
+196450,1964,A66,autobus,"Doppel-Süd, Berlepschstr.<> U-Bhf. Onkel-Toms-Hütte",18.0,,west,20.0
+196451,1964,A67,autobus,"Jerusalems-Kirche, Lindenstr.<> Otto-Wels-Ring",36.0,,west,5.0
+196452,1964,A68,autobus,Clayallee Ecke Königin-Luise-Str.<> Bhf. Tempelhof,36.0,,west,15.0
+196453,1964,A69,autobus,Eichkamp<> Moltkebrücke,32.0,,west,20.0
+196454,1964,A70,autobus,"Bhf. Wollankstr.<> Wiebestr., Strassenbahnhof",27.0,,west,10.0
+196455,1964,A71,autobus,Bhf. Wilhelmsruh<> Bernauerstr. Ecke Wollinerstr.,22.0,,west,15.0
+196456,1964,A72,autobus,Alt-Reinickendorf Ecke Rödernallee<> Gartenfeld,46.0,,west,15.0
+196457,1964,A73,autobus,Bhf. Zoo<> Buschkrug Alle Ecke Blaschko-Allee,35.0,,west,10.0
+196458,1964,A74,autobus,Königin-Elisabeth-Str.<> Eythstr.,39.0,,west,15.0
+196459,1964,A75,autobus,Munsterdamm Ecke Steglitzerdamm<> Hermannplatz,47.0,,west,10.0
+196460,1964,A76,autobus,Blohmstr. Ecke Wünsdorferstr.<> Platz Der Luftbrücke,36.0,,west,10.0
+196461,1964,A77,autobus,Daimlerstr.<> Platz Der Luftbrücke,25.0,,west,10.0
+196462,1964,A78,autobus,Tropfsteinweg Ecke Quarz-Weg<> Platz Der Luftbrücke,26.0,,west,10.0
+196463,1964,A79,autobus,Leopoldplatz<> Sommerstr. Ecke Klemkestr.,16.0,,west,10.0
+196464,1964,A80,autobus,"Spandau, Breitestr.<> Nennhauserdamm Ecke Brunsbüttelerdamm",16.0,,west,10.0
+196465,1964,A81,autobus,"Bhf. Zoo, Hardenbergplatz<> Imbrosweg Ecke Dardanellenweg",44.0,,west,10.0
+196466,1964,A83,autobus,Nettelbeckplatz<> Belßstr.,47.0,,west,10.0
+196467,1964,A84,autobus,Ringstr. Ecke Pestalozziplatz<> Gotenstr. Ecke Torgauerstr.,33.0,,west,10.0
+196468,1964,A85,autobus,"Bhf. Zoo, Hardenbergplatz<> Holtheimerweg",45.0,,west,10.0
+196469,1964,A86,autobus,Invalidenstr.<> Birkbuschstr. Ecke Siemensstr.,51.0,,west,15.0
+196470,1964,A87,autobus,"Richard-Wagner-Platz, Wintersteinstr.<> Sophie-Charlotten-Str. Ecke Pulsstr.",10.0,,west,20.0
+196471,1964,A88,autobus,U-Bhf. Kaiserdamm<> Eichkampstr. Ecke Alteallee,10.0,,west,20.0
+196472,1964,A89,autobus,Grüntalerstr. Ecke Osloerstr.<> Mehringplatz,39.0,,west,10.0
+196473,1964,A90,autobus,"Bhf. Zoo, Hardenbergplatz<> Vinetaplatz",35.0,,west,15.0
+196474,1964,A91,autobus,U-Bhf. Leinestr.<> Alt-Buckow Ecke Buckowerdamm,19.0,,west,7.0
+196475,1964,A92,autobus,Machandelweg<> Reimerweg Ecke Heerstr.,24.0,,west,20.0
+196476,1964,A99,autobus,Brunnenstr. Ecke Lortzingstr.<> Germersheimerplatz,48.0,,west,10.0
+196477,1964,AS1,autobus,Bhf. Zoo<> Hohenzollernring Ecke Schönwalderstr.,28.0,,west,15.0
+196478,1964,AS2,autobus,"Bhf. Zoo<> Lichtenrade, Blohmstr. Ecke Wünsdorferstr.",44.0,,west,17.0
+196479,1964,AS3,autobus,Bhf. Zoo<> Rathaus Zehlendorf,29.0,,west,15.0
+196480,1964,AS4,autobus,Bhf. Zoo<> Stölpchensee,39.0,,west,20.0
+196481,1964,A I,u-bahn,Schlesisches Tor<> Ruhleben,36.0,,west,10.0
+196482,1964,A II,u-bahn,Schlesisches Tor<> Krumme Lanke,40.0,,west,10.0
+196483,1964,A III,u-bahn,Deutsche Oper (bismarckstr.)<> Richard-Wagner-Platz,2.0,,west,10.0
+196484,1964,B I,u-bahn,Nollendorfplatz<> Innsbruckerplatz,6.0,,west,5.0
+196485,1964,B III,u-bahn,Wittenbergplatz<> Kurfürstendamm,3.0,,west,10.0
+196486,1964,C I,u-bahn,Tegel<> Britz-Süd,45.0,,west,5.0
+196487,1964,C II,u-bahn,Mehringdamm<> Tempelhof (südring),5.0,,west,5.0
+196488,1964,D,u-bahn,Gesundbrunnen<> Leinestr.,19.0,,west,10.0
+196489,1964,G,u-bahn,Leopoldplatz<> Spichernstr.,10.0,,west,3.0
+196490,1964,KBS 100,s-bahn,Gesundbrunnen<> Sonnenallee,0.0,,west,0.0
+196491,1964,KBS 100a,s-bahn,Gesundbrunnen<> Spandau West,0.0,,west,0.0
+196492,1964,KBS 100c,s-bahn,Heiligensee<> Lichtenrade,0.0,,west,0.0
+196493,1964,KBS 100b,s-bahn,Jungfernheide<> Gartenfeld,0.0,,west,0.0
+196494,1964,KBS 100d,s-bahn,Gesundbrunnen<> Lichterfelde Süd,0.0,,west,0.0
+196495,1964,KBS 100e,s-bahn,Frohnau<> Wannsee,0.0,,west,0.0
+196496,1964,KBS 100f,s-bahn,Zehlendorf<> Düppel-Kleinmachnow,0.0,,west,0.0
+196497,1964,KBS 100g,s-bahn,Friedrichstr.<> Spandau West,0.0,,west,0.0
+196498,1964,KBS 100h,s-bahn,Friedrichstr.<> Wannsee,0.0,,west,0.0
+196499,1964,KBS 100k,s-bahn,Zoologischer Garten<> Köllnische Heide,0.0,,west,0.0
+1964100,1964,Kladow<>Wannsee,ferry,Kladow<> Wannsee,20.0,,west,60.0

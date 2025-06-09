@@ -1,0 +1,103 @@
+line_id,year,line_name,type,start_stop,length (time),length (km),east_west,frequency (7:30),profile,capacity
+19671_west,1967,A1,autobus,"Moabit, Waldstr. Ecke Turmstr.<> Lindenstr. Ecke Müllerstr.",58,,west,15.0,,0
+19672_west,1967,A2,autobus,Hardenbergplatz<> Sonderhauserstr. Ecke Hildburghauserstr.,39,,west,10.0,,0
+19673_west,1967,A3,autobus,"Rathaus Zehlendorf<> Stölpchensee, Wilhelmplatz",39,,west,10.0,,0
+19674_west,1967,A10,autobus,"Haselhorst, Kirche<> Lupsteinerweg",62,,west,10.0,,0
+19675_west,1967,A11,autobus,Saargemünderstr. Ecke Clayallee<> U-Bhf. Alt-Mariendorf,39,,west,7.0,,0
+19676_west,1967,A12,autobus,Gartenstr. Ecke Bernauerstr.<> Hainbuchenstr. Ecke Kastanienallee,54,,west,15.0,,0
+19677_west,1967,A13,autobus,Alt-Heiligensee Ecke Sandhauserstr.<> Weinmeisterhornweg,57,,west,15.0,,0
+19678_west,1967,A14,autobus,Alt-Heiligensee Ecke Sandhauserstr.<> Rügenerstr.,55,,west,20.0,,0
+19679_west,1967,A14E,autobus,Alt-Heiligensee<> Falkenplatz,9,,west,30.0,,0
+196710_west,1967,A15,autobus,"Lübarserstr. Ecke Eichhorsterweg<> Frohnau, Invalidensiedlung",55,,west,20.0,,0
+196711_west,1967,A16,autobus,Osloerstr. Ecke Drontheimerstr.<> Englerallee,5,,west,12.0,,0
+196712_west,1967,A17,autobus,"Grunewald, Fontanestr.<> Saaleckplatz",48,,west,10.0,,0
+196713_west,1967,A18,autobus,U-Bhf. Oskar-Helene-Heim<> Machnowerstr. Ecke Königsweg,31,,west,20.0,,0
+196714_west,1967,A19,autobus,Roseneck<> Flughafen,39,,west,10.0,,0
+196715_west,1967,A20,autobus,"Tegelort<> Lübars, Dorfaue",39,,west,15.0,,0
+196716_west,1967,A21,autobus,"Wilhelmsruherdamm, Sektorengrenze<> U-Bhf. Fehrbellinerplatz",52,,west,15.0,,0
+196717_west,1967,A21E,autobus,Alt-Wittenau Ecke Eichborndamm<> Senftenberger Ring,16,,west,15.0,,0
+196718_west,1967,A24,autobus,Wiebestr.<> Flughafen,39,,west,15.0,,0
+196719_west,1967,A25,autobus,Unionplatz<> Grünerweg Ecke Buschkrugallee,59,,west,10.0,,0
+196720_west,1967,A28,autobus,U-Bhf. Tempelhof<> Heckmannufer,35,,west,15.0,,0
+196721_west,1967,A29,autobus,Roseneck<> Oranienplatz,40,,west,10.0,,0
+196722_west,1967,A31,autobus,U-Bhf. Ruhleben<> Heidebergplan,28,,west,20.0,,0
+196723_west,1967,A32,autobus,"Breitenbachplatz<> Marienfelde, Bahnstr.",28,,west,6.0,,0
+196724_west,1967,A33,autobus,Berlinickestr. Ecke Albrechtstr.<> Dirschelweg Ecke Rixdorferstr.,20,,west,7.0,,0
+196725_west,1967,A34,autobus,"Spandau, Wasserwerk<> Gutshof",51,,west,20.0,,0
+196726_west,1967,A34E,autobus,Alt-Gatow Ecke Groß-Glienickerweg<> Siedlung Habichtswald,8,,west,17.0,,0
+196727_west,1967,A35,autobus,U-Bhf. Ruhleben<> Hottengrund,35,,west,20.0,,0
+196728_west,1967,A35E,autobus,Altenheim Hottengrund<> Alt-Kladow Ecke Kladowerdamm,7,,west,40.0,,0
+196729_west,1967,A4,autobus,Brixplatz<> Teuptitzerstr. Ecke Kiehl-Ufer,55,,west,10.0,,0
+196730_west,1967,A41,autobus,"Gradestr. Ecke Tempelhoferweg<> Rudow Stadtgrenze, Waltersdorferchaussee",27,,west,20.0,,0
+196731_west,1967,A48,autobus,"Potsdamerstr. Ecke Fischerhüttenstr.<> Philharmonie, Tiergartenstr.",39,,west,12.0,,0
+196732_west,1967,A5,autobus,U-Bhf. Ruhleben<> Nervenklinik,30,,west,10.0,,0
+196733_west,1967,A50,autobus,Roseneck<> Goebenstr. Ecke Bülowstr.,25,,west,10.0,,0
+196734_west,1967,A51,autobus,Bhf. Wannsee<> Krankenhaus Heckeshorn,10,,west,29.0,,0
+196735_west,1967,A52,autobus,"Marienfelde, Stadtrandsiedlung<> Stubenrauchstr. Ecke Kanalstr.",46,,west,15.0,,0
+196736_west,1967,A53,autobus,"Nikolassee, Alemannenstr.<> Oberhoferplatz",40,,west,20.0,,0
+196737_west,1967,A54,autobus,"Zoo, Hardenbergplatz<> Johannesstift",43,,west,10.0,,0
+196738_west,1967,A55,autobus,"Zoo, Hardenbergplatz<> Hakenfelde",48,,west,15.0,,0
+196739_west,1967,A56,autobus,U-Bhf. Ruhleben<> Hakenfelde,24,,west,20.0,,0
+196740_west,1967,A6,autobus,Bhf. Wannsee<> Glienicker Brücke,13,,west,30.0,,0
+196741_west,1967,A60,autobus,"Roseneck, Hundekehl<> Wittenbergplatz",24,,west,12.0,,0
+196742_west,1967,A61,autobus,"U-Bhf. Scharnweberstr.<> Gartenplatz, Feldstr.",32,,west,12.0,,0
+196743_west,1967,A62,autobus,Wittenau<> Hardenbergplatz,34,,west,15.0,,0
+196744_west,1967,A63,autobus,Radelandstr. Ecke Niederheideweg<> Seegefelderweg,30,,west,15.0,,0
+196745_west,1967,A64,autobus,Teichstr. Ecke Gotthardstr.<> Vinetaplatz,29,,west,10.0,,0
+196746_west,1967,A65,autobus,Goebelplatz<> Schulenburgpark,52,,west,12.0,,0
+196747_west,1967,A66,autobus,"Doppel-Süd, Berlepschstr.<> U-Bhf. Onkel-Toms-Hütte",17,,west,15.0,,0
+196748_west,1967,A67,autobus,Mehringplatz<> Wutzkyallee Eckestr. 484,38,,west,10.0,,0
+196749_west,1967,A68,autobus,Clayallee Ecke Königin-Luise-Str.<> Bhf. Tempelhof,35,,west,15.0,,0
+196750_west,1967,A69,autobus,"Eichkamp, Dauerwaldweg<> Moltkebrücke",33,,west,20.0,,0
+196751_west,1967,A70,autobus,Bhf. Wollankstr.<> Wiebestr. Ecke Sickingenstr.,28,,west,10.0,,0
+196752_west,1967,A71,autobus,"Wilhelmsruh, Kopenhagenerstr.<> Vinetaplatz",23,,west,15.0,,0
+196753_west,1967,A72,autobus,Alt-Reinickendorf Ecke Rödernallee<> Gartenfeld,46,,west,15.0,,0
+196754_west,1967,A73,autobus,Bhf. Zoo<> Buschkrug Alle Ecke Blaschko-Allee,35,,west,10.0,,0
+196755_west,1967,A74,autobus,"Königin-Elisabeth-Str., Adenauerdamm<> Eythstr.",41,,west,15.0,,0
+196756_west,1967,A75,autobus,Munsterdamm Ecke Steglitzerdamm<> Hermannplatz,47,,west,10.0,,0
+196757_west,1967,A76,autobus,Blohmstr. Ecke Illigstr.<> Walter-Schreiber-Platz,37,,west,7.0,,0
+196758_west,1967,A77,autobus,"Bergiusstr. Ecke Haberstr.<> Marienfelde, Daimlerstr. Ecke Hollabergweg",29,,west,20.0,,0
+196759_west,1967,A78,autobus,U-Bhf. Alt-Mariendorf<> Buckowerdamm Ecke Alt-Buckow,16,,west,10.0,,0
+196760_west,1967,A79,autobus,Leopoldplatz<> Sommerstr. Ecke Klemkestr.,18,,west,15.0,,0
+196761_west,1967,A80,autobus,U-Bhf. Ruhleben<> Nennhauserdamm Ecke Brunsbüttelerdamm,26,,west,15.0,,0
+196762_west,1967,A81,autobus,"Bhf. Zoo, Hardenbergplatz<> Imbrosweg Ecke Dardanellenweg",45,,west,10.0,,0
+196763_west,1967,A82,autobus,Alt-Lichtenrade Ecke Goethestr.<> Potsdamerstr. Ecke Goethestr.,28,,west,20.0,,0
+196764_west,1967,A83,autobus,Nettelbeckplatz<> Belßstr. Ecke Prezsingstr.,48,,west,10.0,,0
+196765_west,1967,A84,autobus,Ringstr. Ecke Pestalozziplatz<> Gotenstr. Ecke Torgauerstr.,33,,west,12.0,,0
+196766_west,1967,A85,autobus,"Bhf. Zoo, Hardenbergplatz<> Holtheimerweg",44,,west,10.0,,0
+196767_west,1967,A86,autobus,Invalidenstr. Ecke Heidestr.<> Birkbuschstr. Ecke Siemensstr.,50,,west,15.0,,0
+196768_west,1967,A87,autobus,Richard-Wagner-Platz<> Sophie-Charlotten-Str. Ecke Pulsstr.,10,,west,20.0,,0
+196769_west,1967,A88,autobus,Jungfernheideweg Ecke Siemensdamm<> Jungfernheideweg Ecke Siemensdamm,22,,west,15.0,,0
+196770_west,1967,A89,autobus,"Bornholmerstr., Sektorengrenze<> Mehringplatz",62,,west,10.0,,0
+196771_west,1967,A90,autobus,"Bhf. Zoo, Hardenbergplatz<> Vinetaplatz",35,,west,15.0,,0
+196772_west,1967,A91,autobus,Hermannplatz<> Alt-Buckow Ecke Buckowerdamm,21,,west,7.0,,0
+196773_west,1967,A93,autobus,Waßmannsdorferchaussee Ecke Neuköllnerstr.<> Waßmannsdorferchaussee Ecke Neuköllnerstr.,11,,west,15.0,,0
+196774_west,1967,A94,autobus,"Bhf. Zoo, Hardenbergplatz<> Reimerweg Ecke Heerstr.",36,,west,10.0,,0
+196775_west,1967,A95,autobus,Mehringplatz<> Schwarzerweg Ecke Sonnenallee,23,,west,15.0,,0
+196776_west,1967,A96,autobus,"Flughafen, Dudenstr.<> Lindenstr. Ecke Ostpreußendamm",29,,west,10.0,,0
+196777_west,1967,A97,autobus,Reimerweg Ecke Heerstr.<> Aalemannufer Ecke Nieder-Neuendorferallee,34,,west,20.0,,0
+196778_west,1967,A98,autobus,U-Bhf. Britz-Süd<> U-Bhf. Britz-Süd,12,,west,20.0,,0
+196779_west,1967,A99,autobus,Brunnenstr. Ecke Lortzingstr.<> Westerwaldstr. Ecke Falkenseerchaussee,48,,west,10.0,,0
+196780_west,1967,S1,autobus,"Bhf. Zoo, Hardenbergplatz<> Hohenzollernring Ecke Schönwalderstr.",29,,west,15.0,,0
+196781_west,1967,S3,autobus,Hardenbergplatz<> Rathaus Zehlendorf,29,,west,15.0,,0
+196782_west,1967,S4,autobus,"Hardenbergplatz<> Stölpchensee, Wilhelmplatz",39,,west,20.0,,0
+196783_west,1967,1,u-bahn,Schlesisches Tor<> Ruhleben,36,,west,5.0,Kleinprofil,750
+196784_west,1967,2,u-bahn,Gleisdreieck<> Krumme Lanke,29,,west,10.0,Kleinprofil,750
+196785_west,1967,3,u-bahn,Wittenbergplatz<> Uhlandstr.,3,,west,10.0,Kleinprofil,750
+196786_west,1967,4,u-bahn,Nollendorfplatz<> Innsbruckerplatz (Hauptstr.),6,,west,5.0,Kleinprofil,750
+196787_west,1967,5,u-bahn,Deutsche Oper (Bismarckstr.)<> Richard-Wagner-Platz,1,,west,10.0,Großprofil,1000
+196788_west,1967,6,u-bahn,Tegel<> Alt-Mariendorf,41,,west,5.0,Großprofil,1000
+196789_west,1967,7,u-bahn,Möckernbrücke<> Britz-Süd,17,,west,3.0,Großprofil,1000
+196790_west,1967,8,u-bahn,Gesundbrunnen<> Leinestr.,20,,west,10.0,Großprofil,1000
+196791_west,1967,9,u-bahn,Leopoldplatz<> Spichernstr. (Bundesallee),10,,west,3.0,Großprofil,1000
+196792_west,1967,KBS 100,s-bahn,Gesundbrunnen<> Sonnenallee,0,,west,0.0,,1100
+196793_west,1967,KBS 100a,s-bahn,Gesundbrunnen<> Staaken,0,,west,0.0,,1100
+196794_west,1967,KBS 100b,s-bahn,Jungfernheide<> Gartenfeld,0,,west,0.0,,1100
+196795_west,1967,KBS 100c,s-bahn,Heiligensee<> Lichtenrade,0,,west,0.0,,1100
+196796_west,1967,KBS 100d,s-bahn,Gesundbrunnen<> Lichterfelde Süd,0,,west,0.0,,1100
+196797_west,1967,KBS 100e,s-bahn,Frohnau<> Wannsee,0,,west,0.0,,1100
+196798_west,1967,KBS 100f,s-bahn,Zehlendorf<> Düppel-Kleinmachnow,0,,west,0.0,,1100
+196799_west,1967,KBS 100g,s-bahn,Friedrichstr.<> Spandau West,0,,west,0.0,,1100
+1967100_west,1967,KBS 100h,s-bahn,Friedrichstr.<> Wannsee,0,,west,0.0,,1100
+1967101_west,1967,KBS 100k,s-bahn,Zoologischer Garten<> Köllnische Heide,0,,west,0.0,,1100
+1967102_west,1967,Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt),ferry,Kladow<> Wannsee,19,,west,60.0,,300
