@@ -247,36 +247,4 @@ router.post('/stations/:stopId/update', authenticateToken, async (req, res) => {
   }
 });
 
-
-// Add routes for PLZ visualization data
-router.get('/external/plz-areas', (req, res) => {
-  try {
-    const filePath = path.join(process.cwd(), 'public', 'berlin_postal_districts.json');
-    if (!fs.existsSync(filePath)) {
-      return res.status(404).json({ error: 'PLZ data file not found' });
-    }
-    const fileContents = fs.readFileSync(filePath, 'utf8');
-    const data = JSON.parse(fileContents);
-    res.json(data);
-  } catch (error) {
-    console.error('Error loading PLZ data:', error);
-    res.status(500).json({ error: error.message });
-  }
-});
-
-router.get('/external/network-data', (req, res) => {
-  try {
-    const filePath = path.join(process.cwd(), 'public', 'network-data.json');
-    if (!fs.existsSync(filePath)) {
-      return res.status(404).json({ error: 'Network data file not found' });
-    }
-    const fileContents = fs.readFileSync(filePath, 'utf8');
-    const data = JSON.parse(fileContents);
-    res.json(data);
-  } catch (error) {
-    console.error('Error loading network data:', error);
-    res.status(500).json({ error: error.message });
-  }
-});
-
 module.exports = router;
