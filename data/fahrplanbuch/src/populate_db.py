@@ -21,9 +21,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Default configuration
-DEFAULT_DB_URI = "bolt://100.82.176.18:7687"
+DEFAULT_DB_URI = "neo4j+s://6ae11f66.databases.neo4j.io" # neo4j+s://6ae11f66.databases.neo4j.io or bolt://100.82.176.18:7687
 DEFAULT_DB_USER = "neo4j"
-DEFAULT_DB_PASSWORD = os.environ.get("NEO4J_PASSWORD", "BerlinTransport2024")
+DEFAULT_DB_PASSWORD = os.environ.get("NEO4J_AURA_PASSWORD") # NEO4J_AURA_PASSWORD or NEO4J_PASSWORD
 DEFAULT_DATA_DIR = Path("../data/processed")
 
 class BerlinTransportImporter:
