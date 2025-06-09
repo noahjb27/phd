@@ -1,4 +1,4 @@
-line_name,type,stops,frequency (7:30),length (time),Length (km),year,east_west,info
+line_name,type,stops,frequency (7:30),length (Time),Length (km),year,east_west,info
 1,tram,"Ostbahnhof - U-Bhf. Strausbergerplatz - Leninplatz - Alexanderplatz, Memhardstr. - Rosenthalerplatz - Invalidenstr. Ecke Chausseestr. - Oranienburger Tor - Hannoverschestr.",20,28,,1964,east,
 A1P,autobus,"Adalbertstr. Ecke Köpenickerstr. - S-Bhf. Jannowitzbrücke - Alexanderplatz, Grunerstr.",10,6,,1964,east,
 3,tram,S-Bhf. Warschauerstr. - Kopernikusstr. - Holteistr. Ecke Boxhagenerstr. - Bhf. Frankfurterallee - Roederplatz - Hohenschönhauserstr. - Omnibus-Bhf. Lichtenbergerstr. - Klement-Gottwald-Allee - Antonplatz - Prenzlauer Promenade - Schönhauserallee - Björnsonstr.,12,45,,1964,east,
@@ -52,7 +52,7 @@ A7,autobus,"Glienicke, Kirche - Elsässerstr. - Schildow, Kirche - Blankenfelde,
 A7E,autobus,"Schildow, Kirche - Blankenfelde, Hauptstr. - Nordend - Kurt-Fischer-Platz - Pankow, Rathaus - U-Bhf. Vinetastr.",11,23,,1964,east,
 A8,autobus,"Waldesruh, Malhlsdorferallee - Fichtestr. Ecke Schopenhauerstr. - Hultschinerdamm - Sadowastr. - Chemnitzer Ecke Ulmenstr. - Alt-Biesdorf, Oberfeldstr. - Alt-Friedrichsfelde, Am Tierpark - U-Bhf. Friedrichsfelde",10,33,,1964,east,
 A8E,autobus,"Sadowastr. - Chemnitzer Ecke Ulmenstr. - Alt-Biesdorf, Oberfeldstr. - Alt-Friedrichsfelde, Am Tierpark - U-Bhf. Friedrichsfelde",10,21,,1964,east,
-A9,autobus,Kurischestr. - Dimitroffstr. - Königstor - S-Bhf. Alexanderplatz - Marx-Engels-Platz - Friedrichstr. - Bhf. Friedrichstr. - Oranienburger Tor - Platz Vor Dem Neuen Tor - Scharnhorststr. Ecke Kielerstr.,7,27,,1964,east,
+A9,autobus,Kurischestr. - Dimitroffstr. - Königstor - S-Bhf. Alexanderplatz - Marx-Engels-Platz - Friedrichstr. - Bhf. Friedrichstr. - Oranienburger Tor - Platz vor Dem Neuen Tor - Scharnhorststr. Ecke Kielerstr.,7,27,,1964,east,
 AD,autobus,"Diepensee - Kienberg - Waltersdorf - Bohnsdorf, Waldstr. - S-Bhf. Grünau",10,24,,1964,east,
 AS,autobus,"Zühlsdorf - Summt, Seegarten - Triftweg, Lpg - Mühlenbeck, Schule - Mönchmühle - Schildow, Kirche",50,25,,1964,east,
 A38,autobus,"Bohnsdorf, Waldstr. - Eichbuschplatz - Joachimstr. - S-Bhf. Grünau",150,13,,1964,east,
