@@ -13,8 +13,28 @@ const path = require('path');
 router.use(express.json());
 
 // Health check endpoint
-router.get('/health', (req, res) => {
-  res.status(200).json({ status: 'healthy' });
+app.get('/health', async (req, res) => {
+  try {
+    // Test Neo4j Aura connection
+    const session = driver.session();
+    await session.run('MATCH (n) RETURN count(n) LIMIT 1');
+    await session.close();
+    
+    res.status(200).json({
+      status: 'healthy',
+      timestamp: new Date().toISOString(),
+      database: 'connected',
+      server: process.env.NODE_ENV || 'unknown'
+    });
+  } catch (error) {
+    console.error('Health check failed:', error);
+    res.status(503).json({
+      status: 'unhealthy',
+      timestamp: new Date().toISOString(),
+      database: 'disconnected',
+      error: error.message
+    });
+  }
 });
 
 router.get('/graph-data', async (req, res) => {
