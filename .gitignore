@@ -7,5 +7,4 @@ node_modules/
 .venv/
 logs/
 .env.local
-package-lock.json
 notes.md
