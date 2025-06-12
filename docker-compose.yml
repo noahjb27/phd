@@ -6,13 +6,20 @@ services:
     container_name: berlin-transport-nginx
     restart: unless-stopped
     ports:
-      - "8080:80"  # This maps to the port Cloudflare Tunnel expects
+      - "8080:80"
     volumes:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
       - ./nginx/logs:/var/log/nginx
     depends_on:
       - backend
       - frontend
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 128M
+        reservations:
+          memory: 64M
   
   backend:
     build:
@@ -20,54 +27,78 @@ services:
       dockerfile: Dockerfile
     container_name: berlin-transport-backend
     restart: unless-stopped
-    # No direct port exposure - will be accessed through nginx
     environment:
       - NODE_ENV=production
       - PORT=5000
-      - JWT_SECRET=${JWT_SECRET}  # Use environment variable
-      - DB_HOST=${DB_HOST}  # Neo4j Aura connection string
-      - DB_PASSWORD=${DB_PASSWORD}  # Neo4j password
+      - JWT_SECRET=${JWT_SECRET}
+      - DB_HOST=${DB_HOST}
+      - DB_PASSWORD=${DB_PASSWORD}
     volumes:
       - ./logs/backend:/usr/src/app/logs
       - ./web/backend/public:/usr/src/app/public
-
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 512M
+        reservations:
+          memory: 256M
 
   frontend:
     build:
       context: ./web/frontend
       dockerfile: Dockerfile
       args:
-        - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL}  # Use relative URL for API
+        - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL}
     container_name: berlin-transport-frontend
     restart: unless-stopped
-    # No direct port exposure - will be accessed through nginx
     environment:
       - NODE_ENV=production
       - NEXTAUTH_URL=https://berlin-transport-history.de
       - NEXTAUTH_SECRET=${NEXTAUTH_SECRET}
       - JWT_SECRET=${JWT_SECRET}
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 512M
+        reservations:
+          memory: 256M
 
   neo4j:
     image: neo4j:5.13.0
     container_name: berlin-transport-db
     ports:
-      - "7474:7474"  # HTTP
-      - "7473:7473"  # HTTPS
-      - "7687:7687"  # Bolt protocol
+      - "7474:7474"
+      - "7473:7473"
+      - "7687:7687"
     environment:
-      - NEO4J_AUTH=neo4j/BerlinTransport2024  # Match your existing password
-      - NEO4J_dbms_memory_heap_initial__size=512m
-      - NEO4J_dbms_memory_heap_max__size=2G
-      - NEO4J_dbms_memory_pagecache_size=1G
+      - NEO4J_AUTH=neo4j/BerlinTransport2024
+      - NEO4J_server_memory_heap_initial__size=512m
+      - NEO4J_server_memory_heap_max__size=1G
+      - NEO4J_server_memory_pagecache_size=512m
       - NEO4J_ACCEPT_LICENSE_AGREEMENT=yes
-      # Allow remote connections
-      - NEO4J_dbms_default__listen__address=0.0.0.0
+      - NEO4J_server_default__listen__address=0.0.0.0
     volumes:
       - neo4j_data:/data
       - neo4j_logs:/logs
       - neo4j_import:/import
       - neo4j_plugins:/plugins
     restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '2.5'  # Reserve most CPU for Neo4j, but not all 6 cores
+          memory: 2G
+        reservations:
+          memory: 1G
+    # Add healthcheck to prevent restart loops
+    healthcheck:
+      test: ["CMD-SHELL", "cypher-shell -u neo4j -p BerlinTransport2024 'RETURN 1' || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
 
 volumes:
   neo4j_data:
