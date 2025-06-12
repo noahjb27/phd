@@ -12,10 +12,9 @@ const path = require('path');
 // Middleware to parse JSON bodies
 router.use(express.json());
 
-// Health check endpoint
-app.get('/health', async (req, res) => {
+router.get('/health', async (req, res) => {
   try {
-    // Test Neo4j Aura connection
+    // Test Neo4j connection
     const session = driver.session();
     await session.run('MATCH (n) RETURN count(n) LIMIT 1');
     await session.close();
@@ -36,6 +35,60 @@ app.get('/health', async (req, res) => {
     });
   }
 });
+
+router.get('/graph-data', async (req, res) => {
+    const session = driver.session();
+    try {
+      const result = await session.run(`
+        MATCH (n)-[r]->(m)
+        RETURN n, r, m
+      `);
+  
+      const nodes = {};
+      const relationships = [];
+  
+      result.records.forEach(record => {
+        const n = record.get('n');
+        const m = record.get('m');
+        const r = record.get('r');
+  
+        // Process nodes
+        [n, m].forEach(node => {
+          const nodeId = node.identity.toString();
+          if (!nodes[nodeId]) {
+            nodes[nodeId] = {
+              id: nodeId,
+              ...node.properties,
+            };
+  
+            // Convert Neo4j integers to JavaScript numbers
+            for (const [key, value] of Object.entries(nodes[nodeId])) {
+              if (neo4j.isInt(value)) {
+                nodes[nodeId][key] = value.toNumber();
+              }
+            }
+          }
+        });
+  
+        // Process relationships
+        relationships.push({
+          id: r.identity.toString(),
+          type: r.type,
+          startNodeId: r.start.toString(),
+          endNodeId: r.end.toString(),
+          properties: r.properties,
+        });
+      });
+  
+      res.json({ nodes: Object.values(nodes), relationships });
+    } catch (error) {
+      console.error('Error fetching data:', error);
+      res.status(500).json({ error: error.message });
+    } finally {
+      await session.close();
+    }
+  });
+
 
 router.get('/graph-data', async (req, res) => {
     const session = driver.session();
