@@ -30,7 +30,7 @@ export const MapControls: React.FC<MapControlsProps> = ({
           className="absolute -right-4 top-1/2 -translate-y-1/2 bg-white rounded-full p-1.5 shadow-md hover:bg-gray-50 transition-colors"
           aria-label={isCollapsed ? "Expand controls" : "Collapse controls"}
         >
-          {isCollapsed ? <ChevronRight size={16} /> : <ChevronLeft size={16} />}
+          {isCollapsed ? <ChevronRight size={16} className="text-gray-600" /> : <ChevronLeft size={16} className="text-gray-600" />}
         </button>
 
         <div className={`
@@ -40,24 +40,24 @@ export const MapControls: React.FC<MapControlsProps> = ({
           {isCollapsed ? (
             // Collapsed state - show just the year
             <div className="flex flex-col items-center gap-2">
-              <Filter size={16} className="text-gray-500" />
-              <span className="text-sm font-medium">Show Controls</span>
+              <Filter size={16} className="text-gray-600" />
+              <span className="text-sm font-medium text-gray-800">Show Controls</span>
             </div>
           ) : (
             // Expanded state
             <div className="p-4 space-y-6">
               {/* Header */}
               <div className="flex justify-between items-center">
-                <h3 className="font-medium flex items-center gap-2">
-                  <Filter size={16} />
+                <h3 className="font-medium flex items-center gap-2 text-gray-800">
+                  <Filter size={16} className="text-gray-600" />
                   Map Controls
                 </h3>
               </div>
 
               {/* Year Selection */}
               <div className="space-y-2">
-                <label className="text-sm font-medium flex items-center gap-2">
-                  <Clock size={14} />
+                <label className="text-sm font-medium flex items-center gap-2 text-gray-700">
+                  <Clock size={14} className="text-gray-600" />
                   Year: {selectedYear}
                 </label>
                 <div className="px-2">
@@ -75,11 +75,9 @@ export const MapControls: React.FC<MapControlsProps> = ({
                 </div>
               </div>
 
-
-
               {/* Berlin Wall Toggle */}
               <div className="flex items-center justify-between pt-2">
-                <label className="text-sm font-medium">Show Berlin Wall</label>
+                <label className="text-sm font-medium text-gray-700">Show Berlin Wall</label>
                 <Switch
                   checked={showBerlinWall}
                   onCheckedChange={(checked) => 

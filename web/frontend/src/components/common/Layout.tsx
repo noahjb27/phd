@@ -19,7 +19,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       {!isHomePage && <Header />}
       
       <main className="relative z-10 flex-grow container mx-auto px-4">
-        {children}
+        {/* Add proper text contrast for all content */}
+        <div className="relative z-20">
+          {children}
+        </div>
       </main>
       
       <Footer />

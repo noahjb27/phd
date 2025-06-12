@@ -1,11 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   :root {
-    --color-primary: #1D4ED8; /* Change this to your desired primary color */
-    --color-secondary: #9333EA; /* Change this to your desired secondary color */
-    --color-accent: #F59E0B; /* Change this to your desired accent color */
+    --color-primary: #1D4ED8;
+    --color-secondary: #9333EA;
+    --color-accent: #F59E0B;
   }
 }
 
@@ -20,6 +21,44 @@
 
   .btn-accent {
     @apply bg-accent text-white;
+  }
+
+  /* Content containers for dark backgrounds */
+  .content-container {
+    @apply bg-white/10 backdrop-blur-sm rounded-xl p-8 shadow-2xl border border-white/20;
+  }
+
+  .content-header {
+    @apply bg-gradient-to-br rounded-xl p-8 shadow-2xl border mb-8;
+  }
+
+  /* Dark prose styling */
+  .prose-dark {
+    @apply prose prose-lg max-w-none prose-invert;
+    @apply prose-headings:text-white prose-h1:text-white prose-h2:text-white prose-h3:text-white prose-h4:text-white prose-h5:text-white prose-h6:text-white;
+    @apply prose-p:text-gray-200 prose-a:text-blue-300 prose-a:hover:text-blue-200;
+    @apply prose-strong:text-white prose-em:text-gray-200;
+    @apply prose-code:text-pink-300 prose-code:bg-gray-800/50;
+    @apply prose-pre:bg-gray-800/50 prose-pre:text-gray-200;
+    @apply prose-blockquote:border-blue-400/50 prose-blockquote:text-gray-300;
+    @apply prose-li:text-gray-200 prose-ul:text-gray-200 prose-ol:text-gray-200;
+    @apply prose-hr:border-gray-600/50;
+    @apply prose-table:text-gray-200 prose-thead:text-white prose-th:border-gray-600/50 prose-td:border-gray-600/50;
+  }
+
+  /* Input styling for dark backgrounds */
+  .input-dark {
+    @apply bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white placeholder-gray-400;
+    @apply focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all;
+  }
+
+  /* Button styling for dark backgrounds */
+  .btn-dark {
+    @apply bg-white/10 text-gray-300 hover:bg-white/20 border border-white/20 transition-colors;
+  }
+
+  .btn-dark-active {
+    @apply bg-blue-500/30 text-blue-200 border border-blue-400/50;
   }
 }
 
@@ -47,17 +86,45 @@
   .text-accent {
     color: var(--color-accent);
   }
+
+  /* Text color utilities for dark backgrounds */
+  .text-light {
+    @apply text-gray-200;
+  }
+
+  .text-muted-light {
+    @apply text-gray-400;
+  }
+
+  .heading-light {
+    @apply text-white;
+  }
 }
+
 /* Custom global styles */
 body {
   @apply bg-gray-100 text-gray-800 font-sans;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @apply font-bold text-gray-900;
+  @apply font-bold;
 }
 
-/* In your global CSS file */
+/* Dark theme body styling when used with Layout */
+.dark-layout {
+  @apply bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-white;
+}
+
+.dark-layout h1, 
+.dark-layout h2, 
+.dark-layout h3, 
+.dark-layout h4, 
+.dark-layout h5, 
+.dark-layout h6 {
+  @apply text-white;
+}
+
+/* Custom tooltip styles */
 .custom-tooltip {
   @apply bg-transparent border-0 shadow-none;
 }

@@ -24,7 +24,6 @@ const TransportAnimation = () => {
   const sBahnProgress = Math.pow(scrollProgress, 0.7); // faster at start, slower at end
   const omnibusProgress = easeInOutCubic(scrollProgress);
 
-
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
@@ -40,7 +39,7 @@ const TransportAnimation = () => {
   }, []);
 
   return (
-  <div className="fixed top-0 left-0 w-full h-full z-20 overflow-hidden pointer-events-none">
+    <div className="fixed top-0 left-0 w-full h-full z-0 overflow-hidden pointer-events-none opacity-30">
       <div className="absolute w-full h-0.5 bg-purple-400 opacity-20" style={{ top: '28%' }}></div> 
       <div className="absolute w-full h-0.5 bg-blue-400 opacity-20" style={{ top: '53%' }}></div>
       <div className="absolute w-full h-0.5 bg-purple-400 opacity-20" style={{ top: '71%' }}></div>
@@ -61,13 +60,12 @@ const TransportAnimation = () => {
             alt="drawing Berlin Ferry"
             width={80}
             height={40}
-            className="object-contain filter drop-shadow-lg"
+            className="object-contain filter drop-shadow-lg opacity-70"
           />
           <Link href="https://en.wikipedia.org/wiki/Ferry_transport_in_Berlin" className="ml-2 text-sm font-medium text-purple-300 whitespace-nowrap hover:underline focus:underline">Ferry</Link>
         </div>
       </div>
       
-
       {/* Tram - medium speed */}
       <div 
         className="absolute pointer-events-auto"
@@ -83,7 +81,7 @@ const TransportAnimation = () => {
             alt="drawing Berlin Tram"
             width={80}
             height={40}
-            className="object-contain filter drop-shadow-lg"
+            className="object-contain filter drop-shadow-lg opacity-70"
           />
           <Link 
             href="https://en.wikipedia.org/wiki/Trams_in_Berlin" 
@@ -109,7 +107,7 @@ const TransportAnimation = () => {
             alt="drawing Berlin Bus"
             width={80}
             height={40}
-            className="object-contain filter drop-shadow-lg"
+            className="object-contain filter drop-shadow-lg opacity-70"
           />
           <Link 
             href="https://en.wikipedia.org/wiki/Bus_transport_in_Berlin" 
@@ -119,7 +117,6 @@ const TransportAnimation = () => {
           </Link>
         </div>
       </div>
-
 
       {/* S-Bahn - fastest */}
       <div
@@ -136,7 +133,7 @@ const TransportAnimation = () => {
             alt="drawing Berlin S-Bahn"
             width={80}
             height={40}
-            className="object-contain filter drop-shadow-lg"
+            className="object-contain filter drop-shadow-lg opacity-70"
           />
           <Link 
             href="https://en.wikipedia.org/wiki/Berlin_S-Bahn" 
@@ -162,7 +159,7 @@ const TransportAnimation = () => {
             alt="drawing Berlin Oberleitungsbus"
             width={80}
             height={40}
-            className="object-contain filter drop-shadow-lg"
+            className="object-contain filter drop-shadow-lg opacity-70"
           />
           <Link 
             href="https://de.wikipedia.org/wiki/Oberleitungsbus_Berlin_(1951%E2%80%931973)" 
@@ -172,8 +169,7 @@ const TransportAnimation = () => {
           </Link>
         </div>
       </div>
-      
-      </div>
+    </div>
   );
 };
 
@@ -183,11 +179,11 @@ const HomePage = () => {
       <TransportAnimation />
       
       {/* Main content with higher z-index */}
-      <div className="relative z-10">
+      <div className="relative z-20">
         {/* Hero Section */}
         <section className="min-h-screen flex items-center">
           <div className="max-w-4xl mx-auto px-6 py-16">
-            <div className="bg-gradient-to-br from-blue-600/90 to-purple-600/90 backdrop-blur-sm rounded-xl p-8 shadow-2xl border border-blue-400/20">
+            <div className="bg-gradient-to-br from-blue-600/95 to-purple-600/95 backdrop-blur-sm rounded-xl p-8 shadow-2xl border border-blue-400/20">
               <div className="text-center mb-8">
                 <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
                   Transporting Berlin
@@ -226,7 +222,7 @@ const HomePage = () => {
         {/* What is Digital History */}
         <section className="py-16">
           <div className="max-w-4xl mx-auto px-6">
-            <div className="bg-gradient-to-br from-purple-600/90 to-blue-600/90 rounded-xl p-8 shadow-2xl border border-purple-400/20">
+            <div className="bg-gradient-to-br from-purple-600/95 to-blue-600/95 backdrop-blur-sm rounded-xl p-8 shadow-2xl border border-purple-400/20">
               <h2 className="text-3xl font-bold text-center mb-8 text-white">What is Digital History?</h2>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -243,7 +239,7 @@ const HomePage = () => {
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border border-white/20">
                   <h3 className="text-xl font-semibold mb-4 text-white">Why Berlin Transport?</h3>
                   <ul className="space-y-2 text-purple-100">
-                    <li>• A city divided the Iron Curtain</li>
+                    <li>• A city divided by the Iron Curtain</li>
                     <li>• Two competing visions of urban planning</li>
                     <li>• Real impact on daily life for millions</li>
                     <li>• Lessons for cities today</li>
@@ -257,11 +253,11 @@ const HomePage = () => {
         {/* Your Guide to DH */}
         <section className="py-16">
           <div className="max-w-4xl mx-auto px-6">
-            <div className="bg-gradient-to-br from-blue-600/90 to-indigo-600/90 rounded-xl p-8 shadow-2xl border border-blue-400/20">
+            <div className="bg-gradient-to-br from-blue-600/95 to-indigo-600/95 backdrop-blur-sm rounded-xl p-8 shadow-2xl border border-blue-400/20">
               <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold mb-4 text-white">Behind the project</h2>
                 <p className="text-xl text-blue-100">
-                  Let me introduce myself, my name is Noah. I'm a PhD student in Berlin learninging about history and technology and how we can bring them together to understand the past.  
+                  Let me introduce myself, my name is Noah. I'm a PhD student in Berlin learning about history and technology and how we can bring them together to understand the past.  
                   I want to share this journey with you.
                 </p>
               </div>
@@ -304,7 +300,7 @@ const HomePage = () => {
         {/* Latest Updates */}
         <section className="py-16">
           <div className="max-w-4xl mx-auto px-6">
-            <div className="bg-gradient-to-br from-indigo-600/90 to-purple-600/90 rounded-xl p-8 shadow-2xl border border-indigo-400/20">
+            <div className="bg-gradient-to-br from-indigo-600/95 to-purple-600/95 backdrop-blur-sm rounded-xl p-8 shadow-2xl border border-indigo-400/20">
               <h2 className="text-3xl font-bold text-center mb-8 text-white">Latest Updates</h2>
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="border-l-4 border-blue-300 pl-6">
@@ -342,7 +338,7 @@ const HomePage = () => {
         {/* Call to Action */}
         <section className="py-16 text-center">
           <div className="max-w-4xl mx-auto px-6">
-            <div className="bg-gradient-to-r from-purple-600 to-blue-600 rounded-xl p-8 text-white shadow-2xl border border-purple-400/30">
+            <div className="bg-gradient-to-r from-purple-600/95 to-blue-600/95 backdrop-blur-sm rounded-xl p-8 text-white shadow-2xl border border-purple-400/30">
               <h2 className="text-3xl font-bold mb-4">Ready to Explore?</h2>
               <p className="text-xl mb-8 text-purple-100">
                 Dive into the interactive maps and see how Berlin's story unfolds

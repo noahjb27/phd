@@ -62,21 +62,21 @@ const Legend: React.FC<LegendProps> = ({ defaultCollapsed = true }) => {
           onClick={() => setIsCollapsed(false)}
           className="flex items-center gap-2 bg-white/95 backdrop-blur-sm rounded-lg p-2 shadow-lg hover:bg-gray-50 transition-colors"
         >
-          <MapPin size={16} />
-          <span className="text-sm font-medium">Legend</span>
+          <MapPin size={16} className="text-gray-600" />
+          <span className="text-sm font-medium text-gray-800">Legend</span>
           <ChevronLeft size={16} className="text-gray-500" />
         </button>
       ) : (
         <div className="bg-white/95 backdrop-blur-sm rounded-lg shadow-lg w-64">
           <div className="p-3">
             <div className="flex items-center justify-between mb-2">
-              <h3 className="font-medium flex items-center gap-2">
-                <MapPin size={16} />
+              <h3 className="font-medium flex items-center gap-2 text-gray-800">
+                <MapPin size={16} className="text-gray-600" />
                 Legend
               </h3>
               <button
                 onClick={() => setIsCollapsed(true)}
-                className="p-1 hover:bg-gray-100 rounded-full"
+                className="p-1 hover:bg-gray-100 rounded-full text-gray-600 hover:text-gray-800"
               >
                 <X size={16} />
               </button>
@@ -93,27 +93,27 @@ const Legend: React.FC<LegendProps> = ({ defaultCollapsed = true }) => {
                         borderColor: type.color
                       }} 
                     />
-                    <span className="text-sm font-medium">{type.label}</span>
+                    <span className="text-sm font-medium text-gray-800">{type.label}</span>
                   </div>
-                  <div className="text-xs text-gray-500 ml-10">
+                  <div className="text-xs text-gray-600 ml-10">
                     {type.capacity}
                   </div>
                 </div>
               ))}
               <div className="mt-4 pt-4 border-t border-gray-200">
-              <h4 className="text-xs font-medium mb-2">Line Thickness</h4>
+              <h4 className="text-xs font-medium mb-2 text-gray-700">Line Thickness</h4>
               <div className="space-y-1">
                 <div className="flex items-center gap-2">
                   <div className="w-8 h-0 border-[1px] border-gray-400" />
-                  <span className="text-xs text-gray-500">Low capacity</span>
+                  <span className="text-xs text-gray-600">Low capacity</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="w-8 h-0 border-[3px] border-gray-400" />
-                  <span className="text-xs text-gray-500">Medium capacity</span>
+                  <span className="text-xs text-gray-600">Medium capacity</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="w-8 h-0 border-[5px] border-gray-400" />
-                  <span className="text-xs text-gray-500">High capacity</span>
+                  <span className="text-xs text-gray-600">High capacity</span>
                   </div>
               </div>
             </div>
@@ -124,6 +124,5 @@ const Legend: React.FC<LegendProps> = ({ defaultCollapsed = true }) => {
     </div>
   );
 };
-
 
 export default Legend;

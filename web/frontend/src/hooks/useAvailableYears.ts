@@ -29,7 +29,7 @@ const useAvailableYears = () => {
           setError('An unexpected error occurred');
         }
         // Fallback to default years if API fails
-        setAvailableYears([1964, 1965]);
+        setAvailableYears([1946, 1951, 1956, 1960, 1961, 1964, 1965, 1967, 1971]);
       } finally {
         setLoading(false);
       }

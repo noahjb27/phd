@@ -38,17 +38,21 @@ const MapLegend = () => {
   ];
 
   return (
-    <div className="absolute bottom-6 right-6 bg-white rounded-lg shadow-lg z-[1000]">
+    <div className="absolute bottom-6 right-6 bg-white/95 backdrop-blur-sm rounded-lg shadow-lg z-[1000]">
       <button 
         onClick={() => setIsExpanded(!isExpanded)}
-        className="w-full flex items-center justify-between px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 rounded-lg"
+        className="w-full flex items-center justify-between px-4 py-2 text-sm font-medium text-gray-800 hover:bg-gray-50 rounded-lg transition-colors"
       >
         <span>Legend</span>
-        {isExpanded ? <ChevronDown className="w-4 h-4" /> : <ChevronUp className="w-4 h-4" />}
+        {isExpanded ? (
+          <ChevronDown className="w-4 h-4 text-gray-600" />
+        ) : (
+          <ChevronUp className="w-4 h-4 text-gray-600" />
+        )}
       </button>
       
       {isExpanded && (
-        <div className="p-4 space-y-3">
+        <div className="p-4 space-y-3 border-t border-gray-200">
           {legendItems.map((item, index) => (
             <div key={index} className="flex items-center space-x-2">
               <div 
@@ -58,7 +62,7 @@ const MapLegend = () => {
                   opacity: item.opacity
                 }}
               />
-              <span className="text-sm text-gray-600">{item.label}</span>
+              <span className="text-sm text-gray-700">{item.label}</span>
             </div>
           ))}
         </div>
