@@ -3,8 +3,27 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, Play, BookOpen, BarChart3, User, Calendar } from 'lucide-react';
 
+// Easing functions
+function easeOutCubic(x: number) {
+  return 1 - Math.pow(1 - x, 3);
+}
+function easeInCubic(x: number) {
+  return x * x * x;
+}
+function easeInOutCubic(x: number) {
+  return x < 0.5
+    ? 4 * x * x * x
+    : 1 - Math.pow(-2 * x + 2, 3) / 2;
+}
+
 const TransportAnimation = () => {
   const [scrollProgress, setScrollProgress] = useState(0);
+  const ferryProgress = easeInCubic(scrollProgress);
+  const tramProgress = easeOutCubic(scrollProgress);
+  const busProgress = easeInOutCubic(scrollProgress);
+  const sBahnProgress = Math.pow(scrollProgress, 0.7); // faster at start, slower at end
+  const omnibusProgress = easeInOutCubic(scrollProgress);
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -12,7 +31,7 @@ const TransportAnimation = () => {
       const windowHeight = window.innerHeight;
       const documentHeight = document.documentElement.scrollHeight;
       const totalScrollable = documentHeight - windowHeight;
-      const progress = Math.min(scrollTop / (totalScrollable * 0.8), 1); // Complete animation in first 80% of page
+      const progress = Math.min(scrollTop / (totalScrollable), 1); // Complete animation in first 80% of page
       setScrollProgress(progress);
     };
 
@@ -21,77 +40,140 @@ const TransportAnimation = () => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 w-full h-full pointer-events-none z-0 overflow-hidden">
-      {/* Subtle background tracks/lines */}
-      <div className="absolute top-1/3 w-full opacity-20">
-        <div className="h-px bg-blue-400 mb-16"></div>
-        <div className="h-px bg-purple-400 mb-16"></div>
-        <div className="h-px bg-blue-400"></div>
+  <div className="fixed top-0 left-0 w-full h-full z-20 overflow-hidden pointer-events-none">
+      <div className="absolute w-full h-0.5 bg-purple-400 opacity-20" style={{ top: '28%' }}></div> 
+      <div className="absolute w-full h-0.5 bg-blue-400 opacity-20" style={{ top: '53%' }}></div>
+      <div className="absolute w-full h-0.5 bg-purple-400 opacity-20" style={{ top: '71%' }}></div>
+      <div className="absolute w-full h-0.5 bg-blue-400 opacity-20" style={{ top: '93%' }}></div>
+
+      {/* Ferry */}
+      <div
+        className="absolute pointer-events-auto"
+        style={{
+          left: `${ferryProgress * 90}%`,
+          top: '10%',
+          transform: 'translateY(-50%)',
+        }}
+      >
+        <div className="flex items-center">
+          <Image
+            src="/images/ferry-drawing.png"
+            alt="drawing Berlin Ferry"
+            width={80}
+            height={40}
+            className="object-contain filter drop-shadow-lg"
+          />
+          <Link href="https://en.wikipedia.org/wiki/Ferry_transport_in_Berlin" className="ml-2 text-sm font-medium text-purple-300 whitespace-nowrap hover:underline focus:underline">Ferry</Link>
+        </div>
       </div>
       
-      {/* Bus - slowest */}
+
+      {/* Tram - medium speed */}
       <div 
-        className="absolute transition-all duration-300 ease-out"
+        className="absolute pointer-events-auto"
         style={{
-          left: `${(scrollProgress * 120 * 0.6)}%`, // 60% speed
+          left: `${(1 - tramProgress) * 90}%`,
           top: '30%',
           transform: 'translateY(-50%)',
         }}
       >
         <div className="flex items-center">
           <Image
-            src="/images/bus-1980s.png"
-            alt="1980s Berlin Bus"
+            src="/images/tram-drawing.png"
+            alt="drawing Berlin Tram"
             width={80}
             height={40}
             className="object-contain filter drop-shadow-lg"
           />
-          <div className="ml-2 text-sm font-medium text-purple-300 whitespace-nowrap">Bus</div>
+          <Link 
+            href="https://en.wikipedia.org/wiki/Trams_in_Berlin" 
+            className="ml-2 text-sm font-medium text-red-300 whitespace-nowrap hover:text-red-100 hover:underline cursor-pointer z-10 relative"
+          >
+            Tram
+          </Link>
         </div>
       </div>
-
-      {/* Tram - medium speed */}
+      
+      {/* Bus - slowest */}
       <div 
-        className="absolute transition-all duration-300 ease-out"
+        className="absolute pointer-events-auto"
         style={{
-          left: `${100 - (scrollProgress * 120 * 0.8)}%`, // 80% speed
+          left: `${busProgress * 90}%`,
           top: '50%',
           transform: 'translateY(-50%)',
         }}
       >
         <div className="flex items-center">
           <Image
-            src="/images/tram-1980s.png"
-            alt="1980s Berlin Tram"
+            src="/images/bus-drawing.png"
+            alt="drawing Berlin Bus"
             width={80}
             height={40}
             className="object-contain filter drop-shadow-lg"
           />
-          <div className="ml-2 text-sm font-medium text-red-300 whitespace-nowrap">Tram</div>
+          <Link 
+            href="https://en.wikipedia.org/wiki/Bus_transport_in_Berlin" 
+            className="ml-2 text-sm font-medium text-purple-300 whitespace-nowrap hover:text-purple-100 hover:underline cursor-pointer z-10 relative"
+          >
+            Bus
+          </Link>
         </div>
       </div>
 
+
       {/* S-Bahn - fastest */}
-      <div 
-        className="absolute transition-all duration-300 ease-out"
+      <div
+        className="absolute pointer-events-auto"
         style={{
-          left: `${(scrollProgress * 120)}%`, // 100% speed
+          left: `${(1 - sBahnProgress) * 90}%`,
           top: '70%',
           transform: 'translateY(-50%)',
         }}
       >
         <div className="flex items-center">
           <Image
-            src="/images/train-1980s.png"
-            alt="1980s Berlin S-Bahn"
+            src="/images/S-Bahn-drawing.png"
+            alt="drawing Berlin S-Bahn"
             width={80}
             height={40}
             className="object-contain filter drop-shadow-lg"
           />
-          <div className="ml-2 text-sm font-medium text-blue-300 whitespace-nowrap">U-Bahn</div>
+          <Link 
+            href="https://en.wikipedia.org/wiki/Berlin_S-Bahn" 
+            className="ml-2 text-sm font-medium text-blue-300 whitespace-nowrap hover:text-blue-100 hover:underline cursor-pointer z-10 relative"
+          >
+            S-Bahn
+          </Link>
         </div>
       </div>
-    </div>
+
+      {/* Oberleitungsbus */}
+      <div 
+        className="absolute pointer-events-auto"
+        style={{
+        left: `${omnibusProgress * 90}%`, 
+          top: '90%',
+          transform: 'translateY(-50%)',
+        }}
+      >
+        <div className="flex items-center">
+          <Image
+            src="/images/omnibus-drawing.png"
+            alt="drawing Berlin Oberleitungsbus"
+            width={80}
+            height={40}
+            className="object-contain filter drop-shadow-lg"
+          />
+          <Link 
+            href="https://de.wikipedia.org/wiki/Oberleitungsbus_Berlin_(1951%E2%80%931973)" 
+            className="ml-2 text-sm font-medium text-purple-300 whitespace-nowrap hover:text-purple-100 hover:underline cursor-pointer z-10 relative"
+          >
+            Oberleitungsbus
+          </Link>
+        </div>
+      </div>
+      
+      </div>
   );
 };
 
@@ -115,7 +197,7 @@ const HomePage = () => {
                 </p>
                 <p className="text-lg text-blue-50 max-w-3xl mx-auto leading-relaxed">
                   Explore how Cold War politics shaped daily life through Berlin's public transport. 
-                  Which neighborhoods gained access? Which lost out? And what can we learn for cities today?
+                  How did connectivity change, which neighborhoods benefitted? Which lost out? And what can we learn for cities today?
                 </p>
               </div>
 
@@ -149,8 +231,8 @@ const HomePage = () => {
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <p className="text-lg text-purple-50 leading-relaxed mb-4">
-                    Digital history combines traditional historical research with modern technology. 
-                    Instead of just reading about the past, we can visualize it, interact with it, 
+                    Digital history combines traditional historical research with computational tools and methods. 
+                    It is not just about new technologies but new ways of learning and teaching about the past. We can visualize it, interact with it, 
                     and discover patterns that would be impossible to see otherwise.
                   </p>
                   <p className="text-lg text-purple-50 leading-relaxed">
@@ -161,7 +243,7 @@ const HomePage = () => {
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border border-white/20">
                   <h3 className="text-xl font-semibold mb-4 text-white">Why Berlin Transport?</h3>
                   <ul className="space-y-2 text-purple-100">
-                    <li>• A city literally divided by politics</li>
+                    <li>• A city divided the Iron Curtain</li>
                     <li>• Two competing visions of urban planning</li>
                     <li>• Real impact on daily life for millions</li>
                     <li>• Lessons for cities today</li>
@@ -177,10 +259,10 @@ const HomePage = () => {
           <div className="max-w-4xl mx-auto px-6">
             <div className="bg-gradient-to-br from-blue-600/90 to-indigo-600/90 rounded-xl p-8 shadow-2xl border border-blue-400/20">
               <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold mb-4 text-white">Your Guide to Digital History</h2>
+                <h2 className="text-3xl font-bold mb-4 text-white">Behind the project</h2>
                 <p className="text-xl text-blue-100">
-                  Hi, I'm Noah. I'm a PhD student learning to combine history with technology, 
-                  and I want to share that journey with you.
+                  Let me introduce myself, my name is Noah. I'm a PhD student in Berlin learninging about history and technology and how we can bring them together to understand the past.  
+                  I want to share this journey with you.
                 </p>
               </div>
 
@@ -191,7 +273,7 @@ const HomePage = () => {
                   </div>
                   <h3 className="text-xl font-semibold mb-2 text-white">The Tools</h3>
                   <p className="text-blue-100">
-                    Neo4j, React, Python—learn why I chose them and how they work
+                    Neo4j, JavaScript, Python—learn what is involved and how to navigate it all
                   </p>
                 </div>
 
@@ -201,7 +283,7 @@ const HomePage = () => {
                   </div>
                   <h3 className="text-xl font-semibold mb-2 text-white">The Process</h3>
                   <p className="text-blue-100">
-                    From archival research to interactive maps—behind the scenes
+                    From archival research to new insights and interactive maps—behind the scenes
                   </p>
                 </div>
 

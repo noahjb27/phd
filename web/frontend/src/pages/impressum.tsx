@@ -13,8 +13,8 @@ const Impressum: React.FC = () => (
           <h2 className="text-2xl font-semibold text-primary">Responsible for Content</h2>
           <p className="text-gray-700 mt-2">
             Noah Jefferson Baumann <br />
-            Pritzwalker Strasse 16, <br />
-            10559 Berlin <br />
+            Friedrichstrasse 191, <br />
+            10119 Berlin <br />
             Germany
           </p>
         </div>

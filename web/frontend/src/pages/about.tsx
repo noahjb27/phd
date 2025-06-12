@@ -33,12 +33,12 @@ const milestones = [
   {
     year: '2025',
     title: 'Proof-of-Concept & Data Collection',
-    description: 'Developing modeling and analysis methodology for collected historical data.'
+    description: 'Developing the research questions, modeling and analysis methodology for collected historical data.'
   },
   {
     year: '2026',
-    title: 'Analysis Phase',
-    description: 'Method selection & application, along with situation of transportation patterns in socio-political context.'
+    title: 'Analysis & Publication Phase',
+    description: 'Formal publication of research articles on sources, data modelling & analysis.'
   },
   {
     year: '2027',
@@ -60,7 +60,7 @@ const AboutPage: React.FC = () => {
               Rethinking the Past
             </h1>
             <p className="text-xl text-blue-100 text-center max-w-3xl mx-auto leading-relaxed">
-              How digital history is transforming the way we understand, analyze, and experience historical knowledge
+              How digital history is transforming the way we understand, analyze, and experience history.
             </p>
           </div>
         </div>
@@ -70,19 +70,19 @@ const AboutPage: React.FC = () => {
           <div className="bg-gradient-to-br from-purple-600/90 to-indigo-600/90 rounded-xl p-8 shadow-2xl border border-purple-400/20">
             <div className="flex items-center mb-6">
               <Lightbulb className="h-8 w-8 text-purple-200 mr-3" />
-              <h2 className="text-3xl font-bold text-white">A New Way of Thinking About History</h2>
+              <h2 className="text-3xl font-bold text-white">A New Way of Approaching Historical Research</h2>
             </div>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-4">
                 <p className="text-lg text-purple-100 leading-relaxed">
-                  Traditional history tells us what happened. Digital history shows us <em>how</em> it happened, 
-                  <em>where</em> it happened, and <em>what if</em> it had happened differently.
+                  Traditional historical scholarship typically involves working with primary and secondary sources and building an understanding of the past from these materials.
+                  Digital History looks towards primary sources as information sources that can be extracted for data. A difficult task working with messy historical texts for example. 
                 </p>
                 <p className="text-lg text-purple-100 leading-relaxed">
-                  By adding <strong>digitization</strong>, <strong>data modeling</strong>, and <strong>digital methods</strong> 
-                  to historical research, we don't just change our tools—we change our entire hermeneutic process. 
-                  We can ask new questions, see hidden patterns, and make discoveries that would be impossible with traditional methods alone.
+                  By going through a <strong>datafication</strong>, <strong>data modeling</strong>, and <strong>analysis</strong> 
+                  process, we don't just change our tools—we change our entire hermeneutic process. 
+                  We can ask new questions, see patterns only visible at scale, and develop understandings previously uncovered.
                 </p>
               </div>
               
@@ -167,7 +167,7 @@ const AboutPage: React.FC = () => {
                   I'm fascinated by how practices from different domains can inform and strengthen each other.
                 </p>
                 <p className="text-lg text-blue-100 leading-relaxed">
-                  My "aha moment" came during my final semester at <strong>King's College London</strong>, when I was 
+                  My journey started in the final semester of my BA at <strong>King's College London</strong>, when I was 
                   challenged to create a digital edition of a document from the royal archives. I chose a 
                   17th-century Hanoverian state finance document and discovered how digital tools could not just 
                   preserve history, but make it accessible and understandable to the public in entirely new ways.
