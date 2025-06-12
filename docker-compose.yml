@@ -20,7 +20,7 @@ services:
           memory: 128M
         reservations:
           memory: 64M
-  
+
   backend:
     build:
       context: ./web/backend
@@ -52,11 +52,17 @@ services:
         - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL}
     container_name: berlin-transport-frontend
     restart: unless-stopped
+    ports:
+      - "3000:3000"  # Add this for direct access
     environment:
       - NODE_ENV=production
       - NEXTAUTH_URL=https://berlin-transport-history.de
       - NEXTAUTH_SECRET=${NEXTAUTH_SECRET}
       - JWT_SECRET=${JWT_SECRET}
+      - NEO4J_AURA_URI=${NEO4J_AURA_URI}
+      - NEO4J_AURA_USERNAME=${NEO4J_AURA_USERNAME}
+      - NEO4J_AURA_PASSWORD=${NEO4J_AURA_PASSWORD}
+    # Remove volume mounting for production
     deploy:
       resources:
         limits:
@@ -88,11 +94,10 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '2.5'  # Reserve most CPU for Neo4j, but not all 6 cores
+          cpus: '2.5'
           memory: 2G
         reservations:
           memory: 1G
-    # Add healthcheck to prevent restart loops
     healthcheck:
       test: ["CMD-SHELL", "cypher-shell -u neo4j -p BerlinTransport2024 'RETURN 1' || exit 1"]
       interval: 30s
