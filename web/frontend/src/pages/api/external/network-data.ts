@@ -3,13 +3,29 @@ import { NextApiRequest, NextApiResponse } from 'next';
 import fs from 'fs';
 import path from 'path';
 
-export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+export default function handler(req: NextApiRequest, res: NextApiResponse) {
+  if (req.method !== 'GET') {
+    return res.status(405).json({ error: 'Method not allowed' });
+  }
+
   try {
     const filePath = path.join(process.cwd(), 'public', 'network-data.json');
+    
+    if (!fs.existsSync(filePath)) {
+      console.error('Network data file not found at:', filePath);
+      return res.status(404).json({ error: 'Network data not found' });
+    }
+
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const data = JSON.parse(fileContents);
+    
+    res.setHeader('Content-Type', 'application/json');
     res.status(200).json(data);
   } catch (error) {
-    res.status(500).json({ error: 'Failed to load network data' });
+    console.error('Error serving network data:', error);
+    res.status(500).json({ 
+      error: 'Failed to load network data', 
+      details: error instanceof Error ? error.message : 'Unknown error'
+    });
   }
 }
