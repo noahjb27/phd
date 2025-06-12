@@ -40,9 +40,12 @@ const BlogList: React.FC<BlogListProps> = ({ posts }) => {
   return (
     <Layout>
       <section className="max-w-4xl mx-auto px-4 py-8">
+        {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Blog</h1>
-          <p className="text-lg text-gray-600">Personal thoughts and reflections on public transportation and digital history</p>
+          <div className="bg-gradient-to-br from-blue-600/90 to-purple-600/90 rounded-xl p-8 shadow-2xl border border-blue-400/20">
+            <h1 className="text-4xl font-bold text-white mb-4">Blog</h1>
+            <p className="text-lg text-blue-100">Personal thoughts and reflections on public transportation and digital history</p>
+          </div>
         </div>
 
         {/* Search and Filter */}
@@ -52,7 +55,7 @@ const BlogList: React.FC<BlogListProps> = ({ posts }) => {
             <input
               type="text"
               placeholder="Search posts..."
-              className="w-full pl-10 pr-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-full pl-10 pr-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
@@ -62,10 +65,10 @@ const BlogList: React.FC<BlogListProps> = ({ posts }) => {
             <div className="flex flex-wrap gap-2">
               <button
                 onClick={() => setSelectedTag(null)}
-                className={`px-3 py-1 rounded-full text-sm ${
+                className={`px-3 py-1 rounded-full text-sm transition-colors ${
                   !selectedTag 
-                    ? 'bg-blue-100 text-blue-800' 
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                    ? 'bg-blue-500/30 text-blue-200 border border-blue-400/50' 
+                    : 'bg-white/10 text-gray-300 hover:bg-white/20 border border-white/20'
                 }`}
               >
                 All
@@ -74,10 +77,10 @@ const BlogList: React.FC<BlogListProps> = ({ posts }) => {
                 <button
                   key={tag}
                   onClick={() => setSelectedTag(tag)}
-                  className={`px-3 py-1 rounded-full text-sm ${
+                  className={`px-3 py-1 rounded-full text-sm transition-colors ${
                     selectedTag === tag
-                      ? 'bg-blue-100 text-blue-800'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                      ? 'bg-blue-500/30 text-blue-200 border border-blue-400/50'
+                      : 'bg-white/10 text-gray-300 hover:bg-white/20 border border-white/20'
                   }`}
                 >
                   {tag}
@@ -93,13 +96,13 @@ const BlogList: React.FC<BlogListProps> = ({ posts }) => {
             <Link 
               key={slug}
               href={`/blog/${slug}`}
-              className="group block bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200"
+              className="group block bg-white/10 backdrop-blur-sm rounded-lg shadow-sm hover:shadow-md hover:bg-white/15 transition-all duration-200 border border-white/20"
             >
               <div className="p-6">
-                <h2 className="text-xl font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+                <h2 className="text-xl font-semibold text-white group-hover:text-blue-300 transition-colors">
                   {title}
                 </h2>
-                <div className="mt-2 flex items-center text-sm text-gray-500 space-x-4">
+                <div className="mt-2 flex items-center text-sm text-gray-400 space-x-4">
                   <time dateTime={date}>
                     {new Date(date).toLocaleDateString('en-US', {
                       year: 'numeric',
@@ -112,7 +115,7 @@ const BlogList: React.FC<BlogListProps> = ({ posts }) => {
                   )}
                 </div>
                 {excerpt && (
-                  <p className="mt-3 text-gray-600 line-clamp-2">{excerpt}</p>
+                  <p className="mt-3 text-gray-300 line-clamp-2">{excerpt}</p>
                 )}
               </div>
             </Link>

@@ -27,63 +27,64 @@ const BlogPost: React.FC<BlogPostProps> = ({
       {/* Back button */}
       <Link 
         href="/blog"
-        className="inline-flex items-center text-sm text-gray-600 hover:text-gray-900 mb-8"
+        className="inline-flex items-center text-sm text-gray-300 hover:text-white mb-8 transition-colors"
       >
         <ArrowLeft className="h-4 w-4 mr-2" />
         Back to all posts
       </Link>
 
-      {/* Article header */}
-      <header className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">{title}</h1>
-        <div className="flex flex-wrap items-center text-sm text-gray-600 gap-4">
-          <div className="flex items-center">
-            {/* You could add an avatar here */}
-            <span>By {author}</span>
+      {/* Content container with semi-transparent background */}
+      <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 shadow-2xl border border-white/20">
+        {/* Article header */}
+        <header className="mb-8">
+          <h1 className="text-4xl font-bold text-white mb-4">{title}</h1>
+          <div className="flex flex-wrap items-center text-sm text-gray-300 gap-4">
+            <div className="flex items-center">
+              <span>By {author}</span>
+            </div>
+            <time dateTime={date} className="text-gray-300">
+              {new Date(date).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+              })}
+            </time>
+            {readingTime && (
+              <span className="text-gray-300">· {readingTime} read</span>
+            )}
           </div>
-          <time dateTime={date}>
-            {new Date(date).toLocaleDateString('en-US', {
-              year: 'numeric',
-              month: 'long',
-              day: 'numeric'
-            })}
-          </time>
-          {readingTime && (
-            <span>· {readingTime} read</span>
+          {tags && tags.length > 0 && (
+            <div className="mt-4 flex flex-wrap gap-2">
+              {tags.map(tag => (
+                <span 
+                  key={tag}
+                  className="px-3 py-1 bg-blue-500/20 text-blue-200 rounded-full text-sm border border-blue-400/30"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
           )}
-        </div>
-        {tags && tags.length > 0 && (
-          <div className="mt-4 flex flex-wrap gap-2">
-            {tags.map(tag => (
-              <span 
-                key={tag}
-                className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm"
-              >
-                {tag}
-              </span>
-            ))}
+        </header>
+
+        {/* Article content with custom prose styling for dark background */}
+        <div 
+          className="prose prose-lg max-w-none prose-invert prose-headings:text-white prose-p:text-gray-200 prose-a:text-blue-300 prose-a:hover:text-blue-200 prose-strong:text-white prose-em:text-gray-200 prose-code:text-pink-300 prose-code:bg-gray-800/50 prose-pre:bg-gray-800/50 prose-blockquote:border-blue-400/50 prose-blockquote:text-gray-300 prose-li:text-gray-200"
+          dangerouslySetInnerHTML={{ __html: content }} 
+        />
+
+        {/* Article footer */}
+        <footer className="mt-12 pt-8 border-t border-gray-600/50">
+          <div className="flex items-center justify-between">
+            <Link 
+              href="/blog"
+              className="text-blue-300 hover:text-blue-200 font-medium transition-colors"
+            >
+              ← Back to all posts
+            </Link>
           </div>
-        )}
-      </header>
-
-      {/* Article content */}
-      <div 
-        className="prose prose-lg max-w-none prose-blue prose-img:rounded-lg prose-headings:text-gray-900"
-        dangerouslySetInnerHTML={{ __html: content }} 
-      />
-
-      {/* Article footer */}
-      <footer className="mt-12 pt-8 border-t border-gray-200">
-        <div className="flex items-center justify-between">
-          <Link 
-            href="/blog"
-            className="text-blue-600 hover:text-blue-800 font-medium"
-          >
-            ← Back to all posts
-          </Link>
-          {/* You could add social share buttons here */}
-        </div>
-      </footer>
+        </footer>
+      </div>
     </article>
   </Layout>
 );

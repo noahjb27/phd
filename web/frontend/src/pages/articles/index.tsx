@@ -40,9 +40,12 @@ const ArticleList: React.FC<ArticleListProps> = ({ posts }) => {
   return (
     <Layout>
       <section className="max-w-4xl mx-auto px-4 py-8">
+        {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Articles</h1>
-          <p className="text-lg text-gray-600">Articles on Berlin's transportation history and digital tools and methods</p>
+          <div className="bg-gradient-to-br from-purple-600/90 to-indigo-600/90 rounded-xl p-8 shadow-2xl border border-purple-400/20">
+            <h1 className="text-4xl font-bold text-white mb-4">Articles</h1>
+            <p className="text-lg text-purple-100">Articles on Berlin's transportation history and digital tools and methods</p>
+          </div>
         </div>
 
         {/* Search and Filter */}
@@ -52,7 +55,7 @@ const ArticleList: React.FC<ArticleListProps> = ({ posts }) => {
             <input
               type="text"
               placeholder="Search articles..."
-              className="w-full pl-10 pr-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-full pl-10 pr-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white placeholder-gray-400 focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
@@ -62,10 +65,10 @@ const ArticleList: React.FC<ArticleListProps> = ({ posts }) => {
             <div className="flex flex-wrap gap-2">
               <button
                 onClick={() => setSelectedTag(null)}
-                className={`px-3 py-1 rounded-full text-sm ${
+                className={`px-3 py-1 rounded-full text-sm transition-colors ${
                   !selectedTag 
-                    ? 'bg-blue-100 text-blue-800' 
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                    ? 'bg-purple-500/30 text-purple-200 border border-purple-400/50' 
+                    : 'bg-white/10 text-gray-300 hover:bg-white/20 border border-white/20'
                 }`}
               >
                 All
@@ -74,10 +77,10 @@ const ArticleList: React.FC<ArticleListProps> = ({ posts }) => {
                 <button
                   key={tag}
                   onClick={() => setSelectedTag(tag)}
-                  className={`px-3 py-1 rounded-full text-sm ${
+                  className={`px-3 py-1 rounded-full text-sm transition-colors ${
                     selectedTag === tag
-                      ? 'bg-blue-100 text-blue-800'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                      ? 'bg-purple-500/30 text-purple-200 border border-purple-400/50'
+                      : 'bg-white/10 text-gray-300 hover:bg-white/20 border border-white/20'
                   }`}
                 >
                   {tag}
@@ -87,19 +90,19 @@ const ArticleList: React.FC<ArticleListProps> = ({ posts }) => {
           )}
         </div>
 
-        {/* Blog Posts Grid */}
+        {/* Articles Grid */}
         <div className="grid gap-6 md:grid-cols-2">
           {filteredPosts.map(({ slug, title, date, excerpt, readingTime }) => (
             <Link 
               key={slug}
               href={`/articles/${slug}`}
-              className="group block bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200"
+              className="group block bg-white/10 backdrop-blur-sm rounded-lg shadow-sm hover:shadow-md hover:bg-white/15 transition-all duration-200 border border-white/20"
             >
               <div className="p-6">
-                <h2 className="text-xl font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+                <h2 className="text-xl font-semibold text-white group-hover:text-purple-300 transition-colors">
                   {title}
                 </h2>
-                <div className="mt-2 flex items-center text-sm text-gray-500 space-x-4">
+                <div className="mt-2 flex items-center text-sm text-gray-400 space-x-4">
                   <time dateTime={date}>
                     {new Date(date).toLocaleDateString('en-US', {
                       year: 'numeric',
@@ -112,12 +115,37 @@ const ArticleList: React.FC<ArticleListProps> = ({ posts }) => {
                   )}
                 </div>
                 {excerpt && (
-                  <p className="mt-3 text-gray-600 line-clamp-2">{excerpt}</p>
+                  <p className="mt-3 text-gray-300 line-clamp-2">{excerpt}</p>
                 )}
               </div>
             </Link>
           ))}
         </div>
+
+        {/* No results message */}
+        {filteredPosts.length === 0 && (
+          <div className="text-center py-12">
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 shadow-2xl border border-white/20">
+              <h3 className="text-xl font-semibold text-white mb-2">No articles found</h3>
+              <p className="text-gray-300 mb-4">
+                {searchTerm || selectedTag 
+                  ? "Try adjusting your search or filter criteria." 
+                  : "Articles will be published as the research progresses."}
+              </p>
+              {(searchTerm || selectedTag) && (
+                <button
+                  onClick={() => {
+                    setSearchTerm('');
+                    setSelectedTag(null);
+                  }}
+                  className="text-purple-300 hover:text-purple-200 font-medium transition-colors"
+                >
+                  Clear filters
+                </button>
+              )}
+            </div>
+          </div>
+        )}
       </section>
     </Layout>
   );
