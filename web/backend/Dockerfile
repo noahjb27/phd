@@ -1,21 +1,21 @@
-# Use an official Node runtime as a parent image
-FROM node:16
+FROM node:18-alpine
 
-# Set the workin directory of the container
 WORKDIR /usr/src/app
 
-# Copy package.json
+# Copy package.json and package-lock.json
 COPY package*.json ./
 
-# Install the backend dependencies
-RUN npm install
+# Install dependencies
+RUN npm ci --only=production
 
-# copy the backend app code
+# Create necessary directories
+RUN mkdir -p data logs public
+
+# Copy application files
 COPY . .
 
-# Expose the app ports
+# Expose port
 EXPOSE 5000
 
-# Start the backend server
-
-CMD ["npm", "start"]
+# Start the application
+CMD ["node", "server.js"]

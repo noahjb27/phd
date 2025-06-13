@@ -36,6 +36,76 @@ router.get('/health', async (req, res) => {
   }
 });
 
+// PLZ Areas data endpoint
+router.get('/external/plz-areas', async (req, res) => {
+  const cacheKey = 'plz_areas_data';
+  
+  // Check cache first
+  const cachedData = cache.get(cacheKey);
+  if (cachedData) {
+    return res.json(cachedData);
+  }
+
+  try {
+    const filePath = path.join(__dirname, 'data', 'berlin_postal_districts.json');
+    
+    if (!fs.existsSync(filePath)) {
+      console.error('PLZ areas file not found at:', filePath);
+      return res.status(404).json({ error: 'PLZ areas data not found' });
+    }
+
+    const fileContents = fs.readFileSync(filePath, 'utf8');
+    const data = JSON.parse(fileContents);
+    
+    // Cache for 24 hours since this data doesn't change frequently
+    cache.set(cacheKey, data, 86400);
+    
+    res.setHeader('Content-Type', 'application/json');
+    res.status(200).json(data);
+  } catch (error) {
+    console.error('Error serving PLZ areas:', error);
+    res.status(500).json({ 
+      error: 'Failed to load PLZ areas data', 
+      details: error instanceof Error ? error.message : 'Unknown error'
+    });
+  }
+});
+
+// Network data endpoint
+router.get('/external/network-data', async (req, res) => {
+  const cacheKey = 'network_data';
+  
+  // Check cache first
+  const cachedData = cache.get(cacheKey);
+  if (cachedData) {
+    return res.json(cachedData);
+  }
+
+  try {
+    const filePath = path.join(__dirname, 'data', 'network-data.json');
+    
+    if (!fs.existsSync(filePath)) {
+      console.error('Network data file not found at:', filePath);
+      return res.status(404).json({ error: 'Network data not found' });
+    }
+
+    const fileContents = fs.readFileSync(filePath, 'utf8');
+    const data = JSON.parse(fileContents);
+    
+    // Cache for 1 hour since this might be updated more frequently
+    cache.set(cacheKey, data, 3600);
+    
+    res.setHeader('Content-Type', 'application/json');
+    res.status(200).json(data);
+  } catch (error) {
+    console.error('Error serving network data:', error);
+    res.status(500).json({ 
+      error: 'Failed to load network data', 
+      details: error instanceof Error ? error.message : 'Unknown error'
+    });
+  }
+});
+
 router.get('/graph-data', async (req, res) => {
     const session = driver.session();
     try {

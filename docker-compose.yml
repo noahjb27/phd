@@ -33,9 +33,13 @@ services:
       - JWT_SECRET=${JWT_SECRET}
       - DB_HOST=${DB_HOST}
       - DB_PASSWORD=${DB_PASSWORD}
+      - NEO4J_AURA_URI=${NEO4J_AURA_URI}
+      - NEO4J_AURA_USERNAME=${NEO4J_AURA_USERNAME}
+      - NEO4J_AURA_PASSWORD=${NEO4J_AURA_PASSWORD}
     volumes:
       - ./logs/backend:/usr/src/app/logs
       - ./web/backend/public:/usr/src/app/public
+      - ./web/backend/data:/usr/src/app/data
     deploy:
       resources:
         limits:
@@ -53,7 +57,7 @@ services:
     container_name: berlin-transport-frontend
     restart: unless-stopped
     ports:
-      - "3000:3000"  # Add this for direct access
+      - "3000:3000"  
     environment:
       - NODE_ENV=production
       - NEXTAUTH_URL=https://berlin-transport-history.de
@@ -71,39 +75,39 @@ services:
         reservations:
           memory: 256M
 
-  neo4j:
-    image: neo4j:5.13.0
-    container_name: berlin-transport-db
-    ports:
-      - "7474:7474"
-      - "7473:7473"
-      - "7687:7687"
-    environment:
-      - NEO4J_AUTH=neo4j/BerlinTransport2024
-      - NEO4J_server_memory_heap_initial__size=512m
-      - NEO4J_server_memory_heap_max__size=1G
-      - NEO4J_server_memory_pagecache_size=512m
-      - NEO4J_ACCEPT_LICENSE_AGREEMENT=yes
-      - NEO4J_server_default__listen__address=0.0.0.0
-    volumes:
-      - neo4j_data:/data
-      - neo4j_logs:/logs
-      - neo4j_import:/import
-      - neo4j_plugins:/plugins
-    restart: unless-stopped
-    deploy:
-      resources:
-        limits:
-          cpus: '2.5'
-          memory: 2G
-        reservations:
-          memory: 1G
-    healthcheck:
-      test: ["CMD-SHELL", "cypher-shell -u neo4j -p BerlinTransport2024 'RETURN 1' || exit 1"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 60s
+  # neo4j:
+  #   image: neo4j:5.13.0
+  #   container_name: berlin-transport-db
+  #   ports:
+  #     - "7474:7474"
+  #     - "7473:7473"
+  #     - "7687:7687"
+  #   environment:
+  #     - NEO4J_AUTH=neo4j/BerlinTransport2024
+  #     - NEO4J_server_memory_heap_initial__size=512m
+  #     - NEO4J_server_memory_heap_max__size=1G
+  #     - NEO4J_server_memory_pagecache_size=512m
+  #     - NEO4J_ACCEPT_LICENSE_AGREEMENT=yes
+  #     - NEO4J_server_default__listen__address=0.0.0.0
+  #   volumes:
+  #     - neo4j_data:/data
+  #     - neo4j_logs:/logs
+  #     - neo4j_import:/import
+  #     - neo4j_plugins:/plugins
+  #   restart: unless-stopped
+  #   deploy:
+  #     resources:
+  #       limits:
+  #         cpus: '2.5'
+  #         memory: 2G
+  #       reservations:
+  #         memory: 1G
+  #   healthcheck:
+  #     test: ["CMD-SHELL", "cypher-shell -u neo4j -p BerlinTransport2024 'RETURN 1' || exit 1"]
+  #     interval: 30s
+  #     timeout: 10s
+  #     retries: 3
+  #     start_period: 60s
 
 volumes:
   neo4j_data:
