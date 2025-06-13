@@ -15,7 +15,7 @@ const navItems = [
 const currentWorkItems = [
   { href: '/current-work/graph-rag', label: 'Graph-RAG Project' },
   { href: '/current-work/conferences', label: 'Conferences' },
-  { href: '/current-work/presentations', label: 'Presentations' },
+  { href: '/current-work/FAIR_DATA_Fellowships', label: 'FAIR Data Fellowship' },
 ] as const;
 
 const Navigation: React.FC = () => {
@@ -91,10 +91,15 @@ const Navigation: React.FC = () => {
         )}
         
         {/* Current Work Dropdown */}
-        <li className="relative">
-          <button
-            onMouseEnter={() => setIsCurrentWorkOpen(true)}
-            onMouseLeave={() => setIsCurrentWorkOpen(false)}
+        <li
+          className="relative group"
+          onMouseEnter={() => setIsCurrentWorkOpen(true)}
+          onMouseLeave={() => setIsCurrentWorkOpen(false)}
+          onFocus={() => setIsCurrentWorkOpen(true)}
+          onBlur={() => setIsCurrentWorkOpen(false)}
+        >
+          <Link
+            href="/current-work"
             className={cn(
               'flex items-center px-3 py-2 rounded-md text-sm font-medium transition-all duration-200',
               'hover:bg-gradient-to-r hover:from-purple-600/20 hover:to-blue-600/20',
@@ -103,18 +108,17 @@ const Navigation: React.FC = () => {
                 : 'text-gray-300 hover:text-white'
             )}
             aria-expanded={isCurrentWorkOpen}
+            aria-current={isCurrentWorkActive ? 'page' : undefined}
           >
             Current Work
             <ChevronDown className={cn(
               'ml-1 h-4 w-4 transition-transform duration-200',
               isCurrentWorkOpen ? 'rotate-180' : ''
             )} />
-          </button>
+          </Link>
 
           {/* Dropdown menu */}
           <div
-            onMouseEnter={() => setIsCurrentWorkOpen(true)}
-            onMouseLeave={() => setIsCurrentWorkOpen(false)}
             className={cn(
               'absolute top-full left-0 mt-1 min-w-48',
               'transform transition-all duration-200 ease-in-out',

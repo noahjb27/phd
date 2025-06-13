@@ -3,16 +3,16 @@
 import Layout from '@/components/common/Layout';
 import UnderConstruction from '@/components/common/UnderConstruction';
 
-const PresentationsPage = () => {
+const FAIR_DATA_Fellowships = () => {
   return (
     <Layout>
       <UnderConstruction 
-        title="Presentation Materials"
-        expectedDate="Summer 2025"
+        title="NFDI4Memory FAIR Data Fellowship"
+        expectedDate="June 2025"
         contactEmail="noah.baumann@yahoo.de"
       />
     </Layout>
   );
 };
 
-export default PresentationsPage;
+export default FAIR_DATA_Fellowships;
