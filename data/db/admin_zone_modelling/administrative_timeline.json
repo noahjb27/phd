@@ -1,0 +1,101 @@
+{
+  "description": "Chronological timeline of all administrative boundary changes in Berlin 1946-1989",
+  "metadata": {
+    "period": "1946-1989",
+    "source": "Historical documents and Wikipedia research",
+    "notes": "All significant administrative changes affecting district boundaries during Cold War period"
+  },
+  "changes": [
+    {
+      "date": "1945-08-01",
+      "type": "transfer",
+      "description": "Gatow/Staaken exchange: Western Staaken transferred to Soviet control in exchange for Gatow airfield remaining in British sector",
+      "affected_bezirke": ["spandau_west"],
+      "affected_ortsteil": ["Staaken"],
+      "notes": "Western Staaken remained under West Berlin administration until 1951 despite being in Soviet sector"
+    },
+    {
+      "date": "1946-01-01",
+      "type": "establishment",
+      "description": "Post-war administrative establishment: 8 East Berlin and 12 West Berlin districts established based on 1920 Greater Berlin Act boundaries",
+      "affected_bezirke": ["all_initial_districts"],
+      "affected_ortsteil": ["all_initial_ortsteil"],
+      "notes": "Foundation of Cold War-era administrative structure. East: 8 districts, West: 12 districts"
+    },
+    {
+      "date": "1951-02-01",
+      "type": "transfer", 
+      "description": "Western Staaken occupied by East German Volkspolizei, ending West Berlin administration of the enclave",
+      "affected_bezirke": ["spandau_west"],
+      "affected_ortsteil": ["Staaken"],
+      "notes": "Only significant territorial change affecting West Berlin during Cold War period"
+    },
+    {
+      "date": "1952-06-01",
+      "type": "administrative",
+      "description": "Western Staaken formally transferred to East German municipality Falkensee in Brandenburg",
+      "affected_bezirke": ["spandau_west"],
+      "affected_ortsteil": ["Staaken"],
+      "notes": "Final resolution of Staaken territorial anomaly"
+    },
+    {
+      "date": "1979-01-05",
+      "type": "creation",
+      "description": "Creation of Stadtbezirk Marzahn from parts of Lichtenberg - first new district since 1920",
+      "affected_bezirke": ["marzahn_east", "lichtenberg_east"],
+      "affected_ortsteil": ["Marzahn", "Biesdorf", "Kaulsdorf", "Hellersdorf", "Mahlsdorf"],
+      "notes": "Major housing development drove need for new district. Also included eastern Falkenberg (Rieselfelder) from Weißensee and northern Friedrichsfelde from Lichtenberg"
+    },
+    {
+      "date": "1985-09-01",
+      "type": "creation",
+      "description": "Creation of Stadtbezirk Hohenschönhausen from parts of Weißensee",
+      "affected_bezirke": ["hohenschoenhausen_east", "weissensee_east"],
+      "affected_ortsteil": ["Hohenschönhausen", "Wartenberg", "Falkenberg", "Malchow"],
+      "notes": "Massive Plattenbau construction necessitated new district. Only eastern part of Malchow (village core and Margarethenhöhe) transferred"
+    },
+    {
+      "date": "1986-01-01",
+      "type": "transfer",
+      "description": "Compensatory transfer from Pankow to Weißensee to maintain district viability",
+      "affected_bezirke": ["weissensee_east", "pankow_east"],
+      "affected_ortsteil": ["Heinersdorf", "Karow", "Blankenburg"],
+      "notes": "Essential transfer to prevent Weißensee from becoming administratively unviable after losing territory to Hohenschönhausen"
+    },
+    {
+      "date": "1986-06-01", 
+      "type": "creation",
+      "description": "Creation of Stadtbezirk Hellersdorf from parts of Marzahn",
+      "affected_bezirke": ["hellersdorf_east", "marzahn_east"],
+      "affected_ortsteil": ["Hellersdorf", "Kaulsdorf", "Mahlsdorf"],
+      "notes": "Final district creation due to continued housing development pressure. Completed East Berlin's administrative transformation"
+    },
+    {
+      "date": "1989-12-31",
+      "type": "status",
+      "description": "End of analysis period: East Berlin had 11 districts, West Berlin maintained 12 stable districts",
+      "affected_bezirke": ["all_districts"],
+      "affected_ortsteil": ["all_ortsteil"],
+      "notes": "Final Cold War administrative structure: 23 total districts (11 East + 12 West)"
+    }
+  ],
+  
+  "summary_statistics": {
+    "total_districts_1946": 20,
+    "total_districts_1989": 23,
+    "new_districts_created": 3,
+    "east_berlin_districts_1946": 8,
+    "east_berlin_districts_1989": 11,
+    "west_berlin_districts_stable": 12,
+    "major_ortsteil_transfers": 15,
+    "years_of_administrative_change": [1979, 1985, 1986]
+  },
+  
+  "validation_notes": {
+    "east_berlin_stability": "East Berlin underwent major transformation with 3 new districts created",
+    "west_berlin_stability": "West Berlin maintained remarkable administrative stability except for Staaken anomaly",
+    "housing_development_driver": "All East Berlin changes driven by massive Plattenbau housing construction programs",
+    "territorial_complexity": "Some Ortsteil split between districts (Falkenberg, Malchow, Friedrichsfelde)",
+    "administrative_logic": "Compensatory transfers maintained district viability (Pankow to Weißensee 1986)"
+  }
+}

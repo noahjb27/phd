@@ -1,0 +1,265 @@
+{
+  "description": "Historical Bezirke of Berlin 1946-1989 with temporal existence",
+  "metadata": {
+    "period": "1946-1989",
+    "source": "Historical documents and Wikipedia research",
+    "notes": "East Berlin had 8 original + 3 new districts; West Berlin maintained 12 stable districts"
+  },
+  "bezirke": [
+    {
+      "bezirk_id": "mitte_east",
+      "name": "Mitte", 
+      "east_west": "east",
+      "created_date": "1946-01-01",
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, Soviet sector. Central administrative district.",
+      "population_1989": null,
+      "area_km2": null
+    },
+    {
+      "bezirk_id": "prenzlauer_berg_east",
+      "name": "Prenzlauer Berg",
+      "east_west": "east", 
+      "created_date": "1946-01-01",
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, Soviet sector.",
+      "population_1989": null,
+      "area_km2": null
+    },
+    {
+      "bezirk_id": "friedrichshain_east",
+      "name": "Friedrichshain",
+      "east_west": "east",
+      "created_date": "1946-01-01", 
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, Soviet sector.",
+      "population_1989": null,
+      "area_km2": null
+    },
+    {
+      "bezirk_id": "pankow_east",
+      "name": "Pankow",
+      "east_west": "east",
+      "created_date": "1946-01-01",
+      "dissolved_date": null, 
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, Soviet sector. Lost 3 Ortsteil to Weißensee in 1986.",
+      "population_1989": null,
+      "area_km2": null
+    },
+    {
+      "bezirk_id": "weissensee_east",
+      "name": "Weißensee", 
+      "east_west": "east",
+      "created_date": "1946-01-01",
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, Soviet sector. Lost territory to Marzahn (1979) and Hohenschönhausen (1985), gained from Pankow (1986).",
+      "population_1989": null,
+      "area_km2": null
+    },
+    {
+      "bezirk_id": "lichtenberg_east",
+      "name": "Lichtenberg",
+      "east_west": "east",
+      "created_date": "1946-01-01",
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, Soviet sector. Lost significant territory to create Marzahn (1979).",
+      "population_1989": null,
+      "area_km2": null
+    },
+    {
+      "bezirk_id": "treptow_east", 
+      "name": "Treptow",
+      "east_west": "east",
+      "created_date": "1946-01-01",
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, Soviet sector.",
+      "population_1989": null,
+      "area_km2": null
+    },
+    {
+      "bezirk_id": "koepenick_east",
+      "name": "Köpenick",
+      "east_west": "east", 
+      "created_date": "1946-01-01",
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, Soviet sector.",
+      "population_1989": null,
+      "area_km2": null
+    },
+    
+    {
+      "bezirk_id": "marzahn_east",
+      "name": "Marzahn",
+      "east_west": "east",
+      "created_date": "1979-01-05", 
+      "dissolved_date": null,
+      "created_from": ["lichtenberg_east", "weissensee_east"],
+      "administrative_notes": "First new district since 1920. Created for massive Plattenbau housing development. Lost territory to Hellersdorf (1986).",
+      "population_1989": 150000,
+      "area_km2": 61.7
+    },
+    {
+      "bezirk_id": "hohenschoenhausen_east",
+      "name": "Hohenschönhausen",
+      "east_west": "east",
+      "created_date": "1985-09-01",
+      "dissolved_date": null,
+      "created_from": ["weissensee_east"],
+      "administrative_notes": "Created during major housing construction. Included both historic villages and new Plattenbau estates.",
+      "population_1989": 118000,
+      "area_km2": null
+    },
+    {
+      "bezirk_id": "hellersdorf_east", 
+      "name": "Hellersdorf",
+      "east_west": "east",
+      "created_date": "1986-06-01",
+      "dissolved_date": null,
+      "created_from": ["marzahn_east"],
+      "administrative_notes": "Final new district created due to continued housing development pressure.",
+      "population_1989": null,
+      "area_km2": null
+    },
+
+    {
+      "bezirk_id": "charlottenburg_west",
+      "name": "Charlottenburg",
+      "east_west": "west",
+      "created_date": "1946-01-01",
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, British sector. No boundary changes.",
+      "population_1989": 147258,
+      "area_km2": 30.3
+    },
+    {
+      "bezirk_id": "kreuzberg_west",
+      "name": "Kreuzberg", 
+      "east_west": "west",
+      "created_date": "1946-01-01",
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, American sector. No boundary changes.",
+      "population_1989": 128790,
+      "area_km2": 10.4
+    },
+    {
+      "bezirk_id": "neukoelln_west",
+      "name": "Neukölln",
+      "east_west": "west",
+      "created_date": "1946-01-01",
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, American sector. No boundary changes.",
+      "population_1989": 273174,
+      "area_km2": 44.9
+    },
+    {
+      "bezirk_id": "reinickendorf_west",
+      "name": "Reinickendorf",
+      "east_west": "west",
+      "created_date": "1946-01-01", 
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, French sector. No boundary changes.",
+      "population_1989": 229193,
+      "area_km2": 89.3
+    },
+    {
+      "bezirk_id": "schoeneberg_west",
+      "name": "Schöneberg",
+      "east_west": "west",
+      "created_date": "1946-01-01",
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, American sector. No boundary changes.",
+      "population_1989": 136900,
+      "area_km2": 12.2
+    },
+    {
+      "bezirk_id": "spandau_west",
+      "name": "Spandau",
+      "east_west": "west", 
+      "created_date": "1946-01-01",
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, British sector. Only West Berlin district affected by territorial change (Western Staaken 1945-1951).",
+      "population_1989": 192186,
+      "area_km2": 86.4
+    },
+    {
+      "bezirk_id": "steglitz_west",
+      "name": "Steglitz",
+      "east_west": "west",
+      "created_date": "1946-01-01",
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, American sector. No boundary changes.",
+      "population_1989": 166207,
+      "area_km2": 32.0
+    },
+    {
+      "bezirk_id": "tempelhof_west",
+      "name": "Tempelhof",
+      "east_west": "west",
+      "created_date": "1946-01-01",
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, American sector. No boundary changes.",
+      "population_1989": 160773,
+      "area_km2": 40.7
+    },
+    {
+      "bezirk_id": "tiergarten_west",
+      "name": "Tiergarten",
+      "east_west": "west",
+      "created_date": "1946-01-01",
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, British sector. No boundary changes.",
+      "population_1989": 71834,
+      "area_km2": 13.4
+    },
+    {
+      "bezirk_id": "wedding_west", 
+      "name": "Wedding",
+      "east_west": "west",
+      "created_date": "1946-01-01",
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, French sector. No boundary changes.",
+      "population_1989": 135011,
+      "area_km2": 15.4
+    },
+    {
+      "bezirk_id": "wilmersdorf_west",
+      "name": "Wilmersdorf",
+      "east_west": "west",
+      "created_date": "1946-01-01",
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, British sector. No boundary changes.",
+      "population_1989": 130103,
+      "area_km2": 34.3
+    },
+    {
+      "bezirk_id": "zehlendorf_west",
+      "name": "Zehlendorf",
+      "east_west": "west",
+      "created_date": "1946-01-01",
+      "dissolved_date": null,
+      "created_from": [],
+      "administrative_notes": "Original 1920 district, American sector. No boundary changes.",
+      "population_1989": 83123,
+      "area_km2": 70.6
+    }
+  ]
+}

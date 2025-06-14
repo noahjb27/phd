@@ -1,0 +1,1001 @@
+{
+  "description": "Complete temporal assignments of ALL Ortsteil to historical Bezirke 1946-1989",
+  "metadata": {
+    "period": "1946-1989",
+    "source": "Historical documents, Wikipedia research, and modern Ortsteil data mapping",
+    "total_ortsteil": 97,
+    "notes": "Based on 1920 Greater Berlin Act boundaries maintained during Cold War, with East Berlin changes 1979-1986"
+  },
+  "assignments": [
+    {
+      "ortsteil_name": "Mitte",
+      "bezirk_id": "mitte_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Core of historic Berlin, remained stable throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Prenzlauer Berg",
+      "bezirk_id": "prenzlauer_berg_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained stable throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Friedrichshain",
+      "bezirk_id": "friedrichshain_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained stable throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Plänterwald",
+      "bezirk_id": "treptow_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Part of Treptow district, remained stable",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Pankow",
+      "bezirk_id": "pankow_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Core Ortsteil remained in original Bezirk",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Niederschönhausen",
+      "bezirk_id": "pankow_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Pankow throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Französisch Buchholz",
+      "bezirk_id": "pankow_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Pankow throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Blankenfelde",
+      "bezirk_id": "pankow_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Pankow throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Buch",
+      "bezirk_id": "pankow_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Pankow throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Rosenthal",
+      "bezirk_id": "pankow_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Pankow throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Wilhelmsruh",
+      "bezirk_id": "pankow_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Pankow throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Heinersdorf",
+      "bezirk_id": "pankow_east",
+      "start_date": "1946-01-01",
+      "end_date": "1985-12-31",
+      "transfer_notes": "Original assignment to Pankow",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Heinersdorf",
+      "bezirk_id": "weissensee_east",
+      "start_date": "1986-01-01",
+      "end_date": null,
+      "transfer_notes": "Compensatory transfer to maintain Weißensee viability",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Karow",
+      "bezirk_id": "pankow_east",
+      "start_date": "1946-01-01",
+      "end_date": "1985-12-31",
+      "transfer_notes": "Original assignment to Pankow",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Karow",
+      "bezirk_id": "weissensee_east",
+      "start_date": "1986-01-01",
+      "end_date": null,
+      "transfer_notes": "Compensatory transfer to maintain Weißensee viability",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Blankenburg",
+      "bezirk_id": "pankow_east",
+      "start_date": "1946-01-01",
+      "end_date": "1985-12-31",
+      "transfer_notes": "Original assignment to Pankow",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Blankenburg",
+      "bezirk_id": "weissensee_east",
+      "start_date": "1986-01-01",
+      "end_date": null,
+      "transfer_notes": "Compensatory transfer to maintain Weißensee viability",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Weißensee",
+      "bezirk_id": "weissensee_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Core Ortsteil remained in original Bezirk",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Stadtrandsiedlung Malchow",
+      "bezirk_id": "weissensee_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Western part of Malchow remained in Weißensee",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Alt-Hohenschönhausen",
+      "bezirk_id": "hohenschoenhausen_east",
+      "start_date": "1985-09-01",
+      "end_date": null,
+      "transfer_notes": "Historic village core transferred to new Bezirk Hohenschönhausen",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Neu-Hohenschönhausen",
+      "bezirk_id": "hohenschoenhausen_east",
+      "start_date": "1985-09-01",
+      "end_date": null,
+      "transfer_notes": "New Plattenbau estates transferred to new Bezirk Hohenschönhausen",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Wartenberg",
+      "bezirk_id": "weissensee_east",
+      "start_date": "1946-01-01",
+      "end_date": "1985-08-31",
+      "transfer_notes": "Original assignment to Weißensee",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Wartenberg",
+      "bezirk_id": "hohenschoenhausen_east",
+      "start_date": "1985-09-01",
+      "end_date": null,
+      "transfer_notes": "Transferred to new Bezirk Hohenschönhausen",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Falkenberg",
+      "bezirk_id": "weissensee_east",
+      "start_date": "1946-01-01",
+      "end_date": "1979-01-04",
+      "transfer_notes": "Original assignment to Weißensee",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Falkenberg",
+      "bezirk_id": "hohenschoenhausen_east",
+      "start_date": "1985-09-01",
+      "end_date": null,
+      "transfer_notes": "Remaining western part transferred to new Bezirk Hohenschönhausen",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Malchow",
+      "bezirk_id": "hohenschoenhausen_east",
+      "start_date": "1985-09-01",
+      "end_date": null,
+      "transfer_notes": "Eastern part (historic village core) transferred to Hohenschönhausen",
+      "partial_transfer": true,
+      "transferred_areas": ["eastern part - village core and Margarethenhöhe settlement"]
+    },
+    {
+      "ortsteil_name": "Lichtenberg",
+      "bezirk_id": "lichtenberg_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Core Ortsteil remained in original Bezirk",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Friedrichsfelde",
+      "bezirk_id": "lichtenberg_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Most remained in Lichtenberg, northern part transferred to Marzahn 1979",
+      "partial_transfer": true,
+      "transferred_areas": ["northern part west of Eisenbahnring"]
+    },
+    {
+      "ortsteil_name": "Karlshorst",
+      "bezirk_id": "lichtenberg_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Lichtenberg throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Rummelsburg",
+      "bezirk_id": "lichtenberg_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Lichtenberg throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Fennpfuhl",
+      "bezirk_id": "lichtenberg_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Lichtenberg throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Marzahn",
+      "bezirk_id": "lichtenberg_east",
+      "start_date": "1946-01-01",
+      "end_date": "1979-01-04",
+      "transfer_notes": "Original assignment to Lichtenberg",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Marzahn",
+      "bezirk_id": "marzahn_east",
+      "start_date": "1979-01-05",
+      "end_date": null,
+      "transfer_notes": "Transferred to new Bezirk Marzahn, became namesake district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Biesdorf",
+      "bezirk_id": "lichtenberg_east",
+      "start_date": "1946-01-01",
+      "end_date": "1979-01-04",
+      "transfer_notes": "Original assignment to Lichtenberg",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Biesdorf",
+      "bezirk_id": "marzahn_east",
+      "start_date": "1979-01-05",
+      "end_date": null,
+      "transfer_notes": "Transferred to new Bezirk Marzahn",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Kaulsdorf",
+      "bezirk_id": "lichtenberg_east",
+      "start_date": "1946-01-01",
+      "end_date": "1979-01-04",
+      "transfer_notes": "Original assignment to Lichtenberg",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Kaulsdorf",
+      "bezirk_id": "marzahn_east",
+      "start_date": "1979-01-05",
+      "end_date": "1986-05-31",
+      "transfer_notes": "Transferred to Bezirk Marzahn",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Kaulsdorf",
+      "bezirk_id": "hellersdorf_east",
+      "start_date": "1986-06-01",
+      "end_date": null,
+      "transfer_notes": "Transferred to new Bezirk Hellersdorf",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Hellersdorf",
+      "bezirk_id": "lichtenberg_east",
+      "start_date": "1946-01-01",
+      "end_date": "1979-01-04",
+      "transfer_notes": "Original assignment to Lichtenberg",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Hellersdorf",
+      "bezirk_id": "marzahn_east",
+      "start_date": "1979-01-05",
+      "end_date": "1986-05-31",
+      "transfer_notes": "Transferred to Bezirk Marzahn",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Hellersdorf",
+      "bezirk_id": "hellersdorf_east",
+      "start_date": "1986-06-01",
+      "end_date": null,
+      "transfer_notes": "Transferred to new Bezirk Hellersdorf, became namesake district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Mahlsdorf",
+      "bezirk_id": "lichtenberg_east",
+      "start_date": "1946-01-01",
+      "end_date": "1979-01-04",
+      "transfer_notes": "Original assignment to Lichtenberg",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Mahlsdorf",
+      "bezirk_id": "marzahn_east",
+      "start_date": "1979-01-05",
+      "end_date": "1986-05-31",
+      "transfer_notes": "Transferred to Bezirk Marzahn",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Mahlsdorf",
+      "bezirk_id": "hellersdorf_east",
+      "start_date": "1986-06-01",
+      "end_date": null,
+      "transfer_notes": "Transferred to new Bezirk Hellersdorf",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Alt-Treptow",
+      "bezirk_id": "treptow_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Treptow throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Baumschulenweg",
+      "bezirk_id": "treptow_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Treptow throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Johannisthal",
+      "bezirk_id": "treptow_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Treptow throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Adlershof",
+      "bezirk_id": "treptow_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Treptow throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Altglienicke",
+      "bezirk_id": "treptow_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Treptow throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Bohnsdorf",
+      "bezirk_id": "treptow_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Treptow throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Oberschöneweide",
+      "bezirk_id": "treptow_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Treptow throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Niederschöneweide",
+      "bezirk_id": "treptow_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Treptow throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Köpenick",
+      "bezirk_id": "koepenick_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Core Ortsteil remained stable throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Friedrichshagen",
+      "bezirk_id": "koepenick_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Köpenick throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Rahnsdorf",
+      "bezirk_id": "koepenick_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Köpenick throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Grünau",
+      "bezirk_id": "koepenick_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Köpenick throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Müggelheim",
+      "bezirk_id": "koepenick_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Köpenick throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Schmöckwitz",
+      "bezirk_id": "koepenick_east",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "Remained in Köpenick throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Tiergarten",
+      "bezirk_id": "tiergarten_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - no boundary changes throughout Cold War period",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Moabit",
+      "bezirk_id": "tiergarten_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - incorporated into Berlin 1861, remained in Tiergarten district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Hansaviertel",
+      "bezirk_id": "tiergarten_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - reconstructed after WWII as model district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Wedding",
+      "bezirk_id": "wedding_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - incorporated into Berlin 1861, remained stable",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Gesundbrunnen",
+      "bezirk_id": "wedding_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Wedding district throughout Cold War",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Charlottenburg",
+      "bezirk_id": "charlottenburg_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - no boundary changes throughout period",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Westend",
+      "bezirk_id": "charlottenburg_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Charlottenburg district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Charlottenburg-Nord",
+      "bezirk_id": "charlottenburg_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Charlottenburg district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Halensee",
+      "bezirk_id": "charlottenburg_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Charlottenburg district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Wilmersdorf",
+      "bezirk_id": "wilmersdorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - no boundary changes throughout period",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Schmargendorf",
+      "bezirk_id": "wilmersdorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Wilmersdorf district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Grunewald",
+      "bezirk_id": "wilmersdorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Wilmersdorf district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Spandau",
+      "bezirk_id": "spandau_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - no boundary changes except Western Staaken anomaly",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Haselhorst",
+      "bezirk_id": "spandau_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Spandau district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Siemensstadt",
+      "bezirk_id": "spandau_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Spandau district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Staaken",
+      "bezirk_id": "spandau_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - affected by Western Staaken territorial anomaly 1945-1951",
+      "partial_transfer": true,
+      "transferred_areas": ["western part temporarily lost 1945-1951"]
+    },
+    {
+      "ortsteil_name": "Gatow",
+      "bezirk_id": "spandau_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Spandau district, important for Gatow airfield",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Kladow",
+      "bezirk_id": "spandau_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Spandau district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Hakenfelde",
+      "bezirk_id": "spandau_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Spandau district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Falkenhagener Feld",
+      "bezirk_id": "spandau_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Spandau district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Wilhelmstadt",
+      "bezirk_id": "spandau_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Spandau district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Reinickendorf",
+      "bezirk_id": "reinickendorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - no boundary changes throughout period",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Tegel",
+      "bezirk_id": "reinickendorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Reinickendorf district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Wittenau",
+      "bezirk_id": "reinickendorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Reinickendorf district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Heiligensee",
+      "bezirk_id": "reinickendorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Reinickendorf district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Frohnau",
+      "bezirk_id": "reinickendorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Reinickendorf district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Hermsdorf",
+      "bezirk_id": "reinickendorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Reinickendorf district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Waidmannslust",
+      "bezirk_id": "reinickendorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Reinickendorf district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Lübars",
+      "bezirk_id": "reinickendorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Reinickendorf district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Märkisches Viertel",
+      "bezirk_id": "reinickendorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - large housing estate built in 1960s-70s",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Borsigwalde",
+      "bezirk_id": "reinickendorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Reinickendorf district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Konradshöhe",
+      "bezirk_id": "reinickendorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Reinickendorf district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Kreuzberg",
+      "bezirk_id": "kreuzberg_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - no boundary changes throughout period",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Schöneberg",
+      "bezirk_id": "schoeneberg_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - no boundary changes throughout period",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Friedenau",
+      "bezirk_id": "schoeneberg_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Schöneberg district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Steglitz",
+      "bezirk_id": "steglitz_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - no boundary changes throughout period",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Lichterfelde",
+      "bezirk_id": "steglitz_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Steglitz district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Lankwitz",
+      "bezirk_id": "steglitz_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Steglitz district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Schlachtensee",
+      "bezirk_id": "steglitz_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Steglitz district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Zehlendorf",
+      "bezirk_id": "zehlendorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - no boundary changes throughout period",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Dahlem",
+      "bezirk_id": "zehlendorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Zehlendorf district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Nikolassee",
+      "bezirk_id": "zehlendorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Zehlendorf district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Wannsee",
+      "bezirk_id": "zehlendorf_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Zehlendorf district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Tempelhof",
+      "bezirk_id": "tempelhof_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - no boundary changes throughout period",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Mariendorf",
+      "bezirk_id": "tempelhof_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Tempelhof district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Marienfelde",
+      "bezirk_id": "tempelhof_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Tempelhof district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Lichtenrade",
+      "bezirk_id": "tempelhof_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Tempelhof district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Neukölln",
+      "bezirk_id": "neukoelln_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - no boundary changes throughout period",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Britz",
+      "bezirk_id": "neukoelln_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Neukölln district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Buckow",
+      "bezirk_id": "neukoelln_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Neukölln district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Rudow",
+      "bezirk_id": "neukoelln_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - part of Neukölln district",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Gropiusstadt",
+      "bezirk_id": "neukoelln_west",
+      "start_date": "1946-01-01",
+      "end_date": null,
+      "transfer_notes": "West Berlin - large housing estate built in 1960s-70s",
+      "partial_transfer": false,
+      "transferred_areas": null
+    }
+  ]
+}

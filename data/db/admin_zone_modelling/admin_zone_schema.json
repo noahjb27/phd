@@ -1,0 +1,165 @@
+{
+  "description": "JSON structure for Berlin's historical administrative boundaries 1946-1989",
+  "files": {
+    "historical_bezirke.json": {
+      "description": "All historical Bezirke with their existence periods and metadata",
+      "structure": {
+        "bezirke": [
+          {
+            "bezirk_id": "string (e.g., 'mitte_east')",
+            "name": "string",
+            "east_west": "string (east|west|unified)",
+            "created_date": "date (YYYY-MM-DD)",
+            "dissolved_date": "date or null",
+            "created_from": "array of bezirk_ids that contributed territory",
+            "administrative_notes": "string",
+            "population_1989": "number (if available)",
+            "area_km2": "number (if available)"
+          }
+        ]
+      },
+      "example": {
+        "bezirke": [
+          {
+            "bezirk_id": "mitte_east",
+            "name": "Mitte",
+            "east_west": "east",
+            "created_date": "1946-01-01",
+            "dissolved_date": null,
+            "created_from": [],
+            "administrative_notes": "Original 1920 district, part of Soviet sector",
+            "population_1989": null,
+            "area_km2": null
+          },
+          {
+            "bezirk_id": "marzahn_east",
+            "name": "Marzahn",
+            "east_west": "east", 
+            "created_date": "1979-01-05",
+            "dissolved_date": null,
+            "created_from": ["lichtenberg_east"],
+            "administrative_notes": "Created from Lichtenberg due to massive housing construction. First new district since 1920.",
+            "population_1989": 150000,
+            "area_km2": 61.7
+          }
+        ]
+      }
+    },
+    "ortsteil_assignments.json": {
+      "description": "Temporal assignments of Ortsteil to Bezirke",
+      "structure": {
+        "assignments": [
+          {
+            "ortsteil_name": "string",
+            "bezirk_id": "string",
+            "start_date": "date (YYYY-MM-DD)",
+            "end_date": "date or null",
+            "transfer_notes": "string (optional)",
+            "partial_transfer": "boolean (if only part of Ortsteil transferred)",
+            "transferred_areas": "array of area descriptions (if partial)"
+          }
+        ]
+      },
+      "example": {
+        "assignments": [
+          {
+            "ortsteil_name": "Marzahn",
+            "bezirk_id": "lichtenberg_east",
+            "start_date": "1946-01-01",
+            "end_date": "1979-01-04",
+            "transfer_notes": "Original assignment after WWII",
+            "partial_transfer": false,
+            "transferred_areas": null
+          },
+          {
+            "ortsteil_name": "Marzahn", 
+            "bezirk_id": "marzahn_east",
+            "start_date": "1979-01-05",
+            "end_date": null,
+            "transfer_notes": "Transferred to new Bezirk Marzahn",
+            "partial_transfer": false,
+            "transferred_areas": null
+          },
+          {
+            "ortsteil_name": "Falkenberg",
+            "bezirk_id": "weissensee_east",
+            "start_date": "1946-01-01", 
+            "end_date": "1979-01-04",
+            "transfer_notes": "Original assignment",
+            "partial_transfer": false,
+            "transferred_areas": null
+          },
+          {
+            "ortsteil_name": "Falkenberg",
+            "bezirk_id": "marzahn_east",
+            "start_date": "1979-01-05",
+            "end_date": "1985-08-31",
+            "transfer_notes": "Eastern part (former Rieselfelder) transferred to Marzahn",
+            "partial_transfer": true,
+            "transferred_areas": ["eastern part - former Rieselfelder"]
+          },
+          {
+            "ortsteil_name": "Falkenberg",
+            "bezirk_id": "hohenschoenhausen_east", 
+            "start_date": "1985-09-01",
+            "end_date": null,
+            "transfer_notes": "Remaining western part transferred to new Bezirk Hohenschönhausen",
+            "partial_transfer": false,
+            "transferred_areas": null
+          }
+        ]
+      }
+    },
+    "administrative_timeline.json": {
+      "description": "Chronological summary of all administrative changes",
+      "structure": {
+        "changes": [
+          {
+            "date": "date (YYYY-MM-DD)",
+            "type": "string (creation|transfer|dissolution)",
+            "description": "string",
+            "affected_bezirke": "array of bezirk_ids",
+            "affected_ortsteil": "array of ortsteil names", 
+            "notes": "string"
+          }
+        ]
+      },
+      "example": {
+        "changes": [
+          {
+            "date": "1979-01-05",
+            "type": "creation",
+            "description": "Creation of Stadtbezirk Marzahn from parts of Lichtenberg",
+            "affected_bezirke": ["marzahn_east", "lichtenberg_east"],
+            "affected_ortsteil": ["Marzahn", "Biesdorf", "Kaulsdorf", "Hellersdorf", "Mahlsdorf"],
+            "notes": "Also included parts of Falkenberg (Rieselfelder) and northern Friedrichsfelde"
+          },
+          {
+            "date": "1985-09-01", 
+            "type": "creation",
+            "description": "Creation of Stadtbezirk Hohenschönhausen from parts of Weißensee",
+            "affected_bezirke": ["hohenschoenhausen_east", "weissensee_east"],
+            "affected_ortsteil": ["Hohenschönhausen", "Wartenberg", "Falkenberg", "Malchow"],
+            "notes": "Only eastern part of Malchow (village core and Margarethenhöhe) transferred"
+          },
+          {
+            "date": "1986-01-01",
+            "type": "transfer", 
+            "description": "Compensatory transfer from Pankow to Weißensee",
+            "affected_bezirke": ["weissensee_east", "pankow_east"],
+            "affected_ortsteil": ["Heinersdorf", "Karow", "Blankenburg"],
+            "notes": "To maintain Weißensee viability after Hohenschönhausen creation"
+          },
+          {
+            "date": "1986-06-01",
+            "type": "creation",
+            "description": "Creation of Stadtbezirk Hellersdorf from parts of Marzahn", 
+            "affected_bezirke": ["hellersdorf_east", "marzahn_east"],
+            "affected_ortsteil": ["Hellersdorf", "Kaulsdorf", "Mahlsdorf"],
+            "notes": "Final district creation due to continued housing development"
+          }
+        ]
+      }
+    }
+  }
+}
