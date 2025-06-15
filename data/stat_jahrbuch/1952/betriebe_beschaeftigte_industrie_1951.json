@@ -1,0 +1,318 @@
+{
+    "title": "Betriebe und Beschäftigte in der Industrie 1951",
+    "description": "Establishments and employees in industry in 1951, based on monthly industry reporting (local units). Footnotes: ¹) Employees at the end of the reporting period. ²) Workers.",
+    "monthly_data_total_industry": [
+        {
+            "Berichtszeit": "Januar",
+            "Betriebe": 2719,
+            "Beschäftigte_insgesamt": 155125,
+            "Beschäftigte_auf_1_Betrieb": 57,
+            "Männer": 99945,
+            "Frauen": 55180,
+            "Inhaber_u_Angestellte": 36902,
+            "Arbeiter": 118223
+        },
+        {
+            "Berichtszeit": "Februar",
+            "Betriebe": 2724,
+            "Beschäftigte_insgesamt": 156986,
+            "Beschäftigte_auf_1_Betrieb": 58,
+            "Männer": 101029,
+            "Frauen": 55957,
+            "Inhaber_u_Angestellte": 37451,
+            "Arbeiter": 119535
+        },
+        {
+            "Berichtszeit": "März",
+            "Betriebe": 2726,
+            "Beschäftigte_insgesamt": 158184,
+            "Beschäftigte_auf_1_Betrieb": 58,
+            "Männer": 102164,
+            "Frauen": 56020,
+            "Inhaber_u_Angestellte": 37914,
+            "Arbeiter": 120270
+        },
+        {
+            "Berichtszeit": "April",
+            "Betriebe": 2725,
+            "Beschäftigte_insgesamt": 159819,
+            "Beschäftigte_auf_1_Betrieb": 59,
+            "Männer": 103280,
+            "Frauen": 56539,
+            "Inhaber_u_Angestellte": 38243,
+            "Arbeiter": 121576
+        },
+        {
+            "Berichtszeit": "Mai",
+            "Betriebe": 2717,
+            "Beschäftigte_insgesamt": 161732,
+            "Beschäftigte_auf_1_Betrieb": 60,
+            "Männer": 104652,
+            "Frauen": 57080,
+            "Inhaber_u_Angestellte": 38589,
+            "Arbeiter": 123143
+        },
+        {
+            "Berichtszeit": "Juni",
+            "Betriebe": 2716,
+            "Beschäftigte_insgesamt": 164044,
+            "Beschäftigte_auf_1_Betrieb": 60,
+            "Männer": 106237,
+            "Frauen": 57807,
+            "Inhaber_u_Angestellte": 39063,
+            "Arbeiter": 124981
+        },
+        {
+            "Berichtszeit": "Juli",
+            "Betriebe": 2711,
+            "Beschäftigte_insgesamt": 166264,
+            "Beschäftigte_auf_1_Betrieb": 61,
+            "Männer": 107840,
+            "Frauen": 58424,
+            "Inhaber_u_Angestellte": 39419,
+            "Arbeiter": 126845
+        },
+        {
+            "Berichtszeit": "August",
+            "Betriebe": 2707,
+            "Beschäftigte_insgesamt": 168262,
+            "Beschäftigte_auf_1_Betrieb": 62,
+            "Männer": 109341,
+            "Frauen": 58921,
+            "Inhaber_u_Angestellte": 39373,
+            "Arbeiter": 128889
+        },
+        {
+            "Berichtszeit": "September",
+            "Betriebe": 2698,
+            "Beschäftigte_insgesamt": 169265,
+            "Beschäftigte_auf_1_Betrieb": 63,
+            "Männer": 109733,
+            "Frauen": 59532,
+            "Inhaber_u_Angestellte": 40095,
+            "Arbeiter": 129170
+        },
+        {
+            "Berichtszeit": "Oktober",
+            "Betriebe": 2695,
+            "Beschäftigte_insgesamt": 170035,
+            "Beschäftigte_auf_1_Betrieb": 63,
+            "Männer": 110352,
+            "Frauen": 59683,
+            "Inhaber_u_Angestellte": 40150,
+            "Arbeiter": 129885
+        },
+        {
+            "Berichtszeit": "November",
+            "Betriebe": 2679,
+            "Beschäftigte_insgesamt": 168851,
+            "Beschäftigte_auf_1_Betrieb": 63,
+            "Männer": 110198,
+            "Frauen": 58653,
+            "Inhaber_u_Angestellte": 40322,
+            "Arbeiter": 128529
+        },
+        {
+            "Berichtszeit": "Dezember",
+            "Betriebe": 2678,
+            "Beschäftigte_insgesamt": 165679,
+            "Beschäftigte_auf_1_Betrieb": 62,
+            "Männer": 109075,
+            "Frauen": 56604,
+            "Inhaber_u_Angestellte": 40447,
+            "Arbeiter": 125232
+        },
+        {
+            "Berichtszeit": "Monatsdurchschnitt 1951",
+            "Betriebe": 2708,
+            "Beschäftigte_insgesamt": 163687,
+            "Beschäftigte_auf_1_Betrieb": 60,
+            "Männer": 106154,
+            "Frauen": 57533,
+            "Inhaber_u_Angestellte": 39040,
+            "Arbeiter": 124647
+        },
+        {
+            "Berichtszeit": "Monatsdurchschnitt 1950",
+            "Betriebe": 2947,
+            "Beschäftigte_insgesamt": 137709,
+            "Beschäftigte_auf_1_Betrieb": 47,
+            "Männer": 90977,
+            "Frauen": 46732,
+            "Inhaber_u_Angestellte": 34732,
+            "Arbeiter": 102977
+        }
+    ],
+    "monthly_average_1951_breakdown": [
+        {
+            "Kategorie": "Tiergarten",
+            "Betriebe": 191,
+            "Beschäftigte_insgesamt": 13358,
+            "Beschäftigte_auf_1_Betrieb": 70,
+            "Männer": 8608,
+            "Frauen": 4750,
+            "Inhaber_u_Angestellte": 3089,
+            "Arbeiter": 10269
+        },
+        {
+            "Kategorie": "Wedding",
+            "Betriebe": 216,
+            "Beschäftigte_insgesamt": 21622,
+            "Beschäftigte_auf_1_Betrieb": 100,
+            "Männer": 13467,
+            "Frauen": 8155,
+            "Inhaber_u_Angestellte": 4808,
+            "Arbeiter": 16814
+        },
+        {
+            "Kategorie": "Kreuzberg",
+            "Betriebe": 611,
+            "Beschäftigte_insgesamt": 21911,
+            "Beschäftigte_auf_1_Betrieb": 36,
+            "Männer": 13302,
+            "Frauen": 8609,
+            "Inhaber_u_Angestellte": 5104,
+            "Arbeiter": 16807
+        },
+        {
+            "Kategorie": "Charlottenburg",
+            "Betriebe": 272,
+            "Beschäftigte_insgesamt": 11476,
+            "Beschäftigte_auf_1_Betrieb": 42,
+            "Männer": 5724,
+            "Frauen": 5752,
+            "Inhaber_u_Angestellte": 3191,
+            "Arbeiter": 8285
+        },
+        {
+            "Kategorie": "Spandau",
+            "Betriebe": 127,
+            "Beschäftigte_insgesamt": 29967,
+            "Beschäftigte_auf_1_Betrieb": 236,
+            "Männer": 20710,
+            "Frauen": 9257,
+            "Inhaber_u_Angestellte": 7686,
+            "Arbeiter": 22281
+        },
+        {
+            "Kategorie": "Wilmersdorf",
+            "Betriebe": 219,
+            "Beschäftigte_insgesamt": 7314,
+            "Beschäftigte_auf_1_Betrieb": 33,
+            "Männer": 4350,
+            "Frauen": 2964,
+            "Inhaber_u_Angestellte": 2835,
+            "Arbeiter": 4479
+        },
+        {
+            "Kategorie": "Zehlendorf",
+            "Betriebe": 39,
+            "Beschäftigte_insgesamt": 1168,
+            "Beschäftigte_auf_1_Betrieb": 30,
+            "Männer": 689,
+            "Frauen": 479,
+            "Inhaber_u_Angestellte": 237,
+            "Arbeiter": 931
+        },
+        {
+            "Kategorie": "Schöneberg",
+            "Betriebe": 198,
+            "Beschäftigte_insgesamt": 9610,
+            "Beschäftigte_auf_1_Betrieb": 49,
+            "Männer": 5787,
+            "Frauen": 3823,
+            "Inhaber_u_Angestellte": 2405,
+            "Arbeiter": 7205
+        },
+        {
+            "Kategorie": "Steglitz",
+            "Betriebe": 132,
+            "Beschäftigte_insgesamt": 5506,
+            "Beschäftigte_auf_1_Betrieb": 42,
+            "Männer": 3183,
+            "Frauen": 2323,
+            "Inhaber_u_Angestellte": 1156,
+            "Arbeiter": 4350
+        },
+        {
+            "Kategorie": "Tempelhof",
+            "Betriebe": 176,
+            "Beschäftigte_insgesamt": 16580,
+            "Beschäftigte_auf_1_Betrieb": 94,
+            "Männer": 12016,
+            "Frauen": 4564,
+            "Inhaber_u_Angestellte": 3113,
+            "Arbeiter": 13467
+        },
+        {
+            "Kategorie": "Neukölln",
+            "Betriebe": 317,
+            "Beschäftigte_insgesamt": 11835,
+            "Beschäftigte_auf_1_Betrieb": 37,
+            "Männer": 7658,
+            "Frauen": 4177,
+            "Inhaber_u_Angestellte": 2447,
+            "Arbeiter": 9388
+        },
+        {
+            "Kategorie": "Reinickendorf",
+            "Betriebe": 210,
+            "Beschäftigte_insgesamt": 13340,
+            "Beschäftigte_auf_1_Betrieb": 64,
+            "Männer": 10660,
+            "Frauen": 2680,
+            "Inhaber_u_Angestellte": 2969,
+            "Arbeiter": 10371
+        },
+        {
+            "Kategorie": "Grundstoffindustrie",
+            "Betriebe": 117,
+            "Beschäftigte_insgesamt": 4519,
+            "Beschäftigte_auf_1_Betrieb": 39,
+            "Männer": 3984,
+            "Frauen": 535,
+            "Inhaber_u_Angestellte": 694,
+            "Arbeiter": 3825
+        },
+        {
+            "Kategorie": "Investitionsgüterindustrie",
+            "Betriebe": 934,
+            "Beschäftigte_insgesamt": 107496,
+            "Beschäftigte_auf_1_Betrieb": 115,
+            "Männer": 74141,
+            "Frauen": 33355,
+            "Inhaber_u_Angestellte": 25903,
+            "Arbeiter": 81593
+        },
+        {
+            "Kategorie": "Allgemeine Produktionsgüterindustrie",
+            "Betriebe": 280,
+            "Beschäftigte_insgesamt": 9412,
+            "Beschäftigte_auf_1_Betrieb": 34,
+            "Männer": 5233,
+            "Frauen": 4179,
+            "Inhaber_u_Angestellte": 3221,
+            "Arbeiter": 6191
+        },
+        {
+            "Kategorie": "Verbrauchsgüterindustrie",
+            "Betriebe": 1085,
+            "Beschäftigte_insgesamt": 29386,
+            "Beschäftigte_auf_1_Betrieb": 27,
+            "Männer": 15007,
+            "Frauen": 14379,
+            "Inhaber_u_Angestellte": 6423,
+            "Arbeiter": 22963
+        },
+        {
+            "Kategorie": "Nahrungs- und Genußmittelindustrie",
+            "Betriebe": 292,
+            "Beschäftigte_insgesamt": 12874,
+            "Beschäftigte_auf_1_Betrieb": 44,
+            "Männer": 7789,
+            "Frauen": 5085,
+            "Inhaber_u_Angestellte": 2799,
+            "Arbeiter": 10075
+        }
+    ]
+}

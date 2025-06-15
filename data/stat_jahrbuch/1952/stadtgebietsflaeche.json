@@ -1,0 +1,149 @@
+{
+  "title": "Stadtgebietsfläche Mai 1951 in ha",
+  "description": "Land area by type of use in hectares as of May 1951. Footnotes: ¹) Some redeterminations. The areas previously designated as building land are listed according to their current use. ²) Information according to the cadastre sheet, i.e. building areas (including ruins) including courtyards, house and front gardens, private green areas, internal paths and storage areas. ³) Surface use of rail-bound means of transport; subway and railroad, as far as they are not on street land.",
+  "data": [
+    {
+      "Verwaltungsbezirk": "Tiergarten",
+      "insgesamt_ha": 1315,
+      "bebaute_Fläche_ha": 569,
+      "Straßen_Plätze_öffentl_Wege_ha": 243,
+      "Bahngelände_ha": 110,
+      "Parkanlagen_ha": 201,
+      "Friedhöfe_ha": 1,
+      "Sportplätze_ha": 10,
+      "sonstige_Flächen_ha": 181
+    },
+    {
+      "Verwaltungsbezirk": "Wedding",
+      "insgesamt_ha": 1540,
+      "bebaute_Fläche_ha": 675,
+      "Straßen_Plätze_öffentl_Wege_ha": 333,
+      "Bahngelände_ha": 157,
+      "Parkanlagen_ha": 51,
+      "Friedhöfe_ha": 57,
+      "Sportplätze_ha": 8,
+      "sonstige_Flächen_ha": 259
+    },
+    {
+      "Verwaltungsbezirk": "Kreuzberg",
+      "insgesamt_ha": 1039,
+      "bebaute_Fläche_ha": 590,
+      "Straßen_Plätze_öffentl_Wege_ha": 270,
+      "Bahngelände_ha": 90,
+      "Parkanlagen_ha": 30,
+      "Friedhöfe_ha": 26,
+      "Sportplätze_ha": 2,
+      "sonstige_Flächen_ha": 31
+    },
+    {
+      "Verwaltungsbezirk": "Charlottenburg",
+      "insgesamt_ha": 2928,
+      "bebaute_Fläche_ha": 1132,
+      "Straßen_Plätze_öffentl_Wege_ha": 551,
+      "Bahngelände_ha": 147,
+      "Parkanlagen_ha": 292,
+      "Friedhöfe_ha": 46,
+      "Sportplätze_ha": 147,
+      "sonstige_Flächen_ha": 613
+    },
+    {
+      "Verwaltungsbezirk": "Spandau",
+      "insgesamt_ha": 8860,
+      "bebaute_Fläche_ha": 1736,
+      "Straßen_Plätze_öffentl_Wege_ha": 584,
+      "Bahngelände_ha": 53,
+      "Parkanlagen_ha": 98,
+      "Friedhöfe_ha": 51,
+      "Sportplätze_ha": 89,
+      "sonstige_Flächen_ha": 6249
+    },
+    {
+      "Verwaltungsbezirk": "Wilmersdorf",
+      "insgesamt_ha": 3447,
+      "bebaute_Fläche_ha": 804,
+      "Straßen_Plätze_öffentl_Wege_ha": 397,
+      "Bahngelände_ha": 137,
+      "Parkanlagen_ha": 33,
+      "Friedhöfe_ha": 12,
+      "Sportplätze_ha": 51,
+      "sonstige_Flächen_ha": 2013
+    },
+    {
+      "Verwaltungsbezirk": "Zehlendorf",
+      "insgesamt_ha": 7060,
+      "bebaute_Fläche_ha": 1896,
+      "Straßen_Plätze_öffentl_Wege_ha": 562,
+      "Bahngelände_ha": 120,
+      "Parkanlagen_ha": 373,
+      "Friedhöfe_ha": 43,
+      "Sportplätze_ha": 102,
+      "sonstige_Flächen_ha": 3964
+    },
+    {
+      "Verwaltungsbezirk": "Schöneberg",
+      "insgesamt_ha": 1229,
+      "bebaute_Fläche_ha": 596,
+      "Straßen_Plätze_öffentl_Wege_ha": 239,
+      "Bahngelände_ha": 158,
+      "Parkanlagen_ha": 28,
+      "Friedhöfe_ha": 34,
+      "Sportplätze_ha": 14,
+      "sonstige_Flächen_ha": 160
+    },
+    {
+      "Verwaltungsbezirk": "Steglitz",
+      "insgesamt_ha": 3196,
+      "bebaute_Fläche_ha": 1691,
+      "Straßen_Plätze_öffentl_Wege_ha": 463,
+      "Bahngelände_ha": 99,
+      "Parkanlagen_ha": 59,
+      "Friedhöfe_ha": 48,
+      "Sportplätze_ha": 33,
+      "sonstige_Flächen_ha": 803
+    },
+    {
+      "Verwaltungsbezirk": "Tempelhof",
+      "insgesamt_ha": 4064,
+      "bebaute_Fläche_ha": 1122,
+      "Straßen_Plätze_öffentl_Wege_ha": 415,
+      "Bahngelände_ha": 96,
+      "Parkanlagen_ha": 55,
+      "Friedhöfe_ha": 72,
+      "Sportplätze_ha": 59,
+      "sonstige_Flächen_ha": 2245
+    },
+    {
+      "Verwaltungsbezirk": "Neukölln",
+      "insgesamt_ha": 4493,
+      "bebaute_Fläche_ha": 1112,
+      "Straßen_Plätze_öffentl_Wege_ha": 567,
+      "Bahngelände_ha": 110,
+      "Parkanlagen_ha": 41,
+      "Friedhöfe_ha": 75,
+      "Sportplätze_ha": 35,
+      "sonstige_Flächen_ha": 2553
+    },
+    {
+      "Verwaltungsbezirk": "Reinickendorf",
+      "insgesamt_ha": 8924,
+      "bebaute_Fläche_ha": 2758,
+      "Straßen_Plätze_öffentl_Wege_ha": 690,
+      "Bahngelände_ha": 166,
+      "Parkanlagen_ha": 107,
+      "Friedhöfe_ha": 98,
+      "Sportplätze_ha": 62,
+      "sonstige_Flächen_ha": 5043
+    },
+    {
+      "Verwaltungsbezirk": "West-Berlin",
+      "insgesamt_ha": 48095,
+      "bebaute_Fläche_ha": 14681,
+      "Straßen_Plätze_öffentl_Wege_ha": 5314,
+      "Bahngelände_ha": 1273,
+      "Parkanlagen_ha": 1538,
+      "Friedhöfe_ha": 563,
+      "Sportplätze_ha": 612,
+      "sonstige_Flächen_ha": 24114
+    }
+  ]
+}

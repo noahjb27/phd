@@ -1,0 +1,81 @@
+{
+    "title": "Beförderte Personen und gefahrene Wagen-km im Nahverkehr der BVG 1956",
+    "description": "Die Tabelle zeigt die monatlichen Beförderungs- und Leistungsdaten der Berliner Verkehrs-Betriebe (BVG) für das Jahr 1956. Aufgelistet sind die beförderten Personen in Millionen und die gefahrenen Wagenkilometer in Millionen, aufgeschlüsselt nach Verkehrsmitteln (Straßenbahn, Autobus, U-Bahn, Obus). Summen für 1956 und Vergleichszahlen für die Jahre 1951 bis 1955 sind ebenfalls enthalten.",
+    "data": [
+      {
+        "Monat/Jahr": "Januar",
+        "Beförderte_Personen_Mio": {
+          "Straßenbahn": 25.5,
+          "Autobus": 11.6,
+          "U-Bahn": 18.5,
+          "Obus": 1.2
+        },
+        "Gefahrene_Wagen-km_Mio": {
+          "Straßenbahn_insgesamt": 4.3,
+          "U-Bahn_insgesamt": 2.2,
+          "Autobus": 2.9,
+          "Obus": 0.2
+        }
+      },
+      {
+        "Monat/Jahr": "Juli",
+        "Beförderte_Personen_Mio": {
+          "Straßenbahn": 22.0,
+          "Autobus": 9.6,
+          "U-Bahn": 16.5,
+          "Obus": 1.0
+        },
+        "Gefahrene_Wagen-km_Mio": {
+          "Straßenbahn_insgesamt": 4.4,
+          "U-Bahn_insgesamt": 2.4,
+          "Autobus": 3.1,
+          "Obus": 0.2
+        }
+      },
+      {
+        "Monat/Jahr": "Dezember",
+        "Beförderte_Personen_Mio": {
+          "Straßenbahn": 24.4,
+          "Autobus": 11.4,
+          "U-Bahn": 18.8,
+          "Obus": 1.2
+        },
+        "Gefahrene_Wagen-km_Mio": {
+          "Straßenbahn_insgesamt": 4.4,
+          "U-Bahn_insgesamt": 2.5,
+          "Autobus": 3.1,
+          "Obus": 0.2
+        }
+      },
+      {
+        "Monat/Jahr": "Zus. 1956",
+        "Beförderte_Personen_Mio": {
+          "Straßenbahn": 286.4,
+          "Autobus": 129.4,
+          "U-Bahn": 215.0,
+          "Obus": 13.7
+        },
+        "Gefahrene_Wagen-km_Mio": {
+          "Straßenbahn_insgesamt": 51.7,
+          "U-Bahn_insgesamt": 27.7,
+          "Autobus": 35.8,
+          "Obus": 2.0
+        }
+      },
+      {
+        "Monat/Jahr": "1955",
+        "Beförderte_Personen_Mio": {
+          "Straßenbahn": 288.4,
+          "Autobus": 130.0,
+          "U-Bahn": 192.3,
+          "Obus": 11.8
+        },
+        "Gefahrene_Wagen-km_Mio": {
+          "Straßenbahn_insgesamt": 50.4,
+          "U-Bahn_insgesamt": 26.1,
+          "Autobus": 30.7,
+          "Obus": 1.7
+        }
+      }
+    ]
+  }

@@ -1,0 +1,305 @@
+{
+    "title": "Arbeiterstunden, Gehälter und Löhne in der Industrie 1951",
+    "description": "Worker hours, salaries, and wages in industry in 1951, based on monthly industry reporting (local units). Footnotes: ¹) Worker hours in thousands. ²) Gross amount in 1000 DM.",
+    "monthly_data_total_industry": [
+        {
+            "Berichtszeit": "Januar",
+            "Arbeiterstunden_geleistet_1000": 21728,
+            "Arbeiterstunden_ausgefallen_1000": 3387,
+            "Arbeiterstunden_insgesamt_1000": 25115,
+            "Arbeiterstunden_ausgefallen_vH": 13.5,
+            "Gehälter_1000_DM": 12729,
+            "Löhne_1000_DM": 27537
+        },
+        {
+            "Berichtszeit": "Februar",
+            "Arbeiterstunden_geleistet_1000": 21009,
+            "Arbeiterstunden_ausgefallen_1000": 2470,
+            "Arbeiterstunden_insgesamt_1000": 23479,
+            "Arbeiterstunden_ausgefallen_vH": 10.5,
+            "Gehälter_1000_DM": 12706,
+            "Löhne_1000_DM": 25270
+        },
+        {
+            "Berichtszeit": "März",
+            "Arbeiterstunden_geleistet_1000": 21836,
+            "Arbeiterstunden_ausgefallen_1000": 3784,
+            "Arbeiterstunden_insgesamt_1000": 25620,
+            "Arbeiterstunden_ausgefallen_vH": 14.8,
+            "Gehälter_1000_DM": 14309,
+            "Löhne_1000_DM": 28377
+        },
+        {
+            "Berichtszeit": "April",
+            "Arbeiterstunden_geleistet_1000": 21931,
+            "Arbeiterstunden_ausgefallen_1000": 2667,
+            "Arbeiterstunden_insgesamt_1000": 24598,
+            "Arbeiterstunden_ausgefallen_vH": 10.8,
+            "Gehälter_1000_DM": 14133,
+            "Löhne_1000_DM": 27730
+        },
+        {
+            "Berichtszeit": "Mai",
+            "Arbeiterstunden_geleistet_1000": 21292,
+            "Arbeiterstunden_ausgefallen_1000": 5167,
+            "Arbeiterstunden_insgesamt_1000": 26459,
+            "Arbeiterstunden_ausgefallen_vH": 19.5,
+            "Gehälter_1000_DM": 14281,
+            "Löhne_1000_DM": 30950
+        },
+        {
+            "Berichtszeit": "Juni",
+            "Arbeiterstunden_geleistet_1000": 22840,
+            "Arbeiterstunden_ausgefallen_1000": 3619,
+            "Arbeiten_insgesamt_1000": 26459,
+            "Arbeiterstunden_ausgefallen_vH": 13.7,
+            "Gehälter_1000_DM": 14702,
+            "Löhne_1000_DM": 31571
+        },
+        {
+            "Berichtszeit": "Juli",
+            "Arbeiterstunden_geleistet_1000": 21629,
+            "Arbeiterstunden_ausgefallen_1000": 4273,
+            "Arbeiterstunden_insgesamt_1000": 25902,
+            "Arbeiterstunden_ausgefallen_vH": 16.5,
+            "Gehälter_1000_DM": 14660,
+            "Löhne_1000_DM": 31020
+        },
+        {
+            "Berichtszeit": "August",
+            "Arbeiterstunden_geleistet_1000": 23442,
+            "Arbeiterstunden_ausgefallen_1000": 4852,
+            "Arbeiterstunden_insgesamt_1000": 28294,
+            "Arbeiterstunden_ausgefallen_vH": 17.1,
+            "Gehälter_1000_DM": 14681,
+            "Löhne_1000_DM": 33829
+        },
+        {
+            "Berichtszeit": "September",
+            "Arbeiterstunden_geleistet_1000": 22917,
+            "Arbeiterstunden_ausgefallen_1000": 3519,
+            "Arbeiterstunden_insgesamt_1000": 26519,
+            "Arbeiterstunden_ausgefallen_vH": 13.3,
+            "Gehälter_1000_DM": 14790,
+            "Löhne_1000_DM": 30307
+        },
+        {
+            "Berichtszeit": "Oktober",
+            "Arbeiterstunden_geleistet_1000": 24378,
+            "Arbeiterstunden_ausgefallen_1000": 2920,
+            "Arbeiterstunden_insgesamt_1000": 27378,
+            "Arbeiterstunden_ausgefallen_vH": 10.5,
+            "Gehälter_1000_DM": 14895,
+            "Löhne_1000_DM": 33304
+        },
+        {
+            "Berichtszeit": "November",
+            "Arbeiterstunden_geleistet_1000": 24289,
+            "Arbeiterstunden_ausgefallen_1000": 3089,
+            "Arbeiterstunden_insgesamt_1000": 27378,
+            "Arbeiterstunden_ausgefallen_vH": 12.0,
+            "Gehälter_1000_DM": 15356,
+            "Löhne_1000_DM": 33512
+        },
+        {
+            "Berichtszeit": "Dezember",
+            "Arbeiterstunden_geleistet_1000": 21816,
+            "Arbeiterstunden_ausgefallen_1000": 4573,
+            "Arbeiterstunden_insgesamt_1000": 26389,
+            "Arbeiterstunden_ausgefallen_vH": 17.3,
+            "Gehälter_1000_DM": 16156,
+            "Löhne_1000_DM": 32599
+        },
+        {
+            "Berichtszeit": "Zusammen 1951",
+            "Arbeiterstunden_geleistet_1000": 269392,
+            "Arbeiterstunden_ausgefallen_1000": 44517,
+            "Arbeiterstunden_insgesamt_1000": 313909,
+            "Arbeiterstunden_ausgefallen_vH": null,
+            "Gehälter_1000_DM": 173267,
+            "Löhne_1000_DM": 367137
+        },
+        {
+            "Berichtszeit": "Zusammen 1950",
+            "Arbeiterstunden_geleistet_1000": 217392,
+            "Arbeiterstunden_ausgefallen_1000": 38771,
+            "Arbeiterstunden_insgesamt_1000": 256163,
+            "Arbeiterstunden_ausgefallen_vH": null,
+            "Gehälter_1000_DM": 136350,
+            "Löhne_1000_DM": 269868
+        },
+        {
+            "Berichtszeit": "Monatsdurchschnitt 1951",
+            "Arbeiterstunden_geleistet_1000": 22449,
+            "Arbeiterstunden_ausgefallen_1000": 3710,
+            "Arbeiterstunden_insgesamt_1000": 26159,
+            "Arbeiterstunden_ausgefallen_vH": 14.2,
+            "Gehälter_1000_DM": 14439,
+            "Löhne_1000_DM": 30595
+        },
+        {
+            "Berichtszeit": "Monatsdurchschnitt 1950",
+            "Arbeiterstunden_geleistet_1000": 18116,
+            "Arbeiterstunden_ausgefallen_1000": 3231,
+            "Arbeiterstunden_insgesamt_1000": 21347,
+            "Arbeiterstunden_ausgefallen_vH": 15.1,
+            "Gehälter_1000_DM": 11363,
+            "Löhne_1000_DM": 22489
+        }
+    ],
+    "annual_total_1951_breakdown": [
+        {
+            "Kategorie": "Tiergarten",
+            "Arbeiterstunden_geleistet_1000": 22238,
+            "Arbeiterstunden_ausgefallen_1000": 3661,
+            "Arbeiterstunden_insgesamt_1000": 25899,
+            "Arbeiterstunden_ausgefallen_vH": 14.1,
+            "Gehälter_1000_DM": 13637,
+            "Löhne_1000_DM": 30646
+        },
+        {
+            "Kategorie": "Wedding",
+            "Arbeiterstunden_geleistet_1000": 36222,
+            "Arbeiterstunden_ausgefallen_1000": 6335,
+            "Arbeiterstunden_insgesamt_1000": 42557,
+            "Arbeiterstunden_ausgefallen_vH": 14.9,
+            "Gehälter_1000_DM": 21811,
+            "Löhne_1000_DM": 48803
+        },
+        {
+            "Kategorie": "Kreuzberg",
+            "Arbeiterstunden_geleistet_1000": 35942,
+            "Arbeiterstunden_ausgefallen_1000": 6538,
+            "Arbeiterstunden_insgesamt_1000": 42480,
+            "Arbeiterstunden_ausgefallen_vH": 15.4,
+            "Gehälter_1000_DM": 20043,
+            "Löhne_1000_DM": 47404
+        },
+        {
+            "Kategorie": "Charlottenburg",
+            "Arbeiterstunden_geleistet_1000": 17694,
+            "Arbeiterstunden_ausgefallen_1000": 3247,
+            "Arbeiterstunden_insgesamt_1000": 20941,
+            "Arbeiterstunden_ausgefallen_vH": 15.5,
+            "Gehälter_1000_DM": 13308,
+            "Löhne_1000_DM": 22343
+        },
+        {
+            "Kategorie": "Spandau",
+            "Arbeiterstunden_geleistet_1000": 47535,
+            "Arbeiterstunden_ausgefallen_1000": 8168,
+            "Arbeiterstunden_insgesamt_1000": 55703,
+            "Arbeiterstunden_ausgefallen_vH": 14.7,
+            "Gehälter_1000_DM": 40467,
+            "Löhne_1000_DM": 67412
+        },
+        {
+            "Kategorie": "Wilmersdorf",
+            "Arbeiterstunden_geleistet_1000": 9787,
+            "Arbeiterstunden_ausgefallen_1000": 1417,
+            "Arbeiterstunden_insgesamt_1000": 11204,
+            "Arbeiterstunden_ausgefallen_vH": 12.7,
+            "Gehälter_1000_DM": 12879,
+            "Löhne_1000_DM": 13413
+        },
+        {
+            "Kategorie": "Zehlendorf",
+            "Arbeiterstunden_geleistet_1000": 1985,
+            "Arbeiterstunden_ausgefallen_1000": 329,
+            "Arbeiterstunden_insgesamt_1000": 2314,
+            "Arbeiterstunden_ausgefallen_vH": 14.2,
+            "Gehälter_1000_DM": 2444,
+            "Löhne_1000_DM": 741
+        },
+        {
+            "Kategorie": "Schöneberg",
+            "Arbeiterstunden_geleistet_1000": 15640,
+            "Arbeiterstunden_ausgefallen_1000": 2519,
+            "Arbeiterstunden_insgesamt_1000": 18159,
+            "Arbeiterstunden_ausgefallen_vH": 13.9,
+            "Gehälter_1000_DM": 9668,
+            "Löhne_1000_DM": 20311
+        },
+        {
+            "Kategorie": "Steglitz",
+            "Arbeiterstunden_geleistet_1000": 9594,
+            "Arbeiterstunden_ausgefallen_1000": 1475,
+            "Arbeiterstunden_insgesamt_1000": 11069,
+            "Arbeiterstunden_ausgefallen_vH": 13.3,
+            "Gehälter_1000_DM": 4797,
+            "Löhne_1000_DM": 13086
+        },
+        {
+            "Kategorie": "Tempelhof",
+            "Arbeiterstunden_geleistet_1000": 29680,
+            "Arbeiterstunden_ausgefallen_1000": 4187,
+            "Arbeiterstunden_insgesamt_1000": 33867,
+            "Arbeiterstunden_ausgefallen_vH": 12.4,
+            "Gehälter_1000_DM": 14231,
+            "Löhne_1000_DM": 42947
+        },
+        {
+            "Kategorie": "Neukölln",
+            "Arbeiterstunden_geleistet_1000": 20233,
+            "Arbeiterstunden_ausgefallen_1000": 3415,
+            "Arbeiterstunden_insgesamt_1000": 23648,
+            "Arbeiterstunden_ausgefallen_vH": 14.4,
+            "Gehälter_1000_DM": 9084,
+            "Löhne_1000_DM": 26258
+        },
+        {
+            "Kategorie": "Reinickendorf",
+            "Arbeiterstunden_geleistet_1000": 22842,
+            "Arbeiterstunden_ausgefallen_1000": 3226,
+            "Arbeiterstunden_insgesamt_1000": 26068,
+            "Arbeiterstunden_ausgefallen_vH": 12.4,
+            "Gehälter_1000_DM": 12601,
+            "Löhne_1000_DM": 32070
+        },
+        {
+            "Kategorie": "Grundstoffindustrie",
+            "Arbeiterstunden_geleistet_1000": 8384,
+            "Arbeiterstunden_ausgefallen_1000": 1277,
+            "Arbeiterstunden_insgesamt_1000": 9661,
+            "Arbeiterstunden_ausgefallen_vH": 13.2,
+            "Gehälter_1000_DM": 2839,
+            "Löhne_1000_DM": 12737
+        },
+        {
+            "Kategorie": "Investitionsgüterindustrie",
+            "Arbeiterstunden_geleistet_1000": 176001,
+            "Arbeiterstunden_ausgefallen_1000": 29355,
+            "Arbeiterstunden_insgesamt_1000": 205356,
+            "Arbeiterstunden_ausgefallen_vH": 14.3,
+            "Gehälter_1000_DM": 126053,
+            "Löhne_1000_DM": 246536
+        },
+        {
+            "Kategorie": "Allgem. Produktionsgüterindustrie",
+            "Arbeiterstunden_geleistet_1000": 13231,
+            "Arbeiterstunden_ausgefallen_1000": 2425,
+            "Arbeiterstunden_insgesamt_1000": 15656,
+            "Arbeiterstunden_ausgefallen_vH": 15.5,
+            "Gehälter_1000_DM": 13469,
+            "Löhne_1000_DM": 16610
+        },
+        {
+            "Kategorie": "Verbrauchsgüterindustrie",
+            "Arbeiterstunden_geleistet_1000": 49487,
+            "Arbeiterstunden_ausgefallen_1000": 8266,
+            "Arbeiterstunden_insgesamt_1000": 57753,
+            "Arbeiterstunden_ausgefallen_vH": 14.3,
+            "Gehälter_1000_DM": 19466,
+            "Löhne_1000_DM": 62980
+        },
+        {
+            "Kategorie": "Nahrungs- u. Genußmittelindustrie",
+            "Arbeiterstunden_geleistet_1000": 22289,
+            "Arbeiterstunden_ausgefallen_1000": 3194,
+            "Arbeiterstunden_insgesamt_1000": 25483,
+            "Arbeiterstunden_ausgefallen_vH": 12.5,
+            "Gehälter_1000_DM": 11440,
+            "Löhne_1000_DM": 28274
+        }
+    ]
+}

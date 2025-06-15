@@ -1,0 +1,110 @@
+{
+  "title": "Siedlungsfläche, Bevölkerungs- und Siedlungsdichte 1951",
+  "description": "Settlement area, population and settlement density in 1951. Footnote: ¹) Built-up area, street and square land, parks, cemeteries and sports fields.",
+  "data": [
+    {
+      "Verwaltungsbezirk": "Tiergarten",
+      "Siedlungsfläche_ha": 1024,
+      "Siedlungsfläche_vH_Gesamtfläche": 77.9,
+      "Bevölkerung_auf_1_ha_Gesamtfläche": 88.4,
+      "Bevölkerung_auf_1_ha_bebaute_Fläche": 204.3,
+      "Bevölkerung_auf_1_ha_Siedlungsfläche": 113.5
+    },
+    {
+      "Verwaltungsbezirk": "Wedding",
+      "Siedlungsfläche_ha": 1230,
+      "Siedlungsfläche_vH_Gesamtfläche": 79.9,
+      "Bevölkerung_auf_1_ha_Gesamtfläche": 158.5,
+      "Bevölkerung_auf_1_ha_bebaute_Fläche": 361.7,
+      "Bevölkerung_auf_1_ha_Siedlungsfläche": 198.5
+    },
+    {
+      "Verwaltungsbezirk": "Kreuzberg",
+      "Siedlungsfläche_ha": 918,
+      "Siedlungsfläche_vH_Gesamtfläche": 88.4,
+      "Bevölkerung_auf_1_ha_Gesamtfläche": 204.5,
+      "Bevölkerung_auf_1_ha_bebaute_Fläche": 360.0,
+      "Bevölkerung_auf_1_ha_Siedlungsfläche": 231.4
+    },
+    {
+      "Verwaltungsbezirk": "Charlottenburg",
+      "Siedlungsfläche_ha": 2168,
+      "Siedlungsfläche_vH_Gesamtfläche": 74.0,
+      "Bevölkerung_auf_1_ha_Gesamtfläche": 75.9,
+      "Bevölkerung_auf_1_ha_bebaute_Fläche": 196.2,
+      "Bevölkerung_auf_1_ha_Siedlungsfläche": 102.5
+    },
+    {
+      "Verwaltungsbezirk": "Spandau",
+      "Siedlungsfläche_ha": 2513,
+      "Siedlungsfläche_vH_Gesamtfläche": 28.4,
+      "Bevölkerung_auf_1_ha_Gesamtfläche": 18.5,
+      "Bevölkerung_auf_1_ha_bebaute_Fläche": 94.3,
+      "Bevölkerung_auf_1_ha_Siedlungsfläche": 65.1
+    },
+    {
+      "Verwaltungsbezirk": "Wilmersdorf",
+      "Siedlungsfläche_ha": 1297,
+      "Siedlungsfläche_vH_Gesamtfläche": 37.6,
+      "Bevölkerung_auf_1_ha_Gesamtfläche": 42.1,
+      "Bevölkerung_auf_1_ha_bebaute_Fläche": 180.5,
+      "Bevölkerung_auf_1_ha_Siedlungsfläche": 111.9
+    },
+    {
+      "Verwaltungsbezirk": "Zehlendorf",
+      "Siedlungsfläche_ha": 2976,
+      "Siedlungsfläche_vH_Gesamtfläche": 42.2,
+      "Bevölkerung_auf_1_ha_Gesamtfläche": 13.3,
+      "Bevölkerung_auf_1_ha_bebaute_Fläche": 49.5,
+      "Bevölkerung_auf_1_ha_Siedlungsfläche": 31.5
+    },
+    {
+      "Verwaltungsbezirk": "Schöneberg",
+      "Siedlungsfläche_ha": 910,
+      "Siedlungsfläche_vH_Gesamtfläche": 74.0,
+      "Bevölkerung_auf_1_ha_Gesamtfläche": 155.2,
+      "Bevölkerung_auf_1_ha_bebaute_Fläche": 320.0,
+      "Bevölkerung_auf_1_ha_Siedlungsfläche": 209.6
+    },
+    {
+      "Verwaltungsbezirk": "Steglitz",
+      "Siedlungsfläche_ha": 2334,
+      "Siedlungsfläche_vH_Gesamtfläche": 73.0,
+      "Bevölkerung_auf_1_ha_Gesamtfläche": 48.6,
+      "Bevölkerung_auf_1_ha_bebaute_Fläche": 91.9,
+      "Bevölkerung_auf_1_ha_Siedlungsfläche": 66.6
+    },
+    {
+      "Verwaltungsbezirk": "Tempelhof",
+      "Siedlungsfläche_ha": 1723,
+      "Siedlungsfläche_vH_Gesamtfläche": 42.4,
+      "Bevölkerung_auf_1_ha_Gesamtfläche": 30.4,
+      "Bevölkerung_auf_1_ha_bebaute_Fläche": 110.1,
+      "Bevölkerung_auf_1_ha_Siedlungsfläche": 71.7
+    },
+    {
+      "Verwaltungsbezirk": "Neukölln",
+      "Siedlungsfläche_ha": 1899,
+      "Siedlungsfläche_vH_Gesamtfläche": 42.3,
+      "Bevölkerung_auf_1_ha_Gesamtfläche": 64.1,
+      "Bevölkerung_auf_1_ha_bebaute_Fläche": 259.1,
+      "Bevölkerung_auf_1_ha_Siedlungsfläche": 151.7
+    },
+    {
+      "Verwaltungsbezirk": "Reinickendorf",
+      "Siedlungsfläche_ha": 3715,
+      "Siedlungsfläche_vH_Gesamtfläche": 41.6,
+      "Bevölkerung_auf_1_ha_Gesamtfläche": 23.2,
+      "Bevölkerung_auf_1_ha_bebaute_Fläche": 75.2,
+      "Bevölkerung_auf_1_ha_Siedlungsfläche": 55.8
+    },
+    {
+      "Verwaltungsbezirk": "West-Berlin",
+      "Siedlungsfläche_ha": 22707,
+      "Siedlungsfläche_vH_Gesamtfläche": 47.2,
+      "Bevölkerung_auf_1_ha_Gesamtfläche": 45.0,
+      "Bevölkerung_auf_1_ha_bebaute_Fläche": 147.3,
+      "Bevölkerung_auf_1_ha_Siedlungsfläche": 95.2
+    }
+  ]
+}

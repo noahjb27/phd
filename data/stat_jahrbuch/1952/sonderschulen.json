@@ -1,0 +1,149 @@
+{
+    "title": "Sonderschulen einschl. Hilfsschulen am 15. Mai 1951",
+    "description": "Special needs schools including remedial schools on May 15, 1951. Footnote: ¹) Includes 1 private school with 6 classes, 107 students, and 4 teachers, of which 3 are female.",
+    "data": [
+        {
+            "Verwaltungsbezirk": "Tiergarten",
+            "Schulen": 1,
+            "Klassen": 11,
+            "Schüler_insgesamt": 228,
+            "Schüler_weiblich": 107,
+            "Lehrkräfte_insgesamt": 13,
+            "Lehrer": 13,
+            "Schulamtsanwärter": 0,
+            "Bewerber": 1
+        },
+        {
+            "Verwaltungsbezirk": "Wedding",
+            "Schulen": 6,
+            "Klassen": 59,
+            "Schüler_insgesamt": 1146,
+            "Schüler_weiblich": 530,
+            "Lehrkräfte_insgesamt": 62,
+            "Lehrer": 49,
+            "Schulamtsanwärter": 10,
+            "Bewerber": 3
+        },
+        {
+            "Verwaltungsbezirk": "Kreuzberg",
+            "Schulen": 4,
+            "Klassen": 47,
+            "Schüler_insgesamt": 917,
+            "Schüler_weiblich": 403,
+            "Lehrkräfte_insgesamt": 56,
+            "Lehrer": 52,
+            "Schulamtsanwärter": 4,
+            "Bewerber": 0
+        },
+        {
+            "Verwaltungsbezirk": "Charlottenburg",
+            "Schulen": 4,
+            "Klassen": 44,
+            "Schüler_insgesamt": 867,
+            "Schüler_weiblich": 404,
+            "Lehrkräfte_insgesamt": 44,
+            "Lehrer": 44,
+            "Schulamtsanwärter": 0,
+            "Bewerber": 0
+        },
+        {
+            "Verwaltungsbezirk": "Spandau¹",
+            "Schulen": 2,
+            "Klassen": 29,
+            "Schüler_insgesamt": 587,
+            "Schüler_weiblich": 274,
+            "Lehrkräfte_insgesamt": 28,
+            "Lehrer": 22,
+            "Schulamtsanwärter": 3,
+            "Bewerber": 3
+        },
+        {
+            "Verwaltungsbezirk": "Wilmersdorf",
+            "Schulen": 1,
+            "Klassen": 11,
+            "Schüler_insgesamt": 256,
+            "Schüler_weiblich": 123,
+            "Lehrkräfte_insgesamt": 14,
+            "Lehrer": 14,
+            "Schulamtsanwärter": 0,
+            "Bewerber": 0
+        },
+        {
+            "Verwaltungsbezirk": "Zehlendorf",
+            "Schulen": 7,
+            "Klassen": 31,
+            "Schüler_insgesamt": 663,
+            "Schüler_weiblich": 298,
+            "Lehrkräfte_insgesamt": 34,
+            "Lehrer": 27,
+            "Schulamtsanwärter": 7,
+            "Bewerber": 0
+        },
+        {
+            "Verwaltungsbezirk": "Schöneberg",
+            "Schulen": 2,
+            "Klassen": 22,
+            "Schüler_insgesamt": 526,
+            "Schüler_weiblich": 251,
+            "Lehrkräfte_insgesamt": 24,
+            "Lehrer": 22,
+            "Schulamtsanwärter": 2,
+            "Bewerber": 0
+        },
+        {
+            "Verwaltungsbezirk": "Steglitz",
+            "Schulen": 2,
+            "Klassen": 28,
+            "Schüler_insgesamt": 548,
+            "Schüler_weiblich": 271,
+            "Lehrkräfte_insgesamt": 33,
+            "Lehrer": 27,
+            "Schulamtsanwärter": 5,
+            "Bewerber": 1
+        },
+        {
+            "Verwaltungsbezirk": "Tempelhof",
+            "Schulen": 2,
+            "Klassen": 23,
+            "Schüler_insgesamt": 478,
+            "Schüler_weiblich": 224,
+            "Lehrkräfte_insgesamt": 27,
+            "Lehrer": 20,
+            "Schulamtsanwärter": 6,
+            "Bewerber": 1
+        },
+        {
+            "Verwaltungsbezirk": "Neukölln",
+            "Schulen": 4,
+            "Klassen": 49,
+            "Schüler_insgesamt": 954,
+            "Schüler_weiblich": 447,
+            "Lehrkräfte_insgesamt": 55,
+            "Lehrer": 49,
+            "Schulamtsanwärter": 6,
+            "Bewerber": 0
+        },
+        {
+            "Verwaltungsbezirk": "Reinickendorf",
+            "Schulen": 5,
+            "Klassen": 47,
+            "Schüler_insgesamt": 995,
+            "Schüler_weiblich": 455,
+            "Lehrkräfte_insgesamt": 52,
+            "Lehrer": 42,
+            "Schulamtsanwärter": 4,
+            "Bewerber": 6
+        },
+        {
+            "Verwaltungsbezirk": "West-Berlin¹",
+            "Schulen": 40,
+            "Klassen": 401,
+            "Schüler_insgesamt": 8165,
+            "Schüler_weiblich": 3790,
+            "Lehrkräfte_insgesamt": 442,
+            "Lehrer": 381,
+            "Schulamtsanwärter": 45,
+            "Bewerber": 16
+        }
+    ]
+}

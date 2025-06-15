@@ -1,0 +1,149 @@
+{
+    "title": "Grundschulen 1. bis 6. Klasse am 15. Mai 1956",
+    "description": "Die Tabelle listet statistische Daten zu Grundschulen (1. bis 6. Klasse) in den Verwaltungsbezirken von West-Berlin zum Stichtag 15. Mai 1956 auf. Angegeben sind die Anzahl der öffentlichen und privaten Schulen, die Anzahl der Klassen und Schüler in beiden Schultypen sowie separate Daten zu Klassen und Schülern im 9. Schulbesuchsjahr (Berufsfindungsjahr).",
+    "data": [
+      {
+        "Verwaltungs-bezirk": "2 Tiergarten",
+        "Schulen_öffentliche": 12,
+        "Schulen_private": null,
+        "Klassen_öffentliche": 170,
+        "Klassen_private": null,
+        "Schüler_öffentliche": 5968,
+        "Schüler_private": null,
+        "9_Schulbesuchsjahr_Klassen": 3,
+        "9_Schulbesuchsjahr_Schüler": 83
+      },
+      {
+        "Verwaltungs-bezirk": "3 Wedding",
+        "Schulen_öffentliche": 26,
+        "Schulen_private": null,
+        "Klassen_öffentliche": 354,
+        "Klassen_private": null,
+        "Schüler_öffentliche": 12501,
+        "Schüler_private": null,
+        "9_Schulbesuchsjahr_Klassen": 10,
+        "9_Schulbesuchsjahr_Schüler": 264
+      },
+      {
+        "Verwaltungs-bezirk": "6 Kreuzberg",
+        "Schulen_öffentliche": 19,
+        "Schulen_private": null,
+        "Klassen_öffentliche": 290,
+        "Klassen_private": null,
+        "Schüler_öffentliche": 10352,
+        "Schüler_private": null,
+        "9_Schulbesuchsjahr_Klassen": 4,
+        "9_Schulbesuchsjahr_Schüler": 118
+      },
+      {
+        "Verwaltungs-bezirk": "7 Charlottenburg",
+        "Schulen_öffentliche": 19,
+        "Schulen_private": 3,
+        "Klassen_öffentliche": 301,
+        "Klassen_private": 19,
+        "Schüler_öffentliche": 10622,
+        "Schüler_private": 619,
+        "9_Schulbesuchsjahr_Klassen": 5,
+        "9_Schulbesuchsjahr_Schüler": 139
+      },
+      {
+        "Verwaltungs-bezirk": "8 Spandau",
+        "Schulen_öffentliche": 19,
+        "Schulen_private": 1,
+        "Klassen_öffentliche": 283,
+        "Klassen_private": 6,
+        "Schüler_öffentliche": 9966,
+        "Schüler_private": 159,
+        "9_Schulbesuchsjahr_Klassen": 3,
+        "9_Schulbesuchsjahr_Schüler": 57
+      },
+      {
+        "Verwaltungs-bezirk": "9 Wilmersdorf",
+        "Schulen_öffentliche": 12,
+        "Schulen_private": 1,
+        "Klassen_öffentliche": 201,
+        "Klassen_private": 2,
+        "Schüler_öffentliche": 7129,
+        "Schüler_private": 81,
+        "9_Schulbesuchsjahr_Klassen": 1,
+        "9_Schulbesuchsjahr_Schüler": 23
+      },
+      {
+        "Verwaltungs-bezirk": "10 Zehlendorf",
+        "Schulen_öffentliche": 11,
+        "Schulen_private": 4,
+        "Klassen_öffentliche": 159,
+        "Klassen_private": 19,
+        "Schüler_öffentliche": 5447,
+        "Schüler_private": 346,
+        "9_Schulbesuchsjahr_Klassen": 1,
+        "9_Schulbesuchsjahr_Schüler": 40
+      },
+      {
+        "Verwaltungs-bezirk": "11 Schöneberg",
+        "Schulen_öffentliche": 18,
+        "Schulen_private": 1,
+        "Klassen_öffentliche": 276,
+        "Klassen_private": 6,
+        "Schüler_öffentliche": 9805,
+        "Schüler_private": 175,
+        "9_Schulbesuchsjahr_Klassen": 2,
+        "9_Schulbesuchsjahr_Schüler": 52
+      },
+      {
+        "Verwaltungs-bezirk": "12 Steglitz",
+        "Schulen_öffentliche": 16,
+        "Schulen_private": 1,
+        "Klassen_öffentliche": 267,
+        "Klassen_private": 8,
+        "Schüler_öffentliche": 9491,
+        "Schüler_private": 265,
+        "9_Schulbesuchsjahr_Klassen": null,
+        "9_Schulbesuchsjahr_Schüler": null
+      },
+      {
+        "Verwaltungs-bezirk": "13 Tempelhof",
+        "Schulen_öffentliche": 13,
+        "Schulen_private": null,
+        "Klassen_öffentliche": 207,
+        "Klassen_private": null,
+        "Schüler_öffentliche": 7437,
+        "Schüler_private": null,
+        "9_Schulbesuchsjahr_Klassen": 2,
+        "9_Schulbesuchsjahr_Schüler": 54
+      },
+      {
+        "Verwaltungs-bezirk": "14 Neukölln",
+        "Schulen_öffentliche": 28,
+        "Schulen_private": 2,
+        "Klassen_öffentliche": 385,
+        "Klassen_private": 33,
+        "Schüler_öffentliche": 13668,
+        "Schüler_private": 1118,
+        "9_Schulbesuchsjahr_Klassen": 7,
+        "9_Schulbesuchsjahr_Schüler": 194
+      },
+      {
+        "Verwaltungs-bezirk": "20 Reinickendorf",
+        "Schulen_öffentliche": 25,
+        "Schulen_private": 2,
+        "Klassen_öffentliche": 349,
+        "Klassen_private": 9,
+        "Schüler_öffentliche": 12221,
+        "Schüler_private": 261,
+        "9_Schulbesuchsjahr_Klassen": 5,
+        "9_Schulbesuchsjahr_Schüler": 116
+      },
+      {
+        "Verwaltungs-bezirk": "Berlin (West)",
+        "Schulen_öffentliche": 218,
+        "Schulen_private": 15,
+        "Klassen_öffentliche": 3242,
+        "Klassen_private": 102,
+        "Schüler_öffentliche": 114607,
+        "Schüler_private": 3024,
+        "9_Schulbesuchsjahr_Klassen": 43,
+        "9_Schulbesuchsjahr_Schüler": 1140
+      }
+    ]
+  }

@@ -1,0 +1,429 @@
+{
+  "title": "Normalwohngebäude nach ihrer Art - Nach der Wohnungszählung 1950",
+  "description": "Normal residential buildings by type, from the 1950 housing census.",
+  "data": [
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tiergarten",
+      "insgesamt": 3720,
+      "Einfamilienhäuser": 44,
+      "Mehrfamilienhäuser": 40,
+      "Bauernhäuser": 0,
+      "Etagenmiethäuser": 3633,
+      "Behelfsheime_üb_30_qm": 3
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wedding",
+      "insgesamt": 7745,
+      "Einfamilienhäuser": 202,
+      "Mehrfamilienhäuser": 122,
+      "Bauernhäuser": 5,
+      "Etagenmiethäuser": 7400,
+      "Behelfsheime_üb_30_qm": 16
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Kreuzberg",
+      "insgesamt": 6931,
+      "Einfamilienhäuser": 38,
+      "Mehrfamilienhäuser": 13,
+      "Bauernhäuser": 0,
+      "Etagenmiethäuser": 6877,
+      "Behelfsheime_üb_30_qm": 3
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Charlottenburg",
+      "insgesamt": 8151,
+      "Einfamilienhäuser": 1196,
+      "Mehrfamilienhäuser": 401,
+      "Bauernhäuser": 2,
+      "Etagenmiethäuser": 6457,
+      "Behelfsheime_üb_30_qm": 95
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau",
+      "insgesamt": 11225,
+      "Einfamilienhäuser": 4872,
+      "Mehrfamilienhäuser": 1974,
+      "Bauernhäuser": 75,
+      "Etagenmiethäuser": 3923,
+      "Behelfsheime_üb_30_qm": 381
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Spandau",
+      "insgesamt": 7089,
+      "Einfamilienhäuser": 2579,
+      "Mehrfamilienhäuser": 1111,
+      "Bauernhäuser": 25,
+      "Etagenmiethäuser": 3099,
+      "Behelfsheime_üb_30_qm": 275
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Haselhorst",
+      "insgesamt": 581,
+      "Einfamilienhäuser": 54,
+      "Mehrfamilienhäuser": 122,
+      "Bauernhäuser": 1,
+      "Etagenmiethäuser": 403,
+      "Behelfsheime_üb_30_qm": 1
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Siemensstadt",
+      "insgesamt": 624,
+      "Einfamilienhäuser": 184,
+      "Mehrfamilienhäuser": 30,
+      "Bauernhäuser": 0,
+      "Etagenmiethäuser": 410,
+      "Behelfsheime_üb_30_qm": 0
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Staaken",
+      "insgesamt": 2079,
+      "Einfamilienhäuser": 1485,
+      "Mehrfamilienhäuser": 498,
+      "Bauernhäuser": 23,
+      "Etagenmiethäuser": 7,
+      "Behelfsheime_üb_30_qm": 66
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Gatow",
+      "insgesamt": 320,
+      "Einfamilienhäuser": 202,
+      "Mehrfamilienhäuser": 94,
+      "Bauernhäuser": 10,
+      "Etagenmiethäuser": 1,
+      "Behelfsheime_üb_30_qm": 13
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Kladow",
+      "insgesamt": 532,
+      "Einfamilienhäuser": 368,
+      "Mehrfamilienhäuser": 119,
+      "Bauernhäuser": 16,
+      "Etagenmiethäuser": 3,
+      "Behelfsheime_üb_30_qm": 26
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wilmersdorf",
+      "insgesamt": 5828,
+      "Einfamilienhäuser": 796,
+      "Mehrfamilienhäuser": 391,
+      "Bauernhäuser": 3,
+      "Etagenmiethäuser": 4628,
+      "Behelfsheime_üb_30_qm": 10
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wilmersdorf - Wilmersdorf",
+      "insgesamt": 4140,
+      "Einfamilienhäuser": 226,
+      "Mehrfamilienhäuser": 67,
+      "Bauernhäuser": 2,
+      "Etagenmiethäuser": 3841,
+      "Behelfsheime_üb_30_qm": 4
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wilmersdorf - Schmargendorf",
+      "insgesamt": 980,
+      "Einfamilienhäuser": 256,
+      "Mehrfamilienhäuser": 76,
+      "Bauernhäuser": 0,
+      "Etagenmiethäuser": 645,
+      "Behelfsheime_üb_30_qm": 3
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wilmersdorf - Grunewald",
+      "insgesamt": 708,
+      "Einfamilienhäuser": 314,
+      "Mehrfamilienhäuser": 248,
+      "Bauernhäuser": 1,
+      "Etagenmiethäuser": 142,
+      "Behelfsheime_üb_30_qm": 3
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf",
+      "insgesamt": 9686,
+      "Einfamilienhäuser": 6345,
+      "Mehrfamilienhäuser": 1769,
+      "Bauernhäuser": 46,
+      "Etagenmiethäuser": 1459,
+      "Behelfsheime_üb_30_qm": 67
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf - Zehlendorf",
+      "insgesamt": 6174,
+      "Einfamilienhäuser": 3948,
+      "Mehrfamilienhäuser": 963,
+      "Bauernhäuser": 27,
+      "Etagenmiethäuser": 1205,
+      "Behelfsheime_üb_30_qm": 31
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf - Dahlem",
+      "insgesamt": 1266,
+      "Einfamilienhäuser": 919,
+      "Mehrfamilienhäuser": 221,
+      "Bauernhäuser": 10,
+      "Etagenmiethäuser": 114,
+      "Behelfsheime_üb_30_qm": 2
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf - Nikolassee",
+      "insgesamt": 1290,
+      "Einfamilienhäuser": 894,
+      "Mehrfamilienhäuser": 316,
+      "Bauernhäuser": 2,
+      "Etagenmiethäuser": 68,
+      "Behelfsheime_üb_30_qm": 10
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf - Wannsee",
+      "insgesamt": 956,
+      "Einfamilienhäuser": 584,
+      "Mehrfamilienhäuser": 269,
+      "Bauernhäuser": 7,
+      "Etagenmiethäuser": 72,
+      "Behelfsheime_üb_30_qm": 24
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Schöneberg",
+      "insgesamt": 6819,
+      "Einfamilienhäuser": 156,
+      "Mehrfamilienhäuser": 174,
+      "Bauernhäuser": 3,
+      "Etagenmiethäuser": 6481,
+      "Behelfsheime_üb_30_qm": 5
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Steglitz",
+      "insgesamt": 10181,
+      "Einfamilienhäuser": 4236,
+      "Mehrfamilienhäuser": 1395,
+      "Bauernhäuser": 15,
+      "Etagenmiethäuser": 4378,
+      "Behelfsheime_üb_30_qm": 157
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Steglitz - Steglitz",
+      "insgesamt": 3278,
+      "Einfamilienhäuser": 434,
+      "Mehrfamilienhäuser": 178,
+      "Bauernhäuser": 5,
+      "Etagenmiethäuser": 2622,
+      "Behelfsheime_üb_30_qm": 39
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Steglitz - Lichterfelde",
+      "insgesamt": 5006,
+      "Einfamilienhäuser": 2541,
+      "Mehrfamilienhäuser": 1031,
+      "Bauernhäuser": 6,
+      "Etagenmiethäuser": 1346,
+      "Behelfsheime_üb_30_qm": 82
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Steglitz - Lankwitz",
+      "insgesamt": 1897,
+      "Einfamilienhäuser": 1261,
+      "Mehrfamilienhäuser": 186,
+      "Bauernhäuser": 4,
+      "Etagenmiethäuser": 410,
+      "Behelfsheime_üb_30_qm": 36
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof",
+      "insgesamt": 9316,
+      "Einfamilienhäuser": 4548,
+      "Mehrfamilienhäuser": 1230,
+      "Bauernhäuser": 90,
+      "Etagenmiethäuser": 3346,
+      "Behelfsheime_üb_30_qm": 102
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof - Tempelhof",
+      "insgesamt": 3371,
+      "Einfamilienhäuser": 996,
+      "Mehrfamilienhäuser": 98,
+      "Bauernhäuser": 2,
+      "Etagenmiethäuser": 2267,
+      "Behelfsheime_üb_30_qm": 8
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof - Mariendorf",
+      "insgesamt": 2174,
+      "Einfamilienhäuser": 869,
+      "Mehrfamilienhäuser": 366,
+      "Bauernhäuser": 27,
+      "Etagenmiethäuser": 893,
+      "Behelfsheime_üb_30_qm": 19
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof - Marienfelde",
+      "insgesamt": 1135,
+      "Einfamilienhäuser": 840,
+      "Mehrfamilienhäuser": 185,
+      "Bauernhäuser": 25,
+      "Etagenmiethäuser": 71,
+      "Behelfsheime_üb_30_qm": 14
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof - Lichtenrade",
+      "insgesamt": 2636,
+      "Einfamilienhäuser": 1843,
+      "Mehrfamilienhäuser": 581,
+      "Bauernhäuser": 36,
+      "Etagenmiethäuser": 115,
+      "Behelfsheime_üb_30_qm": 61
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln",
+      "insgesamt": 14561,
+      "Einfamilienhäuser": 5560,
+      "Mehrfamilienhäuser": 1083,
+      "Bauernhäuser": 87,
+      "Etagenmiethäuser": 7667,
+      "Behelfsheime_üb_30_qm": 164
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Neukölln",
+      "insgesamt": 7157,
+      "Einfamilienhäuser": 214,
+      "Mehrfamilienhäuser": 226,
+      "Bauernhäuser": 8,
+      "Etagenmiethäuser": 6707,
+      "Behelfsheime_üb_30_qm": 2
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Britz",
+      "insgesamt": 3282,
+      "Einfamilienhäuser": 2054,
+      "Mehrfamilienhäuser": 249,
+      "Bauernhäuser": 17,
+      "Etagenmiethäuser": 936,
+      "Behelfsheime_üb_30_qm": 26
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Buckow West",
+      "insgesamt": 733,
+      "Einfamilienhäuser": 575,
+      "Mehrfamilienhäuser": 80,
+      "Bauernhäuser": 34,
+      "Etagenmiethäuser": 5,
+      "Behelfsheime_üb_30_qm": 39
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Buckow Ost",
+      "insgesamt": 506,
+      "Einfamilienhäuser": 382,
+      "Mehrfamilienhäuser": 97,
+      "Bauernhäuser": 5,
+      "Etagenmiethäuser": 4,
+      "Behelfsheime_üb_30_qm": 18
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Rudow",
+      "insgesamt": 2883,
+      "Einfamilienhäuser": 2335,
+      "Mehrfamilienhäuser": 431,
+      "Bauernhäuser": 23,
+      "Etagenmiethäuser": 15,
+      "Behelfsheime_üb_30_qm": 79
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf",
+      "insgesamt": 17961,
+      "Einfamilienhäuser": 9639,
+      "Mehrfamilienhäuser": 3794,
+      "Bauernhäuser": 71,
+      "Etagenmiethäuser": 4211,
+      "Behelfsheime_üb_30_qm": 246
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Reinickendorf",
+      "insgesamt": 3415,
+      "Einfamilienhäuser": 667,
+      "Mehrfamilienhäuser": 349,
+      "Bauernhäuser": 8,
+      "Etagenmiethäuser": 2367,
+      "Behelfsheime_üb_30_qm": 24
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Tegel",
+      "insgesamt": 2816,
+      "Einfamilienhäuser": 1319,
+      "Mehrfamilienhäuser": 506,
+      "Bauernhäuser": 12,
+      "Etagenmiethäuser": 938,
+      "Behelfsheime_üb_30_qm": 41
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Konradshöhe",
+      "insgesamt": 700,
+      "Einfamilienhäuser": 486,
+      "Mehrfamilienhäuser": 181,
+      "Bauernhäuser": 2,
+      "Etagenmiethäuser": 22,
+      "Behelfsheime_üb_30_qm": 9
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Heiligensee",
+      "insgesamt": 2399,
+      "Einfamilienhäuser": 1866,
+      "Mehrfamilienhäuser": 457,
+      "Bauernhäuser": 16,
+      "Etagenmiethäuser": 10,
+      "Behelfsheime_üb_30_qm": 50
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Frohnau",
+      "insgesamt": 2214,
+      "Einfamilienhäuser": 1657,
+      "Mehrfamilienhäuser": 526,
+      "Bauernhäuser": 1,
+      "Etagenmiethäuser": 6,
+      "Behelfsheime_üb_30_qm": 24
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Hermsdorf",
+      "insgesamt": 2285,
+      "Einfamilienhäuser": 1319,
+      "Mehrfamilienhäuser": 769,
+      "Bauernhäuser": 5,
+      "Etagenmiethäuser": 147,
+      "Behelfsheime_üb_30_qm": 45
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Waidmannslust",
+      "insgesamt": 602,
+      "Einfamilienhäuser": 295,
+      "Mehrfamilienhäuser": 222,
+      "Bauernhäuser": 0,
+      "Etagenmiethäuser": 77,
+      "Behelfsheime_üb_30_qm": 8
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Lübars",
+      "insgesamt": 585,
+      "Einfamilienhäuser": 392,
+      "Mehrfamilienhäuser": 167,
+      "Bauernhäuser": 19,
+      "Etagenmiethäuser": 3,
+      "Behelfsheime_üb_30_qm": 4
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Wittenau",
+      "insgesamt": 2945,
+      "Einfamilienhäuser": 1638,
+      "Mehrfamilienhäuser": 617,
+      "Bauernhäuser": 8,
+      "Etagenmiethäuser": 641,
+      "Behelfsheime_üb_30_qm": 41
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "West-Berlin",
+      "insgesamt": 112124,
+      "Einfamilienhäuser": 37632,
+      "Mehrfamilienhäuser": 12386,
+      "Bauernhäuser": 397,
+      "Etagenmiethäuser": 60460,
+      "Behelfsheime_üb_30_qm": 1249
+    }
+  ]
+}

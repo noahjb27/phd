@@ -1,0 +1,83 @@
+{
+    "title": "Wohnbevölkerung und Fläche der Ortsteile des sowjetischen Sektors von Berlin am 1. Januar 1956",
+    "description": "Die Tabelle zeigt die Wohnbevölkerung und die Fläche der einzelnen Ortsteile innerhalb der Verwaltungsbezirke des sowjetischen Sektors von Berlin zum Stichtag 1. Januar 1956. Sie enthält die Bevölkerungszahlen von 1950 und 1956 (in 1000, aufgeschlüsselt nach männlich und weiblich), die absolute und prozentuale Veränderung, die Fläche in Quadratkilometern und die Einwohnerdichte. Einige Bezirke haben keine weiteren Ortsteile.",
+    "data": [
+      {
+        "Ortsteil": "Treptow",
+        "Wohnbevölkerung_1950_insges_1000": 19.7,
+        "Wohnbevölkerung_1956_insges_1000": 18.5,
+        "Wohnbevölkerung_1956_männl_1000": 7.9,
+        "Wohnbevölkerung_1956_weibl_1000": 10.6,
+        "Zunahme_Abnahme_absolut_1000": -1.2,
+        "Zunahme_Abnahme_in_vH": -6.1,
+        "Fläche_in_qkm": 4.0,
+        "Einwohner_je_qkm": 4625
+      },
+      {
+        "Ortsteil": "Baumschulenweg",
+        "Wohnbevölkerung_1950_insges_1000": 19.1,
+        "Wohnbevölkerung_1956_insges_1000": 19.7,
+        "Wohnbevölkerung_1956_männl_1000": 8.5,
+        "Wohnbevölkerung_1956_weibl_1000": 11.2,
+        "Zunahme_Abnahme_absolut_1000": 0.6,
+        "Zunahme_Abnahme_in_vH": 3.1,
+        "Fläche_in_qkm": 3.5,
+        "Einwohner_je_qkm": 5629
+      },
+      {
+        "Ortsteil": "Niederschöneweide",
+        "Wohnbevölkerung_1950_insges_1000": 11.4,
+        "Wohnbevölkerung_1956_insges_1000": 11.6,
+        "Wohnbevölkerung_1956_männl_1000": 4.9,
+        "Wohnbevölkerung_1956_weibl_1000": 6.5,
+        "Zunahme_Abnahme_absolut_1000": 0.2,
+        "Zunahme_Abnahme_in_vH": 1.7,
+        "Fläche_in_qkm": 3.5,
+        "Einwohner_je_qkm": 3257
+      },
+      {
+        "Ortsteil": "Johannisthal",
+        "Wohnbevölkerung_1950_insges_1000": 19.4,
+        "Wohnbevölkerung_1956_insges_1000": 20.2,
+        "Wohnbevölkerung_1956_männl_1000": 8.7,
+        "Wohnbevölkerung_1956_weibl_1000": 11.3,
+        "Zunahme_Abnahme_absolut_1000": 0.8,
+        "Zunahme_Abnahme_in_vH": 4.1,
+        "Fläche_in_qkm": 11.6,
+        "Einwohner_je_qkm": 1741
+      },
+      {
+        "Ortsteil": "Adlershof",
+        "Wohnbevölkerung_1950_insges_1000": 21.1,
+        "Wohnbevölkerung_1956_insges_1000": 20.0,
+        "Wohnbevölkerung_1956_männl_1000": 9.2,
+        "Wohnbevölkerung_1956_weibl_1000": 11.0,
+        "Zunahme_Abnahme_absolut_1000": -1.1,
+        "Zunahme_Abnahme_in_vH": -5.2,
+        "Fläche_in_qkm": 3.8,
+        "Einwohner_je_qkm": 5263
+      },
+      {
+        "Ortsteil": "Altglienicke",
+        "Wohnbevölkerung_1950_insges_1000": 12.5,
+        "Wohnbevölkerung_1956_insges_1000": 11.9,
+        "Wohnbevölkerung_1956_männl_1000": 5.2,
+        "Wohnbevölkerung_1956_weibl_1000": 6.6,
+        "Zunahme_Abnahme_absolut_1000": -0.6,
+        "Zunahme_Abnahme_in_vH": -4.8,
+        "Fläche_in_qkm": 8.6,
+        "Einwohner_je_qkm": 1384
+      },
+      {
+        "Ortsteil": "Bohnsdorf",
+        "Wohnbevölkerung_1950_insges_1000": 5.8,
+        "Wohnbevölkerung_1956_insges_1000": 5.5,
+        "Wohnbevölkerung_1956_männl_1000": 2.5,
+        "Wohnbevölkerung_1956_weibl_1000": 3.0,
+        "Zunahme_Abnahme_absolut_1000": -0.3,
+        "Zunahme_Abnahme_in_vH": -5.2,
+        "Fläche_in_qkm": 5.8,
+        "Einwohner_je_qkm": 948
+      }
+    ]
+  }

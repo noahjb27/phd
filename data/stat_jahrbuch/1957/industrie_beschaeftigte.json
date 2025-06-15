@@ -1,0 +1,91 @@
+{
+    "title": "Betriebe und Beschäftigte in der Industrie 1956",
+    "description": "Die Tabelle basiert auf der monatlichen Industrieberichterstattung und zeigt die Anzahl der Betriebe und Beschäftigten in der West-Berliner Industrie für das Jahr 1956. Sie enthält monatliche Daten, einen Monatsdurchschnitt für 1956 sowie Vergleichszahlen für 1954 und 1955. Die Beschäftigten sind nach Geschlecht und Beschäftigungsart (Inhaber u. Angestellte, Arbeiter) aufgeschlüsselt. Eine zusätzliche Aufschlüsselung des Monatsdurchschnitts 1956 nach Verwaltungsbezirken und Produktionsgruppen ist ebenfalls enthalten.",
+    "data": {
+      "monatsentwicklung": [
+        {
+          "Monat": "Januar",
+          "Betriebe": 3050,
+          "Beschäftigte_insgesamt": 253810,
+          "Beschäftigte_auf_1_Betrieb": 83,
+          "Männer": 158813,
+          "Frauen": 94997,
+          "Inhaber_u_Angestellte": 59758,
+          "Arbeiter": 194052
+        },
+        {
+          "Monat": "September",
+          "Betriebe": 3006,
+          "Beschäftigte_insgesamt": 266697,
+          "Beschäftigte_auf_1_Betrieb": 89,
+          "Männer": 165382,
+          "Frauen": 101315,
+          "Inhaber_u_Angestellte": 63046,
+          "Arbeiter": 203651
+        },
+        {
+          "Monat": "Dezember",
+          "Betriebe": 3031,
+          "Beschäftigte_insgesamt": 262028,
+          "Beschäftigte_auf_1_Betrieb": 86,
+          "Männer": 162297,
+          "Frauen": 99737,
+          "Inhaber_u_Angestellte": 62895,
+          "Arbeiter": 199133
+        }
+      ],
+      "monatsdurchschnitt_1956": {
+        "Betriebe": 3031,
+        "Beschäftigte_insgesamt": 261033,
+        "Beschäftigte_auf_1_Betrieb": 86,
+        "Männer": 162774,
+        "Frauen": 98259,
+        "Inhaber_u_Angestellte": 61980,
+        "Arbeiter": 199053
+      },
+      "nach_verwaltungsbezirken_monatsdurchschnitt_1956": [
+        {
+          "Bezirk": "2 Tiergarten",
+          "Betriebe": 199,
+          "Beschäftigte_insgesamt": 20519,
+          "Beschäftigte_auf_1_Betrieb": 103,
+          "Männer": 12312,
+          "Frauen": 8207,
+          "Inhaber_u_Angestellte": 4782,
+          "Arbeiter": 15737
+        },
+        {
+          "Bezirk": "8 Spandau",
+          "Betriebe": 121,
+          "Beschäftigte_insgesamt": 49315,
+          "Beschäftigte_auf_1_Betrieb": 408,
+          "Männer": 33418,
+          "Frauen": 15897,
+          "Inhaber_u_Angestellte": 11275,
+          "Arbeiter": 38040
+        }
+      ],
+      "nach_produktionsgruppen_monatsdurchschnitt_1956": [
+        {
+          "Produktionsgruppe": "Produktionsmittelindustrien",
+          "Betriebe": 1103,
+          "Beschäftigte_insgesamt": 175588,
+          "Beschäftigte_auf_1_Betrieb": 159,
+          "Männer": 122667,
+          "Frauen": 52921,
+          "Inhaber_u_Angestellte": 41682,
+          "Arbeiter": 133906
+        },
+        {
+          "Produktionsgruppe": "Verbrauchsgüterindustrien",
+          "Betriebe": 1928,
+          "Beschäftigte_insgesamt": 85445,
+          "Beschäftigte_auf_1_Betrieb": 44,
+          "Männer": 40107,
+          "Frauen": 45338,
+          "Inhaber_u_Angestellte": 20298,
+          "Arbeiter": 65147
+        }
+      ]
+    }
+  }

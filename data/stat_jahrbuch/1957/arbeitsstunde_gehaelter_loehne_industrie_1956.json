@@ -1,0 +1,75 @@
+{
+    "title": "Arbeiterstunden, Gehälter und Löhne in der Industrie 1956",
+    "description": "Die Tabelle zeigt monatliche Daten zu geleisteten und ausgefallenen Arbeiterstunden sowie die Bruttobeträge der Gehälter und Löhne in der West-Berliner Industrie für das Jahr 1956. Sie enthält Jahressummen und Monatsdurchschnitte für 1956 sowie Vergleichszahlen für 1954 und 1955. Zusätzlich gibt es eine Aufschlüsselung der Jahreswerte 1956 nach Verwaltungsbezirken und Produktionsgruppen.",
+    "data": {
+      "monatsentwicklung": [
+        {
+          "Monat": "Januar",
+          "Arbeiterstunden_geleistet_1000": 35293,
+          "Arbeiterstunden_ausgefallen_absolut_1000": 4278,
+          "Arbeiterstunden_ausgefallen_in_vH": 10.8,
+          "Gehälter_in_1000_DM": 28203,
+          "Löhne_in_1000_DM": 58554
+        },
+        {
+          "Monat": "Juli",
+          "Arbeiterstunden_geleistet_1000": 33062,
+          "Arbeiterstunden_ausgefallen_absolut_1000": 8416,
+          "Arbeiterstunden_ausgefallen_in_vH": 20.3,
+          "Gehälter_in_1000_DM": 30885,
+          "Löhne_in_1000_DM": 65080
+        },
+        {
+          "Monat": "Dezember",
+          "Arbeiterstunden_geleistet_1000": 34948,
+          "Arbeiterstunden_ausgefallen_absolut_1000": 6364,
+          "Arbeiterstunden_ausgefallen_in_vH": 15.4,
+          "Gehälter_in_1000_DM": 33457,
+          "Löhne_in_1000_DM": 67171
+        }
+      ],
+      "zusammen_1956": {
+        "Arbeiterstunden_geleistet_1000": 428652,
+        "Arbeiterstunden_ausgefallen_absolut_1000": 70395,
+        "Arbeiterstunden_ausgefallen_in_vH": 14.1,
+        "Gehälter_in_1000_DM": 370857,
+        "Löhne_in_1000_DM": 778563
+      },
+      "nach_verwaltungsbezirken_1956": [
+        {
+          "Bezirk": "2 Tiergarten",
+          "Arbeiterstunden_geleistet_1000": 34007,
+          "Arbeiterstunden_ausgefallen_absolut_1000": 5791,
+          "Arbeiterstunden_ausgefallen_in_vH": 14.6,
+          "Gehälter_in_1000_DM": 28042,
+          "Löhne_in_1000_DM": 62117
+        },
+        {
+          "Bezirk": "8 Spandau",
+          "Arbeiterstunden_geleistet_1000": 80345,
+          "Arbeiterstunden_ausgefallen_absolut_1000": 13623,
+          "Arbeiterstunden_ausgefallen_in_vH": 14.5,
+          "Gehälter_in_1000_DM": 75862,
+          "Löhne_in_1000_DM": 151740
+        }
+      ],
+      "nach_produktionsgruppen_1956": [
+        {
+          "Produktionsgruppe": "Produktionsmittelindustrien",
+          "Arbeiterstunden_geleistet_1000": 285531,
+          "Arbeiterstunden_ausgefallen_absolut_1000": 49872,
+          "Arbeiterstunden_ausgefallen_in_vH": 14.9,
+          "Gehälter_in_1000_DM": 270598,
+          "Löhne_in_1000_DM": 540868
+        },
+        {
+          "Produktionsgruppe": "Verbrauchsgüterindustrien",
+          "Arbeiterstunden_geleistet_1000": 143121,
+          "Arbeiterstunden_ausgefallen_absolut_1000": 20523,
+          "Arbeiterstunden_ausgefallen_in_vH": 12.5,
+          "Gehälter_in_1000_DM": 100259,
+          "Löhne_in_1000_DM": 237695
+        }
+      ]
+    }
+  }

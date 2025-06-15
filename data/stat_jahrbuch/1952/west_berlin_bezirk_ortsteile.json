@@ -1,0 +1,94 @@
+{
+  "title": "West-Berlin Bezirke und Ortsteile",
+ "description": "Die Liste der Bezirke und Ortsteile von West-Berlin im Jahr 1952.",
+ "data": [
+  {
+    "district": "Tiergarten",
+    "sub_districts": []
+  },
+  {
+    "district": "Wedding",
+    "sub_districts": []
+  },
+  {
+    "district": "Kreuzberg",
+    "sub_districts": []
+  },
+  {
+    "district": "Charlottenburg",
+    "sub_districts": []
+  },
+  {
+    "district": "Spandau",
+    "sub_districts": [
+      "Spandau",
+      "Haselhorst",
+      "Siemensstadt",
+      "Staaken",
+      "Gatow",
+      "Kladow"
+    ]
+  },
+  {
+    "district": "Wilmersdorf",
+    "sub_districts": [
+      "Wilmersdorf",
+      "Schmargendorf",
+      "Grunewald"
+    ]
+  },
+  {
+    "district": "Zehlendorf",
+    "sub_districts": [
+      "Zehlendorf",
+      "Dahlem",
+      "Nikolassee",
+      "Wannsee"
+    ]
+  },
+  {
+    "district": "Schöneberg",
+    "sub_districts": []
+  },
+  {
+    "district": "Steglitz",
+    "sub_districts": [
+      "Steglitz",
+      "Lichterfelde",
+      "Lankwitz"
+    ]
+  },
+  {
+    "district": "Tempelhof",
+    "sub_districts": [
+      "Tempelhof",
+      "Mariendorf",
+      "Marienfelde",
+      "Lichtenrade"
+    ]
+  },
+  {
+    "district": "Neukölln",
+    "sub_districts": [
+      "Neukölln",
+      "Britz",
+      "Buckow West",
+      "Buckow Ost",
+      "Rudow"
+    ]
+  },
+  {
+    "district": "Reinickendorf",
+    "sub_districts": [
+      "Reinickendorf",
+      "Tegel",
+      "Konradshöhe",
+      "Heiligensee",
+      "Frohnau",
+      "Hermsdorf",
+      "Waidmannslust",
+      "Lübars",
+      "Wittenau"
+    ]
+  }]
+}

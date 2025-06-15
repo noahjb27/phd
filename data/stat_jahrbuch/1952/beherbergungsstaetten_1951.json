@@ -1,0 +1,149 @@
+{
+    "title": "Beherbergungsstätten 1951",
+    "description": "Accommodation establishments in 1951. Footnotes: ¹) Establishments. ²) Beds at the end of 1951 by price category.",
+    "data": [
+        {
+            "Verwaltungsbezirk": "Tiergarten",
+            "Betriebe_insgesamt": 211,
+            "Betten_insgesamt": 14,
+            "Preisstufe_A_Betriebe": 1,
+            "Preisstufe_A_Betten": 30,
+            "Preisstufe_B_Betriebe": 13,
+            "Preisstufe_B_Betten": 181,
+            "Preisstufe_C_Betriebe": null,
+            "Preisstufe_C_Betten": null
+        },
+        {
+            "Verwaltungsbezirk": "Wedding",
+            "Betriebe_insgesamt": 93,
+            "Betten_insgesamt": 2,
+            "Preisstufe_A_Betriebe": null,
+            "Preisstufe_A_Betten": null,
+            "Preisstufe_B_Betriebe": 2,
+            "Preisstufe_B_Betten": 93,
+            "Preisstufe_C_Betriebe": null,
+            "Preisstufe_C_Betten": null
+        },
+        {
+            "Verwaltungsbezirk": "Kreuzberg",
+            "Betriebe_insgesamt": 30,
+            "Betten_insgesamt": 614,
+            "Preisstufe_A_Betriebe": 2,
+            "Preisstufe_A_Betten": 154,
+            "Preisstufe_B_Betriebe": 27,
+            "Preisstufe_B_Betten": 453,
+            "Preisstufe_C_Betriebe": 1,
+            "Preisstufe_C_Betten": 7
+        },
+        {
+            "Verwaltungsbezirk": "Charlottenburg",
+            "Betriebe_insgesamt": 141,
+            "Betten_insgesamt": 2302,
+            "Preisstufe_A_Betriebe": 25,
+            "Preisstufe_A_Betten": 838,
+            "Preisstufe_B_Betriebe": 115,
+            "Preisstufe_B_Betten": 1455,
+            "Preisstufe_C_Betriebe": 1,
+            "Preisstufe_C_Betten": 9
+        },
+        {
+            "Verwaltungsbezirk": "Spandau",
+            "Betriebe_insgesamt": 6,
+            "Betten_insgesamt": 114,
+            "Preisstufe_A_Betriebe": null,
+            "Preisstufe_A_Betten": null,
+            "Preisstufe_B_Betriebe": 2,
+            "Preisstufe_B_Betten": 64,
+            "Preisstufe_C_Betriebe": 3,
+            "Preisstufe_C_Betten": 30
+        },
+        {
+            "Verwaltungsbezirk": "Wilmersdorf",
+            "Betriebe_insgesamt": 54,
+            "Betten_insgesamt": 765,
+            "Preisstufe_A_Betriebe": 14,
+            "Preisstufe_A_Betten": 325,
+            "Preisstufe_B_Betriebe": 40,
+            "Preisstufe_B_Betten": 440,
+            "Preisstufe_C_Betriebe": null,
+            "Preisstufe_C_Betten": null
+        },
+        {
+            "Verwaltungsbezirk": "Zehlendorf",
+            "Betriebe_insgesamt": 16,
+            "Betten_insgesamt": 274,
+            "Preisstufe_A_Betriebe": 9,
+            "Preisstufe_A_Betten": 166,
+            "Preisstufe_B_Betriebe": 7,
+            "Preisstufe_B_Betten": 108,
+            "Preisstufe_C_Betriebe": null,
+            "Preisstufe_C_Betten": null
+        },
+        {
+            "Verwaltungsbezirk": "Schöneberg",
+            "Betriebe_insgesamt": 12,
+            "Betten_insgesamt": 707,
+            "Preisstufe_A_Betriebe": 2,
+            "Preisstufe_A_Betten": 83,
+            "Preisstufe_B_Betriebe": 9,
+            "Preisstufe_B_Betten": 624,
+            "Preisstufe_C_Betriebe": 1,
+            "Preisstufe_C_Betten": null
+        },
+        {
+            "Verwaltungsbezirk": "Steglitz",
+            "Betriebe_insgesamt": 2,
+            "Betten_insgesamt": 54,
+            "Preisstufe_A_Betriebe": null,
+            "Preisstufe_A_Betten": null,
+            "Preisstufe_B_Betriebe": 2,
+            "Preisstufe_B_Betten": 54,
+            "Preisstufe_C_Betriebe": null,
+            "Preisstufe_C_Betten": null
+        },
+        {
+            "Verwaltungsbezirk": "Tempelhof",
+            "Betriebe_insgesamt": 6,
+            "Betten_insgesamt": 75,
+            "Preisstufe_A_Betriebe": 2,
+            "Preisstufe_A_Betten": 28,
+            "Preisstufe_B_Betriebe": 4,
+            "Preisstufe_B_Betten": 47,
+            "Preisstufe_C_Betriebe": null,
+            "Preisstufe_C_Betten": null
+        },
+        {
+            "Verwaltungsbezirk": "Neukölln",
+            "Betriebe_insgesamt": 2,
+            "Betten_insgesamt": 36,
+            "Preisstufe_A_Betriebe": 1,
+            "Preisstufe_A_Betten": 36,
+            "Preisstufe_B_Betriebe": 1,
+            "Preisstufe_B_Betten": null,
+            "Preisstufe_C_Betriebe": null,
+            "Preisstufe_C_Betten": null
+        },
+        {
+            "Verwaltungsbezirk": "Reinickendorf",
+            "Betriebe_insgesamt": 1,
+            "Betten_insgesamt": 8,
+            "Preisstufe_A_Betriebe": null,
+            "Preisstufe_A_Betten": null,
+            "Preisstufe_B_Betriebe": 1,
+            "Preisstufe_B_Betten": 8,
+            "Preisstufe_C_Betriebe": null,
+            "Preisstufe_C_Betten": null
+        },
+        {
+            "Verwaltungsbezirk": "West-Berlin",
+            "Betriebe_insgesamt": 339,
+            "Betten_insgesamt": 5403,
+            "Preisstufe_A_Betriebe": 59,
+            "Preisstufe_A_Betten": 1754,
+            "Preisstufe_B_Betriebe": 275,
+            "Preisstufe_B_Betten": 3564,
+            "Preisstufe_C_Betriebe": 5,
+            "Preisstufe_C_Betten": 85
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+ {
+    "title": "Art der Personenkraftfahrzeuge Dezember 1956",
+    "description": "Die Tabelle zeigt die Anzahl der im Verkehr befindlichen Personenkraftfahrzeuge in West-Berlin im Dezember 1956, aufgeschlüsselt nach ihrer Art.",
+    "data": [
+      {
+        "Art": "Privatkraftwagen",
+        "Im_Verkehr_befindliche_Kraftfahrzeuge": 68931
+      },
+      {
+        "Art": "Kraftdroschken",
+        "Im_Verkehr_befindliche_Kraftfahrzeuge": 1088
+      },
+      {
+        "Art": "Krankenkraftwagen",
+        "Im_Verkehr_befindliche_Kraftfahrzeuge": 114
+      },
+      {
+        "Art": "Kraftomnibusse",
+        "Im_Verkehr_befindliche_Kraftfahrzeuge": 829
+      }
+    ]
+  }

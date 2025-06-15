@@ -1,0 +1,70 @@
+ {
+    "title": "Unfälle im Straßenverkehr 1956",
+    "description": "Die Tabelle a) zu Unfällen im Straßenverkehr zeigt monatliche Daten für das Jahr 1956 in West-Berlin. Sie listet die Gesamtzahl der Unfälle, die Anzahl der beteiligten Fahrzeuge und die beteiligten Verkehrsteilnehmer auf, aufgeschlüsselt nach verschiedenen Kategorien wie Kraftfahrzeuge, Fußgänger und Radfahrer. Vergleichszahlen für die Jahre 1951 bis 1955 sind ebenfalls enthalten.",
+    "data": [
+      {
+        "Monat_Jahr": "Januar",
+        "Unfälle_insgesamt": 1605,
+        "Unfälle_durch_Zusammenstoß": 604,
+        "Beteiligte_Fahrzeuge_insgesamt": 2932,
+        "Beteiligte_Verkehrsteilnehmer": {
+          "Kraftfahrzeuge_aller_Art": 2256,
+          "Krafträder": 806,
+          "Fahrräder_mit_Hilfsmotor": 73,
+          "Fahrräder_ohne_Hilfsmotor": 226,
+          "Straßenbahnen": 147,
+          "sonstige_Fahrzeuge": 94,
+          "Fußgänger": 10,
+          "Übrige": 47
+        }
+      },
+      {
+        "Monat_Jahr": "Juni",
+        "Unfälle_insgesamt": 2714,
+        "Unfälle_durch_Zusammenstoß": 1117,
+        "Beteiligte_Fahrzeuge_insgesamt": 4858,
+        "Beteiligte_Verkehrsteilnehmer": {
+          "Kraftfahrzeuge_aller_Art": 3002,
+          "Krafträder": 943,
+          "Fahrräder_mit_Hilfsmotor": 95,
+          "Fahrräder_ohne_Hilfsmotor": 584,
+          "Straßenbahnen": 228,
+          "sonstige_Fahrzeuge": 6,
+          "Fußgänger": 463,
+          "Übrige": 58
+        }
+      },
+      {
+        "Monat_Jahr": "Dezember",
+        "Unfälle_insgesamt": 2332,
+        "Unfälle_durch_Zusammenstoß": 942,
+        "Beteiligte_Fahrzeuge_insgesamt": 4133,
+        "Beteiligte_Verkehrsteilnehmer": {
+          "Kraftfahrzeuge_aller_Art": 3327,
+          "Krafträder": 279,
+          "Fahrräder_mit_Hilfsmotor": 96,
+          "Fahrräder_ohne_Hilfsmotor": 228,
+          "Straßenbahnen": 199,
+          "sonstige_Fahrzeuge": 4,
+          "Fußgänger": 440,
+          "Übrige": 52
+        }
+      },
+      {
+        "Monat_Jahr": "Zus. 1956",
+        "Unfälle_insgesamt": 27751,
+        "Unfälle_durch_Zusammenstoß": 10896,
+        "Beteiligte_Fahrzeuge_insgesamt": 49418,
+        "Beteiligte_Verkehrsteilnehmer": {
+          "Kraftfahrzeuge_aller_Art": 34150,
+          "Krafträder": 714,
+          "Fahrräder_mit_Hilfsmotor": 1067,
+          "Fahrräder_ohne_Hilfsmotor": 5764,
+          "Straßenbahnen": 2160,
+          "sonstige_Fahrzeuge": 76,
+          "Fußgänger": 4606,
+          "Übrige": 701
+        }
+      }
+    ]
+  }

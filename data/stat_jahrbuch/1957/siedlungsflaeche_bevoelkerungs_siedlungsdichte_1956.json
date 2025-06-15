@@ -1,0 +1,110 @@
+{
+    "title": "Siedlungsfläche, Bevölkerungs- und Siedlungsdichte 1956",
+    "description": "Diese Tabelle zeigt die Siedlungsfläche (in ha und als Prozentsatz der Gesamtfläche) sowie die Bevölkerungs- und Siedlungsdichte für die Verwaltungsbezirke von West-Berlin im Jahr 1956. Die Dichteziffern geben die Bevölkerung pro Hektar für die Gesamtfläche, die bebaute Fläche und die Siedlungsfläche an. Siedlungsfläche umfasst bebaute Flächen, Straßen- und Platzland, Parkanlagen, Friedhöfe und Sportplätze.",
+    "data": [
+      {
+        "Verwaltungs-bezirk": "2 Tiergarten",
+        "Siedlungsfläche_ha": 1124,
+        "Siedlungsfläche_vH_der_Gesamtfläche": 85.5,
+        "Bevölkerung_auf_1_ha_Gesamtfläche": 82.6,
+        "Bevölkerung_auf_1_ha_bebaute_Fläche": 181.1,
+        "Bevölkerung_auf_1_ha_Siedlungsfläche": 96.5
+      },
+      {
+        "Verwaltungs-bezirk": "3 Wedding",
+        "Siedlungsfläche_ha": 1302,
+        "Siedlungsfläche_vH_der_Gesamtfläche": 84.4,
+        "Bevölkerung_auf_1_ha_Gesamtfläche": 150.2,
+        "Bevölkerung_auf_1_ha_bebaute_Fläche": 297.1,
+        "Bevölkerung_auf_1_ha_Siedlungsfläche": 178.0
+      },
+      {
+        "Verwaltungs-bezirk": "6 Kreuzberg",
+        "Siedlungsfläche_ha": 931,
+        "Siedlungsfläche_vH_der_Gesamtfläche": 90.0,
+        "Bevölkerung_auf_1_ha_Gesamtfläche": 199.9,
+        "Bevölkerung_auf_1_ha_bebaute_Fläche": 334.3,
+        "Bevölkerung_auf_1_ha_Siedlungsfläche": 222.3
+      },
+      {
+        "Verwaltungs-bezirk": "7 Charlottenburg",
+        "Siedlungsfläche_ha": 2286,
+        "Siedlungsfläche_vH_der_Gesamtfläche": 78.1,
+        "Bevölkerung_auf_1_ha_Gesamtfläche": 76.4,
+        "Bevölkerung_auf_1_ha_bebaute_Fläche": 181.4,
+        "Bevölkerung_auf_1_ha_Siedlungsfläche": 97.9
+      },
+      {
+        "Verwaltungs-bezirk": "8 Spandau",
+        "Siedlungsfläche_ha": 2668,
+        "Siedlungsfläche_vH_der_Gesamtfläche": 30.1,
+        "Bevölkerung_auf_1_ha_Gesamtfläche": 19.1,
+        "Bevölkerung_auf_1_ha_bebaute_Fläche": 92.0,
+        "Bevölkerung_auf_1_ha_Siedlungsfläche": 63.3
+      },
+      {
+        "Verwaltungs-bezirk": "9 Wilmersdorf",
+        "Siedlungsfläche_ha": 1380,
+        "Siedlungsfläche_vH_der_Gesamtfläche": 40.0,
+        "Bevölkerung_auf_1_ha_Gesamtfläche": 44.0,
+        "Bevölkerung_auf_1_ha_bebaute_Fläche": 171.7,
+        "Bevölkerung_auf_1_ha_Siedlungsfläche": 109.9
+      },
+      {
+        "Verwaltungs-bezirk": "10 Zehlendorf",
+        "Siedlungsfläche_ha": 3053,
+        "Siedlungsfläche_vH_der_Gesamtfläche": 43.2,
+        "Bevölkerung_auf_1_ha_Gesamtfläche": 13.8,
+        "Bevölkerung_auf_1_ha_bebaute_Fläche": 50.3,
+        "Bevölkerung_auf_1_ha_Siedlungsfläche": 32.0
+      },
+      {
+        "Verwaltungs-bezirk": "11 Schöneberg",
+        "Siedlungsfläche_ha": 933,
+        "Siedlungsfläche_vH_der_Gesamtfläche": 75.9,
+        "Bevölkerung_auf_1_ha_Gesamtfläche": 158.7,
+        "Bevölkerung_auf_1_ha_bebaute_Fläche": 328.8,
+        "Bevölkerung_auf_1_ha_Siedlungsfläche": 209.0
+      },
+      {
+        "Verwaltungs-bezirk": "12 Steglitz",
+        "Siedlungsfläche_ha": 2510,
+        "Siedlungsfläche_vH_der_Gesamtfläche": 78.5,
+        "Bevölkerung_auf_1_ha_Gesamtfläche": 55.0,
+        "Bevölkerung_auf_1_ha_bebaute_Fläche": 92.9,
+        "Bevölkerung_auf_1_ha_Siedlungsfläche": 70.0
+      },
+      {
+        "Verwaltungs-bezirk": "13 Tempelhof",
+        "Siedlungsfläche_ha": 1828,
+        "Siedlungsfläche_vH_der_Gesamtfläche": 45.0,
+        "Bevölkerung_auf_1_ha_Gesamtfläche": 36.3,
+        "Bevölkerung_auf_1_ha_bebaute_Fläche": 123.5,
+        "Bevölkerung_auf_1_ha_Siedlungsfläche": 80.7
+      },
+      {
+        "Verwaltungs-bezirk": "14 Neukölln",
+        "Siedlungsfläche_ha": 2033,
+        "Siedlungsfläche_vH_der_Gesamtfläche": 45.2,
+        "Bevölkerung_auf_1_ha_Gesamtfläche": 63.3,
+        "Bevölkerung_auf_1_ha_bebaute_Fläche": 252.1,
+        "Bevölkerung_auf_1_ha_Siedlungsfläche": 139.9
+      },
+      {
+        "Verwaltungs-bezirk": "20 Reinickendorf",
+        "Siedlungsfläche_ha": 3839,
+        "Siedlungsfläche_vH_der_Gesamtfläche": 43.0,
+        "Bevölkerung_auf_1_ha_Gesamtfläche": 24.0,
+        "Bevölkerung_auf_1_ha_bebaute_Fläche": 75.1,
+        "Bevölkerung_auf_1_ha_Siedlungsfläche": 55.8
+      },
+      {
+        "Verwaltungs-bezirk": "Berlin (West)",
+        "Siedlungsfläche_ha": 23887,
+        "Siedlungsfläche_vH_der_Gesamtfläche": 49.7,
+        "Bevölkerung_auf_1_ha_Gesamtfläche": 45.9,
+        "Bevölkerung_auf_1_ha_bebaute_Fläche": 141.8,
+        "Bevölkerung_auf_1_ha_Siedlungsfläche": 92.3
+      }
+    ]
+  }

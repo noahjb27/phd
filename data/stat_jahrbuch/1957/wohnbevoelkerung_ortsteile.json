@@ -1,0 +1,149 @@
+ {
+    "title": "Wohnbevölkerung und Fläche der Ortsteile von Berlin (West) am 25. September 1956",
+    "description": "Die Tabelle zeigt die Wohnbevölkerung und die Fläche der einzelnen Ortsteile innerhalb der Verwaltungsbezirke von West-Berlin zum Stichtag 25. September 1956. Sie enthält die Bevölkerungszahlen von 1950 und 1956 (aufgeschlüsselt nach männlich und weiblich), die absolute und prozentuale Veränderung, die Fläche in Quadratkilometern und die Einwohnerdichte. Einige Bezirke haben keine weiteren Ortsteile. Die Zahlen für 1956 sind vorläufig.",
+    "data": [
+      {
+        "Ortsteil": "Spandau",
+        "Wohnbevölkerung_1950_insges": 120997,
+        "Wohnbevölkerung_1956_insges": 125863,
+        "Wohnbevölkerung_1956_männl": 55474,
+        "Wohnbevölkerung_1956_weibl": 70389,
+        "Zunahme_Abnahme_absolut": 4866,
+        "Zunahme_Abnahme_in_vH": 4.0,
+        "Fläche_in_qkm": 44.1,
+        "Einwohner_je_qkm": 2854
+      },
+      {
+        "Ortsteil": "Haselhorst",
+        "Wohnbevölkerung_1950_insges": 11702,
+        "Wohnbevölkerung_1956_insges": 15453,
+        "Wohnbevölkerung_1956_männl": 6924,
+        "Wohnbevölkerung_1956_weibl": 8529,
+        "Zunahme_Abnahme_absolut": 3751,
+        "Zunahme_Abnahme_in_vH": 32.1,
+        "Fläche_in_qkm": 4.7,
+        "Einwohner_je_qkm": 3288
+      },
+      {
+        "Ortsteil": "Siemensstadt",
+        "Wohnbevölkerung_1950_insges": 12819,
+        "Wohnbevölkerung_1956_insges": 13690,
+        "Wohnbevölkerung_1956_männl": 6069,
+        "Wohnbevölkerung_1956_weibl": 7621,
+        "Zunahme_Abnahme_absolut": 871,
+        "Zunahme_Abnahme_in_vH": 6.8,
+        "Fläche_in_qkm": 5.6,
+        "Einwohner_je_qkm": 2445
+      },
+      {
+        "Ortsteil": "Staaken",
+        "Wohnbevölkerung_1950_insges": 8531,
+        "Wohnbevölkerung_1956_insges": 9850,
+        "Wohnbevölkerung_1956_männl": 4579,
+        "Wohnbevölkerung_1956_weibl": 5271,
+        "Zunahme_Abnahme_absolut": 1319,
+        "Zunahme_Abnahme_in_vH": 15.5,
+        "Fläche_in_qkm": 5.6,
+        "Einwohner_je_qkm": 1758
+      },
+      {
+        "Ortsteil": "Gatow",
+        "Wohnbevölkerung_1950_insges": 2619,
+        "Wohnbevölkerung_1956_insges": 2634,
+        "Wohnbevölkerung_1956_männl": 1110,
+        "Wohnbevölkerung_1956_weibl": 1524,
+        "Zunahme_Abnahme_absolut": 15,
+        "Zunahme_Abnahme_in_vH": 0.6,
+        "Fläche_in_qkm": 12.2,
+        "Einwohner_je_qkm": 216
+      },
+      {
+        "Ortsteil": "Kladow",
+        "Wohnbevölkerung_1950_insges": 4493,
+        "Wohnbevölkerung_1956_insges": 4781,
+        "Wohnbevölkerung_1956_männl": 2049,
+        "Wohnbevölkerung_1956_weibl": 2732,
+        "Zunahme_Abnahme_absolut": 288,
+        "Zunahme_Abnahme_in_vH": 6.4,
+        "Fläche_in_qkm": 11.0,
+        "Einwohner_je_qkm": 435
+      },
+      {
+        "Ortsteil": "Wilmersdorf",
+        "Wohnbevölkerung_1950_insges": 113774,
+        "Wohnbevölkerung_1956_insges": 124099,
+        "Wohnbevölkerung_1956_männl": 50405,
+        "Wohnbevölkerung_1956_weibl": 73694,
+        "Zunahme_Abnahme_absolut": 10325,
+        "Zunahme_Abnahme_in_vH": 9.1,
+        "Fläche_in_qkm": 8.2,
+        "Einwohner_je_qkm": 15134
+      },
+      {
+        "Ortsteil": "Schmargendorf",
+        "Wohnbevölkerung_1950_insges": 18043,
+        "Wohnbevölkerung_1956_insges": 21761,
+        "Wohnbevölkerung_1956_männl": 8879,
+        "Wohnbevölkerung_1956_weibl": 12882,
+        "Zunahme_Abnahme_absolut": 3718,
+        "Zunahme_Abnahme_in_vH": 20.6,
+        "Fläche_in_qkm": 3.6,
+        "Einwohner_je_qkm": 6045
+      },
+      {
+        "Ortsteil": "Grunewald",
+        "Wohnbevölkerung_1950_insges": 9848,
+        "Wohnbevölkerung_1956_insges": 11138,
+        "Wohnbevölkerung_1956_männl": 4601,
+        "Wohnbevölkerung_1956_weibl": 6537,
+        "Zunahme_Abnahme_absolut": 1290,
+        "Zunahme_Abnahme_in_vH": 13.1,
+        "Fläche_in_qkm": 22.7,
+        "Einwohner_je_qkm": 491
+      },
+      {
+        "Ortsteil": "Zehlendorf",
+        "Wohnbevölkerung_1950_insges": 62065,
+        "Wohnbevölkerung_1956_insges": 58548,
+        "Wohnbevölkerung_1956_männl": 25529,
+        "Wohnbevölkerung_1956_weibl": 36536,
+        "Zunahme_Abnahme_absolut": -3517,
+        "Zunahme_Abnahme_in_vH": -6.0,
+        "Fläche_in_qkm": 18.9,
+        "Einwohner_je_qkm": 3284
+      },
+      {
+        "Ortsteil": "Dahlem",
+        "Wohnbevölkerung_1950_insges": 11358,
+        "Wohnbevölkerung_1956_insges": 12344,
+        "Wohnbevölkerung_1956_männl": 4935,
+        "Wohnbevölkerung_1956_weibl": 7409,
+        "Zunahme_Abnahme_absolut": 986,
+        "Zunahme_Abnahme_in_vH": 8.7,
+        "Fläche_in_qkm": 8.5,
+        "Einwohner_je_qkm": 1452
+      },
+      {
+        "Ortsteil": "Nikolassee",
+        "Wohnbevölkerung_1950_insges": 13068,
+        "Wohnbevölkerung_1956_insges": 13224,
+        "Wohnbevölkerung_1956_männl": 5383,
+        "Wohnbevölkerung_1956_weibl": 7841,
+        "Zunahme_Abnahme_absolut": 156,
+        "Zunahme_Abnahme_in_vH": 1.2,
+        "Fläche_in_qkm": 19.7,
+        "Einwohner_je_qkm": 671
+      },
+      {
+        "Ortsteil": "Wannsee",
+        "Wohnbevölkerung_1950_insges": 7933,
+        "Wohnbevölkerung_1956_insges": 8276,
+        "Wohnbevölkerung_1956_männl": 3542,
+        "Wohnbevölkerung_1956_weibl": 4734,
+        "Zunahme_Abnahme_absolut": 343,
+        "Zunahme_Abnahme_in_vH": 4.3,
+        "Fläche_in_qkm": 23.6,
+        "Einwohner_je_qkm": 351
+      }
+    ]
+  }

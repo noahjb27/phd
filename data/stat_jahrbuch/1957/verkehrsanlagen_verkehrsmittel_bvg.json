@@ -1,0 +1,58 @@
+{
+    "title": "Verkehrsanlagen und Verkehrsmittel der BVG Ende 1956",
+    "description": "Die Tabelle gibt eine Übersicht über die Verkehrsanlagen und Verkehrsmittel der Berliner Verkehrs-Betriebe (BVG) zum Ende des Jahres 1956. Die Daten sind nach Verkehrsmitteln (Straßenbahn, U-Bahn, Autobus, Obus, Personenschifffahrt) aufgeschlüsselt und umfassen Angaben zur Streckenlänge, Anzahl der Linien, Haltestellen und Fahrzeuge.",
+    "data": {
+      "Straßenbahn": {
+        "Streckenlänge_km": 255.1,
+        "Gleislänge_in_Betrieb_km": 589.7,
+        "Linien": 34,
+        "Haltestellen": 1382,
+        "Betriebshöfe": 10,
+        "Betriebsfähige_Wagen": {
+          "Triebwagen": 467,
+          "Beiwagen": 461
+        }
+      },
+      "U-Bahn": {
+        "Streckenlänge_km": 54.0,
+        "Gleislänge_in_Betrieb_km": 147.3,
+        "Linien": 6,
+        "Haltestellen": 63,
+        "Betriebshöfe": 3,
+        "Betriebsfähige_Wagen": {
+          "Triebwagen": 379,
+          "Beiwagen": 313
+        }
+      },
+      "Autobus": {
+        "Streckenlänge_km": 313.8,
+        "Linien": 30,
+        "Haltestellen": 1650,
+        "Betriebshöfe": 3,
+        "Betriebsfähige_Wagen": {
+          "Triebwagen": 546,
+          "Beiwagen": null
+        }
+      },
+      "Obus": {
+        "Streckenlänge_km": 13.2,
+        "Linien": 2,
+        "Haltestellen": 47,
+        "Betriebshöfe": 8,
+        "Betriebsfähige_Wagen": {
+          "Triebwagen": 31,
+          "Beiwagen": null
+        }
+      },
+      "Personenschiffahrt": {
+        "Streckenlänge_km": 3.8,
+        "Linien": 1,
+        "Haltestellen": 2,
+        "Betriebshöfe": null,
+        "Betriebsfähige_Wagen": {
+          "Triebwagen": 25,
+          "Beiwagen": null
+        }
+      }
+    }
+  }

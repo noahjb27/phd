@@ -1,0 +1,149 @@
+{
+    "title": "Schulen 1. bis 9. Klasse am 15. Mai 1951",
+    "description": "Schools grades 1 to 9 on May 15, 1951.",
+    "data": [
+        {
+            "Verwaltungsbezirk": "Tiergarten",
+            "Schulen_öffentlich": 20,
+            "Schulen_privat": 0,
+            "Klassen_1_8_öffentlich": 324,
+            "Klassen_1_8_privat": 0,
+            "Schüler_1_8_öffentlich": 13033,
+            "Schüler_1_8_privat": 0,
+            "Klassen_9": 31,
+            "Schüler_9": 1199
+        },
+        {
+            "Verwaltungsbezirk": "Wedding",
+            "Schulen_öffentlich": 41,
+            "Schulen_privat": 0,
+            "Klassen_1_8_öffentlich": 622,
+            "Klassen_1_8_privat": 0,
+            "Schüler_1_8_öffentlich": 26103,
+            "Schüler_1_8_privat": 0,
+            "Klassen_9": 74,
+            "Schüler_9": 2792
+        },
+        {
+            "Verwaltungsbezirk": "Kreuzberg",
+            "Schulen_öffentlich": 34,
+            "Schulen_privat": 0,
+            "Klassen_1_8_öffentlich": 545,
+            "Klassen_1_8_privat": 0,
+            "Schüler_1_8_öffentlich": 22498,
+            "Schüler_1_8_privat": 0,
+            "Klassen_9": 72,
+            "Schüler_9": 2612
+        },
+        {
+            "Verwaltungsbezirk": "Charlottenburg",
+            "Schulen_öffentlich": 24,
+            "Schulen_privat": 2,
+            "Klassen_1_8_öffentlich": 501,
+            "Klassen_1_8_privat": 16,
+            "Schüler_1_8_öffentlich": 20759,
+            "Schüler_1_8_privat": 540,
+            "Klassen_9": 46,
+            "Schüler_9": 1529
+        },
+        {
+            "Verwaltungsbezirk": "Spandau",
+            "Schulen_öffentlich": 25,
+            "Schulen_privat": 1,
+            "Klassen_1_8_öffentlich": 482,
+            "Klassen_1_8_privat": 3,
+            "Schüler_1_8_öffentlich": 19901,
+            "Schüler_1_8_privat": 114,
+            "Klassen_9": 57,
+            "Schüler_9": 2030
+        },
+        {
+            "Verwaltungsbezirk": "Wilmersdorf",
+            "Schulen_öffentlich": 15,
+            "Schulen_privat": 0,
+            "Klassen_1_8_öffentlich": 315,
+            "Klassen_1_8_privat": 0,
+            "Schüler_1_8_öffentlich": 13070,
+            "Schüler_1_8_privat": 0,
+            "Klassen_9": 22,
+            "Schüler_9": 811
+        },
+        {
+            "Verwaltungsbezirk": "Zehlendorf",
+            "Schulen_öffentlich": 9,
+            "Schulen_privat": 1,
+            "Klassen_1_8_öffentlich": 261,
+            "Klassen_1_8_privat": 6,
+            "Schüler_1_8_öffentlich": 10926,
+            "Schüler_1_8_privat": 93,
+            "Klassen_9": 15,
+            "Schüler_9": 599
+        },
+        {
+            "Verwaltungsbezirk": "Schöneberg",
+            "Schulen_öffentlich": 21,
+            "Schulen_privat": 0,
+            "Klassen_1_8_öffentlich": 464,
+            "Klassen_1_8_privat": 0,
+            "Schüler_1_8_öffentlich": 19623,
+            "Schüler_1_8_privat": 0,
+            "Klassen_9": 42,
+            "Schüler_9": 1587
+        },
+        {
+            "Verwaltungsbezirk": "Steglitz",
+            "Schulen_öffentlich": 17,
+            "Schulen_privat": 1,
+            "Klassen_1_8_öffentlich": 411,
+            "Klassen_1_8_privat": 6,
+            "Schüler_1_8_öffentlich": 16572,
+            "Schüler_1_8_privat": 198,
+            "Klassen_9": 12,
+            "Schüler_9": 431
+        },
+        {
+            "Verwaltungsbezirk": "Tempelhof",
+            "Schulen_öffentlich": 14,
+            "Schulen_privat": 0,
+            "Klassen_1_8_öffentlich": 350,
+            "Klassen_1_8_privat": 0,
+            "Schüler_1_8_öffentlich": 14016,
+            "Schüler_1_8_privat": 0,
+            "Klassen_9": 24,
+            "Schüler_9": 834
+        },
+        {
+            "Verwaltungsbezirk": "Neukölln",
+            "Schulen_öffentlich": 38,
+            "Schulen_privat": 2,
+            "Klassen_1_8_öffentlich": 752,
+            "Klassen_1_8_privat": 33,
+            "Schüler_1_8_öffentlich": 30414,
+            "Schüler_1_8_privat": 1351,
+            "Klassen_9": 86,
+            "Schüler_9": 3010
+        },
+        {
+            "Verwaltungsbezirk": "Reinickendorf",
+            "Schulen_öffentlich": 33,
+            "Schulen_privat": 1,
+            "Klassen_1_8_öffentlich": 629,
+            "Klassen_1_8_privat": 3,
+            "Schüler_1_8_öffentlich": 25361,
+            "Schüler_1_8_privat": 94,
+            "Klassen_9": 59,
+            "Schüler_9": 2193
+        },
+        {
+            "Verwaltungsbezirk": "West-Berlin",
+            "Schulen_öffentlich": 291,
+            "Schulen_privat": 8,
+            "Klassen_1_8_öffentlich": 5656,
+            "Klassen_1_8_privat": 67,
+            "Schüler_1_8_öffentlich": 232276,
+            "Schüler_1_8_privat": 2390,
+            "Klassen_9": 540,
+            "Schüler_9": 19627
+        }
+    ]
+}

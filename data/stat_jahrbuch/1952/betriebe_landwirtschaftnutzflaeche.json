@@ -1,0 +1,294 @@
+{
+  "title": "Betriebe mit landwirtschaftlicher Nutzfläche Mai 1951",
+  "description": "Holdings with agricultural land in May 1951. Footnote: ¹) Holdings with 0.5 ha or more of operating area as well as all commercial horticultural holdings.",
+  "number_of_holdings": [
+    {
+      "Verwaltungsbezirk": "Tiergarten",
+      "insgesamt": 18,
+      "0_01_bis_unter_0_5_ha": 12,
+      "0_5_bis_unter_1_ha": 4,
+      "1_bis_unter_2_ha": 1,
+      "2_bis_unter_5_ha": 1,
+      "5_bis_unter_10_ha": 0,
+      "10_bis_unter_20_ha": 0,
+      "20_ha_und_darüber": 0
+    },
+    {
+      "Verwaltungsbezirk": "Wedding",
+      "insgesamt": 56,
+      "0_01_bis_unter_0_5_ha": 34,
+      "0_5_bis_unter_1_ha": 12,
+      "1_bis_unter_2_ha": 5,
+      "2_bis_unter_5_ha": 5,
+      "5_bis_unter_10_ha": 0,
+      "10_bis_unter_20_ha": 0,
+      "20_ha_und_darüber": 0
+    },
+    {
+      "Verwaltungsbezirk": "Kreuzberg",
+      "insgesamt": 18,
+      "0_01_bis_unter_0_5_ha": 9,
+      "0_5_bis_unter_1_ha": 6,
+      "1_bis_unter_2_ha": 2,
+      "2_bis_unter_5_ha": 1,
+      "5_bis_unter_10_ha": 0,
+      "10_bis_unter_20_ha": 0,
+      "20_ha_und_darüber": 0
+    },
+    {
+      "Verwaltungsbezirk": "Charlottenburg",
+      "insgesamt": 58,
+      "0_01_bis_unter_0_5_ha": 10,
+      "0_5_bis_unter_1_ha": 14,
+      "1_bis_unter_2_ha": 23,
+      "2_bis_unter_5_ha": 7,
+      "5_bis_unter_10_ha": 1,
+      "10_bis_unter_20_ha": 3,
+      "20_ha_und_darüber": 0
+    },
+    {
+      "Verwaltungsbezirk": "Spandau",
+      "insgesamt": 208,
+      "0_01_bis_unter_0_5_ha": 31,
+      "0_5_bis_unter_1_ha": 58,
+      "1_bis_unter_2_ha": 41,
+      "2_bis_unter_5_ha": 30,
+      "5_bis_unter_10_ha": 22,
+      "10_bis_unter_20_ha": 13,
+      "20_ha_und_darüber": 13
+    },
+    {
+      "Verwaltungsbezirk": "Wilmersdorf",
+      "insgesamt": 42,
+      "0_01_bis_unter_0_5_ha": 4,
+      "0_5_bis_unter_1_ha": 20,
+      "1_bis_unter_2_ha": 7,
+      "2_bis_unter_5_ha": 7,
+      "5_bis_unter_10_ha": 1,
+      "10_bis_unter_20_ha": 3,
+      "20_ha_und_darüber": 0
+    },
+    {
+      "Verwaltungsbezirk": "Zehlendorf",
+      "insgesamt": 123,
+      "0_01_bis_unter_0_5_ha": 14,
+      "0_5_bis_unter_1_ha": 22,
+      "1_bis_unter_2_ha": 22,
+      "2_bis_unter_5_ha": 50,
+      "5_bis_unter_10_ha": 7,
+      "10_bis_unter_20_ha": 6,
+      "20_ha_und_darüber": 2
+    },
+    {
+      "Verwaltungsbezirk": "Schöneberg",
+      "insgesamt": 19,
+      "0_01_bis_unter_0_5_ha": 4,
+      "0_5_bis_unter_1_ha": 6,
+      "1_bis_unter_2_ha": 5,
+      "2_bis_unter_5_ha": 3,
+      "5_bis_unter_10_ha": 1,
+      "10_bis_unter_20_ha": 0,
+      "20_ha_und_darüber": 0
+    },
+    {
+      "Verwaltungsbezirk": "Steglitz",
+      "insgesamt": 146,
+      "0_01_bis_unter_0_5_ha": 19,
+      "0_5_bis_unter_1_ha": 28,
+      "1_bis_unter_2_ha": 23,
+      "2_bis_unter_5_ha": 72,
+      "5_bis_unter_10_ha": 1,
+      "10_bis_unter_20_ha": 3,
+      "20_ha_und_darüber": 0
+    },
+    {
+      "Verwaltungsbezirk": "Tempelhof",
+      "insgesamt": 191,
+      "0_01_bis_unter_0_5_ha": 26,
+      "0_5_bis_unter_1_ha": 46,
+      "1_bis_unter_2_ha": 36,
+      "2_bis_unter_5_ha": 38,
+      "5_bis_unter_10_ha": 11,
+      "10_bis_unter_20_ha": 29,
+      "20_ha_und_darüber": 5
+    },
+    {
+      "Verwaltungsbezirk": "Neukölln",
+      "insgesamt": 204,
+      "0_01_bis_unter_0_5_ha": 17,
+      "0_5_bis_unter_1_ha": 49,
+      "1_bis_unter_2_ha": 50,
+      "2_bis_unter_5_ha": 35,
+      "5_bis_unter_10_ha": 20,
+      "10_bis_unter_20_ha": 21,
+      "20_ha_und_darüber": 12
+    },
+    {
+      "Verwaltungsbezirk": "Reinickendorf",
+      "insgesamt": 154,
+      "0_01_bis_unter_0_5_ha": 16,
+      "0_5_bis_unter_1_ha": 19,
+      "1_bis_unter_2_ha": 40,
+      "2_bis_unter_5_ha": 48,
+      "5_bis_unter_10_ha": 8,
+      "10_bis_unter_20_ha": 16,
+      "20_ha_und_darüber": 7
+    },
+    {
+      "Verwaltungsbezirk": "West-Berlin",
+      "insgesamt": 1237,
+      "0_01_bis_unter_0_5_ha": 147,
+      "0_5_bis_unter_1_ha": 304,
+      "1_bis_unter_2_ha": 330,
+      "2_bis_unter_5_ha": 251,
+      "5_bis_unter_10_ha": 62,
+      "10_bis_unter_20_ha": 104,
+      "20_ha_und_darüber": 39
+    }
+  ],
+  "agricultural_area_ha": [
+    {
+      "Verwaltungsbezirk": "Tiergarten",
+      "insgesamt_ha": 25.02,
+      "0_01_bis_unter_0_5_ha": 3.22,
+      "0_5_bis_unter_1_ha": 17.49,
+      "1_bis_unter_2_ha": 0.05,
+      "2_bis_unter_5_ha": 4.26,
+      "5_bis_unter_10_ha": null,
+      "10_bis_unter_20_ha": null,
+      "20_ha_und_darüber": null
+    },
+    {
+      "Verwaltungsbezirk": "Wedding",
+      "insgesamt_ha": 52.86,
+      "0_01_bis_unter_0_5_ha": 15.10,
+      "0_5_bis_unter_1_ha": 24.49,
+      "1_bis_unter_2_ha": 0.93,
+      "2_bis_unter_5_ha": 12.34,
+      "5_bis_unter_10_ha": null,
+      "10_bis_unter_20_ha": null,
+      "20_ha_und_darüber": null
+    },
+    {
+      "Verwaltungsbezirk": "Kreuzberg",
+      "insgesamt_ha": 17.85,
+      "0_01_bis_unter_0_5_ha": 10.41,
+      "0_5_bis_unter_1_ha": 4.15,
+      "1_bis_unter_2_ha": 0.87,
+      "2_bis_unter_5_ha": 2.42,
+      "5_bis_unter_10_ha": null,
+      "10_bis_unter_20_ha": null,
+      "20_ha_und_darüber": null
+    },
+    {
+      "Verwaltungsbezirk": "Charlottenburg",
+      "insgesamt_ha": 83.07,
+      "0_01_bis_unter_0_5_ha": 19.22,
+      "0_5_bis_unter_1_ha": 8.01,
+      "1_bis_unter_2_ha": 5.30,
+      "2_bis_unter_5_ha": 19.77,
+      "5_bis_unter_10_ha": 11.00,
+      "10_bis_unter_20_ha": 19.77,
+      "20_ha_und_darüber": null
+    },
+    {
+      "Verwaltungsbezirk": "Spandau",
+      "insgesamt_ha": 1015.69,
+      "0_01_bis_unter_0_5_ha": 56.79,
+      "0_5_bis_unter_1_ha": 40.60,
+      "1_bis_unter_2_ha": 7.62,
+      "2_bis_unter_5_ha": 101.17,
+      "5_bis_unter_10_ha": 184.66,
+      "10_bis_unter_20_ha": 149.81,
+      "20_ha_und_darüber": 475.04
+    },
+    {
+      "Verwaltungsbezirk": "Wilmersdorf",
+      "insgesamt_ha": 71.41,
+      "0_01_bis_unter_0_5_ha": 4.75,
+      "0_5_bis_unter_1_ha": 4.71,
+      "1_bis_unter_2_ha": 3.72,
+      "2_bis_unter_5_ha": 20.78,
+      "5_bis_unter_10_ha": 16.00,
+      "10_bis_unter_20_ha": 21.45,
+      "20_ha_und_darüber": null
+    },
+    {
+      "Verwaltungsbezirk": "Zehlendorf",
+      "insgesamt_ha": 321.95,
+      "0_01_bis_unter_0_5_ha": 28.19,
+      "0_5_bis_unter_1_ha": 6.11,
+      "1_bis_unter_2_ha": 14.57,
+      "2_bis_unter_5_ha": 41.95,
+      "5_bis_unter_10_ha": 43.99,
+      "10_bis_unter_20_ha": 94.22,
+      "20_ha_und_darüber": 86.36
+    },
+    {
+      "Verwaltungsbezirk": "Schöneberg",
+      "insgesamt_ha": 31.10,
+      "0_01_bis_unter_0_5_ha": 14.78,
+      "0_5_bis_unter_1_ha": 1.58,
+      "1_bis_unter_2_ha": 37.41,
+      "2_bis_unter_5_ha": 12.12,
+      "5_bis_unter_10_ha": 8.33,
+      "10_bis_unter_20_ha": null,
+      "20_ha_und_darüber": null
+    },
+    {
+      "Verwaltungsbezirk": "Steglitz",
+      "insgesamt_ha": 167.46,
+      "0_01_bis_unter_0_5_ha": 12.46,
+      "0_5_bis_unter_1_ha": 2.96,
+      "1_bis_unter_2_ha": 18.93,
+      "2_bis_unter_5_ha": 66.88,
+      "5_bis_unter_10_ha": 12.00,
+      "10_bis_unter_20_ha": 17.67,
+      "20_ha_und_darüber": null
+    },
+    {
+      "Verwaltungsbezirk": "Tempelhof",
+      "insgesamt_ha": 870.09,
+      "0_01_bis_unter_0_5_ha": 45.09,
+      "0_5_bis_unter_1_ha": 30.88,
+      "1_bis_unter_2_ha": 9.52,
+      "2_bis_unter_5_ha": 75.37,
+      "5_bis_unter_10_ha": 154.88,
+      "10_bis_unter_20_ha": 206.80,
+      "20_ha_und_darüber": 347.55
+    },
+    {
+      "Verwaltungsbezirk": "Neukölln",
+      "insgesamt_ha": 1103.58,
+      "0_01_bis_unter_0_5_ha": 67.39,
+      "0_5_bis_unter_1_ha": 36.35,
+      "1_bis_unter_2_ha": 10.52,
+      "2_bis_unter_5_ha": 45.04,
+      "5_bis_unter_10_ha": 167.20,
+      "10_bis_unter_20_ha": 284.33,
+      "20_ha_und_darüber": 492.75
+    },
+    {
+      "Verwaltungsbezirk": "Reinickendorf",
+      "insgesamt_ha": 601.24,
+      "0_01_bis_unter_0_5_ha": 27.50,
+      "0_5_bis_unter_1_ha": 26.63,
+      "1_bis_unter_2_ha": 12.67,
+      "2_bis_unter_5_ha": 50.47,
+      "5_bis_unter_10_ha": 115.54,
+      "10_bis_unter_20_ha": 112.90,
+      "20_ha_und_darüber": 255.53
+    },
+    {
+      "Verwaltungsbezirk": "West-Berlin",
+      "insgesamt_ha": 4361.32,
+      "0_01_bis_unter_0_5_ha": 335.45,
+      "0_5_bis_unter_1_ha": 211.35,
+      "1_bis_unter_2_ha": 84.17,
+      "2_bis_unter_5_ha": 452.57,
+      "5_bis_unter_10_ha": 872.63,
+      "10_bis_unter_20_ha": 747.92,
+      "20_ha_und_darüber": 1657.23
+    }
+  ]
+}

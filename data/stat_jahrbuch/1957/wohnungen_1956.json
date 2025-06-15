@@ -1,0 +1,69 @@
+{
+    "title": "Wohnungen am 25. September 1956",
+    "description": "Ergebnisse der Wohnungsstatistik 1956/57. Die Tabelle zeigt die Anzahl der Wohnungen in West-Berlin zum Stichtag 25. September 1956, aufgeschlüsselt nach Verwaltungsbezirken und Ortsteilen. Es wird zwischen Normalwohnungen und Notwohnungen unterschieden, wobei für beide Kategorien absolute Zahlen und prozentuale Anteile angegeben werden.",
+    "data": [
+      {
+        "Bezirk_Ortsteil": "2 Tiergarten",
+        "Wohnungen_überhaupt_absolut": 41116,
+        "Wohnungen_überhaupt_vH": 5.2,
+        "Normalwohnungen_absolut": 40198,
+        "Normalwohnungen_in_vH": 97.8,
+        "Notwohnungen_absolut": 918,
+        "Notwohnungen_in_vH": 2.2
+      },
+      {
+        "Bezirk_Ortsteil": "3 Wedding",
+        "Wohnungen_überhaupt_absolut": 90567,
+        "Wohnungen_überhaupt_vH": 11.5,
+        "Normalwohnungen_absolut": 89082,
+        "Normalwohnungen_in_vH": 98.4,
+        "Notwohnungen_absolut": 1485,
+        "Notwohnungen_in_vH": 1.6
+      },
+      {
+        "Bezirk_Ortsteil": "8 Spandau",
+        "Wohnungen_überhaupt_absolut": 60200,
+        "Wohnungen_überhaupt_vH": 7.6,
+        "Normalwohnungen_absolut": 53795,
+        "Normalwohnungen_in_vH": 89.4,
+        "Notwohnungen_absolut": 6405,
+        "Notwohnungen_in_vH": 10.6
+      },
+      {
+        "Bezirk_Ortsteil": "Spandau (Ortsteil)",
+        "Wohnungen_überhaupt_absolut": 44760,
+        "Wohnungen_überhaupt_vH": 5.6,
+        "Normalwohnungen_absolut": 40456,
+        "Normalwohnungen_in_vH": 90.4,
+        "Notwohnungen_absolut": 4304,
+        "Notwohnungen_in_vH": 9.6
+      },
+      {
+        "Bezirk_Ortsteil": "20 Reinickendorf",
+        "Wohnungen_überhaupt_absolut": 71391,
+        "Wohnungen_überhaupt_vH": 9.0,
+        "Normalwohnungen_absolut": 63411,
+        "Normalwohnungen_in_vH": 88.8,
+        "Notwohnungen_absolut": 7980,
+        "Notwohnungen_in_vH": 11.2
+      },
+      {
+        "Bezirk_Ortsteil": "Lübars",
+        "Wohnungen_überhaupt_absolut": 2100,
+        "Wohnungen_überhaupt_vH": 0.3,
+        "Normalwohnungen_absolut": 1091,
+        "Normalwohnungen_in_vH": 52.0,
+        "Notwohnungen_absolut": 1009,
+        "Notwohnungen_in_vH": 48.0
+      },
+      {
+        "Bezirk_Ortsteil": "Berlin (West)",
+        "Wohnungen_überhaupt_absolut": 789930,
+        "Wohnungen_überhaupt_vH": 100.0,
+        "Normalwohnungen_absolut": 757279,
+        "Normalwohnungen_in_vH": 95.9,
+        "Notwohnungen_absolut": 32651,
+        "Notwohnungen_in_vH": 4.1
+      }
+    ]
+  }

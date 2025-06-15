@@ -1,0 +1,123 @@
+{
+    "title": "Fläche und Bevölkerungsdichte Berlins 1956",
+    "description": "Die Tabelle enthält Daten zur Fläche, zum prozentualen Anteil an der Gesamtfläche, zur Bevölkerungsdichte (Einwohner je qkm) für die Jahre 1956 und 1950 sowie zum Verhältnis von weiblichen zu männlichen Personen (auf 1000 männliche) für die Verwaltungsbezirke von Berlin (West) und dem sowjetischen Sektor.",
+    "data": [
+      {
+        "Verwaltungsbezirk": "2 Tiergarten",
+        "Fläche_qkm": 13.2,
+        "in_vH_der_Gesamtfläche": 1.5,
+        "Bevölkerungsdichte_1956": 8641,
+        "Bevölkerungsdichte_1950": 8874,
+        "Weibliche_Personen_auf_1000_männliche_1956": 1337,
+        "Weibliche_Personen_auf_1000_männliche_1950": 1335
+      },
+      {
+        "Verwaltungsbezirk": "3 Wedding",
+        "Fläche_qkm": 15.4,
+        "in_vH_der_Gesamtfläche": 1.7,
+        "Bevölkerungsdichte_1956": 15163,
+        "Bevölkerungsdichte_1950": 15797,
+        "Weibliche_Personen_auf_1000_männliche_1956": 1334,
+        "Weibliche_Personen_auf_1000_männliche_1950": 1326
+      },
+      {
+        "Verwaltungsbezirk": "6 Kreuzberg",
+        "Fläche_qkm": 10.4,
+        "in_vH_der_Gesamtfläche": 1.2,
+        "Bevölkerungsdichte_1956": 19698,
+        "Bevölkerungsdichte_1950": 20323,
+        "Weibliche_Personen_auf_1000_männliche_1956": 1384,
+        "Weibliche_Personen_auf_1000_männliche_1950": 1378
+      },
+      {
+        "Verwaltungsbezirk": "7 Charlottenburg",
+        "Fläche_qkm": 29.3,
+        "in_vH_der_Gesamtfläche": 3.3,
+        "Bevölkerungsdichte_1956": 7679,
+        "Bevölkerungsdichte_1950": 7525,
+        "Weibliche_Personen_auf_1000_männliche_1956": 1418,
+        "Weibliche_Personen_auf_1000_männliche_1950": 1417
+      },
+      {
+        "Verwaltungsbezirk": "8 Spandau",
+        "Fläche_qkm": 88.6,
+        "in_vH_der_Gesamtfläche": 10.0,
+        "Bevölkerungsdichte_1956": 1944,
+        "Bevölkerungsdichte_1950": 1875,
+        "Weibliche_Personen_auf_1000_männliche_1956": 1261,
+        "Weibliche_Personen_auf_1000_männliche_1950": 1259
+      },
+      {
+        "Verwaltungsbezirk": "9 Wilmersdorf",
+        "Fläche_qkm": 34.5,
+        "in_vH_der_Gesamtfläche": 3.9,
+        "Bevölkerungsdichte_1956": 4551,
+        "Bevölkerungsdichte_1950": 4110,
+        "Weibliche_Personen_auf_1000_männliche_1956": 1458,
+        "Weibliche_Personen_auf_1000_männliche_1950": 1458
+      },
+      {
+        "Verwaltungsbezirk": "10 Zehlendorf",
+        "Fläche_qkm": 70.6,
+        "in_vH_der_Gesamtfläche": 8.0,
+        "Bevölkerungsdichte_1956": 1358,
+        "Bevölkerungsdichte_1950": 1288,
+        "Weibliche_Personen_auf_1000_männliche_1956": 1435,
+        "Weibliche_Personen_auf_1000_männliche_1950": 1398
+      },
+      {
+        "Verwaltungsbezirk": "11 Schöneberg",
+        "Fläche_qkm": 12.3,
+        "in_vH_der_Gesamtfläche": 1.4,
+        "Bevölkerungsdichte_1956": 16159,
+        "Bevölkerungsdichte_1950": 15400,
+        "Weibliche_Personen_auf_1000_männliche_1956": 1434,
+        "Weibliche_Personen_auf_1000_männliche_1950": 1447
+      },
+      {
+        "Verwaltungsbezirk": "12 Steglitz",
+        "Fläche_qkm": 32.0,
+        "in_vH_der_Gesamtfläche": 3.6,
+        "Bevölkerungsdichte_1956": 5623,
+        "Bevölkerungsdichte_1950": 4819,
+        "Weibliche_Personen_auf_1000_männliche_1956": 1417,
+        "Weibliche_Personen_auf_1000_männliche_1950": 1440
+      },
+      {
+        "Verwaltungsbezirk": "13 Tempelhof",
+        "Fläche_qkm": 40.6,
+        "in_vH_der_Gesamtfläche": 4.6,
+        "Bevölkerungsdichte_1956": 3553,
+        "Bevölkerungsdichte_1950": 2977,
+        "Weibliche_Personen_auf_1000_männliche_1956": 1293,
+        "Weibliche_Personen_auf_1000_männliche_1950": 1343
+      },
+      {
+        "Verwaltungsbezirk": "14 Neukölln",
+        "Fläche_qkm": 44.9,
+        "in_vH_der_Gesamtfläche": 5.1,
+        "Bevölkerungsdichte_1956": 6335,
+        "Bevölkerungsdichte_1950": 6378,
+        "Weibliche_Personen_auf_1000_männliche_1956": 1310,
+        "Weibliche_Personen_auf_1000_männliche_1950": 1305
+      },
+      {
+        "Verwaltungsbezirk": "20 Reinickendorf",
+        "Fläche_qkm": 89.2,
+        "in_vH_der_Gesamtfläche": 10.1,
+        "Bevölkerungsdichte_1956": 2397,
+        "Bevölkerungsdichte_1950": 2308,
+        "Weibliche_Personen_auf_1000_männliche_1956": 1242,
+        "Weibliche_Personen_auf_1000_männliche_1950": 1251
+      },
+      {
+        "Verwaltungsbezirk": "Berlin (West)",
+        "Fläche_qkm": 481.0,
+        "in_vH_der_Gesamtfläche": 54.4,
+        "Bevölkerungsdichte_1956": 4623,
+        "Bevölkerungsdichte_1950": 4464,
+        "Weibliche_Personen_auf_1000_männliche_1956": 1354,
+        "Weibliche_Personen_auf_1000_männliche_1950": 1355
+      }
+    ]
+  }

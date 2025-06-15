@@ -1,0 +1,161 @@
+{
+  "title": "West-Berlin Bezirke und Ortsteile",
+ "description": "Die Liste der Bezirke und Ortsteile von West-Berlin im Jahr 1952.",
+ "data": [
+  {
+    "district": "Mitte",
+    "sub_districts": []
+  },
+  {
+    "district": "Tiergarten",
+    "sub_districts": []
+  },
+  {
+    "district": "Wedding",
+    "sub_districts": []
+  },
+  {
+    "district": "Prenzlauer Berg",
+    "sub_districts": []
+  },
+    {
+        "district": "Friedrichshain",
+        "sub_districts": []
+    },
+  {
+    "district": "Kreuzberg",
+    "sub_districts": []
+  },
+  {
+    "district": "Charlottenburg",
+    "sub_districts": []
+  },
+  {
+    "district": "Spandau",
+    "sub_districts": [
+      "Spandau",
+      "Siemensstadt",
+      "Staaken",
+      "Gatow",
+      "Kladow"
+    ]
+  },
+  {
+    "district": "Wilmersdorf",
+    "sub_districts": [
+      "Wilmersdorf",
+      "Schmargendorf",
+      "Grunewald"
+    ]
+  },
+  {
+    "district": "Zehlendorf",
+    "sub_districts": [
+      "Zehlendorf",
+      "Dahlem",
+      "Nikolassee",
+      "Wannsee"
+    ]
+  },
+  {
+    "district": "Schöneberg",
+    "sub_districts": [
+        "Schöneberg",
+        "Friedenau"
+    ]
+  },
+  {
+    "district": "Steglitz",
+    "sub_districts": [
+      "Steglitz",
+      "Lichterfelde",
+      "Lankwitz"
+    ]
+  },
+  {
+    "district": "Tempelhof",
+    "sub_districts": [
+      "Tempelhof",
+      "Mariendorf",
+      "Marienfelde",
+      "Lichtenrade"
+    ]
+  },
+  {
+    "district": "Neukölln",
+    "sub_districts": [
+      "Neukölln",
+      "Britz",
+      "Buckow",
+      "Rudow"
+    ]
+  },
+  {
+    "district": "Treptow",
+    "sub_districts": [
+      "Treptow",
+      "Niederschöneweide",
+      "Johannisthal",
+      "Adlershof",
+      "Alt-Glienicke",
+      "Bohnsdorf"
+    ]
+  },
+  {
+    "district": "Köpenick",
+    "sub_districts": [
+      "Köpenick",
+      "Oberschöneweide",
+      "Friedrichshagen",
+      "Rahnsdorf",
+      "Müggelheim",
+      "Grünau",
+      "Schmöckwitz"
+    ]
+  },
+  {
+    "district": "Lichtenberg",
+    "sub_districts": [
+      "Lichtenberg",
+      "Friedrichsfelde",
+      "Biesdorf",
+      "Kaulsdorf",
+      "Mahlsdorf",
+      "Marzahn"
+    ]
+}, {
+    "district": "Weissensee",
+    "sub_districts": [
+      "Weissensee",
+      "Malchow",
+      "Wartenberg",
+      "Falkenberg",
+      "Hohenschönhausen"
+    ]
+},
+{"district": "Pankow",
+    "sub_districts": [
+      "Pankow",
+      "Niederschönhausen",
+      "Blankenfelde",
+      "Buchholz",
+      "Buch",
+      "Karow",
+      "Blankenburg",
+      "Heinersdorf",
+      "Rosenthal"
+    ]
+  },
+  {
+    "district": "Reinickendorf",
+    "sub_districts": [
+      "Reinickendorf",
+      "Tegel",
+      "Heiligensee",
+      "Frohnau",
+      "Hermsdorf",
+      "Lübars",
+      "Wittenau"
+    ]
+  }]
+}

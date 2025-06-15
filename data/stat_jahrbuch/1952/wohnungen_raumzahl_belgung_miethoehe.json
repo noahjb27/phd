@@ -1,0 +1,396 @@
+{
+    "title": "Wohnungen nach der durchschnittlichen Raumzahl, Belegung und Miethöhe - Nach der Wohnungszählung 1950",
+    "description": "Dwellings by average room count, occupancy, and rent, from the 1950 housing census. Footnote: ¹) Fully equipped kitchens and rooms with 6 and more square meters of floor space.",
+    "data": [
+        {
+            "Verwaltungsbezirk": "Tiergarten",
+            "Kategorie": "a) Normalwohnungen",
+            "Wohnungen_Anzahl": 35950,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 2.95,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.06,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.04,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 47,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 16
+        },
+        {
+            "Verwaltungsbezirk": "Tiergarten",
+            "Kategorie": "b) Notwohnungen",
+            "Wohnungen_Anzahl": 2536,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 1.63,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 2.20,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.35,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 29,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 18
+        },
+        {
+            "Verwaltungsbezirk": "Tiergarten",
+            "Kategorie": "c) Wohnungen insgesamt",
+            "Wohnungen_Anzahl": 38486,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 2.86,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.00,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.05,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 46,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 16
+        },
+        {
+            "Verwaltungsbezirk": "Wedding",
+            "Kategorie": "a) Normalwohnungen",
+            "Wohnungen_Anzahl": 80858,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 2.67,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 2.88,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.08,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 38,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 14
+        },
+        {
+            "Verwaltungsbezirk": "Wedding",
+            "Kategorie": "b) Notwohnungen",
+            "Wohnungen_Anzahl": 4904,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 1.53,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 1.99,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.30,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 19,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 15
+        },
+        {
+            "Verwaltungsbezirk": "Wedding",
+            "Kategorie": "c) Wohnungen insgesamt",
+            "Wohnungen_Anzahl": 85762,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 2.61,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 2.83,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.09,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 37,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 14
+        },
+        {
+            "Verwaltungsbezirk": "Kreuzberg",
+            "Kategorie": "a) Normalwohnungen",
+            "Wohnungen_Anzahl": 68371,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 2.75,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 2.86,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.04,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 42,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 15
+        },
+        {
+            "Verwaltungsbezirk": "Kreuzberg",
+            "Kategorie": "b) Notwohnungen",
+            "Wohnungen_Anzahl": 8499,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 1.50,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 1.95,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.30,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 25,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 17
+        },
+        {
+            "Verwaltungsbezirk": "Kreuzberg",
+            "Kategorie": "c) Wohnungen insgesamt",
+            "Wohnungen_Anzahl": 76870,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 2.61,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 2.76,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.06,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 40,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 16
+        },
+        {
+            "Verwaltungsbezirk": "Charlottenburg",
+            "Kategorie": "a) Normalwohnungen",
+            "Wohnungen_Anzahl": 63934,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 3.50,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.26,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.93,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 68,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 19
+        },
+        {
+            "Verwaltungsbezirk": "Charlottenburg",
+            "Kategorie": "b) Notwohnungen",
+            "Wohnungen_Anzahl": 4520,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 2.01,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 2.50,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.25,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 37,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 21
+        },
+        {
+            "Verwaltungsbezirk": "Charlottenburg",
+            "Kategorie": "c) Wohnungen insgesamt",
+            "Wohnungen_Anzahl": 68454,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 3.40,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.21,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.94,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 66,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 20
+        },
+        {
+            "Verwaltungsbezirk": "Spandau",
+            "Kategorie": "a) Normalwohnungen",
+            "Wohnungen_Anzahl": 45868,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 3.24,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.17,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.98,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 46,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 15
+        },
+        {
+            "Verwaltungsbezirk": "Spandau",
+            "Kategorie": "b) Notwohnungen",
+            "Wohnungen_Anzahl": 7155,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 2.38,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 2.73,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.15,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 23,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 12
+        },
+        {
+            "Verwaltungsbezirk": "Spandau",
+            "Kategorie": "c) Wohnungen insgesamt",
+            "Wohnungen_Anzahl": 53023,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 3.12,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.11,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.00,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 45,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 15
+        },
+        {
+            "Verwaltungsbezirk": "Wilmersdorf",
+            "Kategorie": "a) Normalwohnungen",
+            "Wohnungen_Anzahl": 42623,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 3.85,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.20,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.83,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 83,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 22
+        },
+        {
+            "Verwaltungsbezirk": "Wilmersdorf",
+            "Kategorie": "b) Notwohnungen",
+            "Wohnungen_Anzahl": 2100,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 2.15,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 2.51,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.17,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 47,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 23
+        },
+        {
+            "Verwaltungsbezirk": "Wilmersdorf",
+            "Kategorie": "c) Wohnungen insgesamt",
+            "Wohnungen_Anzahl": 44723,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 3.77,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.17,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.84,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 81,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 22
+        },
+        {
+            "Verwaltungsbezirk": "Zehlendorf",
+            "Kategorie": "a) Normalwohnungen",
+            "Wohnungen_Anzahl": 21673,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 4.56,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.73,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.82,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 91,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 22
+        },
+        {
+            "Verwaltungsbezirk": "Zehlendorf",
+            "Kategorie": "b) Notwohnungen",
+            "Wohnungen_Anzahl": 2422,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 2.56,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 2.90,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.13,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 43,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 17
+        },
+        {
+            "Verwaltungsbezirk": "Zehlendorf",
+            "Kategorie": "c) Wohnungen insgesamt",
+            "Wohnungen_Anzahl": 24095,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 4.36,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.65,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.84,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 87,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 21
+        },
+        {
+            "Verwaltungsbezirk": "Schöneberg",
+            "Kategorie": "a) Normalwohnungen",
+            "Wohnungen_Anzahl": 59193,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 3.43,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.10,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.90,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 61,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 18
+        },
+        {
+            "Verwaltungsbezirk": "Schöneberg",
+            "Kategorie": "b) Notwohnungen",
+            "Wohnungen_Anzahl": 3201,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 1.81,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 2.12,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.17,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 33,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 19
+        },
+        {
+            "Verwaltungsbezirk": "Schöneberg",
+            "Kategorie": "c) Wohnungen insgesamt",
+            "Wohnungen_Anzahl": 62394,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 3.35,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.05,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.91,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 60,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 18
+        },
+        {
+            "Verwaltungsbezirk": "Steglitz",
+            "Kategorie": "a) Normalwohnungen",
+            "Wohnungen_Anzahl": 42148,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 3.85,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.40,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.88,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 69,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 19
+        },
+        {
+            "Verwaltungsbezirk": "Steglitz",
+            "Kategorie": "b) Notwohnungen",
+            "Wohnungen_Anzahl": 4047,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 2.32,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 2.61,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.13,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 37,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 16
+        },
+        {
+            "Verwaltungsbezirk": "Steglitz",
+            "Kategorie": "c) Wohnungen insgesamt",
+            "Wohnungen_Anzahl": 46195,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 3.72,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.33,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.90,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 67,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 19
+        },
+        {
+            "Verwaltungsbezirk": "Tempelhof",
+            "Kategorie": "a) Normalwohnungen",
+            "Wohnungen_Anzahl": 36126,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 3.46,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.14,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.91,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 57,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 17
+        },
+        {
+            "Verwaltungsbezirk": "Tempelhof",
+            "Kategorie": "b) Notwohnungen",
+            "Wohnungen_Anzahl": 2501,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 2.20,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 2.58,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.17,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 32,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 16
+        },
+        {
+            "Verwaltungsbezirk": "Tempelhof",
+            "Kategorie": "c) Wohnungen insgesamt",
+            "Wohnungen_Anzahl": 38627,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 3.38,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.10,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.92,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 57,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 17
+        },
+        {
+            "Verwaltungsbezirk": "Neukölln",
+            "Kategorie": "a) Normalwohnungen",
+            "Wohnungen_Anzahl": 94026,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 2.90,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 2.86,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.99,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 41,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 14
+        },
+        {
+            "Verwaltungsbezirk": "Neukölln",
+            "Kategorie": "b) Notwohnungen",
+            "Wohnungen_Anzahl": 7654,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 2.21,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 2.46,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.11,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 22,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 15
+        },
+        {
+            "Verwaltungsbezirk": "Neukölln",
+            "Kategorie": "c) Wohnungen insgesamt",
+            "Wohnungen_Anzahl": 101680,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 2.85,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 2.83,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.99,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 41,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 14
+        },
+        {
+            "Verwaltungsbezirk": "Reinickendorf",
+            "Kategorie": "a) Normalwohnungen",
+            "Wohnungen_Anzahl": 54121,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 3.36,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.26,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.97,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 49,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 15
+        },
+        {
+            "Verwaltungsbezirk": "Reinickendorf",
+            "Kategorie": "b) Notwohnungen",
+            "Wohnungen_Anzahl": 9938,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 2.38,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 2.76,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.16,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 29,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 15
+        },
+        {
+            "Verwaltungsbezirk": "Reinickendorf",
+            "Kategorie": "c) Wohnungen insgesamt",
+            "Wohnungen_Anzahl": 64059,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 3.21,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.18,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.99,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 48,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 15
+        },
+        {
+            "Verwaltungsbezirk": "West-Berlin",
+            "Kategorie": "a) Normalwohnungen",
+            "Wohnungen_Anzahl": 644891,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 3.24,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.09,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.95,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 54,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 17
+        },
+        {
+            "Verwaltungsbezirk": "West-Berlin",
+            "Kategorie": "b) Notwohnungen",
+            "Wohnungen_Anzahl": 59477,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 2.06,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 2.44,
+            "Durchschnittliche_Personenzahl_je_Raum": 1.19,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 29,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 17
+        },
+        {
+            "Verwaltungsbezirk": "West-Berlin",
+            "Kategorie": "c) Wohnungen insgesamt",
+            "Wohnungen_Anzahl": 704368,
+            "Durchschnittliche_Raumzahl_je_Wohnung": 3.14,
+            "Durchschnittliche_Personenzahl_je_Wohnung": 3.04,
+            "Durchschnittliche_Personenzahl_je_Raum": 0.97,
+            "Monatliche_Durchschnittsmiete_je_Wohnung_DM": 52,
+            "Monatliche_Durchschnittsmiete_je_Raum_DM": 17
+        }
+    ]
+}

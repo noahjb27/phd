@@ -1,0 +1,402 @@
+{
+  "title": "Fortgeschriebene Bevölkerung nach Altersgruppen Ende 1951",
+  "description": "Extrapolated population by age groups at the end of 1951.",
+  "data": {
+    "Männlich": [
+      {
+        "Verwaltungsbezirk": "Tiergarten",
+        "insgesamt": 49362,
+        "unter_6": 2922,
+        "6_bis_unter_15": 6997,
+        "15_bis_unter_20": 3291,
+        "20_bis_unter_45": 14339,
+        "45_bis_unter_65": 15980,
+        "65_oder_mehr": 5833
+      },
+      {
+        "Verwaltungsbezirk": "Wedding",
+        "insgesamt": 105572,
+        "unter_6": 6546,
+        "6_bis_unter_15": 15021,
+        "15_bis_unter_20": 7153,
+        "20_bis_unter_45": 30682,
+        "45_bis_unter_65": 33820,
+        "65_oder_mehr": 12350
+      },
+      {
+        "Verwaltungsbezirk": "Kreuzberg",
+        "insgesamt": 90129,
+        "unter_6": 6000,
+        "6_bis_unter_15": 12841,
+        "15_bis_unter_20": 6266,
+        "20_bis_unter_45": 26749,
+        "45_bis_unter_65": 28512,
+        "65_oder_mehr": 9761
+      },
+      {
+        "Verwaltungsbezirk": "Charlottenburg",
+        "insgesamt": 92825,
+        "unter_6": 5303,
+        "6_bis_unter_15": 12701,
+        "15_bis_unter_20": 5397,
+        "20_bis_unter_45": 28633,
+        "45_bis_unter_65": 29669,
+        "65_oder_mehr": 11122
+      },
+      {
+        "Verwaltungsbezirk": "Spandau",
+        "insgesamt": 72100,
+        "unter_6": 4597,
+        "6_bis_unter_15": 11113,
+        "15_bis_unter_20": 5422,
+        "20_bis_unter_45": 20853,
+        "45_bis_unter_65": 22779,
+        "65_oder_mehr": 7336
+      },
+      {
+        "Verwaltungsbezirk": "Wilmersdorf",
+        "insgesamt": 60610,
+        "unter_6": 3659,
+        "6_bis_unter_15": 8403,
+        "15_bis_unter_20": 3083,
+        "20_bis_unter_45": 18999,
+        "45_bis_unter_65": 19311,
+        "65_oder_mehr": 7155
+      },
+      {
+        "Verwaltungsbezirk": "Zehlendorf",
+        "insgesamt": 39946,
+        "unter_6": 2949,
+        "6_bis_unter_15": 6417,
+        "15_bis_unter_20": 2989,
+        "20_bis_unter_45": 12105,
+        "45_bis_unter_65": 11120,
+        "65_oder_mehr": 4366
+      },
+      {
+        "Verwaltungsbezirk": "Schöneberg",
+        "insgesamt": 78823,
+        "unter_6": 4840,
+        "6_bis_unter_15": 11257,
+        "15_bis_unter_20": 4825,
+        "20_bis_unter_45": 23822,
+        "45_bis_unter_65": 24717,
+        "65_oder_mehr": 9362
+      },
+      {
+        "Verwaltungsbezirk": "Steglitz",
+        "insgesamt": 64464,
+        "unter_6": 4083,
+        "6_bis_unter_15": 9539,
+        "15_bis_unter_20": 4097,
+        "20_bis_unter_45": 19117,
+        "45_bis_unter_65": 19047,
+        "65_oder_mehr": 8581
+      },
+      {
+        "Verwaltungsbezirk": "Tempelhof",
+        "insgesamt": 53435,
+        "unter_6": 3334,
+        "6_bis_unter_15": 8081,
+        "15_bis_unter_20": 3321,
+        "20_bis_unter_45": 15596,
+        "45_bis_unter_65": 16794,
+        "65_oder_mehr": 6309
+      },
+      {
+        "Verwaltungsbezirk": "Neukölln",
+        "insgesamt": 125177,
+        "unter_6": 7429,
+        "6_bis_unter_15": 17445,
+        "15_bis_unter_20": 8128,
+        "20_bis_unter_45": 35908,
+        "45_bis_unter_65": 40158,
+        "65_oder_mehr": 16109
+      },
+      {
+        "Verwaltungsbezirk": "Reinickendorf",
+        "insgesamt": 92744,
+        "unter_6": 6011,
+        "6_bis_unter_15": 14610,
+        "15_bis_unter_20": 6620,
+        "20_bis_unter_45": 26598,
+        "45_bis_unter_65": 28693,
+        "65_oder_mehr": 10212
+      },
+      {
+        "Verwaltungsbezirk": "West-Berlin",
+        "insgesamt": 925187,
+        "unter_6": 57673,
+        "6_bis_unter_15": 134425,
+        "15_bis_unter_20": 60592,
+        "20_bis_unter_45": 273401,
+        "45_bis_unter_65": 290600,
+        "65_oder_mehr": 108496
+      }
+    ],
+    "Weiblich": [
+      {
+        "Verwaltungsbezirk": "Tiergarten",
+        "insgesamt": 66411,
+        "unter_6": 2817,
+        "6_bis_unter_15": 6689,
+        "15_bis_unter_20": 3163,
+        "20_bis_unter_45": 20578,
+        "45_bis_unter_65": 23700,
+        "65_oder_mehr": 9464
+      },
+      {
+        "Verwaltungsbezirk": "Wedding",
+        "insgesamt": 139239,
+        "unter_6": 6253,
+        "6_bis_unter_15": 14689,
+        "15_bis_unter_20": 7429,
+        "20_bis_unter_45": 43731,
+        "45_bis_unter_65": 47922,
+        "65_oder_mehr": 19215
+      },
+      {
+        "Verwaltungsbezirk": "Kreuzberg",
+        "insgesamt": 123149,
+        "unter_6": 5736,
+        "6_bis_unter_15": 12687,
+        "15_bis_unter_20": 6290,
+        "20_bis_unter_45": 38253,
+        "45_bis_unter_65": 43258,
+        "65_oder_mehr": 16925
+      },
+      {
+        "Verwaltungsbezirk": "Charlottenburg",
+        "insgesamt": 130771,
+        "unter_6": 5070,
+        "6_bis_unter_15": 12414,
+        "15_bis_unter_20": 5715,
+        "20_bis_unter_45": 42043,
+        "45_bis_unter_65": 46492,
+        "65_oder_mehr": 19037
+      },
+      {
+        "Verwaltungsbezirk": "Spandau",
+        "insgesamt": 90896,
+        "unter_6": 4317,
+        "6_bis_unter_15": 10954,
+        "15_bis_unter_20": 5216,
+        "20_bis_unter_45": 29357,
+        "45_bis_unter_65": 30154,
+        "65_oder_mehr": 10898
+      },
+      {
+        "Verwaltungsbezirk": "Wilmersdorf",
+        "insgesamt": 87158,
+        "unter_6": 3377,
+        "6_bis_unter_15": 8059,
+        "15_bis_unter_20": 3304,
+        "20_bis_unter_45": 28964,
+        "45_bis_unter_65": 31253,
+        "65_oder_mehr": 12201
+      },
+      {
+        "Verwaltungsbezirk": "Zehlendorf",
+        "insgesamt": 55415,
+        "unter_6": 2763,
+        "6_bis_unter_15": 6193,
+        "15_bis_unter_20": 2873,
+        "20_bis_unter_45": 18806,
+        "45_bis_unter_65": 17518,
+        "65_oder_mehr": 7262
+      },
+      {
+        "Verwaltungsbezirk": "Schöneberg",
+        "insgesamt": 112926,
+        "unter_6": 4521,
+        "6_bis_unter_15": 10604,
+        "15_bis_unter_20": 4816,
+        "20_bis_unter_45": 35426,
+        "45_bis_unter_65": 40180,
+        "65_oder_mehr": 17379
+      },
+      {
+        "Verwaltungsbezirk": "Steglitz",
+        "insgesamt": 91727,
+        "unter_6": 3866,
+        "6_bis_unter_15": 9398,
+        "15_bis_unter_20": 4020,
+        "20_bis_unter_45": 28529,
+        "45_bis_unter_65": 31492,
+        "65_oder_mehr": 14422
+      },
+      {
+        "Verwaltungsbezirk": "Tempelhof",
+        "insgesamt": 71033,
+        "unter_6": 3291,
+        "6_bis_unter_15": 7788,
+        "15_bis_unter_20": 3647,
+        "20_bis_unter_45": 22714,
+        "45_bis_unter_65": 24119,
+        "65_oder_mehr": 9474
+      },
+      {
+        "Verwaltungsbezirk": "Neukölln",
+        "insgesamt": 162782,
+        "unter_6": 7107,
+        "6_bis_unter_15": 17271,
+        "15_bis_unter_20": 7886,
+        "20_bis_unter_45": 50087,
+        "45_bis_unter_65": 56414,
+        "65_oder_mehr": 24017
+      },
+      {
+        "Verwaltungsbezirk": "Reinickendorf",
+        "insgesamt": 115597,
+        "unter_6": 5761,
+        "6_bis_unter_15": 13992,
+        "15_bis_unter_20": 6674,
+        "20_bis_unter_45": 37033,
+        "45_bis_unter_65": 37719,
+        "65_oder_mehr": 14418
+      },
+      {
+        "Verwaltungsbezirk": "West-Berlin",
+        "insgesamt": 1247104,
+        "unter_6": 54879,
+        "6_bis_unter_15": 130738,
+        "15_bis_unter_20": 61033,
+        "20_bis_unter_45": 395521,
+        "45_bis_unter_65": 430221,
+        "65_oder_mehr": 174712
+      }
+    ],
+    "Zusammen": [
+      {
+        "Verwaltungsbezirk": "Tiergarten",
+        "insgesamt": 115773,
+        "unter_6": 5739,
+        "6_bis_unter_15": 13686,
+        "15_bis_unter_20": 6454,
+        "20_bis_unter_45": 34917,
+        "45_bis_unter_65": 39680,
+        "65_oder_mehr": 15297
+      },
+      {
+        "Verwaltungsbezirk": "Wedding",
+        "insgesamt": 244811,
+        "unter_6": 12799,
+        "6_bis_unter_15": 29710,
+        "15_bis_unter_20": 14582,
+        "20_bis_unter_45": 74413,
+        "45_bis_unter_65": 81742,
+        "65_oder_mehr": 31565
+      },
+      {
+        "Verwaltungsbezirk": "Kreuzberg",
+        "insgesamt": 213278,
+        "unter_6": 11736,
+        "6_bis_unter_15": 25528,
+        "15_bis_unter_20": 12556,
+        "20_bis_unter_45": 65002,
+        "45_bis_unter_65": 71770,
+        "65_oder_mehr": 26686
+      },
+      {
+        "Verwaltungsbezirk": "Charlottenburg",
+        "insgesamt": 223596,
+        "unter_6": 10373,
+        "6_bis_unter_15": 25115,
+        "15_bis_unter_20": 11112,
+        "20_bis_unter_45": 70676,
+        "45_bis_unter_65": 76161,
+        "65_oder_mehr": 30159
+      },
+      {
+        "Verwaltungsbezirk": "Spandau",
+        "insgesamt": 162996,
+        "unter_6": 8914,
+        "6_bis_unter_15": 22067,
+        "15_bis_unter_20": 10638,
+        "20_bis_unter_45": 50210,
+        "45_bis_unter_65": 52933,
+        "65_oder_mehr": 18234
+      },
+      {
+        "Verwaltungsbezirk": "Wilmersdorf",
+        "insgesamt": 147768,
+        "unter_6": 7036,
+        "6_bis_unter_15": 16462,
+        "15_bis_unter_20": 6387,
+        "20_bis_unter_45": 47963,
+        "45_bis_unter_65": 50564,
+        "65_oder_mehr": 19356
+      },
+      {
+        "Verwaltungsbezirk": "Zehlendorf",
+        "insgesamt": 95361,
+        "unter_6": 5712,
+        "6_bis_unter_15": 12610,
+        "15_bis_unter_20": 5862,
+        "20_bis_unter_45": 30911,
+        "45_bis_unter_65": 28638,
+        "65_oder_mehr": 11628
+      },
+      {
+        "Verwaltungsbezirk": "Schöneberg",
+        "insgesamt": 191749,
+        "unter_6": 9361,
+        "6_bis_unter_15": 21861,
+        "15_bis_unter_20": 9641,
+        "20_bis_unter_45": 59248,
+        "45_bis_unter_65": 64897,
+        "65_oder_mehr": 26741
+      },
+      {
+        "Verwaltungsbezirk": "Steglitz",
+        "insgesamt": 156191,
+        "unter_6": 7949,
+        "6_bis_unter_15": 18937,
+        "15_bis_unter_20": 8117,
+        "20_bis_unter_45": 47646,
+        "45_bis_unter_65": 50539,
+        "65_oder_mehr": 23003
+      },
+      {
+        "Verwaltungsbezirk": "Tempelhof",
+        "insgesamt": 124468,
+        "unter_6": 6625,
+        "6_bis_unter_15": 15869,
+        "15_bis_unter_20": 6968,
+        "20_bis_unter_45": 38310,
+        "45_bis_unter_65": 40913,
+        "65_oder_mehr": 15783
+      },
+      {
+        "Verwaltungsbezirk": "Neukölln",
+        "insgesamt": 287959,
+        "unter_6": 14536,
+        "6_bis_unter_15": 34716,
+        "15_bis_unter_20": 16014,
+        "20_bis_unter_45": 85995,
+        "45_bis_unter_65": 96572,
+        "65_oder_mehr": 40126
+      },
+      {
+        "Verwaltungsbezirk": "Reinickendorf",
+        "insgesamt": 208341,
+        "unter_6": 11772,
+        "6_bis_unter_15": 28602,
+        "15_bis_unter_20": 13294,
+        "20_bis_unter_45": 63631,
+        "45_bis_unter_65": 66412,
+        "65_oder_mehr": 24630
+      },
+      {
+        "Verwaltungsbezirk": "West-Berlin",
+        "insgesamt": 2172291,
+        "unter_6": 112552,
+        "6_bis_unter_15": 265163,
+        "15_bis_unter_20": 121625,
+        "20_bis_unter_45": 668922,
+        "45_bis_unter_65": 720821,
+        "65_oder_mehr": 283208
+      }
+    ]
+  }
+}

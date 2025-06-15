@@ -1,0 +1,186 @@
+{
+    "title": "Fortgeschriebene Bevölkerung in Berlin (West) nach Altersgruppen Ende 1956",
+    "description": "Die Tabelle zeigt die fortgeschriebene Bevölkerung in West-Berlin Ende 1956, aufgeschlüsselt nach Verwaltungsbezirken, Geschlecht (männlich, weiblich, zusammen) und Altersgruppen. Eine Anmerkung besagt, dass die Zahlen noch nicht nach dem Ergebnis der Wohnungszählung vom 25. September 1956 berichtigt wurden.",
+    "data": [
+      {
+        "Verwaltungs-bezirk": "2 Tiergarten",
+        "männlich": {
+          "Bevölkerung insgesamt": 45595,
+          "unter 6 Jahren": 2295,
+          "6 bis unter 15 Jahren": 4554,
+          "15 bis unter 20 Jahren": 4226,
+          "20 bis unter 45 Jahren": 12636,
+          "45 bis unter 65 Jahren": 15346,
+          "65 oder mehr Jahren": 6538
+        },
+        "weiblich": {
+          "Bevölkerung insgesamt": 61736,
+          "unter 6 Jahren": 2171,
+          "6 bis unter 15 Jahren": 4471,
+          "15 bis unter 20 Jahren": 3882,
+          "20 bis unter 45 Jahren": 15960,
+          "45 bis unter 65 Jahren": 23732,
+          "65 oder mehr Jahren": 11520
+        },
+        "zusammen": {
+          "Bevölkerung insgesamt": 107331,
+          "unter 6 Jahren": 4466,
+          "6 bis unter 15 Jahren": 9025,
+          "15 bis unter 20 Jahren": 8108,
+          "20 bis unter 45 Jahren": 28596,
+          "45 bis unter 65 Jahren": 39078,
+          "65 oder mehr Jahren": 18058
+        }
+      },
+      {
+        "Verwaltungs-bezirk": "3 Wedding",
+        "männlich": {
+          "Bevölkerung insgesamt": 98374,
+          "unter 6 Jahren": 5368,
+          "6 bis unter 15 Jahren": 11071,
+          "15 bis unter 20 Jahren": 8669,
+          "20 bis unter 45 Jahren": 26014,
+          "45 bis unter 65 Jahren": 33624,
+          "65 oder mehr Jahren": 13628
+        },
+        "weiblich": {
+          "Bevölkerung insgesamt": 132791,
+          "unter 6 Jahren": 4884,
+          "6 bis unter 15 Jahren": 10915,
+          "15 bis unter 20 Jahren": 9169,
+          "20 bis unter 45 Jahren": 35780,
+          "45 bis unter 65 Jahren": 48834,
+          "65 oder mehr Jahren": 23209
+        },
+        "zusammen": {
+          "Bevölkerung insgesamt": 231165,
+          "unter 6 Jahren": 10252,
+          "6 bis unter 15 Jahren": 21986,
+          "15 bis unter 20 Jahren": 17838,
+          "20 bis unter 45 Jahren": 61794,
+          "45 bis unter 65 Jahren": 82458,
+          "65 oder mehr Jahren": 36837
+        }
+      },
+      {
+        "Verwaltungs-bezirk": "6 Kreuzberg",
+        "männlich": {
+          "Bevölkerung insgesamt": 86191,
+          "unter 6 Jahren": 9571,
+          "6 bis unter 15 Jahren": 5062,
+          "15 bis unter 20 Jahren": 7510,
+          "20 bis unter 45 Jahren": 23720,
+          "45 bis unter 65 Jahren": 29239,
+          "65 oder mehr Jahren": 11089
+        },
+        "weiblich": {
+          "Bevölkerung insgesamt": 118457,
+          "unter 6 Jahren": 5053,
+          "6 bis unter 15 Jahren": 9280,
+          "15 bis unter 20 Jahren": 7928,
+          "20 bis unter 45 Jahren": 31881,
+          "45 bis unter 65 Jahren": 43765,
+          "65 oder mehr Jahren": 20550
+        },
+        "zusammen": {
+          "Bevölkerung insgesamt": 204648,
+          "unter 6 Jahren": 10115,
+          "6 bis unter 15 Jahren": 18851,
+          "15 bis unter 20 Jahren": 15438,
+          "20 bis unter 45 Jahren": 55601,
+          "45 bis unter 65 Jahren": 73004,
+          "65 oder mehr Jahren": 31639
+        }
+      },
+      {
+        "Verwaltungs-bezirk": "7 Charlottenburg",
+        "männlich": {
+          "Bevölkerung insgesamt": 92842,
+          "unter 6 Jahren": 4400,
+          "6 bis unter 15 Jahren": 9596,
+          "15 bis unter 20 Jahren": 7914,
+          "20 bis unter 45 Jahren": 27132,
+          "45 bis unter 65 Jahren": 30460,
+          "65 oder mehr Jahren": 13340
+        },
+        "weiblich": {
+          "Bevölkerung insgesamt": 130923,
+          "unter 6 Jahren": 4255,
+          "6 bis unter 15 Jahren": 9719,
+          "15 bis unter 20 Jahren": 7917,
+          "20 bis unter 45 Jahren": 36743,
+          "45 bis unter 65 Jahren": 47794,
+          "65 oder mehr Jahren": 24495
+        },
+        "zusammen": {
+          "Bevölkerung insgesamt": 223765,
+          "unter 6 Jahren": 8655,
+          "6 bis unter 15 Jahren": 19315,
+          "15 bis unter 20 Jahren": 15831,
+          "20 bis unter 45 Jahren": 63875,
+          "45 bis unter 65 Jahren": 78254,
+          "65 oder mehr Jahren": 37835
+        }
+      },
+      {
+        "Verwaltungs-bezirk": "8 Spandau",
+        "männlich": {
+          "Bevölkerung insgesamt": 74968,
+          "unter 6 Jahren": 5004,
+          "6 bis unter 15 Jahren": 8916,
+          "15 bis unter 20 Jahren": 6862,
+          "20 bis unter 45 Jahren": 21197,
+          "45 bis unter 65 Jahren": 23795,
+          "65 oder mehr Jahren": 9194
+        },
+        "weiblich": {
+          "Bevölkerung insgesamt": 94989,
+          "unter 6 Jahren": 4770,
+          "6 bis unter 15 Jahren": 8703,
+          "15 bis unter 20 Jahren": 6842,
+          "20 bis unter 45 Jahren": 27294,
+          "45 bis unter 65 Jahren": 32987,
+          "65 oder mehr Jahren": 13914
+        },
+        "zusammen": {
+          "Bevölkerung insgesamt": 169957,
+          "unter 6 Jahren": 9774,
+          "6 bis unter 15 Jahren": 17619,
+          "15 bis unter 20 Jahren": 13704,
+          "20 bis unter 45 Jahren": 48491,
+          "45 bis unter 65 Jahren": 56782,
+          "65 oder mehr Jahren": 23108
+        }
+      },
+      {
+        "Verwaltungs-bezirk": "9 Wilmersdorf",
+        "männlich": {
+          "Bevölkerung insgesamt": 61734,
+          "unter 6 Jahren": 3055,
+          "6 bis unter 15 Jahren": 6470,
+          "15 bis unter 20 Jahren": 5365,
+          "20 bis unter 45 Jahren": 17785,
+          "45 bis unter 65 Jahren": 20237,
+          "65 oder mehr Jahren": 8822
+        },
+        "weiblich": {
+          "Bevölkerung insgesamt": 90552,
+          "unter 6 Jahren": 2940,
+          "6 bis unter 15 Jahren": 6130,
+          "15 bis unter 20 Jahren": 5159,
+          "20 bis unter 45 Jahren": 26084,
+          "45 bis unter 65 Jahren": 33374,
+          "65 oder mehr Jahren": 16865
+        },
+        "zusammen": {
+          "Bevölkerung insgesamt": 152286,
+          "unter 6 Jahren": 5995,
+          "6 bis unter 15 Jahren": 12600,
+          "15 bis unter 20 Jahren": 10524,
+          "20 bis unter 45 Jahren": 43869,
+          "45 bis unter 65 Jahren": 53611,
+          "65 oder mehr Jahren": 25687
+        }
+      }
+    ]
+  }

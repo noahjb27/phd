@@ -1,0 +1,236 @@
+{
+  "title": "Mittlere Bevölkerung nach der Fortschreibung 1936 und 1946 bis 1951 in 1000",
+  "description": "Average population based on the extrapolation for 1936 and 1946 to 1951, in thousands. Footnotes: ¹) Extrapolated according to natural and local population events; 1947 to 1950 for West Berlin, figures corrected according to the result of the 1950 census. ²) Cared-for population. ³) From March 1951 without West Staaken, which was separated from the administrative district of Spandau at the end of January and administratively incorporated into the district of Mitte; approx. 3500 people who remained in this area were counted in March as having moved away to the Soviet sector.",
+  "data": [
+    {
+      "Verwaltungsbezirk": "Tiergarten",
+      "1936": 246.5,
+      "1946": 116.5,
+      "1947": 116.1,
+      "1948": 116.2,
+      "1949": 116.4,
+      "1950": 107.8,
+      "1951": 113.0
+    },
+    {
+      "Verwaltungsbezirk": "Wedding",
+      "1936": 314.2,
+      "1946": 243.0,
+      "1947": 241.9,
+      "1948": 244.2,
+      "1949": 239.0,
+      "1950": 233.6,
+      "1951": 243.1
+    },
+    {
+      "Verwaltungsbezirk": "Kreuzberg",
+      "1936": 329.7,
+      "1946": 209.1,
+      "1947": 210.7,
+      "1948": 212.4,
+      "1949": 211.0,
+      "1950": 201.8,
+      "1951": 207.6
+    },
+    {
+      "Verwaltungsbezirk": "Charlottenburg",
+      "1936": 337.3,
+      "1946": 219.4,
+      "1947": 217.1,
+      "1948": 222.1,
+      "1949": 219.4,
+      "1950": 204.5,
+      "1951": 213.1
+    },
+    {
+      "Verwaltungsbezirk": "Spandau",
+      "1936": 155.9,
+      "1946": 165.8,
+      "1947": 163.8,
+      "1948": 163.7,
+      "1949": 153.4,
+      "1950": 161.2,
+      "1951": 163.1
+    },
+    {
+      "Verwaltungsbezirk": "Wilmersdorf",
+      "1936": 200.1,
+      "1946": 139.5,
+      "1947": 141.5,
+      "1948": 145.1,
+      "1949": 139.5,
+      "1950": 121.4,
+      "1951": 132.3
+    },
+    {
+      "Verwaltungsbezirk": "Zehlendorf",
+      "1936": 75.2,
+      "1946": 85.8,
+      "1947": 89.5,
+      "1948": 93.8,
+      "1949": 85.4,
+      "1950": 77.3,
+      "1951": 80.2
+    },
+    {
+      "Verwaltungsbezirk": "Schöneberg",
+      "1936": 217.5,
+      "1946": 180.9,
+      "1947": 177.7,
+      "1948": 190.7,
+      "1949": 188.2,
+      "1950": 169.1,
+      "1951": 174.7
+    },
+    {
+      "Verwaltungsbezirk": "Steglitz",
+      "1936": 195.7,
+      "1946": 153.5,
+      "1947": 150.9,
+      "1948": 155.4,
+      "1949": 151.9,
+      "1950": 132.3,
+      "1951": 144.2
+    },
+    {
+      "Verwaltungsbezirk": "Tempelhof",
+      "1936": 113.2,
+      "1946": 120.1,
+      "1947": 116.4,
+      "1948": 123.6,
+      "1949": 116.1,
+      "1950": 109.8,
+      "1951": 119.2
+    },
+    {
+      "Verwaltungsbezirk": "Neukölln",
+      "1936": 307.8,
+      "1946": 285.8,
+      "1947": 281.9,
+      "1948": 288.1,
+      "1949": 279.8,
+      "1950": 268.9,
+      "1951": 277.3
+    },
+    {
+      "Verwaltungsbezirk": "Reinickendorf",
+      "1936": 188.8,
+      "1946": 200.5,
+      "1947": 204.8,
+      "1948": 207.5,
+      "1949": 199.7,
+      "1950": 181.8,
+      "1951": 195.0
+    },
+    {
+      "Verwaltungsbezirk": "West-Berlin",
+      "1936": 2680.9,
+      "1946": 2102.1,
+      "1947": 2104.9,
+      "1948": 2162.8,
+      "1949": 2138.8,
+      "1950": 1968.7,
+      "1951": 2050.8
+    },
+    {
+      "Verwaltungsbezirk": "Mitte (Soviet Sector)",
+      "1936": 259.5,
+      "1946": 130.5,
+      "1947": 127.8,
+      "1948": 127.0,
+      "1949": 128.4,
+      "1950": 125.7,
+      "1951": null
+    },
+    {
+      "Verwaltungsbezirk": "Prenzlauer Berg (Soviet Sector)",
+      "1936": 297.7,
+      "1946": 250.4,
+      "1947": 252.5,
+      "1948": 247.8,
+      "1949": 253.1,
+      "1950": 251.0,
+      "1951": null
+    },
+    {
+      "Verwaltungsbezirk": "Friedrichshain (Soviet Sector)",
+      "1936": 287.4,
+      "1946": 191.9,
+      "1947": 196.2,
+      "1948": 191.4,
+      "1949": 191.9,
+      "1950": 197.3,
+      "1951": null
+    },
+    {
+      "Verwaltungsbezirk": "Treptow (Soviet Sector)",
+      "1936": 126.4,
+      "1946": 111.9,
+      "1947": 112.8,
+      "1948": 105.8,
+      "1949": 109.2,
+      "1950": 111.1,
+      "1951": null
+    },
+    {
+      "Verwaltungsbezirk": "Köpenick (Soviet Sector)",
+      "1936": 94.1,
+      "1946": 117.6,
+      "1947": 118.8,
+      "1948": 113.3,
+      "1949": 116.8,
+      "1950": 115.0,
+      "1951": null
+    },
+    {
+      "Verwaltungsbezirk": "Lichtenberg (Soviet Sector)",
+      "1936": 243.7,
+      "1946": 164.6,
+      "1947": 162.5,
+      "1948": 155.7,
+      "1949": 161.1,
+      "1950": 159.2,
+      "1951": null
+    },
+    {
+      "Verwaltungsbezirk": "Weißensee (Soviet Sector)",
+      "1936": 85.3,
+      "1946": 86.2,
+      "1947": 84.0,
+      "1948": 81.2,
+      "1949": 85.6,
+      "1950": 82.4,
+      "1951": null
+    },
+    {
+      "Verwaltungsbezirk": "Pankow (Soviet Sector)",
+      "1936": 147.8,
+      "1946": 147.6,
+      "1947": 149.2,
+      "1948": 146.8,
+      "1949": 145.9,
+      "1950": 143.7,
+      "1951": null
+    },
+    {
+      "Verwaltungsbezirk": "Soviet Sector Berlin",
+      "1936": 1541.9,
+      "1946": 1201.7,
+      "1947": 1204.4,
+      "1948": 1182.5,
+      "1949": 1164.6,
+      "1950": 1197.7,
+      "1951": null
+    },
+    {
+      "Verwaltungsbezirk": "Berlin",
+      "1936": 4222.8,
+      "1946": 3303.8,
+      "1947": 3309.3,
+      "1948": 3340.5,
+      "1949": 3299.8,
+      "1950": 3133.3,
+      "1951": null
+    }
+  ]
+}

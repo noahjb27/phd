@@ -1,0 +1,270 @@
+{
+  "title": "Stadtgebiet nach der Benutzungsart 1951 in vH der Bezirksfläche",
+  "description": "Land area by type of use in 1951 as a percentage of the district's area. According to information from the surveying offices.",
+  "data": [
+    {
+      "Verwaltungsbezirk": "Tiergarten",
+      "insgesamt_vH": 100.0,
+      "bebaute_Fläche_vH": 43.3,
+      "Straßen_Plätze_öffentl_Wege_vH": 18.4,
+      "Bahngelände_vH": 8.4,
+      "Parkanlagen_vH": 15.3,
+      "Friedhöfe_vH": 0.1,
+      "Sportplätze_vH": 0.8,
+      "sonstige_Flächen_vH": 13.7
+    },
+    {
+      "Verwaltungsbezirk": "Wedding",
+      "insgesamt_vH": 100.0,
+      "bebaute_Fläche_vH": 43.8,
+      "Straßen_Plätze_öffentl_Wege_vH": 21.7,
+      "Bahngelände_vH": 10.2,
+      "Parkanlagen_vH": 3.3,
+      "Friedhöfe_vH": 3.7,
+      "Sportplätze_vH": 0.5,
+      "sonstige_Flächen_vH": 16.8
+    },
+    {
+      "Verwaltungsbezirk": "Kreuzberg",
+      "insgesamt_vH": 100.0,
+      "bebaute_Fläche_vH": 56.8,
+      "Straßen_Plätze_öffentl_Wege_vH": 26.0,
+      "Bahngelände_vH": 8.6,
+      "Parkanlagen_vH": 2.9,
+      "Friedhöfe_vH": 2.5,
+      "Sportplätze_vH": 0.2,
+      "sonstige_Flächen_vH": 3.0
+    },
+    {
+      "Verwaltungsbezirk": "Charlottenburg",
+      "insgesamt_vH": 100.0,
+      "bebaute_Fläche_vH": 38.7,
+      "Straßen_Plätze_öffentl_Wege_vH": 18.8,
+      "Bahngelände_vH": 5.0,
+      "Parkanlagen_vH": 10.0,
+      "Friedhöfe_vH": 1.6,
+      "Sportplätze_vH": 5.0,
+      "sonstige_Flächen_vH": 20.9
+    },
+    {
+      "Verwaltungsbezirk": "Spandau",
+      "insgesamt_vH": 100.0,
+      "bebaute_Fläche_vH": 19.6,
+      "Straßen_Plätze_öffentl_Wege_vH": 6.6,
+      "Bahngelände_vH": 0.6,
+      "Parkanlagen_vH": 1.1,
+      "Friedhöfe_vH": 0.6,
+      "Sportplätze_vH": 1.0,
+      "sonstige_Flächen_vH": 70.5
+    },
+    {
+      "Verwaltungsbezirk": "Wilmersdorf",
+      "insgesamt_vH": 100.0,
+      "bebaute_Fläche_vH": 23.3,
+      "Straßen_Plätze_öffentl_Wege_vH": 11.5,
+      "Bahngelände_vH": 4.0,
+      "Parkanlagen_vH": 1.0,
+      "Friedhöfe_vH": 0.4,
+      "Sportplätze_vH": 1.5,
+      "sonstige_Flächen_vH": 58.3
+    },
+    {
+      "Verwaltungsbezirk": "Zehlendorf",
+      "insgesamt_vH": 100.0,
+      "bebaute_Fläche_vH": 26.9,
+      "Straßen_Plätze_öffentl_Wege_vH": 8.0,
+      "Bahngelände_vH": 1.7,
+      "Parkanlagen_vH": 5.3,
+      "Friedhöfe_vH": 0.6,
+      "Sportplätze_vH": 1.4,
+      "sonstige_Flächen_vH": 56.1
+    },
+    {
+      "Verwaltungsbezirk": "Schöneberg",
+      "insgesamt_vH": 100.0,
+      "bebaute_Fläche_vH": 48.5,
+      "Straßen_Plätze_öffentl_Wege_vH": 19.5,
+      "Bahngelände_vH": 12.8,
+      "Parkanlagen_vH": 2.3,
+      "Friedhöfe_vH": 2.8,
+      "Sportplätze_vH": 1.1,
+      "sonstige_Flächen_vH": 13.0
+    },
+    {
+      "Verwaltungsbezirk": "Steglitz",
+      "insgesamt_vH": 100.0,
+      "bebaute_Fläche_vH": 52.9,
+      "Straßen_Plätze_öffentl_Wege_vH": 14.5,
+      "Bahngelände_vH": 3.1,
+      "Parkanlagen_vH": 1.9,
+      "Friedhöfe_vH": 1.5,
+      "Sportplätze_vH": 1.0,
+      "sonstige_Flächen_vH": 25.1
+    },
+    {
+      "Verwaltungsbezirk": "Tempelhof",
+      "insgesamt_vH": 100.0,
+      "bebaute_Fläche_vH": 27.6,
+      "Straßen_Plätze_öffentl_Wege_vH": 10.2,
+      "Bahngelände_vH": 2.4,
+      "Parkanlagen_vH": 1.3,
+      "Friedhöfe_vH": 1.8,
+      "Sportplätze_vH": 1.5,
+      "sonstige_Flächen_vH": 55.2
+    },
+    {
+      "Verwaltungsbezirk": "Neukölln",
+      "insgesamt_vH": 100.0,
+      "bebaute_Fläche_vH": 24.7,
+      "Straßen_Plätze_öffentl_Wege_vH": 12.6,
+      "Bahngelände_vH": 2.4,
+      "Parkanlagen_vH": 0.9,
+      "Friedhöfe_vH": 1.7,
+      "Sportplätze_vH": 0.8,
+      "sonstige_Flächen_vH": 56.9
+    },
+    {
+      "Verwaltungsbezirk": "Reinickendorf",
+      "insgesamt_vH": 100.0,
+      "bebaute_Fläche_vH": 30.9,
+      "Straßen_Plätze_öffentl_Wege_vH": 7.7,
+      "Bahngelände_vH": 1.9,
+      "Parkanlagen_vH": 1.2,
+      "Friedhöfe_vH": 1.1,
+      "Sportplätze_vH": 0.7,
+      "sonstige_Flächen_vH": 56.5
+    },
+    {
+      "Verwaltungsbezirk": "West-Berlin",
+      "insgesamt_vH": 100.0,
+      "bebaute_Fläche_vH": 30.5,
+      "Straßen_Plätze_öffentl_Wege_vH": 11.0,
+      "Bahngelände_vH": 2.7,
+      "Parkanlagen_vH": 3.2,
+      "Friedhöfe_vH": 1.2,
+      "Sportplätze_vH": 1.3,
+      "sonstige_Flächen_vH": 50.1
+    }
+  ],
+    "sonstige_title": "Von der sonstigen Fläche entfallen in ha auf",
+    "sonstige_description": "Breakdown of the 'other areas' in hectares. Footnotes: ¹) Incl. 29 ha of storage space. ²) Incl. 4 ha of storage space. ³) Incl. 11 ha of storage space.",
+    "sonstige_data": [
+    {
+      "Verwaltungsbezirk": "Tiergarten",
+      "Wald_ha": null,
+      "öffentliche_Wasserfläche_ha": 4,
+      "Flugplatzgelände_ha": null,
+      "landwirtschaftlich_und_gärtnerisch_genutzte_Fläche_ha": 97,
+      "Öd_und_Unland_ha": null,
+      "unkultivierte_Moorfläche_ha": null
+    },
+    {
+      "Verwaltungsbezirk": "Wedding",
+      "Wald_ha": 103,
+      "öffentliche_Wasserfläche_ha": 84,
+      "Flugplatzgelände_ha": null,
+      "landwirtschaftlich_und_gärtnerisch_genutzte_Fläche_ha": 152,
+      "Öd_und_Unland_ha": 11,
+      "unkultivierte_Moorfläche_ha": null
+    },
+    {
+      "Verwaltungsbezirk": "Kreuzberg",
+      "Wald_ha": null,
+      "öffentliche_Wasserfläche_ha": 22,
+      "Flugplatzgelände_ha": null,
+      "landwirtschaftlich_und_gärtnerisch_genutzte_Fläche_ha": 9,
+      "Öd_und_Unland_ha": null,
+      "unkultivierte_Moorfläche_ha": null
+    },
+    {
+      "Verwaltungsbezirk": "Charlottenburg",
+      "Wald_ha": 73,
+      "öffentliche_Wasserfläche_ha": 70,
+      "Flugplatzgelände_ha": null,
+      "landwirtschaftlich_und_gärtnerisch_genutzte_Fläche_ha": 461,
+      "Öd_und_Unland_ha": 9,
+      "unkultivierte_Moorfläche_ha": null
+    },
+    {
+      "Verwaltungsbezirk": "Spandau",
+      "Wald_ha": 1563,
+      "öffentliche_Wasserfläche_ha": 782,
+      "Flugplatzgelände_ha": 281,
+      "landwirtschaftlich_und_gärtnerisch_genutzte_Fläche_ha": 3547,
+      "Öd_und_Unland_ha": 76,
+      "unkultivierte_Moorfläche_ha": 26
+    },
+    {
+      "Verwaltungsbezirk": "Wilmersdorf",
+      "Wald_ha": 1560,
+      "öffentliche_Wasserfläche_ha": 180,
+      "Flugplatzgelände_ha": null,
+      "landwirtschaftlich_und_gärtnerisch_genutzte_Fläche_ha": 232,
+      "Öd_und_Unland_ha": 15,
+      "unkultivierte_Moorfläche_ha": null
+    },
+    {
+      "Verwaltungsbezirk": "Zehlendorf",
+      "Wald_ha": 2494,
+      "öffentliche_Wasserfläche_ha": 1045,
+      "Flugplatzgelände_ha": null,
+      "landwirtschaftlich_und_gärtnerisch_genutzte_Fläche_ha": 385,
+      "Öd_und_Unland_ha": 16,
+      "unkultivierte_Moorfläche_ha": 24
+    },
+    {
+      "Verwaltungsbezirk": "Schöneberg",
+      "Wald_ha": null,
+      "öffentliche_Wasserfläche_ha": null,
+      "Flugplatzgelände_ha": null,
+      "landwirtschaftlich_und_gärtnerisch_genutzte_Fläche_ha": 135,
+      "Öd_und_Unland_ha": 25,
+      "unkultivierte_Moorfläche_ha": null
+    },
+    {
+      "Verwaltungsbezirk": "Steglitz",
+      "Wald_ha": null,
+      "öffentliche_Wasserfläche_ha": 54,
+      "Flugplatzgelände_ha": null,
+      "landwirtschaftlich_und_gärtnerisch_genutzte_Fläche_ha": 661,
+      "Öd_und_Unland_ha": 83,
+      "unkultivierte_Moorfläche_ha": 5
+    },
+    {
+      "Verwaltungsbezirk": "Tempelhof",
+      "Wald_ha": 42,
+      "öffentliche_Wasserfläche_ha": 34,
+      "Flugplatzgelände_ha": 331,
+      "landwirtschaftlich_und_gärtnerisch_genutzte_Fläche_ha": 1822,
+      "Öd_und_Unland_ha": 16,
+      "unkultivierte_Moorfläche_ha": null
+    },
+    {
+      "Verwaltungsbezirk": "Neukölln",
+      "Wald_ha": null,
+      "öffentliche_Wasserfläche_ha": 69,
+      "Flugplatzgelände_ha": 43,
+      "landwirtschaftlich_und_gärtnerisch_genutzte_Fläche_ha": 2423,
+      "Öd_und_Unland_ha": 18,
+      "unkultivierte_Moorfläche_ha": null
+    },
+    {
+      "Verwaltungsbezirk": "Reinickendorf",
+      "Wald_ha": 2183,
+      "öffentliche_Wasserfläche_ha": 630,
+      "Flugplatzgelände_ha": 304,
+      "landwirtschaftlich_und_gärtnerisch_genutzte_Fläche_ha": 1812,
+      "Öd_und_Unland_ha": 102,
+      "unkultivierte_Moorfläche_ha": 12
+    },
+    {
+      "Verwaltungsbezirk": "West-Berlin",
+      "Wald_ha": 8018,
+      "öffentliche_Wasserfläche_ha": 2974,
+      "Flugplatzgelände_ha": 959,
+      "landwirtschaftlich_und_gärtnerisch_genutzte_Fläche_ha": 11736,
+      "Öd_und_Unland_ha": 360,
+      "unkultivierte_Moorfläche_ha": 67
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+    "title": "Beherbergungsstätten Ende 1956",
+    "description": "Die Tabelle zeigt Daten zu Beherbergungsstätten in den Verwaltungsbezirken von West-Berlin Ende 1956. Sie listet die Anzahl der Betriebe und Betten insgesamt sowie eine Aufschlüsselung der verfügbaren Betten nach Preisstufen (A: Großhotels, B: mittlere Hotels, C: einfache Pensionen). Die durchschnittliche Bettenausnutzung für 1956 und 1955 wird ebenfalls angegeben. Ausgenommen sind Betriebe, die ausschließlich mit Dauermietern belegt oder vorübergehend geschlossen sind.",
+    "data": [
+      {
+        "Verwaltungs-bezirk": "2 Tiergarten",
+        "Betriebe_insgesamt": 9,
+        "Betten_insgesamt": 112,
+        "verfügbare_Betten_Preisstufe_A_Betriebe": null,
+        "verfügbare_Betten_Preisstufe_A_Betten": null,
+        "verfügbare_Betten_Preisstufe_B_Betriebe": null,
+        "verfügbare_Betten_Preisstufe_B_Betten": null,
+        "verfügbare_Betten_Preisstufe_C_Betriebe": 9,
+        "verfügbare_Betten_Preisstufe_C_Betten": 112
+      },
+      {
+        "Verwaltungs-bezirk": "6 Kreuzberg",
+        "Betriebe_insgesamt": 26,
+        "Betten_insgesamt": 513,
+        "verfügbare_Betten_Preisstufe_A_Betriebe": 2,
+        "verfügbare_Betten_Preisstufe_A_Betten": 151,
+        "verfügbare_Betten_Preisstufe_B_Betriebe": 23,
+        "verfügbare_Betten_Preisstufe_B_Betten": 342,
+        "verfügbare_Betten_Preisstufe_C_Betriebe": 1,
+        "verfügbare_Betten_Preisstufe_C_Betten": 20
+      },
+      {
+        "Verwaltungs-bezirk": "7 Charlottenburg",
+        "Betriebe_insgesamt": 149,
+        "Betten_insgesamt": 2971,
+        "verfügbare_Betten_Preisstufe_A_Betriebe": 30,
+        "verfügbare_Betten_Preisstufe_A_Betten": 1439,
+        "verfügbare_Betten_Preisstufe_B_Betriebe": 116,
+        "verfügbare_Betten_Preisstufe_B_Betten": 1481,
+        "verfügbare_Betten_Preisstufe_C_Betriebe": 3,
+        "verfügbare_Betten_Preisstufe_C_Betten": 51
+      },
+      {
+        "Verwaltungs-bezirk": "9 Wilmersdorf",
+        "Betriebe_insgesamt": 52,
+        "Betten_insgesamt": 831,
+        "verfügbare_Betten_Preisstufe_A_Betriebe": 14,
+        "verfügbare_Betten_Preisstufe_A_Betten": 398,
+        "verfügbare_Betten_Preisstufe_B_Betriebe": 38,
+        "verfügbare_Betten_Preisstufe_B_Betten": 433,
+        "verfügbare_Betten_Preisstufe_C_Betriebe": null,
+        "verfügbare_Betten_Preisstufe_C_Betten": null
+      },
+      {
+        "Verwaltungs-bezirk": "Berlin (West)",
+        "Betriebe_insgesamt": 375,
+        "Betten_insgesamt": 910,
+        "verfügbare_Betten_Preisstufe_A_Betriebe": 65,
+        "verfügbare_Betten_Preisstufe_A_Betten": 2473,
+        "verfügbare_Betten_Preisstufe_B_Betriebe": 263,
+        "verfügbare_Betten_Preisstufe_B_Betten": 3285,
+        "verfügbare_Betten_Preisstufe_C_Betriebe": 9,
+        "verfügbare_Betten_Preisstufe_C_Betten": 152
+      },
+      {
+        "Verwaltungs-bezirk": "Bettenausnutzung in vH Monatsdurchschnitt 1956",
+        "Betriebe_insgesamt": null,
+        "Betten_insgesamt": 43.0,
+        "verfügbare_Betten_Preisstufe_A_Betriebe": null,
+        "verfügbare_Betten_Preisstufe_A_Betten": 48.3,
+        "verfügbare_Betten_Preisstufe_B_Betriebe": null,
+        "verfügbare_Betten_Preisstufe_B_Betten": 39.8,
+        "verfügbare_Betten_Preisstufe_C_Betriebe": null,
+        "verfügbare_Betten_Preisstufe_C_Betten": 27.0
+      },
+      {
+        "Verwaltungs-bezirk": "Bettenausnutzung in vH Monatsdurchschnitt 1955",
+        "Betriebe_insgesamt": null,
+        "Betten_insgesamt": 38.9,
+        "verfügbare_Betten_Preisstufe_A_Betriebe": null,
+        "verfügbare_Betten_Preisstufe_A_Betten": 44.2,
+        "verfügbare_Betten_Preisstufe_B_Betriebe": null,
+        "verfügbare_Betten_Preisstufe_B_Betten": 35.5,
+        "verfügbare_Betten_Preisstufe_C_Betriebe": null,
+        "verfügbare_Betten_Preisstufe_C_Betten": 25.5
+      }
+    ]
+  }

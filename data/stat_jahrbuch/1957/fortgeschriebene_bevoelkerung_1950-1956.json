@@ -1,0 +1,156 @@
+{
+    "title": "Fortgeschriebene Bevölkerung der Verwaltungsbezirke Berlins (West) 1950 bis 1956",
+    "description": "Die Tabelle zeigt die fortgeschriebene Bevölkerung der West-Berliner Verwaltungsbezirke zum Jahresende für die Jahre 1950 bis 1956. Die Bevölkerungszahlen sind in Tausend angegeben. Die Zahlen für 1956 sind nach den Ergebnissen der Wohnungsstatistik vom 25. September 1956 berichtigt. Anmerkungen erläutern Gebietsänderungen im Bezirk Spandau.",
+    "data": [
+      {
+        "Verwaltungsbezirk": "2 Tiergarten",
+        "1950": 116.6,
+        "1951": 114.4,
+        "1952": 115.8,
+        "1953": 112.7,
+        "1954": 109.0,
+        "1955": 108.4,
+        "1956": 113.6
+      },
+      {
+        "Verwaltungsbezirk": "3 Wedding",
+        "1950": 243.5,
+        "1951": 244.8,
+        "1952": 242.7,
+        "1953": 239.4,
+        "1954": 235.9,
+        "1955": 232.8,
+        "1956": 233.0
+      },
+      {
+        "Verwaltungsbezirk": "6 Kreuzberg",
+        "1950": 211.6,
+        "1951": 213.3,
+        "1952": 214.8,
+        "1953": 215.9,
+        "1954": 210.4,
+        "1955": 207.4,
+        "1956": 203.7
+      },
+      {
+        "Verwaltungsbezirk": "7 Charlottenburg",
+        "1950": 220.7,
+        "1951": 223.9,
+        "1952": 223.6,
+        "1953": 224.2,
+        "1954": 224.1,
+        "1955": 224.6,
+        "1956": 225.5
+      },
+      {
+        "Verwaltungsbezirk": "8 Spandau",
+        "1950": 166.2,
+        "1951": "163.0 )",
+        "1952": "163.95)",
+        "1953": 165.3,
+        "1954": 164.2,
+        "1955": 168.3,
+        "1956": 172.0
+      },
+      {
+        "Verwaltungsbezirk": "9 Wilmersdorf",
+        "1950": 142.7,
+        "1951": 150.9,
+        "1952": 147.8,
+        "1953": 150.9,
+        "1954": 150.5,
+        "1955": 151.0,
+        "1956": 157.8
+      },
+      {
+        "Verwaltungsbezirk": "10 Zehlendorf",
+        "1950": 92.0,
+        "1951": 95.4,
+        "1952": 98.2,
+        "1953": 98.2,
+        "1954": 96.4,
+        "1955": 97.5,
+        "1956": 96.3
+      },
+      {
+        "Verwaltungsbezirk": "11 Schöneberg",
+        "1950": 190.2,
+        "1951": 192.3,
+        "1952": 191.7,
+        "1953": 193.9,
+        "1954": 193.7,
+        "1955": 194.1,
+        "1956": 199.0
+      },
+      {
+        "Verwaltungsbezirk": "12 Steglitz",
+        "1950": 154.6,
+        "1951": 156.2,
+        "1952": 157.0,
+        "1953": 161.9,
+        "1954": 171.1,
+        "1955": 174.7,
+        "1956": 180.4
+      },
+      {
+        "Verwaltungsbezirk": "13 Tempelhof",
+        "1950": 122.5,
+        "1951": 131.8,
+        "1952": 124.5,
+        "1953": 136.2,
+        "1954": 139.7,
+        "1955": 145.0,
+        "1956": 144.1
+      },
+      {
+        "Verwaltungsbezirk": "14 Neukölln",
+        "1950": 287.2,
+        "1951": 287.4,
+        "1952": 288.0,
+        "1953": 288.0,
+        "1954": 285.0,
+        "1955": 285.0,
+        "1956": 284.0
+      },
+      {
+        "Verwaltungsbezirk": "20 Reinickendorf",
+        "1950": 206.8,
+        "1951": 210.0,
+        "1952": 208.3,
+        "1953": 211.9,
+        "1954": 212.0,
+        "1955": 214.4,
+        "1956": 213.7
+      },
+      {
+        "Verwaltungsbezirk": "Berlin (West)",
+        "1950": 2154.6,
+        "1951": 2172.3,
+        "1952": 2187.1,
+        "1953": 2198.0,
+        "1954": 2192.3,
+        "1955": 2203.3,
+        "1956": 2223.1
+      },
+      {
+        "Verwaltungsbezirk": "Sowjetischer Sektor",
+        "1950": 1186.1,
+        "1951": 1187.0,
+        "1952": 1182.8,
+        "1953": 1159.0,
+        "1954": 1169.0,
+        "1955": 1139.9,
+        "1956": null
+      },
+      {
+        "Verwaltungsbezirk": "Berlin",
+        "1950": 3340.7,
+        "1951": 3374.1,
+        "1952": 3355.1,
+        "1953": 3351.3,
+        "1954": 3367.0,
+        "1955": 3343.2,
+        "1956": null
+      }
+    ]
+  }

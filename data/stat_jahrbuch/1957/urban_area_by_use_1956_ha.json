@@ -1,0 +1,270 @@
+{
+  "title": "Stadtgebietsfläche Mai 1956",
+  "description": "Areal distribution of West Berlin districts by land use in hectares, as of May 1956.",
+  "data": [
+    {
+      "Verwaltungsbezirk": "2 Tiergarten",
+      "insgesamt": 1314,
+      "bebaute Fläche": 599,
+      "Straßen, Plätze, öffentl. Wege": 228,
+      "Bahngelände": 110,
+      "Parkanlagen": 279,
+      "Friedhöfe": 1,
+      "Sportplätze": 17,
+      "sonstige Flächen": 80
+    },
+    {
+      "Verwaltungsbezirk": "3 Wedding",
+      "insgesamt": 1543,
+      "bebaute Fläche": 780,
+      "Straßen, Plätze, öffentl. Wege": 265,
+      "Bahngelände": 35,
+      "Parkanlagen": 158,
+      "Friedhöfe": 78,
+      "Sportplätze": 21,
+      "sonstige Flächen": 206
+    },
+    {
+      "Verwaltungsbezirk": "6 Kreuzberg",
+      "insgesamt": 1035,
+      "bebaute Fläche": 619,
+      "Straßen, Plätze, öffentl. Wege": 244,
+      "Bahngelände": 85,
+      "Parkanlagen": 35,
+      "Friedhöfe": 27,
+      "Sportplätze": 6,
+      "sonstige Flächen": 19
+    },
+    {
+      "Verwaltungsbezirk": "7 Charlottenburg",
+      "insgesamt": 2928,
+      "bebaute Fläche": 1234,
+      "Straßen, Plätze, öffentl. Wege": 551,
+      "Bahngelände": 146,
+      "Parkanlagen": 293,
+      "Friedhöfe": 45,
+      "Sportplätze": 163,
+      "sonstige Flächen": 496
+    },
+    {
+      "Verwaltungsbezirk": "8 Spandau",
+      "insgesamt": 8860,
+      "bebaute Fläche": 1835,
+      "Straßen, Plätze, öffentl. Wege": 598,
+      "Bahngelände": 100,
+      "Parkanlagen": 88,
+      "Friedhöfe": 56,
+      "Sportplätze": 91,
+      "sonstige Flächen": 6092
+    },
+    {
+      "Verwaltungsbezirk": "9 Wilmersdorf",
+      "insgesamt": 3447,
+      "bebaute Fläche": 883,
+      "Straßen, Plätze, öffentl. Wege": 383,
+      "Bahngelände": 137,
+      "Parkanlagen": 57,
+      "Friedhöfe": 13,
+      "Sportplätze": 44,
+      "sonstige Flächen": 1930
+    },
+    {
+      "Verwaltungsbezirk": "10 Zehlendorf",
+      "insgesamt": 7060,
+      "bebaute Fläche": 1941,
+      "Straßen, Plätze, öffentl. Wege": 575,
+      "Bahngelände": 120,
+      "Parkanlagen": 393,
+      "Friedhöfe": 43,
+      "Sportplätze": 101,
+      "sonstige Flächen": 3887
+    },
+    {
+      "Verwaltungsbezirk": "11 Schöneberg",
+      "insgesamt": 1229,
+      "bebaute Fläche": 593,
+      "Straßen, Plätze, öffentl. Wege": 254,
+      "Bahngelände": 160,
+      "Parkanlagen": 35,
+      "Friedhöfe": 34,
+      "Sportplätze": 17,
+      "sonstige Flächen": 136
+    },
+    {
+      "Verwaltungsbezirk": "12 Steglitz",
+      "insgesamt": 3196,
+      "bebaute Fläche": 1892,
+      "Straßen, Plätze, öffentl. Wege": 59,
+      "Bahngelände": 424,
+      "Parkanlagen": 110,
+      "Friedhöfe": 51,
+      "Sportplätze": 33,
+      "sonstige Flächen": 627
+    },
+    {
+      "Verwaltungsbezirk": "13 Tempelhof",
+      "insgesamt": 4064,
+      "bebaute Fläche": 1194,
+      "Straßen, Plätze, öffentl. Wege": 422,
+      "Bahngelände": 96,
+      "Parkanlagen": 59,
+      "Friedhöfe": 92,
+      "Sportplätze": 61,
+      "sonstige Flächen": 2140
+    },
+    {
+      "Verwaltungsbezirk": "14 Neukölln",
+      "insgesamt": 4493,
+      "bebaute Fläche": 1128,
+      "Straßen, Plätze, öffentl. Wege": 581,
+      "Bahngelände": 41,
+      "Parkanlagen": 145,
+      "Friedhöfe": 126,
+      "Sportplätze": 53,
+      "sonstige Flächen": 2419
+    },
+    {
+      "Verwaltungsbezirk": "20 Reinickendorf",
+      "insgesamt": 8924,
+      "bebaute Fläche": 2855,
+      "Straßen, Plätze, öffentl. Wege": 171,
+      "Bahngelände": 700,
+      "Parkanlagen": 112,
+      "Friedhöfe": 95,
+      "Sportplätze": 77,
+      "sonstige Flächen": 4914
+    },
+    {
+      "Verwaltungsbezirk": "Berlin (West)",
+      "insgesamt": 48093,
+      "bebaute Fläche": 15553,
+      "Straßen, Plätze, öffentl. Wege": 5225,
+      "Bahngelände": 1260,
+      "Parkanlagen": 1764,
+      "Friedhöfe": 661,
+      "Sportplätze": 684,
+      "sonstige Flächen": 22946
+    }
+  ],
+    "sonstige_title": "Von der sonstigen Fläche entfallen in ha auf",
+    "sonstige_description": "Breakdown of the 'other areas' in hectares. Footnotes: ¹) Incl. 29 ha of storage space. ²) Incl. 4 ha of storage space. ³) Incl. 11 ha of storage space.",
+    "sonstige_data":  [
+      {
+        "Verwaltungs-bezirk": "2 Tiergarten",
+        "Wald": null,
+        "öffentliche Wasserfläche": 79,
+        "Flugplatzgelände": null,
+        "landwirtschaftl. u. gärtnerisch genutzte Fläche": 1,
+        "Öd- und Unland": null,
+        "unkultivierte Moorfläche": null
+      },
+      {
+        "Verwaltungs-bezirk": "3 Wedding",
+        "Wald": null,
+        "öffentliche Wasserfläche": null,
+        "Flugplatzgelände": null,
+        "landwirtschaftl. u. gärtnerisch genutzte Fläche": 165,
+        "Öd- und Unland": 31,
+        "unkultivierte Moorfläche": null
+      },
+      {
+        "Verwaltungs-bezirk": "6 Kreuzberg",
+        "Wald": null,
+        "öffentliche Wasserfläche": 10,
+        "Flugplatzgelände": null,
+        "landwirtschaftl. u. gärtnerisch genutzte Fläche": 19,
+        "Öd- und Unland": null,
+        "unkultivierte Moorfläche": null
+      },
+      {
+        "Verwaltungs-bezirk": "7 Charlottenburg",
+        "Wald": 71,
+        "öffentliche Wasserfläche": 70,
+        "Flugplatzgelände": null,
+        "landwirtschaftl. u. gärtnerisch genutzte Fläche": 347,
+        "Öd- und Unland": 8,
+        "unkultivierte Moorfläche": null
+      },
+      {
+        "Verwaltungs-bezirk": "8 Spandau",
+        "Wald": 1611,
+        "öffentliche Wasserfläche": 793,
+        "Flugplatzgelände": 281,
+        "landwirtschaftl. u. gärtnerisch genutzte Fläche": 3335,
+        "Öd- und Unland": 72,
+        "unkultivierte Moorfläche": null
+      },
+      {
+        "Verwaltungs-bezirk": "9 Wilmersdorf",
+        "Wald": 1507,
+        "öffentliche Wasserfläche": 180,
+        "Flugplatzgelände": null,
+        "landwirtschaftl. u. gärtnerisch genutzte Fläche": 191,
+        "Öd- und Unland": 52,
+        "unkultivierte Moorfläche": null
+      },
+      {
+        "Verwaltungs-bezirk": "10 Zehlendorf",
+        "Wald": 2447,
+        "öffentliche Wasserfläche": 1045,
+        "Flugplatzgelände": null,
+        "landwirtschaftl. u. gärtnerisch genutzte Fläche": 355,
+        "Öd- und Unland": 16,
+        "unkultivierte Moorfläche": 24
+      },
+      {
+        "Verwaltungs-bezirk": "11 Schöneberg",
+        "Wald": null,
+        "öffentliche Wasserfläche": null,
+        "Flugplatzgelände": null,
+        "landwirtschaftl. u. gärtnerisch genutzte Fläche": 136,
+        "Öd- und Unland": null,
+        "unkultivierte Moorfläche": null
+      },
+      {
+        "Verwaltungs-bezirk": "12 Steglitz",
+        "Wald": null,
+        "öffentliche Wasserfläche": 52,
+        "Flugplatzgelände": null,
+        "landwirtschaftl. u. gärtnerisch genutzte Fläche": 441,
+        "Öd- und Unland": 129,
+        "unkultivierte Moorfläche": 5
+      },
+      {
+        "Verwaltungs-bezirk": "13 Tempelhof",
+        "Wald": 41,
+        "öffentliche Wasserfläche": 34,
+        "Flugplatzgelände": 331,
+        "landwirtschaftl. u. gärtnerisch genutzte Fläche": 1720,
+        "Öd- und Unland": 14,
+        "unkultivierte Moorfläche": null
+      },
+      {
+        "Verwaltungs-bezirk": "14 Neukölln",
+        "Wald": null,
+        "öffentliche Wasserfläche": 67,
+        "Flugplatzgelände": 43,
+        "landwirtschaftl. u. gärtnerisch genutzte Fläche": 2309,
+        "Öd- und Unland": null,
+        "unkultivierte Moorfläche": null
+      },
+      {
+        "Verwaltungs-bezirk": "20 Reinickendorf",
+        "Wald": 2104,
+        "öffentliche Wasserfläche": 630,
+        "Flugplatzgelände": 303,
+        "landwirtschaftl. u. gärtnerisch genutzte Fläche": 1753,
+        "Öd- und Unland": 112,
+        "unkultivierte Moorfläche": 12
+      },
+      {
+        "Verwaltungs-bezirk": "Berlin (West)",
+        "Wald": 7781,
+        "öffentliche Wasserfläche": 2979,
+        "Flugplatzgelände": 958,
+        "landwirtschaftl. u. gärtnerisch genutzte Fläche": 10753,
+        "Öd- und Unland": 434,
+        "unkultivierte Moorfläche": 41
+      }
+    ]
+}

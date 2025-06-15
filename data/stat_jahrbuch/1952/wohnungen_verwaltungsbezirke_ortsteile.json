@@ -1,0 +1,327 @@
+{
+  "title": "Wohnungen nach Verwaltungsbezirken und Ortsteilen - Nach der Wohnungszählung 1950",
+  "description": "Dwellings by administrative districts and sub-districts from the 1950 housing census. Footnote: ¹) In % of all dwellings per administrative district.",
+  "data": [
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tiergarten",
+      "Wohnungen_insgesamt_absolut": 38486,
+      "Wohnungen_insgesamt_vH": 5.5,
+      "Normalwohnungen_absolut": 35950,
+      "Normalwohnungen_vH": 93.4,
+      "Notwohnungen_absolut": 2536,
+      "Notwohnungen_vH": 6.6
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wedding",
+      "Wohnungen_insgesamt_absolut": 85762,
+      "Wohnungen_insgesamt_vH": 12.2,
+      "Normalwohnungen_absolut": 80858,
+      "Normalwohnungen_vH": 94.3,
+      "Notwohnungen_absolut": 4904,
+      "Notwohnungen_vH": 5.7
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Kreuzberg",
+      "Wohnungen_insgesamt_absolut": 76870,
+      "Wohnungen_insgesamt_vH": 10.9,
+      "Normalwohnungen_absolut": 68371,
+      "Normalwohnungen_vH": 88.9,
+      "Notwohnungen_absolut": 8499,
+      "Notwohnungen_vH": 11.1
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Charlottenburg",
+      "Wohnungen_insgesamt_absolut": 68454,
+      "Wohnungen_insgesamt_vH": 9.7,
+      "Normalwohnungen_absolut": 63934,
+      "Normalwohnungen_vH": 93.4,
+      "Notwohnungen_absolut": 4520,
+      "Notwohnungen_vH": 6.6
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau",
+      "Wohnungen_insgesamt_absolut": 53023,
+      "Wohnungen_insgesamt_vH": 7.5,
+      "Normalwohnungen_absolut": 45868,
+      "Normalwohnungen_vH": 86.5,
+      "Notwohnungen_absolut": 7155,
+      "Notwohnungen_vH": 13.5
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Spandau",
+      "Wohnungen_insgesamt_absolut": 39024,
+      "Normalwohnungen_absolut": 33934,
+      "Notwohnungen_absolut": 5090
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Haselhorst",
+      "Wohnungen_insgesamt_absolut": 4006,
+      "Normalwohnungen_absolut": 3531,
+      "Notwohnungen_absolut": 475
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Siemensstadt",
+      "Wohnungen_insgesamt_absolut": 3922,
+      "Normalwohnungen_absolut": 3727,
+      "Notwohnungen_absolut": 195
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Staaken",
+      "Wohnungen_insgesamt_absolut": 4152,
+      "Normalwohnungen_absolut": 3343,
+      "Notwohnungen_absolut": 809
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Gatow",
+      "Wohnungen_insgesamt_absolut": 731,
+      "Normalwohnungen_absolut": 512,
+      "Notwohnungen_absolut": 219
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Kladow",
+      "Wohnungen_insgesamt_absolut": 1188,
+      "Normalwohnungen_absolut": 821,
+      "Notwohnungen_absolut": 367
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wilmersdorf",
+      "Wohnungen_insgesamt_absolut": 44723,
+      "Wohnungen_insgesamt_vH": 6.3,
+      "Normalwohnungen_absolut": 42623,
+      "Normalwohnungen_vH": 95.3,
+      "Notwohnungen_absolut": 2100,
+      "Notwohnungen_vH": 4.7
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wilmersdorf - Wilmersdorf",
+      "Wohnungen_insgesamt_absolut": 36531,
+      "Normalwohnungen_absolut": 35425,
+      "Notwohnungen_absolut": 1106
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wilmersdorf - Schmargendorf",
+      "Wohnungen_insgesamt_absolut": 5439,
+      "Normalwohnungen_absolut": 4975,
+      "Notwohnungen_absolut": 464
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wilmersdorf - Grunewald",
+      "Wohnungen_insgesamt_absolut": 2753,
+      "Normalwohnungen_absolut": 2223,
+      "Notwohnungen_absolut": 530
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf",
+      "Wohnungen_insgesamt_absolut": 24095,
+      "Wohnungen_insgesamt_vH": 3.4,
+      "Normalwohnungen_absolut": 21673,
+      "Normalwohnungen_vH": 90.0,
+      "Notwohnungen_absolut": 2422,
+      "Notwohnungen_vH": 10.0
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf - Zehlendorf",
+      "Wohnungen_insgesamt_absolut": 16278,
+      "Normalwohnungen_absolut": 15043,
+      "Notwohnungen_absolut": 1235
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf - Dahlem",
+      "Wohnungen_insgesamt_absolut": 2715,
+      "Normalwohnungen_absolut": 2358,
+      "Notwohnungen_absolut": 357
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf - Nikolassee",
+      "Wohnungen_insgesamt_absolut": 2926,
+      "Normalwohnungen_absolut": 2440,
+      "Notwohnungen_absolut": 486
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf - Wannsee",
+      "Wohnungen_insgesamt_absolut": 2176,
+      "Normalwohnungen_absolut": 1832,
+      "Notwohnungen_absolut": 344
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Schöneberg",
+      "Wohnungen_insgesamt_absolut": 62394,
+      "Wohnungen_insgesamt_vH": 8.9,
+      "Normalwohnungen_absolut": 59193,
+      "Normalwohnungen_vH": 94.9,
+      "Notwohnungen_absolut": 3201,
+      "Notwohnungen_vH": 5.1
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Steglitz",
+      "Wohnungen_insgesamt_absolut": 46195,
+      "Wohnungen_insgesamt_vH": 6.6,
+      "Normalwohnungen_absolut": 42148,
+      "Normalwohnungen_vH": 91.2,
+      "Notwohnungen_absolut": 4047,
+      "Notwohnungen_vH": 8.8
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Steglitz - Steglitz",
+      "Wohnungen_insgesamt_absolut": 23627,
+      "Normalwohnungen_absolut": 22423,
+      "Notwohnungen_absolut": 1204
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Steglitz - Lichterfelde",
+      "Wohnungen_insgesamt_absolut": 17290,
+      "Normalwohnungen_absolut": 14951,
+      "Notwohnungen_absolut": 2339
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Steglitz - Lankwitz",
+      "Wohnungen_insgesamt_absolut": 5278,
+      "Normalwohnungen_absolut": 4774,
+      "Notwohnungen_absolut": 504
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof",
+      "Wohnungen_insgesamt_absolut": 38627,
+      "Wohnungen_insgesamt_vH": 5.5,
+      "Normalwohnungen_absolut": 36126,
+      "Normalwohnungen_vH": 93.5,
+      "Notwohnungen_absolut": 2501,
+      "Notwohnungen_vH": 6.5
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof - Tempelhof",
+      "Wohnungen_insgesamt_absolut": 20984,
+      "Normalwohnungen_absolut": 20399,
+      "Notwohnungen_absolut": 585
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof - Mariendorf",
+      "Wohnungen_insgesamt_absolut": 10063,
+      "Normalwohnungen_absolut": 9269,
+      "Notwohnungen_absolut": 794
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof - Marienfelde",
+      "Wohnungen_insgesamt_absolut": 2288,
+      "Normalwohnungen_absolut": 1959,
+      "Notwohnungen_absolut": 329
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof - Lichtenrade",
+      "Wohnungen_insgesamt_absolut": 5292,
+      "Normalwohnungen_absolut": 4499,
+      "Notwohnungen_absolut": 793
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln",
+      "Wohnungen_insgesamt_absolut": 101680,
+      "Wohnungen_insgesamt_vH": 14.4,
+      "Normalwohnungen_absolut": 94026,
+      "Normalwohnungen_vH": 92.5,
+      "Notwohnungen_absolut": 7654,
+      "Notwohnungen_vH": 7.5
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Neukölln",
+      "Wohnungen_insgesamt_absolut": 80679,
+      "Normalwohnungen_absolut": 78449,
+      "Notwohnungen_absolut": 2230
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Britz",
+      "Wohnungen_insgesamt_absolut": 12312,
+      "Normalwohnungen_absolut": 9863,
+      "Notwohnungen_absolut": 2449
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Buckow West",
+      "Wohnungen_insgesamt_absolut": 1866,
+      "Normalwohnungen_absolut": 995,
+      "Notwohnungen_absolut": 871
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Buckow Ost",
+      "Wohnungen_insgesamt_absolut": 1076,
+      "Normalwohnungen_absolut": 756,
+      "Notwohnungen_absolut": 320
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Rudow",
+      "Wohnungen_insgesamt_absolut": 5747,
+      "Normalwohnungen_absolut": 3963,
+      "Notwohnungen_absolut": 1784
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf",
+      "Wohnungen_insgesamt_absolut": 64059,
+      "Wohnungen_insgesamt_vH": 9.1,
+      "Normalwohnungen_absolut": 54121,
+      "Normalwohnungen_vH": 84.5,
+      "Notwohnungen_absolut": 9938,
+      "Notwohnungen_vH": 15.5
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Reinickendorf",
+      "Wohnungen_insgesamt_absolut": 22421,
+      "Normalwohnungen_absolut": 20463,
+      "Notwohnungen_absolut": 1958
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Tegel",
+      "Wohnungen_insgesamt_absolut": 11567,
+      "Normalwohnungen_absolut": 10235,
+      "Notwohnungen_absolut": 1332
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Konradshöhe",
+      "Wohnungen_insgesamt_absolut": 1643,
+      "Normalwohnungen_absolut": 1274,
+      "Notwohnungen_absolut": 369
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Heiligensee",
+      "Wohnungen_insgesamt_absolut": 4853,
+      "Normalwohnungen_absolut": 3330,
+      "Notwohnungen_absolut": 1523
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Frohnau",
+      "Wohnungen_insgesamt_absolut": 3510,
+      "Normalwohnungen_absolut": 3176,
+      "Notwohnungen_absolut": 334
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Hermsdorf",
+      "Wohnungen_insgesamt_absolut": 5114,
+      "Normalwohnungen_absolut": 4542,
+      "Notwohnungen_absolut": 572
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Waidmannslust",
+      "Wohnungen_insgesamt_absolut": 1646,
+      "Normalwohnungen_absolut": 1520,
+      "Notwohnungen_absolut": 126
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Lübars",
+      "Wohnungen_insgesamt_absolut": 1985,
+      "Normalwohnungen_absolut": 941,
+      "Notwohnungen_absolut": 1044
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Wittenau",
+      "Wohnungen_insgesamt_absolut": 11320,
+      "Normalwohnungen_absolut": 8640,
+      "Notwohnungen_absolut": 2680
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "West-Berlin",
+      "Wohnungen_insgesamt_absolut": 704368,
+      "Wohnungen_insgesamt_vH": 100.0,
+      "Normalwohnungen_absolut": 644891,
+      "Normalwohnungen_vH": 91.6,
+      "Notwohnungen_absolut": 59477,
+      "Notwohnungen_vH": 8.4
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "title": "Wohnungen und ihre Bewohner - Nach der Wohnungszählung 1950",
+  "description": "Dwellings and their occupants from the 1950 housing census.",
+  "data": [
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tiergarten",
+      "Wohnungen_insgesamt": 38486,
+      "Wohnparteien_insgesamt": 52722,
+      "Personen_insgesamt": 115608,
+      "Notwohnungen_insgesamt": 2536,
+      "Notwohnungen_Wohnparteien": 2849,
+      "Notwohnungen_Personen": 5573
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wedding",
+      "Wohnungen_insgesamt": 85762,
+      "Wohnparteien_insgesamt": 110115,
+      "Personen_insgesamt": 242663,
+      "Notwohnungen_insgesamt": 4904,
+      "Notwohnungen_Wohnparteien": 5294,
+      "Notwohnungen_Personen": 9762
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Kreuzberg",
+      "Wohnungen_insgesamt": 76870,
+      "Wohnparteien_insgesamt": 103842,
+      "Personen_insgesamt": 212348,
+      "Notwohnungen_insgesamt": 8499,
+      "Notwohnungen_Wohnparteien": 9549,
+      "Notwohnungen_Personen": 16233
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Charlottenburg",
+      "Wohnungen_insgesamt": 68454,
+      "Wohnparteien_insgesamt": 98359,
+      "Personen_insgesamt": 219612,
+      "Notwohnungen_insgesamt": 4520,
+      "Notwohnungen_Wohnparteien": 5130,
+      "Notwohnungen_Personen": 11300
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau",
+      "Wohnungen_insgesamt": 53023,
+      "Wohnparteien_insgesamt": 68752,
+      "Personen_insgesamt": 164753,
+      "Notwohnungen_insgesamt": 7155,
+      "Notwohnungen_Wohnparteien": 7987,
+      "Notwohnungen_Personen": 19539
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Spandau",
+      "Wohnungen_insgesamt": 39024,
+      "Wohnparteien_insgesamt": 50610,
+      "Personen_insgesamt": 120387,
+      "Notwohnungen_insgesamt": 5090,
+      "Notwohnungen_Wohnparteien": 5657,
+      "Notwohnungen_Personen": 13720
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Haselhorst",
+      "Wohnungen_insgesamt": 4006,
+      "Wohnparteien_insgesamt": 4830,
+      "Personen_insgesamt": 11843,
+      "Notwohnungen_insgesamt": 475,
+      "Notwohnungen_Wohnparteien": 545,
+      "Notwohnungen_Personen": 1350
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Siemensstadt",
+      "Wohnungen_insgesamt": 3922,
+      "Wohnparteien_insgesamt": 5366,
+      "Personen_insgesamt": 12796,
+      "Notwohnungen_insgesamt": 195,
+      "Notwohnungen_Wohnparteien": 217,
+      "Notwohnungen_Personen": 510
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Staaken",
+      "Wohnungen_insgesamt": 4152,
+      "Wohnparteien_insgesamt": 5421,
+      "Personen_insgesamt": 13419,
+      "Notwohnungen_insgesamt": 809,
+      "Notwohnungen_Wohnparteien": 912,
+      "Notwohnungen_Personen": 2418
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Gatow",
+      "Wohnungen_insgesamt": 731,
+      "Wohnparteien_insgesamt": 1038,
+      "Personen_insgesamt": 2536,
+      "Notwohnungen_insgesamt": 219,
+      "Notwohnungen_Wohnparteien": 254,
+      "Notwohnungen_Personen": 593
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Kladow",
+      "Wohnungen_insgesamt": 1188,
+      "Wohnparteien_insgesamt": 1487,
+      "Personen_insgesamt": 3772,
+      "Notwohnungen_insgesamt": 367,
+      "Notwohnungen_Wohnparteien": 402,
+      "Notwohnungen_Personen": 948
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wilmersdorf",
+      "Wohnungen_insgesamt": 44723,
+      "Wohnparteien_insgesamt": 68072,
+      "Personen_insgesamt": 141780,
+      "Notwohnungen_insgesamt": 2100,
+      "Notwohnungen_Wohnparteien": 2498,
+      "Notwohnungen_Personen": 5278
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wilmersdorf - Wilmersdorf",
+      "Wohnungen_insgesamt": 36531,
+      "Wohnparteien_insgesamt": 55979,
+      "Personen_insgesamt": 114979,
+      "Notwohnungen_insgesamt": 1106,
+      "Notwohnungen_Wohnparteien": 1280,
+      "Notwohnungen_Personen": 2462
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wilmersdorf - Schmargendorf",
+      "Wohnungen_insgesamt": 5439,
+      "Wohnparteien_insgesamt": 8160,
+      "Personen_insgesamt": 17770,
+      "Notwohnungen_insgesamt": 464,
+      "Notwohnungen_Wohnparteien": 552,
+      "Notwohnungen_Personen": 1299
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wilmersdorf - Grunewald",
+      "Wohnungen_insgesamt": 2753,
+      "Wohnparteien_insgesamt": 3933,
+      "Personen_insgesamt": 9031,
+      "Notwohnungen_insgesamt": 530,
+      "Notwohnungen_Wohnparteien": 630,
+      "Notwohnungen_Personen": 1481
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf",
+      "Wohnungen_insgesamt": 24095,
+      "Wohnparteien_insgesamt": 37595,
+      "Personen_insgesamt": 87912,
+      "Notwohnungen_insgesamt": 2422,
+      "Notwohnungen_Wohnparteien": 2802,
+      "Notwohnungen_Personen": 6443
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf - Zehlendorf",
+      "Wohnungen_insgesamt": 16278,
+      "Wohnparteien_insgesamt": 24979,
+      "Personen_insgesamt": 58199,
+      "Notwohnungen_insgesamt": 1235,
+      "Notwohnungen_Wohnparteien": 1430,
+      "Notwohnungen_Personen": 3546
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf - Dahlem",
+      "Wohnungen_insgesamt": 2715,
+      "Wohnparteien_insgesamt": 4702,
+      "Personen_insgesamt": 10883,
+      "Notwohnungen_insgesamt": 357,
+      "Notwohnungen_Wohnparteien": 445,
+      "Notwohnungen_Personen": 998
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf - Nikolassee",
+      "Wohnungen_insgesamt": 2926,
+      "Wohnparteien_insgesamt": 4884,
+      "Personen_insgesamt": 11572,
+      "Notwohnungen_insgesamt": 486,
+      "Notwohnungen_Wohnparteien": 590,
+      "Notwohnungen_Personen": 1542
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf - Wannsee",
+      "Wohnungen_insgesamt": 2176,
+      "Wohnparteien_insgesamt": 3030,
+      "Personen_insgesamt": 7258,
+      "Notwohnungen_insgesamt": 344,
+      "Notwohnungen_Wohnparteien": 394,
+      "Notwohnungen_Personen": 939
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Schöneberg",
+      "Wohnungen_insgesamt": 62394,
+      "Wohnparteien_insgesamt": 91390,
+      "Personen_insgesamt": 190166,
+      "Notwohnungen_insgesamt": 3201,
+      "Notwohnungen_Wohnparteien": 3622,
+      "Notwohnungen_Personen": 6953
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Steglitz",
+      "Wohnungen_insgesamt": 46195,
+      "Wohnparteien_insgesamt": 69535,
+      "Personen_insgesamt": 153717,
+      "Notwohnungen_insgesamt": 4047,
+      "Notwohnungen_Wohnparteien": 4680,
+      "Notwohnungen_Personen": 10570
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Steglitz - Steglitz",
+      "Wohnungen_insgesamt": 23627,
+      "Wohnparteien_insgesamt": 35554,
+      "Personen_insgesamt": 76064,
+      "Notwohnungen_insgesamt": 1204,
+      "Notwohnungen_Wohnparteien": 1381,
+      "Notwohnungen_Personen": 2954
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Steglitz - Lichterfelde",
+      "Wohnungen_insgesamt": 17290,
+      "Wohnparteien_insgesamt": 26422,
+      "Personen_insgesamt": 59909,
+      "Notwohnungen_insgesamt": 2339,
+      "Notwohnungen_Wohnparteien": 2564,
+      "Notwohnungen_Personen": 6298
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Steglitz - Lankwitz",
+      "Wohnungen_insgesamt": 5278,
+      "Wohnparteien_insgesamt": 7559,
+      "Personen_insgesamt": 17744,
+      "Notwohnungen_insgesamt": 504,
+      "Notwohnungen_Wohnparteien": 735,
+      "Notwohnungen_Personen": 1318
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof",
+      "Wohnungen_insgesamt": 38627,
+      "Wohnparteien_insgesamt": 51641,
+      "Personen_insgesamt": 119737,
+      "Notwohnungen_insgesamt": 2501,
+      "Notwohnungen_Wohnparteien": 2802,
+      "Notwohnungen_Personen": 6443
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof - Tempelhof",
+      "Wohnungen_insgesamt": 20984,
+      "Wohnparteien_insgesamt": 28383,
+      "Personen_insgesamt": 64121,
+      "Notwohnungen_insgesamt": 585,
+      "Notwohnungen_Wohnparteien": 672,
+      "Notwohnungen_Personen": 1462
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof - Mariendorf",
+      "Wohnungen_insgesamt": 10063,
+      "Wohnparteien_insgesamt": 12977,
+      "Personen_insgesamt": 30426,
+      "Notwohnungen_insgesamt": 794,
+      "Notwohnungen_Wohnparteien": 878,
+      "Notwohnungen_Personen": 1992
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof - Marienfelde",
+      "Wohnungen_insgesamt": 2288,
+      "Wohnparteien_insgesamt": 3054,
+      "Personen_insgesamt": 8048,
+      "Notwohnungen_insgesamt": 329,
+      "Notwohnungen_Wohnparteien": 363,
+      "Notwohnungen_Personen": 949
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof - Lichtenrade",
+      "Wohnungen_insgesamt": 5292,
+      "Wohnparteien_insgesamt": 7227,
+      "Personen_insgesamt": 17142,
+      "Notwohnungen_insgesamt": 793,
+      "Notwohnungen_Wohnparteien": 889,
+      "Notwohnungen_Personen": 2040
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln",
+      "Wohnungen_insgesamt": 101680,
+      "Wohnparteien_insgesamt": 129750,
+      "Personen_insgesamt": 287697,
+      "Notwohnungen_insgesamt": 7654,
+      "Notwohnungen_Wohnparteien": 8383,
+      "Notwohnungen_Personen": 18823
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Neukölln",
+      "Wohnungen_insgesamt": 80679,
+      "Wohnparteien_insgesamt": 103220,
+      "Personen_insgesamt": 223844,
+      "Notwohnungen_insgesamt": 2230,
+      "Notwohnungen_Wohnparteien": 2677,
+      "Notwohnungen_Personen": 6319
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Britz",
+      "Wohnungen_insgesamt": 12312,
+      "Wohnparteien_insgesamt": 15750,
+      "Personen_insgesamt": 37040,
+      "Notwohnungen_insgesamt": 2449,
+      "Notwohnungen_Wohnparteien": 2623,
+      "Notwohnungen_Personen": 4339
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Buckow West",
+      "Wohnungen_insgesamt": 1866,
+      "Wohnparteien_insgesamt": 2217,
+      "Personen_insgesamt": 5595,
+      "Notwohnungen_insgesamt": 871,
+      "Notwohnungen_Wohnparteien": 830,
+      "Notwohnungen_Personen": 2373
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Buckow Ost",
+      "Wohnungen_insgesamt": 1076,
+      "Wohnparteien_insgesamt": 1378,
+      "Personen_insgesamt": 3136,
+      "Notwohnungen_insgesamt": 320,
+      "Notwohnungen_Wohnparteien": 371,
+      "Notwohnungen_Personen": 953
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Rudow",
+      "Wohnungen_insgesamt": 5747,
+      "Wohnparteien_insgesamt": 7185,
+      "Personen_insgesamt": 18082,
+      "Notwohnungen_insgesamt": 1784,
+      "Notwohnungen_Wohnparteien": 2038,
+      "Notwohnungen_Personen": 4962
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf",
+      "Wohnungen_insgesamt": 64059,
+      "Wohnparteien_insgesamt": 84725,
+      "Personen_insgesamt": 203757,
+      "Notwohnungen_insgesamt": 9938,
+      "Notwohnungen_Wohnparteien": 11233,
+      "Notwohnungen_Personen": 27472
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Reinickendorf",
+      "Wohnungen_insgesamt": 22421,
+      "Wohnparteien_insgesamt": 28202,
+      "Personen_insgesamt": 68897,
+      "Notwohnungen_insgesamt": 1958,
+      "Notwohnungen_Wohnparteien": 2152,
+      "Notwohnungen_Personen": 5219
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Tegel",
+      "Wohnungen_insgesamt": 11567,
+      "Wohnparteien_insgesamt": 15000,
+      "Personen_insgesamt": 36259,
+      "Notwohnungen_insgesamt": 1332,
+      "Notwohnungen_Wohnparteien": 1466,
+      "Notwohnungen_Personen": 3622
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Konradshöhe",
+      "Wohnungen_insgesamt": 1643,
+      "Wohnparteien_insgesamt": 2171,
+      "Personen_insgesamt": 4779,
+      "Notwohnungen_insgesamt": 369,
+      "Notwohnungen_Wohnparteien": 411,
+      "Notwohnungen_Personen": 922
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Heiligensee",
+      "Wohnungen_insgesamt": 4853,
+      "Wohnparteien_insgesamt": 6242,
+      "Personen_insgesamt": 15336,
+      "Notwohnungen_insgesamt": 1523,
+      "Notwohnungen_Wohnparteien": 1718,
+      "Notwohnungen_Personen": 4035
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Frohnau",
+      "Wohnungen_insgesamt": 3510,
+      "Wohnparteien_insgesamt": 5363,
+      "Personen_insgesamt": 13028,
+      "Notwohnungen_insgesamt": 334,
+      "Notwohnungen_Wohnparteien": 372,
+      "Notwohnungen_Personen": 873
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Hermsdorf",
+      "Wohnungen_insgesamt": 5114,
+      "Wohnparteien_insgesamt": 7344,
+      "Personen_insgesamt": 17225,
+      "Notwohnungen_insgesamt": 572,
+      "Notwohnungen_Wohnparteien": 640,
+      "Notwohnungen_Personen": 1468
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Waidmannslust",
+      "Wohnungen_insgesamt": 1646,
+      "Wohnparteien_insgesamt": 2364,
+      "Personen_insgesamt": 5400,
+      "Notwohnungen_insgesamt": 126,
+      "Notwohnungen_Wohnparteien": 136,
+      "Notwohnungen_Personen": 320
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Lübars",
+      "Wohnungen_insgesamt": 1985,
+      "Wohnparteien_insgesamt": 2442,
+      "Personen_insgesamt": 6469,
+      "Notwohnungen_insgesamt": 1044,
+      "Notwohnungen_Wohnparteien": 1193,
+      "Notwohnungen_Personen": 3163
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Wittenau",
+      "Wohnungen_insgesamt": 11320,
+      "Wohnparteien_insgesamt": 14668,
+      "Personen_insgesamt": 36364,
+      "Notwohnungen_insgesamt": 2680,
+      "Notwohnungen_Wohnparteien": 3145,
+      "Notwohnungen_Personen": 7950
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "West-Berlin",
+      "Wohnungen_insgesamt": 704368,
+      "Wohnparteien_insgesamt": 966498,
+      "Personen_insgesamt": 2139750,
+      "Notwohnungen_insgesamt": 59477,
+      "Notwohnungen_Wohnparteien": 66534,
+      "Notwohnungen_Personen": 145114
+    }
+  ]
+}

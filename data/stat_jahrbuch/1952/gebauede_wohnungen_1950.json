@@ -1,0 +1,476 @@
+{
+  "title": "Gebäude und Wohnungen - Nach der Wohnungszählung 1950",
+  "description": "Buildings and dwellings from the 1950 housing census. Footnote: ¹) Buildings used more than 50% for commercial purposes.",
+  "data": [
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tiergarten",
+      "Gebäude_insgesamt": 1666,
+      "Nichtwohngebäude_Gebäude": 435,
+      "Nichtwohngebäude_mit_Wohnungen": 244,
+      "Normalwohngebäude_Gebäude": 3720,
+      "Normalwohngebäude_Wohnungen": 37865,
+      "Bewohnte_Notwohngebäude_Gebäude": 186,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 99
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wedding",
+      "Gebäude_insgesamt": 2834,
+      "Nichtwohngebäude_Gebäude": 297,
+      "Nichtwohngebäude_mit_Wohnungen": 201,
+      "Normalwohngebäude_Gebäude": 7745,
+      "Normalwohngebäude_Wohnungen": 84327,
+      "Bewohnte_Notwohngebäude_Gebäude": 1116,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 1138
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Kreuzberg",
+      "Gebäude_insgesamt": 2686,
+      "Nichtwohngebäude_Gebäude": 633,
+      "Nichtwohngebäude_mit_Wohnungen": 333,
+      "Normalwohngebäude_Gebäude": 6931,
+      "Normalwohngebäude_Wohnungen": 76177,
+      "Bewohnte_Notwohngebäude_Gebäude": 60,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 33
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Charlottenburg",
+      "Gebäude_insgesamt": 2416,
+      "Nichtwohngebäude_Gebäude": 849,
+      "Nichtwohngebäude_mit_Wohnungen": 477,
+      "Normalwohngebäude_Gebäude": 8151,
+      "Normalwohngebäude_Wohnungen": 65713,
+      "Bewohnte_Notwohngebäude_Gebäude": 1892,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 1769
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau",
+      "Gebäude_insgesamt": 4171,
+      "Nichtwohngebäude_Gebäude": 452,
+      "Nichtwohngebäude_mit_Wohnungen": 306,
+      "Normalwohngebäude_Gebäude": 11225,
+      "Normalwohngebäude_Wohnungen": 46647,
+      "Bewohnte_Notwohngebäude_Gebäude": 5924,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 5549
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Spandau",
+      "Gebäude_insgesamt": 2852,
+      "Nichtwohngebäude_Gebäude": 343,
+      "Nichtwohngebäude_mit_Wohnungen": 234,
+      "Normalwohngebäude_Gebäude": 7089,
+      "Normalwohngebäude_Wohnungen": 34629,
+      "Bewohnte_Notwohngebäude_Gebäude": 4089,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 3893
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Haselhorst",
+      "Gebäude_insgesamt": 315,
+      "Nichtwohngebäude_Gebäude": 31,
+      "Nichtwohngebäude_mit_Wohnungen": 55,
+      "Normalwohngebäude_Gebäude": 581,
+      "Normalwohngebäude_Wohnungen": 3504,
+      "Bewohnte_Notwohngebäude_Gebäude": 438,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 447
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Siemensstadt",
+      "Gebäude_insgesamt": 387,
+      "Nichtwohngebäude_Gebäude": 23,
+      "Nichtwohngebäude_mit_Wohnungen": 20,
+      "Normalwohngebäude_Gebäude": 624,
+      "Normalwohngebäude_Wohnungen": 3747,
+      "Bewohnte_Notwohngebäude_Gebäude": 152,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 152
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Staaken",
+      "Gebäude_insgesamt": 349,
+      "Nichtwohngebäude_Gebäude": 34,
+      "Nichtwohngebäude_mit_Wohnungen": 30,
+      "Normalwohngebäude_Gebäude": 2079,
+      "Normalwohngebäude_Wohnungen": 3383,
+      "Bewohnte_Notwohngebäude_Gebäude": 735,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 673
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Gatow",
+      "Gebäude_insgesamt": 98,
+      "Nichtwohngebäude_Gebäude": 10,
+      "Nichtwohngebäude_mit_Wohnungen": 13,
+      "Normalwohngebäude_Gebäude": 320,
+      "Normalwohngebäude_Wohnungen": 529,
+      "Bewohnte_Notwohngebäude_Gebäude": 189,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 189
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Spandau - Kladow",
+      "Gebäude_insgesamt": 170,
+      "Nichtwohngebäude_Gebäude": 18,
+      "Nichtwohngebäude_mit_Wohnungen": 21,
+      "Normalwohngebäude_Gebäude": 532,
+      "Normalwohngebäude_Wohnungen": 855,
+      "Bewohnte_Notwohngebäude_Gebäude": 312,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 204
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wilmersdorf",
+      "Gebäude_insgesamt": 1425,
+      "Nichtwohngebäude_Gebäude": 436,
+      "Nichtwohngebäude_mit_Wohnungen": 265,
+      "Normalwohngebäude_Gebäude": 5828,
+      "Normalwohngebäude_Wohnungen": 43780,
+      "Bewohnte_Notwohngebäude_Gebäude": 507,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 433
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wilmersdorf - Wilmersdorf",
+      "Gebäude_insgesamt": 934,
+      "Nichtwohngebäude_Gebäude": 266,
+      "Nichtwohngebäude_mit_Wohnungen": 151,
+      "Normalwohngebäude_Gebäude": 4140,
+      "Normalwohngebäude_Wohnungen": 36135,
+      "Bewohnte_Notwohngebäude_Gebäude": 108,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 131
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wilmersdorf - Schmargendorf",
+      "Gebäude_insgesamt": 264,
+      "Nichtwohngebäude_Gebäude": 86,
+      "Nichtwohngebäude_mit_Wohnungen": 54,
+      "Normalwohngebäude_Gebäude": 980,
+      "Normalwohngebäude_Wohnungen": 5129,
+      "Bewohnte_Notwohngebäude_Gebäude": 224,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 214
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Wilmersdorf - Grunewald",
+      "Gebäude_insgesamt": 227,
+      "Nichtwohngebäude_Gebäude": 85,
+      "Nichtwohngebäude_mit_Wohnungen": 61,
+      "Normalwohngebäude_Gebäude": 708,
+      "Normalwohngebäude_Wohnungen": 2516,
+      "Bewohnte_Notwohngebäude_Gebäude": 152,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 111
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf",
+      "Gebäude_insgesamt": 1980,
+      "Nichtwohngebäude_Gebäude": 415,
+      "Nichtwohngebäude_mit_Wohnungen": 301,
+      "Normalwohngebäude_Gebäude": 9686,
+      "Normalwohngebäude_Wohnungen": 22764,
+      "Bewohnte_Notwohngebäude_Gebäude": 916,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 807
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf - Zehlendorf",
+      "Gebäude_insgesamt": 853,
+      "Nichtwohngebäude_Gebäude": 103,
+      "Nichtwohngebäude_mit_Wohnungen": 129,
+      "Normalwohngebäude_Gebäude": 6174,
+      "Normalwohngebäude_Wohnungen": 15647,
+      "Bewohnte_Notwohngebäude_Gebäude": 461,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 502
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf - Dahlem",
+      "Gebäude_insgesamt": 341,
+      "Nichtwohngebäude_Gebäude": 95,
+      "Nichtwohngebäude_mit_Wohnungen": 66,
+      "Normalwohngebäude_Gebäude": 1266,
+      "Normalwohngebäude_Wohnungen": 2575,
+      "Bewohnte_Notwohngebäude_Gebäude": 274,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 222
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf - Nikolassee",
+      "Gebäude_insgesamt": 363,
+      "Nichtwohngebäude_Gebäude": 64,
+      "Nichtwohngebäude_mit_Wohnungen": 45,
+      "Normalwohngebäude_Gebäude": 1290,
+      "Normalwohngebäude_Wohnungen": 2244,
+      "Bewohnte_Notwohngebäude_Gebäude": 95,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 80
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Zehlendorf - Wannsee",
+      "Gebäude_insgesamt": 423,
+      "Nichtwohngebäude_Gebäude": 83,
+      "Nichtwohngebäude_mit_Wohnungen": 68,
+      "Normalwohngebäude_Gebäude": 956,
+      "Normalwohngebäude_Wohnungen": 1973,
+      "Bewohnte_Notwohngebäude_Gebäude": 569,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 480
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Schöneberg",
+      "Gebäude_insgesamt": 1596,
+      "Nichtwohngebäude_Gebäude": 407,
+      "Nichtwohngebäude_mit_Wohnungen": 221,
+      "Normalwohngebäude_Gebäude": 6819,
+      "Normalwohngebäude_Wohnungen": 61845,
+      "Bewohnte_Notwohngebäude_Gebäude": 122,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 142
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Steglitz",
+      "Gebäude_insgesamt": 2237,
+      "Nichtwohngebäude_Gebäude": 418,
+      "Nichtwohngebäude_mit_Wohnungen": 305,
+      "Normalwohngebäude_Gebäude": 10181,
+      "Normalwohngebäude_Wohnungen": 44680,
+      "Bewohnte_Notwohngebäude_Gebäude": 1097,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 1003
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Steglitz - Steglitz",
+      "Gebäude_insgesamt": 662,
+      "Nichtwohngebäude_Gebäude": 135,
+      "Nichtwohngebäude_mit_Wohnungen": 56,
+      "Normalwohngebäude_Gebäude": 3278,
+      "Normalwohngebäude_Wohnungen": 23421,
+      "Bewohnte_Notwohngebäude_Gebäude": 56,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 71
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Steglitz - Lichterfelde",
+      "Gebäude_insgesamt": 1245,
+      "Nichtwohngebäude_Gebäude": 99,
+      "Nichtwohngebäude_mit_Wohnungen": 213,
+      "Normalwohngebäude_Gebäude": 5006,
+      "Normalwohngebäude_Wohnungen": 16333,
+      "Bewohnte_Notwohngebäude_Gebäude": 705,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 744
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Steglitz - Lankwitz",
+      "Gebäude_insgesamt": 330,
+      "Nichtwohngebäude_Gebäude": 150,
+      "Nichtwohngebäude_mit_Wohnungen": 70,
+      "Normalwohngebäude_Gebäude": 1897,
+      "Normalwohngebäude_Wohnungen": 4926,
+      "Bewohnte_Notwohngebäude_Gebäude": 282,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 242
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof",
+      "Gebäude_insgesamt": 2458,
+      "Nichtwohngebäude_Gebäude": 417,
+      "Nichtwohngebäude_mit_Wohnungen": 254,
+      "Normalwohngebäude_Gebäude": 9316,
+      "Normalwohngebäude_Wohnungen": 36601,
+      "Bewohnte_Notwohngebäude_Gebäude": 1609,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 1549
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof - Tempelhof",
+      "Gebäude_insgesamt": 1004,
+      "Nichtwohngebäude_Gebäude": 159,
+      "Nichtwohngebäude_mit_Wohnungen": 120,
+      "Normalwohngebäude_Gebäude": 3371,
+      "Normalwohngebäude_Wohnungen": 20646,
+      "Bewohnte_Notwohngebäude_Gebäude": 154,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 179
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof - Mariendorf",
+      "Gebäude_insgesamt": 660,
+      "Nichtwohngebäude_Gebäude": 66,
+      "Nichtwohngebäude_mit_Wohnungen": 175,
+      "Normalwohngebäude_Gebäude": 2174,
+      "Normalwohngebäude_Wohnungen": 9338,
+      "Bewohnte_Notwohngebäude_Gebäude": 545,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 550
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof - Marienfelde",
+      "Gebäude_insgesamt": 326,
+      "Nichtwohngebäude_Gebäude": 27,
+      "Nichtwohngebäude_mit_Wohnungen": 56,
+      "Normalwohngebäude_Gebäude": 1135,
+      "Normalwohngebäude_Wohnungen": 1998,
+      "Bewohnte_Notwohngebäude_Gebäude": 249,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 263
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Tempelhof - Lichtenrade",
+      "Gebäude_insgesamt": 468,
+      "Nichtwohngebäude_Gebäude": 23,
+      "Nichtwohngebäude_mit_Wohnungen": 45,
+      "Normalwohngebäude_Gebäude": 2636,
+      "Normalwohngebäude_Wohnungen": 4619,
+      "Bewohnte_Notwohngebäude_Gebäude": 601,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 617
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln",
+      "Gebäude_insgesamt": 3548,
+      "Nichtwohngebäude_Gebäude": 395,
+      "Nichtwohngebäude_mit_Wohnungen": 261,
+      "Normalwohngebäude_Gebäude": 14561,
+      "Normalwohngebäude_Wohnungen": 95418,
+      "Bewohnte_Notwohngebäude_Gebäude": 5867,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 5832
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Neukölln",
+      "Gebäude_insgesamt": 1841,
+      "Nichtwohngebäude_Gebäude": 265,
+      "Nichtwohngebäude_mit_Wohnungen": 158,
+      "Normalwohngebäude_Gebäude": 7157,
+      "Normalwohngebäude_Wohnungen": 79599,
+      "Bewohnte_Notwohngebäude_Gebäude": 819,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 816
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Britz",
+      "Gebäude_insgesamt": 851,
+      "Nichtwohngebäude_Gebäude": 48,
+      "Nichtwohngebäude_mit_Wohnungen": 20,
+      "Normalwohngebäude_Gebäude": 3282,
+      "Normalwohngebäude_Wohnungen": 9990,
+      "Bewohnte_Notwohngebäude_Gebäude": 2264,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 2259
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Buckow West",
+      "Gebäude_insgesamt": 217,
+      "Nichtwohngebäude_Gebäude": 15,
+      "Nichtwohngebäude_mit_Wohnungen": 58,
+      "Normalwohngebäude_Gebäude": 733,
+      "Normalwohngebäude_Wohnungen": 1014,
+      "Bewohnte_Notwohngebäude_Gebäude": 830,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 832
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Buckow Ost",
+      "Gebäude_insgesamt": 147,
+      "Nichtwohngebäude_Gebäude": 14,
+      "Nichtwohngebäude_mit_Wohnungen": 10,
+      "Normalwohngebäude_Gebäude": 506,
+      "Normalwohngebäude_Wohnungen": 764,
+      "Bewohnte_Notwohngebäude_Gebäude": 297,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 298
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Neukölln - Rudow",
+      "Gebäude_insgesamt": 492,
+      "Nichtwohngebäude_Gebäude": 34,
+      "Nichtwohngebäude_mit_Wohnungen": 42,
+      "Normalwohngebäude_Gebäude": 2883,
+      "Normalwohngebäude_Wohnungen": 4051,
+      "Bewohnte_Notwohngebäude_Gebäude": 1654,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 1630
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf",
+      "Gebäude_insgesamt": 4032,
+      "Nichtwohngebäude_Gebäude": 505,
+      "Nichtwohngebäude_mit_Wohnungen": 365,
+      "Normalwohngebäude_Gebäude": 17961,
+      "Normalwohngebäude_Wohnungen": 55159,
+      "Bewohnte_Notwohngebäude_Gebäude": 8395,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 8311
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Reinickendorf",
+      "Gebäude_insgesamt": 1247,
+      "Nichtwohngebäude_Gebäude": 162,
+      "Nichtwohngebäude_mit_Wohnungen": 123,
+      "Normalwohngebäude_Gebäude": 3415,
+      "Normalwohngebäude_Wohnungen": 20592,
+      "Bewohnte_Notwohngebäude_Gebäude": 1656,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 1667
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Tegel",
+      "Gebäude_insgesamt": 751,
+      "Nichtwohngebäude_Gebäude": 76,
+      "Nichtwohngebäude_mit_Wohnungen": 57,
+      "Normalwohngebäude_Gebäude": 2816,
+      "Normalwohngebäude_Wohnungen": 10378,
+      "Bewohnte_Notwohngebäude_Gebäude": 1113,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 1086
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Konradshöhe",
+      "Gebäude_insgesamt": 139,
+      "Nichtwohngebäude_Gebäude": 22,
+      "Nichtwohngebäude_mit_Wohnungen": 26,
+      "Normalwohngebäude_Gebäude": 700,
+      "Normalwohngebäude_Wohnungen": 1393,
+      "Bewohnte_Notwohngebäude_Gebäude": 228,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 222
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Heiligensee",
+      "Gebäude_insgesamt": 375,
+      "Nichtwohngebäude_Gebäude": 18,
+      "Nichtwohngebäude_mit_Wohnungen": 23,
+      "Normalwohngebäude_Gebäude": 2399,
+      "Normalwohngebäude_Wohnungen": 3445,
+      "Bewohnte_Notwohngebäude_Gebäude": 1368,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 1382
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Frohnau",
+      "Gebäude_insgesamt": 146,
+      "Nichtwohngebäude_Gebäude": 26,
+      "Nichtwohngebäude_mit_Wohnungen": 33,
+      "Normalwohngebäude_Gebäude": 2214,
+      "Normalwohngebäude_Wohnungen": 3355,
+      "Bewohnte_Notwohngebäude_Gebäude": 295,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 291
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Hermsdorf",
+      "Gebäude_insgesamt": 383,
+      "Nichtwohngebäude_Gebäude": 50,
+      "Nichtwohngebäude_mit_Wohnungen": 14,
+      "Normalwohngebäude_Gebäude": 2285,
+      "Normalwohngebäude_Wohnungen": 4769,
+      "Bewohnte_Notwohngebäude_Gebäude": 113,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 122
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Waidmannslust",
+      "Gebäude_insgesamt": 207,
+      "Nichtwohngebäude_Gebäude": 19,
+      "Nichtwohngebäude_mit_Wohnungen": 37,
+      "Normalwohngebäude_Gebäude": 602,
+      "Normalwohngebäude_Wohnungen": 1590,
+      "Bewohnte_Notwohngebäude_Gebäude": 37,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 37
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Lübars",
+      "Gebäude_insgesamt": 147,
+      "Nichtwohngebäude_Gebäude": 4,
+      "Nichtwohngebäude_mit_Wohnungen": 4,
+      "Normalwohngebäude_Gebäude": 585,
+      "Normalwohngebäude_Wohnungen": 950,
+      "Bewohnte_Notwohngebäude_Gebäude": 1030,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 1031
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "Reinickendorf - Wittenau",
+      "Gebäude_insgesamt": 637,
+      "Nichtwohngebäude_Gebäude": 113,
+      "Nichtwohngebäude_mit_Wohnungen": 63,
+      "Normalwohngebäude_Gebäude": 2945,
+      "Normalwohngebäude_Wohnungen": 8687,
+      "Bewohnte_Notwohngebäude_Gebäude": 2520,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 2508
+    },
+    {
+      "Verwaltungsbezirk_Ortsteil": "West-Berlin",
+      "Gebäude_insgesamt": 31049,
+      "Nichtwohngebäude_Gebäude": 5659,
+      "Nichtwohngebäude_mit_Wohnungen": 3575,
+      "Normalwohngebäude_Gebäude": 112124,
+      "Normalwohngebäude_Wohnungen": 670976,
+      "Bewohnte_Notwohngebäude_Gebäude": 27733,
+      "Bewohnte_Notwohngebäude_Notwohnungen": 26623
+    }
+  ]
+}
