@@ -180,10 +180,28 @@
     },
     {
       "ortsteil_name": "Alt-Hohenschönhausen",
+      "bezirk_id": "weissensee_east",
+      "start_date": "1946-01-01",
+      "end_date": "1985-08-31",
+      "transfer_notes": "Historic village core transferred to new Bezirk Hohenschönhausen",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Alt-Hohenschönhausen",
       "bezirk_id": "hohenschoenhausen_east",
       "start_date": "1985-09-01",
       "end_date": null,
-      "transfer_notes": "Historic village core transferred to new Bezirk Hohenschönhausen",
+      "transfer_notes": "",
+      "partial_transfer": false,
+      "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Neu-Hohenschönhausen",
+      "bezirk_id": "weissensee_east",
+      "start_date": "1946-01-01",
+      "end_date": "1985-08-31",
+      "transfer_notes": "",
       "partial_transfer": false,
       "transferred_areas": null
     },
@@ -231,6 +249,15 @@
       "transfer_notes": "Remaining western part transferred to new Bezirk Hohenschönhausen",
       "partial_transfer": false,
       "transferred_areas": null
+    },
+    {
+      "ortsteil_name": "Malchow",
+      "bezirk_id": "weissensee_east",
+      "start_date": "1946-01-01",
+      "end_date": "1985-08-31",
+      "transfer_notes": "Eastern part (historic village core) transferred to Hohenschönhausen",
+      "partial_transfer": true,
+      "transferred_areas": ["eastern part - village core and Margarethenhöhe settlement"]
     },
     {
       "ortsteil_name": "Malchow",
@@ -873,10 +900,10 @@
     },
     {
       "ortsteil_name": "Schlachtensee",
-      "bezirk_id": "steglitz_west",
+      "bezirk_id": "zehlendorf_west",
       "start_date": "1946-01-01",
       "end_date": null,
-      "transfer_notes": "West Berlin - part of Steglitz district",
+      "transfer_notes": "West Berlin - part of Zehlendorf district",
       "partial_transfer": false,
       "transferred_areas": null
     },

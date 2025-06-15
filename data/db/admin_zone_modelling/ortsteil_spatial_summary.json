@@ -1,0 +1,1845 @@
+[
+  {
+    "ortsteil_name": "Hellersdorf",
+    "centroid_lat": 5821346.60107706,
+    "centroid_lon": 405092.8865855,
+    "bbox_min_lat": 5818944.647,
+    "bbox_max_lat": 5823147.081,
+    "bbox_min_lon": 403187.247,
+    "bbox_max_lon": 407607.36,
+    "area_km2": -205940465445.65475,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Hellersdorf.json",
+    "properties": {
+      "uuid": "DEBE00YY2Ke00070",
+      "sch": "110000101005",
+      "nam": "Hellersdorf",
+      "gdf": 8151126.146,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Mahlsdorf",
+    "centroid_lat": 5817884.17525798,
+    "centroid_lon": 406134.25838727,
+    "bbox_min_lat": 5814274.75,
+    "bbox_max_lat": 5820932.515,
+    "bbox_min_lon": 403841.131,
+    "bbox_max_lon": 408990.735,
+    "area_km2": 421575007369.0123,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Mahlsdorf.json",
+    "properties": {
+      "uuid": "DEBE00YY2Ke00071",
+      "sch": "110000101004",
+      "nam": "Mahlsdorf",
+      "gdf": 13016587.407,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Kaulsdorf",
+    "centroid_lat": 5817890.90266882,
+    "centroid_lon": 404169.60405468,
+    "bbox_min_lat": 5814802.084,
+    "bbox_max_lat": 5820798.104,
+    "bbox_min_lon": 402442.352,
+    "bbox_max_lon": 406513.491,
+    "area_km2": -282455986442.24396,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Kaulsdorf.json",
+    "properties": {
+      "uuid": "DEBE00YYvB000000",
+      "sch": "110000101003",
+      "nam": "Kaulsdorf",
+      "gdf": 8688166,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Hansaviertel",
+    "centroid_lat": 5820006.65896694,
+    "centroid_lon": 387487.13829653,
+    "bbox_min_lat": 5819486.652,
+    "bbox_max_lat": 5820463.636,
+    "bbox_min_lon": 386968.553,
+    "bbox_max_lon": 388075.32,
+    "area_km2": -10894010914.613186,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Hansaviertel.json",
+    "properties": {
+      "uuid": "DEBE01YYK0000001",
+      "sch": "110000010103",
+      "nam": "Hansaviertel",
+      "gdf": 528303,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Gesundbrunnen",
+    "centroid_lat": 5823518.47476128,
+    "centroid_lon": 390451.20609214,
+    "bbox_min_lat": 5821559.556,
+    "bbox_max_lat": 5825412.252,
+    "bbox_min_lon": 389218.234,
+    "bbox_max_lon": 391729.113,
+    "area_km2": -69895924549.95,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Gesundbrunnen.json",
+    "properties": {
+      "uuid": "DEBE01YYK0000003",
+      "sch": "110000010106",
+      "nam": "Gesundbrunnen",
+      "gdf": 6126929,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Wedding",
+    "centroid_lat": 5823601.28232846,
+    "centroid_lon": 387553.6915169,
+    "bbox_min_lat": 5821873.329,
+    "bbox_max_lat": 5825120.598,
+    "bbox_min_lon": 384834.773,
+    "bbox_max_lon": 389782.258,
+    "area_km2": -144683169764.26898,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Wedding.json",
+    "properties": {
+      "uuid": "DEBE01YYK0000005",
+      "sch": "110000010105",
+      "nam": "Wedding",
+      "gdf": 9245378,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Mitte",
+    "centroid_lat": 5820227.2215031,
+    "centroid_lon": 391297.50776986,
+    "bbox_min_lat": 5818283.27,
+    "bbox_max_lat": 5822347.553,
+    "bbox_min_lon": 389163.254,
+    "bbox_max_lon": 393423.341,
+    "area_km2": -205657408845.34082,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Mitte.json",
+    "properties": {
+      "uuid": "DEBE01YYK0000007",
+      "sch": "110000010101",
+      "nam": "Mitte",
+      "gdf": 10679191.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Moabit",
+    "centroid_lat": 5821206.62764704,
+    "centroid_lon": 387613.25891028,
+    "bbox_min_lat": 5819811.839,
+    "bbox_max_lat": 5822574.959,
+    "bbox_min_lon": 385470.469,
+    "bbox_max_lon": 389684.259,
+    "area_km2": 142504954617.85266,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Moabit.json",
+    "properties": {
+      "uuid": "DEBE01YYK0000009",
+      "sch": "110000010102",
+      "nam": "Moabit",
+      "gdf": 7709344,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Tiergarten",
+    "centroid_lat": 5819082.44550645,
+    "centroid_lon": 388577.95313505,
+    "bbox_min_lat": 5817758.275,
+    "bbox_max_lat": 5820432.243,
+    "bbox_min_lon": 386668.276,
+    "bbox_max_lon": 389894.071,
+    "area_km2": 60563778600.71673,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Tiergarten.json",
+    "properties": {
+      "uuid": "DEBE01YYK000000B",
+      "sch": "110000010104",
+      "nam": "Tiergarten",
+      "gdf": 5180511,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Kreuzberg",
+    "centroid_lat": 5817487.93885605,
+    "centroid_lon": 391736.1635073,
+    "bbox_min_lat": 5815929.353,
+    "bbox_max_lat": 5818898.271,
+    "bbox_min_lon": 389216.547,
+    "bbox_max_lon": 395006.204,
+    "area_km2": -210551919604.87808,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Kreuzberg.json",
+    "properties": {
+      "uuid": "DEBE02YY20000001",
+      "sch": "110000020202",
+      "nam": "Kreuzberg",
+      "gdf": 10377495.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Friedrichshain",
+    "centroid_lat": 5819024.96272014,
+    "centroid_lon": 394976.39845169,
+    "bbox_min_lat": 5816181.743,
+    "bbox_max_lat": 5821243.217,
+    "bbox_min_lon": 392793.702,
+    "bbox_max_lon": 397571.021,
+    "area_km2": 251323409288.38132,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Friedrichshain.json",
+    "properties": {
+      "uuid": "DEBE02YY20000003",
+      "sch": "110000020201",
+      "nam": "Friedrichshain",
+      "gdf": 9949891,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Französisch Buchholz",
+    "centroid_lat": 5830333.3874167,
+    "centroid_lon": 394247.89132717,
+    "bbox_min_lat": 5826947.201,
+    "bbox_max_lat": 5833404.962,
+    "bbox_min_lon": 392485.107,
+    "bbox_max_lon": 396361.203,
+    "area_km2": 281920807487.7325,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Französisch_Buchholz.json",
+    "properties": {
+      "uuid": "DEBE03YY60000001",
+      "sch": "110000030310",
+      "nam": "Französisch Buchholz",
+      "gdf": 12032316.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Wilhelmsruh",
+    "centroid_lat": 5827642.278938,
+    "centroid_lon": 389136.97289171,
+    "bbox_min_lat": 5826807.749,
+    "bbox_max_lat": 5828274.47,
+    "bbox_min_lon": 388060.566,
+    "bbox_max_lon": 389896.724,
+    "area_km2": -25001178545.08934,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Wilhelmsruh.json",
+    "properties": {
+      "uuid": "DEBE03YY60000003",
+      "sch": "110000030313",
+      "nam": "Wilhelmsruh",
+      "gdf": 1360394,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Rosenthal",
+    "centroid_lat": 5828588.31632688,
+    "centroid_lon": 390919.04463523,
+    "bbox_min_lat": 5827336.296,
+    "bbox_max_lat": 5829794.881,
+    "bbox_min_lon": 388950.397,
+    "bbox_max_lon": 392934.683,
+    "area_km2": -116895075219.98944,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Rosenthal.json",
+    "properties": {
+      "uuid": "DEBE03YY60000005",
+      "sch": "110000030312",
+      "nam": "Rosenthal",
+      "gdf": 4920741,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Niederschönhausen",
+    "centroid_lat": 5826972.55442892,
+    "centroid_lon": 391451.03521128,
+    "bbox_min_lat": 5825461.457,
+    "bbox_max_lat": 5828346.177,
+    "bbox_min_lon": 389300.327,
+    "bbox_max_lon": 393515.919,
+    "area_km2": 83388517992.60086,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Niederschönhausen.json",
+    "properties": {
+      "uuid": "DEBE03YY60000007",
+      "sch": "110000030311",
+      "nam": "Niederschönhausen",
+      "gdf": 6485594,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Blankenburg",
+    "centroid_lat": 5828065.6650934,
+    "centroid_lon": 395456.59994084,
+    "bbox_min_lat": 5826177.03,
+    "bbox_max_lat": 5830267.989,
+    "bbox_min_lon": 393688.491,
+    "bbox_max_lon": 397294.875,
+    "area_km2": -181604394408.3544,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Blankenburg.json",
+    "properties": {
+      "uuid": "DEBE03YY60000009",
+      "sch": "110000030303",
+      "nam": "Blankenburg",
+      "gdf": 6061732,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Heinersdorf",
+    "centroid_lat": 5825650.38239949,
+    "centroid_lon": 394345.51426613,
+    "bbox_min_lat": 5824118.418,
+    "bbox_max_lat": 5827024.881,
+    "bbox_min_lon": 393394.996,
+    "bbox_max_lon": 395513.926,
+    "area_km2": 47081305228.09446,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Heinersdorf.json",
+    "properties": {
+      "uuid": "DEBE03YY6000000B",
+      "sch": "110000030304",
+      "nam": "Heinersdorf",
+      "gdf": 3853732,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Buch",
+    "centroid_lat": 5833613.04170481,
+    "centroid_lon": 397058.06492338,
+    "bbox_min_lat": 5831000.526,
+    "bbox_max_lat": 5837259.27,
+    "bbox_min_lon": 393082.263,
+    "bbox_max_lon": 400071.362,
+    "area_km2": 466270216132.7718,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Buch.json",
+    "properties": {
+      "uuid": "DEBE03YY6000000D",
+      "sch": "110000030309",
+      "nam": "Buch",
+      "gdf": 631,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Weißensee",
+    "centroid_lat": 5823908.95001278,
+    "centroid_lon": 395766.22159443,
+    "bbox_min_lat": 5822037.65,
+    "bbox_max_lat": 5825267.558,
+    "bbox_min_lon": 393493.106,
+    "bbox_max_lon": 398010.429,
+    "area_km2": 69096362313.00273,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Weißensee.json",
+    "properties": {
+      "uuid": "DEBE03YY6000000F",
+      "sch": "110000030302",
+      "nam": "Weißensee",
+      "gdf": 7935666,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Stadtrandsiedlung Malchow",
+    "centroid_lat": 5826970.80604216,
+    "centroid_lon": 396887.34245682,
+    "bbox_min_lat": 5824898.39,
+    "bbox_max_lat": 5829407.461,
+    "bbox_min_lon": 395458.815,
+    "bbox_max_lon": 398752,
+    "area_km2": -178321240823.89725,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Stadtrandsiedlung_Malchow.json",
+    "properties": {
+      "uuid": "DEBE03YY6000000H",
+      "sch": "110000030306",
+      "nam": "Stadtrandsiedlung Malchow",
+      "gdf": 5707467,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Karow",
+    "centroid_lat": 5830979.4294747,
+    "centroid_lon": 398747.48133428,
+    "bbox_min_lat": 5828699.112,
+    "bbox_max_lat": 5831732.518,
+    "bbox_min_lon": 395252.467,
+    "bbox_max_lon": 398797.417,
+    "area_km2": 127475844469.47475,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Karow.json",
+    "properties": {
+      "uuid": "DEBE03YY6000000J",
+      "sch": "110000030305",
+      "nam": "Karow",
+      "gdf": 6608810,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Prenzlauer Berg",
+    "centroid_lat": 5822233.42160915,
+    "centroid_lon": 393558.92961526,
+    "bbox_min_lat": 5819979.173,
+    "bbox_max_lat": 5824374.355,
+    "bbox_min_lon": 391301.915,
+    "bbox_max_lon": 396333.836,
+    "area_km2": -62390874727.74972,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Prenzlauer_Berg.json",
+    "properties": {
+      "uuid": "DEBE03YY6000000L",
+      "sch": "110000030301",
+      "nam": "Prenzlauer Berg",
+      "gdf": 11009372.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Blankenfelde",
+    "centroid_lat": 5834050.59558045,
+    "centroid_lon": 391262.17023051,
+    "bbox_min_lat": 5828958.84,
+    "bbox_max_lat": 5834352.221,
+    "bbox_min_lon": 389460.653,
+    "bbox_max_lon": 393932.772,
+    "area_km2": 286329929472.01044,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Blankenfelde.json",
+    "properties": {
+      "uuid": "DEBE03YY6000000N",
+      "sch": "110000030308",
+      "nam": "Blankenfelde",
+      "gdf": 139,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Pankow",
+    "centroid_lat": 5825301.25049411,
+    "centroid_lon": 392543.35248031,
+    "bbox_min_lat": 5823543.488,
+    "bbox_max_lat": 5827035.036,
+    "bbox_min_lon": 390770.162,
+    "bbox_max_lon": 393888.621,
+    "area_km2": -84901782597.88078,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Pankow.json",
+    "properties": {
+      "uuid": "DEBE03YY6000000P",
+      "sch": "110000030307",
+      "nam": "Pankow",
+      "gdf": 5655478,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Westend",
+    "centroid_lat": 5819518.57487036,
+    "centroid_lon": 381422.72543891,
+    "bbox_min_lat": 5816839.934,
+    "bbox_max_lat": 5821431.421,
+    "bbox_min_lon": 378424.438,
+    "bbox_max_lon": 383644.873,
+    "area_km2": -29216592363.109886,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Westend.json",
+    "properties": {
+      "uuid": "DEBE04YY50000001",
+      "sch": "110000040405",
+      "nam": "Westend",
+      "gdf": 13527378.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Charlottenburg",
+    "centroid_lat": 5819577.80760194,
+    "centroid_lon": 385135.01657893,
+    "bbox_min_lat": 5817874.8,
+    "bbox_max_lat": 5821583.591,
+    "bbox_min_lon": 383327.78,
+    "bbox_max_lon": 387427.064,
+    "area_km2": 160893640440.0119,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Charlottenburg.json",
+    "properties": {
+      "uuid": "DEBE04YY50000003",
+      "sch": "110000040401",
+      "nam": "Charlottenburg",
+      "gdf": 10596788.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Halensee",
+    "centroid_lat": 5817693.14117651,
+    "centroid_lon": 384138.38866784,
+    "bbox_min_lat": 5816679.901,
+    "bbox_max_lat": 5818386.763,
+    "bbox_min_lon": 383335.878,
+    "bbox_max_lon": 384721.656,
+    "area_km2": 11542430182.69907,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Halensee.json",
+    "properties": {
+      "uuid": "DEBE04YY50000005",
+      "sch": "110000040407",
+      "nam": "Halensee",
+      "gdf": 1266873,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Wilmersdorf",
+    "centroid_lat": 5816396.65782234,
+    "centroid_lon": 385814.46222656,
+    "bbox_min_lat": 5814306.187,
+    "bbox_max_lat": 5818090.211,
+    "bbox_min_lon": 384376.422,
+    "bbox_max_lon": 387248.141,
+    "area_km2": 105218283606.60828,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Wilmersdorf.json",
+    "properties": {
+      "uuid": "DEBE04YY50000007",
+      "sch": "110000040402",
+      "nam": "Wilmersdorf",
+      "gdf": 7161063,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Charlottenburg-Nord",
+    "centroid_lat": 5822522.62360925,
+    "centroid_lon": 384541.50021707,
+    "bbox_min_lat": 5821306.89,
+    "bbox_max_lat": 5823555.197,
+    "bbox_min_lon": 382694.245,
+    "bbox_max_lon": 386679.095,
+    "area_km2": -96586273990.64082,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Charlottenburg_Nord.json",
+    "properties": {
+      "uuid": "DEBE04YY50000009",
+      "sch": "110000040406",
+      "nam": "Charlottenburg-Nord",
+      "gdf": 6199488,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Schmargendorf",
+    "centroid_lat": 5815658.10752372,
+    "centroid_lon": 384000.20726775,
+    "bbox_min_lat": 5814490.328,
+    "bbox_max_lat": 5817363.025,
+    "bbox_min_lon": 382648.684,
+    "bbox_max_lon": 385329.839,
+    "area_km2": -56682302789.947655,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Schmargendorf.json",
+    "properties": {
+      "uuid": "DEBE04YY5000000B",
+      "sch": "110000040403",
+      "nam": "Schmargendorf",
+      "gdf": 3588120,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Grunewald",
+    "centroid_lat": 5816488.46708608,
+    "centroid_lon": 380186.13062184,
+    "bbox_min_lat": 5814350.595,
+    "bbox_max_lat": 5818663.987,
+    "bbox_min_lon": 376876.021,
+    "bbox_max_lon": 383965.973,
+    "area_km2": 367566103226.9392,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Grunewald.json",
+    "properties": {
+      "uuid": "DEBE04YY5000000D",
+      "sch": "110000040404",
+      "nam": "Grunewald",
+      "gdf": 22354409.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Staaken",
+    "centroid_lat": 5821807.01209657,
+    "centroid_lon": 374085.99969929,
+    "bbox_min_lat": 5819684.907,
+    "bbox_max_lat": 5824524.004,
+    "bbox_min_lon": 372257.553,
+    "bbox_max_lon": 376233.914,
+    "area_km2": -236364175128.41708,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Staaken.json",
+    "properties": {
+      "uuid": "DEBE05YYQ0000001",
+      "sch": "110000050504",
+      "nam": "Staaken",
+      "gdf": 10887518.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Wilhelmstadt",
+    "centroid_lat": 5819809.69566958,
+    "centroid_lon": 377185.17127922,
+    "bbox_min_lat": 5818041.669,
+    "bbox_max_lat": 5821655.017,
+    "bbox_min_lon": 374918.02,
+    "bbox_max_lon": 379432.104,
+    "area_km2": 5811185244.985832,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Wilhelmstadt.json",
+    "properties": {
+      "uuid": "DEBE05YYQ0000003",
+      "sch": "110000050509",
+      "nam": "Wilhelmstadt",
+      "gdf": 10421573.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Haselhorst",
+    "centroid_lat": 5823169.26787365,
+    "centroid_lon": 379961.99607391,
+    "bbox_min_lat": 5821942.985,
+    "bbox_max_lat": 5825180.166,
+    "bbox_min_lon": 378474.366,
+    "bbox_max_lon": 381214.767,
+    "area_km2": -101643379631.15968,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Haselhorst.json",
+    "properties": {
+      "uuid": "DEBE05YYQ0000005",
+      "sch": "110000050502",
+      "nam": "Haselhorst",
+      "gdf": 4522447,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Siemensstadt",
+    "centroid_lat": 5822440.76408365,
+    "centroid_lon": 381826.83325982,
+    "bbox_min_lat": 5821093.8,
+    "bbox_max_lat": 5824493.424,
+    "bbox_min_lon": 380053.316,
+    "bbox_max_lon": 383483.905,
+    "area_km2": -128723829501.69925,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Siemensstadt.json",
+    "properties": {
+      "uuid": "DEBE05YYQ0000007",
+      "sch": "110000050503",
+      "nam": "Siemensstadt",
+      "gdf": 5663969,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Hakenfelde",
+    "centroid_lat": 5826471.14167124,
+    "centroid_lon": 377062.73271689,
+    "bbox_min_lat": 5822994.614,
+    "bbox_max_lat": 5829223.371,
+    "bbox_min_lon": 373166.2,
+    "bbox_max_lon": 379944.084,
+    "area_km2": -341310605421.5277,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Hakenfelde.json",
+    "properties": {
+      "uuid": "DEBE05YYQ0000009",
+      "sch": "110000050507",
+      "nam": "Hakenfelde",
+      "gdf": 20381270.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Kladow",
+    "centroid_lat": 5813939.29712876,
+    "centroid_lon": 373698.45952113,
+    "bbox_min_lat": 5811591.956,
+    "bbox_max_lat": 5816662.902,
+    "bbox_min_lon": 371515.508,
+    "bbox_max_lon": 376815.023,
+    "area_km2": -201240755243.20425,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Kladow.json",
+    "properties": {
+      "uuid": "DEBE05YYQ000000B",
+      "sch": "110000050506",
+      "nam": "Kladow",
+      "gdf": 14779080.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Falkenhagener Feld",
+    "centroid_lat": 5824004.12938663,
+    "centroid_lon": 375791.05401072,
+    "bbox_min_lat": 5822349.353,
+    "bbox_max_lat": 5825791.15,
+    "bbox_min_lon": 374121.532,
+    "bbox_max_lon": 377715.328,
+    "area_km2": 150199302556.24457,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Falkenhagener_Feld.json",
+    "properties": {
+      "uuid": "DEBE05YYQ000000D",
+      "sch": "110000050508",
+      "nam": "Falkenhagener Feld",
+      "gdf": 6876159,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Gatow",
+    "centroid_lat": 5816571.06902848,
+    "centroid_lon": 375548.77580467,
+    "bbox_min_lat": 5814477.056,
+    "bbox_max_lat": 5818428.74,
+    "bbox_min_lon": 373399.492,
+    "bbox_max_lon": 377248.57,
+    "area_km2": 72918369702.71358,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Gatow.json",
+    "properties": {
+      "uuid": "DEBE05YYQ000000F",
+      "sch": "110000050505",
+      "nam": "Gatow",
+      "gdf": 10112629.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Spandau",
+    "centroid_lat": 5822175.68279803,
+    "centroid_lon": 378084.30063283,
+    "bbox_min_lat": 5820104.505,
+    "bbox_max_lat": 5824331.982,
+    "bbox_min_lon": 375367.46,
+    "bbox_max_lon": 381119.843,
+    "area_km2": 141787468569.00943,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Spandau.json",
+    "properties": {
+      "uuid": "DEBE05YYQ000000H",
+      "sch": "110000050501",
+      "nam": "Spandau",
+      "gdf": 8232567,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Schlachtensee",
+    "centroid_lat": 5811405.6485298,
+    "centroid_lon": 378884.71266248,
+    "bbox_min_lat": 5810101.695,
+    "bbox_max_lat": 5812916.076,
+    "bbox_min_lon": 377450.498,
+    "bbox_max_lon": 380371.21,
+    "area_km2": 88678183979.35278,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Schlachtensee.json",
+    "properties": {
+      "uuid": "DEBE06AL5Co00000",
+      "sch": "110000060608",
+      "nam": "Schlachtensee",
+      "gdf": 4063739,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Lankwitz",
+    "centroid_lat": 5810356.5694909,
+    "centroid_lon": 387720.98745588,
+    "bbox_min_lat": 5808506.111,
+    "bbox_max_lat": 5811905.743,
+    "bbox_min_lon": 386286.525,
+    "bbox_max_lon": 389285.014,
+    "area_km2": -121827717982.83464,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Lankwitz.json",
+    "properties": {
+      "uuid": "DEBE06YYA0000001",
+      "sch": "110000060603",
+      "nam": "Lankwitz",
+      "gdf": 6989951,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Nikolassee",
+    "centroid_lat": 5811889.5501272,
+    "centroid_lon": 377490.33493616,
+    "bbox_min_lat": 5808357.598,
+    "bbox_max_lat": 5815062.73,
+    "bbox_min_lon": 375091.835,
+    "bbox_max_lon": 380333.98,
+    "area_km2": -277424002450.99725,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Nikolassee.json",
+    "properties": {
+      "uuid": "DEBE06YYA0000003",
+      "sch": "110000060606",
+      "nam": "Nikolassee",
+      "gdf": 18207351.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Lichterfelde",
+    "centroid_lat": 5809817.09427356,
+    "centroid_lon": 384852.75475434,
+    "bbox_min_lat": 5806769.747,
+    "bbox_max_lat": 5813455.852,
+    "bbox_min_lon": 382153.072,
+    "bbox_max_lon": 387477.985,
+    "area_km2": 129720035022.59311,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Lichterfelde.json",
+    "properties": {
+      "uuid": "DEBE06YYA0000005",
+      "sch": "110000060602",
+      "nam": "Lichterfelde",
+      "gdf": 18226316.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Wannsee",
+    "centroid_lat": 5809360.29042098,
+    "centroid_lon": 373597.31575739,
+    "bbox_min_lat": 5805751.003,
+    "bbox_max_lat": 5812923.216,
+    "bbox_min_lon": 370000.825,
+    "bbox_max_lon": 376721.198,
+    "area_km2": 567589310276.7733,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Wannsee.json",
+    "properties": {
+      "uuid": "DEBE06YYA0000007",
+      "sch": "110000060607",
+      "nam": "Wannsee",
+      "gdf": 23735618.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Steglitz",
+    "centroid_lat": 5812977.43131676,
+    "centroid_lon": 386690.49267199,
+    "bbox_min_lat": 5811578.887,
+    "bbox_max_lat": 5814349.62,
+    "bbox_min_lon": 384776.657,
+    "bbox_max_lon": 388697.526,
+    "area_km2": 95872323138.75867,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Steglitz.json",
+    "properties": {
+      "uuid": "DEBE06YYA0000009",
+      "sch": "110000060601",
+      "nam": "Steglitz",
+      "gdf": 6785817,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Dahlem",
+    "centroid_lat": 5813347.14389735,
+    "centroid_lon": 383024.41089987,
+    "bbox_min_lat": 5811554.984,
+    "bbox_max_lat": 5814750.076,
+    "bbox_min_lon": 380929.807,
+    "bbox_max_lon": 385192.636,
+    "area_km2": -102088742848.86012,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Dahlem.json",
+    "properties": {
+      "uuid": "DEBE06YYA000000B",
+      "sch": "110000060605",
+      "nam": "Dahlem",
+      "gdf": 8395006,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Zehlendorf",
+    "centroid_lat": 5811007.3254785,
+    "centroid_lon": 381160.53468414,
+    "bbox_min_lat": 5807409.58,
+    "bbox_max_lat": 5814684.528,
+    "bbox_min_lon": 378912.786,
+    "bbox_max_lon": 383304.252,
+    "area_km2": 115440251961.97543,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Zehlendorf.json",
+    "properties": {
+      "uuid": "DEBE06YYA000000D",
+      "sch": "110000060604",
+      "nam": "Zehlendorf",
+      "gdf": 16158065.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Marienfelde",
+    "centroid_lat": 5807898.34187362,
+    "centroid_lon": 389180.9265531,
+    "bbox_min_lat": 5805448.378,
+    "bbox_max_lat": 5810023.267,
+    "bbox_min_lon": 387285.293,
+    "bbox_max_lon": 390936.687,
+    "area_km2": -166884957083.1532,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Marienfelde.json",
+    "properties": {
+      "uuid": "DEBE07YY90000001",
+      "sch": "110000070705",
+      "nam": "Marienfelde",
+      "gdf": 9142969,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Lichtenrade",
+    "centroid_lat": 5806113.32033123,
+    "centroid_lon": 391435.75391185,
+    "bbox_min_lat": 5804048.376,
+    "bbox_max_lat": 5808750.777,
+    "bbox_min_lon": 389750.242,
+    "bbox_max_lon": 392978.13,
+    "area_km2": 142371863509.16113,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Lichtenrade.json",
+    "properties": {
+      "uuid": "DEBE07YY90000003",
+      "sch": "110000070706",
+      "nam": "Lichtenrade",
+      "gdf": 10051770.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Tempelhof",
+    "centroid_lat": 5814143.25869221,
+    "centroid_lon": 390678.64730434,
+    "bbox_min_lat": 5811700.286,
+    "bbox_max_lat": 5816299.559,
+    "bbox_min_lon": 388275.558,
+    "bbox_max_lon": 393089.265,
+    "area_km2": 272781178474.41858,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Tempelhof.json",
+    "properties": {
+      "uuid": "DEBE07YY90000005",
+      "sch": "110000070703",
+      "nam": "Tempelhof",
+      "gdf": 12180384.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Mariendorf",
+    "centroid_lat": 5811029.97415417,
+    "centroid_lon": 390621.29077969,
+    "bbox_min_lat": 5808585.911,
+    "bbox_max_lat": 5812684.293,
+    "bbox_min_lon": 388714.372,
+    "bbox_max_lon": 392417.116,
+    "area_km2": -106971261666.9454,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Mariendorf.json",
+    "properties": {
+      "uuid": "DEBE07YY90000007",
+      "sch": "110000070704",
+      "nam": "Mariendorf",
+      "gdf": 9377598,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Schöneberg",
+    "centroid_lat": 5815715.05620376,
+    "centroid_lon": 388247.02765721,
+    "bbox_min_lat": 5812858.991,
+    "bbox_max_lat": 5818486.349,
+    "bbox_min_lon": 386981.798,
+    "bbox_max_lon": 389770.353,
+    "area_km2": -117244469570.66624,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Schöneberg.json",
+    "properties": {
+      "uuid": "DEBE07YY90000009",
+      "sch": "110000070701",
+      "nam": "Schöneberg",
+      "gdf": 10642847.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Friedenau",
+    "centroid_lat": 5814868.30371093,
+    "centroid_lon": 386550.82417029,
+    "bbox_min_lat": 5813998.853,
+    "bbox_max_lat": 5815563.313,
+    "bbox_min_lon": 385874.066,
+    "bbox_max_lon": 387521.752,
+    "area_km2": 15357452503.144587,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Friedenau.json",
+    "properties": {
+      "uuid": "DEBE07YY9000000B",
+      "sch": "110000070702",
+      "nam": "Friedenau",
+      "gdf": 1655111,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Rudow",
+    "centroid_lat": 5808464.96340558,
+    "centroid_lon": 397681.05107062,
+    "bbox_min_lat": 5806165.142,
+    "bbox_max_lat": 5811370.953,
+    "bbox_min_lon": 395818.08,
+    "bbox_max_lon": 399615.41,
+    "area_km2": -238283221165.24487,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Rudow.json",
+    "properties": {
+      "uuid": "DEBE08YYF0000001",
+      "sch": "110000080804",
+      "nam": "Rudow",
+      "gdf": 11818287.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Buckow",
+    "centroid_lat": 5808845.70496937,
+    "centroid_lon": 393011.20420627,
+    "bbox_min_lat": 5807836.578,
+    "bbox_max_lat": 5811597.063,
+    "bbox_min_lon": 391154.592,
+    "bbox_max_lon": 396618.544,
+    "area_km2": 202659631855.45706,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Buckow.json",
+    "properties": {
+      "uuid": "DEBE08YYF0000003",
+      "sch": "110000080803",
+      "nam": "Buckow",
+      "gdf": 1629040,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Britz",
+    "centroid_lat": 5811566.64736278,
+    "centroid_lon": 393748.85372844,
+    "bbox_min_lat": 5809253.156,
+    "bbox_max_lat": 5813900.404,
+    "bbox_min_lon": 391636.334,
+    "bbox_max_lon": 396597.49,
+    "area_km2": -33536499025.338886,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Britz.json",
+    "properties": {
+      "uuid": "DEBE08YYF0000005",
+      "sch": "110000080802",
+      "nam": "Britz",
+      "gdf": 12393075.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Neukölln",
+    "centroid_lat": 5815028.90531877,
+    "centroid_lon": 394141.60503856,
+    "bbox_min_lat": 5813158.828,
+    "bbox_max_lat": 5817364.718,
+    "bbox_min_lon": 391755.603,
+    "bbox_max_lon": 396637.994,
+    "area_km2": -252888136588.3135,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Neukölln.json",
+    "properties": {
+      "uuid": "DEBE08YYF0000007",
+      "sch": "110000080801",
+      "nam": "Neukölln",
+      "gdf": 11702642.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Gropiusstadt",
+    "centroid_lat": 5809594.70983292,
+    "centroid_lon": 395571.37659449,
+    "bbox_min_lat": 5808798.35,
+    "bbox_max_lat": 5810737.8,
+    "bbox_min_lon": 394333.917,
+    "bbox_max_lon": 396988.822,
+    "area_km2": 2131080838.731976,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Gropiusstadt.json",
+    "properties": {
+      "uuid": "DEBE08YYF0000009",
+      "sch": "110000080805",
+      "nam": "Gropiusstadt",
+      "gdf": 2669290,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Grünau",
+    "centroid_lat": 5807066.18748652,
+    "centroid_lon": 404476.87032677,
+    "bbox_min_lat": 5804119.969,
+    "bbox_max_lat": 5809639.199,
+    "bbox_min_lon": 401702.982,
+    "bbox_max_lon": 407005.608,
+    "area_km2": 65192702967.3638,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Grünau.json",
+    "properties": {
+      "uuid": "DEBE09YYO0000001",
+      "sch": "110000090913",
+      "nam": "Grünau",
+      "gdf": 9142059,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Niederschöneweide",
+    "centroid_lat": 5812520.54090432,
+    "centroid_lon": 399834.2225713,
+    "bbox_min_lat": 5811230.46,
+    "bbox_max_lat": 5814276.431,
+    "bbox_min_lon": 397656.931,
+    "bbox_max_lon": 402038.449,
+    "area_km2": -159928847353.1302,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Niederschöneweide.json",
+    "properties": {
+      "uuid": "DEBE09YYO0000003",
+      "sch": "110000090905",
+      "nam": "Niederschöneweide",
+      "gdf": 3500763,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Rahnsdorf",
+    "centroid_lat": 5811231.15238323,
+    "centroid_lon": 411843.53237438,
+    "bbox_min_lat": 5808115.788,
+    "bbox_max_lat": 5814512.569,
+    "bbox_min_lon": 408688.908,
+    "bbox_max_lon": 415786.553,
+    "area_km2": -542358249065.3818,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Rahnsdorf.json",
+    "properties": {
+      "uuid": "DEBE09YYO0000005",
+      "sch": "110000090912",
+      "nam": "Rahnsdorf",
+      "gdf": 21442809.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Köpenick",
+    "centroid_lat": 5810860.48389114,
+    "centroid_lon": 405184.63866867,
+    "bbox_min_lat": 5806614.723,
+    "bbox_max_lat": 5815491.557,
+    "bbox_min_lon": 401377.464,
+    "bbox_max_lon": 410121.73,
+    "area_km2": 375834769815.4189,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Köpenick.json",
+    "properties": {
+      "uuid": "DEBE09YYO0000007",
+      "sch": "110000090910",
+      "nam": "Köpenick",
+      "gdf": 34870110.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Oberschöneweide",
+    "centroid_lat": 5813806.34147482,
+    "centroid_lon": 400015.14586393,
+    "bbox_min_lat": 5812404.093,
+    "bbox_max_lat": 5815858.606,
+    "bbox_min_lon": 397744.137,
+    "bbox_max_lon": 402603.355,
+    "area_km2": -136637818207.57208,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Oberschöneweide.json",
+    "properties": {
+      "uuid": "DEBE09YYO0000009",
+      "sch": "110000090909",
+      "nam": "Oberschöneweide",
+      "gdf": 8196630,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Friedrichshagen",
+    "centroid_lat": 5812844.33240028,
+    "centroid_lon": 407448.67459122,
+    "bbox_min_lat": 5810542.195,
+    "bbox_max_lat": 5815206.288,
+    "bbox_min_lon": 404471.006,
+    "bbox_max_lon": 409626.516,
+    "area_km2": 206701520928.71347,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Friedrichshagen.json",
+    "properties": {
+      "uuid": "DEBE09YYO000000B",
+      "sch": "110000090911",
+      "nam": "Friedrichshagen",
+      "gdf": 14033863.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Altglienicke",
+    "centroid_lat": 5807930.93473519,
+    "centroid_lon": 400735.98192519,
+    "bbox_min_lat": 5805984.295,
+    "bbox_max_lat": 5809477.38,
+    "bbox_min_lon": 399039.95,
+    "bbox_max_lon": 402653.646,
+    "area_km2": -133539591744.49316,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Altglienicke.json",
+    "properties": {
+      "uuid": "DEBE09YYO000000D",
+      "sch": "110000090906",
+      "nam": "Altglienicke",
+      "gdf": 7877010,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Müggelheim",
+    "centroid_lat": 5807125.24966429,
+    "centroid_lon": 410454.43796655,
+    "bbox_min_lat": 5804205.975,
+    "bbox_max_lat": 5809677.36,
+    "bbox_min_lon": 406890.446,
+    "bbox_max_lon": 414223.714,
+    "area_km2": -387785925376.34296,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Müggelheim.json",
+    "properties": {
+      "uuid": "DEBE09YYO000000F",
+      "sch": "110000090914",
+      "nam": "Müggelheim",
+      "gdf": 22220447.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Schmöckwitz",
+    "centroid_lat": 5803609.15454262,
+    "centroid_lon": 408379.05504929,
+    "bbox_min_lat": 5799520.66,
+    "bbox_max_lat": 5806528.109,
+    "bbox_min_lon": 405075.67,
+    "bbox_max_lon": 412216.912,
+    "area_km2": -614761716655.5198,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Schmöckwitz.json",
+    "properties": {
+      "uuid": "DEBE09YYO000000H",
+      "sch": "110000090915",
+      "nam": "Schmöckwitz",
+      "gdf": 17124475.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Baumschulenweg",
+    "centroid_lat": 5812955.33865533,
+    "centroid_lon": 396790.81658873,
+    "bbox_min_lat": 5811064.904,
+    "bbox_max_lat": 5815025.525,
+    "bbox_min_lon": 395160.923,
+    "bbox_max_lon": 398124.661,
+    "area_km2": -83397519816.50963,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Baumschulenweg.json",
+    "properties": {
+      "uuid": "DEBE09YYO000000J",
+      "sch": "110000090903",
+      "nam": "Baumschulenweg",
+      "gdf": 4824099,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Johannisthal",
+    "centroid_lat": 5811488.37597125,
+    "centroid_lon": 398410.26046755,
+    "bbox_min_lat": 5809531.95,
+    "bbox_max_lat": 5813280.468,
+    "bbox_min_lon": 396421.537,
+    "bbox_max_lon": 400245.508,
+    "area_km2": 49299810369.348305,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Johannisthal.json",
+    "properties": {
+      "uuid": "DEBE09YYO000000L",
+      "sch": "110000090904",
+      "nam": "Johannisthal",
+      "gdf": 6522065,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Adlershof",
+    "centroid_lat": 5810502.96021868,
+    "centroid_lon": 400961.54486068,
+    "bbox_min_lat": 5809279.149,
+    "bbox_max_lat": 5812164.75,
+    "bbox_min_lon": 399244.572,
+    "bbox_max_lon": 402347.893,
+    "area_km2": 86884388102.793,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Adlershof.json",
+    "properties": {
+      "uuid": "DEBE09YYO000000N",
+      "sch": "110000090907",
+      "nam": "Adlershof",
+      "gdf": 6128150,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Alt-Treptow",
+    "centroid_lat": 5816656.42370581,
+    "centroid_lon": 395471.18041825,
+    "bbox_min_lat": 5815695.776,
+    "bbox_max_lat": 5817507.79,
+    "bbox_min_lon": 394058.264,
+    "bbox_max_lon": 396988.896,
+    "area_km2": 9351250732.577303,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Alt_Treptow.json",
+    "properties": {
+      "uuid": "DEBE09YYO000000P",
+      "sch": "110000090901",
+      "nam": "Alt-Treptow",
+      "gdf": 2313982,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Bohnsdorf",
+    "centroid_lat": 5806299.91087616,
+    "centroid_lon": 402357.6398698,
+    "bbox_min_lat": 5805179.14,
+    "bbox_max_lat": 5808242.649,
+    "bbox_min_lon": 400295.853,
+    "bbox_max_lon": 404282.418,
+    "area_km2": 2349113703.316408,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Bohnsdorf.json",
+    "properties": {
+      "uuid": "DEBE09YYO000000R",
+      "sch": "110000090908",
+      "nam": "Bohnsdorf",
+      "gdf": 6524448,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Plänterwald",
+    "centroid_lat": 5815464.54312332,
+    "centroid_lon": 396748.72158649,
+    "bbox_min_lat": 5814407.866,
+    "bbox_max_lat": 5816748.275,
+    "bbox_min_lon": 395259.674,
+    "bbox_max_lon": 397831.3,
+    "area_km2": -55169563381.8682,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Plänterwald.json",
+    "properties": {
+      "uuid": "DEBE09YYO000000T",
+      "sch": "110000090902",
+      "nam": "Plänterwald",
+      "gdf": 3015289,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Marzahn",
+    "centroid_lat": 5822613.53264346,
+    "centroid_lon": 401841.00233663,
+    "bbox_min_lat": 5818718.83,
+    "bbox_max_lat": 5825903.408,
+    "bbox_min_lon": 399405.3,
+    "bbox_max_lon": 404253.683,
+    "area_km2": 367423120922.5825,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Marzahn.json",
+    "properties": {
+      "uuid": "DEBE10YYS0000003",
+      "sch": "110000101001",
+      "nam": "Marzahn",
+      "gdf": 19551547.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Biesdorf",
+    "centroid_lat": 5818441.63008333,
+    "centroid_lon": 402224.43624058,
+    "bbox_min_lat": 5814650.998,
+    "bbox_max_lat": 5821524.384,
+    "bbox_min_lon": 400579.607,
+    "bbox_max_lon": 403986.613,
+    "area_km2": -176407471842.87735,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Biesdorf.json",
+    "properties": {
+      "uuid": "DEBE10YYS0000009",
+      "sch": "110000101002",
+      "nam": "Biesdorf",
+      "gdf": 12442521.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Falkenberg",
+    "centroid_lat": 5826066.23198171,
+    "centroid_lon": 401718.28248131,
+    "bbox_min_lat": 5825003.225,
+    "bbox_max_lat": 5827392.327,
+    "bbox_min_lon": 400376.692,
+    "bbox_max_lon": 402938.488,
+    "area_km2": 55842369672.997055,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Falkenberg.json",
+    "properties": {
+      "uuid": "DEBE11YYH0000001",
+      "sch": "110000111104",
+      "nam": "Falkenberg",
+      "gdf": 3053073,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Alt-Hohenschönhausen",
+    "centroid_lat": 5822833.11709008,
+    "centroid_lon": 398375.28367835,
+    "bbox_min_lat": 5821427.817,
+    "bbox_max_lat": 5824864.561,
+    "bbox_min_lon": 396053.198,
+    "bbox_max_lon": 400457.361,
+    "area_km2": -154950721627.36484,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Alt_Hohenschönhausen.json",
+    "properties": {
+      "uuid": "DEBE11YYH0000003",
+      "sch": "110000111110",
+      "nam": "Alt-Hohenschönhausen",
+      "gdf": 9352734,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Lichtenberg",
+    "centroid_lat": 5820111.25857384,
+    "centroid_lon": 398026.51253144,
+    "bbox_min_lat": 5818374.842,
+    "bbox_max_lat": 5821639.192,
+    "bbox_min_lon": 396169.234,
+    "bbox_max_lon": 399552.649,
+    "area_km2": -53133969437.31072,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Lichtenberg.json",
+    "properties": {
+      "uuid": "DEBE11YYH0000005",
+      "sch": "110000111103",
+      "nam": "Lichtenberg",
+      "gdf": 7202933,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Fennpfuhl",
+    "centroid_lat": 5820997.12780308,
+    "centroid_lon": 396392.12126768,
+    "bbox_min_lat": 5820289.684,
+    "bbox_max_lat": 5822252.357,
+    "bbox_min_lon": 395272.381,
+    "bbox_max_lon": 397254.331,
+    "area_km2": 15587518335.475098,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Fennpfuhl.json",
+    "properties": {
+      "uuid": "DEBE11YYH0000007",
+      "sch": "110000111111",
+      "nam": "Fennpfuhl",
+      "gdf": 2122596,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Karlshorst",
+    "centroid_lat": 5815821.2552766,
+    "centroid_lon": 400141.24805464,
+    "bbox_min_lat": 5814100.522,
+    "bbox_max_lat": 5817462.241,
+    "bbox_min_lon": 398248.973,
+    "bbox_max_lon": 401689.815,
+    "area_km2": 135060113140.12953,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Karlshorst.json",
+    "properties": {
+      "uuid": "DEBE11YYH0000009",
+      "sch": "110000111102",
+      "nam": "Karlshorst",
+      "gdf": 6549130,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Rummelsburg",
+    "centroid_lat": 5817439.00031934,
+    "centroid_lon": 397614.88379835,
+    "bbox_min_lat": 5815768.203,
+    "bbox_max_lat": 5819327.981,
+    "bbox_min_lon": 396044.386,
+    "bbox_max_lon": 399206.63,
+    "area_km2": 85565229157.74313,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Rummelsburg.json",
+    "properties": {
+      "uuid": "DEBE11YYH000000B",
+      "sch": "110000111112",
+      "nam": "Rummelsburg",
+      "gdf": 4407658,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Malchow",
+    "centroid_lat": 5826353.89465478,
+    "centroid_lon": 397515.74221199,
+    "bbox_min_lat": 5825313.115,
+    "bbox_max_lat": 5827445.229,
+    "bbox_min_lon": 396954.516,
+    "bbox_max_lon": 398284.344,
+    "area_km2": -26433922188.23931,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Malchow.json",
+    "properties": {
+      "uuid": "DEBE11YYH000000D",
+      "sch": "110000111106",
+      "nam": "Malchow",
+      "gdf": 1517944,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Neu-Hohenschönhausen",
+    "centroid_lat": 5825125.20390708,
+    "centroid_lon": 399183.56381621,
+    "bbox_min_lat": 5823826.856,
+    "bbox_max_lat": 5826488.957,
+    "bbox_min_lon": 397219.065,
+    "bbox_max_lon": 401170.99,
+    "area_km2": 129535620858.90941,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Neu_Hohenschönhausen.json",
+    "properties": {
+      "uuid": "DEBE11YYH000000F",
+      "sch": "110000111109",
+      "nam": "Neu-Hohenschönhausen",
+      "gdf": 5153716,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Wartenberg",
+    "centroid_lat": 5826997.61557205,
+    "centroid_lon": 399550.19247884,
+    "bbox_min_lat": 5825519.716,
+    "bbox_max_lat": 5828431.167,
+    "bbox_min_lon": 397398.06,
+    "bbox_max_lon": 401573.856,
+    "area_km2": 144386956243.633,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Wartenberg.json",
+    "properties": {
+      "uuid": "DEBE11YYH000000H",
+      "sch": "110000111107",
+      "nam": "Wartenberg",
+      "gdf": 6923516,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Friedrichsfelde",
+    "centroid_lat": 5818001.39211445,
+    "centroid_lon": 399360.79083044,
+    "bbox_min_lat": 5816683.163,
+    "bbox_max_lat": 5819318.734,
+    "bbox_min_lon": 397681.969,
+    "bbox_max_lon": 401006.998,
+    "area_km2": 81552073547.55034,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Friedrichsfelde.json",
+    "properties": {
+      "uuid": "DEBE11YYH000000J",
+      "sch": "110000111101",
+      "nam": "Friedrichsfelde",
+      "gdf": 5837319,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Hermsdorf",
+    "centroid_lat": 5831040.66345297,
+    "centroid_lon": 385374.13465527,
+    "bbox_min_lat": 5829233.061,
+    "bbox_max_lat": 5832249.175,
+    "bbox_min_lon": 383629.092,
+    "bbox_max_lon": 387410.419,
+    "area_km2": -140493186272.22525,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Hermsdorf.json",
+    "properties": {
+      "uuid": "DEBE12YYJ0000001",
+      "sch": "110000121206",
+      "nam": "Hermsdorf",
+      "gdf": 6059347,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Heiligensee",
+    "centroid_lat": 5830626.92257204,
+    "centroid_lon": 380393.8747502,
+    "bbox_min_lat": 5828509.519,
+    "bbox_max_lat": 5832416.271,
+    "bbox_min_lon": 378219.646,
+    "bbox_max_lon": 383145.952,
+    "area_km2": -29329928955.66757,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Heiligensee.json",
+    "properties": {
+      "uuid": "DEBE12YYJ0000003",
+      "sch": "110000121204",
+      "nam": "Heiligensee",
+      "gdf": 10689541.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Borsigwalde",
+    "centroid_lat": 5827382.43850605,
+    "centroid_lon": 385326.18051237,
+    "bbox_min_lat": 5826626.262,
+    "bbox_max_lat": 5828222.441,
+    "bbox_min_lon": 384217.59,
+    "bbox_max_lon": 386424.339,
+    "area_km2": -10757325086.409046,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Borsigwalde.json",
+    "properties": {
+      "uuid": "DEBE12YYJ0000005",
+      "sch": "110000121211",
+      "nam": "Borsigwalde",
+      "gdf": 2043802,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Waidmannslust",
+    "centroid_lat": 5829867.52018187,
+    "centroid_lon": 386218.09894532,
+    "bbox_min_lat": 5828793.354,
+    "bbox_max_lat": 5830736.762,
+    "bbox_min_lon": 384941.331,
+    "bbox_max_lon": 387595.836,
+    "area_km2": 16513044031.887753,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Waidmannslust.json",
+    "properties": {
+      "uuid": "DEBE12YYJ0000007",
+      "sch": "110000121207",
+      "nam": "Waidmannslust",
+      "gdf": 2232857,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Konradshöhe",
+    "centroid_lat": 5827232.20215478,
+    "centroid_lon": 379815.57952546,
+    "bbox_min_lat": 5825626.683,
+    "bbox_max_lat": 5828694.002,
+    "bbox_min_lon": 379077.387,
+    "bbox_max_lon": 380639.284,
+    "area_km2": -55346403430.28293,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Konradshöhe.json",
+    "properties": {
+      "uuid": "DEBE12YYJ0000009",
+      "sch": "110000121203",
+      "nam": "Konradshöhe",
+      "gdf": 2188499,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Frohnau",
+    "centroid_lat": 5833614.4999928,
+    "centroid_lon": 384249.87553109,
+    "bbox_min_lat": 5831923.946,
+    "bbox_max_lat": 5835915.521,
+    "bbox_min_lon": 382411.264,
+    "bbox_max_lon": 385698.73,
+    "area_km2": -80186974808.50375,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Frohnau.json",
+    "properties": {
+      "uuid": "DEBE12YYJ000000B",
+      "sch": "110000121205",
+      "nam": "Frohnau",
+      "gdf": 7839990,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Märkisches Viertel",
+    "centroid_lat": 5828970.04339466,
+    "centroid_lon": 388627.70460036,
+    "bbox_min_lat": 5827954.574,
+    "bbox_max_lat": 5829862.393,
+    "bbox_min_lon": 387313.941,
+    "bbox_max_lon": 389990.688,
+    "area_km2": -53638864058.2744,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Märkisches_Viertel.json",
+    "properties": {
+      "uuid": "DEBE12YYJ000000D",
+      "sch": "110000121210",
+      "nam": "Märkisches Viertel",
+      "gdf": 3246042,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Wittenau",
+    "centroid_lat": 5828272.01501407,
+    "centroid_lon": 386730.22769462,
+    "bbox_min_lat": 5826636.888,
+    "bbox_max_lat": 5829992.473,
+    "bbox_min_lon": 384917.687,
+    "bbox_max_lon": 388055.147,
+    "area_km2": 10584707992.186089,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Wittenau.json",
+    "properties": {
+      "uuid": "DEBE12YYJ000000F",
+      "sch": "110000121209",
+      "nam": "Wittenau",
+      "gdf": 5896049,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Lübars",
+    "centroid_lat": 5830740.84202829,
+    "centroid_lon": 388581.04911082,
+    "bbox_min_lat": 5829699.519,
+    "bbox_max_lat": 5831863.371,
+    "bbox_min_lon": 386936.008,
+    "bbox_max_lon": 390060.7,
+    "area_km2": -62446103964.34806,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Lübars.json",
+    "properties": {
+      "uuid": "DEBE12YYJ000000H",
+      "sch": "110000121208",
+      "nam": "Lübars",
+      "gdf": 5010988,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Reinickendorf",
+    "centroid_lat": 5825915.07237784,
+    "centroid_lon": 387856.62632604,
+    "bbox_min_lat": 5824372.231,
+    "bbox_max_lat": 5827960.047,
+    "bbox_min_lon": 384811.374,
+    "bbox_max_lon": 390832.614,
+    "area_km2": 73987397578.17345,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Reinickendorf.json",
+    "properties": {
+      "uuid": "DEBE12YYJ000000J",
+      "sch": "110000121201",
+      "nam": "Reinickendorf",
+      "gdf": 10480989.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  },
+  {
+    "ortsteil_name": "Tegel",
+    "centroid_lat": 5827139.29199843,
+    "centroid_lon": 382785.25762271,
+    "bbox_min_lat": 5823436.163,
+    "bbox_max_lat": 5832057.877,
+    "bbox_min_lon": 379496.739,
+    "bbox_max_lon": 386226.662,
+    "area_km2": 279106764592.3214,
+    "geometry_type": "MultiPolygon",
+    "geometry_file": "geometry_files/ortsteil/Tegel.json",
+    "properties": {
+      "uuid": "DEBE12YYJ000000L",
+      "sch": "110000121202",
+      "nam": "Tegel",
+      "gdf": 33636381.0,
+      "bezeich": "AX_KommunalesGebiet"
+    }
+  }
+]
