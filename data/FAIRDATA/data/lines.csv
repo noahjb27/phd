@@ -1,0 +1,2100 @@
+line_id,jahr,linien_name,typ,dauer (min),ost_west,frequenz,länge (km),start,ziel
+19461,1946,1,autobus,,both/unkown,25,,Flughafen,Alt-Friedrichsfelde
+19462,1946,1,straßenbahn,15.0,both/unkown,10,,Hackescher Markt,Anhalter Bahnhof
+19463,1946,17,autobus,,both/unkown,30,,"Zehlendorf, Rathaus",Stölpchensee
+19464,1946,21,straßenbahn,15.0,both/unkown,6,,Wiebestrasse,Anhalter Bhf.
+19465,1946,23,straßenbahn,20.0,both/unkown,10,,Rosenthal,Fennstrasse
+19466,1946,4,straßenbahn,15.0,both/unkown,7,,Warschauer Brücke,Strelitzerstrasse
+19467,1946,5,autobus,,both/unkown,60,,"Steglitz, Rathaus","Zehlendorf, Rathaus"
+19468,1946,6,straßenbahn,,both/unkown,12,,"Schönberg, Wartburgplatz","Treptow, Elsenstrasse"
+19469,1946,8,straßenbahn,20.0,both/unkown,15,,"Seestrasse, Friedhöfe",Gürtelstrasse Ecke Frankfurter Allee
+194610,1946,9,autobus,15.0,both/unkown,10,,Alexanderplatz,"Charlottenburg, Knie"
+194611,1946,13,straßenbahn,30.0,both/unkown,15,,Türschmidtstrasse Ecke Karlshorster Strasse,Kraftwerk Klingenberg
+194612,1946,3,straßenbahn,,both/unkown,10,,Gotzkowskystrasse,Gardepionierplatz
+194613,1946,D,autobus,,both/unkown,12,,U-Bhf. Friedrichsfelde,"Dahlwitz, Kol. Waldesruh"
+194614,1946,H,autobus,,both/unkown,15,,U-Bhf. Lichtenberg,Hönow
+194615,1946,24,straßenbahn,20.0,both/unkown,15,,Buchholz,Ramlerstrasse
+194616,1946,25,straßenbahn,,both/unkown,15,,"Tegel, Alt-Tegel",Togostrasse
+194617,1946,27,autobus,30.0,both/unkown,20,,Müggelheim,"Köpenick, Krankenhaus"
+194618,1946,27,straßenbahn,20.0,both/unkown,10,,Buckow,"Neukölln, Steinmetzstrasse"
+194619,1946,28,straßenbahn,,both/unkown,30,,Tegelort,Ramlerstrasse
+194620,1946,128,straßenbahn,,both/unkown,30,,Heiligensee,Ramlerstrasse
+194621,1946,41,straßenbahn,20.0,both/unkown,15,,"Tegel, Alt-Tegel",Ramlerstrasse
+194622,1946,141,straßenbahn,20.0,both/unkown,15,,"Wilhelmsruh, Hauptstrasse",Ramlerstrasse
+194623,1946,47,straßenbahn,,both/unkown,10,,Nordend,U-Bahnhof Danziger Strasse
+194624,1946,147,straßenbahn,,both/unkown,15,,"Britz, Rudower Strasse",Schönefeld
+194625,1946,49,straßenbahn,,both/unkown,15,,Buchholz,U-Bahnhof Danziger Strasse
+194626,1946,54,straßenbahn,,both/unkown,15,,"Spandau, Johannesstrift",Richard-Wagner-Platz
+194627,1946,55,straßenbahn,20.0,both/unkown,6,,Spandau markt,Gotzkowskystrasse
+194628,1946,60,straßenbahn,15.0,both/unkown,5,,"Weißensee, Rennbahnstrasse",Rathaus
+194629,1946,62,straßenbahn,20.0,both/unkown,15,,"Charlottenburg, Königin-Elisabeht-Strasse","Wilmersdorf, Emser Platz"
+194630,1946,64,straßenbahn,15.0,both/unkown,10,,"Hohenschönhausen, Degener Strasse",Rathaus
+194631,1946,65,straßenbahn,,both/unkown,10,,"Lichtenberg, Scheffelstrasse",Rathaus
+194632,1946,68,straßenbahn,15.0,both/unkown,7,,"Wittenau, Nordbahnhof",Togostrasse
+194633,1946,69,straßenbahn,20.0,both/unkown,7,,Landsberger Allee Ecke Elbinger Strasse,"Oberschöneweide, Edisonstrass Ecke Wilhelminenhofstrasse"
+194634,1946,72,straßenbahn,15.0,both/unkown,7,,"Weißensee, Rennbahnstrasse",Rathaus
+194635,1946,73,straßenbahn,,both/unkown,15,,Heinersdorf,Rathaus
+194636,1946,74,straßenbahn,10.0,both/unkown,5,,"Lichterfelde, Händelplatz",Spittelmarkt
+194637,1946,75,straßenbahn,10.0,both/unkown,5,,Hakenfelde,Alt-Pichelsdorf
+194638,1946,75,straßenbahn,,both/unkown,15,,Freybrücke,"Grunewald, Hubertusallee"
+194639,1946,76,straßenbahn,,both/unkown,15,,Joachimstaler Strasse,Roseneck
+194640,1946,77,straßenbahn,,both/unkown,10,,"Lichterfelde-Süde, Goerzallee Ecke Appenzeller Strasse",Kantstrasse
+194641,1946,82,straßenbahn,,both/unkown,15,,Molkenmarkt,Markgrafendamm
+194642,1946,83,straßenbahn,,both/unkown,20,,"Köpenick, Marienhain über Wendenschloßstrasse",Bhf. Mahlsdorf
+194643,1946,86,straßenbahn,,both/unkown,20,,Bhf. Grünau,Schmöckwitz
+194644,1946,87,straßenbahn,30.0,both/unkown,10,,Dönhoffplatz,Rahnsdorf
+194645,1946,91,straßenbahn,,both/unkown,15,,"Treptow, Rathaus",Johannisthal
+194646,1946,95,straßenbahn,15.0,both/unkown,7,,Hermannplatz,"Köpenick, Krankenhaus"
+194647,1946,96,straßenbahn,,both/unkown,15,,Machnower Schleuse,Bhf. Tempelhof
+194648,1946,99,straßenbahn,10.0,both/unkown,5,,Baerwaldstrasse Ecke Gneisenaustrasse,Bhf. Lichtenrade
+194649,1946,199,straßenbahn,15.0,both/unkown,10,,Nordend,Ramlerstrasse
+194650,1946,KBS 100,s-bahn,,both/unkown,10,,Gesundbrunnen,Gesundbrunnen
+194651,1946,KBS 100a,s-bahn,,both/unkown,30,,Hermannstr.,Grünau
+194652,1946,KBS 100b,s-bahn,,both/unkown,30,,Jungfernheide,Gartenfeld
+194653,1946,KBS 100c,s-bahn,,both/unkown,30,,Spandau,Grünau
+194654,1946,KBS 100d,s-bahn,,both/unkown,30,,Schöneweide,Spindlersfeld
+194655,1946,KBS 103,s-bahn,,both/unkown,30,,Bernau,Stettiner Bahnhof
+194656,1946,KBS 103,s-bahn,,both/unkown,30,,Potsdamer Platz,Lichterfelde Süd
+194657,1946,KBS 104,s-bahn,,both/unkown,30,,Oranienburg,Stettiner Bahnhof
+194658,1946,KBS 104a,s-bahn,,both/unkown,30,,Friedrichstr.,Dreilinden
+194659,1946,KBS 105,s-bahn,60.0,both/unkown,30,,Velten,Stettiner Bahnhof
+194660,1946,KBS 105a,s-bahn,40.0,both/unkown,40,,Potsdamer Platz,Rangsdorf
+194661,1946,KBS 101,s-bahn,15.0,both/unkown,15,,Potsdam,Kaulsdorf
+194662,1946,A,u-bahn,10.0,both/unkown,7,,"Pankow, Vinetastrasse",Wittenbergplatz
+194663,1946,A1,u-bahn,10.0,both/unkown,10,,Wittenbergplatz,Ruhleben
+194664,1946,A2,u-bahn,10.0,both/unkown,10,,Wittenbergplatz,Krumme Lanke
+194665,1946,B,u-bahn,12.0,both/unkown,12,,Hallesches Tor,Warschauer Brücke
+194666,1946,B1,u-bahn,10.0,both/unkown,10,,Innsbrucker Platz,Nollendorfplatz
+194667,1946,B2,u-bahn,10.0,both/unkown,10,,Wittenbergplatz,Uhlandstrasse
+194668,1946,C,u-bahn,7.0,both/unkown,6,,Seestrasse,Grenzallee
+194669,1946,D,u-bahn,7.0,both/unkown,6,,Gesundbrunnen,Leinestrasse
+194670,1946,E,u-bahn,10.0,both/unkown,10,,Alexanderplatz,Friedrichsfelde
+194671,1946,Wannsee-Pichelsberg,fähre,120.0,both/unkown,120,,"Pichelsberg, Stössenseebrücke",Wannsee
+19511,1951,1,straßenbahn,,both/unkown,12,,Hallesches Tor (Stresemannstrasse),Charlottenstrasse Ecke Unter den Linden
+19512,1951,2,straßenbahn,,both/unkown,15,,Werftstrasse Ecke Alt-Moabit,Mansteinstrasse (Bhf. Großgörschenstrasse)
+19513,1951,3,straßenbahn,,both/unkown,15,,Osloerstrasse Ecke Grüntalerstrasse,Hermannplatz
+19514,1951,3,straßenbahn,,both/unkown,20,,Osloerstrasse Ecke Grüntalerstrasse,"Treptow, Elsenstrasse"
+19515,1951,4,straßenbahn,,both/unkown,12,,Strelitzerstrasse Ecke Bernauerstrasse,Schlesisches Tor
+19516,1951,6,straßenbahn,,both/unkown,15,,Kurfürstendamm Ecke Joachimstalerstrasse,Elsenstrasse Ecke Heidelbergerstrasse
+19517,1951,13,straßenbahn,,both/unkown,16,,Kraftwerk Klingenberg,Leninallee Ecke Dimitroffstrasse
+19518,1951,14,straßenbahn,,both/unkown,17,,Bersarinplatz,Scheffelstrasse Ecke Möllendorferstrasse
+19519,1951,15,straßenbahn,,both/unkown,15,,"Marienfelde, Daimlerstrasse","Neukölln, Schulenburgpark"
+195110,1951,21,straßenbahn,,both/unkown,115,,"Moabit, Wiebestrasse",Friesenstrasse Ecke Schwiebusserstrasse
+195111,1951,23,straßenbahn,,both/unkown,15,,"Rosenthal, Quickbornerstrasse",Augustenburger Platz (Virchow-Krankenhaus)
+195112,1951,24,straßenbahn,,both/unkown,15,,"Buchholz, Hauptstrasse",Rügenerstrasse Ecke Brunnenstrasse
+195113,1951,25,straßenbahn,,both/unkown,15,,"Tegel, Alt-Tegel","Schöneberg, Gotenstrasse"
+195114,1951,26,straßenbahn,,both/unkown,15,,"Görlitzer Bhf., Spreewaldplatz",Wilhelm-Borgmann Brücke
+195115,1951,27,straßenbahn,,both/unkown,15,,"Neukölln, Hermannplatz","Buckow-West, Alt-Buckow"
+195116,1951,28,straßenbahn,,both/unkown,30,,"Tegelort, Kurzestrasse",Rügenesrstrasse Ecke Brunnenstrasse
+195117,1951,29,straßenbahn,,both/unkown,30,,"Heiligensee, Dorfaue",Rügenesrstrasse Ecke Brunnenstrasse
+195118,1951,35,straßenbahn,,both/unkown,15,,Siemensstadt (Verwaltungsgebäude),"Wilhelmsruh, Hauptstrasse"
+195119,1951,36,straßenbahn,,both/unkown,15,,"Wilhelmsruh, Hauptstrasse",Rügenerstrasse Ecke Brunnenstrasse
+195120,1951,40,straßenbahn,,both/unkown,15,,"Dahlem, Clayallee","Steglitz, Birkbuschstrasse Ecke Siemensstrasse"
+195121,1951,41,straßenbahn,,both/unkown,15,,"Tegel, Alt-Tegel",Rügenerstrasse Ecke Brunnenstrasse
+195122,1951,44,straßenbahn,,both/unkown,17,,"Sandkrugbrücke, Lehrter Bahnhof",Birkbuschstrasse Ecke Siemensstrasse
+195123,1951,46,straßenbahn,,both/unkown,15,,"Nordend, Kaiser-Wilhelm-Strasse",Dönhoffplatz
+195124,1951,47,straßenbahn,,both/unkown,12,,Hermannplatz,"Rudow, Stadtgrenze"
+195125,1951,49,straßenbahn,,both/unkown,15,,"Buchholz, Hauptstrasse",Große Präsidentenstrasse
+195126,1951,51,straßenbahn,,both/unkown,15,,Roseneck,Bhf. Zoo
+195127,1951,54,straßenbahn,,both/unkown,20,,"Spandau, Johannesstift","U-Bhf. Richard-Wagner-Platz, Wintersteinstrasse"
+195128,1951,55,straßenbahn,,both/unkown,15,,"Spandau, Nauener Strasse",Kurfürstendamm v. Marmorhaus
+195129,1951,57,straßenbahn,,both/unkown,10,,Emser Platz,Roseneck
+195130,1951,60,straßenbahn,,both/unkown,15,,Königin-Elisabeth-Strasse Ecke Kaiserdamm,"Lindenhof, Eythstrasse"
+195131,1951,64,straßenbahn,,both/unkown,15,,"Hohenschönhausen, Falkenberger Strasse","Dönhoffplatz, Krausenstrasse"
+195132,1951,65,straßenbahn,,both/unkown,15,,Hackescher Markt,"Loeperplatz, Scheffelstrasse"
+195133,1951,66,straßenbahn,,both/unkown,15,,"Schöneberg, Belzigerstrasse (Straßenbahnhof)","Schöneberg, Thorwaldsenstrasse (August-Viktoria-Krankenhaus"
+195134,1951,68,straßenbahn,,both/unkown,15,,"Wittenau, Nordbahn",Nettelbeckplatz
+195135,1951,69,straßenbahn,,both/unkown,16,,Hackescher Markt,Wilhelminenhofstrasse Ecke Edisonstrasse
+195136,1951,70,straßenbahn,,both/unkown,12,,"Weißensee, Buschallee",Kupfergraben
+195137,1951,71,straßenbahn,,both/unkown,10,,"Heinersdorf, Helgestrasse","Jüdenstrasse, Rathaus"
+195138,1951,72,straßenbahn,,both/unkown,10,,"Weißensee, Rennbahnstrasse Ecke Parkstrasse",Charlottenstrasse Ecke Taubenstrasse
+195139,1951,73,straßenbahn,,both/unkown,20,,Bhf. Lichterfelde-Ost,"Rennbahnstrasse, Weißensee"
+195140,1951,74,straßenbahn,,both/unkown,20,,"Lichtefelde, Finckensteinallee","Rennbahnstrasse, Weißensee"
+195141,1951,75,straßenbahn,,both/unkown,10,,Spandau Hakenfelde,Bhf. Zoo
+195142,1951,76,straßenbahn,,both/unkown,20,,Hundekehle über Königsallee,Anhalter Bhf.
+195143,1951,76E,straßenbahn,,both/unkown,15,,Hundekehlenstrasse Ecke Teplitzerstrasse,Nollendorfplatz
+195144,1951,77,straßenbahn,,both/unkown,20,,Bhf. Zoo,"Lichterfelde, Goerzallee"
+195145,1951,78,straßenbahn,,both/unkown,15,,"Lichterfelde-Süd, Lindenstrasse",Bhf. Zoo
+195146,1951,82,straßenbahn,,both/unkown,20,,Breitestrasse Ecke Mühlendamm,Alt-Stralau
+195147,1951,83,straßenbahn,,both/unkown,25,,Wendenschloß Ecke Ekhofstrasse,S-Bhf. Mahlsdorf
+195148,1951,84,straßenbahn,,both/unkown,20,,Bhf. Friedrichshagen,"Alt-Glienicke, Am Falkenberg"
+195149,1951,86,straßenbahn,,both/unkown,20,,"Mahlsdorf-Süd, Hubertus",Alt-Schmöckwitz
+195150,1951,87,straßenbahn,,both/unkown,25,,"Dönhoffplatz, Krausenstrasse",Rahnsdorf (Mühle)
+195151,1951,88,straßenbahn,,both/unkown,15,,"Steglitz, Stadtpark",Wiener Brücke
+195152,1951,91,straßenbahn,,both/unkown,20,,"Treptow, Rathaus","Friedrichstrasse, Johannisthal"
+195153,1951,92,straßenbahn,,both/unkown,20,,"Dönhoffplatz, Krausenstrasse","Bhf. Oberspree, Sedanstrasse"
+195154,1951,95,straßenbahn,,both/unkown,15,,Attilaplatz,"Köpenick, Krankenhaus"
+195155,1951,96,straßenbahn,,both/unkown,20,,Machnower Schleuse,Bhf. Tempelhof
+195156,1951,98,straßenbahn,,both/unkown,15,,U-Bhf. Tempelhof,Daimlerstrasse Ecke Birnhornweg
+195157,1951,99,straßenbahn,,both/unkown,15,,Mehringplatz/Hallesches Tor,Bhf. Lichtenrade
+195158,1951,76E,straßenbahn,,both/unkown,10,,Hundekehle über Königsallee,Nollendorfplatz
+195159,1951,A I,u-bahn,,both/unkown,10,,Pankow (Vinetastr.),Ruhleben
+195160,1951,A II,u-bahn,,both/unkown,10,,Wittenbergplatz,Krumme Lanke
+195161,1951,A III,u-bahn,,both/unkown,10,,Deutsches Opernhaus (Bismarckstr.),Richard-Wagner-Platz
+195162,1951,A1 (Obus),autobus,,both/unkown,15,,"Moabit, Waldstrasse Ecke Turmstrasse","Lichterfelde-Süd, Lindenstrasse"
+195163,1951,A10,autobus,,both/unkown,15,,"Westend, Königin-Elisabeth-Strasse","Machnowerstrasse Ecke Andreezeile, Zehlendorf"
+195164,1951,A11,autobus,,both/unkown,20,,U-Bhf. Dahlem-Dorf,"Lankwitz, Trippsteinstrasse"
+195165,1951,A12,autobus,,both/unkown,10,,"Frohnau, Sigismundkorso",Seestrasse Ecke Müllerstrasse
+195166,1951,A13,autobus,,both/unkown,15,,"Spandau, Weinmeisterhornweg",Bhf. Tegel
+195167,1951,A14,autobus,,both/unkown,20,,Bhf. Tegel,Reinickendorf Hauptstrasse Ecke Aroserallee
+195168,1951,A15,autobus,,both/unkown,30,,Bhf. Wittenau,Bhf. Tegel
+195169,1951,A16,autobus,,both/unkown,6,,U-Bhf. Seestrasse,U-Bhf. Breitenbachplatz
+195170,1951,A17,autobus,,both/unkown,15,,Roseneck,Saaleckplatz (Lichterfelde)
+195171,1951,A9,autobus,,both/unkown,0,,"Arnswalder Platz, Elbingerstrasse",Scharnhorststrasse Ecke Kielerstrasse
+195172,1951,A2,autobus,,both/unkown,10,,Rathaus Zehlendorf,"Lankwitz, Trippsteinstrasse"
+195173,1951,A27,autobus,,both/unkown,40,,Müggelheim (An der Großen Krampe),Bhf. Kaulsdorf
+195174,1951,A3,autobus,,both/unkown,8,,Rathaus Zehlendorf,"Stölpchensee, Wilhelmplatz"
+195175,1951,A31,autobus,,both/unkown,10,,"Staaken, Heidelbergplan",Bhf. Spandau
+195176,1951,A32 (Obus),autobus,,both/unkown,12,,Breitenbachplatz,Bhf. Marienfelde
+195177,1951,A33 (Obus),autobus,,both/unkown,8,,Bhf. Steglitz,"Mariendorf, Kaiserstrasse Ecke Mariendorfer Damm"
+195178,1951,A34,autobus,,both/unkown,30,,"Spandau, Askanierring","Alt-Kladow, Kladow"
+195179,1951,A35,autobus,,both/unkown,30,,S-Bhf. Tegel,"Lübars, Dorfplatz"
+195180,1951,A36,autobus,,both/unkown,30,,S-Bhf. Grünau,"Schönefeld, Dorfplatz"
+195181,1951,A37,autobus,,both/unkown,20,,Bhf. Lichtenberg,"Alt-Marzahn, Kirche"
+195182,1951,A38,autobus,,both/unkown,20,,Bhf. Grünau,Walterdorferstrasse Ecke Waldstrasse
+195183,1951,A39,autobus,,both/unkown,20,,Wartenbergerstrasse Ecke Falkenbergerstrasse,"Wartenberg, Siedlung"
+195184,1951,A3E,autobus,,both/unkown,30,,U-Bhf. Oskar-Helene-Heim,"Lichterfelde, Osteweg"
+195185,1951,A4,autobus,,both/unkown,7,,Rathaus Schöneberg,Rathaus Neukölln
+195186,1951,A40,autobus,,both/unkown,20,,"Schlesischer Bhf./Ostbahnhof, Madaistrasse",Robert-Koch-Platz
+195187,1951,A41,autobus,,both/unkown,30,,Dimitroffstrasse Ecke Leninallee,"Marzahn, Bürknersfelde"
+195188,1951,A42,autobus,,both/unkown,20,,Ostseestrasse Ecke Prenzlauer Allee,"Buch, Zepernickerstrasse (Ludwig-Hoffmann-Krankenhaus)"
+195189,1951,A43,autobus,,both/unkown,40,,U-Bhf. Friedrichsfelde,"Pekrunstrasse, Marzahn"
+195190,1951,A44,autobus,,both/unkown,20,,"Bhf. Mahlsdorf, Wodanstrasse","Hönow, Dorfstrasse (Schule)"
+195191,1951,A45,autobus,,both/unkown,20,,"Wilhelmsruh, Fontanestrasse","Weißensee, Lindenallee"
+195192,1951,A5,autobus,,both/unkown,10,,"Falkensee, Hansastrasse Ecke Friedrich-Engel-Strasse","Spandau, Rathaus"
+195193,1951,A6,autobus,,both/unkown,60,,Kladow/Hottengrund,Groß-Glienick/Gutshof
+195194,1951,A7,autobus,,both/unkown,20,,"Pankow, Elsa-Brandströmstrasse","Schildow, Breitestrasse"
+195195,1951,A8,autobus,,both/unkown,20,,U-Bhf. Friedrichsfelde,"Kaulsdorf, Sadowastrasse"
+195196,1951,A19,autobus,,both/unkown,15,,Potsdamer Platz/Leipziger Platz,Stettiner Bhf./Nordbahnhof
+195197,1951,B I,u-bahn,,both/unkown,12,,Innsbrucker Platz,Kottbusser Tor
+195198,1951,B II,u-bahn,,both/unkown,12,,Warschauer Brücke,Uhlandstrasse
+195199,1951,C I,u-bahn,,both/unkown,10,,Seestraße,Grenzallee
+1951100,1951,C II,u-bahn,,both/unkown,10,,Mehringdamm,Tempelhof (Südring)
+1951101,1951,D,u-bahn,,both/unkown,10,,Gesundbrunnen,Leinestr.
+1951102,1951,E,u-bahn,,both/unkown,10,,Friedrichsfelde,Alexanderplatz
+1951103,1951,KBS 100,s-bahn,,both/unkown,0,,Gesundbrunnen,Gesundbrunnen
+1951104,1951,KBS 100a,s-bahn,,both/unkown,0,,Wilmersdorf,Grünau
+1951105,1951,KBS 100b,s-bahn,,both/unkown,0,,Jungfernheide,Gartenfeld
+1951106,1951,KBS 100d,s-bahn,,both/unkown,0,,Schöneweide,Spindlersfeld
+1951107,1951,KBS 101,s-bahn,,both/unkown,0,,Staaken,Strausberg
+1951108,1951,KBS 102,s-bahn,,both/unkown,0,,Potsdam,Erkner
+1951109,1951,KBS 103,s-bahn,,both/unkown,0,,Falkensee,Königs Wusterhausen
+1951110,1951,KBS 104,s-bahn,,both/unkown,0,,Oranienburg,Wannsee
+1951111,1951,KBS 104a,s-bahn,,both/unkown,0,,Zehlendorf,Düppel
+1951112,1951,KBS 105,s-bahn,,both/unkown,0,,Velten (Mark),Anhalter Bahnhof
+1951113,1951,KBS 105b,s-bahn,,both/unkown,0,,Nordbahnhof,Rangsdorf
+1951114,1951,KBS 106,s-bahn,,both/unkown,0,,Bernau (b Bln),Teltow
+1951115,1951,Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt),fähre,20.0,West,60,,Kladow,Wannsee
+19561,1956,1,straßenbahn,33.0,Ost,20,7.66,Schillingbrücke (Ostbahnhof),Am Kupfergraben
+19562,1956,2,straßenbahn,70.0,West,15,,"Wienerstrasse, Spreewaldplatz",Bernauerstrasse Ecke Wollinerstrasse
+19563,1956,3,straßenbahn,45.0,Ost,12,12.09,Mühlenstrasse,Björnsonstrasse
+19564,1956,3,straßenbahn,81.0,West,10,,"Neukölln, Hermannplatz",Grüntalerstrasse Ecke Osloer Strasse
+19565,1956,4,straßenbahn,27.0,both/unkown,5,6.32,Mühlenstrasse,Oderberger Strasse
+19566,1956,6,straßenbahn,58.0,West,10,,Bhf. Zoo,Elsenstrasse Ecke Heidelbergerstrasse
+19567,1956,11,straßenbahn,23.0,Ost,20,5.43,Köpenicker Strasse Ecke Adalbertstrasse,Hannoversche Strasse
+19568,1956,13,straßenbahn,37.0,Ost,15,9.91,"Klingenberg, Blockdammweg",Oderberger Strasse
+19569,1956,15,straßenbahn,36.0,West,15,,Daimlerstrasse,Schulenburgpark
+195610,1956,22,straßenbahn,49.0,Ost,12,11.65,Bhf. Rosenthal,Elisabethstrasse
+195611,1956,23,straßenbahn,29.0,West,15,,Bhf. Wollankstrasse,"Moabit, Zwinglistrasse"
+195612,1956,24,straßenbahn,14.0,West,15,,Bhf. Wollankstrasse,Bernauerstrasse Ecke Wollinerstrasse
+195613,1956,25,straßenbahn,77.0,West,15,,"Tegel, Alt-Tegel","Schöneberg, Gotenstrasse"
+195614,1956,26,straßenbahn,31.0,West,15,,Spreewaldplatz,"Tempelhof, Industriestrasse"
+195615,1956,27,straßenbahn,26.0,West,10,,"Neukölln, Hermannplatz","Buckow, Alt-Buckow"
+195616,1956,28,straßenbahn,59.0,West,20,,"Tegelort, Kurzestrasse",Rügenesrstrasse Ecke Brunnenstrasse
+195617,1956,29,straßenbahn,57.0,West,20,,"Heiligensee, Dorfaue",Rügenerstrasse Ecke Brunnenstrasse
+195618,1956,35,straßenbahn,48.0,West,15,,"Siemensstradt, Nonnendammallee","Reinickendorf, Teichstrasse Ecke Humboldtstrasse"
+195619,1956,36,straßenbahn,20.0,West,15,,Bhf. Wilhelmsruh,Rügenerstrasse Ecke Brunnenstrasse
+195620,1956,40,straßenbahn,20.0,West,15,,"Dahlem, Clayallee","Steglitz, Birkbuschstrasse Ecke Siemensstrasse"
+195621,1956,41,straßenbahn,44.0,West,15,,"Tegel, Alt-Tegel",Bernauerstrasse Ecke Wollinerstrasse
+195622,1956,44,straßenbahn,56.0,West,15,,"Sandkrugbrücke, Lehrter Bahnhof",Birkbuschstrasse Ecke Siemensstrasse
+195623,1956,46,straßenbahn,49.0,Ost,12,11.75,"Niederschönhausen, Schillerstrasse",Am Kupfergraben
+195624,1956,47,straßenbahn,34.0,West,10,,Hermannplatz,"Rudow, Bahnhofstrasse"
+195625,1956,49,straßenbahn,42.0,Ost,16,10.38,Buchholz,Große Präsidentenstrasse
+195626,1956,51,straßenbahn,23.0,West,20,,"Roseneck, Grunewald",Bhf. Zoo
+195627,1956,54,straßenbahn,51.0,West,15,,"Spandau, Johannesstift",Bhf. Zoo
+195628,1956,55,straßenbahn,48.0,West,12,,"Spandau, Nauenerstrasse",Bhf. Zoo
+195629,1956,60,straßenbahn,49.0,West,15,,Königin-Elisabeth-Strasse Ecke Kaiserdamm,Lindenhof Eythstrasse
+195630,1956,63,straßenbahn,41.0,Ost,20,10.16,"Hohenschönhausen, Gartenstadt",Große Präsidentenstrasse
+195631,1956,64,straßenbahn,39.0,Ost,20,12.08,"Hohenschönhausen, Falkenberger Strasse","Dönhoffplatz, Krausenstrasse"
+195632,1956,66,straßenbahn,12.0,West,10,,Belziger Strasse Ecke Martin-Luther-Strasse,Thorwaldsenstrasse Ecke Grazer Damm
+195633,1956,68,straßenbahn,27.0,West,15,,"Bhf. Wittenau, Nordbahn, Cyclopstrasse",Nettelbeckplatz
+195634,1956,69,straßenbahn,79.0,Ost,20,21.39,"Johannisthal, Haeckelstrasse",Walter-Ulbricht-Stadion
+195635,1956,70,straßenbahn,52.0,Ost,12,12.43,"Hohenschönhausen, Falkenberger Strasse",Clara-Zetkin-Strasse Ecke Neue Wilhelmstrasse
+195636,1956,71,straßenbahn,31.0,Ost,10,7.56,"Heinersdorf, Romain-Rolland-Str.","Jüdenstrasse, Berliner Rathaus"
+195637,1956,72,straßenbahn,42.0,Ost,10,10.39,"Weißensee, Rennbahnstrasse Ecke Parkstrasse",Charlottenstrasse Ecke Taubenstrasse
+195638,1956,73,straßenbahn,41.0,West,20,,Bhf. Lichterfelde-Ost,"Potsdamer Platz, Linkstrasse"
+195639,1956,74,straßenbahn,38.0,West,20,,"Lichtefelde, Finckensteinallee","Potsdamer Platz, Linkstrasse"
+195640,1956,74,straßenbahn,38.0,Ost,6,9.4,"Wießensee, Rennbahnstrasse Ecke Parkstrasse",Charlottenstrasse Ecke Taubenstrasse
+195641,1956,75,straßenbahn,59.0,West,10,,"Bhf. Zoo, Kantstrasse",Hakenfelde
+195642,1956,77,straßenbahn,45.0,West,20,,Bhf. Zoo,"Lichterfelde, Goerzallee"
+195643,1956,78,straßenbahn,44.0,West,20,,Bhf. Zoo,Lindenstrasse
+195644,1956,82,straßenbahn,73.0,Ost,20,21.53,"Dönhoffplatz, Krausenstrasse","Köpenick, Hirtestrasse"
+195645,1956,83,straßenbahn,47.0,Ost,20,12.23,Wendenschloß Ecke Ekhofstrasse,S-Bhf. Mahlsdorf
+195646,1956,84,straßenbahn,52.0,Ost,20,13.6,"Altglienicke, Am Falkenberg","Friedrichshagen, Wasserwerk"
+195647,1956,86,straßenbahn,53.0,Ost,20,16.17,Alt-Schmöckwitz,"Mahlsdorf-Süd, Hubertus"
+195648,1956,87,straßenbahn,73.0,Ost,20,21.58,Rahnsdorf,Wiener Brücke
+195649,1956,88,straßenbahn,45.0,West,15,,Stadtpark,Wiener Brücke
+195650,1956,91,straßenbahn,23.0,Ost,20,6.33,"Treptow, Spreeterrassen","Johannisthal, Haeckelstrasse"
+195651,1956,92,straßenbahn,28.0,Ost,20,8.21,"Treptow, Flutgraben",Oberspree
+195652,1956,94,straßenbahn,20.0,West,15,,"Oranienplatz, Dresdenerstrasse","Neukölln, Schulenburgpark"
+195653,1956,95,straßenbahn,42.0,West,15,,Attilaplatz,Sonnenallee Ecke Schwarzer Weg
+195654,1956,95,straßenbahn,37.0,Ost,20,10.95,"Baumschulenweg, Sonnenallee","Köpenick, Krankenhaus"
+195655,1956,96,straßenbahn,32.0,West,15,,U-Bhf. Tempelhof,"Lichterfelde-Süd, Schwelmerstrasse"
+195656,1956,96,straßenbahn,24.0,Ost,20,6.96,Machnower Schleuse,"Teltow, Paul-Gerhardt-Strasse"
+195657,1956,98,straßenbahn,35.0,West,15,,Mehringplatz (Hallesches Tor),Daimlerstrasse Ecke Birnhornweg
+195658,1956,99,straßenbahn,49.0,West,15,,"Lindenstrasse, Jerusalemer Kirche",Bhf. Lichtenrade
+195659,1956,A I,u-bahn,50.0,West,10,,Pankow (Vinetastr.),Ruhleben
+195660,1956,A II,u-bahn,38.0,West,10,,Kottbusser Tor,Krumme Lanke
+195661,1956,A III,u-bahn,1.0,West,10,,Deutsches Opernhaus (Bismarckstr.),Richard-Wagner-Platz
+195662,1956,A1,autobus,57.0,West,15,,"Moabit, Waldstrasse","Lichterfelde, Süd, Lindenstrasse"
+195663,1956,A10,autobus,58.0,West,15,,"Haselhorst, Kirche","Zehlendorf, Andreezeile Ecke Sachtlebenstrasse"
+195664,1956,A11,autobus,26.0,West,5,,Saargemünder Strasse,Trippsteinstrasse Ecke Sonderhauserstrasse
+195665,1956,A12,autobus,44.0,West,10,,U-Bhf. Seestrasse,"Frohnau, Invalidensiedlung"
+195666,1956,A12S,autobus,34.0,West,10,,U-Bhf. Seestrasse,Bhf. Frohnau
+195667,1956,A13,autobus,45.0,West,15,,"Spandau, Weinmeisterhornweg",Bhf. Tegel
+195668,1956,A14,autobus,44.0,West,20,,Osloerstrasse Ecke Schwedenstrasse,"Heiligensee, Hennigsdorferstrasse Ecke Mattenbuder Pfad"
+195669,1956,A15,autobus,38.0,West,15,,Bhf. Wittenau,Bhf. Frohnau
+195670,1956,A16,autobus,39.0,West,6,,U-Bhf. Seestrasse,"Englerallee, Breitenbachplatz"
+195671,1956,A17,autobus,46.0,West,10,,Bhf. Grunewald,"Lichterfelde, Saaleckplatz"
+195672,1956,A18,autobus,30.0,West,7,,Saargemünder Strasse,Kohlhasenbrück
+195673,1956,A19,autobus,38.0,West,10,,"Roseneck, Grunewald","Tempelhof, Flughafen"
+195674,1956,A2,autobus,40.0,West,10,,Am Knie,"Lankwitz, Trippsteinstrasse"
+195675,1956,A20,autobus,20.0,West,15,,Bhf. Tegel,"Lübars, Alt-Lübars"
+195676,1956,A21,autobus,50.0,West,10,,Wentowsteig Ecke Wilhelmsruher Damm,U-Bhf. Fehrbelliner Platz
+195677,1956,A22,autobus,25.0,Ost,20,8.4,"Hessenwinkel, Lindenstrasse","Fichtenau, Stadtgrenze"
+195678,1956,A23,autobus,15.0,Ost,20,3.5,"Altglienicke, Kirche","Altglienicke, Kirche"
+195679,1956,A24,autobus,37.0,West,7,,"Moabit, Wiebestrasse Strassenbahnhof","Tempelhof, Flughafen"
+195680,1956,A25,autobus,57.0,West,10,,Unionplatz,Grüner Weg Ecke Buschkrugallee
+195681,1956,A27,autobus,47.0,Ost,10,16.0,"S-Bhf. Kaulsdorf, Planitzstrasse",Alt-Müggelheim
+195682,1956,A28,autobus,27.0,West,7,,Loewenhardtdamm Ecke Boelckestrasse,Schlesischestrasse Ecke Heckmannufer
+195683,1956,A29,autobus,30.0,West,10,,Roseneck,Anhalter Bhf.
+195684,1956,A3,autobus,39.0,West,10,,Rathaus Zehlendorf,"Stölpchensee, Wilhelmplatz"
+195685,1956,A3E,autobus,11.0,West,30,,Saargemünderstrasse,"Lichterfelde, Osteweg"
+195686,1956,A31,autobus,20.0,West,15,,"Gartenstadt, Staaken, Heidelbergplan",Bhf. Spandau
+195687,1956,A32 (Obus),autobus,28.0,West,5,,Breitenbachplatz,Bhf. Marienfelde
+195688,1956,A33 (Obus),autobus,15.0,West,10,,Bhf. Steglitz,"Mariendorf, Kaiserstrasse Ecke Mariendorfer Damm"
+195689,1956,A34,autobus,45.0,West,30,,"Spandau, Friedhof","Groß-Glienicke, Gutshof"
+195690,1956,A35,autobus,38.0,West,30,,Germersheimer Platz,"Kladow, Hottengrund (Stadtgrenze)"
+195691,1956,A36,autobus,21.0,Ost,40,6.2,S-Bhf. Grünau,"Schönefeld, Dorfplatz"
+195692,1956,A37,autobus,26.0,Ost,10,,Bhf. Lichtenberg,"Alt-Marzahn, Kirche"
+195693,1956,A38,autobus,18.0,Ost,10,6.7,Waltersdorf,S-Bhf. Grünau
+195694,1956,A39,autobus,13.0,Ost,15,4.2,"Wartenberg, Siedlung","Hohenschönhausen, Falkenberger Strasse"
+195695,1956,A4,autobus,54.0,West,12,,Brixplatz,Finowstrasse Ecke Sonnenallee
+195696,1956,A41,autobus,19.0,Ost,15,,Leninallee Ecke Dimitroffstrasse,"Marzahn, Bürknersfelde"
+195697,1956,A42,autobus,41.0,Ost,15,12.1,"Buch, Zepernicker Strasse",Ostseestrasse Ecke Prenzlauerallee
+195698,1956,A43,autobus,19.0,Ost,20,6.2,Bürknersfelde,U-Bhf. Friedrichsfelde
+195699,1956,A44,autobus,13.0,Ost,20,4.3,"Hönow, Dorfstrasse",S-Bhf. Mahlsdorf
+1956100,1956,A44E,autobus,10.0,Ost,20,,Greifswalder Strasse,S-Bhf. Mahlsdorf
+1956101,1956,A45,autobus,45.0,Ost,7,,"Wilhelmsruh, Fontanestrasse","Weißensee, Feldmannstrasse"
+1956102,1956,A46,autobus,34.0,Ost,15,,"Ahrensfeld, Lindenbergerstrasse","Malchow, Dorfstrasse"
+1956103,1956,A47,autobus,16.0,Ost,15,,Bhf. Schöneweide,"S-Bhf. Baumschulenweg, Glanzstrasse"
+1956104,1956,A48,autobus,35.0,West,10,,Potsdamer Strasse Ecke Fischerhüttenstrasse,"Potsdamer Brücke, Am Karlsbad"
+1956105,1956,A49,autobus,14.0,Ost,20,,"Kaulsdorf, Bausdorfstrasse","Kaulsdorf, Hönowerstrasse Ecke Bausdorfstrasse"
+1956106,1956,A5,autobus,26.0,West,10,,Machandelweg Ecke Charlottenburger Chaussee,"Spandau, Waldkrankenhaus"
+1956107,1956,A50,autobus,12.0,West,10,,"Emser Platz, Pfalzburgerstrasse","Roseneck, Rheinbabenallee, Grunewald"
+1956108,1956,A51,autobus,10.0,West,50,,Bhf. Wannsee,Krankenhaus Heckeshorn
+1956109,1956,A52,autobus,38.0,West,30,,Alt-Marienfelde Ecke Marienfelderallee,"Rudow, Kanalstrasse Ecke Mimosenweg"
+1956110,1956,A55,autobus,41.0,Ost,15,,"Wilhelmsruh, Fontanestrasse","Weißensee, Schwarzelfenweg"
+1956111,1956,A6,autobus,13.0,West,60,,Bhf. Wannsee,Glienicker Brücke
+1956112,1956,A7,autobus,43.0,Ost,20,,"Glienicke, Kirche",U-Bhf. Vinetastrasse
+1956113,1956,A8,autobus,35.0,Ost,12,12.0,Waldesruh,U-Bhf. Friedrichsfelde
+1956114,1956,A82P,autobus,5.0,Ost,20,,Kinderheim,Markgrafendamm
+1956115,1956,A9,autobus,26.0,Ost,12,7.1,"Scharnhorststrasse, Volkspolizeikrankenhaus","Arnsalder Platz, Dimitroffstrasse"
+1956116,1956,AL,autobus,8.0,Ost,80,,Lindenberg,"Malchow, Dorfstrasse"
+1956117,1956,AN,autobus,28.0,Ost,20,,Bhf. Hohen Neuendorf,"Glienicke, Elsässerstrasse"
+1956118,1956,B I,u-bahn,23.0,Ost/West,10,,Warschauer Brücke,Uhlandstrasse
+1956119,1956,B II,u-bahn,6.0,Ost/West,5,,Nollendorfplatz,Innsbrucker Platz (Hauptstr.)
+1956120,1956,C I,u-bahn,34.0,West,5,,Kurt-Schumacher-Platz,Grenzallee
+1956121,1956,C II,u-bahn,5.0,West,5,,Mehringdamm,Tempelhof (Südring)
+1956122,1956,D,u-bahn,23.0,West,5,,Gesundbrunnen,Leinestr.
+1956123,1956,E,u-bahn,17.0,Ost,5,,Alexanderplatz,Friedrichsfelde (Tierpark)
+1956124,1956,KBS 100,s-bahn,,both/unkown,0,,Gesundbrunnen,Gesundbrunnen
+1956125,1956,KBS 100a,s-bahn,,both/unkown,0,,Westend,Grünau
+1956126,1956,KBS 100b,s-bahn,,both/unkown,0,,Blankenburg,Warschauer Str.
+1956127,1956,KBS 100c,s-bahn,,both/unkown,0,,Gesundbrunnen,Warschauer Str.
+1956128,1956,KBS 100d,s-bahn,,both/unkown,0,,Jungfernheide,Gartenfeld
+1956129,1956,KBS 101,s-bahn,,both/unkown,0,,Staaken,Strausberg
+1956130,1956,KBS 101a,s-bahn,,both/unkown,0,,Strausberg,Strausberg Nord
+1956131,1956,KBS 102,s-bahn,,both/unkown,0,,Potsdam,Erkner
+1956132,1956,KBS 103,s-bahn,,both/unkown,0,,Falkensee,Königs Wusterhausen
+1956133,1956,KBS 103a,s-bahn,,both/unkown,0,,Spandau West,Spindlersfeld
+1956134,1956,KBS 104,s-bahn,,both/unkown,0,,Oranienburg,Wannsee
+1956135,1956,KBS 104a,s-bahn,,both/unkown,0,,Zehlendorf,Düppel-Kleinmachnow
+1956136,1956,KBS 104b,s-bahn,,both/unkown,0,,Wannsee,Stahnsdorf
+1956137,1956,KBS 105,s-bahn,,both/unkown,0,,Velten (Mark),Rangsdorf
+1956138,1956,KBS 106,s-bahn,,both/unkown,0,,Bernau (b Bln),Teltow
+1956139,1956,O30,autobus,72.0,Ost,20,18.9,Kosterstrasse,Klosterstrasse
+1956140,1956,O37,autobus,,Ost,0,10.0,Bürknersfelde,Bhf. Lichtenberg
+1956141,1956,O40,autobus,23.0,Ost,12,6.3,Ostbahnhof,Robert-Koch-Platz
+1956142,1956,O41,autobus,18.0,Ost,10,6.2,Bürknersfelde,Dimitroffstrasse
+1956143,1956,Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt),fähre,20.0,West,60,,Kladow,Wannsee
+1956144,1956,Wendenschloß<>Grünau,fähre,,Ost,20,,Wendenschloß,Grünau
+19601,1960,1,straßenbahn,33.0,Ost,20,7.7,SchillingBrücke (Ostbahnhof),Am Kupfergraben
+19602,1960,11,straßenbahn,23.0,Ost,20,5.4,Köpenicker Strasse Ecke Adalbertstrasse,"Oranienburger Tor, Hannoversche Strasse"
+19603,1960,13,straßenbahn,37.0,Ost,7,9.9,"Klingenberg, Blockdammweg",Oderberger Strasse
+19604,1960,15,straßenbahn,36.0,West,15,,Daimlerstrasse,Schulenburgpark
+19605,1960,2,straßenbahn,70.0,West,15,,Wolliner Strasse,Spreewaldplatz
+19606,1960,22,straßenbahn,49.0,Ost,13,11.7,Bhf. Rosenthal,Elisabethstrasse
+19607,1960,25,straßenbahn,68.0,West,15,,Wolliner Strasse,Gotenstrasse
+19608,1960,26,straßenbahn,31.0,West,15,,Spreewaldplatz,Industriestrasse
+19609,1960,27,straßenbahn,26.0,West,10,,Hobrechtstrasse,Alt-Buckow
+196010,1960,3,straßenbahn,45.0,Ost,10,12.1,Mühlenstrasse,Bj rnsonstrasse
+196011,1960,3,straßenbahn,79.0,West,10,,Hobrechtstrasse,Grüntaler Strasse
+196012,1960,35,straßenbahn,48.0,West,15,,Nonnendammallee,Bhf. Wilhelmsruh
+196013,1960,4,straßenbahn,27.0,both/unkown,8,6.3,Mühlenstrasse,Oderberger Strasse
+196014,1960,44,straßenbahn,58.0,West,15,,Sandkrugbrücke,Birkbuschstrasse
+196015,1960,46,straßenbahn,51.0,Ost,15,12.1,"Niedersch nhausen, Schillerstrasse",Clara-Zetkin-Strasse
+196016,1960,46E,straßenbahn,41.0,Ost,15,9.8,"Niedersch nhausen, Idastrasse bzw. Nordend","Oranienburger Tor, Hannoversche Strasse"
+196017,1960,47,straßenbahn,34.0,West,10,,Hermannplatz,Bahnhofstrasse
+196018,1960,49,straßenbahn,41.0,Ost,8,10.6,"Buchholz, Hauptstrasse","Hackescher Markt, Große Präsidentenstrasse"
+196019,1960,53,straßenbahn,59.0,West,20,,Nollendorfplatz,Hakenfelde
+196020,1960,54,straßenbahn,60.0,West,20,,Nollendorfplatz,Johannesstift
+196021,1960,55,straßenbahn,54.0,West,12,,Nollendorfplatz,Nauener Strasse
+196022,1960,6,straßenbahn,57.0,West,10,,Wintersteinstrasse,Elsenstrasse
+196023,1960,60,straßenbahn,49.0,West,15,,Königin-Elisabeth-Strasse,Eythstrasse
+196024,1960,63,straßenbahn,38.0,Ost,20,10.2,"Hohensch nhausen, Gartenstadt","Hackescher Markt, Große Präsidentenstrasse"
+196025,1960,64,straßenbahn,39.0,Ost,20,10.2,"Hohensch nhausen, Falkenberger Strasse",D nhoffplatz
+196026,1960,66,straßenbahn,12.0,West,10,,Belziger Strasse,Bergstrasse
+196027,1960,69,straßenbahn,82.0,Ost,20,21.4,"Johannisthal, Haeckelstrasse",Walter-Ulbricht-Stadion
+196028,1960,69E,straßenbahn,59.0,Ost,20,16.3,"Johannisthal, Haeckelstrasse",Kniprodestrasse
+196029,1960,70,straßenbahn,49.0,Ost,12,11.9,"Hohensch nhausen, Falkenberger Strasse",Am Kupfergraben (Haus der Frau)
+196030,1960,71,straßenbahn,32.0,Ost,10,7.6,"Heinersdorf, Romain-Rolland-Str.","J denstrasse, Mokenmarkt"
+196031,1960,72,straßenbahn,46.0,Ost,13,10.5,"Weißensee, Pasedagplatz",Taubenstrasse
+196032,1960,73,straßenbahn,42.0,West,20,,Bhf. Lichterfelde-Ost,Potsdamer Platz
+196033,1960,74,straßenbahn,39.0,West,20,,Finckensteinallee,Potsdamer Platz
+196034,1960,74,straßenbahn,39.0,Ost,8,10.2,"Wie ensee, Pasedagplatz",Leipziger Platz
+196035,1960,74E,straßenbahn,26.0,Ost,8,7.5,Klement-Gottwald-Allee,"J denstrasse, Molkenmarkt"
+196036,1960,75,straßenbahn,57.0,West,20,,"Bhf. Zoo, Kantstrasse",Hakenfelde
+196037,1960,76,straßenbahn,60.0,West,20,,"Spandau, Johannesstift",Kanststrasse Ecke Joachimsthaler Strasse
+196038,1960,77,straßenbahn,49.0,West,20,,Bhf. Zoo,Goerzallee
+196039,1960,78,straßenbahn,48.0,West,20,,Bhf. Zoo,Lichterfelde Süd Lindenstrasse
+196040,1960,82,straßenbahn,75.0,Ost,20,20.9,"Mahlsdorf-Süd, Hubertus",Elisabethstrasse
+196041,1960,83,straßenbahn,47.0,Ost,20,,Wendenschloß Ecke Ekhofstrasse,S-Bhf. Mahlsdorf
+196042,1960,84,straßenbahn,52.0,Ost,20,,"Altglienicke, Am Falkenberg","Friedrichshagen, Wasserwerk"
+196043,1960,86,straßenbahn,53.0,Ost,20,,Alt-Schmöckwitz,"Mahlsdorf-Süd, Hubertus"
+196044,1960,87,straßenbahn,73.0,Ost,20,21.6,Rahnsdorf,Wiener Brücke
+196045,1960,88,straßenbahn,45.0,West,15,,Stadtpark,Wiener Brücke
+196046,1960,92,straßenbahn,38.0,Ost,20,,"Treptow, Flutgraben",Bhf. Oberspree
+196047,1960,95,straßenbahn,42.0,West,15,,Attilaplatz,Schwarzer Weg
+196048,1960,95,straßenbahn,,Ost,20,,"Baumschulenweg, Sonnenallee","Köpenick, Krankenhaus"
+196049,1960,96,straßenbahn,24.0,Ost,20,7.0,Machnower Schleuse,"Teltow, Paul-Gerhardt-Strasse"
+196050,1960,96,straßenbahn,33.0,West,15,,U-Bhf. Tempelhof,Schwelmer Strasse
+196051,1960,98,straßenbahn,35.0,West,15,,Mehringplatz (Hallesches Tor),Daimlerstrasse Ecke Birnhornweg
+196052,1960,99,straßenbahn,49.0,West,15,,Lindenstrasse,Bhf. Lichtenrade
+196053,1960,A1,autobus,58.0,West,15,,Waldstrasse,Lindenstrasse
+196054,1960,A10,autobus,62.0,West,15,,"Haselhorst, Kirche",Lupsteiner Weg
+196055,1960,A11,autobus,26.0,West,10,,Saargem nder Strasse,Trippsteinstrasse
+196056,1960,A12,autobus,47.0,West,20,,Weddingplatz,Hainbuchenstrasse
+196057,1960,A12S,autobus,34.0,West,10,,Weddingplatz,Bhf. Frohnau
+196058,1960,A13,autobus,59.0,West,15,,Alt-Heiligensee,Weinmeisterhornweg
+196059,1960,A14,autobus,53.0,West,15,,Alt-Heiligensee,Rügener Strasse
+196060,1960,A15,autobus,41.0,West,15,,Lübarser Strasse,Bhf. Frohnau
+196061,1960,A16,autobus,44.0,West,10,,Louise-Schroeder-Platz,Englerallee
+196062,1960,A17,autobus,46.0,West,10,,Bhf. Grunewald,Saaleckplatz
+196063,1960,A18,autobus,32.0,West,20,,Saargem nder Strasse,Kohlhasenbr ck
+196064,1960,A19,autobus,40.0,West,10,,Roseneck,Flughafen
+196065,1960,A2,autobus,40.0,West,10,,Strasse des 17. Juni,Trippsteinstrasse
+196066,1960,A20,autobus,36.0,West,15,,Tegelort,"Lübars, Dorfaue"
+196067,1960,A21,autobus,49.0,West,10,,Wentowsteig,U-Bhf. Fehrbelliner Platz
+196068,1960,A22,autobus,27.0,Ost,20,8.5,"Hessenwinkel, Lindenstrasse","Fichtenau, Stadtgrenze"
+196069,1960,A23,autobus,13.0,Ost,20,3.5,"Altglienicke, Kirche","Altglienicke, Kirche"
+196070,1960,A24,autobus,38.0,West,5,,Wiebestrasse,Flughafen
+196071,1960,A25,autobus,63.0,West,10,,Unionplatz,Gutschmidtstrasse
+196072,1960,A27,autobus,42.0,Ost,10,,"S-Bhf. Kaulsdorf, Planitzstrasse",Alt-Müggelheim
+196073,1960,A28,autobus,29.0,West,7,,Loewenhardtdamm,Heckmannufer
+196074,1960,A29,autobus,32.0,West,10,,Roseneck,Anhalter Bhf.
+196075,1960,A3,autobus,39.0,West,10,,Rathaus Zehlendorf,Stölpchensee
+196076,1960,A31,autobus,24.0,West,15,,Machandelweg,Heidebergplan
+196077,1960,A32,autobus,28.0,West,5,,Breitenbachplatz,Bhf. Marienfelde
+196078,1960,A33,autobus,15.0,West,10,,Bhf. Steglitz,Kaiserstrasse
+196079,1960,A34,autobus,45.0,West,30,,"Spandau, Friedhof",Gutshof
+196080,1960,A35,autobus,38.0,West,30,,Germersheimer Platz,Hottengrund
+196081,1960,A38,autobus,18.0,Ost,20,6.7,Waltersdorf,S-Bhf. Grünau
+196082,1960,A39,autobus,13.0,Ost,18,4.2,"Wartenberg, Siedlung","Hohensch nhausen, Falkenberger Strasse"
+196083,1960,A4,autobus,54.0,West,10,,Brixplatz,Finowstrasse
+196084,1960,A42,autobus,34.0,Ost,12,12.1,"Buch, Zepernicker Strasse",Ostseestrasse (Spitze)
+196085,1960,A43,autobus,19.0,Ost,20,6.2,Bürknersfelde,U-Bhf. Friedrichsfelde
+196086,1960,A44,autobus,13.0,Ost,15,4.3,"Hönow, Dorfstrasse",S-Bhf. Mahlsdorf
+196087,1960,A44E,autobus,10.0,Ost,10,2.8,Greifswalder Strasse,S-Bhf. Mahlsdorf
+196088,1960,A45,autobus,42.0,Ost,15,13.3,"Wilhelmsruh, Fontanestrasse","Weißensee, Schwarzelfenweg"
+196089,1960,A46,autobus,30.0,Ost,15,10.8,"Ahrensfeld, Kirche","Malchow, Dorfstrasse"
+196090,1960,A47,autobus,26.0,Ost,20,9.3,Bhf. Schöneweide,S-Bhf. Treptower Park
+196091,1960,A48,autobus,38.0,West,5,,Potsdamer Strasse Ecke Fischerh ttenstrasse,Margaretenstrasse
+196092,1960,A49,autobus,14.0,Ost,20,5.4,"Kaulsdorf, Bausdorfstrasse","Kaulsdorf, Bausdorfstrasse"
+196093,1960,A5,autobus,24.0,West,10,,Machandelweg,Waldkrankenhaus
+196094,1960,A50,autobus,15.0,West,10,,Roseneck,Prager Platz
+196095,1960,A51,autobus,10.0,West,30,,Bhf. Wannsee,Krankenhaus Heckeshorn
+196096,1960,A52,autobus,38.0,West,30,,Alt-Marienfelde,Mimosenweg
+196097,1960,A53,autobus,19.0,West,30,,Krumme Lanke,Thuner Platz
+196098,1960,A55,autobus,38.0,Ost,15,11.4,"Wilhelmsruh, Fontanestrasse","Weißensee, Liebermannstrasse Ecke Piesporter Strasse"
+196099,1960,A56,autobus,12.0,Ost,15,4.2,"Weißensee, Feldtmannstrasse",Wicherstrasse
+1960100,1960,A57,autobus,24.0,Ost,7,6.5,Kniprodestrasse Ecke Erml ndische Strasse,Robert-Koch-Platz
+1960101,1960,A6,autobus,13.0,West,60,,Bhf. Wannsee,Glienicker Brücke
+1960102,1960,A60,autobus,25.0,West,10,,"Roseneck, Hundekehl",Wittenbergplatz
+1960103,1960,A61,autobus,32.0,West,10,,ZobeltitzStrasse,"Gartenplatz, Feldstrasse"
+1960104,1960,A62,autobus,38.0,West,10,,Wittenau,Wittenbergplatz
+1960105,1960,A63,autobus,23.0,West,30,,Radelandstrasse,Seegefelder Weg
+1960106,1960,A64,autobus,21.0,West,10,,U-Bhf. Kurt-Schumacher-Platz,Bernauer Strasse Ecke Gartenstrasse
+1960107,1960,A65,autobus,49.0,West,15,,Goebelplatz,Flughafen Tempelhof
+1960108,1960,A66,autobus,31.0,West,10,,Bismarckplatz,Stephanplatz
+1960109,1960,A67,autobus,25.0,West,10,,"Jerusalems-Kirche, Lindenstrasse",U-Bhf. Grenzallee
+1960110,1960,A68,autobus,19.0,West,15,,Clayallee,"Grazer Damm, OverbeckStrasse"
+1960111,1960,A69,autobus,28.0,West,20,,Bismarckplatz,Brandenburger Tor
+1960112,1960,A7,autobus,40.0,Ost,17,14.7,"Glienicke, Kirche",U-Bhf. Vinetastrasse
+1960113,1960,A70,autobus,26.0,West,10,,Bhf. Wollankstrasse,"Wiebestrasse, Strassenbahnhof"
+1960114,1960,A71,autobus,21.0,West,15,,Bhf. Wilhelmsruh,Wolliner Strasse
+1960115,1960,A8,autobus,36.0,Ost,7,13.2,Waldesruh,U-Bhf. Friedrichsfelde
+1960116,1960,A82P,autobus,5.0,Ost,20,1.2,Kinderheim,Markgrafendamm
+1960117,1960,A9,autobus,27.0,Ost,10,7.3,Kurische Strasse,Scharnhorst- Ecke Kieler Strasse
+1960118,1960,AD/36,autobus,,Ost,7,,"Diepensee, Flughafen",S-Bhf. Grünau
+1960119,1960,AL,autobus,,Ost,45,,Neu-Lindenberg,"Malchow, Dorfstrasse"
+1960120,1960,AN,autobus,20.0,Ost,20,8.3,S-Bhf. Hohen Neuendorf,"Glienicke, Kirche"
+1960121,1960,AS1,autobus,28.0,West,15,,Bhf. Zoo,Hohenzollernring
+1960122,1960,AS2,autobus,40.0,West,20,,Bhf. Zoo,"Lichtenrade, Blohmstrasse Ecke W nsdorfer Strasse"
+1960123,1960,AS3,autobus,24.0,West,15,,Bhf. Zoo,Rathaus Zehlendorf
+1960124,1960,AZ,autobus,36.0,Ost,60,17.2,Groß Ziethen,S-Bhf. Grünau
+1960125,1960,O30,autobus,72.0,Ost,20,18.9,Kosterstrasse,Klosterstrasse
+1960126,1960,O37,autobus,,Ost,0,,Bürknersfelde,Bhf. Lichtenberg
+1960127,1960,O40,autobus,23.0,Ost,10,6.3,Ostbahnhof,Robert-Koch-Platz
+1960128,1960,O41,autobus,18.0,Ost,10,6.2,Bürknersfelde,Dimitroffstrasse
+1960129,1960,Schmöckwitz<>Eichwalde (VEB Kraftverkehr Schöneiche-Rüdersdorf),bus (umlandlinie),14.0,both/unkown,60,3.5,Alt-Schm ckwitz,Bhf. Eichwalde
+1960130,1960,Schmöckwitz<>Ziegenhals (VEB Kraftverkehr Schöneiche-Rüdersdorf),bus (umlandlinie),19.0,both/unkown,90,9.0,Alt-Schm ckwitz,"Ziegenhals, VA Dienststelle"
+1960131,1960,Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt),autobus,20.0,both/unkown,60,,Kladow,Wannsee
+1960132,1960,A I,u-bahn,,Ost/West,0,,Pankow (Vinetastr.),Reichskanzlerplatz
+1960133,1960,A II,u-bahn,,Ost/West,0,,Pankow (Vinetastr.),Krumme Lanke
+1960134,1960,A III,u-bahn,,West,0,,Deutsches Opernhaus (Bismarckstr.),Richard-Wagner-Platz
+1960135,1960,B I,u-bahn,,Ost/West,0,,Warschauer Brücke,Ruhleben
+1960136,1960,B II,u-bahn,,Ost/West,0,,Warschauer Brücke,Krumme Lanke
+1960137,1960,B III,u-bahn,,West,0,,Nollendorfplatz,Innsbrucker Platz (Hauptstr.)
+1960138,1960,C I,u-bahn,,West,0,,Tegel,Grenzallee
+1960139,1960,C II,u-bahn,,West,0,,Tegel,Tempelhof (Südring)
+1960140,1960,D,u-bahn,,West,0,,Gesundbrunnen,Leinestr.
+1960141,1960,E,u-bahn,,Ost,0,,Alexanderplatz,Friedrichsfelde (Tierpark)
+1960142,1960,KBS 100,s-bahn,,both/unkown,0,,Gesundbrunnen,Gesundbrunnen
+1960143,1960,KBS 100a,s-bahn,,both/unkown,0,,Wilmersdorf,Grünau
+1960144,1960,KBS 100b,s-bahn,,both/unkown,0,,Blankenburg,Warschauer Str.
+1960145,1960,KBS 100c,s-bahn,,both/unkown,0,,Gartenfeld,Warschauer Str.
+1960146,1960,KBS 100c,s-bahn,,both/unkown,0,,Halensee,Warschauer Str.
+1960147,1960,KBS 100d,s-bahn,,both/unkown,0,,Jungfernheide,Gartenfeld
+1960148,1960,KBS 101,s-bahn,,both/unkown,0,,Staaken,Strausberg
+1960149,1960,KBS 101a,s-bahn,,both/unkown,0,,Strausberg,Strausberg Nord
+1960150,1960,KBS 102,s-bahn,,both/unkown,0,,Potsdam,Erkner
+1960151,1960,KBS 103,s-bahn,,both/unkown,0,,Falkensee,Königs Wusterhausen
+1960152,1960,KBS 103a,s-bahn,,both/unkown,0,,Spandau West,Spindlersfeld
+1960153,1960,KBS 104,s-bahn,,both/unkown,0,,Oranienburg,Wannsee
+1960154,1960,KBS 104a,s-bahn,,both/unkown,0,,Zehlendorf,Düppel-Kleinmachnow
+1960155,1960,KBS 104b,s-bahn,,both/unkown,0,,Wannsee,Stahnsdorf
+1960156,1960,KBS 105,s-bahn,,both/unkown,0,,Velten (Mark),Rangsdorf
+1960157,1960,KBS 106,s-bahn,,both/unkown,0,,Bernau (b Bln),Teltow
+19611,1961,1,straßenbahn,39.0,Ost,20,,Ostbahnhof,Am Kupfergraben
+19612,1961,2,straßenbahn,60.0,West,15,,Bernauer Strasse Ecke Wolliner Strasse,GotenStrasse
+19613,1961,3,straßenbahn,87.0,West,10,,Grüntaler Straße Ecke Osloer Strasse,Elsenstraße Ecke Heidelberger Strasse
+19614,1961,3,straßenbahn,46.0,Ost,12,,Warschauer Strasse,Björnsonstrasse
+19615,1961,4,straßenbahn,25.0,Ost,8,,Warschauer Strasse,Eberswalderstrasse Ecke Oderberger Strasse
+19616,1961,11,straßenbahn,19.0,Ost,20,,Heinrich-Heine-Strasse,Hannoversche Strasse
+19617,1961,13,straßenbahn,35.0,Ost,8,,"Klingenberg, Blockdammweg",Oderberger Strasse Ecke Eberswalderstrasse
+19618,1961,15,straßenbahn,36.0,West,15,,Daimlerstrasse,Schulenburgpark
+19619,1961,22,straßenbahn,48.0,Ost,12,,Bhf. Rosenthal,Elisabethstrasse
+196110,1961,26,straßenbahn,30.0,West,15,,Spreewaldplatz,Industriestrasse
+196111,1961,27,straßenbahn,30.0,West,15,,Spreewaldplatz,Alt-Buckow Ecke Buckower Damm
+196112,1961,46,straßenbahn,52.0,Ost,12,,"Niederschönhausen, Schillerstrasse",Am Kupfergraben
+196113,1961,47,straßenbahn,34.0,West,10,,Hermannplatz,Bahnhofstrasse
+196114,1961,49,straßenbahn,41.0,Ost,15,,"Buchholz, Hauptstrasse","Hackescher Markt, Große Präsidentenstrasse"
+196115,1961,53,straßenbahn,42.0,West,20,,Richard-Wagner-Platz,Hakenfelde
+196116,1961,54,straßenbahn,43.0,West,20,,Richard-Wagner-Platz,Johannesstift
+196117,1961,55,straßenbahn,54.0,West,12,,Nollendorfplatz,Nauener Strasse
+196118,1961,60,straßenbahn,49.0,West,15,,Königin-Elisabeth-Strasse,Eythstrasse
+196119,1961,63,straßenbahn,36.0,Ost,20,,"Hohenschönhausen, Gartenstadt","Hackescher Markt, Große Präsidentenstrasse"
+196120,1961,64,straßenbahn,27.0,Ost,20,,"Hohenschönhausen, Falkenberger Strasse",Dönhoffplatz
+196121,1961,66,straßenbahn,12.0,West,10,,Belziger Strasse,Bergstrasse
+196122,1961,69,straßenbahn,40.0,Ost,10,,"Johannisthal, Haeckelstrasse",Bhf. Siegfriedstrasse
+196123,1961,70,straßenbahn,49.0,Ost,12,,"Hohenschönhausen, Falkenberger Strasse",Am Kupfergraben
+196124,1961,71,straßenbahn,32.0,Ost,10,,"Heinersdorf, Romain-Rolland-Str.","Jüdenstrasse, Molkenmarkt"
+196125,1961,72,straßenbahn,44.0,Ost,12,,"Weißensee, Pasedagplatz",Taubenstrasse
+196126,1961,73,straßenbahn,42.0,West,20,,Bhf. Lichterfelde-Ost,Potsdamer Platz
+196127,1961,74,straßenbahn,39.0,West,20,,Finckensteinallee,Potsdamer Platz
+196128,1961,74,straßenbahn,39.0,Ost,8,,"Weißensee, Pasedagplatz",Leipziger Strasse Ecke Wilhelmstrasse
+196129,1961,74E,straßenbahn,31.0,Ost,8,,Klement-Gottwald-Allee Ecke Rennbahnstrasse,Spittelmarkt
+196130,1961,75,straßenbahn,59.0,West,20,,"Bhf. Zoo, Kantstrasse",Hakenfelde
+196131,1961,76,straßenbahn,60.0,West,20,,"Bhf. Zoo, Kantstrasse",Johannesstift
+196132,1961,77,straßenbahn,49.0,West,20,,Bhf. Zoo,Goerzallee
+196133,1961,78,straßenbahn,48.0,West,20,,Bhf. Zoo,Lichterfelde-West Lindenstrasse
+196134,1961,82,straßenbahn,64.0,Ost,20,,"Mahlsdorf-Süd, Hubertus","Alexanderplatz, Elisabethstrasse"
+196135,1961,83,straßenbahn,50.0,Ost,20,,Wendenschloß Ecke Ekhofstrasse,S-Bhf. Mahlsdorf
+196136,1961,84,straßenbahn,52.0,Ost,20,,"Altglienicke, Am Falkenberg","Friedrichshagen, Wasserwerk"
+196137,1961,86,straßenbahn,43.0,Ost,20,,Alt-Schmöckwitz,"Mahlsdorf-Süd, Hubertus"
+196138,1961,87,straßenbahn,69.0,Ost,20,,Rahnsdorf,Wiener Brücke
+196139,1961,92,straßenbahn,30.0,Ost,20,,"Oberspree, Bruno-Bürgel-Weg",Wiener Brücke
+196140,1961,95,straßenbahn,33.0,Ost,20,,Krankenhaus Köpenick,S-Bhf. Baumschulenweg
+196141,1961,95P,straßenbahn,3.0,Ost,20,,S-Bhf. Baumschulenweg,Sonnenallee
+196142,1961,95,straßenbahn,26.0,West,15,,Mehringplatz,Schwarzer Weg Ecke Sonnenallee
+196143,1961,96,straßenbahn,45.0,West,15,,Lindenstrasse,Schwelmer Strasse Ecke Ostpreußendamm
+196144,1961,A1,autobus,58.0,West,15,,Waldstrasse Ecke Turmstrasse,Lichterfelde-West Lindenstrasse
+196145,1961,A2,autobus,40.0,West,15,,"Ernst-Reuter-Platz, Straße des 17. Juni",Trippsteinstrasse
+196146,1961,A3,autobus,39.0,West,10,,Rathaus Zehlendorf,"Stölpchensee, Wilhelmplatz"
+196147,1961,A10,autobus,62.0,West,10,,"Haselhorst, Kirche",Lupsteiner Weg
+196148,1961,A11,autobus,30.0,West,7,,Saargemünder Strasse,Trippsteinstrasse
+196149,1961,A12,autobus,54.0,West,20,,Gartenstrasse Ecke Bernauer Strasse,Hainbuchenstrasse
+196150,1961,A13,autobus,59.0,West,15,,Alt-Heiligensee,Weinmeisterhornweg
+196151,1961,A14,autobus,53.0,West,15,,Alt-Heiligensee,Rügener Strasse
+196152,1961,A15,autobus,41.0,West,15,,Lübarser Strasse,Bhf. Frohnau
+196153,1961,A16,autobus,44.0,West,10,,Louise-Schroeder-Platz,Englerallee
+196154,1961,A17,autobus,46.0,West,10,,Bhf. Grunewald,Saaleckplatz
+196155,1961,A18,autobus,32.0,West,20,,Saargemünder Strasse,Kohlhasenbr ck
+196156,1961,A19,autobus,40.0,West,10,,Roseneck,Flughafen
+196157,1961,A20,autobus,36.0,West,15,,Tegelort,"Lübars, Dorfaue"
+196158,1961,A21,autobus,49.0,West,15,,Wentowsteig,U-Bhf. Fehrbelliner Platz
+196159,1961,A22,autobus,29.0,Ost,20,,"Hessenwinkel, Lindenstrasse","Fichtenau, Stadtgrenze"
+196160,1961,A23,autobus,13.0,Ost,20,,"Altglienicke, Kirche","Altglienicke, Kirche"
+196161,1961,A24,autobus,43.0,West,5,,Wiebestrasse,Flughafen
+196162,1961,A25,autobus,63.0,West,10,,Unionplatz,Gutschmidtstrasse
+196163,1961,A26,autobus,5.0,Ost,15,,VEB Bautransporte,Bhf. Schöneweide
+196164,1961,A27,autobus,43.0,Ost,10,,"S-Bhf. Kaulsdorf, Planitzstrasse",Müggelheim
+196165,1961,A28,autobus,29.0,West,7,,Loewenhardtdamm,Heckmannufer
+196166,1961,A29,autobus,32.0,West,10,,Roseneck,Askanischer Platz
+196167,1961,A31,autobus,27.0,West,12,,Machandelweg,Heidebergplan
+196168,1961,A32,autobus,28.0,West,5,,Breitenbachplatz,Bhf. Marienfelde
+196169,1961,A33,autobus,15.0,West,10,,Bhf. Steglitz,Kaiserstrasse
+196170,1961,A34,autobus,45.0,West,30,,"Spandau, Friedhof",Gutshof
+196171,1961,A35,autobus,38.0,West,30,,Germersheimer Platz,Hottengrund
+196172,1961,A38,autobus,18.0,Ost,20,,Waltersdorf,S-Bhf. Grünau
+196173,1961,A39,autobus,13.0,Ost,16,,"Wartenberg, Siedlung","Hohenschönhausen, Falkenberger Strasse"
+196174,1961,A4,autobus,56.0,West,10,,Brixplatz,Harzer Strasse
+196175,1961,A42,autobus,31.0,Ost,12,,"Buch, Kiesgruben",Prenzlauer Promenade (Spitze)
+196176,1961,A43,autobus,19.0,Ost,20,,Bürknersfelde,U-Bhf. Friedrichsfelde
+196177,1961,A44,autobus,13.0,Ost,13,,"Hönow, Dorfstrasse",S-Bhf. Mahlsdorf
+196178,1961,A44E,autobus,8.0,Ost,10,,Greifswalder Strasse,S-Bhf. Mahlsdorf
+196179,1961,A45,autobus,42.0,Ost,23,,"Wilhelmsruh, Fontanestrasse","Weißensee, Schwarzelfenweg"
+196180,1961,A46,autobus,30.0,Ost,15,,"Ahrensfeld, Kirche","Malchow, Dorfstrasse"
+196181,1961,A47,autobus,26.0,Ost,15,,Bhf. Schöneweide,S-Bhf. Treptower Park
+196182,1961,A48,autobus,38.0,West,10,,Potsdamer Strasse Ecke Fischerhüttenstrasse,Margaretenstrasse
+196183,1961,A49,autobus,14.0,Ost,20,,"Kaulsdorf, Bausdorfstrasse","Kaulsdorf, Bausdorfstrasse"
+196184,1961,A5,autobus,24.0,West,10,,Machandelweg,Waldkrankenhaus
+196185,1961,A50,autobus,15.0,West,10,,Roseneck,Prager Platz
+196186,1961,A51,autobus,10.0,West,30,,Bhf. Wannsee,Krankenhaus Heckeshorn
+196187,1961,A52,autobus,37.0,West,30,,Alt-Marienfelde,Mimosenweg
+196188,1961,A53,autobus,26.0,West,20,,Schlachtensee,Thuner Platz
+196189,1961,A55,autobus,42.0,Ost,20,,"Wilhelmsruh, Fontanestrasse","Weißensee, Liebermannstrasse Ecke Piesporter Strasse"
+196190,1961,A56,autobus,13.0,Ost,15,,"Weißensee, Nüßlerstrasse",Wicherstrasse Ecke Prenzlauer Allee
+196191,1961,A57,autobus,24.0,Ost,7,,Kniprodestrasse Ecke Ermländische Strasse,Scharnhorststrasse
+196192,1961,A6,autobus,13.0,West,60,,Bhf. Wannsee,Glienicker Brücke
+196193,1961,A60,autobus,25.0,West,10,,"Roseneck, Hundekehl",Wittenbergplatz
+196194,1961,A61,autobus,32.0,West,10,,ZobeltitzStrasse,"Gartenplatz, Feldstrasse"
+196195,1961,A62,autobus,38.0,West,10,,Wittenau,Wittenbergplatz
+196196,1961,A63,autobus,30.0,West,30,,Radelandstrasse,Seegefelder Weg
+196197,1961,A64,autobus,22.0,West,10,,Bernauer Strasse Ecke Wolliner Strasse,Nachtigalplatz
+196198,1961,A65,autobus,56.0,West,10,,Goebelplatz,Bhf. Sonnenallee
+196199,1961,A66,autobus,13.0,West,20,,"Doppel-Süd, Berlepschstrasse",U-Bhf. Onkel-Toms-Hütte
+1961100,1961,A67,autobus,25.0,West,10,,"Jerusalems-Kirche, Lindenstrasse",U-Bhf. Grenzallee
+1961101,1961,A68,autobus,36.0,West,15,,Clayallee Ecke Königin-Luise-Strasse,Bhf. Tempelhof
+1961102,1961,A69,autobus,29.0,West,20,,Eichkamp,Kongreßhalle
+1961103,1961,A7,autobus,37.0,Ost,10,,"Glienicke, Kirche",U-Bhf. Vinetastrasse
+1961104,1961,A70,autobus,28.0,West,10,,Bhf. Wollankstrasse,"Wiebestrasse, Strassenbahnhof"
+1961105,1961,A71,autobus,22.0,West,15,,Bhf. Wilhelmsruh,Bernauer Strasse Ecke Wolliner Strasse
+1961106,1961,A72,autobus,41.0,West,15,,Alt-Reinickendorf Ecke Rödern Allee,"Nonnendammallee, Siemensstadt"
+1961107,1961,A73,autobus,36.0,West,12,,Bhf. Zoo,Buschkrug Alle Ecke Blaschko-Allee
+1961108,1961,A74,autobus,40.0,West,15,,Königin-Elisabeth-Strasse,Eythstrasse
+1961109,1961,A75,autobus,42.0,West,10,,Munsterdamm Ecke Steglitzer Damm,Wiener Brücke
+1961110,1961,A76,autobus,36.0,West,10,,Blohmstrasse Ecke Wünsdorfer Strasse,Platz der Luftbrücke
+1961111,1961,A77,autobus,25.0,West,10,,Daimlerstrasse,Platz der Luftbrücke
+1961112,1961,A8,autobus,36.0,Ost,8,,"Waldesruh, Malhlsdorfer Allee",U-Bhf. Friedrichsfelde
+1961113,1961,A8E,autobus,24.0,Ost,11,,Sadowastrasse,U-Bhf. Friedrichsfelde
+1961114,1961,A82P,autobus,5.0,Ost,20,,Kinderheim,Markgrafendamm
+1961115,1961,A9,autobus,27.0,Ost,6,,Kurische Strasse,Scharnhorststrasse Ecke Kieler Strasse
+1961116,1961,Flughafen Schönefeld <> Strausberger Platz,autobus,45.0,Ost,10,,Flughafen Schönefeld,Strausberger Platz
+1961117,1961,AD/36,autobus,27.0,Ost,7,,"Diepensee, Flughafen",S-Bhf. Grünau
+1961118,1961,AL,autobus,15.0,Ost,45,,Neu-Lindenberg,"Malchow, Dorfstrasse"
+1961119,1961,AS1,autobus,28.0,West,15,,Bhf. Zoo,Hohenzollernring
+1961120,1961,AS2,autobus,40.0,West,20,,Bhf. Zoo,"Lichtenrade, Blohmstrasse Ecke Wünsdorfer Strasse"
+1961121,1961,AS3,autobus,24.0,West,15,,Bhf. Zoo,Rathaus Zehlendorf
+1961122,1961,AZ,autobus,36.0,Ost,60,,Groß Ziethen,S-Bhf. Grünau
+1961123,1961,A I,u-bahn,18.0,West,10,,Gleisdreieck,Reichskanzlerplatz
+1961124,1961,A II,u-bahn,36.0,West,10,,Kottbusser Tor,Krumme Lanke
+1961125,1961,A III,u-bahn,1.0,West,10,,Deutsche Oper (Bismarckstr.),Richard-Wagner-Platz
+1961126,1961,B I,u-bahn,35.0,West,10,,Schlesisches Tor,Ruhleben
+1961127,1961,B II,u-bahn,40.0,West,10,,Schlesisches Tor,Krumme Lanke
+1961128,1961,B III,u-bahn,6.0,West,5,,Nollendorfplatz,Innsbrucker Platz (Hauptstr.)
+1961129,1961,C I,u-bahn,40.0,West,5,,Tegel,Grenzallee
+1961130,1961,C II,u-bahn,5.0,West,5,,Mehringdamm,Tempelhof (Südring)
+1961131,1961,D,u-bahn,19.0,West,10,,Gesundbrunnen,Leinestr.
+1961132,1961,A,u-bahn,19.0,Ost,2,,Pankow (Vinetastr.),Thälmannplatz
+1961133,1961,E,u-bahn,16.0,Ost,5,,Alexanderplatz,Friedrichsfelde (Tierpark)
+1961134,1961,KBS 100,s-bahn,,West,0,,Gesundbrunnen,Sonnenallee
+1961135,1961,KBS 100a,s-bahn,,West,0,,Wilmersdorf,Grünau
+1961136,1961,KBS 100c,s-bahn,,West,0,,Gartenfeld,Jungfernheide
+1961137,1961,KBS 101,s-bahn,,Ost,0,,Friedrichstr.,Strausberg
+1961138,1961,KBS 101,s-bahn,,West,0,,Spandau West,Friedrichstr.
+1961139,1961,KBS 101c,s-bahn,,Ost,0,,Strausberg,Strausberg Nord
+1961140,1961,KBS 102,s-bahn,,Ost,0,,Potsdam,Griebnitzsee
+1961141,1961,KBS 102,s-bahn,,Ost,0,,Friedrichstr.,Erkner
+1961142,1961,KBS 102,s-bahn,,West,0,,Wannsee,Friedrichstr.
+1961143,1961,KBS 103,s-bahn,,Ost,0,,Falkensee,Albrechtshof
+1961144,1961,KBS 103,s-bahn,,Ost,0,,Friedrichstr.,Königs Wusterhausen
+1961145,1961,KBS 103a,s-bahn,,Ost,0,,Greifswalder Str.,Spindlersfeld
+1961146,1961,KBS 103a,s-bahn,,West,0,,Spandau West,Jungfernheide
+1961147,1961,KBS 104a,s-bahn,,West,0,,Zehlendorf,Düppel-Kleinmachnow
+1961148,1961,KBS 104,s-bahn,,West,0,,Gesundbrunnen,Wannsee
+1961149,1961,KBS 104,s-bahn,,Ost,0,,Oranienburg,Hohen-Neuendorf (b Bln)
+1961150,1961,KBS 105,s-bahn,,Ost,0,,Velten (Mark),Hennigsdorf (b Bln)
+1961151,1961,KBS 105,s-bahn,,West,0,,Heiligensee,Lichtenrade
+1961152,1961,KBS 105,s-bahn,,Ost,0,,Mahlow,Rangsdorf
+1961153,1961,KBS 106,s-bahn,,West,0,,Frohnau,Lichterfelde Süd
+1961154,1961,KBS 106,s-bahn,,Ost,0,,Bernau (b Bln),Grünau
+1961155,1961,O30,autobus,72.0,Ost,20,,Kosterstrasse,Klosterstrasse
+1961156,1961,O37,autobus,46.0,Ost,20,,Dimitroffstrasse Ecke Leninallee,Bhf. Lichtenberg
+1961157,1961,O40,autobus,23.0,Ost,10,,Ostbahnhof,Robert-Koch-Platz
+1961158,1961,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",autobus,40.0,Ost,20,,S-Bhf. Friedrichshagen,"Rüdersdorf, Karl-Marx-Platz"
+1961159,1961,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse (VEB Woltersdorf),autobus,22.0,Ost,20,,S-Bhf. Rahnsdorf,Woltersdorfer Schleuse
+1961160,1961,Schmöckwitz<>Eichwalde (VEB Kraftverkehr Schöneiche-Rüdersdorf),autobus,14.0,Ost,60,,Alt-Schmöckwitz,Bhf. Eichwalde
+1961161,1961,"S-Bhf. Grünau <> Potsdam, Bassinplatz (VEB Potsdam-Babelsberg)",autobus,49.0,Ost,30,,S-Bhf. Grünau,"Potsdam, Bassinplatz"
+1961162,1961,Schmöckwitz<>Ziegenhals (VEB Kraftverkehr Schöneiche-Rüdersdorf),autobus,19.0,Ost,56,,Reifenwerk,"Ziegenhals, VA Dienststelle"
+1961163,1961,Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt),fähre,20.0,West,60,,Kladow,Wannsee
+19641,1964,1,straßenbahn,28.0,Ost,20,,Ostbahnhof,Hannoversche Strasse
+19642,1964,A1P,autobus,6.0,Ost,10,,Adalbertstrasse,"Alexanderplatz, Grunerstrasse"
+19643,1964,3,straßenbahn,45.0,Ost,12,,S-Bhf. Warschauer Strasse,Björnsonstrasse
+19644,1964,4,straßenbahn,26.0,Ost,12,,S-Bhf. Warschauer Strasse,Eberswalderstrasse Ecke Oderberger Strasse
+19645,1964,11,straßenbahn,27.0,Ost,20,,Heinrich-Heine-Strasse,Am Kupfergraben
+19646,1964,13,straßenbahn,38.0,Ost,14,,Hönower Wiesenweg Ecke Blockdammweg,Oderberger Strasse Ecke Eberswalderstrasse
+19647,1964,15,straßenbahn,36.0,West,10,,Daimlerstrasse,Schulenburgpark
+19648,1964,22,straßenbahn,46.0,Ost,12,,"Rosenthal, Hauptstrasse",S-Bhf. Jannowitzbrücke
+19649,1964,46,straßenbahn,47.0,Ost,5,,"Niederschönhausen, Schillerstrasse",Am Kupfergraben
+196410,1964,47,straßenbahn,21.0,West,10,,Gradestrasse Ecke Tempelhofer Weg,Große-Ziethen Chaussee Ecke Waltersdorfer Chaussee
+196411,1964,49,straßenbahn,39.0,Ost,11,,"Buchholz, Hauptstrasse","Hackescher Markt, Große Präsidentenstrasse"
+196412,1964,53,straßenbahn,40.0,West,20,,Richard-Wagner-Platz,Hakenfelde
+196413,1964,54,straßenbahn,41.0,West,20,,Richard-Wagner-Platz,Johannesstift
+196414,1964,55,straßenbahn,51.0,West,15,,Bhf. Zoo,Hakenfelde
+196415,1964,63,straßenbahn,38.0,Ost,20,,"Hohenschönhausen, Gartenstadt","Hackescher Markt, Große Präsidentenstrasse"
+196416,1964,64,straßenbahn,40.0,Ost,20,,"Hohenschönhausen, Falkenberger Strasse",Dönhoffplatz
+196417,1964,69,straßenbahn,84.0,Ost,20,,"Johannisthal, Haeckelstrasse",Walter-Ulbricht-Stadion
+196418,1964,69E,straßenbahn,55.0,Ost,20,,"Johannisthal, Haeckelstrasse",Kniprodestrasse
+196419,1964,70,straßenbahn,49.0,Ost,10,,"Hohenschönhausen, Falkenberger Strasse",Am Kupfergraben
+196420,1964,72,straßenbahn,44.0,Ost,12,,"Weißensee, Pasedagplatz",Taubenstrasse Ecke Glinkastrasse
+196421,1964,74,straßenbahn,37.0,Ost,6,,"Wießensee, Pasedagplatz",Leipziger Strasse Ecke Wilhelmstrasse
+196422,1964,74E,straßenbahn,28.0,Ost,6,,Klement-Gottwald-Allee Ecke Rennbahnstrasse,Spittelmarkt
+196423,1964,75,straßenbahn,58.0,West,20,,"Bhf. Zoo, Kantstrasse",Hakenfelde
+196424,1964,76,straßenbahn,59.0,West,20,,"Bhf. Zoo, Kantstrasse",Johannesstift
+196425,1964,82,straßenbahn,88.0,Ost,20,,"Mahlsdorf-Süd, Hubertus",Walter-Ulbricht-Stadion
+196426,1964,82P,autobus,5.0,Ost,20,,Kinderheim,Markgrafendamm
+196427,1964,83,straßenbahn,44.0,Ost,20,,Wendenschloß Ecke Ekhofstrasse,S-Bhf. Mahlsdorf
+196428,1964,84,straßenbahn,57.0,Ost,10,,Am Falkenberg,"Friedrichshagen, Wasserwerk"
+196429,1964,85,straßenbahn,42.0,Ost,20,,Wendenschloß,"Johannisthal, Haeckelstrasse"
+196430,1964,86,straßenbahn,43.0,Ost,20,,Alt-Schmöckwitz,"Mahlsdorf-Süd, Hubertus"
+196431,1964,87,straßenbahn,67.0,Ost,20,,Rahnsdorf,Wiener Brücke
+196432,1964,92,straßenbahn,18.0,Ost,15,,"Oberspree, Bruno-Bürgel-Weg",Sonnenallee Ecke Baumschulenstrasse
+196433,1964,95,straßenbahn,47.0,Ost,20,,Krankenhaus Köpenick,Wiener Brücke
+196434,1964,95,straßenbahn,25.0,West,15,,Mehringplatz,Schwarzer Weg Ecke Sonnenallee
+196435,1964,96,straßenbahn,49.0,West,15,,Lindenstrasse,Goerzallee
+196436,1964,A1,autobus,58.0,West,15,,"Moabit, Waldstrasse Ecke Turmstrasse",Lindenstrasse Ecke Müllerstrasse
+196437,1964,A2,autobus,39.0,West,10,,Bhf. Zoo,Trippsteinstrasse
+196438,1964,A3,autobus,39.0,West,10,,Rathaus Zehlendorf,"Stölpchensee, Wilhelmplatz"
+196439,1964,A10,autobus,62.0,West,10,,"Haselhorst, Kirche",Lupsteiner Weg
+196440,1964,A11,autobus,34.0,West,7,,Saargemünder Strasse,"Marienfelde, Alt-Marienfelde"
+196441,1964,A12,autobus,54.0,West,20,,Gartenstrasse Ecke Bernauer Strasse,Hainbuchenstrasse Ecke Kastanienallee
+196442,1964,A12S,autobus,31.0,West,10,,Leopoldplatz,Zeltinger Platz
+196443,1964,A13,autobus,57.0,West,15,,Alt-Heiligensee,Weinmeisterhornweg
+196444,1964,A14,autobus,53.0,West,20,,Alt-Heiligensee,Rügener Strasse
+196445,1964,A15,autobus,55.0,West,20,,Lübarser Strasse Ecke Eichhorster Weg,"Frohnau, Invalidensiedlung"
+196446,1964,A16,autobus,50.0,West,15,,Osloer Strasse,Englerallee
+196447,1964,A17,autobus,46.0,West,10,,"Grunewald, Fontanestrasse",Saaleckplatz
+196448,1964,A18,autobus,32.0,West,20,,Saargemünder Strasse,Kohlhasenbrück
+196449,1964,A19,autobus,39.0,West,10,,Roseneck,Flughafen
+196450,1964,A20,autobus,36.0,West,15,,Tegelort,"Lübars, Dorfaue"
+196451,1964,A21,autobus,50.0,West,15,,Wentowsteig,U-Bhf. Fehrbelliner Platz
+196452,1964,A22,autobus,27.0,Ost,20,,"Hessenwinkel, Lindenstrasse","Fichtenau, Stadtgrenze"
+196453,1964,A23,autobus,20.0,Ost,20,,Falkenhöhe,"Altglienicke, Kirche"
+196454,1964,A24,autobus,39.0,West,15,,Wiebestrasse,Flughafen
+196455,1964,A25,autobus,59.0,West,10,,Unionplatz,Grüner Weg Ecke Buschkrug Allee
+196456,1964,A26,autobus,5.0,Ost,15,,VEB Bautransporte,Bhf. Schöneweide
+196457,1964,A27,autobus,43.0,Ost,10,,"S-Bhf. Kaulsdorf, Planitzstrasse",Müggelheim
+196458,1964,A28,autobus,30.0,West,7,,Loewenhardtdamm,Heckmannufer
+196459,1964,A29,autobus,40.0,West,10,,Roseneck,Oranienplatz
+196460,1964,A31,autobus,30.0,West,20,,Machandelweg,Heidebergplan
+196461,1964,A32,autobus,28.0,West,6,,Breitenbachplatz,Bhf. Marienfelde
+196462,1964,A33,autobus,15.0,West,5,,Berlinickestrasse Ecke Albrechtstrasse,"Mariendorf, Kaiserstrasse"
+196463,1964,A34,autobus,48.0,West,30,,"Spandau, Friedhof",Gutshof
+196464,1964,A35,autobus,45.0,West,30,,"Spandau, Friedhof",Hottengrund
+196465,1964,A35E,autobus,7.0,West,274,,Altenheim Hottengrund,Alt-Kladow Ecke Kladower Damm
+196466,1964,A36,autobus,21.0,Ost,20,,Zentralflughafen,S-Bhf. Grünau
+196467,1964,A39,autobus,13.0,Ost,15,,"Wartenberg, Siedlung","Hohenschönhausen, Falkenberger Strasse"
+196468,1964,A4,autobus,56.0,West,10,,Brixplatz,Harzer Strasse
+196469,1964,A42,autobus,31.0,Ost,10,,"Buch, Kiesgruben",Prenzlauer Promenade (Spitze)
+196470,1964,A43,autobus,23.0,Ost,20,,Bürknersfelde,S-Bhf. Nöldnerplatz
+196471,1964,A44,autobus,13.0,Ost,13,,"Hönow, Dorfstrasse",S-Bhf. Mahlsdorf
+196472,1964,A44E,autobus,7.0,Ost,10,,Greifswalder Strasse,S-Bhf. Mahlsdorf
+196473,1964,A45,autobus,38.0,Ost,15,,"Wilhelmsruh, Fontanestrasse","Weißensee, Schwarzelfenweg"
+196474,1964,A46,autobus,30.0,Ost,15,,"Ahrensfeld, Kirche","Malchow, Dorfstrasse"
+196475,1964,A47,autobus,26.0,Ost,10,,Bhf. Schöneweide,S-Bhf. Treptower Park
+196476,1964,A48,autobus,17.0,Ost,5,,Bhf. Schöneweide,Bhf. Schöneweide
+196477,1964,A48,autobus,39.0,West,10,,Potsdamer Strasse Ecke Fischerhüttenstrasse,"Philharmonie, Tiergartenstrasse"
+196478,1964,A49,autobus,14.0,Ost,20,,"Kaulsdorf, Bausdorfstrasse","Kaulsdorf, Bausdorfstrasse"
+196479,1964,A5,autobus,32.0,West,10,,Machandelweg,Nervenklinik
+196480,1964,A50,autobus,19.0,West,10,,Roseneck,Prager Platz
+196481,1964,A51,autobus,10.0,West,28,,Bhf. Wannsee,Krankenhaus Heckeshorn
+196482,1964,A52,autobus,46.0,West,20,,"Marienfelde, Stadtrandsiedlung",Stubenrauchstrasse Ecke Kanalstrasse
+196483,1964,A53,autobus,47.0,West,20,,Dreilindenstrasse,Jungfernstieg
+196484,1964,A54,autobus,7.0,Ost,10,,Storkowerstrasse Ecke Greifswalderstrasse,Dimitroffstrasse Ecke Leninallee
+196485,1964,A55,autobus,39.0,Ost,16,,"Wilhelmsruh, Fontanestrasse","Weißensee, Liebermannstrasse Ecke Piesporter Strasse"
+196486,1964,A56,autobus,13.0,Ost,15,,"Weißensee, Nüßlerstrasse",Wicherstrasse Ecke Prenzlauer Allee
+196487,1964,A57,autobus,24.0,Ost,7,,Kniprodestrasse Ecke Ermländische Strasse,Robert-Koch-Platz
+196488,1964,A58,autobus,18.0,Ost,16,,Fontanestrasse,U-Bhf. Pankow
+196489,1964,A59,autobus,12.0,Ost,7,,Walther-Ulbricht-Stadion,U-Bhf. Thälmannplatz
+196490,1964,A6,autobus,13.0,West,30,,Bhf. Wannsee,Glienicker Brücke
+196491,1964,A60,autobus,26.0,West,10,,"Roseneck, Hundekehl",Wittenbergplatz
+196492,1964,A61,autobus,32.0,West,10,,Zobeltitzstrasse,"Gartenplatz, Feldstrasse"
+196493,1964,A62,autobus,38.0,West,15,,Wittenau,Wittenbergplatz
+196494,1964,A63,autobus,31.0,West,20,,Radelandstrasse Ecke Niederheideweg,Seegefelder Weg
+196495,1964,A64,autobus,26.0,West,7,,Bernauer Strasse Ecke Wolliner Strasse,Höllenderstrasse Ecke Septimer Strasse
+196496,1964,A65,autobus,56.0,West,10,,Goebelplatz,Schulenburgpark
+196497,1964,A66,autobus,18.0,West,20,,"Doppel-Süd, Berlepschstrasse",U-Bhf. Onkel-Toms-Hütte
+196498,1964,A67,autobus,36.0,West,5,,"Jerusalems-Kirche, Lindenstrasse",Otto-Wels-Ring
+196499,1964,A68,autobus,36.0,West,15,,Clayallee Ecke Königin-Luise-Strasse,Bhf. Tempelhof
+1964100,1964,A69,autobus,32.0,West,20,,Eichkamp,Moltkebrücke
+1964101,1964,A7,autobus,34.0,Ost,12,,"Glienicke, Kirche",U-Bhf. Vinetastrasse
+1964102,1964,A7E,autobus,23.0,Ost,11,,"Schildow, Kirche",U-Bhf. Vinetastrasse
+1964103,1964,A70,autobus,27.0,West,10,,Bhf. Wollankstrasse,"Wiebestrasse, Strassenbahnhof"
+1964104,1964,A71,autobus,22.0,West,15,,Bhf. Wilhelmsruh,Bernauer Strasse Ecke Wolliner Strasse
+1964105,1964,A72,autobus,46.0,West,15,,Alt-Reinickendorf Ecke Rödern Allee,Gartenfeld
+1964106,1964,A73,autobus,35.0,West,10,,Bhf. Zoo,Buschkrug Alle Ecke Blaschko-Allee
+1964107,1964,A74,autobus,39.0,West,15,,Königin-Elisabeth-Strasse,Eythstrasse
+1964108,1964,A75,autobus,47.0,West,10,,Munsterdamm Ecke Steglitzer Damm,Hermannplatz
+1964109,1964,A76,autobus,36.0,West,10,,Blohmstrasse Ecke Wünsdorfer Strasse,Platz der Luftbrücke
+1964110,1964,A77,autobus,25.0,West,10,,Daimlerstrasse,Platz der Luftbrücke
+1964111,1964,A78,autobus,26.0,West,10,,Tropfsteinweg Ecke Quarz-Weg,Platz der Luftbrücke
+1964112,1964,A79,autobus,16.0,West,10,,Leopoldplatz,Sommerstrasse Ecke Klemkestrasse
+1964113,1964,A8,autobus,33.0,Ost,10,,"Waldesruh, Malhlsdorfer Allee",U-Bhf. Friedrichsfelde
+1964114,1964,A8E,autobus,21.0,Ost,10,,Sadowastrasse,U-Bhf. Friedrichsfelde
+1964115,1964,A80,autobus,16.0,West,10,,"Spandau, Breitestrasse",Nennhauser Damm Ecke Brunsbütteler Damm
+1964116,1964,A81,autobus,44.0,West,10,,"Bhf. Zoo, Hardenbergplatz",Imbrosweg Ecke Dardanellenweg
+1964117,1964,A83,autobus,47.0,West,10,,Nettelbeckplatz,Belßstrasse
+1964118,1964,A84,autobus,33.0,West,10,,Ringstrasse Ecke Pestalozziplatz,Gotenstrasse Ecke Torgauerstrasse
+1964119,1964,A85,autobus,45.0,West,10,,"Bhf. Zoo, Hardenbergplatz",Holtheimer Weg
+1964120,1964,A86,autobus,51.0,West,15,,Invalidenstrasse,Birkbuschstrasse Ecke Siemensstrasse
+1964121,1964,A87,autobus,10.0,West,20,,"Richard-Wagner-Platz, Wintersteinstrasse",Sophie-Charlotten-Strasse Ecke Pulsstrasse
+1964122,1964,A88,autobus,10.0,West,20,,U-Bhf. Kaiserdamm,Eichkampstrasse Ecke Alte Allee
+1964123,1964,A89,autobus,39.0,West,10,,Grüntaler Straße Ecke Osloer Strasse,Mehringplatz
+1964124,1964,A9,autobus,27.0,Ost,7,,Kurische Strasse,Scharnhorststrasse Ecke Kieler Strasse
+1964125,1964,A90,autobus,35.0,West,15,,"Bhf. Zoo, Hardenbergplatz",Vinetaplatz
+1964126,1964,A91,autobus,19.0,West,7,,U-Bhf. Leinestrasse,Alt-Buckow Ecke Buckower Damm
+1964127,1964,A92,autobus,24.0,West,20,,Machandelweg,Reimerweg Ecke Heerstrasse
+1964128,1964,A99,autobus,48.0,West,10,,Brunnenstrasse Ecke Lortzingstrasse,Germersheimer Platz
+1964129,1964,AD,autobus,24.0,Ost,10,,Diepensee,S-Bhf. Grünau
+1964130,1964,AS,autobus,25.0,Ost,50,,Zühlsdorf,"Schildow, Kirche"
+1964131,1964,A38,autobus,13.0,Ost,150,,"Bonsdorf, Waldstrasse",S-Bhf. Grünau
+1964132,1964,AL,autobus,15.0,Ost,32,,Neu-Lindenberg,"Malchow, Dorfstrasse"
+1964133,1964,AS1,autobus,28.0,West,15,,Bhf. Zoo,Hohenzollernring Ecke Schönwalderstrasse
+1964134,1964,AS2,autobus,44.0,West,17,,Bhf. Zoo,"Lichtenrade, Blohmstrasse Ecke Wünsdorfer Strasse"
+1964135,1964,AS3,autobus,29.0,West,15,,Bhf. Zoo,Rathaus Zehlendorf
+1964136,1964,AS4,autobus,39.0,West,20,,Bhf. Zoo,Stölpchensee
+1964137,1964,AZ,autobus,24.0,Ost,20,,Groß Ziethen,Bhf. Schönefeld
+1964138,1964,A I,u-bahn,36.0,West,10,,Schlesisches Tor,Ruhleben
+1964139,1964,A II,u-bahn,40.0,West,10,,Schlesisches Tor,Krumme Lanke
+1964140,1964,A III,u-bahn,2.0,West,10,,Deutsche Oper (Bismarckstr.),Richard-Wagner-Platz
+1964141,1964,B I,u-bahn,6.0,West,5,,Nollendorfplatz,Innsbrucker Platz
+1964142,1964,B III,u-bahn,3.0,West,10,,Wittenbergplatz,Uhlandstrasse
+1964143,1964,C I,u-bahn,45.0,West,5,,Tegel,Britz-Süd
+1964144,1964,C II,u-bahn,5.0,West,5,,Mehringdamm,Tempelhof (Südring)
+1964145,1964,D,u-bahn,19.0,West,10,,Gesundbrunnen,Leinestr.
+1964146,1964,G,u-bahn,10.0,West,3,,Leopoldplatz,Spichernstrasse
+1964147,1964,KBS 100,s-bahn,,West,0,,Gesundbrunnen,Sonnenallee
+1964148,1964,KBS 100a,s-bahn,,West,0,,Gesundbrunnen,Staaken
+1964149,1964,KBS 100c,s-bahn,,West,0,,Heiligensee,Lichtenrade
+1964150,1964,KBS 100b,s-bahn,,West,0,,Jungfernheide,Gartenfeld
+1964151,1964,KBS 100d,s-bahn,,West,0,,Gesundbrunnen,Lichterfelde Süd
+1964152,1964,KBS 100e,s-bahn,,West,0,,Frohnau,Wannsee
+1964153,1964,KBS 100f,s-bahn,,West,0,,Zehlendorf,Düppel-Kleinmachnow
+1964154,1964,KBS 100g,s-bahn,,West,0,,Friedrichstr.,Spandau West
+1964155,1964,KBS 100h,s-bahn,,West,0,,Friedrichstr.,Wannsee
+1964156,1964,KBS 100k,s-bahn,,West,0,,Zoologischer Garten,Köllnische Heide
+1964157,1964,KBS 101,s-bahn,,Ost,0,,Friedrichstr.,Strausberg
+1964158,1964,KBS 101c,s-bahn,,Ost,0,,Strausberg,Strausberg Nord
+1964159,1964,KBS 102,s-bahn,,Ost,0,,Friedrichstr.,Erkner
+1964160,1964,KBS 103,s-bahn,,Ost,0,,Falkensee,Albrechtshof
+1964161,1964,KBS 103,s-bahn,,Ost,0,,Friedrichstr.,Königs Wusterhausen
+1964162,1964,KBS 103a,s-bahn,,Ost,0,,Friedrichstr.,Zentralflughafen Berlin-Schönefeld
+1964163,1964,KBS 104,s-bahn,,Ost,0,,Oranienburg,Alexanderplatz
+1964164,1964,KBS 104d,s-bahn,,Ost,0,,Hennigsdorf (b Bln),Velten (Mark)
+1964165,1964,KBS 106,s-bahn,,Ost,0,,Bernau (b Bln),Spindlersfeld
+1964166,1964,KBS 106a,s-bahn,,Ost,0,,Schönhauser Allee,Zentralflughafen Berlin-Schönefeld
+1964167,1964,O30,autobus,67.0,Ost,15,,Kosterstrasse,Klosterstrasse
+1964168,1964,O37,autobus,26.0,Ost,15,,Marzahner Chaussee,Bhf. Lichtenberg
+1964169,1964,O40,autobus,23.0,Ost,10,,Ostbahnhof,Robert-Koch-Platz
+1964170,1964,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",straßenbahn,45.0,Ost,20,,S-Bhf. Friedrichshagen (Grenze),"Rüdersdorf, Karl-Marx-Platz"
+1964171,1964,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse (VEB Woltersdorf),straßenbahn,20.0,Ost,20,,S-Bhf. Rahnsdorf,Woltersdorfer Schleuse
+1964172,1964,71,straßenbahn,32.0,Ost,10,,"Heinersdorf, Romain-Rolland-Str.","Jüdenstrasse, Molkenmarkt"
+1964173,1964,A38,autobus,13.0,Ost,20,,"Bohnsdorf, Waldstrasse",S-Bhf. Grünau
+1964174,1964,A,u-bahn,19.0,Ost,2,,Pankow (Vinetastr.),Thälmannplatz
+1964175,1964,E,u-bahn,16.0,Ost,5,,Alexanderplatz,Friedrichsfelde (Tierpark)
+1964176,1964,Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt),fähre,20.0,West,60,,Kladow,Wannsee
+19671,1967,3,straßenbahn,42.0,Ost,15,,Revalerstrasse,Björnsonstrasse
+19672,1967,4,straßenbahn,36.0,Ost,8,,Markusstrasse,Eberswalderstrasse Ecke Oderberger Strasse
+19673,1967,13,straßenbahn,42.0,Ost,8,,Hönower Wiesenweg Ecke Blockdammweg,Oderberger Strasse Ecke Eberswalderstrasse
+19674,1967,22,straßenbahn,29.0,Ost,12,,"Rosenthal, Hauptstrasse",U-Bhf. Dimitroffstrasse
+19675,1967,46,straßenbahn,44.0,Ost,10,,Nordend,Am Kupfergraben
+19676,1967,49,straßenbahn,39.0,Ost,11,,"Buchholz, Hauptstrasse",Hackescher Markt
+19677,1967,63,straßenbahn,49.0,Ost,20,,"Hohenschönhausen, Gartenstadt","Walter-Ulbricht-Stadion, Pflugstrasse"
+19678,1967,64,straßenbahn,41.0,Ost,20,,"Hohenschönhausen, Falkenberger Strasse",Dönhoffplatz
+19679,1967,70,straßenbahn,49.0,Ost,10,,"Hohenschönhausen, Falkenberger Strasse",Am Kupfergraben
+196710,1967,71,straßenbahn,40.0,Ost,10,,Romain-Rolland-Strasse,Am Kupfergraben
+196711,1967,72,straßenbahn,34.0,Ost,10,,"Weißensee, Pasedagplatz",Hackescher Markt
+196712,1967,73,straßenbahn,38.0,Ost,12,,"Weißensee, Bernkastelerstrasse",Walter-Ulbricht-Stadion über Greifswalderstrasse
+196713,1967,74,straßenbahn,47.0,Ost,8,,"Wießensee, Pasedagplatz",Leipziger Strasse Ecke Otto-Grotewohl-Strasse
+196714,1967,82,straßenbahn,89.0,Ost,20,,"Mahlsdorf-Süd, Hubertus",Walter-Ulbricht-Stadion
+196715,1967,82P,autobus,5.0,Ost,20,,Kinderheim,Markgrafendamm
+196716,1967,83,straßenbahn,49.0,Ost,20,,Wendenschloß Ecke Ekhofstrasse,S-Bhf. Mahlsdorf
+196717,1967,83E,straßenbahn,21.0,Ost,0,,S-Bhf. Köpenick,Wendenschloß
+196718,1967,84,straßenbahn,57.0,Ost,10,,Am Falkenberg,"Friedrichshagen, Wasserwerk"
+196719,1967,85,straßenbahn,42.0,Ost,20,,Wendenschloß,"Johannisthal, Haeckelstrasse"
+196720,1967,86,straßenbahn,51.0,Ost,20,,Alt-Schmöckwitz,"Mahlsdorf-Süd, Hubertus"
+196721,1967,87,straßenbahn,70.0,Ost,20,,Rahnsdorf,Wiener Brücke
+196722,1967,92,straßenbahn,18.0,Ost,15,,"Oberspree, Bruno-Bürgel-Weg",Sonnenallee Ecke Baumschulenstrasse
+196723,1967,95,straßenbahn,48.0,Ost,20,,Krankenhaus Köpenick,Wiener Brücke
+196724,1967,A1,autobus,58.0,West,15,,"Moabit, Waldstrasse Ecke Turmstrasse",Lindenstrasse Ecke Müllerstrasse
+196725,1967,A2,autobus,39.0,West,10,,Hardenbergplatz,Sonderhauserstrasse Ecke Hildburghauserstrasse
+196726,1967,A3,autobus,39.0,West,10,,Rathaus Zehlendorf,"Stölpchensee, Wilhelmplatz"
+196727,1967,A10,autobus,62.0,West,10,,"Haselhorst, Kirche",Lupsteiner Weg
+196728,1967,A11,autobus,39.0,West,7,,Saargemünder Strasse Ecke Clayallee,U-Bhf. Alt-Mariendorf
+196729,1967,A12,autobus,54.0,West,15,,Gartenstrasse Ecke Bernauer Strasse,Hainbuchenstrasse Ecke Kastanienallee
+196730,1967,A13,autobus,57.0,West,15,,Alt-Heiligensee Ecke Sandhauserstrasse,Weinmeisterhornweg
+196731,1967,A14,autobus,55.0,West,20,,Alt-Heiligensee Ecke Sandhauserstrasse,Rügener Strasse
+196732,1967,A14E,autobus,9.0,West,30,,Alt-Heiligensee,Falkenplatz
+196733,1967,A15,autobus,55.0,West,20,,Lübarser Strasse Ecke Eichhorster Weg,"Frohnau, Invalidensiedlung"
+196734,1967,A16,autobus,5.0,West,12,,Osloer Strasse Ecke Drontheimerstrasse,Englerallee
+196735,1967,A16,autobus,9.0,Ost,12,,Arkonaplatz,Liebknechstrasse vor Littenstrasse
+196736,1967,A17,autobus,48.0,West,10,,"Grunewald, Fontanestrasse",Saaleckplatz
+196737,1967,A18,autobus,31.0,West,20,,U-Bhf. Oskar-Helene-Heim,Machnowerstrasse Ecke Königsweg
+196738,1967,A18,autobus,20.0,Ost,6,,Adalbertstrasse,Robert-Koch-Platz
+196739,1967,A19,autobus,39.0,West,10,,Roseneck,Flughafen
+196740,1967,A20,autobus,39.0,West,15,,Tegelort,"Lübars, Dorfaue"
+196741,1967,A21,autobus,52.0,West,15,,"Wilhelmsruherdamm, Sektorengrenze",U-Bhf. Fehrbelliner Platz
+196742,1967,A21E,autobus,16.0,West,15,,Alt-Wittenau Ecke Eichborndamm,Senftenberger Ring
+196743,1967,A22,autobus,32.0,Ost,20,,"Hessenwinkel, Lutherstrasse","Fichtenau, Post"
+196744,1967,A23,autobus,20.0,Ost,20,,Falkenhöhe,"Altglienicke, Kirche"
+196745,1967,A24,autobus,39.0,West,15,,Wiebestrasse,Flughafen
+196746,1967,A25,autobus,59.0,West,10,,Unionplatz,Grüner Weg Ecke Buschkrug Allee
+196747,1967,A26,autobus,5.0,Ost,7,,VEB Bautransporte,Bhf. Schöneweide
+196748,1967,A27,autobus,41.0,Ost,10,,"S-Bhf. Kaulsdorf, Planitzstrasse",Müggelheim
+196749,1967,A28,autobus,35.0,West,15,,U-Bhf. Tempelhof,Heckmannufer
+196750,1967,A29,autobus,40.0,West,10,,Roseneck,Oranienplatz
+196751,1967,A31,autobus,28.0,West,20,,U-Bhf. Ruhleben,Heidebergplan
+196752,1967,A32,autobus,28.0,West,6,,Breitenbachplatz,"Marienfelde, Bahnstrasse"
+196753,1967,A33,autobus,20.0,West,7,,Berlinickestrasse Ecke Albrechtstrasse,Dirschelweg Ecke Rixdorferstrasse
+196754,1967,A34,autobus,51.0,West,20,,"Spandau, Wasserwerk",Gutshof
+196755,1967,A34E,autobus,8.0,West,17,,Alt-Gatow Ecke Groß-Glienicker Weg,Siedlung Habichtswald
+196756,1967,A35,autobus,35.0,West,20,,U-Bhf. Ruhleben,Hottengrund
+196757,1967,A35E,autobus,7.0,West,40,,Altenheim Hottengrund,Alt-Kladow Ecke Kladower Damm
+196758,1967,A36,autobus,21.0,Ost,20,,Zentralflughafen,S-Bhf. Grünau
+196759,1967,AD/38,autobus,26.0,Ost,20,,Diepensee,S-Bhf. Grünau
+196760,1967,A39,autobus,13.0,Ost,15,,"Wartenberg, Siedlung","Hohenschönhausen, Falkenberger Strasse"
+196761,1967,A4,autobus,55.0,West,10,,Brixplatz,Teuptitzerstrasse Ecke Kiehl-Ufer
+196762,1967,A41,autobus,27.0,West,20,,Gradestrasse Ecke Tempelhofer Weg,"Rudow Stadtgrenze, Waltersdorfer Chaussee"
+196763,1967,A42,autobus,32.0,Ost,10,,"Buch, Kiesgruben",Ostseestrasse
+196764,1967,A43,autobus,24.0,Ost,20,,Bürknersfelde,S-Bhf. Nöldnerplatz
+196765,1967,A43/R,autobus,7.0,Ost,20,,"Friedrichsfelde, Kirche",S-Bhf. Nöldnerplatz
+196766,1967,A44,autobus,23.0,Ost,18,,"Hönow, Nord",S-Bhf. Mahlsdorf
+196767,1967,A44E,autobus,17.0,Ost,10,,S-Bhf. Mahlsdorf,S-Bhf. Mahlsdorf
+196768,1967,A45,autobus,39.0,Ost,12,,"Wilhelmsruh, Schillerstrasse","Weißensee, Schwarzelfenweg"
+196769,1967,A46,autobus,30.0,Ost,15,,"Ahrensfeld, Kirche","Malchow, Dorfstrasse"
+196770,1967,A47,autobus,26.0,Ost,10,,Bhf. Schöneweide,S-Bhf. Treptower Park
+196771,1967,A48,autobus,17.0,Ost,5,,Bhf. Schöneweide,Bhf. Schöneweide
+196772,1967,A48,autobus,39.0,West,12,,Potsdamer Strasse Ecke Fischerhüttenstrasse,"Philharmonie, Tiergartenstrasse"
+196773,1967,A49,autobus,14.0,Ost,20,,"Bhf. Kaulsdorf, Bausdorfstrasse","Bhf. Kaulsdorf, Bausdorfstrasse"
+196774,1967,A5,autobus,30.0,West,10,,U-Bhf. Ruhleben,Nervenklinik
+196775,1967,A50,autobus,15.0,Ost,10,,"Niederschönhausen, Rolandstrasse",U-Bhf. Pankow (Vinetastrasse)
+196776,1967,A50,autobus,25.0,West,10,,Roseneck,Goebenstrasse Ecke Bülowstrasse
+196777,1967,51B,autobus,5.0,Ost,20,,S-Bhf. Buch,Akademie der Wissenschaften
+196778,1967,A51,autobus,10.0,West,29,,Bhf. Wannsee,Krankenhaus Heckeshorn
+196779,1967,A52,autobus,46.0,West,15,,"Marienfelde, Stadtrandsiedlung",Stubenrauchstrasse Ecke Kanalstrasse
+196780,1967,A53,autobus,40.0,West,20,,"Nikolassee, Alemannenstrasse",Oberhofer Platz
+196781,1967,A54,autobus,43.0,West,10,,"Zoo, Hardenbergplatz",Johannesstift
+196782,1967,A54,autobus,14.0,Ost,10,,Ostseestrasse vor Prenzlauer Promenade,Dimitroffstrasse vor Cotheniusstrasse
+196783,1967,A55,autobus,48.0,West,15,,"Zoo, Hardenbergplatz",Hakenfelde
+196784,1967,A56,autobus,24.0,West,20,,U-Bhf. Ruhleben,Hakenfelde
+196785,1967,A56,autobus,12.0,Ost,7,,"Weißensee, Nüßlerstrasse",Kanzowstrasse
+196786,1967,A57,autobus,25.0,Ost,6,,Kniprodestrasse Ecke Ermländische Strasse,Scharnhorststrasse Ecke Kielerstrasse
+196787,1967,A58,autobus,18.0,Ost,15,,Fontanestrasse,U-Bhf. Pankow (Vinetastrasse)
+196788,1967,A59,autobus,13.0,Ost,7,,Walther-Ulbricht-Stadion,U-Bhf. Thälmannplatz
+196789,1967,A6,autobus,13.0,West,30,,Bhf. Wannsee,Glienicker Brücke
+196790,1967,A60,autobus,24.0,West,12,,"Roseneck, Hundekehl",Wittenbergplatz
+196791,1967,A61,autobus,32.0,West,12,,U-Bhf. Scharnweberstrasse,"Gartenplatz, Feldstrasse"
+196792,1967,A62,autobus,34.0,West,15,,Wittenau,Hardenbergplatz
+196793,1967,A63,autobus,30.0,West,15,,Radelandstrasse Ecke Niederheideweg,Seegefelder Weg
+196794,1967,A64,autobus,29.0,West,10,,Teichstrasse Ecke Gotthardstrasse,Vinetaplatz
+196795,1967,A65,autobus,52.0,West,12,,Goebelplatz,Schulenburgpark
+196796,1967,A66,autobus,17.0,West,15,,"Doppel-Süd, Berlepschstrasse",U-Bhf. Onkel-Toms-Hütte
+196797,1967,A67,autobus,38.0,West,10,,Mehringplatz,Wutzkyallee Ecke Strasse 484
+196798,1967,A68,autobus,35.0,West,15,,Clayallee Ecke Königin-Luise-Strasse,Bhf. Tempelhof
+196799,1967,A69,autobus,33.0,West,20,,"Eichkamp, Dauerwaldweg",Moltkebrücke
+1967100,1967,A7,autobus,34.0,Ost,12,,"Glienicke, Kirche",U-Bhf. Vinetastrasse
+1967101,1967,A7E,autobus,23.0,Ost,10,,"Schildow, Kirche",U-Bhf. Vinetastrasse
+1967102,1967,A70,autobus,28.0,West,10,,Bhf. Wollankstrasse,Wiebestrasse Ecke Sickingenstrasse
+1967103,1967,A71,autobus,23.0,West,15,,"Wilhelmsruh, Kopenhagenerstrasse",Vinetaplatz
+1967104,1967,A72,autobus,46.0,West,15,,Alt-Reinickendorf Ecke Rödern Allee,Gartenfeld
+1967105,1967,A73,autobus,35.0,West,10,,Bhf. Zoo,Buschkrug Alle Ecke Blaschko-Allee
+1967106,1967,A74,autobus,41.0,West,15,,"Königin-Elisabeth-Strasse, Adenauerdamm",Eythstrasse
+1967107,1967,A75,autobus,47.0,West,10,,Munsterdamm Ecke Steglitzer Damm,Hermannplatz
+1967108,1967,A76,autobus,37.0,West,7,,Blohmstrasse Ecke Illigstrasse,Walter-Schreiber-Platz
+1967109,1967,A77,autobus,29.0,West,20,,Bergiusstrasse Ecke Haberstrasse,"Marienfelde, Daimlerstrasse Ecke Hollabergweg"
+1967110,1967,A78,autobus,16.0,West,10,,U-Bhf. Alt-Mariendorf,Buckower Damm Ecke Alt-Buckow
+1967111,1967,A79,autobus,18.0,West,15,,Leopoldplatz,Sommerstrasse Ecke Klemkestrasse
+1967112,1967,A8,autobus,33.0,Ost,10,,"Waldesruh, Malhlsdorfer Allee",U-Bhf. Friedrichsfelde
+1967113,1967,A8E,autobus,21.0,Ost,10,,Sadowastrasse,U-Bhf. Friedrichsfelde
+1967114,1967,A80,autobus,26.0,West,15,,U-Bhf. Ruhleben,Nennhauser Damm Ecke Brunsbütteler Damm
+1967115,1967,A81,autobus,45.0,West,10,,"Bhf. Zoo, Hardenbergplatz",Imbrosweg Ecke Dardanellenweg
+1967116,1967,A82,autobus,28.0,West,20,,Alt-Lichtenrade Ecke Goethestrasse,Potsdamerstrasse Ecke Goethestrasse
+1967117,1967,A83,autobus,48.0,West,10,,Nettelbeckplatz,Belßstrasse Ecke Prezsingstrasse
+1967118,1967,A84,autobus,33.0,West,12,,Ringstrasse Ecke Pestalozziplatz,Gotenstrasse Ecke Torgauerstrasse
+1967119,1967,A85,autobus,44.0,West,10,,"Bhf. Zoo, Hardenbergplatz",Holtheimer Weg
+1967120,1967,A86,autobus,50.0,West,15,,Invalidenstrasse Ecke Heidestrasse,Birkbuschstrasse Ecke Siemensstrasse
+1967121,1967,A87,autobus,10.0,West,20,,Richard-Wagner-Platz,Sophie-Charlotten-Strasse Ecke Pulsstrasse
+1967122,1967,A88,autobus,22.0,West,15,,Jungfernheideweg Ecke Siemensdamm,Jungfernheideweg Ecke Siemensdamm
+1967123,1967,A89,autobus,62.0,West,10,,"Bornholmerstrasse, Sektorengrenze",Mehringplatz
+1967124,1967,A9,autobus,17.0,Ost,6,,Kurische Strasse,Otto-Grotewohl-Strasse
+1967125,1967,A90,autobus,35.0,West,15,,"Bhf. Zoo, Hardenbergplatz",Vinetaplatz
+1967126,1967,A91,autobus,21.0,West,7,,Hermannplatz,Alt-Buckow Ecke Buckower Damm
+1967127,1967,A93,autobus,11.0,West,15,,Waßmannsdorfer Chaussee Ecke Neuköllnerstrasse,Waßmannsdorfer Chaussee Ecke Neuköllnerstrasse
+1967128,1967,A94,autobus,36.0,West,10,,"Bhf. Zoo, Hardenbergplatz",Reimerweg Ecke Heerstrasse
+1967129,1967,A95,autobus,23.0,West,15,,Mehringplatz,Schwarzer Weg Ecke Sonnenallee
+1967130,1967,A96,autobus,29.0,West,10,,"Flughafen, Dudenstrasse",Lindenstrasse Ecke Ostpreußendamm
+1967131,1967,A97,autobus,34.0,West,20,,Reimerweg Ecke Heerstrasse,Aalemannufer Ecke Nieder-Neuendorfer Allee
+1967132,1967,A98,autobus,12.0,West,20,,U-Bhf. Britz-Süd,U-Bhf. Britz-Süd
+1967133,1967,A99,autobus,48.0,West,10,,Brunnenstrasse Ecke Lortzingstrasse,Westerwaldstrasse Ecke Falkenseer Chaussee
+1967134,1967,S1,autobus,29.0,West,15,,"Bhf. Zoo, Hardenbergplatz",Hohenzollernring Ecke Schönwalderstrasse
+1967135,1967,S3,autobus,29.0,West,15,,Hardenbergplatz,Rathaus Zehlendorf
+1967136,1967,S4,autobus,39.0,West,20,,Hardenbergplatz,"Stölpchensee, Wilhelmplatz"
+1967137,1967,AL,autobus,15.0,Ost,36,,Neu-Lindenberg,"Malchow, Dorfstrasse"
+1967138,1967,1,u-bahn,36.0,West,5,,Schlesisches Tor,Ruhleben
+1967139,1967,2,u-bahn,29.0,West,10,,Gleisdreieck,Krumme Lanke
+1967140,1967,3,u-bahn,3.0,West,10,,Wittenbergplatz,Uhlandstr.
+1967141,1967,4,u-bahn,6.0,West,5,,Nollendorfplatz,Innsbrucker Platz (Hauptstr.)
+1967142,1967,5,u-bahn,1.0,West,10,,Deutsche Oper (Bismarckstr.),Richard-Wagner-Platz
+1967143,1967,6,u-bahn,41.0,West,5,,Tegel,Alt-Mariendorf
+1967144,1967,7,u-bahn,17.0,West,3,,Möckernbrücke,Britz-Süd
+1967145,1967,8,u-bahn,20.0,West,10,,Gesundbrunnen,Leinestr.
+1967146,1967,9,u-bahn,10.0,West,3,,Leopoldplatz,Spichernstr. (Bundesallee)
+1967147,1967,KBS 100,s-bahn,,West,0,,Gesundbrunnen,Sonnenallee
+1967148,1967,KBS 100a,s-bahn,,West,0,,Gesundbrunnen,Staaken
+1967149,1967,KBS 100b,s-bahn,,West,0,,Jungfernheide,Gartenfeld
+1967150,1967,KBS 100c,s-bahn,,West,0,,Heiligensee,Lichtenrade
+1967151,1967,KBS 100d,s-bahn,,West,0,,Gesundbrunnen,Lichterfelde Süd
+1967152,1967,KBS 100e,s-bahn,,West,0,,Frohnau,Wannsee
+1967153,1967,KBS 100f,s-bahn,,West,0,,Zehlendorf,Düppel-Kleinmachnow
+1967154,1967,KBS 100g,s-bahn,,West,0,,Friedrichstr.,Spandau West
+1967155,1967,KBS 100h,s-bahn,,West,0,,Friedrichstr.,Wannsee
+1967156,1967,KBS 100k,s-bahn,,West,0,,Zoologischer Garten,Köllnische Heide
+1967157,1967,KBS 101,s-bahn,,Ost,0,,Friedrichstr.,Strausberg
+1967158,1967,KBS 101c,s-bahn,,Ost,0,,Strausberg,Strausberg Nord
+1967159,1967,KBS 102,s-bahn,,Ost,0,,Friedrichstr.,Erkner
+1967160,1967,KBS 103,s-bahn,,Ost,0,,Friedrichstr.,Königs Wusterhausen
+1967161,1967,KBS 103a,s-bahn,,Ost,0,,Friedrichstr.,Zentralflughafen Berlin-Schönefeld
+1967162,1967,KBS 104,s-bahn,,Ost,0,,Oranienburg,Ostbahnhof
+1967163,1967,KBS 104d,s-bahn,,Ost,0,,Hennigsdorf (b Bln),Velten (Mark)
+1967164,1967,KBS 105,s-bahn,,Ost,0,,Blankenburg,Zeuthen
+1967165,1967,KBS 106,s-bahn,,Ost,0,,Bernau (b Bln),Spindlersfeld
+1967166,1967,KBS 106a,s-bahn,,Ost,0,,Schönhauser Allee,Zentralflughafen Berlin-Schönefeld
+1967167,1967,O30,autobus,66.0,Ost,15,,Ostbahnhof,Robert-Koch-Platz
+1967168,1967,O37,autobus,46.0,Ost,15,,Dimitroffstrasse vor Cotheniusstrasse,Bhf. Lichtenberg
+1967169,1967,O40,autobus,23.0,Ost,8,,Ostbahnhof,Robert-Koch-Platz
+1967170,1967,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",straßenbahn,39.0,Ost,20,,S-Bhf. Friedrichshagen (Grenze),"Rüdersdorf, Karl-Marx-Platz"
+1967171,1967,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse (VEB Woltersdorf),straßenbahn,20.0,Ost,20,,S-Bhf. Rahnsdorf,Woltersdorfer Schleuse
+1967172,1967,A,u-bahn,19.0,Ost,2,,Pankow (Vinetastr.),Thälmannplatz
+1967173,1967,E,u-bahn,16.0,Ost,5,,Alexanderplatz,Friedrichsfelde
+1967174,1967,Wannsee<>Kladow (Betrieb durch Stern und Kreisschiffahrt),fähre,19.0,West,60,,Kladow,Wannsee
+1967175,1967,69,straßenbahn,84.0,Ost,20,,"Johannisthal, Haeckelstrasse",Walter-Ulbricht-Stadion
+1967176,1967,69E,straßenbahn,55.0,Ost,20,,"Johannisthal, Haeckelstrasse",Kniprodestrasse
+19711,1971,7,autobus,34.0,Ost,12,,"Glienicke, Kirche",U-Bhf. Pankow
+19712,1971,8,autobus,33.0,Ost,10,,Mahlsdorfer Allee,U-Bhf. Friedrichsfelde
+19713,1971,9,autobus,16.0,Ost,8,,Kurische Strasse,Otto-Grotewohl-Strasse
+19714,1971,16,autobus,17.0,Ost,8,,Arkonaplatz,Adalbertstrasse
+19715,1971,18,autobus,20.0,Ost,6,,Adalbertstrasse,Robert-Koch-Platz
+19717,1971,22,autobus,37.0,Ost,20,,"Hessenwinkel, Lutherstrasse","Fichtenau, Post"
+19718,1971,23,autobus,20.0,Ost,20,,Falkenhöhe,"Altglienicke, Kirche"
+19719,1971,26,autobus,5.0,Ost,7,,VEB Bautransporte,Bhf. Schöneweide
+197110,1971,27,autobus,41.0,Ost,10,,"S-Bhf. Kaulsdorf, Planitzstrasse",Müggelheim
+197111,1971,30,autobus,66.0,Ost,13,,Ostbahnhof,Robert-Koch-Platz
+197112,1971,31,autobus,30.0,Ost,10,,S-Bhf. Buch,Ostseestrasse
+197113,1971,32,autobus,23.0,Ost,8,,H.- Beimler-Strasse,U-Bhf. Thälmannplatz
+197114,1971,34,autobus,15.0,Ost,15,,Alt-Stralau,U-Bhf. Marchlewskistrasse
+197115,1971,35,autobus,20.0,Ost,0,,Pirolstrasse,S-Bhf. Nöldnerplatz
+197116,1971,36,autobus,20.0,Ost,0,,Zentralflughafen,S-Bhf. Grünau
+197117,1971,37,autobus,46.0,Ost,15,,Bhf. Lichtenberg,Dimitroffstrasse
+197118,1971,39,autobus,13.0,Ost,0,,"Wartenberg, Siedlung",Falkenberger Strasse
+197119,1971,40,autobus,20.0,Ost,0,,Ostbahnhof,Robert-Koch-Platz
+197120,1971,42,autobus,31.0,Ost,10,,Buch,Ostseestrasse
+197121,1971,43,autobus,32.0,Ost,10,,"Marzahner Chaussee, Springpfuhl",S-Bf. Nöldnerplatz
+197122,1971,44,autobus,12.0,Ost,30,,"Hönow, Dorfstrasse",S-Bhf. Mahlsdorf
+197123,1971,45,autobus,39.0,Ost,6,,"Wilhelmsruh, Schillerstrasse","Weißensee, Schwarzelfenweg"
+197124,1971,47,autobus,26.0,Ost,12,,Bhf. Schöneweide,"Treptow, Eichenstrasse"
+197125,1971,48,autobus,17.0,Ost,7,,Bhf. Schöneweide,Bhf. Schöneweide
+197126,1971,49,autobus,14.0,Ost,20,,"Bhf. Kaulsdorf, Bausdorfstrasse","Bhf. Kaulsdorf, Bausdorfstrasse"
+197127,1971,50,autobus,15.0,Ost,5,,"Niederschönhausen, Rolandstrasse",U-Bhf. Pankow (Vinetastrasse)
+197128,1971,52,autobus,12.0,Ost,15,,"Pankow, Achtermannstrasse",U-Bhf. Pankow
+197129,1971,A1,autobus,57.0,West,12,,"Moabit, Waldstrasse Ecke Turmstrasse",Lindenstrasse Ecke Müllerstrasse
+197130,1971,A10,autobus,67.0,West,10,,Haselhorster Damm Ecke Gartenfelderstrasse,Lupsteiner Weg
+197131,1971,A11,autobus,42.0,West,10,,"Dahlem, Waldfriedhof",U-Bhf. Alt-Mariendorf
+197132,1971,A12,autobus,57.0,West,15,,Bernauerstrasse Ecke Gartenstrasse,Hainbuchenstrasse Ecke Maximilian-Korso
+197133,1971,A13,autobus,57.0,West,15,,Heiligensee,Weinmeisterhornweg Ecke Wilhelmstrasse
+197134,1971,A14,autobus,55.0,West,15,,Heiligensee Ecke Alt-Heiligensee,Rügenerstrasse Ecke Brunnenstrasse
+197135,1971,A14E,autobus,9.0,West,30,,Alt-Heiligensee,Falkenplatz
+197136,1971,A15,autobus,55.0,West,20,,Wittenauer Strasse Ecke Eichhorsterweg,"Frohnau, Invalidensiedlung"
+197137,1971,A16,autobus,58.0,West,15,,Osloer Strasse Ecke Koloniestrasse,Englerallee
+197138,1971,A17,autobus,53.0,West,10,,"Grunewald, Fontanestrasse",Celsiusstrasse
+197139,1971,A18,autobus,33.0,West,20,,U-Bhf. Oskar-Helene-Heim,Machnowerstrasse Ecke Königsweg
+197140,1971,A19,autobus,39.0,West,10,,Roseneck,Flughafen
+197141,1971,A2,autobus,31.0,West,10,,U-Bhf. Friedrich-Wilhelm-Platz,Waldsassener Strasse Ecke Ahrensdorfer Strasse
+197142,1971,A20,autobus,40.0,West,15,,"Tegelort, Almazeile","Lübars, Alt-Lübars"
+197143,1971,A21,autobus,56.0,West,15,,"Quickborner Strasse, Märkische Viertel",Fehrbelliner Platz
+197144,1971,A22,autobus,27.0,West,15,,Kurt-Schumacher-Platz,Wittenauer Strasse Ecke Eichhorster Weg
+197145,1971,A23,autobus,46.0,West,10,,Hardenbergplatz,Buolstrasse Ecke Rohrdamm
+197146,1971,A24,autobus,41.0,West,15,,Wiebestrasse Ecke Huttenstrasse,Platz der Luftbrücke
+197147,1971,A25,autobus,36.0,West,10,,U-Bhf. Friedrich-Wlhelm-Patz,Grüner Weg Ecke Buschkrugallee
+197148,1971,A28,autobus,35.0,West,15,,U-Bhf. Tempelhof,Heckmannufer Ecke Schlesischestrasse
+197149,1971,A29,autobus,40.0,West,10,,Roseneck,Oranienplatz
+197150,1971,A3,autobus,46.0,West,15,,Düppel-Süd,Heckeshorn
+197151,1971,A31,autobus,28.0,West,20,,U-Bhf. Ruhleben,Heidebergplan
+197152,1971,A32,autobus,31.0,West,12,,Breitenbachplatz,"Marienfelde, Bahnstrasse Ecke Marienfelder Allee"
+197153,1971,A33,autobus,20.0,West,10,,Berlinickestrasse,Dirschelweg Ecke Rixdorfer Strasse
+197154,1971,A34,autobus,51.0,West,20,,"Spandau, Wasserwerk",Gutshof
+197155,1971,A35,autobus,35.0,West,20,,U-Bhf. Ruhleben,Hottengrund
+197156,1971,A4,autobus,56.0,West,12,,Brixplatz,Teuptitzerstrasse Ecke Kiehl-Ufer
+197157,1971,A41,autobus,27.0,West,20,,Gradestrasse,Rudow Stadtgrenze
+197158,1971,A48,autobus,39.0,West,12,,Potsdamer Strasse Ecke Fischerhüttenstrasse,"Philharmonie, Tiergartenstrasse"
+197159,1971,A5,autobus,30.0,West,10,,U-Bhf. Ruhleben,Nervenklinik
+197160,1971,A50,autobus,26.0,West,10,,Roseneck,Mansteinstrasse Ecke Yorckstrasse
+197161,1971,A52,autobus,35.0,West,10,,"Marienfelde, Stadtrand-Siedlung",Stubenrauchstrasse
+197162,1971,A53,autobus,40.0,West,20,,"Nikolassee, Alemannenstrasse",Oberhofer Platz
+197163,1971,A54,autobus,46.0,West,10,,"Zoo, Hardenbergplatz",Johannesstift
+197164,1971,A55,autobus,47.0,West,15,,"Zoo, Hardenbergplatz",Hakenfelde
+197165,1971,A56,autobus,24.0,West,20,,U-Bhf. Ruhleben,Hakenfelde
+197166,1971,A57,autobus,21.0,West,20,,Zwickauer Damm,Zwickauer Damm
+197167,1971,A6,autobus,13.0,West,30,,Wannsee,Glienicker Brücke
+197168,1971,A60,autobus,47.0,West,15,,Wittenbergplatz,Rathaus Zehlendorf
+197169,1971,A61,autobus,33.0,West,12,,"Gartenplatz, Feldstrasse",Zobeltitzstrasse Ecke Eichborndamm
+197170,1971,A62,autobus,42.0,West,12,,"Wilhemsruher Damm, Sektorengrenze","Zoo, Hardenbergplatz"
+197171,1971,A63,autobus,30.0,West,15,,Radelandstrasse Ecke Niederheideweg,Seegefelder Weg
+197172,1971,A64,autobus,51.0,West,12,,Märkisches Zentrum,Vinetaplatz
+197173,1971,A65,autobus,63.0,West,12,,U-Bhf. Seestrasse,Schulenburgpark
+197174,1971,A66,autobus,40.0,West,20,,"Zoo, Hardenbergplatz","Stölpchensee, Glienickerstrasse"
+197175,1971,A67,autobus,41.0,West,12,,U-Bhf. Hallesches Tor,Johannisthaler Chaussee Ecke Rudower Strasse
+197176,1971,A68,autobus,38.0,West,15,,Clayallee Ecke Königin-Luise-Strasse,Tempelhof
+197177,1971,A69,autobus,34.0,West,20,,Dauerwaldweg Ecke Eichkampstrasse,Reichstag
+197178,1971,A70,autobus,34.0,West,10,,"Wollankstrasse, Sektorengrenze",Wiebestrasse Ecke Huttenstrasse
+197179,1971,A71,autobus,21.0,West,15,,"Wilhelmsruh, Kopenhagener Strasse",Vinetaplatz
+197180,1971,A72,autobus,51.0,West,15,,"Alt-Reinickendorf, Klemkestrasse Ecke Kopenhagenerstrasse",Paulsternstrasse Ecke Nonnendammallee- Gartenfeld
+197181,1971,A73,autobus,38.0,West,15,,"Zoo, Hardenbergplatz",Buschkrug Ecke Blaschkoallee
+197182,1971,A74,autobus,45.0,West,15,,Königin-Elisabeth-Strasse U-Bhf. Kaiserdamm,Lindenhof
+197183,1971,A75,autobus,47.0,West,10,,Munsterdamm Ecke Steglitzer Damm,Hermannplatz
+197184,1971,A76,autobus,39.0,West,7,,Walter-Schreiber-Platz,Blohmstrasse Ecke Illigstrasse
+197185,1971,A77,autobus,31.0,West,20,,Britzer Allee Ecke Nobelstrasse,"Marienfelde, Daimlerstrasse"
+197186,1971,A78,autobus,16.0,West,15,,U-Bhf. Alt-Mariendorf,Alt-Buckow Ecke Buckower Damm
+197187,1971,A79,autobus,18.0,West,15,,Leopoldplatz,Sommerstrasse Ecke Klemkestrasse
+197188,1971,A80,autobus,25.0,West,20,,U-Bhf. Ruhleben,Nennhauser Damm Ecke Brunsbütteler Damm
+197189,1971,A81,autobus,31.0,West,10,,U-Bhf. Friedrich-Wilhelm-Platz,Dardanellenweg Ecke rixdorferstrasse
+197190,1971,A82,autobus,28.0,West,20,,Alt-Lichtenrade Ecke Goethestrasse,Potsdamerstrasse Ecke Alt-Lichtenrade
+197191,1971,A83,autobus,46.0,West,10,,Nettelbeckplatz,Preysingstrasse Ecke Belßstrasse
+197192,1971,A84,autobus,36.0,West,10,,Ringstrasse Ecke Weißwasserweg,U-Bhf. Kurfürstenstrasse
+197193,1971,A85,autobus,41.0,West,10,,Holtheimer Weg,Wittenbergplatz
+197194,1971,A86,autobus,52.0,West,15,,"Invalidenstrasse, Sektorengrenze",Birkbuschstrasse
+197195,1971,A87,autobus,10.0,West,20,,Richard-Wagner-Platz,Pulsstrasse Ecke Sophie-Charlottestrasse
+197196,1971,A89,autobus,41.0,West,12,,"Bornholmerstrasse, Sektorengrenze",Fehrbelliner Platz
+197197,1971,53,autobus,22.0,Ost,0,,"Hohenschönhausen, Marzahnerstrasse",U-Bhf.Friedrichsfelde
+197198,1971,A90,autobus,35.0,West,15,,"Bhf. Zoo, Hardenbergplatz",Vinetaplatz
+197199,1971,A91,autobus,24.0,West,10,,Hermannplatz,Ringslebenstrasse Ecke Buckowerdamm
+1971100,1971,A92,autobus,33.0,West,10,,"Zoo, Hardenbergplatz",Konkordiastrasse Ecke Adamstrasse
+1971101,1971,A93,autobus,11.0,West,15,,Waßmannsdorfer Chaussee Ecke Großziethenerstrasse,Waßmannsdorfer Chaussee Ecke Großziethenerstrasse
+1971102,1971,A94,autobus,36.0,West,10,,"Zoo, Hardenbergplatz",Reimerweg Ecke Heerstrasse
+1971103,1971,A95,autobus,23.0,West,15,,Schwarzer Weg Ecke Sonnenallee,U-Bhf. Hallesches Tor
+1971104,1971,A96,autobus,34.0,West,10,,Flughafen Tempelhof,Lindenstrasse Ecke Ostpreußendamm
+1971105,1971,A97,autobus,35.0,West,10,,Reimerweg Ecke Heerstrasse,Aalemannufer
+1971106,1971,A98,autobus,14.0,West,20,,U-Bhf. Britz-Süd,U-Bhf. Britz-Süd
+1971107,1971,A99,autobus,57.0,West,15,,Usedomer Strasse Ecke Brunnenstrasse,Im Spektefeld
+1971108,1971,55,autobus,31.0,Ost,10,,"Wilhelmsruhe, Fontanestrasse",Piesporter Strasse
+1971109,1971,56,autobus,27.0,Ost,6,,"Weißensee, Nüßlerstrasse",Dimitroffstrasse
+1971110,1971,57,autobus,26.0,Ost,8,,Kniprodestrasse,Scharnhorststrasse
+1971111,1971,58,autobus,18.0,Ost,20,,Fontanestrasse,U-Bhf. Pankow (Vinetastrasse)
+1971112,1971,59,autobus,13.0,Ost,10,,Walther-Ulbricht-Stadion,U-Bhf. Thälmannplatz
+1971113,1971,65,autobus,12.0,Ost,15,,Oberspree,VEB Autotrans
+1971114,1971,27E,autobus,22.0,Ost,10,,S-Bhf. Köpenick,Müggelheim
+1971115,1971,44E,autobus,16.0,Ost,10,,S-Bhf. Mahlsdorf,S-Bhf. Mahlsdorf
+1971116,1971,51/B,autobus,5.0,Ost,20,,S-Bhf. Buch,Akademie der Wissenschaften
+1971117,1971,D/38,autobus,13.0,Ost,20,,Diepensee,"Bohnsdorf, Waldstrasse"
+1971118,1971,L/41,autobus,30.0,Ost,15,,"Ahrensfeld, Kirche","Malchow, Dorfstrasse"
+1971119,1971,291,fähre,,Ost,10,,Wilhelmstrand,Baumschulenweg
+1971120,1971,292,fähre,,Ost,10,,Wendenschloß,Grünau
+1971121,1971,293,fähre,,Ost,0,,Schmöckwitz,Krampenburg
+1971122,1971,294,fähre,,Ost,0,,Rahnsdorf,Müggelhort
+1971123,1971,295,fähre,,Ost,0,,Müggelheim,Rahnsdorf
+1971124,1971,KBS 100,s-bahn,65.0,Ost,20,,Friedrichstr.,Strausberg Nord
+1971125,1971,KBS 105,s-bahn,45.0,Ost,20,,Friedrichstr.,Erkner
+1971126,1971,KBS 110,s-bahn,45.0,Ost,20,,Friedrichstr.,Königs Wusterhausen
+1971127,1971,KBS 115,s-bahn,39.0,Ost,20,,Friedrichstr.,Zentralflughafen Berlin-Schönefeld
+1971128,1971,KBS 135,s-bahn,8.0,Ost,30,,Hennigsdorf (b Bln),Velten (Mark)
+1971129,1971,KBS 140,s-bahn,83.0,Ost,20,,Oranienburg,Zentralflughafen Berlin-Schönefeld
+1971130,1971,KBS 141,s-bahn,64.0,Ost,20,,Bernau (b Bln),Zeuthen
+1971131,1971,KBS 142,s-bahn,41.0,Ost,20,,Blankenburg,Spindlersfeld
+1971132,1971,KBS 143,s-bahn,,Ost,20,,Alexanderplatz,Blankenburg
+1971133,1971,KBS 150,s-bahn,,West,0,,Gesundbrunnen,Sonnenallee
+1971134,1971,KBS 151,s-bahn,,West,0,,Zoologischer Garten,Köllnische Heide
+1971135,1971,KBS 152,s-bahn,,West,0,,Heiligensee,Lichtenrade
+1971136,1971,KBS 153,s-bahn,,West,0,,Gesundbrunnen,Lichterfelde Süd
+1971137,1971,KBS 154,s-bahn,,West,0,,Frohnau,Wannsee
+1971138,1971,KBS 155,s-bahn,,West,0,,Zehlendorf,Düppel-Kleinmachnow
+1971139,1971,KBS 156,s-bahn,,West,0,,Friedrichstr.,Wannsee
+1971140,1971,KBS 157,s-bahn,,West,0,,Friedrichstr.,Spandau West
+1971141,1971,KBS 158,s-bahn,,West,0,,Gesundbrunnen,Staaken
+1971142,1971,KBS 159,s-bahn,,West,0,,Jungfernheide,Gartenfeld
+1971143,1971,3,straßenbahn,43.0,Ost,15,,Björnsonstrasse,Revaler Strasse
+1971144,1971,4,straßenbahn,26.0,Ost,12,,Eberswalderstrasse Ecke Oderberger Strasse,Revalerstrasse
+1971145,1971,13,straßenbahn,41.0,Ost,8,,Oderberger Strasse Ecke Eberswalderstrasse,Hönower Wiesenweg Ecke Blockdammweg
+1971146,1971,17,straßenbahn,58.0,Ost,20,,Haeckelstrasse,Kniprodestrasse
+1971147,1971,19,straßenbahn,69.0,Ost,20,,Mahlsdorferstrasse,Kniprodestrasse
+1971148,1971,21,straßenbahn,32.0,Ost,20,,S-Bhf.Ostkreuz,S-Bhf. Baumschulenweg
+1971149,1971,22,straßenbahn,48.0,Ost,15,,Hauptstrasse,Am Kupfergraben
+1971150,1971,46,straßenbahn,47.0,Ost,0,,Nordend,Am Kupfergraben
+1971151,1971,49,straßenbahn,38.0,Ost,12,,Hauptstrasse,Hackescher Markt
+1971152,1971,63,straßenbahn,48.0,Ost,12,,"Hohenschönhausen, Gartenstadt",Walter-Ulbricht-Stadion
+1971153,1971,69,straßenbahn,84.0,Ost,20,,"Johannisthal, Haeckelstrasse",Walter-Ulbricht-Stadion
+1971154,1971,70,straßenbahn,49.0,Ost,10,,"Hohenschönhausen, Falkenberger Strasse",Am Kupfergraben
+1971155,1971,71,straßenbahn,40.0,Ost,15,,"Romain-Rolland-Strasse, Heinersdorf",Am Kupfergraben
+1971156,1971,72,straßenbahn,34.0,Ost,15,,"Weißensee, Pasedagplatz",Hackescher Markt
+1971157,1971,73,straßenbahn,40.0,Ost,12,,"Weißensee, Pasedagplatz",Walter-Ulbricht-Stadion über Greifswalderstrasse
+1971158,1971,74,straßenbahn,48.0,Ost,12,,"Wießensee, Bernkastelerstrasse",Falkenbergerstrasse
+1971159,1971,75,straßenbahn,28.0,Ost,16,,Bernkastelerstrasse,Hackescher Markt
+1971160,1971,82,straßenbahn,51.0,Ost,20,,"Mahlsdorf-Süd, Hubertus",S-Bhf. Ostkreuz
+1971161,1971,83,straßenbahn,48.0,Ost,20,,S-Bhf. Mahlsdorf,Wendenschloß Ecke Ekhofstrasse
+1971162,1971,84,straßenbahn,55.0,Ost,25,,"Friedrichshagen, Wasserwerk",Am Falkenberg
+1971163,1971,85,straßenbahn,42.0,Ost,20,,Wendenschloß,"Johannisthal, Haeckelstrasse"
+1971164,1971,86,straßenbahn,43.0,Ost,20,,Alt-Schmöckwitz,Hirtestrasse
+1971165,1971,87,straßenbahn,70.0,Ost,20,,Rahnsdorf,Wiener Brücke
+1971166,1971,95,straßenbahn,48.0,Ost,20,,Krankenhaus Köpenick,Wiener Brücke
+1971167,1971,99,straßenbahn,12.0,Ost,0,,Falkenberger Strasse,Pasedagplatz
+1971168,1971,S-Bhf. Friedrichshagen <> Rüdersdorf,straßenbahn,39.0,Ost,20,,S-Bhf. Friedrichshagen (Grenze),"Rüdersdorf, Karl-Marx-Platz"
+1971169,1971,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse (VEB Woltersdorf),straßenbahn,20.0,Ost,20,,S-Bhf. Rahnsdorf,Woltersdorfer Schleuse
+1971170,1971,1,u-bahn,32.0,West,5,,Schlesisches Tor,Ruhleben
+1971171,1971,2,u-bahn,29.0,West,10,,Gleisdreieck,Krumme Lanke
+1971172,1971,3,u-bahn,3.0,West,10,,Wittenbergplatz,Uhlandstr.
+1971173,1971,4,u-bahn,6.0,West,5,,Nollendorfplatz,Innsbrucker Platz (Hauptstr.)
+1971174,1971,6,u-bahn,36.0,West,5,,Tegel,Alt-Mariendorf
+1971175,1971,7,u-bahn,30.0,West,5,,Fehrbelliner Platz,Zwckauer Damm
+1971176,1971,8,u-bahn,20.0,West,10,,Gesundbrunnen,Leinestr.
+1971177,1971,9,u-bahn,16.0,West,3,,Leopoldplatz,Walter-Schreiber-Platz
+1971178,1971,A,u-bahn,19.0,Ost,2,,Pankow (Vinetastr.),Thälmannplatz
+1971179,1971,E,u-bahn,16.0,Ost,5,,Alexanderplatz,Friedrichsfelde
+19761,1976,1,autobus,66.0,West,12,,"Moabit, Waldstrasse","Lichterfelde, Lindenstrasse"
+19762,1976,10,autobus,,West,12,,Haselhorster Damm,"Zehlendorf-Süd, Sachtlebenstrasse E. Lupsteiner Weg"
+19763,1976,11,autobus,43.0,West,7,,Dahlem Waldfriedhof,U-Bhf. Alt-Mariendorf
+19764,1976,12,autobus,,West,15,,"Wedding, Bernauer Strasse",Maximiliankorso E. Hainbuchenstrasse
+19765,1976,13,autobus,,West,13,,Alt-Heiligensee,Heerstrasse Ecke Weinmeisterhornweg
+19766,1976,13,straßenbahn,36.0,Ost,15,,Eberswalder Strasse,Blockdammweg Ecke Hönower Wiesenweg
+19767,1976,14,autobus,,West,15,,Gesundbrunnen Rügener Strasse,Alt-Heiligensee
+19768,1976,14,straßenbahn,17.0,Ost,12,,Artur-Becker-Strasse,Falkenberger Strasse
+19769,1976,15,autobus,,West,20,,Waidmannslust Oraniendamm,Frohnau Invalidensiedlung
+197610,1976,15,straßenbahn,37.0,Ost,20,,Bhf. Berlin-Lichtenberg,Hackescher Markt
+197611,1976,16,autobus,,West,15,,Reinickendorf Klemkestrasse/Sommerstrasse,Breitenbachplatz Englerallee
+197612,1976,17,autobus,,West,10,,"Grunewald, Fontanestrasse",Lichterfelde Celsiusstrasse
+197613,1976,17,straßenbahn,68.0,Ost,10,,Haeckelstrasse,Stadion der Weltjugend
+197614,1976,18,autobus,,West,20,,U-Bhf. Oskar-Helene-Heim,Kohlhasenbrück-Steinstücken
+197615,1976,19,autobus,44.0,West,10,,Roseneck,Platz der Luftbrücke
+197616,1976,19,straßenbahn,73.0,Ost,20,,"Köpenick, Krankenhaus",Artur-Becker-Strasse
+197617,1976,2,autobus,36.0,West,7,,U-Bhf. Friedrich-Wilhelm-Platz,"Marienfelde, Waldsassener Strasse"
+197618,1976,20,autobus,,West,15,,Tegelort,Alt-Lübars
+197619,1976,21,autobus,,West,15,,Quickborner Strasse Märkisches Viertel,Fehrbelliner Platz
+197620,1976,21,straßenbahn,72.0,Ost,20,,Eberswalder Strasse,"Köpenick, Krankenhaus"
+197621,1976,22,straßenbahn,49.0,Ost,15,,"Rosenthal, Hauptstrasse",Am Kupfergraben
+197622,1976,22E,autobus,,West,15,,U-Bhf. Holzhauser Strasse,Alt-Wittenau
+197623,1976,23,autobus,29.0,Ost,20,,Falkenhöhe,S-Bhf. Adlershof
+197624,1976,23,autobus,,West,15,,"Zoo, Hardenbergplatz",Siemensstadt Rohrdamm E. Buolstraße
+197625,1976,24,autobus,41.0,West,15,,Moabit Wiebestrasse,Platz der Luftbrücke
+197626,1976,25,autobus,,West,12,,Britz-Süd,U-Bhf. Friedrich-Wilhelm-Platz
+197627,1976,25,straßenbahn,48.0,Ost,20,,Sterndamm,Rahnsdorf
+197628,1976,26,straßenbahn,27.0,Ost,20,,Sterndamm,"Köpenick, Krankenhaus"
+197629,1976,27,autobus,41.0,Ost,10,,S-Bhf. Kaulsdorf,Alt-Müggelheim
+197630,1976,28,autobus,,West,15,,U-Bhf. Tempelhof,Schlesische Strasse E. Heckmannufer
+197631,1976,29,autobus,,West,10,,"Grunewald, Roseneck",Oranienplatz
+197632,1976,3,autobus,46.0,West,15,,Düppel-Süd,"Wannsee, Heckeshorn"
+197633,1976,3,straßenbahn,43.0,Ost,10,,Björnsonstrasse,S-Bhf. Warschauer Strasse (Revaler Strasse)
+197634,1976,30,autobus,68.0,Ost,15,,Ostbahnhof,Robert-Koch-Platz
+197635,1976,30,autobus,,West,20,,U-Bhf. Rathaus Steglitz,Lichtenrade Nahariyastraße
+197636,1976,31,autobus,30.0,Ost,20,,"Buch, Sandhaus",Ostseestrasse
+197637,1976,31,autobus,,West,10,,U-Bhf. Ruhleben,Staaken Heidebergplan
+197638,1976,32,autobus,22.0,Ost,10,,Hans-Beimler-Strasse,U-Bhf. Thälmannplatz
+197639,1976,32,autobus,,West,9,,U-Bhf. Rathaus Steglitz,Marienfelde Bahnstraße
+197640,1976,33,autobus,17.0,Ost,20,,Grumbkowstrasse,U-Bhf. Pankow
+197641,1976,33,autobus,,West,10,,U-Bhf. Breitenbachplatz,Mariendorf Rixdorfer Strasse E. Dirschelweg
+197642,1976,34,autobus,18.0,Ost,15,,Alt-Stralau,U-Bhf. Marehlewskistrasse
+197643,1976,34,autobus,,West,20,,"Spandau, Wasserwerk",Glienicke Gutshof
+197644,1976,34E,autobus,6.0,Ost,20,,Revaler Strasse,Andreasstrasse (Ostbahnhof)
+197645,1976,34E,autobus,8.0,West,18,,Alt-Gatow,Habichtswald
+197646,1976,35,autobus,20.0,Ost,0,,Pirolstrasse,S-Bhf. Nöldnerplatz
+197647,1976,35,autobus,35.0,West,20,,U-Bhf. Ruhleben,Kladow Hottengrund
+197648,1976,35E,autobus,7.0,West,40,,Kladow,Altenheim Hottengrund
+197649,1976,36,autobus,17.0,Ost,20,,Flughafen Berlin-Schönefeld,S-Bhf. Grünau
+197650,1976,36E,autobus,5.0,Ost,20,,Bhf. Schönefeld,Flughafen Berlin-Schönefeld
+197651,1976,37,autobus,16.0,Ost,0,,S-Bhf. Friedrichsfelde Ost,Chemie Handel
+197652,1976,38,autobus,24.0,Ost,10,,S-Bhf. Grünau,Diepensee
+197653,1976,39,autobus,14.0,Ost,15,,"Wartenberg, Siedlung",Falkenberger Strasse
+197654,1976,4,autobus,,West,12,,"Neu-Westend, Brixplatz","Neukölln, Teupitzer Strasse"
+197655,1976,4,straßenbahn,24.0,Ost,15,,Eberswalder Strasse,S-Bhf. Warschauer Strasse (Revaler Strasse)
+197656,1976,41,autobus,58.0,West,12,,Rudow Stadtgrenze,U-Bhf. Hallesches Tor
+197657,1976,42,autobus,31.0,Ost,8,,Buch,Ostseestrasse
+197658,1976,43,autobus,26.0,Ost,10,,Bürknersfelde,S-Bhf. Nöldnerplatz
+197659,1976,44,autobus,12.0,Ost,20,,"Hönow, Dorf",S-Bhf. Mahlsdorf
+197660,1976,44E,autobus,16.0,Ost,20,,S-Bhf. Mahlsdorf,S-Bhf. Mahlsdorf
+197661,1976,45,autobus,38.0,Ost,12,,"Wilhelmsruh, Schillerstrasse",Schwarzelfenweg
+197662,1976,46,straßenbahn,45.0,Ost,15,,Nordend,Am Kupfergraben
+197663,1976,47,autobus,28.0,Ost,15,,Bhf. Schöneweide,"Treptow, Eichenstrasse"
+197664,1976,48,autobus,21.0,Ost,15,,Richard-Sorge-Strasse,Chemie-Handel
+197665,1976,48,autobus,39.0,West,12,,Zehlendorf Fischerhüttenstrasse E. Potsdamer Strasse,Tiergartenstrasse Philharmonie
+197666,1976,49,straßenbahn,40.0,Ost,15,,"Bucholz, Hauptstrasse",Hackescher Markt
+197667,1976,5,autobus,,West,10,,U-Bhf. Ruhleben,Nervenklinik Spandau
+197668,1976,50,autobus,15.0,Ost,15,,Rolandstrasse,U-Bhf. Pankow
+197669,1976,50,autobus,26.0,West,15,,Grunewald Roseneck,Schöneberg Mansteinstraße
+197670,1976,51,autobus,12.0,Ost,20,,"Buch, Sandhaus",Zepernicker Strasse
+197671,1976,52,autobus,12.0,Ost,15,,Achtermannstrasse,U-Bhf. Pankow
+197672,1976,52,autobus,34.0,West,7,,Rudow Stubenrauchstrasse,Marienfelde Stadrandsiedlung
+197673,1976,53,autobus,28.0,Ost,12,,Degnerstrasse,Mellenstrasse
+197674,1976,53,autobus,40.0,West,15,,Nikolassee Alemannenstrasse,Lichterfelde Oberhofer Platz
+197675,1976,54,autobus,53.0,Ost,15,,Artur-Becker-Strasse,Irenenstrasse
+197676,1976,54,autobus,45.0,West,10,,Spandau Johannesstift,"Zoo, Hardenbergplatz"
+197677,1976,54E,autobus,,West,0,,"Zoo, Hardenbergplatz",Klinkeplatz
+197678,1976,55,autobus,30.0,Ost,20,,Fontanestrasse,Piesporter Strasse
+197679,1976,55,autobus,50.0,West,15,,"Zoo, Hardenbergplatz",Spandau Hakenfelde
+197680,1976,56,autobus,29.0,Ost,6,,Nüßlerstrasse,Artur-Becker-Strasse
+197681,1976,56,autobus,23.0,West,15,,U-Bhf. Ruhleben,Spandau Hakenfelde
+197682,1976,57,autobus,26.0,Ost,10,,Artur-Becker-Strasse,Scharnhorststrasse
+197683,1976,57,autobus,43.0,West,20,,Zittauer Strasse,Zittauer Strasse
+197684,1976,6,autobus,,West,30,,"Wannsee, Kronprinzessinnenweg",Glienicker Brücke
+197685,1976,60,autobus,47.0,West,15,,Wittenbergplatz,Rathaus Zehlendorf
+197686,1976,61,autobus,34.0,West,12,,Gartenplatz,U-Bhf. Scharnweberstrasse
+197687,1976,62,autobus,43.0,West,12,,Wilhelmsruher Damm Märkisches Viertel,"Zoo, Hardenbergplatz"
+197688,1976,63,autobus,30.0,West,15,,Spandau Radelandstrasse E. Niederheideweg,Spandau Seegefelder Weg
+197689,1976,63,straßenbahn,48.0,Ost,12,,Gartenstadt,Stadion der Weltjugend
+197690,1976,64,autobus,17.0,Ost,33,,Krüllsstrasse,Wiener Brücke
+197691,1976,64,autobus,51.0,West,12,,Senftenberger Ring Märkisches Zentrum,Vinetaplatz
+197692,1976,65,autobus,27.0,Ost,20,,Krüllsstrasse,Oberspree
+197693,1976,65,autobus,58.0,West,15,,Wedding Seestrasse E. Müllerstrasse,Neukölln Schulenburgpark
+197694,1976,66,autobus,28.0,Ost,20,,Krüllsstrasse,Springbornstrasse
+197695,1976,66,autobus,40.0,West,20,,"Zoo, Hardenbergplatz",Stölpchensee Glienicker Strasse
+197696,1976,67,autobus,24.0,Ost,20,,VEB Kombinat Auto Trans,S-Bhf. Treptower Park
+197697,1976,68,autobus,12.0,Ost,15,,S-Bhf Köpenick,Salvador-Allende Strasse Ecke Wendenschloßstrasse
+197698,1976,68,autobus,35.0,West,15,,Dahlem Clayallee E. Königin-Luise-Strasse,U-Bhf. Tempelhof Hoeppnerstrasse
+197699,1976,69,autobus,38.0,West,20,,Eichkamp Dauerwaldweg,Kongreßhalle-Reichstag
+1976100,1976,7,autobus,35.0,Ost,12,,"Glienicke, Kirche",U-Bhf. Pankow
+1976101,1976,7,autobus,15.0,West,10,,U-Bhf. Alt-Mariendorf,"Lichtenrade, Motzener Strasse (Egestorffstrasse)"
+1976102,1976,70,autobus,37.0,West,10,,Wollankstrasse E. Kattegatstraße,Moabit Wiebestraße
+1976103,1976,70,straßenbahn,46.0,Ost,15,,Falkenberger Strasse,Am Kupfergraben
+1976104,1976,71,autobus,24.0,West,15,,Vinetaplatz,Wilhelmsruh Kopenhagener Strasse
+1976105,1976,71,straßenbahn,37.0,Ost,15,,"Heinersdorf, Romain-Rolland-Strasse",Am Kupfergraben
+1976106,1976,72,autobus,51.0,West,15,,Alt-Reinickendorf,Gartenfeld
+1976107,1976,72,straßenbahn,31.0,Ost,20,,Pasedagplatz,Hackescher Markt
+1976108,1976,73,autobus,38.0,West,15,,Zoo Hardenbergplatz,"Britz, Buschkrug"
+1976109,1976,73,straßenbahn,39.0,Ost,12,,Pasedagplatz,Stadion der Weltjugend
+1976110,1976,74,autobus,44.0,West,15,,Charlottenburg Königin-Elisabeth-Strasse,Lindenhof
+1976111,1976,74,straßenbahn,47.0,Ost,12,,Bernkasteler Strasse,Falkenberger Strasse
+1976112,1976,75,autobus,46.0,West,15,,Steglitzer Damm E. Munsterdamm,Hermannplatz
+1976113,1976,75,straßenbahn,27.0,Ost,12,,Bernkasteler Strasse,Hackescher Markt
+1976114,1976,76,autobus,41.0,West,7,,U-Bhf. Walther-Schreiber-Platz,Lichtenrade Blohmstrasse E. Wünsdorfer Strasse
+1976115,1976,76E,autobus,20.0,West,10,,U-Bhf. Alt-Mariendorf,Lichtenrade Bahnhofstrasse
+1976116,1976,77,autobus,32.0,West,20,,Neukölln Britzer Allee,Marienfelde Daimlerstrasse
+1976117,1976,78,autobus,33.0,Ost,10,,Arkonaplatz,Rober-Koch-Platz
+1976118,1976,78,autobus,16.0,West,15,,Alt-Buckow,U-Bhf. Alt-Mariendorf
+1976119,1976,79,autobus,12.0,Ost,15,,Alexanderstrasse,U-Bhf. Thälmannplatz
+1976120,1976,8,autobus,35.0,Ost,15,,Mahlsdorfer Allee,"Bhf. Berlin-Lichtenberg, Irenenstrasse"
+1976121,1976,8,autobus,18.0,West,15,,Flughafen Berlin-Tegel,Lindauer Allee/Aroser Allee
+1976122,1976,80,autobus,25.0,West,10,,U-Bhf. Ruhleben,Nennhauser Damm E. Brunsbütteler Damm
+1976123,1976,81,autobus,36.0,West,7,,U-Bhf. Friedrich-Wilhelm-Platz,Mariendorf Dardanellenweg
+1976124,1976,82,autobus,28.0,West,15,,Blohmstrasse/Wünsdorfer Strasse,Blohmstrasse/Wünsdorfer Strasse
+1976125,1976,82,straßenbahn,49.0,Ost,20,,"Mahlsdorf-Süd, Hubertus",S-Bhf. Ostkreuz
+1976126,1976,83,autobus,51.0,West,12,,Nettelbeckplatz,Belßstrasse E. Preysingstrasse
+1976127,1976,83,straßenbahn,40.0,Ost,20,,S-Bhf. Mahlsdorf,Wendenschloß
+1976128,1976,84,autobus,36.0,West,12,,Ringstrasse E. Weißwasserweg,U-Bhf. Kurfürstenstrasse
+1976129,1976,84,straßenbahn,58.0,Ost,20,,Wasserwerk,Am Falkenberg
+1976130,1976,85,autobus,50.0,West,12,,Lichterfelde-Süd Holtheimer Weg,Wittenbergplatz
+1976131,1976,85,straßenbahn,41.0,Ost,20,,Haeckelstrasse,Wendenschloß
+1976132,1976,86,autobus,56.0,West,10,,Invalidenstrasse,Steglitz Birkbuschstrasse
+1976133,1976,86,straßenbahn,41.0,Ost,20,,"Mahlsdorf-Süd, Hubertus",Alt-Schmöckwitz
+1976134,1976,87,autobus,10.0,West,20,,Richard-Wagner-Platz,Pulsstraße
+1976135,1976,88,autobus,10.0,West,15,,U-Bhf. Rathaus Steglitz,Klingsorplatz (Klinikum)
+1976136,1976,89,autobus,45.0,West,15,,Bornholmer Strasse,Fehrbelliner Platz
+1976137,1976,9,autobus,19.0,Ost,15,,John-Schehr-Strasse,Unter den Linden Ecke Otto-Grotewohl-Strasse
+1976138,1976,9,autobus,36.0,West,15,,Flughafen Berlin-Tegel,Budapester Strasse
+1976139,1976,90,autobus,35.0,West,15,,"Zoo, Hardenbergplatz",Wedding Vinetplatz
+1976140,1976,91,autobus,27.0,West,10,,Buckow-Süd,Hermannplatz
+1976141,1976,92,autobus,47.0,West,10,,Staaken Brunsbütteler Damm,"Zoo, Hardenbergplatz"
+1976142,1976,93,autobus,13.0,West,20,,U-Bhf. Alt-Mariendorf,Britz-Süd Gutschmidtstrasse
+1976143,1976,94,autobus,37.0,West,10,,Heerstrasse Ecke Reimerweg,"Zoo, Hardenbergplatz"
+1976144,1976,95,autobus,25.0,West,12,,Sonnenallee Ecke Schwarzer Weg,U-Bhf. Hallesches Tor
+1976145,1976,96,autobus,34.0,West,12,,Platz der Luftbrücke,Lichterfelde Lindenstraße
+1976146,1976,97,autobus,37.0,West,20,,Heerstrasse/Stadtgrenze,Hakenfelde Aalemannufer
+1976147,1976,99,autobus,70.0,West,12,,Wedding Usedomer Strasse,Spandau Freudstraße
+1976148,1976,"S-Bhf. Friedrichshagen <> Rüdersdorf, Karl-Marx-Platz (VEB Schöneiche-Rüdersdorf)",straßenbahn,39.0,Ost,20,,S-Bhf. Friedrichshagen (Grenze),"Rüdersdorf, Karl-Marx-Platz"
+1976149,1976,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse (VEB Woltersdorf),straßenbahn,20.0,Ost,20,,S-Bhf. Rahnsdorf,Woltersdorfer Schleuse
+1976150,1976,100,s-bahn,64.0,Ost,20,,Friedrichstrasse,Strausberg Nord
+1976151,1976,105,s-bahn,45.0,Ost,20,,Friedrichstrasse,Erkner
+1976152,1976,110,s-bahn,51.0,Ost,20,,Friedrichstrasse,Königs Wusterhausen
+1976153,1976,115,s-bahn,39.0,Ost,20,,Friedrichstrasse,Zentralflughafen Berlin-Schönefeld
+1976154,1976,140,s-bahn,104.0,Ost,20,,Oranienburg,Zentralflughafen Berlin-Schönefeld
+1976155,1976,141,s-bahn,64.0,Ost,20,,Bernau (b Bln),Zeuthen
+1976156,1976,142,s-bahn,41.0,Ost,20,,Blankenburg,Spindlersfeld
+1976157,1976,A,u-bahn,19.0,Ost,3,,Pankow (Vinetastrasse),Thälmannplatz
+1976158,1976,E,u-bahn,16.0,Ost,4,,Alexanderplatz,Tierpark
+1976159,1976,1,u-bahn,32.0,West,5,,Schlesisches Tor,Ruhleben
+1976160,1976,2,u-bahn,29.0,West,10,,Wittenbergplatz,Krumme Lanke
+1976161,1976,3,u-bahn,3.0,West,10,,Wittenbergplatz,Uhlandstr.
+1976162,1976,4,u-bahn,6.0,West,5,,Nollendorfplatz,Innsbrucker Platz (Hauptstr.)
+1976163,1976,6,u-bahn,36.0,West,5,,Tegel,Alt-Mariendorf
+1976164,1976,7,u-bahn,30.0,West,5,,Fehrbelliner Platz,Rudow
+1976165,1976,8,u-bahn,20.0,West,10,,Gesundbrunnen,Leinestr.
+1976166,1976,9,u-bahn,16.0,West,3,,Osloer Str.,Rathaus Steglitz
+1976167,1976,KBS 152,s-bahn,,West,0,,Heiligensee,Lichtenrade
+1976168,1976,KBS 153,s-bahn,,West,0,,Heiligensee,Lichterfelde Süd
+1976169,1976,KBS 156,s-bahn,,West,0,,Friedrichstrasse,Wannsee
+1976170,1976,KBS 150,s-bahn,,West,0,,Gesundbrunnen,Sonnenallee
+1976171,1976,KBS 154,s-bahn,,West,0,,Frohnau,Wannsee
+1976172,1976,KBS 155,s-bahn,,West,0,,Zehlendorf,Düppel
+1976173,1976,KBS 157,s-bahn,,West,0,,Friedrichstr.,Staaken
+1976174,1976,KBS 158,s-bahn,,West,0,,Beusselstr.,Spandau West
+1976175,1976,KBS 159,s-bahn,,West,0,,Beusselstr.,Gartenfeld
+19801,1980,1,autobus,66.0,West,12,,"Moabit, Waldstrasse","Lichterfelde, Lindenstrasse"
+19802,1980,10,autobus,67.0,West,12,,Haselhorster Damm,"Zehlendorf-Süd, Sachtlebenstrasse Ecke Lupsteiner Weg"
+19803,1980,11,autobus,43.0,West,7,,Dahlem Waldfriedhof,U-Bhf. Alt-Mariendorf
+19804,1980,11,straßenbahn,47.0,Ost,20,,S-Bhf. Marzahn,Stadion der Weltjugend
+19805,1980,12,autobus,63.0,West,15,,"Wedding, Bernauerstrasse",Maximiliankorso Ecke Hainbuchenstrasse
+19806,1980,12,straßenbahn,27.0,Ost,20,,S-Bhf. Marzahn,Müggelstrasse
+19807,1980,12E,autobus,,West,20,,U-Bhf. Leopoldplatz,Zeltinger Platz
+19808,1980,13,autobus,68.0,West,12,,Alt-Heiligensee,Spandau Weinmeisterhornweg
+19809,1980,13,straßenbahn,40.0,Ost,10,,Eberswalderstrasse,Hönower Wiesenweg
+198010,1980,14,autobus,60.0,West,15,,U-Bhf. Osloerstrasse,Alt-Heiligensee
+198011,1980,14E,autobus,9.0,West,30,,Alt-Heiligensee,Falkenplatz
+198012,1980,15,autobus,58.0,West,20,,Wittenauerstrasse Märkisches Viertel,Frohnau Invalidensiedlung
+198013,1980,15,straßenbahn,37.0,Ost,20,,Bhf. Lichtenberg,Hackescher Markt
+198014,1980,16,autobus,63.0,West,15,,Reinickendorf Klemkestrasse/Sommerstrasse,Breitenbachplatz
+198015,1980,17,autobus,56.0,West,12,,Grunewald Fontanestrasse,Lichterfelde Celsiusstrasse
+198016,1980,17,straßenbahn,56.0,Ost,12,,Besarinstrasse,"Johannisthal, Haeckelstrasse"
+198017,1980,18,autobus,33.0,West,20,,U-Bhf. Oskar-Helene-Heim,Steinstücken
+198018,1980,18,straßenbahn,49.0,Ost,20,,"Biesdorf, Karl-Maron-Strasse",Stadion der Weltjugend
+198019,1980,19,autobus,44.0,West,10,,Grunewald Roseneck,Platz der Luftbrücke
+198020,1980,19,straßenbahn,73.0,Ost,20,,"Köpenick, Krankenhaus",Artur-Becker-Strasse
+198021,1980,2,autobus,36.0,West,7,,U-Bhf. Friedrich-Wilhelm-Platz,"Marienfelde, Waldsassenerstrasse"
+198022,1980,20,autobus,41.0,West,15,,Tegelort,Lübars Alt-Lübars
+198023,1980,20,straßenbahn,50.0,Ost,20,,Bhf. Lichtenberg,Hackerscher Markt
+198024,1980,21,autobus,63.0,West,15,,Quickbornerstrasse Märkisches Viertel,Fehrbelliner Platz
+198025,1980,21,straßenbahn,72.0,Ost,20,,Eberswalderstrasse,"Köpenick, Krankenhaus"
+198026,1980,22,autobus,37.0,West,15,,U-Bhf. Osloerstrasse,Waidmannslust Titiseestrasse
+198027,1980,22,straßenbahn,50.0,Ost,15,,"Rosenthal, Hauptstrasse",Am Kupfergraben
+198028,1980,22E,autobus,11.0,West,15,,U-Bhf. Holzhauserstrasse,"Wittenau, Kirche"
+198029,1980,23,autobus,28.0,Ost,20,,Falkenhöhe,Rudower Chaussee
+198030,1980,23,autobus,53.0,West,15,,"Zoo, Hardenbergplatz",Saatwinkler Damm Mäkeritzwiesen
+198031,1980,24,autobus,41.0,West,15,,Moabit Wiebestrasse,Platz der Luftbrücke
+198032,1980,24,straßenbahn,36.0,Ost,12,,Pasedagplatz,Stadion der Weltjugend
+198033,1980,25,autobus,40.0,West,12,,Britz-Süd,U-Bhf. Friedrich-Wilhelm-Platz
+198034,1980,25,straßenbahn,47.0,Ost,20,,Sterndamm,Rahnsdorf
+198035,1980,26,straßenbahn,26.0,Ost,20,,Sterndamm,"Köpenick, Krankenhaus"
+198036,1980,27,autobus,41.0,Ost,10,,S-Bhf. Kaulsdorf,Alt-Müggelheim
+198037,1980,28,autobus,44.0,West,15,,U-Bhf. Tempelhof,Schlesischestrasse Ecke Heckmannufer
+198038,1980,28,straßenbahn,27.0,Ost,20,,Pasedagplatz,Hackescher Markt
+198039,1980,29,autobus,45.0,West,10,,"Grunewald, Roseneck",Oranienplatz
+198040,1980,29,straßenbahn,22.0,Ost,0,,"Weißensee, Kniprodeallee",Müggelstrassestrasse
+198041,1980,3,autobus,46.0,West,15,,Düppel-Süd,"Wannsee, Heckeshorn"
+198042,1980,3,straßenbahn,43.0,Ost,10,,Björnsonstrasse,S-Bhf. Warschauerstrasse
+198043,1980,30,autobus,67.0,Ost,15,,Robert-Koch-Platz,Ostbahnhof
+198044,1980,30,autobus,37.0,West,20,,U-Bhf. Rathaus Steglitz,Lichtenrade Nahariyastrasse
+198045,1980,31,autobus,39.0,Ost,20,,"Buch, Hobrechtsfelder Chaussee",Ostseestrasse
+198046,1980,31,autobus,28.0,West,10,,U-Bhf. Ruhleben,Staaken Heidebergplan
+198047,1980,32,autobus,22.0,Ost,6,,Hans-Beimler-Strasse,Otto-Grotewohl-Strasse
+198048,1980,32,autobus,28.0,West,10,,U-Bhf. Rathaus Steglitz,Marienfelde Bahnstrasse
+198049,1980,33,autobus,17.0,Ost,20,,Grumbkowstrasse,U-Bhf. Pankow
+198050,1980,33,autobus,29.0,West,10,,U-Bhf. Breitenbachplatz,Mariendorf Rixdorferstrasse Ecke Dirschelweg
+198051,1980,34,autobus,17.0,Ost,20,,U-Bhf. Marchlewskistrasse,Alt-Stralau
+198052,1980,34,autobus,52.0,West,20,,"Spandau, Wasserwerk",Glienicke Gutshof
+198053,1980,34E,autobus,8.0,West,18,,Alt-Gatow,Habichtswald
+198054,1980,35,autobus,32.0,Ost,20,,"Biesdorf-Süd, Köpenickerstrasse",S-Bhf. Nöldnerplatz
+198055,1980,35,autobus,35.0,West,20,,U-Bhf. Ruhleben,Kladow Hottengrund
+198056,1980,35E,autobus,7.0,West,42,,Kladow,Altenheim Hottengrund
+198057,1980,36,autobus,18.0,Ost,10,,S-Bhf. Grünau,"Flughafen, Inland"
+198058,1980,361,autobus,9.0,Ost,20,,Flughafen Schönefeld,Flughafen Schönefeld
+198059,1980,38,autobus,25.0,Ost,60,,S-Bhf. Grünau,Diepensee
+198060,1980,39,autobus,21.0,Ost,20,,Wartenberg,Falkenbergerstrasse
+198061,1980,4,autobus,65.0,West,12,,"Neu-Westend, Brixplatz","Neukölln, Teupitzerstrasse"
+198062,1980,4,straßenbahn,25.0,Ost,15,,Eberswalderstrasse,S-Bhf. Warschauerstrasse
+198063,1980,40,autobus,21.0,Ost,7,,Robert-Koch-Platz,Ostbahnhof
+198064,1980,41,autobus,39.0,Ost,30,,Neu-Lindenberg,"Ahrensfelde, Kirche"
+198065,1980,41,autobus,58.0,West,12,,Rudow Stadtgrenze,U-Bhf. Hallesches Tor
+198066,1980,42,autobus,30.0,Ost,20,,"Buch, Zepernickerstrasse",Ostseestrasse
+198067,1980,43,autobus,28.0,Ost,10,,S-Bhf. Marzahn,S-Bhf. Nöldnerplatz
+198068,1980,44,autobus,19.0,Ost,60,,"Hönow, Nord",Treskowstrasse
+198069,1980,45,autobus,38.0,Ost,7,,"Wilhelmsruh, Schillerstrasse",Schwarzelfenweg
+198070,1980,46,straßenbahn,48.0,Ost,15,,Nordend,Am Kupfergraben
+198071,1980,47,autobus,30.0,Ost,15,,"Treptow, Eichenstrasse",Bhf. Schöneweide
+198072,1980,48,autobus,27.0,Ost,10,,"Hohenschönhausen, Chemie-Handel",Richard-Sorge-Strasse
+198073,1980,48,autobus,46.0,West,12,,Zehlendorf Fischerhüttenstrasse Ecke Potsdamerstrasse,Tiergartenstrasse Philharmonie
+198074,1980,49,straßenbahn,40.0,Ost,10,,"Bucholz, Hauptstrasse",Hackescher Markt
+198075,1980,5,autobus,32.0,West,10,,U-Bhf. Ruhleben,"Spandau, Nervenklinik"
+198076,1980,50,autobus,15.0,Ost,7,,Rolandstrasse,U-Bhf. Pankow
+198077,1980,50,autobus,26.0,West,15,,Grunewald Roseneck,Schöneberg Mansteinstrasse
+198078,1980,51,autobus,,Ost,20,,"Buch, Am Sandhaus","Zepernick, Kirche"
+198079,1980,52,autobus,12.0,Ost,15,,Achtermannstrasse,U-Bhf. Pankow
+198080,1980,52,autobus,38.0,West,12,,Rudow Stubenrauchstrasse,Marienfelde Stadtrandsiedlung
+198081,1980,53,autobus,39.0,Ost,10,,"Hohenschönhausen, Degnerstrasse",U-Bhf. Tierpark
+198082,1980,53,autobus,40.0,West,15,,Nikolassee Alemannenstrasse,Lichterfelde Oberhofer Platz
+198083,1980,54,autobus,60.0,Ost,20,,Bhf. Lichtenberg,Artur-Becker-Strasse
+198084,1980,54,autobus,45.0,West,10,,Spandau Johannesstift,"Zoo, Hardenbergplatz"
+198085,1980,55,autobus,33.0,Ost,6,,"Wilhelmsruh, Fontanestrasse",Piesporterstrasse
+198086,1980,55,autobus,33.0,West,15,,Jakob-Kaiser-Platz,Spandau Hakenfelde
+198087,1980,56,autobus,28.0,Ost,6,,Gehringstrasse,S-Bhf. Storkowerstrasse
+198088,1980,56,autobus,23.0,West,15,,U-Bhf. Ruhleben,Spandau Hakenfelde
+198089,1980,57,autobus,31.0,Ost,3,,Artur-Becker-Strasse Ecke Michelangelostrasse,Scharnhorststrasse
+198090,1980,57,autobus,41.0,West,20,,Rudower Ring (U-Bhf. Zwickauer Damm),Rudower Ring (U-Bhf. Zwickauer Damm)
+198091,1980,6,autobus,14.0,West,30,,"Wannsee, Kronprinzessinnenweg",Glienicker Brücke
+198092,1980,60,autobus,14.0,Ost,20,,"S-Bhf. Kaulsdorf, Bausdorfstrasse","S-Bhf. Kaulsdorf, Bausdorfstrasse"
+198093,1980,60,autobus,47.0,West,15,,Wittenbergplatz,Rathaus Zehlendorf
+198094,1980,61,autobus,31.0,Ost,20,,"Schöneiche, Dorfaue",Hessenwinkel
+198095,1980,61,autobus,46.0,West,15,,Bernauerstrasse Ecke Wollinerstrasse,U-Bhf. Scharnweberstrasse
+198096,1980,62,autobus,13.0,Ost,7,,VEB Kombinat Auto Trans,Springbornstrassestrasse
+198097,1980,62,autobus,43.0,West,12,,Wilhelmsruher Damm Märkisches Viertel,"Zoo, Hardenbergplatz"
+198098,1980,63,autobus,30.0,West,15,,Spandau Waldkrankenhaus,Spandau Seegefelder Weg
+198099,1980,63,straßenbahn,52.0,Ost,12,,"Hohenschönhausen, Gartenstadt",Stadion der Weltjugend
+1980100,1980,64,autobus,18.0,Ost,15,,Krüllsstrasse,Karl-Kunger-Strasse
+1980101,1980,64,autobus,33.0,West,15,,Senftenberger Ring Märkisches Zentrum,U-Bhf. Leopoldplatz
+1980102,1980,65,autobus,26.0,Ost,20,,Krüllsstrasse,Oberspree
+1980103,1980,65,autobus,58.0,West,10,,Wedding Seestrasse Ecke Müllerstrasse,Neukölln Schulenburgpark
+1980104,1980,66,autobus,27.0,Ost,20,,Krüllsstrasse,Springbornstrasse
+1980105,1980,67,autobus,26.0,Ost,20,,S-Bhf. Treptower Park,VEB Kombinat Auto Trans
+1980106,1980,68,autobus,15.0,Ost,10,,Kaulsdorferstrasse,Wendenschloßstrasse
+1980107,1980,69,autobus,37.0,West,20,,Eichkamp Dauerwaldweg,Reichstag
+1980108,1980,7,autobus,42.0,Ost,10,,"Glienicke, Kirche",U-Bhf. Pankow
+1980109,1980,7,autobus,15.0,West,15,,U-Bhf. Alt-Mariendorf,"Lichtenrade, Motzenerstrasse Egestorffstrasse"
+1980110,1980,70,autobus,34.0,West,12,,Wollankstrasse Ecke Kattegatstrasse,Moabit Wiebestrassestrasse
+1980111,1980,70,straßenbahn,46.0,Ost,15,,"Hohenschönhausen, Falkenbergerstrasse",Am Kupfergraben
+1980112,1980,71,straßenbahn,37.0,Ost,15,,Heinersdorf,Am Kupfergraben
+1980113,1980,72,straßenbahn,31.0,Ost,15,,Pasedagplatz,Hackescher Markt
+1980114,1980,75,autobus,51.0,West,10,,Steglitzer Damm Ecke Munsterdamm,Hermannplatzstrasse
+1980115,1980,75,autobus,50.0,West,10,,Steglitzer Damm Ecke Munsterdamm,Hermannplatz
+1980116,1980,76E,autobus,20.0,West,10,,U-Bhf. Alt-Mariendorf,Lichtenrade Bahnhofstrasse
+1980117,1980,78,autobus,31.0,Ost,10,,Arkonaplatz,Schumannstrasse
+1980118,1980,78E,autobus,18.0,Ost,10,,Arkonaplatz,Adalbertstrasse
+1980119,1980,79,autobus,11.0,Ost,15,,Alexanderstrasse,Otto-Grotewohl-Strasse
+1980120,1980,79,autobus,19.0,West,20,,U-Bhf. Alt-Mariendorf,Lichtenrade Nahariyastrasse
+1980121,1980,8,autobus,35.0,Ost,7,,"Waldesruh, Mahlsdorfer Allee",Bhf. Lichtenberg
+1980122,1980,8,autobus,24.0,West,15,,Flughafen Berlin Tegel,U-Bhf. Osloerstrasse
+1980123,1980,80,autobus,25.0,West,10,,U-Bhf. Ruhleben,Staaken Brunsbütteler Damm
+1980124,1980,81,autobus,39.0,West,7,,U-Bhf. Friedrich-Wilhelm-Platz,Mariendorf Dardanellenweg
+1980125,1980,82,straßenbahn,51.0,Ost,12,,Mahlsdorf-Süd,S-Bhf. Ostkreuz
+1980126,1980,83,straßenbahn,44.0,Ost,15,,S-Bhf. Mahlsdorf,Wendenschloß
+1980127,1980,84,autobus,36.0,West,12,,Lichterfelde Ringstrasse Ecke Weißwasserweg,U-Bhf. Kurfürstenstrasse
+1980128,1980,84,straßenbahn,58.0,Ost,20,,Wasserwerk,Am Falkenberg
+1980129,1980,85,autobus,50.0,West,10,,Lichterfelde-Süd Holtheimer Weg,Wittenbergplatz
+1980130,1980,85,straßenbahn,40.0,Ost,0,,"Johannisthal, Haeckelstrasse",Wendenschloß
+1980131,1980,86,autobus,41.0,West,12,,Fehrbelliner Platz,"Lichterfelde, Celsiusstrasse"
+1980132,1980,86,straßenbahn,44.0,Ost,10,,Hirtestrasse,Alt-Schmöckwitzstrasse
+1980133,1980,87,autobus,10.0,West,20,,U-Bhf. Richard-Wagner-Platz,Pulsstrasse
+1980134,1980,88,autobus,12.0,West,10,,U-Bhf. Rathaus Steglitz,"Lichterfelde, Augustaplatz"
+1980135,1980,89,autobus,29.0,West,10,,Bornholmerstrasse,U-Bhf. Mierendorffplatzstrasse
+1980136,1980,9,autobus,19.0,Ost,2,,John-Schehr-Strasse,Otto-Grotewohl-Strasse
+1980137,1980,9,autobus,40.0,West,15,,Flughafen Berlin-Tegel,Budapesterstrasse
+1980138,1980,92,autobus,17.0,Ost,20,,S-Bhf. Marzahn,S-Bhf. Biesdorf
+1980139,1980,93,autobus,8.0,Ost,20,,Lindenhof,Kinderkrankenhaus Lindenhofstrasse
+1980140,1980,94,autobus,13.0,Ost,20,,U-Bhf. Tierpark,U-Bhf. Tierpark
+1980141,1980,94,autobus,41.0,West,10,,Heerstrasse Ecke Reimerweg,"Zoo, Hardenbergplatz"
+1980142,1980,95,autobus,39.0,Ost,30,,S-Bhf. Marzahn,"Mahlsdorf, Greifswalderstrasse"
+1980143,1980,95,autobus,25.0,West,12,,Sonnenallee Ecke Peter-Anders-Strasse,U-Bhf. Hallesches Tor
+1980144,1980,96,autobus,29.0,Ost,15,,S-Bhf. Nöldnerplatz,S-Bhf. Nöldnerplatz
+1980145,1980,96,autobus,34.0,West,12,,Platz der Luftbrücke,Lichterfelde Lindenstrasse
+1980146,1980,97,autobus,37.0,West,20,,Heerstrasse/Stadtgrenze,Hakenfelde Aalemannufer
+1980147,1980,99,autobus,75.0,West,12,,"Wedding, Gartenplatz",Spandau Freudstrasse
+1980148,1980,E,autobus,,West,60,,Wannsee Kronprinzessinenweg,Drewitz
+1980149,1980,S-Bhf. Friedrichshagen <> Alt-Rüdersdorf,straßenbahn,40.0,Ost,20,,S-Bhf. Friedrichshagen,Alt-Rüdersdorf
+1980150,1980,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse,straßenbahn,,Ost,20,,S-Bhf. Rahnsdorf,Woltersdorfer Schleuse
+1980151,1980,A,u-bahn,19.0,Ost,2,,Pankow (Vinetastrasse),Thälmannplatz
+1980152,1980,E,u-bahn,16.0,Ost,5,,Alexanderplatz,Tierpark
+1980153,1980,KBS 100,s-bahn,65.0,Ost,20,,Friedrichstrasse,Strausberg Nord
+1980154,1980,KBS 101,s-bahn,18.0,Ost,20,,Warschauerstrasse,Marzahn
+1980155,1980,KBS 105,s-bahn,45.0,Ost,20,,Friedrichstrasse,Erkner
+1980156,1980,KBS 110,s-bahn,20.0,Ost,51,,Friedrichstrasse,Königs Wusterhausen
+1980157,1980,KBS 115,s-bahn,39.0,Ost,20,,Friedrichstrasse,Flughafen Berlin-Schönefeld
+1980158,1980,KBS 140,s-bahn,85.0,Ost,20,,Oranienburg,Flughafen Berlin-Schönefeld
+1980159,1980,KBS 141,s-bahn,64.0,Ost,20,,Bernau (b Bln),Zeuthen
+1980160,1980,KBS 142,s-bahn,42.0,Ost,20,,Blankenburg,Spindlersfeld
+1980161,1980,KBS 143,s-bahn,43.0,Ost,20,,Alexanderplatz,Buch
+1980162,1980,1,u-bahn,33.0,West,2,,Schlesisches Tor,Ruhleben
+1980163,1980,2,u-bahn,22.0,West,5,,Wittenbergplatz,Krumme Lanke
+1980164,1980,3,u-bahn,2.0,West,10,,Wittenbergplatz,Uhlandstrasse
+1980165,1980,4,u-bahn,6.0,West,5,,Nollendorfplatz,Innsbrucker Platz (Hauptstrasse)
+1980166,1980,6,u-bahn,13.0,West,3,,Tegel,Alt-Mariendorf
+1980167,1980,7,u-bahn,13.0,West,3,,Rohrdamm,Rudow
+1980168,1980,8,u-bahn,23.0,West,6,,Osloerstrasse,Leinestrasse
+1980169,1980,9,u-bahn,22.0,West,3,,Osloerstrasse,Rathaus Steglitz
+1980170,1980,KBS 152,s-bahn,,West,0,,Frohnau,Lichtenrade
+1980171,1980,KBS 153,s-bahn,,West,0,,Heiligensee,Lichterfelde Süd
+1980172,1980,KBS 156,s-bahn,,West,0,,Friedrichstrasse,Wannsee
+19821,1982,1,autobus,69.0,West,12,,"Moabit, Waldstrasse Ecke Turmstrasse","Lichterfelde, Lindenstrasse"
+19822,1982,10,autobus,67.0,West,12,,Haselhorster Damm,"Zehlendorf-Süd, Sachtlebenstrasse Ecke Lupsteiner Weg"
+19823,1982,11,autobus,43.0,West,12,,Dahlem Waldfriedhof,U-Bhf. Alt-Mariendorf
+19824,1982,11,straßenbahn,47.0,Ost,20,,S-Bhf. Marzahn,Stadion der Weltjugend
+19825,1982,12,autobus,61.0,West,15,,"Wedding, Bernauer Strasse",Maximiliankorso Ecke Hainbuchenstrasse
+19826,1982,12,straßenbahn,27.0,Ost,20,,S-Bhf. Marzahn,Scharnweberstrasse
+19827,1982,13,autobus,66.0,West,12,,Alt-Heiligensee,Spandau Weinmeisterhornweg
+19828,1982,13,straßenbahn,40.0,Ost,10,,Eberswalder Strasse,Hönower Wiesenweg
+19829,1982,14,autobus,60.0,West,15,,U-Bhf. Osloer Strasse,Alt-Heiligensee
+198210,1982,14E,autobus,9.0,West,30,,Alt-Heiligensee,Falkenplatz
+198211,1982,15,autobus,58.0,West,20,,Wittenauer Strasse Märkisches Viertel,Frohnau Invalidensiedlung
+198212,1982,15,straßenbahn,37.0,Ost,20,,Bhf. Lichtenberg,"Hackescher Markt"""
+198213,1982,16,autobus,63.0,West,15,,Reinickendorf Klemkestrasse/Sommerstrasse,Breitenbachplatz
+198214,1982,17,autobus,56.0,West,12,,Grundewald Fontanestrasse,Lichterfelde Celsiusstrasse
+198215,1982,17,straßenbahn,56.0,Ost,12,,Besarinstrasse,Haeckelstrasse
+198216,1982,18,autobus,33.0,West,20,,U-Bhf. Oskar-Helene-Heim,Steinstücken
+198217,1982,18,straßenbahn,49.0,Ost,20,,"Biesdorf, Elisabethstrasse",Stadion der Weltjugend
+198218,1982,19,autobus,44.0,West,10,,Grunewald Roseneck,Platz der Luftbrücke
+198219,1982,19,straßenbahn,68.0,Ost,20,,"Köpenick, Krankenhaus",Artur-Becker-Strasse
+198220,1982,2,autobus,36.0,West,7,,U-Bhf. Friedrich-Wilhelm-Platz,"Marienfelde, Waldsassener Strasse"
+198221,1982,20,autobus,41.0,West,15,,Tegelort,Lübars Alt-Lübars
+198222,1982,20,straßenbahn,50.0,Ost,20,,Bhf. Lichtenberg,Hackerscher Markt
+198223,1982,21,autobus,63.0,West,20,,Quickborner Strasse Märkisches Viertel,Fehrbelliner Platz
+198224,1982,21,straßenbahn,72.0,Ost,20,,Eberswalder Strasse,"Köpenick, Krankenhaus"
+198225,1982,22,autobus,37.0,West,15,,U-Bhf. Osloer Strasse,Waidmannslust Titiseestrasse
+198226,1982,22,straßenbahn,50.0,Ost,15,,"Rosenthal, Quickborner Strasse",Am Kupfergraben
+198227,1982,23,autobus,28.0,Ost,20,,Falkenhöhe,Rudower Chaussee
+198228,1982,23,autobus,50.0,West,15,,"Zoo, Hardenbergplatz",Saatwinkler Damm Mäkeritzwiesen
+198229,1982,24,autobus,43.0,West,15,,Moabit Wiebestrasse,Platz der Luftbrücke
+198230,1982,24,straßenbahn,36.0,Ost,12,,Pasedagplatz,Stadion der Weltjugend
+198231,1982,25,autobus,39.0,West,15,,Britz-Süd,U-Bhf. Friedrich-Wilhelm-Platz
+198232,1982,25,straßenbahn,47.0,Ost,20,,Sterndamm,Rahnsdorf
+198233,1982,26,straßenbahn,26.0,Ost,20,,Sterndamm,"Köpenick, Krankenhaus"
+198234,1982,27,autobus,41.0,Ost,10,,S-Bhf. Kaulsdorf,Alt-Müggelheim
+198235,1982,28,autobus,44.0,West,15,,U-Bhf. Tempelhof,Schlesische Strasse Ecke Heckmannufer
+198236,1982,29,autobus,45.0,West,10,,"Grunewald, Roseneck",Oranienplatz
+198237,1982,3,autobus,46.0,West,15,,Düppel-Süd,"Wannsee, Heckeshorn"
+198238,1982,3,straßenbahn,43.0,Ost,10,,Björnsonstrasse,S-Bhf. Warschauer Strasse
+198239,1982,30,autobus,67.0,Ost,15,,Robert-Koch-Platz,Ostbahnhof
+198240,1982,30,autobus,37.0,West,20,,U-Bhf. Rathaus Steglitz,Lichtenrade Nahariyastrasse
+198241,1982,31,autobus,39.0,Ost,20,,"Buch, Hobrechtsfelder Chaussee",Ostseestrasse
+198242,1982,31,autobus,28.0,West,10,,U-Bhf. Ruhleben,Staaken Heidebergplan
+198243,1982,32,autobus,22.0,Ost,6,,Hans-Beimler-Strasse,Otto-Grotewohl-Strasse
+198244,1982,32,autobus,28.0,West,10,,U-Bhf. Rathaus Steglitz,Marienfelde Bahnstrasse
+198245,1982,33,autobus,17.0,Ost,20,,Grumbkowstrasse,U-Bhf. Pankow
+198246,1982,33,autobus,29.0,West,10,,U-Bhf. Breitenbachplatz,Mariendorf Rixdorfer Strasse Ecke Dirschelweg
+198247,1982,34,autobus,17.0,Ost,15,,U-Bhf. Marchlewskistrasse,Alt-Stralau
+198248,1982,34,autobus,50.0,West,20,,"Spandau, Wasserwerk",Glienicke Gutshof
+198249,1982,35,autobus,32.0,Ost,20,,"Biesdorf-Süd, Köpenicker Strasse",S-Bhf. Nöldnerplatz
+198250,1982,35,autobus,37.0,West,20,,U-Bhf. Ruhleben,Kladow Hottengrund
+198251,1982,36,autobus,18.0,Ost,10,,S-Bhf. Grünau,"Schönefeld, Dorfstrasse"
+198252,1982,361,autobus,9.0,Ost,20,,Flughafen Schönefeld,Flughafen Schönefeld
+198253,1982,362,autobus,6.0,Ost,20,,Flughafen Schönefeld,Flughafen Schönefeld
+198254,1982,37,autobus,12.0,Ost,30,,S-Bhf. Grünau,Rudower Strasse
+198255,1982,38,autobus,25.0,Ost,60,,S-Bhf. Grünau,Diepensee
+198256,1982,39,autobus,14.0,Ost,20,,"Wartenberg, Siedlung",Gehrenseestrasse
+198257,1982,4,autobus,64.0,West,10,,"Neu-Westend, Brixplatz","Neukölln, Teupitzer Strasse"
+198258,1982,4,straßenbahn,24.0,Ost,10,,Eberswalder Strasse,S-Bhf. Warschauer Strasse
+198259,1982,40,autobus,21.0,Ost,7,,Robert-Koch-Platz,Ostbahnhof
+198260,1982,41,autobus,39.0,Ost,30,,Neu-Lindenberg,"Ahrensfelde, Kirche"
+198261,1982,41,autobus,58.0,West,12,,Rudow Stadtgrenze,U-Bhf. Hallesches Tor
+198262,1982,42,autobus,30.0,Ost,12,,"Buch, Zepernicker Strasse",Ostseestrasse
+198263,1982,43,autobus,28.0,Ost,10,,S-Bhf. Marzahn,S-Bhf. Nöldnerplatz
+198264,1982,44,autobus,16.0,Ost,60,,"Hönow, Nord",S-Bhf. Mahlsdorf
+198265,1982,45,autobus,38.0,Ost,6,,"Wilhelmsruh, Schillerstrasse",Schwarzelfenweg
+198266,1982,46,straßenbahn,48.0,Ost,15,,Nordend,Am Kupfergraben
+198267,1982,47,autobus,30.0,Ost,15,,"Treptow, Eichenstrasse",Bhf. Schöneweide
+198268,1982,48,autobus,23.0,Ost,10,,"Hohenschönhausen, Chemie-Handel",Dimitroffstrasse
+198269,1982,48,autobus,46.0,West,12,,Zehlendorf Fischerhüttenstrasse Ecke Potsdamer Strasse,Tiergartenstrasse Philharmonie
+198270,1982,49,straßenbahn,39.0,Ost,15,,"Bucholz, Hauptstrasse",Hackescher Markt
+198271,1982,5,autobus,32.0,West,10,,U-Bhf. Ruhleben,"Spandau, Nervenklinik"
+198272,1982,50,autobus,15.0,Ost,7,,Rolandstrasse,U-Bhf. Pankow
+198273,1982,50,autobus,26.0,West,15,,Grunewald Roseneck,Schöneberg Mansteinstrasse
+198274,1982,51,autobus,,Ost,20,,"Buch, Am Sandhaus","Zepernick, Kirche"
+198275,1982,51E,autobus,,Ost,10,,"Buch, Am Sandhaus",Akademie der Wissenschaften
+198276,1982,52,autobus,14.0,Ost,15,,Achtermannstrasse,U-Bhf. Pankow
+198277,1982,52,autobus,35.0,West,7,,Rudow Stubenrauchstrasse,Marienfelde Stadtrandsiedlung
+198278,1982,53,autobus,39.0,Ost,10,,"Hohenschönhausen, Degnerstrasse",U-Bhf. Tierpark
+198279,1982,53,autobus,40.0,West,15,,Nikolassee Alemannenstrasse,Lichterfelde Oberhofer Platz
+198280,1982,54,autobus,62.0,Ost,10,,Bhf. Lichtenberg,Artur-Becker-Strasse
+198281,1982,54,autobus,45.0,West,10,,Spandau Johannesstift,"Zoo, Hardenbergplatz"
+198282,1982,55,autobus,33.0,Ost,7,,"Wilhelmsruh, Fontanestrasse",Piesporter Strasse
+198283,1982,55,autobus,33.0,West,15,,Jakob-Kaiser-Platz,Spandau Hakenfelde
+198284,1982,56,autobus,28.0,Ost,6,,Gehringstrasse,S-Bhf. Storkower Strasse
+198285,1982,56,autobus,23.0,West,15,,U-Bhf. Ruhleben,Spandau Hakenfelde
+198286,1982,57,autobus,31.0,Ost,2,,Artur-Becker-Strasse Ecke Michelangelostrasse,Scharnhorststrasse
+198287,1982,57,autobus,44.0,West,20,,Rudower Ring (U-Bhf. Zwickauer Damm),Rudower Ring (U-Bhf. Zwickauer Damm)
+198288,1982,59,autobus,15.0,Ost,10,,Stadion der Weltjugend,Otto-Grotewohl-Strasse
+198289,1982,6,autobus,14.0,West,30,,"Wannsee, Kronprinzessinnenweg",Glienicker Brücke
+198290,1982,60,autobus,14.0,Ost,20,,"S-Bhf. Kaulsdorf, Bausdorfstrasse","S-Bhf. Kaulsdorf, Bausdorfstrasse"
+198291,1982,60,autobus,40.0,West,15,,Wittenbergplatz,U-Bhf. Oskar-Helene-Heim
+198292,1982,61,autobus,31.0,Ost,20,,"Schöneiche, Dorfaue",Hessenwinkel
+198293,1982,61,autobus,37.0,West,15,,U-Bhf. Gesundbrunnen,U-Bhf. Scharnweberstrasse
+198294,1982,62,autobus,13.0,Ost,7,,VEB Kombinat Auto Trans,Springbornstrasse
+198295,1982,62,autobus,50.0,West,12,,Wilhelmsruher Damm Märkisches Viertel,"Zoo, Hardenbergplatz"
+198296,1982,63,autobus,30.0,West,15,,Spandau Waldkrankenhaus,Spandau Seegefelder Weg
+198297,1982,63,straßenbahn,48.0,Ost,12,,"Hohenschönhausen, Gartenstadt",Stadion der Weltjugend
+198298,1982,64,autobus,18.0,Ost,15,,Krüllsstrasse,Karl-Kunger-Strasse
+198299,1982,64,autobus,48.0,West,15,,Senftenberger Ring Märkisches Zentrum,Bernauer Strasse Ecke Wollinger Strasse
+1982100,1982,65,autobus,26.0,Ost,20,,Krüllsstrasse,Oberspree
+1982101,1982,65,autobus,58.0,West,10,,Wedding Seestrasse Ecke Müllerstrasse,Neukölln Schulenburgpark
+1982102,1982,66,autobus,27.0,Ost,20,,Krüllsstrasse,Springbornstrasse
+1982103,1982,66,autobus,39.0,West,15,,"Zoo, Hardenbergplatz",Stölpchensee Glienicker Strasse
+1982104,1982,67,autobus,26.0,Ost,20,,S-Bhf. Treptower Park,VEB Kombinat Auto Trans
+1982105,1982,68,autobus,15.0,Ost,10,,Kaulsdorfer Strasse,Wendenschloßstrasse
+1982106,1982,68,autobus,35.0,West,15,,Dahlem Clayallee Ecke Königin-Luise-Strasse,U-Bhf. Tempelhof
+1982107,1982,69,autobus,37.0,West,20,,Eichkamp Dauerwaldweg,Reichstag
+1982108,1982,7,autobus,42.0,Ost,10,,"Glienicke, Kirche",U-Bhf. Pankow
+1982109,1982,7,autobus,15.0,West,15,,U-Bhf. Alt-Mariendorf,"Lichtenrade, Motzener Strasse Egestorffstrasse"
+1982110,1982,70,autobus,34.0,West,12,,Wollankstrasse Ecke Kattegatstrasse,Moabit Wiebestrasse
+1982111,1982,70,straßenbahn,49.0,Ost,15,,Gehrenseestrasse,Am Kupfergraben
+1982112,1982,71,straßenbahn,37.0,Ost,15,,Heinersdorf,Am Kupfergraben
+1982113,1982,72,autobus,56.0,West,15,,Wilhelmsruh Kopenhagener Strasse,Gartenfeld
+1982114,1982,72,straßenbahn,31.0,Ost,15,,Pasedagplatz,Hackescher Markt
+1982115,1982,73,autobus,41.0,West,7,,Zoo Hardenbergplatz,"Britz, Buschkrug"
+1982116,1982,74,autobus,44.0,West,15,,Charlottenburg Königin-Elisabeth-Strasse,Lindenhof
+1982117,1982,76,autobus,42.0,West,7,,U-Bhf. Walther-Schreiber-Platz,Lichtenrade Blohmstrasse Ecke Wünsdorfer Strasse
+1982118,1982,76E,autobus,21.0,West,5,,U-Bhf. Alt-Mariendorf,Lichtenrade Bahnhofstrasse
+1982119,1982,77,autobus,32.0,West,20,,Neukölln Britzer Allee,Marienfelde Daimlerstrasse
+1982120,1982,78,autobus,31.0,Ost,10,,Arkonaplatz,Schumannstrasse
+1982121,1982,78,autobus,16.0,West,20,,U-Bhf. Alt-Mariendorf,"Buckow, Alt-Buckow"
+1982122,1982,78E,autobus,18.0,Ost,10,,Arkonaplatz,Adalbertstrasse
+1982123,1982,79,autobus,11.0,Ost,15,,Alexanderstrasse,Otto-Grotewohl-Strasse
+1982124,1982,79,autobus,24.0,West,20,,U-Bhf. Alt-Mariendorf,Lichtenrade Nahariyastrasse
+1982125,1982,8,autobus,36.0,Ost,7,,Mahlsdorfer Allee,Bhf. Lichtenberg
+1982126,1982,8,autobus,24.0,West,15,,Flughafen Berlin-Tegel,U-Bhf. Osloer Strasse
+1982127,1982,81,autobus,39.0,West,7,,U-Bhf. Friedrich-Wilhelm-Platz,Mariendorf Dardanellenweg
+1982128,1982,82,autobus,28.0,West,10,,Blohmstrasse Ecke Wünsdorfer Strasse,Blohmstrasse/Wünsdorfer Strasse
+1982129,1982,82,straßenbahn,49.0,Ost,12,,Mahlsdorf-Süd,S-Bhf. Ostkreuz
+1982130,1982,83,autobus,51.0,West,12,,Nettelbeckplatz,"Lankwitz, Belßstrasse Ecke Preysingstrasse"
+1982131,1982,83,straßenbahn,42.0,Ost,15,,S-Bhf. Mahlsdorf,Wendenschloß
+1982132,1982,84,autobus,36.0,West,12,,Lichterfelde Ringstrasse Ecke Weißwasserweg,U-Bhf. Kurfürstenstrasse
+1982133,1982,84,straßenbahn,47.0,Ost,12,,Wasserwerk,Am Falkenberg
+1982134,1982,85,autobus,48.0,West,10,,Lichterfelde-Süd Holtheimer Weg,Wittenbergplatz
+1982135,1982,86,autobus,41.0,West,12,,Fehrbelliner Platz,"Lichterfelde, Celsiusstrasse"
+1982136,1982,87,autobus,10.0,West,20,,U-Bhf. Richard-Wagner-Platz,Pulsstrasse
+1982137,1982,88,autobus,12.0,West,10,,U-Bhf. Rathaus Steglitz,"Lichterfelde, Augustaplatz"
+1982138,1982,89,autobus,28.0,West,10,,Bornholmer Strasse,U-Bhf. Mierendorffplatz
+1982139,1982,9,autobus,19.0,Ost,2,,John-Schehr-Strasse,Otto-Grotewohl-Strasse
+1982140,1982,9,autobus,39.0,West,15,,Flughafen Berlin-Tegel,Budapester Strasse
+1982141,1982,90,autobus,39.0,West,20,,"Zoo, Hardenbergplatz",Bernauer Strasse Ecke Wolliner Strasse
+1982142,1982,91,autobus,29.0,West,10,,Buckow-Süd,Hermannplatz
+1982143,1982,92,autobus,17.0,Ost,10,,S-Bhf. Marzahn,S-Bhf. Biesdorf
+1982144,1982,92,autobus,47.0,West,10,,Staaken Brunsbütteler Damm,"Zoo, Hardenbergplatz"
+1982145,1982,92E,autobus,4.0,Ost,20,,S-Bhf. Biesdorf,Wilhem-Griesinger-Krankenhaus
+1982146,1982,93,autobus,4.0,Ost,20,,Lindenhof,U-Bhf. Lichtenberg
+1982147,1982,93,autobus,13.0,West,20,,U-Bhf. Alt-Mariendorf,Britz-Süd Gutschmidtstrasse
+1982148,1982,94,autobus,13.0,Ost,20,,U-Bhf. Tierpark,U-Bhf. Tierpark
+1982149,1982,95,autobus,34.0,Ost,20,,Greifswalder Strasse,S-Bhf. Marzahn
+1982150,1982,95,autobus,26.0,West,12,,Sonnenallee Ecke Peter-Anders-Strasse,U-Bhf. Hallesches Tor
+1982151,1982,96,autobus,29.0,Ost,15,,S-Bhf. Nöldnerplatz,S-Bhf. Nöldnerplatz
+1982152,1982,96,autobus,34.0,West,12,,Platz der Luftbrücke,Lichterfelde Lindenstrasse
+1982153,1982,97,autobus,38.0,West,20,,Heerstrasse/Stadtgrenze,Hakenfelde Aalemannufer
+1982154,1982,99,autobus,75.0,West,12,,"Wedding, Gartenplatz",Spandau Freudstrasse
+1982155,1982,E,autobus,,West,60,,Wannsee Kronprinzessinenweg,Drewitz
+1982156,1982,S-Bhf. Friedrichshagen <> Rüdersdorf,straßenbahn,42.0,Ost,20,,S-Bhf. Friedrichshagen,Alt-Rüdersdorf
+1982157,1982,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse,straßenbahn,,Ost,20,,S-Bhf. Rahnsdorf,Woltersdorfer Schleuse
+1982158,1982,1,u-bahn,,West,10,,Schlesisches Tor,Ruhleben
+1982159,1982,2,u-bahn,22.0,West,6,,Wittenbergplatz,Krumme Lanke
+1982160,1982,3,u-bahn,2.0,West,10,,Wittenbergplatz,Uhlandstrasse
+1982161,1982,4,u-bahn,6.0,West,5,,Nollendorfplatz,Innsbrucker Platz
+1982162,1982,6,u-bahn,37.0,West,3,,Tegel,Alt-Mariendorf
+1982163,1982,7,u-bahn,46.0,West,3,,Rohrdamm,Rudow
+1982164,1982,8,u-bahn,23.0,West,6,,Osloer Strasse,Leinestrasse
+1982165,1982,9,u-bahn,22.0,West,3,,Osloer Strasse,Rathaus Steglitz
+1982166,1982,152,s-bahn,,West,0,,Frohnau,Lichtenrade
+1982167,1982,153,s-bahn,,West,0,,Heiligensee,Lichterfelde Süd
+1982168,1982,156,s-bahn,,West,0,,Friedrichstrasse,Wannsee
+1982169,1982,100,s-bahn,65.0,Ost,20,,Friedrichstrasse,Strausberg Nord
+1982170,1982,101,s-bahn,21.0,Ost,20,,Warschauer Strasse,Otto-Winzer-Str
+1982171,1982,105,s-bahn,45.0,Ost,20,,Friedrichstrasse,Erkner
+1982172,1982,110,s-bahn,51.0,Ost,20,,Friedrichstrasse,Königs Wusterhausen
+1982173,1982,115,s-bahn,39.0,Ost,20,,Friedrichstrasse,Schönefeld
+1982174,1982,140,s-bahn,83.0,Ost,20,,Oranienburg,Schönefeld
+1982175,1982,141,s-bahn,73.0,Ost,20,,Bernau,Zeuthen
+1982176,1982,142,s-bahn,41.0,Ost,20,,Blankenburg,Spindlersfeld
+1982177,1982,143,s-bahn,40.0,Ost,20,,Buch,Alexanderplatz
+1982178,1982,143,s-bahn,47.0,Ost,20,,Buch,Schöneweide
+1982179,1982,A,u-bahn,19.0,Ost,2,,Panko (Vinetastrasse),Thälmannplatz
+1982180,1982,E,u-bahn,18.0,Ost,4,,Tierpark,Alexanderplatz
+19841,1984,1,autobus,66.0,West,10,,"Moabit, Waldstrasse Ecke Turmstrasse","Lichterfelde, Lindenstrasse"
+19842,1984,10 SEV,autobus,9.0,Ost,60,,"Marzahn, Betriebshof",Franz-Stenzer-Strasse
+19843,1984,10,autobus,67.0,West,12,,Haselhorster Damm,"Zehlendorf-Süd, Sachtlebenstrasse Ecke Lupsteiner Weg"
+19844,1984,11,autobus,35.0,West,15,,Dahlem Waldfriedhof,Alt-Marienfelde
+19845,1984,11,straßenbahn,56.0,Ost,10,,Elisabethstrasse,Pflugstrasse
+19846,1984,12,autobus,61.0,West,15,,"Wedding, Bernauer Strasse",Maximiliankorso Ecke Hainbuchenstrasse
+19847,1984,12,straßenbahn,35.0,Ost,20,,"Marzahn, Henneckestrasse",Scharnweberstrasse
+19848,1984,13,autobus,66.0,West,12,,Alt-Heiligensee,Spandau Weinmeisterhornweg
+19849,1984,13,straßenbahn,40.0,Ost,10,,Eberswalder Strasse,Hönower Wiesenweg
+198410,1984,14,autobus,60.0,West,15,,U-Bhf. Osloer Strasse,Alt-Heiligensee
+198411,1984,14,straßenbahn,31.0,Ost,20,,"Marzahn, Henneckestrasse",Dimitroffstrasse
+198412,1984,14E,autobus,9.0,West,30,,Alt-Heiligensee,Falkenplatz
+198413,1984,15,autobus,58.0,West,20,,Wittenauer Strasse Märkisches Viertel,Frohnau Invalidensiedlung
+198414,1984,15,straßenbahn,21.0,Ost,20,,Bhf. Berlin-Lichtenberg,Dimitroffstrasse
+198415,1984,16,autobus,63.0,West,15,,Reinickendorf Klemkestrasse/Sommerstrasse,Breitenbachplatz
+198416,1984,17,autobus,57.0,West,12,,S-Bhf. Grunewald,Lichterfelde Celsiusstrasse
+198417,1984,17,straßenbahn,56.0,Ost,12,,Besarinstrasse,Haeckelstrasse
+198418,1984,18,autobus,34.0,West,20,,U-Bhf. Oskar-Helene-Heim,Steinstücken
+198419,1984,18,straßenbahn,58.0,Ost,20,,Henneckestrasse,Pflugstrasse
+198420,1984,18E,straßenbahn,34.0,Ost,10,,Henneckestrasse,Dimitroffstrasse
+198421,1984,19,autobus,44.0,West,10,,Grunewald Roseneck,Platz der Luftbrücke
+198422,1984,19,straßenbahn,65.0,Ost,20,,"Köpenick, Krankenhaus",Dimitroffstrasse
+198423,1984,2,autobus,36.0,West,7,,U-Bhf. Friedrich-Wilhelm-Platz,"Marienfelde, Waldsassener Strasse"
+198424,1984,20,autobus,41.0,West,15,,Tegelort,Lübars Alt-Lübars
+198425,1984,20,straßenbahn,50.0,Ost,20,,Bhf. Lichtenberg,Hackerscher Markt
+198426,1984,21,autobus,63.0,West,20,,Quickborner Strasse Märkisches Viertel,Fehrbelliner Platz
+198427,1984,21,straßenbahn,71.0,Ost,20,,Eberswalder Strasse,"Köpenick, Krankenhaus"
+198428,1984,22,autobus,37.0,West,15,,U-Bhf. Osloer Strasse,Waidmannslust Titiseestrasse
+198429,1984,22,straßenbahn,50.0,Ost,15,,"Rosenthal, Quickborner Strasse",Am Kupfergraben
+198430,1984,22E,autobus,11.0,West,15,,U-Bhf. Holzhauser Strasse,"Wittenau, Kirche"
+198431,1984,23,autobus,28.0,Ost,20,,Falkenhöhe,Rudower Chaussee
+198432,1984,23,autobus,46.0,West,15,,S-Bhf. Tiergarten,Saatwinkler Damm Mäkeritzwiesen
+198433,1984,24,autobus,43.0,West,15,,Moabit Wiebestrasse,Platz der Luftbrücke
+198434,1984,24,straßenbahn,36.0,Ost,12,,Bernkasteler Strasse,Wöhlertstrasse
+198435,1984,25,autobus,39.0,West,15,,Britz-Süd,U-Bhf. Friedrich-Wilhelm-Platz
+198436,1984,25,straßenbahn,47.0,Ost,20,,Sterndamm,Rahnsdorf
+198437,1984,26,straßenbahn,26.0,Ost,20,,Sterndamm,"Köpenick, Krankenhaus"
+198438,1984,27,autobus,41.0,Ost,10,,S-Bhf. Kaulsdorf,Alt-Müggelheim
+198439,1984,28,autobus,44.0,West,15,,U-Bhf. Tempelhof,Schlesische Strasse Ecke Heckmannufer
+198440,1984,28,straßenbahn,27.0,Ost,14,,Pasedagplatz,Hackescher Markt
+198441,1984,29,straßenbahn,22.0,Ost,20,,"Weißensee, Kniprodeallee",Scharnweberstrasse
+198442,1984,3,autobus,45.0,West,15,,Düppel-Süd,"Wannsee, Heckeshorn"
+198443,1984,3,straßenbahn,43.0,Ost,10,,Björnsonstrasse,S-Bhf. Warschauer Strasse
+198444,1984,30,autobus,67.0,Ost,7,,Robert-Koch-Platz,Ostbahnhof
+198445,1984,31,autobus,38.0,Ost,20,,"Buch, Hobrechtsfelder Chaussee",Ostseestrasse
+198446,1984,32,autobus,25.0,Ost,6,,Hans-Beimler-Strasse,Otto-Grotewohl-Strasse
+198447,1984,32,autobus,22.0,West,20,,U-Bhf. Rathaus Steglitz,Marienfelde Daimlerstrasse
+198448,1984,33,autobus,17.0,Ost,20,,Grumbkowstrasse,U-Bhf. Pankow
+198449,1984,33,autobus,29.0,West,10,,U-Bhf. Breitenbachplatz,Mariendorf Rixdorfer Strasse Ecke Dirschelweg
+198450,1984,34,autobus,17.0,Ost,15,,U-Bhf. Marchlewskistrasse,Alt-Stralau
+198451,1984,34,autobus,50.0,West,20,,"Spandau, Wasserwerk",Glienicke Gutshof
+198452,1984,34E,autobus,8.0,West,60,,Alt-Gatow,Habichtswald
+198453,1984,35,autobus,32.0,Ost,20,,"Biesdorf-Süd, Köpenicker Strasse",S-Bhf. Nöldnerplatz
+198454,1984,35,autobus,37.0,West,20,,U-Bhf. Ruhleben,Kladow Hottengrund
+198455,1984,35E,autobus,7.0,West,25,,Kladow,"Hottengrund, Altenheim"
+198456,1984,36,autobus,18.0,Ost,10,,S-Bhf. Grünau,"Schönefeld, Dorfstrasse"
+198457,1984,361,autobus,9.0,Ost,20,,Flughafen Schönefeld,Flughafen Schönefeld
+198458,1984,362,autobus,6.0,Ost,20,,Flughafen Schönefeld,Flughafen Schönefeld
+198459,1984,37,autobus,12.0,Ost,30,,S-Bhf. Grünau,Rudower Strasse
+198460,1984,38,autobus,25.0,Ost,60,,S-Bhf. Grünau,Diepensee
+198461,1984,39,autobus,21.0,Ost,20,,"Wartenberg, Siedlung",Degnerstrasse
+198462,1984,4,autobus,64.0,West,10,,"Neu-Westend, Brixplatz","Neukölln, Teupitzer Strasse"
+198463,1984,4,straßenbahn,25.0,Ost,10,,Eberswalder Strasse,S-Bhf. Warschauer Strasse
+198464,1984,40,autobus,20.0,Ost,8,,Robert-Koch-Platz,Ostbahnhof
+198465,1984,41,autobus,39.0,Ost,30,,Neu-Lindenberg,"Ahrensfelde, Lindenberger Strasse"
+198466,1984,41,autobus,58.0,West,12,,Rudow Stadtgrenze,U-Bhf. Hallesches Tor
+198467,1984,42,autobus,30.0,Ost,12,,"Buch, Zepernicker Strasse",Ostseestrasse
+198468,1984,43,autobus,29.0,Ost,10,,S-Bhf. Marzahn,S-Bhf. Nöldnerplatz
+198469,1984,44,autobus,16.0,Ost,60,,"Hönow, Dorf",S-Bhf. Mahlsdorf
+198470,1984,45,autobus,38.0,Ost,12,,"Wilhelmsruh, Schillerstrasse",Schwarzelfenweg
+198471,1984,46,straßenbahn,48.0,Ost,10,,Nordend,Am Kupfergraben
+198472,1984,47,autobus,38.0,Ost,15,,"Treptow, Eichenstrasse",S-Bhf. Oberspree
+198473,1984,48,autobus,15.0,Ost,12,,Marzahner Strasse,S-Bhf. Friedrichsfelde Ost
+198474,1984,48,autobus,46.0,West,12,,Zehlendorf Fischerhüttenstrasse Ecke Potsdamer Strasse,Tiergartenstrasse Philharmonie
+198475,1984,49,straßenbahn,39.0,Ost,15,,"Bucholz, Hauptstrasse",Hackescher Markt
+198476,1984,5,autobus,32.0,West,10,,U-Bhf. Ruhleben,"Spandau, Nervenklinik"
+198477,1984,50,autobus,18.0,Ost,7,,Rolandstrasse,U-Bhf. Pankow
+198478,1984,50,autobus,23.0,West,15,,Grunewald Roseneck,Schöneberg Barbarossaplatz
+198479,1984,51,autobus,,Ost,20,,"Buch, Am Sandhaus","Zepernick, Kirche"
+198480,1984,51E,autobus,,Ost,10,,"Buch, Am Sandhaus",Akademie der Wissenschaften
+198481,1984,52,autobus,14.0,Ost,15,,Achtermannstrasse,U-Bhf. Pankow
+198482,1984,52,autobus,35.0,West,12,,Rudow Stubenrauchstrasse,Marienfelde Stadtrandsiedlung
+198483,1984,53,autobus,38.0,Ost,10,,Degnerstrasse,U-Bhf. Tierpark
+198484,1984,53,autobus,40.0,West,15,,S-Bhf. Nikolassee,Lichterfelde Oberhofer Platz
+198485,1984,54,autobus,31.0,Ost,10,,S-Bhf. Marzahn,Bhf. Lichtenberg
+198486,1984,54,autobus,45.0,West,10,,Spandau Johannesstift,"Zoo, Hardenbergplatz"
+198487,1984,55,autobus,33.0,Ost,7,,Fontanestrasse,Piesporter Strasse
+198488,1984,55,autobus,33.0,West,15,,Jakob-Kaiser-Platz,Spandau Hakenfelde
+198489,1984,56,autobus,42.0,Ost,12,,Gehringstrasse,S-Bhf. Storkower Strasse
+198490,1984,56,autobus,23.0,West,20,,U-Bhf. Ruhleben,Spandau Hakenfelde
+198491,1984,56E,autobus,28.0,Ost,12,,Gehringstrasse,S-Bhf. Storkower Strasse
+198492,1984,57/E,autobus,31.0,Ost,2,,Michelangelostrasse,Scharnhorststrasse
+198493,1984,57,autobus,44.0,West,20,,Rudower Ring (U-Bhf. Zwickauer Damm),Rudower Ring (U-Bhf. Zwickauer Damm)
+198494,1984,59,autobus,15.0,Ost,10,,Stadion der Weltjugend,Otto-Grotewohl-Strasse
+198495,1984,6,autobus,14.0,West,30,,S-Bhf. Wannsee,Glienicker Brücke
+198496,1984,60,autobus,14.0,Ost,20,,S-Bhf. Kaulsdorf,S-Bhf. Kaulsdorf
+198497,1984,60,autobus,40.0,West,15,,Wittenbergplatz,U-Bhf. Oskar-Helene-Heim
+198498,1984,61,autobus,31.0,Ost,20,,"Schöneiche, Dorfaue",Hessenwinkel
+198499,1984,61,autobus,45.0,West,15,,U-Bhf./S-Bhf. Gesundbrunnen,Otisstrasse Ecke Wittestrasse
+1984100,1984,62,autobus,13.0,Ost,7,,VEB Kombinat Auto Trans,Springbornstrasse
+1984101,1984,62,autobus,50.0,West,12,,Wilhelmsruher Damm Märkisches Viertel,"Zoo, Hardenbergplatz"
+1984102,1984,63,autobus,29.0,West,15,,Spandau Waldkrankenhaus,Staaken Heidebergplan
+1984103,1984,63,straßenbahn,42.0,Ost,10,,Gehrenseestrasse,Stadion der Weltjugend
+1984104,1984,64,autobus,19.0,Ost,15,,Krüllsstrasse,Karl-Kunger-Strasse
+1984105,1984,64,autobus,48.0,West,15,,Senftenberger Ring Märkisches Zentrum,Bernauer Strasse Ecke Wollinger Strasse
+1984106,1984,65,autobus,26.0,Ost,20,,Krüllsstrasse,Oberspree
+1984107,1984,65,autobus,,West,12,,Wedding Seestrasse Ecke Müllerstrasse,Sonnenalle Ecke Peter-Anders-Strasse
+1984108,1984,66,autobus,27.0,Ost,20,,Krüllsstrasse,Springbornstrasse
+1984109,1984,67,autobus,26.0,Ost,20,,S-Bhf. Treptower Park,VEB Kombinat Auto Trans
+1984110,1984,68,autobus,16.0,Ost,10,,Kaulsdorfer Strasse,Müggelschlößchenweg
+1984111,1984,68,autobus,35.0,West,15,,Dahlem Clayallee Ecke Königin-Luise-Strasse,U-Bhf. Tempelhof
+1984112,1984,69,autobus,14.0,Ost,20,,Kaulsdorfer Strasse,Müggelschlößchenweg
+1984113,1984,69,autobus,37.0,West,20,,Eichkamp Dauerwaldweg,Reichstag
+1984114,1984,7,autobus,42.0,Ost,20,,"Glienicke, Leninstrasse",U-Bhf. Pankow
+1984115,1984,7,autobus,18.0,West,10,,U-Bhf. Alt-Mariendorf,"Lichtenrade, Blohmstrasse Ecke Wünsdorfer Strasse"
+1984116,1984,70,autobus,34.0,West,12,,Wollankstrasse Ecke Kattegatstrasse,Moabit Wiebestrasse
+1984117,1984,70,straßenbahn,49.0,Ost,15,,Gehrenseestrasse,Am Kupfergraben
+1984118,1984,71,straßenbahn,37.0,Ost,15,,Heinersdorf,Am Kupfergraben
+1984119,1984,72,autobus,56.0,West,15,,Wilhelmsruh Kopenhagener Strasse,Gartenfeld
+1984120,1984,72,straßenbahn,35.0,Ost,15,,Pasedagplatz,Oranienburger Tor
+1984121,1984,73,autobus,41.0,West,7,,Zoo Hardenbergplatz,"Britz, Buschkrug"
+1984122,1984,74,autobus,44.0,West,15,,Charlottenburg Königin-Elisabeth-Strasse,Lindenhof
+1984123,1984,75,autobus,54.0,West,10,,Steglitzer Damm Ecke Munsterdamm,Hermannplatz
+1984124,1984,76,autobus,42.0,West,7,,U-Bhf. Walther-Schreiber-Platz,Lichtenrade Blohmstrasse Ecke Wünsdorfer Strasse
+1984125,1984,77,autobus,32.0,West,20,,Neukölln Britzer Allee,Marienfelde Daimlerstrasse
+1984126,1984,78,autobus,32.0,Ost,10,,Arkonaplatz,Schumannstrasse
+1984127,1984,78,autobus,19.0,West,20,,U-Bhf. Alt-Mariendorf,Lichtenrade Nahariyastrasse
+1984128,1984,78E,autobus,18.0,Ost,10,,Arkonaplatz,Adalbertstrasse
+1984129,1984,79,autobus,12.0,Ost,20,,Alexanderstrasse,Otto-Grotewohl-Strasse
+1984130,1984,79,autobus,48.0,West,15,,Marienfelde Waldsassener Strasse,S-Bhf. Lichtenrade
+1984131,1984,8,autobus,36.0,Ost,7,,Mahlsdorfer Allee,Bhf. Lichtenberg
+1984132,1984,8,autobus,24.0,West,15,,Flughafen Berlin-Tegel,U-Bhf. Osloer Strasse
+1984133,1984,80,autobus,25.0,West,15,,U-Bhf. Ruhleben,Staaken Brunsbütteler Damm
+1984134,1984,81,autobus,39.0,West,7,,U-Bhf. Friedrich-Wilhelm-Platz,Mariendorf Dardanellenweg
+1984135,1984,82,autobus,31.0,West,15,,S-Bhf. Lichtenrade,S-Bhf. Lichtenrade
+1984136,1984,82,straßenbahn,49.0,Ost,12,,Mahlsdorf-Süd,S-Bhf. Ostkreuz
+1984137,1984,83,autobus,45.0,West,12,,Nettelbeckplatz,"Lankwitz, Kirche"
+1984138,1984,83,straßenbahn,42.0,Ost,15,,S-Bhf. Mahlsdorf,Wendenschloß
+1984139,1984,84,autobus,38.0,West,12,,Lichterfelde Ringstrasse Ecke Weißwasserweg,U-Bhf. Kurfürstenstrasse
+1984140,1984,84,straßenbahn,47.0,Ost,20,,Wasserwerk,Am Falkenberg
+1984141,1984,85,autobus,48.0,West,10,,Lichterfelde-Süd Holtheimer Weg,Wittenbergplatz
+1984142,1984,85,straßenbahn,40.0,Ost,20,,"Johannisthal, Haeckelstrasse",Wendenschloß
+1984143,1984,86,autobus,41.0,West,12,,Fehrbelliner Platz,"Lichterfelde, Celsiusstrasse"
+1984144,1984,86,straßenbahn,41.0,Ost,10,,Hirtestrasse,Alt-Schmöckwitz
+1984145,1984,87,autobus,10.0,West,20,,U-Bhf. Richard-Wagner-Platz,Pulsstrasse
+1984146,1984,88,autobus,12.0,West,10,,U-Bhf. Rathaus Steglitz,"Lichterfelde, Augustaplatz"
+1984147,1984,89,autobus,28.0,West,10,,Bornholmer Strasse,U-Bhf. Mierendorffplatz
+1984148,1984,9,autobus,19.0,Ost,3,,John-Schehr-Strasse,Otto-Grotewohl-Strasse
+1984149,1984,9,autobus,40.0,West,15,,Flughafen Berlin-Tegel,Budapester Strasse
+1984150,1984,90,autobus,36.0,West,20,,"Zoo, Hardenbergplatz",Bernauer Strasse Ecke Wolliner Strasse
+1984151,1984,91,autobus,30.0,Ost,20,,Lindenberger Strasse,S-Bhf. Kaulsdorf
+1984152,1984,91,autobus,29.0,West,10,,Buckow-Süd,Hermannplatz
+1984153,1984,92,autobus,19.0,Ost,10,,S-Bhf. Marzahn,S-Bhf. Biesdorf
+1984154,1984,92,autobus,48.0,West,10,,Staaken Brunsbütteler Damm,"Zoo, Hardenbergplatz"
+1984155,1984,92E,autobus,4.0,Ost,20,,S-Bhf. Biesdorf,Wilhem-Griesinger-Krankenhaus
+1984156,1984,93,autobus,4.0,Ost,0,,Lindenhof,U-Bhf. Lichtenberg
+1984157,1984,93,autobus,13.0,West,20,,U-Bhf. Alt-Mariendorf,Britz-Süd Gutschmidtstrasse
+1984158,1984,94,autobus,13.0,Ost,20,,U-Bhf. Tierpark,U-Bhf. Tierpark
+1984159,1984,94,autobus,41.0,West,10,,Heerstrasse Ecke Reimerweg,"Zoo, Hardenbergplatz"
+1984160,1984,95,autobus,33.0,Ost,20,,Greifswalder Strasse,S-Bhf. Marzahn
+1984161,1984,96,autobus,29.0,Ost,15,,S-Bhf. Nöldnerplatz,S-Bhf. Nöldnerplatz
+1984162,1984,96,autobus,33.0,West,12,,Platz der Luftbrücke,Lichterfelde Lindenstrasse
+1984163,1984,96E,autobus,43.0,West,12,,Platz der Luftbrücke,Beeskowdamm
+1984164,1984,97,autobus,15.0,Ost,0,,Rangierbahnhof,Rangierbahnhof
+1984165,1984,97,autobus,28.0,West,20,,Heerstrasse/Stadtgrenze,Hakenfelde Aalemannufer
+1984166,1984,98,autobus,7.0,Ost,0,,Franz-Stenzer-Strasse,Arbeitsstättengebiet Marzahn
+1984167,1984,99,autobus,39.0,Ost,20,,Greifswalder Strasse,S-Bhf. Friedrichsfelde Ost
+1984168,1984,99,autobus,75.0,West,10,,"Wedding, Gartenplatz",Spandau Freudstrasse
+1984169,1984,E,autobus,,West,60,,U-Bhf. Tegel,Stolpe
+1984170,1984,E,autobus,,West,30,,S-Bhf. Wannsee,Drewitz
+1984171,1984,S-Bhf. Friedrichshagen <> Rüdersdorf,straßenbahn,40.0,ost,20,,S-Bhf. Friedrichshagen,Alt-Rüdersdorf
+1984172,1984,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse,straßenbahn,20.0,ost,20,,S-Bhf. Rahnsdorf,Woltersdorfer Schleuse
+1984173,1984,1,u-bahn,31.0,West,6,,Schlesisches Tor,Ruhleben
+1984174,1984,2,u-bahn,20.0,West,5,,Wittenbergplatz,Krumme Lanke
+1984175,1984,3,u-bahn,2.0,West,10,,Wittenbergplatz,Uhlandstr
+1984176,1984,4,u-bahn,6.0,West,5,,Nollendorfplatz,Innsbrucker Platz
+1984177,1984,6,u-bahn,37.0,West,3,,Tegel,Alt-Mariendorf
+1984178,1984,7,u-bahn,46.0,West,3,,Rohrdamm,Rudow
+1984179,1984,8,u-bahn,23.0,West,6,,Osloer Strasse,Leinestrasse
+1984180,1984,9,u-bahn,22.0,West,3,,Osloer Strasse,Rathaus Steglitz
+1984181,1984,2,s-bahn,34.0,West,20,,Lichtenrade,Gesundbrunnen
+1984182,1984,3,s-bahn,28.0,West,20,,Wannsee,Friedrichstrasse
+1984183,1984,100,s-bahn,65.0,Ost,20,,Friedrichstrasse,Strausberg Nord
+1984184,1984,101,s-bahn,,Ost,20,,Alexanderplatz,Otto-Winzer-Strasse
+1984185,1984,105,s-bahn,45.0,Ost,20,,Friedrichstrasse,Erkner
+1984186,1984,110,s-bahn,51.0,Ost,20,,Friedrichstrasse,Königs Wusterhausen
+1984187,1984,115,s-bahn,39.0,Ost,20,,Friedrichstrasse,Flughafen Berlin-Schönefeld
+1984188,1984,140,s-bahn,83.0,Ost,20,,Oranienburg,Flughafen Berlin-Schönefeld
+1984189,1984,141,s-bahn,73.0,Ost,20,,Bernau,Zeuthen
+1984190,1984,142,s-bahn,41.0,Ost,20,,Blankenburg,Spindlersfeld
+1984191,1984,143,s-bahn,40.0,Ost,20,,Buch,Alexanderplatz
+1984192,1984,143,s-bahn,47.0,Ost,20,,Buch,Schöneweide
+1984193,1984,A,u-bahn,19.0,Ost,2,,Panko (Vinetastrasse),Thälmannplatz
+1984194,1984,E,u-bahn,18.0,Ost,4,,Tierpark,Alexanderplatz
+19891,1989,1,autobus,60.0,West,15,,"Moabit, Waldstrasse","Zehlendorf, Sachtlebenstrasse"
+19892,1989,10,autobus,77.0,West,15,,Lüdenscheider Weg,"Lichterfelde, Lindenstrasse"
+19893,1989,10,straßenbahn,34.0,Ost,20,,Betriebshof Marzahn,Betriebshof Weißensee
+19894,1989,11,autobus,35.0,West,15,,Waldfriedhof,Klausenburger Pfad
+19895,1989,11,straßenbahn,56.0,Ost,10,,Elisabethstrasse,Pflugstrasse
+19896,1989,12,autobus,65.0,West,10,,Bergstrasse,Hainbuchenstrasse
+19897,1989,12,straßenbahn,39.0,Ost,20,,Ahrensfelde,Scharnweberstrasse
+19898,1989,13,autobus,67.0,West,15,,Alt-Heiligensee,Maximilian-Kolbe-Strasse
+19899,1989,13,straßenbahn,40.0,Ost,20,,Eberswalder Strasse,Hönower Wiesenweg
+198910,1989,14,autobus,47.0,West,15,,Märkisches Zentrum,Alt-Heiligensee
+198911,1989,14,straßenbahn,35.0,Ost,10,,Ahrensfelde,Dimitroffstrasse
+198912,1989,15,autobus,61.0,West,20,,Eichenroder Ring,Invalidensiedlung
+198913,1989,15,straßenbahn,28.0,Ost,10,,Falkenberg,Dimitroffstrasse
+198914,1989,16,autobus,54.0,West,20,,U-Bhf. Franz-Neumann-Platz,Breitenbachplatz
+198915,1989,16,straßenbahn,66.0,Ost,20,,"Köpenick, Krankenhaus",Zingster Strasse Hohenschönhausen
+198916,1989,17,autobus,42.0,West,0,,"Dahlem, Clayallee",Lichterfelde Celsiusstrasse
+198917,1989,17,straßenbahn,54.0,Ost,12,,Leninallee/Dimitroffstrasse,"Johannisthal, Haeckelstrasse"
+198918,1989,18,autobus,41.0,West,10,,Clayallee,Steinstücken
+198919,1989,18,straßenbahn,64.0,Ost,10,,Ahrensfelde,Wöhlertstrasse
+198920,1989,18E,straßenbahn,40.0,Ost,10,,Ahrensfelde,Dimitroffstrasse Ecke Leninallee
+198921,1989,19,autobus,39.0,West,5,,Taubertstrasse,Platz der Luftbrücke
+198922,1989,19,straßenbahn,,Ost,0,,Scharnweberstrasse,"Köpenick, Krankenhaus"
+198923,1989,2,autobus,33.0,West,7,,U-Bhf. Friedrich-Wilhelm-Platz,"Marienfelde, Waldsassener Strasse"
+198924,1989,20,autobus,41.0,West,10,,Almazeile,"Lübars, Alt Lübars"
+198925,1989,20,straßenbahn,,Ost,0,,Bhf. Lichtenberg,Hackerscher Markt
+198926,1989,21,autobus,47.0,West,10,,Quickborner Strasse Märkisches Viertel,U-Bhf. Jungfernheide
+198927,1989,21,straßenbahn,75.0,Ost,20,,Eberswalder Strasse,"Köpenick, Krankenhaus"
+198928,1989,22,autobus,47.0,West,15,,U-Bhf. Osloer Strasse,Waidmannslust Titiseestrasse
+198929,1989,22,straßenbahn,48.0,Ost,15,,"Rosenthal, Quickborner Strasse",Am Kupfergraben
+198930,1989,23,autobus,28.0,Ost,20,,Falkenhöhe,Rudower Chaussee
+198931,1989,23,autobus,44.0,West,15,,S-Bhf. Tiergarten,Saatwinkler Damm/Mäkeritzwiesen
+198932,1989,24,autobus,34.0,West,20,,U-Bhf. Turmstrasse,Platz der Luftbrücke
+198933,1989,24,straßenbahn,36.0,Ost,10,,"Weißensee, Pasedagplatz",Pflugstrasse
+198934,1989,25,autobus,37.0,West,19,,U-Bhf. Britz-Süd,U-Bhf. Friedrich-Wilhelm-Platz
+198935,1989,25,straßenbahn,47.0,Ost,20,,Sterndamm,Rahnsdorf
+198936,1989,26,autobus,17.0,West,20,,U-Bhf. Holzhauser Strasse/Berliner Strasse,S-Bhf. Wittenau (Nordbahn)
+198937,1989,26,straßenbahn,28.0,Ost,20,,Sterndamm,"Köpenick, Krankenhaus"
+198938,1989,27,autobus,9.0,West,30,,Alt-Heiligensee,Konradshöhe/Falkenplatz
+198939,1989,28,autobus,44.0,West,15,,U-Bhf. Tempelhof,Schlesische Strasse Ecke Heckmannufer
+198940,1989,28,straßenbahn,36.0,Ost,10,,"Hohenschönhausen, Zingster Strasse",Hackescher Markt
+198941,1989,29,autobus,58.0,West,10,,"Grunewald, Roseneck",U-Bhf. Hermannplatz
+198942,1989,29,straßenbahn,22.0,Ost,20,,"Weißensee, Hansastrasse",Scharnweberstrasse
+198943,1989,3,autobus,57.0,West,15,,"Lichterfelde, Oberhofer Platz","Wannsee, Heckeshorn"
+198944,1989,3,straßenbahn,43.0,Ost,10,,Björnsonstrasse,S-Bhf. Warschauer Strasse
+198945,1989,30,autobus,41.0,West,10,,U-Bhf. Rathaus Steglitz/Kreisel,"Lichtenrade, Nahariyastrasse"
+198946,1989,31,autobus,36.0,West,15,,Werderstrasse,"Staaken, Heidebergplan"
+198947,1989,32,autobus,37.0,West,10,,U-Bhf. Rathaus Steglitz/Kreisel,"Marienfelde, Culemeyerstrasse"
+198948,1989,33,autobus,34.0,West,10,,Breitenbachplatz,"Mariendorf, Dardanellenweg"
+198949,1989,34,autobus,50.0,West,15,,"Spandau, Wasserwerk","Glienicke, Gutshof"
+198950,1989,35,autobus,,West,0,,U-Bhf. Ruhleben,"Kladow, Hottengrund"
+198951,1989,36,autobus,11.0,West,20,,Krankenhaus Hohengatow,Siedlung Habichtswald
+198952,1989,37,autobus,6.0,West,30,,"Kladow, Alt-Kladow",Seniorenheim Hottengrund
+198953,1989,4,autobus,64.0,West,10,,Brixplatz,"Neukölln, Teupitzer Strasse"
+198954,1989,4,straßenbahn,25.0,Ost,12,,Eberswalder Strasse,S-Bhf. Warschauer Strasse
+198955,1989,41,autobus,61.0,West,15,,Waltersdorfer Chaussee,U-Bhf. Hallesches Tor
+198956,1989,46,straßenbahn,46.0,Ost,7,,"Niederschönhausen, Schillerstrasse",Am Kupfergraben
+198957,1989,48,autobus,46.0,West,7,,"Zehlendorf, Busseallee",Tiergartenstrasse Philharmonie
+198958,1989,49,straßenbahn,38.0,Ost,10,,"Bucholz, Hauptstrasse",Hackescher Markt
+198959,1989,5,autobus,32.0,West,10,,U-Bhf. Ruhleben,"Spandau, Nervenklinik"
+198960,1989,5,straßenbahn,29.0,Ost,20,,"Marzahn, Henneckestrasse",Bhf. Lichtenberg
+198961,1989,50,autobus,42.0,West,20,,"Düppel-Süd, Neuruppiner Strasse",U-Bhf. Güntzelstrasse
+198962,1989,52,autobus,34.0,West,10,,"Rudow, Kanalstrasse","Marienfelde, Nahmitzer Damm"
+198963,1989,53,autobus,34.0,West,20,,S-Bhf. Nikolassee,Wiesenbaude
+198964,1989,54,autobus,47.0,West,10,,Spandau Johannesstift,Hertzallee
+198965,1989,56,autobus,25.0,West,15,,U-Bhf. Ruhleben,Spandau Hakenfelde
+198966,1989,57,autobus,44.0,West,20,,Zwickauer Damm,Zwickauer Damm
+198967,1989,58,autobus,17.0,West,30,,U-Bhf. Rudow,U-Bhf. Rudow
+198968,1989,6,autobus,13.0,West,30,,S-Bhf. Wannsee,Glienicker Brücke
+198969,1989,6,straßenbahn,32.0,Ost,10,,Betriebshof Marzahn,Dimitroffstrasse
+198970,1989,60,autobus,27.0,West,20,,Hertzallee,"Grunewald, Roseneck"
+198971,1989,61,autobus,40.0,West,15,,U-Bhf. Osloer Strasse,Otisstrasse Ecke Wittestrasse
+198972,1989,62,autobus,49.0,West,7,,Wilhelmsruher Damm Märkisches Viertel,"Charlottenburg, Amtsgericht"
+198973,1989,63,autobus,32.0,West,15,,Spandau Waldkrankenhaus,Staaken Heidebergplan
+198974,1989,63,straßenbahn,50.0,Ost,15,,"Hohenschönhausen, Zingster Strasse",Stadion der Weltjugend
+198975,1989,63E,straßenbahn,43.0,Ost,15,,"Hohenschönhausen, Zingster Strasse",Hackescher Mark
+198976,1989,64,autobus,12.0,Ost,15,,"Treptow, Karl-Kunger-Strasse","Treptow, Rathaus"
+198977,1989,64,autobus,50.0,West,15,,Am Nordgraben,Bernauer Strasse Ecke Wollinger Strasse
+198978,1989,66,autobus,10.0,West,60,,S-Bhf. Wannsee,Pfaueninsel
+198979,1989,68,autobus,48.0,West,10,,"Lichterfelde, Lindenstrasse",U-Bhf. Tempelhof
+198980,1989,69,autobus,14.0,Ost,20,,Kaulsdorfer Strasse,Müggelschlößchenweg
+198981,1989,69,autobus,38.0,West,20,,S-Bhf. Grunewald,Reichstag
+198982,1989,7,autobus,35.0,Ost,20,,"U-Bhf. Pankow, Vinetastrasse",Glienicke
+198983,1989,7,autobus,18.0,West,10,,U-Bhf. Alt-Mariendorf,"Lichtenrade, Blohmstrasse Ecke Wünsdorfer Strasse"
+198984,1989,70,autobus,34.0,West,10,,S-Bhf. Wollankstrasse,Moabit Wiebestrasse
+198985,1989,70,straßenbahn,53.0,Ost,15,,"Hohenschönhausen, Zingster Strasse",Am Kupfergraben
+198986,1989,71,autobus,35.0,West,20,,"Wedding, Gartenplatz",U-Bhf. Jungfernheide
+198987,1989,71,straßenbahn,36.0,Ost,15,,"Heinersdorf, Romain-Rolland-Strasse",Am Kupfergraben
+198988,1989,72,autobus,58.0,West,15,,Klemkestrasse / Büchsenweg,Gartenfeld
+198989,1989,72,straßenbahn,62.0,Ost,0,,"Weißensee, Pasedagplatz","Hohenschönhausen, Zingster Strasse"
+198990,1989,73,autobus,41.0,West,10,,Hertzallee,"Britz, Buschkrug"
+198991,1989,74,autobus,55.0,West,20,,Charlottenburg Pulsstrasse,Lindenhof
+198992,1989,75,autobus,6.0,West,30,,S-Bhf. Lichtenrade,Kirchhainer Damm
+198993,1989,76,autobus,39.0,West,10,,U-Bhf. Walther-Schreiber-Platz,"Lichtenrade, Blohmstrasse"
+198994,1989,77,autobus,34.0,West,20,,Neukölln Britzer Allee,Marienfelde Daimlerstrasse
+198995,1989,78,autobus,19.0,West,20,,U-Bhf. Alt-Mariendorf,Nahariyastrasse
+198996,1989,79,autobus,48.0,West,5,,Marienfelde Waldsassener Strasse,S-Bhf. Lichtenrade
+198997,1989,8,autobus,25.0,West,15,,S-Bhf. Wilhelmsruh,Flughafen Tegel
+198998,1989,80,autobus,13.0,West,10,,U-Bhf. Rathaus Spandau,Staaken Brunsbütteler Damm/Nennhauser Damm
+198999,1989,80,autobus,35.0,Ost,20,,Betriebshof Marzahn,Falkenberg
+1989100,1989,81,autobus,48.0,West,7,,U-Bhf. Friedrich-Wilhelm-Platz,"Britz, Buschkrug"
+1989101,1989,82,autobus,30.0,West,20,,S-Bhf. Lichtenrade,S-Bhf. Lichtenrade
+1989102,1989,82,straßenbahn,49.0,Ost,12,,Mahlsdorf-Süd,S-Bhf. Ostkreuz
+1989103,1989,83,autobus,29.0,West,20,,Krematorium Wedding,U-Bhf. Innsbrucker Platz
+1989104,1989,83,straßenbahn,42.0,Ost,15,,S-Bhf. Mahlsdorf,Wendenschloß
+1989105,1989,84,autobus,42.0,West,0,,U-Bhf. Platz der Luftbrücke,"Zehlendorf, Beeskowdamm"
+1989106,1989,84,straßenbahn,47.0,Ost,20,,Wasserwerk,Am Falkenberg
+1989107,1989,85,autobus,42.0,West,7,,Lichterfelde-Süd Holtheimer Weg,U-Bhf. Wittenbergplatz
+1989108,1989,85,straßenbahn,40.0,Ost,20,,"Johannisthal, Haeckelstrasse",Wendenschloß
+1989109,1989,86,autobus,55.0,West,10,,S-Bhf. Grunewald,Celsiusstrasse
+1989110,1989,86,straßenbahn,41.0,Ost,10,,Alt-Schmöckwitz,Hirtestrasse
+1989111,1989,87,autobus,52.0,West,15,,U-Bhf. Kurfürstenstrasse,"Marienfelde, Waldsassener Strasse"
+1989112,1989,88,autobus,11.0,West,20,,U-Bhf. Rathaus Steglitz/S-Bhf. Steglitz,"Lichterfelde, Augustaplatz"
+1989113,1989,88,straßenbahn,7.0,Ost,30,,Sterndamm,Betriebshof Oberschönweide
+1989114,1989,89,autobus,28.0,West,10,,Bornholmer Strasse,Lise-Meitner-Strasse
+1989115,1989,9,autobus,19.0,Ost,2,,John-Schehr-Strasse,Otto-Grotewohl-Strasse
+1989116,1989,9,autobus,40.0,West,0,,Budapester Strasse,Flughafen Tegel
+1989117,1989,90,autobus,32.0,West,10,,Hertzallee,Chausseestrasse
+1989118,1989,91,autobus,40.0,West,5,,"Buckow, Lipschitzallee Gesundheitszentrum",U-Bhf. Hermannplatz
+1989119,1989,92,autobus,39.0,West,10,,"Spandau, Freudstrasse",Heerstrasse/Stadtgrenze
+1989120,1989,93,autobus,17.0,West,20,,U-Bhf. Alt-Mariendorf,"Britz, Parchimer Allee"
+1989121,1989,94,autobus,40.0,West,5,,Heerstrasse Ecke Reimerweg,Hertzallee
+1989122,1989,95,autobus,29.0,West,15,,Sonnenallee Ecke Peter-Anders-Strasse,U-Bhf. Hallesches Tor
+1989123,1989,96,autobus,38.0,West,10,,U-Bhf. Platz der Luftbrücke,"Lichterfelde-Süd, Holtheimer Weg"
+1989124,1989,97,autobus,39.0,West,15,,Brunsbüttler Damm/Nennhauser Damm,Kraftwerk Oberhavel
+1989125,1989,98,autobus,,West,60,,U-Bhf. Tegel,Stolpe (DDR)
+1989126,1989,99,autobus,,West,30,,S-Bhf. Wannsee,Drewitz (DDR)
+1989127,1989,S-Bhf. Rahnsdorf <> Woltersdorfer Schleuse,straßenbahn,20.0,ost,20,,S-Bhf. Rahnsdorf,Woltersdorfer Schleuse
+1989128,1989,83E,straßenbahn,24.0,Ost,15,,Hirtestrasse,Wendenschloß
+1989129,1989,1,u-bahn,31.0,west,3,,Schlesisches Tor,Ruhleben
+1989130,1989,2,u-bahn,20.0,west,5,,Wittenbergplatz,Krumme Lanke
+1989131,1989,3,u-bahn,2.0,west,10,,Wittenbergplatz,Uhlandstr
+1989132,1989,4,u-bahn,6.0,west,5,,Nollendorfplatz,Innsbrucker Platz
+1989133,1989,6,u-bahn,37.0,west,3,,Tegel,Alt-Mariendorf
+1989134,1989,7,u-bahn,56.0,west,12,,Rathaus Spandau,Rudow
+1989135,1989,8,u-bahn,27.0,west,5,,Paracelsus-Bad,Leinestrasse
+1989136,1989,9,u-bahn,22.0,west,3,,Osloer Strasse,Rathaus Steglitz
+1989137,1989,1,s-bahn,30.0,west,10,,Anhalter Bahnhof,Wannsee
+1989138,1989,2,s-bahn,53.0,west,10,,Frohnau,Lichtenrade
+1989139,1989,3,s-bahn,29.0,west,10,,Friedrichstrasse,Wannsee
+1989140,1989,100,s-bahn,66.0,ost,20,,Friedrichstrasse,Strausberg Nord
+1989141,1989,101,s-bahn,29.0,ost,20,,Alexanderplatz,Wartenberg
+1989142,1989,102,s-bahn,31.0,ost,20,,Alexanderplatz,Ahrensfelde
+1989143,1989,105,s-bahn,37.0,ost,10,,Hauptbahnhof,Erkner
+1989144,1989,110,s-bahn,51.0,ost,20,,Friedrichstrasse,Königs Wusterhausen
+1989145,1989,115,s-bahn,40.0,ost,20,,Friedrichstrasse,Flughafen Berlin-Schönefeld
+1989146,1989,140,s-bahn,83.0,ost,20,,Oranienburg,Flughafen Berlin-Schönefeld
+1989147,1989,141,s-bahn,73.0,ost,20,,Bernau,Grünau
+1989148,1989,141,s-bahn,38.0,ost,20,,Pankow,Grünau
+1989149,1989,142,s-bahn,42.0,ost,20,,Blankenburg,Spindlersfeld
+1989150,1989,143,s-bahn,50.0,ost,20,,Buch,Spindlersfeld
+1989151,1989,143,s-bahn,33.0,ost,20,,Buch,Warschauerstrasse
+1989152,1989,A,u-bahn,19.0,ost,2,,Pankow (Vinetastrasse),Otto-Grotewohl-Strasse
+1989153,1989,E,u-bahn,23.0,ost,6,,Elsterwerdaer Platz,Alexanderplatz
+1989154,1989,8,autobus,36.0,ost,7,,Mahlsdorfer Allee,Bhf. Lichtenberg
+1989155,1989,27,autobus,41.0,ost,10,,S-Bhf. Kaulsdorf,Alt-Müggelheim
+1989156,1989,30,autobus,67.0,ost,7,,Robert-Koch-Platz,Ostbahnhof
+1989157,1989,31,autobus,38.0,ost,20,,"Buch, Hobrechtsfelder Chaussee",Ostseestrasse
+1989158,1989,32,autobus,25.0,ost,6,,Hans-Beimler-Strasse,Otto-Grotewohl-Strasse
+1989159,1989,33,autobus,17.0,ost,20,,Grumbkowstrasse,U-Bhf. Pankow
+1989160,1989,35,autobus,32.0,ost,20,,"Biesdorf-Süd, Köpenicker Strasse",S-Bhf. Nöldnerplatz
+1989161,1989,36,autobus,18.0,ost,10,,S-Bhf. Grünau,"Schönefeld, Dorfstrasse"
+1989162,1989,37,autobus,12.0,ost,30,,S-Bhf. Grünau,Rudower Strasse
+1989163,1989,38,autobus,25.0,ost,60,,S-Bhf. Grünau,Diepensee
+1989164,1989,39,autobus,21.0,ost,20,,"Wartenberg, Siedlung",Degnerstrasse
+1989165,1989,40,autobus,20.0,ost,8,,Robert-Koch-Platz,Ostbahnhof
+1989166,1989,41,autobus,39.0,ost,30,,Neu-Lindenberg,"Ahrensfelde, Lindenberger Strasse"
+1989167,1989,42,autobus,30.0,ost,12,,"Buch, Zepernicker Strasse",Ostseestrasse
+1989168,1989,43,autobus,29.0,ost,10,,S-Bhf. Marzahn,S-Bhf. Nöldnerplatz
+1989169,1989,44,autobus,16.0,ost,60,,"Hönow, Dorf",S-Bhf. Mahlsdorf
+1989170,1989,45,autobus,38.0,ost,12,,"Wilhelmsruh, Schillerstrasse",Schwarzelfenweg
+1989171,1989,47,autobus,38.0,ost,15,,"Treptow, Eichenstrasse",S-Bhf. Oberspree
+1989172,1989,48,autobus,15.0,ost,12,,Marzahner Strasse,S-Bhf. Friedrichsfelde Ost
+1989173,1989,50,autobus,18.0,ost,7,,Rolandstrasse,U-Bhf. Pankow
+1989174,1989,51,autobus,,ost,20,,"Buch, Am Sandhaus","Zepernick, Kirche"
+1989175,1989,52,autobus,14.0,ost,15,,Achtermannstrasse,U-Bhf. Pankow
+1989176,1989,53,autobus,38.0,ost,10,,Degnerstrasse,U-Bhf. Tierpark
+1989177,1989,54,autobus,31.0,ost,10,,S-Bhf. Marzahn,Bhf. Lichtenberg
+1989178,1989,55,autobus,33.0,ost,7,,Fontanestrasse,Piesporter Strasse
+1989179,1989,56,autobus,42.0,ost,12,,Gehringstrasse,S-Bhf. Storkower Strasse
+1989180,1989,57,autobus,31.0,ost,2,,Michelangelostrasse,Scharnhorststrasse
+1989181,1989,59,autobus,15.0,ost,10,,Stadion der Weltjugend,Otto-Grotewohl-Strasse
+1989182,1989,60,autobus,14.0,ost,20,,S-Bhf. Kaulsdorf,S-Bhf. Kaulsdorf
+1989183,1989,61,autobus,31.0,ost,20,,"Schöneiche, Dorfaue",Hessenwinkel
+1989184,1989,62,autobus,13.0,ost,7,,VEB Kombinat Auto Trans,Springbornstrasse
+1989185,1989,65,autobus,26.0,ost,20,,Krüllsstrasse,Oberspree
+1989186,1989,66,autobus,27.0,ost,20,,Krüllsstrasse,Springbornstrasse
+1989187,1989,67,autobus,26.0,ost,20,,S-Bhf. Treptower Park,VEB Kombinat Auto Trans
+1989188,1989,68,autobus,16.0,ost,10,,Kaulsdorfer Strasse,Müggelschlößchenweg
+1989189,1989,78,autobus,32.0,ost,10,,Arkonaplatz,Schumannstrasse
+1989190,1989,91,autobus,30.0,ost,20,,Lindenberger Strasse,S-Bhf. Kaulsdorf
+1989191,1989,92,autobus,19.0,ost,10,,S-Bhf. Marzahn,S-Bhf. Biesdorf
+1989192,1989,93,autobus,4.0,ost,0,,Lindenhof,U-Bhf. Lichtenberg
+1989193,1989,94,autobus,13.0,ost,20,,U-Bhf. Tierpark,U-Bhf. Tierpark
+1989194,1989,95,autobus,33.0,ost,20,,Greifswalder Strasse,S-Bhf. Marzahn
+1989195,1989,96,autobus,29.0,ost,15,,S-Bhf. Nöldnerplatz,S-Bhf. Nöldnerplatz
+1989196,1989,97,autobus,15.0,ost,0,,Rangierbahnhof,Rangierbahnhof
+1989197,1989,98,autobus,7.0,ost,0,,Franz-Stenzer-Strasse,Arbeitsstättengebiet Marzahn
+1989198,1989,99,autobus,39.0,ost,20,,Greifswalder Strasse,S-Bhf. Friedrichsfelde Ost
